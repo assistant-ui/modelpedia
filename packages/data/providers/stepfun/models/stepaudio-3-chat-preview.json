@@ -1,0 +1,18 @@
+{
+  "id": "stepaudio-3-chat-preview",
+  "name": "StepAudio 3 Chat",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "preview",
+  "model_type": "audio",
+  "license": "proprietary",
+  "open_weight": false,
+  "_generated": {
+    "name": "4344f8b6",
+    "status": "127aecde",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

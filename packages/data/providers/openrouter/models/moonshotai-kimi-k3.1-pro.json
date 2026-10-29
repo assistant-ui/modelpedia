@@ -1,0 +1,44 @@
+{
+  "id": "moonshotai/kimi-k3.1-pro",
+  "name": "MoonshotAI: Kimi K3.1 Pro",
+  "created_by": "moonshotai",
+  "source": "official",
+  "family": "kimi-k3.1",
+  "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window.",
+  "release_date": "2026-10-23",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e0286514",
+    "family": "90fce409",
+    "description": "9522b4d8",
+    "release_date": "68185e3b",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "9522b4d8",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "76ce7a5a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

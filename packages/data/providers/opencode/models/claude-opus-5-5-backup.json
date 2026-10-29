@@ -1,0 +1,25 @@
+{
+  "id": "claude-opus-5-5-backup",
+  "name": "claude-opus-5-5-backup",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "46c843f5",
+    "family": "4e4c4b18",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

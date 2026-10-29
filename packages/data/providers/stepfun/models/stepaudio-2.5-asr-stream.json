@@ -1,0 +1,20 @@
+{
+  "id": "stepaudio-2.5-asr-stream",
+  "name": "stepaudio-2.5-asr-stream",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "license": "proprietary",
+  "open_weight": false,
+  "pricing_notes": ["1.2 元／小时 (CNY)"],
+  "_generated": {
+    "name": "245918bc",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "pricing_notes": "3f416ee2"
+  },
+  "last_updated": "2026-10-29"
+}

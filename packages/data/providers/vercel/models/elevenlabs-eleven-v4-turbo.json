@@ -1,0 +1,19 @@
+{
+  "id": "elevenlabs/eleven-v4-turbo",
+  "name": "eleven-v4-turbo",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 20,
+    "output": 0
+  },
+  "_generated": {
+    "name": "7a59c79d",
+    "capabilities": "0fa77dc6",
+    "pricing": "fca5cb8c"
+  },
+  "last_updated": "2026-10-29"
+}

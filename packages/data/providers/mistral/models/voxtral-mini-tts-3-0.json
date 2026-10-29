@@ -4,7 +4,7 @@
   "created_by": "mistral",
   "source": "official",
   "family": "voxtral",
-  "description": "Our state-of-the-art text-to-speech model with zero-shot voice cloning and professional voice cloning. Supports 9 languages, streaming with ~90 ms time-to-first-audio, 5 output formats, 34 emotion tags, and 2 pace tags.",
+  "description": "Our state-of-the-art text-to-speech model with zero-shot voice cloning and professional voice cloning. Supports 35+ languages and 50+ dialects, streaming with ~90 ms time-to-first-audio, 5 output formats, 34 emotion tags, and 2 pace tags.",
   "status": "active",
   "license": "apache-2.0",
   "page_url": "https://docs.mistral.ai/models/voxtral-mini-tts-3-0",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "e8b57571",
     "family": "88a5dabd",
-    "description": "758c78e8",
+    "description": "41325d5f",
     "status": "379ac110",
     "license": "60245731",
     "page_url": "0dfde631",
@@ -32,5 +32,5 @@
     "modalities": "68e53d93",
     "open_weight": "b326b506"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

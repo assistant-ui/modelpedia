@@ -1,358 +1,180 @@
 import {
   assertParsed,
-  envOrNull,
   inferFamily,
   readSources,
   runGenerate,
   upsertWithSnapshot,
+  type ModelEntry,
 } from "./shared.ts";
-import { fetchText, fetchWithRetry } from "./parse.ts";
-
-/**
- * Fetch Perplexity models from:
- * 1. Docs .md endpoint (model list + pricing, embedded as a PRICING literal)
- * 2. Sonar model detail pages (context window, description)
- * 3. /v1/models API (release dates, needs key)
- *
- * Source history: the model list came from /v1/models, which now answers 401
- * without a key. The docs page carries the same catalog plus rates in an
- * `export const PRICING` literal that the pricing widget reads, so the list is
- * derived from there and the API is optional enrichment.
- */
+import { fetchText } from "./parse.ts";
+import { displayNameFromId } from "./provider-fetch-utils.ts";
 
 const sources = readSources("perplexity");
-const API_URL = sources.api as string;
 const DOCS_MD = sources.docs as string;
+const PRICING_MD = new URL(
+  "/docs/getting-started/pricing.md",
+  DOCS_MD,
+).toString();
+const SONAR_MD = new URL(
+  "/docs/agent-api/migrate-from-sonar/overview.md",
+  DOCS_MD,
+).toString();
 
-const PROVIDER_MAP: Record<string, string> = {
-  openai: "openai",
-  anthropic: "anthropic",
-  google: "google",
-  nvidia: "nvidia",
-  "x-ai": "xai",
-  xai: "xai",
-  perplexity: "perplexity",
-  "z-ai": "zai",
-  zai: "zai",
-  moonshotai: "moonshot",
-  moonshot: "moonshot",
-};
-
-/**
- * Perplexity re-hosts third-party models under its own namespace
- * (`perplexity/glm-5.2`), so the id prefix names the host, not the creator.
- * The PRICING literal's `group` is the only place the real creator appears.
- */
 const GROUP_MAP: Record<string, string> = {
-  perplexity: "perplexity",
-  anthropic: "anthropic",
-  openai: "openai",
-  google: "google",
-  xai: "xai",
   "z.ai": "zai",
+  deepseek: "deepseek",
   "moonshot ai": "moonshot",
   nvidia: "nvidia",
+  perplexity: "perplexity",
 };
 
-/**
- * A rate cell in the PRICING literal. Most are plain numbers, but a model with
- * tiered pricing carries a `{low, high}` band and a cache rate can be a formula
- * string like "inputx0.1". Typing these as numbers wrote both straight through
- * and broke the generated data's types.
- */
-type Rate = number | { low: number; high: number } | string;
-
-/** One entry of the PRICING literal the docs pricing widget reads. */
-interface EmbeddedModel {
-  group: string | null;
-  id: string;
-  input?: Rate;
-  output?: Rate;
-  cache?: Rate;
+function amount(cell: string): number | undefined {
+  const match = cell.match(/^\\?\$?\s*([\d.]+)/);
+  return match ? Number(match[1]) : undefined;
 }
 
-function isBand(v: Rate | undefined): v is { low: number; high: number } {
-  return (
-    typeof v === "object" &&
-    v !== null &&
-    typeof v.low === "number" &&
-    typeof v.high === "number"
-  );
-}
-
-/** Headline rate: the number itself, or the bottom of a tiered band. */
-function baseRate(v: Rate | undefined): number | undefined {
-  if (typeof v === "number") return v;
-  if (isBand(v)) return v.low;
-  return undefined;
-}
-
-/** Cache rates are sometimes expressed as a multiple of the input rate. */
-function cacheRate(v: Rate | undefined, input?: number): number | undefined {
-  const direct = baseRate(v);
-  if (direct != null) return direct;
-  const factor =
-    typeof v === "string" ? v.match(/^input\s*x\s*([\d.]+)$/i) : null;
-  if (!factor || input == null) return undefined;
-  return Math.round(input * Number(factor[1]) * 1e6) / 1e6;
-}
-
-/**
- * Pull the catalog out of `export const PRICING = { ... "models": [ ... ] }`.
- * The page carries more than one `models` array; only the grouped one is the
- * Agent API catalog, the other holds Sonar presets.
- */
-function parseEmbeddedModels(md: string): EmbeddedModel[] {
-  for (const m of md.matchAll(/"models":\s*\[/g)) {
-    const start = md.indexOf("[", m.index);
-    let depth = 0;
-    let end = start;
-    for (; end < md.length; end++) {
-      if (md[end] === "[") depth++;
-      else if (md[end] === "]" && --depth === 0) break;
-    }
-    try {
-      const arr = JSON.parse(md.slice(start, end + 1)) as EmbeddedModel[];
-      if (arr.length > 0 && arr.every((e) => e.group && e.id)) return arr;
-    } catch {
-      // not the array we want
-    }
+function modelName(id: string, docsCell: string | undefined): string {
+  const label = docsCell?.match(/^\[([^\]]+)\]\([^)]+\)$/)?.[1];
+  const words = (text: string) => text.toLowerCase().match(/[a-z]+|\d+/g) ?? [];
+  const variant = id.split("/").pop() ?? id;
+  if (label && words(label).join("|") === words(variant).join("|")) {
+    return label;
   }
-  return [];
+  return displayNameFromId(id);
 }
 
-interface PPLXModel {
-  id: string;
-  object: string;
-  created: number;
-  owned_by: string;
-}
-
-interface DocsPricing {
-  input: number;
-  output: number;
-  cached_input?: number;
-}
-
-function extractCreatedBy(id: string): string {
-  const slash = id.indexOf("/");
-  if (slash === -1) return "perplexity";
-  const prefix = id.slice(0, slash);
-  return PROVIDER_MAP[prefix] ?? prefix;
-}
-
-function parseDollar(s: string): number | undefined {
-  const m = s.match(/\$([\d.]+)/);
-  return m ? Number(m[1]) : undefined;
-}
-
-// ── Parse docs markdown for pricing ──
-
-function parseDocsPricing(md: string): Map<string, DocsPricing> {
-  const pricing = new Map<string, DocsPricing>();
+function parseAgentModels(md: string): ModelEntry[] {
+  const models: ModelEntry[] = [];
+  let group = "";
 
   for (const line of md.split("\n")) {
-    if (!line.startsWith("|")) continue;
-    if (!line.includes("`")) continue;
+    const heading = line.match(/^\*\*([^*]+)\*\*$/);
+    if (heading) group = heading[1].toLowerCase();
 
-    // Extract model ID from backticks: `perplexity/sonar`
-    const idMatch = line.match(/`([^`]+)`/);
-    if (!idMatch) continue;
-    const id = idMatch[1];
-
-    const cells = line.split("|").map((c) => c.trim());
-    // cells: ["", model, input, output, cache, docs, ""]
-    if (cells.length < 5) continue;
-
-    const input = parseDollar(cells[2]);
-    const output = parseDollar(cells[3]);
+    const id = line.match(/^\|\s*`([^`]+)`\s*\|/)?.[1];
+    if (!id) continue;
+    const cells = line.split("|").map((cell) => cell.trim());
+    const input = amount(cells[2]);
+    const output = amount(cells[3]);
     if (input == null || output == null) continue;
 
-    const cached = cells[4]?.includes("discount")
-      ? undefined
-      : parseDollar(cells[4]);
+    const discount = cells[4].match(/^(\d+(?:\.\d+)?)% off input/i);
+    const cached = discount
+      ? Math.round(input * (1 - Number(discount[1]) / 100) * 1e6) / 1e6
+      : amount(cells[4]);
+    const name = modelName(id, cells[6]);
+    const prefix = id.split("/")[0];
+    const tiered = [
+      ["Input", cells[2]],
+      ["Output", cells[3]],
+    ]
+      .filter(([, cell]) => /\)\s+\d/.test(cell))
+      .map(([label, cell]) => `${label}: ${cell}`);
 
-    pricing.set(id, { input, output, cached_input: cached });
-  }
-
-  return pricing;
-}
-
-// ── Main ──
-
-async function main() {
-  console.log("Fetching Perplexity models...");
-
-  const docsMd = await fetchText(DOCS_MD);
-
-  const embedded = parseEmbeddedModels(docsMd);
-  const creators = new Map<string, string>();
-  for (const e of embedded) {
-    const creator = GROUP_MAP[(e.group ?? "").toLowerCase()];
-    if (creator) creators.set(e.id, creator);
-  }
-
-  const docsPricing = parseDocsPricing(docsMd);
-  const bands = new Map<string, string[]>();
-  for (const e of embedded) {
-    if (docsPricing.has(e.id)) continue;
-    const input = baseRate(e.input);
-    const output = baseRate(e.output);
-    if (input == null || output == null) continue;
-
-    const cached = cacheRate(e.cache, input);
-    docsPricing.set(e.id, {
-      input,
-      output,
-      ...(cached != null ? { cached_input: cached } : {}),
-    });
-
-    // A tiered model's headline is the low end; keep the range visible.
-    const notes = [
-      isBand(e.input)
-        ? `Input ranges $${e.input.low} to $${e.input.high}`
-        : null,
-      isBand(e.output)
-        ? `output ranges $${e.output.low} to $${e.output.high}`
-        : null,
-    ].filter((n): n is string => n != null);
-    if (notes.length > 0) {
-      bands.set(e.id, [`${notes.join(", ")} per 1M tokens.`]);
-    }
-  }
-
-  console.log(
-    `Found ${embedded.length} models from docs, ${docsPricing.size} with pricing`,
-  );
-  assertParsed(docsPricing.size, "perplexity");
-
-  // Optional: the API adds release dates but answers 401 without a key.
-  let apiModels: PPLXModel[] = [];
-  const apiKey = envOrNull("PERPLEXITY_API_KEY", "PPLX_API_KEY");
-  if (apiKey) {
-    const res = await fetchWithRetry(API_URL, {
-      headers: { Authorization: `Bearer ${apiKey}` },
-    });
-    if (res.ok) {
-      apiModels = ((await res.json()) as { data?: PPLXModel[] }).data ?? [];
-      console.log(`Found ${apiModels.length} models from API`);
-    }
-  }
-  const apiRes = { data: apiModels };
-
-  let written = 0;
-  for (const m of apiRes.data) {
-    const releaseDate =
-      m.created > 1577836800
-        ? new Date(m.created * 1000).toISOString().split("T")[0]
-        : undefined;
-    const isSearch = m.id.includes("search") || m.id.includes("sonar");
-    const p = docsPricing.get(m.id);
-
-    written += upsertWithSnapshot("perplexity", {
-      id: m.id,
-      name: m.id,
-      created_by: creators.get(m.id) ?? extractCreatedBy(m.id),
-      family: inferFamily(m.id),
-      license: "proprietary",
-      release_date: releaseDate,
-      capabilities: {
-        streaming: true,
-        ...(isSearch ? { tool_call: true } : {}),
-      },
-      ...(p
-        ? {
-            pricing: {
-              input: p.input,
-              output: p.output,
-              ...(p.cached_input != null
-                ? { cached_input: p.cached_input }
-                : {}),
-            },
-          }
-        : {}),
-    });
-  }
-
-  // Also write docs-only models not in API
-  for (const [id, p] of docsPricing) {
-    const alreadyWritten = apiRes.data.some((m) => m.id === id);
-    if (alreadyWritten) continue;
-
-    written += upsertWithSnapshot("perplexity", {
+    models.push({
       id,
-      name: id,
-      created_by: creators.get(id) ?? extractCreatedBy(id),
+      name,
+      created_by:
+        prefix === "perplexity" ? (GROUP_MAP[group] ?? prefix) : prefix,
       family: inferFamily(id),
       license: "proprietary",
       capabilities: { streaming: true },
       pricing: {
-        input: p.input,
-        output: p.output,
-        ...(p.cached_input != null ? { cached_input: p.cached_input } : {}),
+        input,
+        output,
+        ...(cached != null ? { cached_input: cached } : {}),
       },
-      ...(bands.has(id) ? { pricing_notes: bands.get(id) } : {}),
+      ...(tiered.length > 0
+        ? { pricing_notes: [`${tiered.join("; ")} per 1M tokens.`] }
+        : {}),
     });
   }
 
-  // Fetch Sonar models from detail pages
-  const sonarPages = sources.sonar as string[];
+  return models;
+}
 
-  for (const url of sonarPages) {
-    try {
-      const res = await fetchWithRetry(url);
-      if (!res.ok) continue;
-      const md = await res.text();
+function parseOtherModels(md: string): ModelEntry[] {
+  const models: ModelEntry[] = [];
 
-      const id =
-        md.match(/"model":\s*"(sonar[\w.-]*)"/)?.[1] ??
-        url.split("/").pop()?.replace(".md", "");
-      if (!id) continue;
+  for (const line of md.split("\n")) {
+    const id = line.match(/^\|\s*`([^`]+)`\s*\|/)?.[1];
+    if (!id) continue;
+    const cells = line.split("|").map((cell) => cell.trim());
+    const embed = id.startsWith("pplx-embed-");
+    const decider = id.startsWith("pplx-decider-");
+    if (!embed && !decider) continue;
+    const input = amount(cells[embed ? 3 : 2]);
+    if (input == null) continue;
 
-      // Pricing: \$X ... Per 1M Tokens
-      const prices = [
-        ...md.matchAll(/\\?\$([\d.]+)[\s\S]*?Per 1M Tokens/g),
-      ].map((m) => Number(m[1]));
+    models.push({
+      id,
+      name: id,
+      created_by: "perplexity",
+      family: inferFamily(id),
+      license: "proprietary",
+      model_type: embed ? "embed" : "other",
+      pricing: { input },
+    });
+  }
 
-      // Context window: "<h3 ...>128K context length</h3>"
-      const ctxMatch = md.match(/(\d+)K\s+context\s+length/i);
-      const contextWindow = ctxMatch ? Number(ctxMatch[1]) * 1000 : undefined;
+  return models;
+}
 
-      // Description: inside <p className="text-lg text-foreground leading-relaxed">...</p>
-      const descMatch = md.match(
-        /<p\s+className="text-lg[^"]*">\s*\n?\s*(.+?)\s*\n?\s*<\/p>/,
-      );
-      const description = descMatch ? descMatch[1].trim() : undefined;
+function parseSonar(md: string): ModelEntry[] {
+  const ids = new Set(
+    [...md.matchAll(/\bmodel\s*[=:]\s*["'](sonar[\w.-]*)["']/g)].map(
+      (match) => match[1],
+    ),
+  );
+  return [...ids].map((id) => ({
+    id,
+    name: id,
+    created_by: "perplexity",
+    family: "sonar",
+    license: "proprietary",
+    capabilities: { streaming: true, tool_call: true },
+  }));
+}
 
-      // Tagline: inside <p className="text-sm text-muted-foreground">...</p> after the h1
-      const taglineMatch = md.match(
-        /<h1[^>]*>.*?<\/h1>\s*\n\s*<p\s+className="text-sm text-muted-foreground">(.+?)<\/p>/,
-      );
-      const tagline = taglineMatch ? taglineMatch[1].trim() : undefined;
+async function main() {
+  console.log("Fetching Perplexity models...");
 
-      const pageUrl = url.replace(/\.md$/, "");
-      const entry = {
-        id,
-        name: id,
-        created_by: "perplexity",
-        family: "sonar",
-        license: "proprietary",
-        page_url: pageUrl,
-        ...(description ? { description } : {}),
-        ...(tagline ? { tagline } : {}),
-        ...(contextWindow ? { context_window: contextWindow } : {}),
-        capabilities: {
-          streaming: true,
-          tool_call: true,
-          ...(id.includes("reasoning") ? { reasoning: true } : {}),
-        },
-        ...(prices.length >= 2
-          ? { pricing: { input: prices[0], output: prices[1] } }
-          : {}),
-      };
+  const [agentMd, pricingMd, sonarMd] = await Promise.all([
+    fetchText(DOCS_MD),
+    fetchText(PRICING_MD),
+    fetchText(SONAR_MD),
+  ]);
+  const models = [
+    ...parseAgentModels(agentMd),
+    ...parseOtherModels(pricingMd),
+    ...parseSonar(sonarMd),
+  ];
+  const unique = new Map(models.map((model) => [model.id, model]));
+  console.log(`Found ${unique.size} models from docs`);
+  assertParsed(unique.size, "perplexity");
 
-      written += upsertWithSnapshot("perplexity", entry);
-    } catch {}
+  const names = new Map<string, ModelEntry[]>();
+  for (const model of unique.values()) {
+    const key = model.name.toLowerCase();
+    const matches = names.get(key) ?? [];
+    matches.push(model);
+    names.set(key, matches);
+  }
+  for (const matches of names.values()) {
+    if (matches.length > 1) {
+      for (const model of matches) model.name = model.id;
+    }
+  }
+  const uniqueNames = new Set(
+    [...unique.values()].map((model) => model.name.toLowerCase()),
+  );
+  if (uniqueNames.size !== unique.size) {
+    throw new Error("Perplexity model names are not unique");
+  }
+
+  let written = 0;
+  for (const model of unique.values()) {
+    written += upsertWithSnapshot("perplexity", model);
   }
 
   console.log(`Wrote ${written} models`);

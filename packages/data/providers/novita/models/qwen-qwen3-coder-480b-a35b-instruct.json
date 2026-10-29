@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model from Qwen, matching Claude Sonnet’s performance in agentic programming, browser automation, and core development tasks.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-23",
   "context_window": 262144,
   "max_output_tokens": 65536,
@@ -33,7 +33,7 @@
     "name": "ce5d7e18",
     "family": "48c385a0",
     "description": "dd68b1ce",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "bfbd7cfc",
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
@@ -47,5 +47,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-29"
 }

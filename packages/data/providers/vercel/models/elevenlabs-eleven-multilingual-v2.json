@@ -1,0 +1,19 @@
+{
+  "id": "elevenlabs/eleven-multilingual-v2",
+  "name": "eleven-multilingual-v2",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 40,
+    "output": 0
+  },
+  "_generated": {
+    "name": "ad82ba7b",
+    "capabilities": "0fa77dc6",
+    "pricing": "461975bc"
+  },
+  "last_updated": "2026-10-29"
+}

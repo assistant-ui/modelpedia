@@ -1,7 +1,7 @@
 {
   "id": "deepseek-v4-pro",
   "name": "DeepSeek V4 Pro",
-  "created_by": "unknown",
+  "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
   "status": "active",
@@ -27,5 +27,5 @@
     "pricing": "6f58cfc0",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-10-29"
 }

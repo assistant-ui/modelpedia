@@ -3,9 +3,9 @@
   "name": "gpt-4.1-mini-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -45,17 +45,6 @@
             "values": [5, 0.4, 0.1, 1.6]
           }
         ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.4, 0.1, 1.6]
-          }
-        ]
       }
     ],
     "input": 0.4,
@@ -74,7 +63,7 @@
   "_generated": {
     "name": "522d20e4",
     "family": "d240daf4",
-    "description": "e947ced7",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -85,7 +74,7 @@
     "tagline": "18a22d24",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "d21f2048",
+    "pricing": "6173c4da",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",

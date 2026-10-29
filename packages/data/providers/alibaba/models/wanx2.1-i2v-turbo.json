@@ -1,0 +1,29 @@
+{
+  "id": "wanx2.1-i2v-turbo",
+  "name": "wanx2.1-i2v-turbo",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan",
+  "model_type": "video",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wanx2-1-i2v-turbo",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "3a3c7a5f",
+    "family": "2aadc089",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "page_url": "4b195ecf",
+    "capabilities": "0fa77dc6",
+    "modalities": "94e5e9ab",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

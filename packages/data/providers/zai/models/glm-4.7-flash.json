@@ -3,7 +3,7 @@
   "name": "GLM-4.7-Flash",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-10-29",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -31,7 +31,7 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "description": "b51cfad7",
-    "page_url": "7e3aef75",
+    "page_url": "5b393369",
     "tagline": "b51cfad7",
     "pricing": "d7e97780",
     "status": "2e2f74dc"
@@ -42,7 +42,7 @@
   "open_weight": true,
   "tools": ["function_calling"],
   "description": "GLM-4.7-Flash: Lightweight, Completely Free",
-  "page_url": "https://docs.z.ai/guides/llm/glm-4.7",
+  "page_url": "https://docs.z.ai/guides/overview/pricing",
   "tagline": "GLM-4.7-Flash: Lightweight, Completely Free",
   "pricing": {
     "input": 0,

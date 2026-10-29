@@ -38,7 +38,9 @@
     "capabilities": "fa872229",
     "modalities": "6399757e",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-29",
+  "status": "deprecated"
 }

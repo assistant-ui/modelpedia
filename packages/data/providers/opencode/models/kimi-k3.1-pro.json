@@ -1,0 +1,25 @@
+{
+  "id": "kimi-k3.1-pro",
+  "name": "Kimi K3.1 Pro",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3.1",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1515394b",
+    "family": "90fce409",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

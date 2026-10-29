@@ -1,0 +1,29 @@
+{
+  "id": "text-embedding-v1",
+  "name": "text-embedding-v1",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "text-embedding",
+  "model_type": "embed",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-embedding-v1",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "81e1786d",
+    "family": "41411f76",
+    "model_type": "764cb3de",
+    "license": "9186c466",
+    "page_url": "3df78ff1",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

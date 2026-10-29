@@ -23,9 +23,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0,
-    "output": 0,
-    "cached_input": 0
+    "input": 0.1,
+    "output": 0.35,
+    "cached_input": 0.01
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -42,9 +42,9 @@
     "tagline": "13c22f2c",
     "capabilities": "cec66b87",
     "modalities": "68e53d93",
-    "pricing": "d7e97780",
+    "pricing": "c66e7bdd",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-10-29"
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3.6",
   "description": "The Qwen3.6 native vision-language Plus series models demonstrate exceptional performance on par with the current state-of-the-art models, with a significant improvement in overall results compared to the 3.5 series.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-21",
   "context_window": 1000000,
   "max_output_tokens": 65536,
@@ -29,7 +29,7 @@
     "name": "145af090",
     "family": "1bc2d26f",
     "description": "43bb6121",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5029e96d",
     "context_window": "8155bc54",
     "max_output_tokens": "297ce0b3",
@@ -40,5 +40,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-29"
 }

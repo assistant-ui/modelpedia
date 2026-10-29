@@ -1,0 +1,30 @@
+{
+  "id": "image-01-live",
+  "name": "image-01-live",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Generates images from a text prompt and a reference image",
+  "status": "active",
+  "model_type": "image",
+  "tagline": "Generates images from a text prompt and a reference image",
+  "capabilities": {
+    "streaming": false,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "f7a5d077",
+    "family": "c85916f0",
+    "description": "1bdf037d",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "tagline": "1bdf037d",
+    "capabilities": "064e1c4e",
+    "modalities": "bbf9b8bb"
+  },
+  "last_updated": "2026-10-29"
+}

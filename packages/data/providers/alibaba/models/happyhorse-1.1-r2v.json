@@ -1,0 +1,27 @@
+{
+  "id": "happyhorse-1.1-r2v",
+  "name": "happyhorse-1.1-r2v",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-1-1-r2v",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "78cc53b9",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "28e92179",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

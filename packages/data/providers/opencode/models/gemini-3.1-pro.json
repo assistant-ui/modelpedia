@@ -3,7 +3,7 @@
   "name": "Gemini 3.1 Pro",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-10-29",
   "family": "gemini-3.1",
   "status": "active",
   "capabilities": {
@@ -15,11 +15,34 @@
     "status": "379ac110",
     "capabilities": "0fa77dc6",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "289a8fc9"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 12,
+    "cached_input": 0.2,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 200K tokens",
+            "values": [2, 12, 0.2, null]
+          },
+          {
+            "label": "> 200K tokens",
+            "values": [4, 18, 0.4, null]
+          }
+        ]
+      }
+    ]
   }
 }

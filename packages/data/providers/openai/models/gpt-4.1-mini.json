@@ -3,9 +3,9 @@
   "name": "GPT-4.1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a 1M token context window, and low latency without a reasoning step.",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -36,17 +36,6 @@
     "batch_output": 0.8,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.4, 0.1, 1.6]
-          }
-        ]
-      },
-      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -67,6 +56,7 @@
     "function_calling",
     "web_search",
     "file_search",
+    "image_generation",
     "code_interpreter",
     "mcp"
   ],
@@ -81,7 +71,7 @@
   "_generated": {
     "name": "ce38e8c3",
     "family": "d240daf4",
-    "description": "2703c2e1",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -92,22 +82,22 @@
     "tagline": "f24e776e",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "230ffce0",
-    "tools": "907918a7",
+    "pricing": "3d765412",
+    "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "page_url": "6c7364d0",
     "open_weight": "68934a3e",
     "release_date": "85c7118a",
-    "deprecation_date": "b735ec37",
     "retirement_date": "b3b7551d",
+    "deprecation_date": "b735ec37",
     "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
   "open_weight": false,
   "release_date": "2025-04-14",
-  "deprecation_date": "2026-10-14",
   "retirement_date": "2027-01-14",
+  "deprecation_date": "2026-10-14",
   "successor": "gpt-6-luna"
 }

@@ -3,14 +3,14 @@
   "name": "Hornet",
   "created_by": "andrewstaab",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/andrewstaab/hornet",
   "_generated": {
     "name": "3fc09562",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "ada537d2"
   },
-  "last_updated": "2026-10-04"
+  "last_updated": "2026-10-29"
 }

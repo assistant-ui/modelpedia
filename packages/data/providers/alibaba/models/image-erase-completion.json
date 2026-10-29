@@ -1,0 +1,27 @@
+{
+  "id": "image-erase-completion",
+  "name": "image-erase-completion",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-erase-completion",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "e80f066d",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "ae2e8a7c",
+    "capabilities": "0fa77dc6",
+    "modalities": "6399757e",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

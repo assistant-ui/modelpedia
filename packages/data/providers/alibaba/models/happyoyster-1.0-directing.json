@@ -1,0 +1,27 @@
+{
+  "id": "happyoyster-1.0-directing",
+  "name": "happyoyster-1.0-directing",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/happyoyster-1-0-directing",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "3679d490",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "1257f5d5",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

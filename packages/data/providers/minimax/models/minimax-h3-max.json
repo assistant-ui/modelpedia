@@ -1,0 +1,35 @@
+{
+  "id": "minimax-h3-max",
+  "name": "MiniMax-H3-Max",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "High-speed video model post-trained on MiniMax H3, optimized for high-speed generation. Supports text-to-video and image-to-video (first / last frame), with 480P / 768P output and videos from 5 to 15 seconds",
+  "status": "active",
+  "model_type": "video",
+  "tagline": "High-speed video model post-trained on MiniMax H3, optimized for high-speed generation.",
+  "capabilities": {
+    "streaming": false,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["video"]
+  },
+  "pricing": {
+    "input": null,
+    "output": null
+  },
+  "_generated": {
+    "name": "656bd93f",
+    "family": "c85916f0",
+    "description": "771e9522",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "tagline": "3a3d305c",
+    "capabilities": "064e1c4e",
+    "modalities": "0529c56f",
+    "pricing": "4ca5d833"
+  },
+  "last_updated": "2026-10-29"
+}

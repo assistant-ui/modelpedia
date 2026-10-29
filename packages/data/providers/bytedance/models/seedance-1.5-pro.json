@@ -3,10 +3,10 @@
   "name": "Seedance 1.5 pro",
   "created_by": "bytedance",
   "source": "official",
-  "description": "A joint audio-video model that accurately follows complex instructions.",
+  "description": "Unlock a new audio-visual experience.",
   "status": "active",
   "model_type": "video",
-  "page_url": "https://seed.bytedance.com/en/seedance1_5_pro",
+  "page_url": "https://seed.bytedance.com/en/blog/sound-and-vision-all-in-one-take-the-official-release-of-seedance-1-5-pro",
   "tagline": "A joint audio-video model that accurately follows complex instructions.",
   "modalities": {
     "input": ["text", "audio"],
@@ -15,13 +15,13 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "965fbc9b",
-    "description": "ff830feb",
+    "description": "29a6d032",
     "status": "379ac110",
     "model_type": "4d1b75ca",
-    "page_url": "f9e77573",
+    "page_url": "1303cbe9",
     "tagline": "ff830feb",
     "modalities": "135102b7",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

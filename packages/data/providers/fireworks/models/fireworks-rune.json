@@ -9,16 +9,16 @@
     "streaming": true
   },
   "pricing": {
-    "input": 1,
+    "input": 0.042,
     "output": 1,
-    "cached_input": 1
+    "cached_input": 0.008
   },
   "_generated": {
     "name": "f433a66f",
     "context_window": "4ed74017",
     "page_url": "66706eea",
     "capabilities": "0fa77dc6",
-    "pricing": "cb03f68e"
+    "pricing": "5d086aa9"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

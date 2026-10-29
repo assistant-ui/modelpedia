@@ -1,0 +1,30 @@
+{
+  "id": "qwen-mt-image-2.0",
+  "name": "qwen-mt-image-2.0",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-image-2-0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "465a8b3f",
+    "family": "a3af76f3",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "8d2ba04f",
+    "capabilities": "9c665f5d",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

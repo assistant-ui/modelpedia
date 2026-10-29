@@ -1,7 +1,7 @@
 {
   "id": "mistral-large-4",
   "name": "Mistral Large 4",
-  "created_by": "unknown",
+  "created_by": "mistral",
   "source": "official",
   "family": "mistral-large",
   "status": "active",
@@ -19,7 +19,13 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "2b6c2cb2"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-29",
+  "pricing": {
+    "input": 0.68,
+    "output": 2.09,
+    "cached_input": 0.07
+  }
 }

@@ -17,7 +17,9 @@
     "family": "9f217d9a",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-10-29",
+  "status": "deprecated"
 }

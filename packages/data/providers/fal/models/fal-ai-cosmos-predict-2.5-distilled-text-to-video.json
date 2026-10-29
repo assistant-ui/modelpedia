@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate video from text and videos using NVIDIA's 2B Cosmos Distilled Model",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-02-24",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/cosmos-predict-2.5/distilled/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "6589db64",
     "description": "b60da12b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "2ad07f55",
     "model_type": "4d1b75ca",
     "page_url": "a1e84a83",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

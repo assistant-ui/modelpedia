@@ -1,10 +1,31 @@
 {
-  "date": "2026-09-20",
-  "count": 4,
+  "date": "2026-10-29",
+  "count": 25,
   "ids": [
     "step-1o-audio",
     "step-1o-turbo-vision",
+    "step-3.5-flash",
+    "step-3.5-flash-2603",
     "step-3.7-flash",
-    "step-5-preview"
+    "step-5-preview",
+    "step-asr",
+    "step-asr-1.1",
+    "step-asr-1.1-stream",
+    "step-audio-2",
+    "step-audio-r1.5",
+    "step-tts-2",
+    "step-tts-mini",
+    "stepaudio-2-asr-pro",
+    "stepaudio-2.5-asr",
+    "stepaudio-2.5-asr-stream",
+    "stepaudio-2.5-chat",
+    "stepaudio-2.5-realtime",
+    "stepaudio-2.5-tts",
+    "stepaudio-3-asr-max",
+    "stepaudio-3-chat-preview",
+    "stepaudio-3-gen-preview",
+    "stepaudio-3-music-preview",
+    "stepaudio-3-realtime-preview",
+    "stepaudio-3-tts"
   ]
 }

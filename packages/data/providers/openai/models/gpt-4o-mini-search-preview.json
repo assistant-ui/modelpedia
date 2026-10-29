@@ -3,9 +3,9 @@
   "name": "GPT-4o Mini Search Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
-  "description": "GPT-4o Mini Search Preview is a specialized model trained to understand and execute web search queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the pricing page.",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -48,7 +48,7 @@
   "_generated": {
     "name": "3cc79c61",
     "family": "15249632",
-    "description": "44383fcb",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -65,8 +65,8 @@
     "page_url": "a5ac572c",
     "open_weight": "68934a3e",
     "release_date": "53813ccd",
-    "deprecation_date": "c48b287d",
     "retirement_date": "26fc75d3",
+    "deprecation_date": "c48b287d",
     "successor": "d5215155"
   },
   "model_type": "chat",
@@ -74,7 +74,7 @@
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
   "open_weight": false,
   "release_date": "2025-03-11",
-  "deprecation_date": "2026-04-22",
   "retirement_date": "2026-07-23",
+  "deprecation_date": "2026-04-22",
   "successor": "gpt-5.6-terra"
 }

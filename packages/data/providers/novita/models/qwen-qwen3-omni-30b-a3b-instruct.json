@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "The Qwen-Omni model accepts combined inputs of text and a single additional modality (image, audio, or video) to generate responses in text or speech.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-09-24",
   "context_window": 65536,
   "max_output_tokens": 16384,
@@ -30,7 +30,7 @@
     "name": "49d9a304",
     "family": "48c385a0",
     "description": "6836a6e3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "7f76cd1e",
     "context_window": "297ce0b3",
     "max_output_tokens": "c76fe1d8",
@@ -44,7 +44,7 @@
     "tools": "f0c1dc7e",
     "pricing": "285fd572"
   },
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-10-29",
   "pricing": {
     "input": 0.25,
     "output": 0.97

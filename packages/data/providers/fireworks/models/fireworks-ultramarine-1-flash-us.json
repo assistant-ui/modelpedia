@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/ultramarine-1-flash-us",
+  "name": "ultramarine-1-flash-us",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/ultramarine-1-flash-us",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.225,
+    "output": 0.75,
+    "cached_input": 0.045
+  },
+  "_generated": {
+    "name": "edbd6d53",
+    "context_window": "1bf8ad8b",
+    "page_url": "d60cf10c",
+    "capabilities": "0fa77dc6",
+    "pricing": "f2b3e4da"
+  },
+  "last_updated": "2026-10-29"
+}

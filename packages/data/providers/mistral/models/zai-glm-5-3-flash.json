@@ -1,0 +1,29 @@
+{
+  "id": "zai-glm-5-3-flash",
+  "name": "zai-glm-5-3-flash",
+  "created_by": "zai",
+  "source": "official",
+  "status": "active",
+  "context_window": 1000000,
+  "page_url": "https://docs.mistral.ai/models/zai-glm-5-3-flash",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1a0465f6",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "page_url": "e58aa55b",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

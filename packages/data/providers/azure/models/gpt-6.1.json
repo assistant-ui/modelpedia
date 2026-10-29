@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-6.1",
-  "description": "NEW gpt-6.1-sol",
+  "description": "NEW gpt-6.1-sol , NEW gpt-6.1-terra",
   "model_type": "chat",
   "tagline": "NEW gpt-6.1-sol",
   "capabilities": {
@@ -17,11 +17,11 @@
   "_generated": {
     "name": "5f36e4ea",
     "family": "d6597770",
-    "description": "40eb103b",
+    "description": "2af7290b",
     "model_type": "d669f408",
     "tagline": "40eb103b",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-09-30"
+  "last_updated": "2026-10-29"
 }

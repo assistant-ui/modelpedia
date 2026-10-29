@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate short video clips from your images using SVD v1.1",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-09-16",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/stable-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "a8a5b288",
     "description": "b4a03be0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "aec2dc94",
     "model_type": "4d1b75ca",
     "page_url": "b4a0d2ed",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

@@ -3,28 +3,28 @@
   "name": "wan2.2-animate-move",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "model_type": "video",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
     "input": ["text"],
-    "output": ["text"]
+    "output": ["video"]
   },
   "endpoints": ["chat"],
   "_generated": {
     "name": "37b5e5ea",
     "model_type": "4d1b75ca",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93",
+    "modalities": "94e5e9ab",
     "endpoints": "75df3f1c",
     "family": "222d75c9",
     "license": "9186c466",
     "provider": "a3af76f3",
     "description": "5d40864f",
     "tagline": "38dcdbfe",
-    "page_url": "23162829",
+    "page_url": "42e2d3c8",
     "open_weight": "68934a3e",
     "status": "2e2f74dc"
   },
@@ -33,7 +33,7 @@
   "provider": "qwen",
   "description": "Offers standard and professional service modes. Uses a portrait image and reference video to transfer the video subject's actions and expressions to the portrait image, generating a dynamic action video. [API reference](https://www.alibabacloud.com/help/en/document_detail/2981852.html) ## International If you select the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are restricted to the Chinese mainland. Static data is stored in your selected region. Supported region: China (Beijing).",
   "tagline": "This service offers Standard and Professional modes.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-animate-move",
   "open_weight": false,
   "status": "deprecated"
 }

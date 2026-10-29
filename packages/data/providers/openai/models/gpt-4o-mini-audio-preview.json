@@ -3,9 +3,9 @@
   "name": "GPT-4o Mini Audio",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
-  "description": "This is a preview release of the smaller GPT-4o Audio Mini model. It's designed to input audio or create audio outputs via the REST API.",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -61,7 +61,7 @@
   "_generated": {
     "name": "da00d441",
     "family": "15249632",
-    "description": "8d90eb2d",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -79,15 +79,15 @@
     "page_url": "f41a57da",
     "open_weight": "68934a3e",
     "release_date": "4a83ff32",
-    "deprecation_date": "792c58a8",
-    "retirement_date": "d465a48a",
-    "successor": "d79ec081"
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "a649f503"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
   "open_weight": false,
   "release_date": "2024-12-17",
-  "deprecation_date": "2025-09-15",
-  "retirement_date": "2026-05-07",
-  "successor": "gpt-audio-mini"
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-audio-1.5"
 }

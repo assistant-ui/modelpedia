@@ -1,0 +1,40 @@
+{
+  "id": "deepseek-flash-2026-09-10",
+  "name": "DeepSeek V4.1-Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-chat",
+  "status": "deprecated",
+  "release_date": "2026-09-10",
+  "deprecation_date": "2026-10-17",
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "mit",
+  "alias": "deepseek-flash",
+  "successor": "deepseek-flash-2026-10-17",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "3de69bb1",
+    "family": "fbd79fd9",
+    "status": "2e2f74dc",
+    "release_date": "b057cbf8",
+    "deprecation_date": "149591c4",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "3c4c3ba5",
+    "successor": "3b64d481",
+    "capabilities": "034b2f91",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

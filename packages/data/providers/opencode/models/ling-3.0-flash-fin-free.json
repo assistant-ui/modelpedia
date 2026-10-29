@@ -3,14 +3,14 @@
   "name": "Ling 3.0 Flash Fin Free",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "fb661782",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-10-29"
 }

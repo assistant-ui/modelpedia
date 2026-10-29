@@ -1,0 +1,20 @@
+{
+  "id": "stepaudio-3-tts",
+  "name": "StepAudio 3 TTS",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "active",
+  "model_type": "tts",
+  "license": "proprietary",
+  "open_weight": false,
+  "pricing_notes": ["2.5 元／万字符 (CNY)"],
+  "_generated": {
+    "name": "30a8a980",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "pricing_notes": "8e8f95dd"
+  },
+  "last_updated": "2026-10-29"
+}

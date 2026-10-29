@@ -1,0 +1,20 @@
+{
+  "id": "pplx-embed-context-v1-0.6b",
+  "name": "pplx-embed-context-v1-0.6b",
+  "created_by": "perplexity",
+  "source": "official",
+  "model_type": "embed",
+  "license": "proprietary",
+  "pricing": {
+    "input": 0.008
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "12c42f77",
+    "model_type": "764cb3de",
+    "license": "9186c466",
+    "pricing": "69279e0e",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

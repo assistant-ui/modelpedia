@@ -3,22 +3,23 @@
   "name": "GLM-4.5V",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-10-29",
   "max_output_tokens": 16000,
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "_generated": {
     "name": "2625801d",
     "max_output_tokens": "67510c89",
-    "capabilities": "034b2f91",
-    "modalities": "68e53d93",
+    "capabilities": "3b886146",
+    "modalities": "3ad4060a",
     "family": "e8ea1e1e",
     "model_type": "d669f408",
     "license": "3c4c3ba5",

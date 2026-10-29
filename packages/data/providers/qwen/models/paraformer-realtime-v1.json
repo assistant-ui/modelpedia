@@ -16,7 +16,9 @@
     "license": "9186c466",
     "page_url": "17b7d885",
     "open_weight": "68934a3e",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-29",
+  "status": "deprecated"
 }

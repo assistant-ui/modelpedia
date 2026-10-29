@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 30B A3B Instruct 2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-29",
   "family": "qwen3",
   "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
   "context_window": 262144,
@@ -18,8 +18,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.09,
-    "output": 0.3
+    "input": 0.1,
+    "output": 0.3,
+    "cached_input": 0.1
   },
   "_generated": {
     "name": "63e2bcaf",
@@ -29,7 +30,7 @@
     "max_output_tokens": "7ad80673",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "fe9a5f2a",
+    "pricing": "c162912e",
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",

@@ -14,12 +14,11 @@ import {
  *
  * Sources:
  * - Pricing: https://platform.stepfun.com/docs/zh/guides/pricing/details.md
- * - Model overview / per-domain pages for descriptions
+ * - Model pages for descriptions
  *
- * Pricing on the page is in CNY per 1M tokens. We convert to USD/1M using
+ * Token pricing is in CNY per 1M tokens. We convert to USD/1M using
  * 1 USD ≈ 7.2 CNY (multiply by 1/7.2 ≈ 0.13889). Per-character TTS and
- * per-hour ASR rates can't be expressed in pricing.input/output, so they
- * land in pricing_notes instead.
+ * per-hour ASR rates go in pricing_notes.
  */
 
 const sources = readSources("stepfun");
@@ -42,7 +41,7 @@ function cnyToUsd(cny: number | undefined): number | undefined {
   return Math.round(cny * CNY_TO_USD_PER_M * 1000) / 1000;
 }
 
-/** Extract the markdown lines under a level-3 heading. Stops at the next ## or ### heading. */
+/** Extract the markdown lines under a heading. Stops at the next ## or ### heading. */
 function sectionLines(md: string, headingRe: RegExp): string[] {
   const lines = md.split("\n");
   const start = lines.findIndex((l) => headingRe.test(l));
@@ -63,54 +62,43 @@ interface PricingRow {
   inputCny?: number;
   cachedCny?: number;
   outputCny?: number;
-  condition?: string;
 }
 
-/**
- * Parse a token-pricing markdown table with columns:
- *   model | (condition?) | unit | input(miss) | input(hit) | output
- */
 function parseTokenTable(lines: string[]): PricingRow[] {
   const rows = parseMarkdownTable(lines);
-  if (rows.length < 2) return [];
-  const header = rows[0].map((c) => c.toLowerCase());
-  const hasCondition = header.some((c) => c.includes("条件"));
+  if (rows.length < 2 || rows[0][0] !== "Model ID") return [];
   const out: PricingRow[] = [];
   for (let i = 1; i < rows.length; i++) {
     const r = rows[i];
     if (r.length < 4) continue;
-    let idx = 0;
-    const idCell = r[idx++];
-    const id = cleanId(idCell);
+    const id = cleanId(r[0]);
     if (!id) continue;
-    const condition = hasCondition ? r[idx++] : undefined;
-    idx++; // unit (1M tokens)
-    const inputCny = parseCnyPrice(r[idx++] ?? "");
-    const cachedCny = parseCnyPrice(r[idx++] ?? "");
-    const outputCny = parseCnyPrice(r[idx++] ?? "");
-    // Only keep first tier per id
     if (out.some((p) => p.id === id)) continue;
-    out.push({ id, condition, inputCny, cachedCny, outputCny });
+    out.push({
+      id,
+      inputCny: parseCnyPrice(r[1]),
+      cachedCny: parseCnyPrice(r[2]),
+      outputCny: parseCnyPrice(r[3]),
+    });
   }
   return out;
 }
 
 interface AudioRow {
   id: string;
-  type: string;
   unit: string;
 }
 
 function parseAudioTable(lines: string[]): AudioRow[] {
   const rows = parseMarkdownTable(lines);
-  if (rows.length < 2) return [];
+  if (rows.length < 2 || rows[0][0] !== "Model ID") return [];
   const out: AudioRow[] = [];
   for (let i = 1; i < rows.length; i++) {
     const r = rows[i];
-    if (r.length < 3) continue;
+    if (r.length < 2) continue;
     const id = cleanId(r[0]);
-    if (!id || id.includes("/")) continue; // skip multi-id rows like cloning
-    out.push({ id, type: r[1].trim(), unit: r[2].trim() });
+    if (!/^step[a-z0-9.-]+$/.test(id)) continue;
+    out.push({ id, unit: r[1].trim() });
   }
   return out;
 }
@@ -122,7 +110,7 @@ function extractDescriptions(md: string): Map<string, string> {
   const sections = md.split(/^### /m).slice(1);
   for (const s of sections) {
     const firstLine = s.split("\n", 1)[0].trim();
-    const id = firstLine.split(/\s/)[0];
+    const id = firstLine.toLowerCase().replace(/\s+/g, "-");
     if (!id || !id.startsWith("step")) continue;
     const body = s.slice(firstLine.length).trim();
     const firstPara = body
@@ -134,9 +122,7 @@ function extractDescriptions(md: string): Map<string, string> {
   return out;
 }
 
-// ── Hardcoded specs (context windows, modalities, capabilities) ──
-// The pricing page only gives prices; per-page pricing-table model IDs map
-// to API model IDs that we maintain manually here (set during research).
+// ── Model specs ──
 
 /**
  * Normalise a model-id table cell. The docs wrap ids in backticks and annotate
@@ -156,6 +142,8 @@ function cleanId(cell: string): string {
  * model the provider ships after it was written.
  */
 const SPECS: Record<string, Partial<ModelEntry>> = {
+  "step-5-preview": { name: "Step 5 Preview" },
+  "step-3.7-flash": { name: "Step 3.7 Flash" },
   "step-3.5-flash": {
     name: "Step 3.5 Flash",
     family: "step-3.5",
@@ -277,7 +265,7 @@ const SPECS: Record<string, Partial<ModelEntry>> = {
     endpoints: ["chat_completions"],
   },
   "step-1o-turbo-vision": {
-    name: "Step 1o Turbo Vision",
+    name: "Step-1o Turbo Vision",
     family: "step-1o",
     model_type: "chat",
     context_window: 32000,
@@ -317,7 +305,7 @@ const SPECS: Record<string, Partial<ModelEntry>> = {
     endpoints: ["chat_completions"],
   },
   "step-1o-audio": {
-    name: "Step 1o Audio",
+    name: "Step-1o Audio",
     family: "step-1o",
     model_type: "chat",
     license: "proprietary",
@@ -325,10 +313,16 @@ const SPECS: Record<string, Partial<ModelEntry>> = {
     modalities: { input: ["text", "audio"], output: ["text", "audio"] },
     endpoints: ["realtime"],
   },
+  "stepaudio-3-realtime-preview": { name: "StepAudio 3 Realtime" },
+  "stepaudio-3-chat-preview": { name: "StepAudio 3 Chat" },
+  "stepaudio-2.5-realtime": { name: "StepAudio 2.5 Realtime" },
+  "stepaudio-2.5-chat": { name: "StepAudio 2.5 Chat" },
+  "step-audio-2": { name: "Step Audio 2" },
+  "step-audio-r1.5": { name: "Step Audio R1.5" },
 };
 
-// Audio (TTS/ASR) model specs
 const AUDIO_SPECS: Record<string, Partial<ModelEntry>> = {
+  "stepaudio-3-tts": { name: "StepAudio 3 TTS" },
   "stepaudio-2.5-tts": {
     name: "StepAudio 2.5 TTS",
     family: "stepaudio",
@@ -363,6 +357,7 @@ const AUDIO_SPECS: Record<string, Partial<ModelEntry>> = {
     modalities: { input: ["audio"], output: ["text"] },
     endpoints: ["audio_transcriptions"],
   },
+  "stepaudio-3-asr-max": { name: "StepAudio 3 ASR Max" },
   "stepaudio-2-asr-pro": {
     name: "StepAudio 2 ASR Pro",
     family: "stepaudio",
@@ -396,34 +391,8 @@ const AUDIO_SPECS: Record<string, Partial<ModelEntry>> = {
     modalities: { input: ["audio"], output: ["text"] },
     endpoints: ["audio_transcriptions"],
   },
-};
-
-// Image generation specs (no per-token pricing applies)
-const IMAGE_SPECS: Record<string, Partial<ModelEntry>> = {
-  "step-1x-medium": {
-    name: "Step 1x Medium",
-    family: "step-1x",
-    model_type: "image",
-    license: "proprietary",
-    modalities: { input: ["text"], output: ["image"] },
-    endpoints: ["images_generations"],
-  },
-  "step-1x-edit": {
-    name: "Step 1x Edit",
-    family: "step-1x",
-    model_type: "image",
-    license: "proprietary",
-    modalities: { input: ["text", "image"], output: ["image"] },
-    endpoints: ["images_edits"],
-  },
-  "step-2x-large": {
-    name: "Step 2x Large",
-    family: "step-2x",
-    model_type: "image",
-    license: "proprietary",
-    modalities: { input: ["text"], output: ["image"] },
-    endpoints: ["images_generations"],
-  },
+  "stepaudio-3-gen-preview": { name: "StepAudio 3 Gen" },
+  "stepaudio-3-music-preview": { name: "StepAudio 3 Music" },
 };
 
 // ── Main ──
@@ -433,46 +402,29 @@ async function main() {
 
   const pricingMd = await fetchText(sources.pricing as string);
 
-  // Pricing tables — vision, reasoning, audio (e2e), step-2 text, step-1 text
-  const visionPricing = parseTokenTable(
-    sectionLines(pricingMd, /^###\s.*视觉.*$/),
+  const textPricing = parseTokenTable(
+    sectionLines(pricingMd, /^## 文本与多模态模型$/),
   );
-  const reasoningPricing = parseTokenTable(
-    sectionLines(pricingMd, /^###\s.*推理.*$/),
+  const audioPricing = parseTokenTable(
+    sectionLines(pricingMd, /^### 按 Token 计费$/),
   );
-  const audioE2ePricing = parseTokenTable(
-    sectionLines(pricingMd, /^###\s.*端到端语音.*$/),
+  const tts = parseAudioTable(sectionLines(pricingMd, /^### 语音合成$/));
+  const audioGeneration = parseAudioTable(
+    sectionLines(pricingMd, /^### 音频与音乐生成$/),
   );
-  const step2Pricing = parseTokenTable(
-    sectionLines(pricingMd, /^###\s.*Step-2.*$/i),
-  );
-  const step1Pricing = parseTokenTable(
-    sectionLines(pricingMd, /^###\s.*Step-1.*定价表.*$/i),
-  );
-  const audioFlatLines = sectionLines(pricingMd, /^###\s.*语音模型的定价表.*$/);
-  const audioFlat = parseAudioTable(audioFlatLines);
-  const imageLines = sectionLines(pricingMd, /^###\s.*文生图.*$/);
-  // Image pricing rows: model | unit (per image)
-  const imageRows = parseMarkdownTable(imageLines).slice(1);
-
-  const allTokenPricing = [
-    ...visionPricing,
-    ...reasoningPricing,
-    ...audioE2ePricing,
-    ...step2Pricing,
-    ...step1Pricing,
-  ];
+  const asr = parseAudioTable(sectionLines(pricingMd, /^### 语音识别$/));
+  const allTokenPricing = [...textPricing, ...audioPricing];
   console.log(
-    `Parsed ${allTokenPricing.length} token-priced models, ${audioFlat.length} audio models, ${imageRows.length} image rows`,
+    `Parsed ${allTokenPricing.length} token-priced models, ${tts.length} TTS, ${audioGeneration.length} audio generation, ${asr.length} ASR`,
   );
   assertParsed(
-    allTokenPricing.length + audioFlat.length + imageRows.length,
+    allTokenPricing.length + tts.length + audioGeneration.length + asr.length,
     "stepfun",
   );
 
   // Descriptions from per-domain pages
   const descriptions = new Map<string, string>();
-  for (const key of ["text", "vision", "reasoning"] as const) {
+  for (const key of ["text", "vision", "reasoning", "audio"] as const) {
     if (!sources[key]) continue;
     try {
       const md = await fetchText(sources[key] as string);
@@ -487,7 +439,6 @@ async function main() {
 
   let written = 0;
 
-  // 1. Token-priced models
   for (const p of allTokenPricing) {
     const specs = SPECS[p.id];
     if (!specs) {
@@ -500,8 +451,11 @@ async function main() {
       created_by: "stepfun",
       license: "proprietary",
       ...specs,
+      status: p.id.endsWith("-preview") ? "preview" : "active",
     };
-    const desc = descriptions.get(p.id);
+    if (audioPricing.includes(p)) entry.model_type = "audio";
+    const desc =
+      descriptions.get(p.id) ?? descriptions.get(p.id.replace(/-preview$/, ""));
     if (desc) entry.description = desc;
     const inputUsd = cnyToUsd(p.inputCny);
     const cachedUsd = cnyToUsd(p.cachedCny);
@@ -512,51 +466,46 @@ async function main() {
       if (cachedUsd != null) entry.pricing.cached_input = cachedUsd;
       if (outputUsd != null) entry.pricing.output = outputUsd;
     }
-    if (p.condition) {
-      entry.pricing_notes = [
-        `Tiered: base tier shown. Condition: ${p.condition}.`,
-      ];
-    }
     if (upsertModel("stepfun", entry)) written++;
   }
 
-  // 2. TTS / ASR (per-character / per-hour)
-  for (const a of audioFlat) {
+  for (const a of tts) {
     const specs = AUDIO_SPECS[a.id];
-    if (!specs) {
-      console.log(`  skip ${a.id} (no audio specs registered)`);
-      continue;
-    }
     const entry: ModelEntry = {
       id: a.id,
-      name: specs.name ?? a.id,
+      name: specs?.name ?? a.id,
+      model_type: "tts",
+      license: "proprietary",
       ...specs,
-      pricing_notes: [`${a.unit} (CNY).`],
+      status: "active",
+      pricing_notes: [`${a.unit} (CNY)`],
     };
     if (upsertModel("stepfun", entry)) written++;
   }
 
-  // 3. Image models (per-image, can't express in pricing.input/output)
-  for (const r of imageRows) {
-    if (r.length < 2) continue;
-    const id = r[0].trim();
-    const specs = IMAGE_SPECS[id];
-    if (!specs) continue;
+  for (const a of audioGeneration) {
     const entry: ModelEntry = {
-      id,
-      name: specs.name ?? id,
-      ...specs,
-      pricing_notes: [`${r[1].trim()} per image.`],
+      id: a.id,
+      name: AUDIO_SPECS[a.id]?.name ?? a.id,
+      model_type: "audio",
+      license: "proprietary",
+      status: a.id.endsWith("-preview") ? "preview" : "active",
+      pricing_notes: [a.unit],
     };
     if (upsertModel("stepfun", entry)) written++;
   }
 
-  // 4. Realtime / non-priced model entries that still need to exist
-  const extraIds = ["step-1o-audio"];
-  for (const id of extraIds) {
-    const specs = SPECS[id];
-    if (!specs) continue;
-    const entry: ModelEntry = { id, name: specs.name ?? id, ...specs };
+  for (const a of asr) {
+    const specs = AUDIO_SPECS[a.id];
+    const entry: ModelEntry = {
+      id: a.id,
+      name: specs?.name ?? a.id,
+      model_type: "transcription",
+      license: "proprietary",
+      ...specs,
+      status: "active",
+      pricing_notes: [`${a.unit} (CNY)`],
+    };
     if (upsertModel("stepfun", entry)) written++;
   }
 

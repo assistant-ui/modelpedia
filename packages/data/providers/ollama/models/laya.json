@@ -25,8 +25,10 @@
     "tagline": "b31d6518",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
-    "context_window": "77441296"
+    "context_window": "77441296",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-17",
-  "context_window": 8192
+  "last_updated": "2026-10-29",
+  "context_window": 8192,
+  "status": "deprecated"
 }

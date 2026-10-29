@@ -1,0 +1,31 @@
+{
+  "id": "deepseek-v4.1-flash-free",
+  "name": "DeepSeek V4.1 Flash Free",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4c81aac0",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "d7e97780",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

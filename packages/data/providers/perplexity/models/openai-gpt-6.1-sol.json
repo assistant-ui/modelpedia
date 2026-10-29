@@ -1,6 +1,6 @@
 {
   "id": "openai/gpt-6.1-sol",
-  "name": "openai/gpt-6.1-sol",
+  "name": "GPT-6.1 Sol",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-6.1",
@@ -20,10 +20,10 @@
     "output": ["text"]
   },
   "pricing_notes": [
-    "Input ranges $2 to $4, output ranges $10 to $15 per 1M tokens."
+    "Input: 2.00 (≤272k) 4.00 (>272k); Output: 10.00 (≤272k) 15.00 (>272k) per 1M tokens."
   ],
   "_generated": {
-    "name": "cd55f41f",
+    "name": "4e8daf66",
     "family": "d6597770",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -31,7 +31,7 @@
     "pricing": "6877e3a9",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing_notes": "ba2826c4"
+    "pricing_notes": "49f45d97"
   },
-  "last_updated": "2026-09-30"
+  "last_updated": "2026-10-29"
 }

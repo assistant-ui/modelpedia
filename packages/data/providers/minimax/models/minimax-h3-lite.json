@@ -1,0 +1,31 @@
+{
+  "id": "minimax-h3-lite",
+  "name": "MiniMax-H3-Lite",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "status": "active",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": false,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["video"]
+  },
+  "pricing": {
+    "input": null,
+    "output": null
+  },
+  "_generated": {
+    "name": "7267e3e6",
+    "family": "c85916f0",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "capabilities": "064e1c4e",
+    "modalities": "0529c56f",
+    "pricing": "4ca5d833"
+  },
+  "last_updated": "2026-10-29"
+}

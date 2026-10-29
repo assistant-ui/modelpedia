@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "count": 99,
+  "date": "2026-10-29",
+  "count": 101,
   "ids": [
     "codestral",
     "codestral-2405",
@@ -9,6 +9,7 @@
     "codestral-embed",
     "codestral-embed-2505",
     "codestral-mamba-7b-01",
+    "deepseek-v4-1-flash-1017",
     "devstral-medium",
     "devstral-medium-2507",
     "devstral-medium-latest",
@@ -100,6 +101,7 @@
     "voxtral-small-2507",
     "voxtral-small-transcribe-3-0",
     "zai-glm-5-2",
-    "zai-glm-5-3"
+    "zai-glm-5-3",
+    "zai-glm-5-3-flash"
   ]
 }

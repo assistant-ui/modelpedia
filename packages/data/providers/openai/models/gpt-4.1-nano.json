@@ -3,9 +3,9 @@
   "name": "GPT-4.1 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a  1M token context window, and low latency without a reasoning step.",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -35,17 +35,6 @@
     "batch_input": 0.05,
     "batch_output": 0.2,
     "tiers": [
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.1, 0.025, 0.4]
-          }
-        ]
-      },
       {
         "label": "Fine-tuning",
         "unit": "",
@@ -81,7 +70,7 @@
   "_generated": {
     "name": "f6396fa5",
     "family": "d240daf4",
-    "description": "cc33b09a",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -92,7 +81,7 @@
     "tagline": "a2353111",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "8b7e5a35",
+    "pricing": "bbef409a",
     "tools": "d529f254",
     "endpoints": "ebc03c48",
     "license": "9186c466",

@@ -1,6 +1,6 @@
 {
   "id": "stepaudio-2.5-realtime",
-  "name": "stepaudio-2.5-realtime",
+  "name": "StepAudio 2.5 Realtime",
   "created_by": "stepfun",
   "source": "official",
   "license": "proprietary",
@@ -12,13 +12,17 @@
   },
   "open_weight": false,
   "_generated": {
-    "name": "b72a9c74",
+    "name": "8188adae",
     "license": "9186c466",
     "model_type": "9f84c007",
     "pricing": "343d8c2d",
     "open_weight": "68934a3e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "description": "7c488bda",
+    "tagline": "7c488bda"
   },
-  "last_updated": "2026-09-16",
-  "status": "deprecated"
+  "last_updated": "2026-10-29",
+  "status": "active",
+  "description": "真正具备“活人感”的实时语音大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**",
+  "tagline": "真正具备“活人感”的实时语音大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**"
 }

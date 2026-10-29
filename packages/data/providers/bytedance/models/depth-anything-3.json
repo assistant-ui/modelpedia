@@ -1,0 +1,20 @@
+{
+  "id": "depth-anything-3",
+  "name": "Depth Anything 3",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Overcome the technical bottlenecks in monocular depth estimation and multi-view reconstruction.",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://seed.bytedance.com/en/blog/depth-anything-3-a-single-transformer-architecture-for-space-reconstruction-from-any-views",
+  "tagline": "Overcome the technical bottlenecks in monocular depth estimation and multi-view reconstruction.",
+  "_generated": {
+    "name": "c3f24db1",
+    "description": "d93ddab1",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "ef5d2046",
+    "tagline": "d93ddab1"
+  },
+  "last_updated": "2026-10-29"
+}

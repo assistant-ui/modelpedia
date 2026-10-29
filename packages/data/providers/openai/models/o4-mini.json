@@ -3,9 +3,9 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "o4",
-  "description": "o4-mini is our latest small o-series model. It's optimized for fast,  effective reasoning with exceptionally efficient performance in coding and  visual tasks. It's succeeded by GPT-5 Mini.",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -38,17 +38,6 @@
     "batch_output": 2.2,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [1.1, 0.275, 4.4]
-          }
-        ]
-      },
-      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -77,7 +66,7 @@
   "_generated": {
     "name": "0ad044e2",
     "family": "a842f941",
-    "description": "b7d13e02",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -90,7 +79,7 @@
     "tagline": "fea2d815",
     "capabilities": "7e267bba",
     "modalities": "6399757e",
-    "pricing": "c114e368",
+    "pricing": "b75066c2",
     "tools": "fab5356d",
     "endpoints": "b36a99d3",
     "license": "9186c466",

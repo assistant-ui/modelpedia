@@ -18,8 +18,32 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "family": "16342494"
+    "family": "16342494",
+    "pricing": "add57581"
   },
-  "last_updated": "2026-09-24",
-  "family": "gpt-6"
+  "last_updated": "2026-10-29",
+  "family": "gpt-6",
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1,
+    "cache_write": 12.5,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 272K tokens",
+            "values": [10, 50, 1, 12.5]
+          },
+          {
+            "label": "> 272K tokens",
+            "values": [20, 75, 2, 25]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "minimax-hailuo-2.3-fast",
+  "name": "MiniMax-Hailuo-2.3-Fast",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Image-to-video generation with extreme physics mastery and a focus on value and efficiency",
+  "status": "active",
+  "model_type": "video",
+  "tagline": "Image-to-video generation with extreme physics mastery and a focus on value and efficiency",
+  "capabilities": {
+    "streaming": false,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "pricing": {
+    "input": null,
+    "output": null
+  },
+  "_generated": {
+    "name": "a9670772",
+    "family": "c85916f0",
+    "description": "f0b90205",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "tagline": "f0b90205",
+    "capabilities": "064e1c4e",
+    "modalities": "85fd0565",
+    "pricing": "4ca5d833"
+  },
+  "last_updated": "2026-10-29"
+}

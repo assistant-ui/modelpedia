@@ -1,0 +1,28 @@
+{
+  "id": "blackforestlabs/flux-3/klein/base/trainer",
+  "name": "FLUX 3 Klein LoRA Trainer",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "Fine-tune FLUX 3 Image Klein with your own images to teach it a subject, a product or a style.",
+  "status": "active",
+  "release_date": "2026-10-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/klein/base/trainer",
+  "tagline": "Fine-tune FLUX 3 Image Klein with your own images to teach it a subject, a product or a style.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-10-26",
+  "_generated": {
+    "name": "e12ee2e0",
+    "description": "9b025313",
+    "status": "379ac110",
+    "release_date": "28277fd5",
+    "model_type": "ddb0b7bc",
+    "page_url": "7527e960",
+    "tagline": "9b025313",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "28277fd5"
+  },
+  "last_updated": "2026-10-29"
+}

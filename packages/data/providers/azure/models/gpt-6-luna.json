@@ -3,7 +3,7 @@
   "name": "gpt-6-luna",
   "created_by": "openai",
   "source": "official",
-  "description": "- Reasoning - Responses API . - Multi-agent orchestration (preview). - Chat Completions API. - Streaming. - Structured outputs. - Text and image input with text output. - Functions, tools, and parallel tool calling. - Reasoning effort and verbosity. - Computer use - Full summary of capabilities .",
+  "description": "- Reasoning - Responses API . - Decisions API . - Multi-agent orchestration (preview). - Chat Completions API. - Streaming. - Structured outputs. - Text and image input with text output. - Functions, tools, and parallel tool calling. - Reasoning effort and verbosity. - Computer use - Full summary of capabilities .",
   "knowledge_cutoff": "2026-05",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -24,7 +24,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "8f1f2183",
-    "description": "b74297e8",
+    "description": "eb10d050",
     "knowledge_cutoff": "0580e31b",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -35,6 +35,6 @@
     "tools": "f0c1dc7e",
     "family": "16342494"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-6"
 }

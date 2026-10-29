@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-29",
   "count": 42,
   "ids": [
     "c4ai-aya-expanse-32b",
@@ -30,8 +30,8 @@
     "embed-v4.0",
     "embed-v5.0-fast",
     "embed-v5.0-pro",
-    "north-mini-code-1-0",
-    "north-small-translate-09-2026",
+    "north-mini-code-1.0",
+    "north-small-translate-1.0",
     "parse-v5.0",
     "rerank-english-v3.0",
     "rerank-multilingual-v3.0",

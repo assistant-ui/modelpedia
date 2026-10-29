@@ -3,8 +3,8 @@
   "name": "GLM-4.6",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-31",
-  "context_window": 128000,
+  "last_updated": "2026-10-29",
+  "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
   },
   "_generated": {
     "name": "0c51745a",
-    "context_window": "34434798",
+    "context_window": "03e6c616",
     "max_output_tokens": "34434798",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",

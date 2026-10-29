@@ -1,0 +1,49 @@
+{
+  "id": "minimax/minimax-m3.1-flash",
+  "name": "MiniMax M3.1 Flash",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax M3.1 Flash is positioned as a lightweight model optimized for Coding/Agent scenarios, boasting a 1 million-token context window.",
+  "status": "active",
+  "release_date": "2026-10-19",
+  "context_window": 1000000,
+  "max_output_tokens": 524288,
+  "model_type": "chat",
+  "tagline": "MiniMax M3.1 Flash is positioned as a lightweight model optimized for Coding/Agent scenarios, boasting a 1 million-token context window.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ad239625",
+    "family": "c85916f0",
+    "description": "f1b476f9",
+    "status": "379ac110",
+    "release_date": "24f81a75",
+    "context_window": "8155bc54",
+    "max_output_tokens": "bcabf6a1",
+    "model_type": "d669f408",
+    "tagline": "f1b476f9",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "89a9c6e2",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

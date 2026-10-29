@@ -3,7 +3,7 @@
   "name": "qwen-doc-turbo",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "family": "qwen",
   "context_window": 262144,
   "max_output_tokens": 32768,
@@ -35,7 +35,7 @@
     "provider": "a3af76f3",
     "description": "eecdc41d",
     "tagline": "5370f7b5",
-    "page_url": "23162829",
+    "page_url": "c953776d",
     "open_weight": "b326b506",
     "status": "2e2f74dc"
   },
@@ -43,7 +43,7 @@
   "provider": "qwen",
   "description": "You can use the Qwen data mining model to extract structured information from documents for data annotation, content moderation, and other tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2948885.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "tagline": "The Qwen data mining model extracts structured information from documents for use in data annotation, content moderation, and other applications.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-doc-turbo",
   "open_weight": true,
   "status": "deprecated"
 }

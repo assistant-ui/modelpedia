@@ -1,0 +1,27 @@
+{
+  "id": "Muse-Glimmer-30B-ExecuTorch-PTE",
+  "name": "Muse-Glimmer-30B-ExecuTorch-PTE",
+  "created_by": "meta",
+  "source": "official",
+  "family": "muse-glimmer",
+  "release_date": "2026-08-10",
+  "license": "apache-2.0",
+  "parameters": 30,
+  "page_url": "https://huggingface.co/meta-models/Muse-Glimmer-30B-ExecuTorch-PTE",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "e16e137c",
+    "family": "2c89749f",
+    "release_date": "a2454697",
+    "license": "60245731",
+    "parameters": "34173cb3",
+    "page_url": "96b8702b",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

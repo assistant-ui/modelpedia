@@ -3,7 +3,7 @@
   "name": "qwen2.5-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwen2.5",
   "context_window": 1000000,
   "model_type": "chat",
@@ -41,7 +41,8 @@
     "page_url": "6ecc6f25",
     "tagline": "67372540",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "parameters": 72,
@@ -50,5 +51,6 @@
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "tagline": "Qwen2.5 is a large language model series from Qwen.",
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

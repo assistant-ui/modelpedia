@@ -1,0 +1,29 @@
+{
+  "id": "wanx2.1-t2i-plus",
+  "name": "wanx2.1-t2i-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan",
+  "model_type": "image",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wanx2-1-t2i-plus",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "9fcb3e38",
+    "family": "2aadc089",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "page_url": "896e13d6",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9"
+  },
+  "last_updated": "2026-10-29"
+}

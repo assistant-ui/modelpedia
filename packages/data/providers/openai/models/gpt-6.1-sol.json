@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-6.1",
-  "description": "GPT-6.1 Sol delivers near-Astra performance at a lower cost for complex coding, computer use, and professional work. Compare it with Astra on your tasks to assess the tradeoff between quality and cost.",
+  "description": "Use GPT-6.1 Sol for complex coding, computer use, and professional work.",
   "status": "active",
   "knowledge_cutoff": "2026-04",
   "context_window": 1050000,
@@ -85,7 +85,7 @@
   "_generated": {
     "name": "4e8daf66",
     "family": "d6597770",
-    "description": "1d2f17e1",
+    "description": "b08f92ff",
     "status": "379ac110",
     "knowledge_cutoff": "58654c5c",
     "context_window": "f170ebb2",
@@ -106,5 +106,5 @@
     "tools": "c3217644",
     "endpoints": "ec55a017"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

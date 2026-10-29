@@ -3,22 +3,23 @@
   "name": "GLM-4.6V",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-10-29",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "_generated": {
     "name": "b051c20e",
     "context_window": "34434798",
-    "capabilities": "5780d00a",
-    "modalities": "68e53d93",
+    "capabilities": "04caa9d5",
+    "modalities": "3ad4060a",
     "family": "5a2dc6aa",
     "model_type": "d669f408",
     "license": "3c4c3ba5",

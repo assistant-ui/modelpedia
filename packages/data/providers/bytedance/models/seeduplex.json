@@ -5,8 +5,8 @@
   "source": "official",
   "description": "As a native full-duplex speech LLM, it achieves high-precision interference suppression and adaptive endpoint detection.",
   "status": "active",
-  "model_type": "chat",
-  "page_url": "https://seed.bytedance.com/en/seeduplex",
+  "model_type": "audio",
+  "page_url": "https://seed.bytedance.com/en/blog/introducing-seed-full-duplex-speech-llm-attentive-listening-robust-interference-suppression-enabling-more-natural-interaction",
   "tagline": "As a native full-duplex speech LLM, it achieves high-precision interference suppression and adaptive endpoint detection.",
   "capabilities": {
     "streaming": true
@@ -20,12 +20,12 @@
     "name": "8bd3ff4e",
     "description": "05fb0ec7",
     "status": "379ac110",
-    "model_type": "d669f408",
-    "page_url": "10b96ff0",
+    "model_type": "9f84c007",
+    "page_url": "9fbad3c0",
     "tagline": "05fb0ec7",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

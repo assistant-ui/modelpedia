@@ -1,0 +1,30 @@
+{
+  "id": "speech-2.8-turbo",
+  "name": "speech-2.8-turbo",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Seamless speed meets natural flow",
+  "status": "active",
+  "model_type": "audio",
+  "tagline": "Seamless speed meets natural flow",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "_generated": {
+    "name": "dfc8bcd1",
+    "family": "c85916f0",
+    "description": "a83d4f97",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "tagline": "a83d4f97",
+    "capabilities": "028ad17d",
+    "modalities": "601e776d"
+  },
+  "last_updated": "2026-10-29"
+}

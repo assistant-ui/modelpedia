@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/vector/text-to-vector",
+  "name": "Ideogram Vector",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Generates editable SVG vector graphics from text prompts, with optional reference images, three quality levels, and aspect ratio controls.",
+  "status": "active",
+  "release_date": "2026-10-22",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/vector/text-to-vector",
+  "tagline": "Generates editable SVG vector graphics from text prompts, with optional reference images, three quality levels, and aspect ratio controls.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-22",
+  "_generated": {
+    "name": "6b534a4e",
+    "description": "c02084b3",
+    "status": "379ac110",
+    "release_date": "59575a1a",
+    "model_type": "db8857fe",
+    "page_url": "f49b0496",
+    "tagline": "c02084b3",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "59575a1a"
+  },
+  "last_updated": "2026-10-29"
+}

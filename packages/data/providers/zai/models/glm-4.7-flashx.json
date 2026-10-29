@@ -3,7 +3,7 @@
   "name": "GLM-4.7-FlashX",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-10-29",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -31,7 +31,7 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "description": "6fe887c0",
-    "page_url": "7e3aef75",
+    "page_url": "5b393369",
     "tagline": "6fe887c0",
     "pricing": "d92d3379",
     "status": "2e2f74dc"
@@ -42,7 +42,7 @@
   "open_weight": true,
   "tools": ["function_calling"],
   "description": "GLM-4.7-FlashX: Lightweight, High-Speed,and Affordable",
-  "page_url": "https://docs.z.ai/guides/llm/glm-4.7",
+  "page_url": "https://docs.z.ai/guides/overview/pricing",
   "tagline": "GLM-4.7-FlashX: Lightweight, High-Speed,and Affordable",
   "pricing": {
     "input": 0.07,

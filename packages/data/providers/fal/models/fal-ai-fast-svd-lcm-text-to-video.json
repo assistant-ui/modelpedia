@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate short video clips from your images using SVD v1.1 at Lightning Speed",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-06-03",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/fast-svd-lcm/text-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "3cd384f8",
     "description": "0ee9eef8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "90065f25",
     "model_type": "4d1b75ca",
     "page_url": "13eea13a",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

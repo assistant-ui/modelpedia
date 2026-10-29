@@ -1,0 +1,110 @@
+{
+  "id": "gpt-6.1-terra",
+  "name": "GPT-6.1 Terra",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.1",
+  "description": "Use GPT-6.1 Terra to match product photos to catalog entries, interpret technical drawings, act on application screens, or draft and revise text.",
+  "status": "active",
+  "knowledge_cutoff": "2026-06",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 4,
+  "tagline": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.05,
+    "batch_input": 0.5,
+    "batch_output": 2.5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write",
+          "Cache writes"
+        ],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1, 5, 0.05, 1.25, 2.5, 1.25]
+          },
+          {
+            "label": "Batch",
+            "values": [0.5, 2.5, 0.025, 0.625, 1.25, null]
+          },
+          {
+            "label": "Fast",
+            "values": [2, 10, 0.1, 2.5, 5, null]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "snapshots": ["gpt-6.1-terra"],
+  "_generated": {
+    "name": "56e33232",
+    "family": "d6597770",
+    "description": "a0828e42",
+    "status": "379ac110",
+    "knowledge_cutoff": "cb890cbe",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "a87ff679",
+    "tagline": "2020d602",
+    "page_url": "fe892d24",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "822aa4d1",
+    "modalities": "6399757e",
+    "pricing": "1dfb9a40",
+    "tools": "c3217644",
+    "endpoints": "ec55a017"
+  },
+  "last_updated": "2026-10-29"
+}

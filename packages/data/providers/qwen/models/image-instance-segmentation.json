@@ -1,0 +1,27 @@
+{
+  "id": "image-instance-segmentation",
+  "name": "image-instance-segmentation",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/model-image-instance-segmentation",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a6e10985",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "78910122",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-29"
+}

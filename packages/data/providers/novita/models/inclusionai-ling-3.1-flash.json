@@ -6,7 +6,7 @@
   "description": "Hybrid reasoning model with a 1M-token context window, featuring 560B total parameters and 25B activated parameters.",
   "status": "active",
   "release_date": "2026-09-28",
-  "context_window": 262144,
+  "context_window": 1000000,
   "max_output_tokens": 262144,
   "model_type": "chat",
   "tagline": "Hybrid reasoning model with a 1M-token context window, featuring 560B total parameters and 25B activated parameters.",
@@ -26,7 +26,7 @@
     "description": "756e9809",
     "status": "379ac110",
     "release_date": "1ec3c8a2",
-    "context_window": "4a1d32eb",
+    "context_window": "8155bc54",
     "max_output_tokens": "4a1d32eb",
     "model_type": "d669f408",
     "tagline": "756e9809",
@@ -36,7 +36,7 @@
     "tools": "f0c1dc7e",
     "pricing": "8eb8395f"
   },
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-29",
   "pricing": {
     "input": 0.3,
     "output": 0.9

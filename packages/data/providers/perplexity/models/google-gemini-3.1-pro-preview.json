@@ -3,7 +3,7 @@
   "name": "google/gemini-3.1-pro-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "family": "gemini-3.1",
   "capabilities": {
     "streaming": true
@@ -22,7 +22,8 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing_notes": "4c9f3343"
+    "pricing_notes": "4c9f3343",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -33,5 +34,6 @@
   },
   "pricing_notes": [
     "Input ranges $2 to $4, output ranges $12 to $18 per 1M tokens."
-  ]
+  ],
+  "status": "deprecated"
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "glm-5.3",
   "description": "GLM-5.3-Flash/GLM-5.3-FlashX is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
-  "context_window": 128000,
+  "context_window": 1000000,
   "max_output_tokens": 128000,
   "license": "mit",
   "parameters": 320,
@@ -20,10 +20,11 @@
     "reasoning": true,
     "prompt_caching": true,
     "fine_tuning": true,
-    "json_mode": true
+    "json_mode": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "pricing": {
@@ -37,7 +38,7 @@
     "name": "08894a79",
     "family": "9f217d9a",
     "description": "47c714cc",
-    "context_window": "34434798",
+    "context_window": "8155bc54",
     "max_output_tokens": "34434798",
     "license": "3c4c3ba5",
     "parameters": "32072254",
@@ -45,11 +46,11 @@
     "page_url": "9e916e37",
     "model_type": "d669f408",
     "tagline": "a258518f",
-    "capabilities": "2582d2f2",
-    "modalities": "68e53d93",
+    "capabilities": "b37cec00",
+    "modalities": "3ad4060a",
     "pricing": "bd8fa987",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-18"
+  "last_updated": "2026-10-29"
 }

@@ -44,12 +44,14 @@
     "model_card_url": "682a4569",
     "tokens_per_second": "8c3039bd",
     "pricing": "f7bf6ae9",
-    "deprecation_date": "424d10af"
+    "deprecation_date": "424d10af",
+    "successor": "fc21b8eb"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "pricing": {
     "input": 0.99,
     "output": 1.49
   },
-  "deprecation_date": "2026-09-03"
+  "deprecation_date": "2026-09-03",
+  "successor": "qwen-3.8-27b"
 }

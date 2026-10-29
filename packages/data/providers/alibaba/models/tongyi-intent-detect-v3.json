@@ -1,0 +1,27 @@
+{
+  "id": "tongyi-intent-detect-v3",
+  "name": "tongyi-intent-detect-v3",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tongyi-intent-detect-v3",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "9297fdfd",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "3d738f4e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

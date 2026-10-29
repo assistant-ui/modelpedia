@@ -20,7 +20,7 @@
   },
   "open_weight": false,
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -35,8 +35,10 @@
     "capabilities": "48995a4e",
     "pricing": "0c734839",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e",
+    "status": "379ac110"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-10-29",
+  "status": "active"
 }

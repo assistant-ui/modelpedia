@@ -3,9 +3,9 @@
   "name": "gpt-audio-mini-2025-12-15",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-audio",
-  "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -33,17 +33,6 @@
     "output": 2.4,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Cached input"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.6, 2.4, null]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -53,6 +42,17 @@
             "values": [10, null, 20]
           }
         ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, null, 2.4]
+          }
+        ]
       }
     ]
   },
@@ -60,7 +60,7 @@
   "_generated": {
     "name": "b5e2e9b2",
     "family": "29debdf1",
-    "description": "786ee09e",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -71,7 +71,7 @@
     "tagline": "24fe34a9",
     "capabilities": "67f48281",
     "modalities": "cf05925d",
-    "pricing": "69d029f1",
+    "pricing": "ab94a543",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "release_date": "56423574",

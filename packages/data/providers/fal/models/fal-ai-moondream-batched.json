@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Answer questions from the images.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-03-20",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/moondream/batched",
@@ -16,7 +16,7 @@
   "_generated": {
     "name": "d1a56e83",
     "description": "641acfb6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5b8d32b6",
     "model_type": "ddb0b7bc",
     "page_url": "d5eee20b",
@@ -24,5 +24,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

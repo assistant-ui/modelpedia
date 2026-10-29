@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "Achieves effective integration of inference and non-inference modes, enabling seamless switching between modes during conversations.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-29",
   "context_window": 40960,
   "max_output_tokens": 20000,
@@ -32,7 +32,7 @@
     "name": "128bc678",
     "family": "48c385a0",
     "description": "4dbab515",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8e2eb0db",
     "context_window": "a422a18c",
     "max_output_tokens": "d9798cdf",
@@ -45,5 +45,5 @@
     "pricing": "9a9e4921",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

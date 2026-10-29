@@ -17,7 +17,7 @@
   },
   "open_weight": false,
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -29,14 +29,16 @@
     "capabilities": "48995a4e",
     "pricing": "e5cfa60c",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93",
+    "modalities": "3ad4060a",
     "tools": "f0c1dc7e",
     "description": "6a4a0731",
     "context_window": "8155bc54",
-    "tagline": "6a4a0731"
+    "tagline": "6a4a0731",
+    "status": "379ac110"
   },
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "description": "Frontier multimodal coding model with 1M context window and tunable thinking depth",
   "context_window": 1000000,
-  "tagline": "Frontier multimodal coding model with 1M context window and tunable thinking depth"
+  "tagline": "Frontier multimodal coding model with 1M context window and tunable thinking depth",
+  "status": "active"
 }

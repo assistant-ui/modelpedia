@@ -6,21 +6,22 @@ import {
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
-import { fetchText, fetchWithRetry } from "./parse.ts";
+import { fetchText, fetchWithRetry, parseTokenCount } from "./parse.ts";
 
 /**
  * Fetch Z.AI (Zhipu) models from their docs .md endpoints.
  * No API key needed.
  *
  * Data sources:
- * 1. llms.txt          — model page URLs + inline descriptions
- * 2. Individual .md    — specs (context, output, modalities, capabilities, params)
- * 3. pricing.md        — per-model pricing tables
+ * 1. llms.txt and overview.md — model guide URLs
+ * 2. Individual .md — specs (context, output, modalities, capabilities, params)
+ * 3. pricing.md — model catalog and pricing
  */
 
 const sources = readSources("zai");
 const LLMS_TXT = sources.docs as string;
 const PRICING_URL = "https://docs.z.ai/guides/overview/pricing.md";
+const OVERVIEW_URL = "https://docs.z.ai/guides/overview/overview.md";
 
 // ── Types ──
 
@@ -43,6 +44,8 @@ interface PricingInfo {
   input?: number;
   output?: number;
   cached_input?: number;
+  name: string;
+  category: string;
 }
 
 // ── Pricing ──
@@ -59,17 +62,19 @@ async function fetchPricing(): Promise<Map<string, PricingInfo>> {
   if (!res.ok) return map;
   const md = await res.text();
 
-  // Parse token-priced tables (Text Models + Vision Models)
-  // Table rows: | Model | Input | Cached Input | Cached Input Storage | Output |
-  const headerRe =
-    /\|\s*Model\s*\|\s*Input\s*\|\s*Cached Input\s*\|.*?\|\s*Output\s*\|/i;
-
-  const sections = md.split(/\n###\s+/);
+  const sections = md.split(/\n\s*>?\s*###\s+/);
   for (const section of sections) {
-    if (!headerRe.test(section)) continue;
+    const category = section.split("\n")[0].trim();
+    if (
+      !/^(?:Latest|Text|Vision|Image Generation|Video Generation|Audio) Models$/i.test(
+        category,
+      )
+    )
+      continue;
 
     const lines = section.split("\n");
-    for (const line of lines) {
+    for (const rawLine of lines) {
+      const line = rawLine.replace(/^\s*>\s?/, "");
       // Skip header and separator rows
       if (
         /^\|\s*:?-+/.test(line) ||
@@ -78,25 +83,25 @@ async function fetchPricing(): Promise<Map<string, PricingInfo>> {
       )
         continue;
       const cols = line
+        .slice(1, -1)
         .split("|")
-        .map((c) => c.trim())
-        .filter(Boolean);
-      if (cols.length < 4) continue;
+        .map((c) => c.trim());
+      if (cols.length < 2) continue;
       const modelId = cols[0].toLowerCase().replace(/\s+/g, "-");
-      const input = parsePrice(cols[1]);
-      const cachedCol = cols[2].replace(/\s/g, "");
+      if (!/^[a-z][\w.-]+$/.test(modelId)) continue;
+      const input = cols.length >= 4 ? parsePrice(cols[1]) : undefined;
+      const cachedCol = (cols[2] ?? "").replace(/\s/g, "");
       const cachedInput = /^\\+$|^-$/.test(cachedCol)
         ? undefined
-        : parsePrice(cols[2]);
-      const output = parsePrice(cols[cols.length - 1]);
+        : parsePrice(cols[2] ?? "");
+      const output =
+        cols.length >= 4 ? parsePrice(cols[cols.length - 1]) : undefined;
 
-      if (input !== undefined || output !== undefined) {
-        const info: PricingInfo = {};
-        if (input !== undefined) info.input = input;
-        if (cachedInput !== undefined) info.cached_input = cachedInput;
-        if (output !== undefined) info.output = output;
-        map.set(modelId, info);
-      }
+      const info: PricingInfo = { name: cols[0], category };
+      if (input !== undefined) info.input = input;
+      if (cachedInput !== undefined) info.cached_input = cachedInput;
+      if (output !== undefined) info.output = output;
+      map.set(modelId, info);
     }
   }
 
@@ -129,6 +134,18 @@ function fetchModelPageUrls(text: string): string[] {
       ].map((m) => m[1]),
     ),
   ];
+}
+
+function parseGuideUrls(text: string): Map<string, string> {
+  const map = new Map<string, string>();
+  for (const line of text.split("\n")) {
+    const match = line.match(
+      /^>?\s*\|\s*([\w.-]+)\s*\|.*?\[Guide\]\((https:\/\/docs\.z\.ai\/guides\/(?:llm|vlm|audio|image|video)\/[\w.-]+)(?:#[^)]+)?\)/i,
+    );
+    if (match)
+      map.set(match[1].toLowerCase(), `${match[2].replace(/\.md$/, "")}.md`);
+  }
+  return map;
 }
 
 /** Extract the first paragraph of the Overview section as description. */
@@ -257,12 +274,20 @@ async function fetchModelPage(
   }
 
   // Extract context window
-  const ctxMatch = md.match(/Context\s*(?:Length|Window)[\s\S]*?(\d+)[Kk]/i);
-  const contextWindow = ctxMatch ? Number(ctxMatch[1]) * 1000 : undefined;
+  const ctxMatch =
+    md.match(/([\d.]+\s*[KkMm])[- ]token context window/i) ??
+    md.match(
+      /^\s*>?\s*\*{0,2}Context\s*(?:Length|Window)\*{0,2}\s*\n(?:\s*>\s*\n)?\s*>?\s*([\d.]+\s*[KkMm])/im,
+    );
+  const contextWindow = ctxMatch ? parseTokenCount(ctxMatch[1]) : undefined;
 
   // Extract max output tokens
-  const maxOutMatch = md.match(/Maximum\s*Output\s*Tokens[\s\S]*?(\d+)[Kk]/i);
-  const maxOutput = maxOutMatch ? Number(maxOutMatch[1]) * 1000 : undefined;
+  const maxOutMatch =
+    md.match(/maximum output length of\s*([\d.]+\s*[KkMm])/i) ??
+    md.match(
+      /^\s*>?\s*\*{0,2}Maximum\s*Output\s*Tokens\*{0,2}\s*\n(?:\s*>\s*\n)?\s*>?\s*([\d.]+\s*[KkMm])/im,
+    );
+  const maxOutput = maxOutMatch ? parseTokenCount(maxOutMatch[1]) : undefined;
 
   // Input modalities based on category and Card content
   const inputMods: string[] = [];
@@ -275,9 +300,11 @@ async function fetchModelPage(
     if (/Input.*?Text/is.test(md)) inputMods.push("text");
   } else {
     inputMods.push("text");
-    if (/Input\s*Modal.*?Image/i.test(md)) inputMods.push("image");
-    if (/Input\s*Modal.*?Video/i.test(md)) inputMods.push("video");
-    if (/Input\s*Modal.*?Audio/i.test(md)) inputMods.push("audio");
+    const inputBlock =
+      md.match(/Input\s*Modalit(?:y|ies)[\s\S]{0,100}/i)?.[0] ?? "";
+    if (/Image/i.test(inputBlock)) inputMods.push("image");
+    if (/Video/i.test(inputBlock)) inputMods.push("video");
+    if (/Audio/i.test(inputBlock)) inputMods.push("audio");
   }
 
   // Output modalities based on category
@@ -365,6 +392,7 @@ async function main() {
 
   // 1. Fetch llms.txt index
   const llmsTxt = await fetchText(LLMS_TXT);
+  const overview = await fetchText(OVERVIEW_URL);
 
   // 2. Parse inline descriptions from llms.txt
   const descMap = parseDescriptions(llmsTxt);
@@ -375,7 +403,10 @@ async function main() {
   console.log(`  parsed pricing for ${pricingMap.size} models`);
 
   // 4. Find all model guide pages
-  const pages = fetchModelPageUrls(llmsTxt);
+  const guideUrls = parseGuideUrls(overview);
+  const pages = [
+    ...new Set([...fetchModelPageUrls(llmsTxt), ...guideUrls.values()]),
+  ];
   console.log(`Found ${pages.length} model pages`);
 
   // 5. Fetch each model page
@@ -386,9 +417,74 @@ async function main() {
     allModels.push(...models);
   }
 
+  for (const [id, pricing] of pricingMap) {
+    if (guideUrls.has(id)) continue;
+    const section = pricing.category;
+    const path =
+      section === "Vision Models"
+        ? "vlm"
+        : section === "Image Generation Models"
+          ? "image"
+          : section === "Video Generation Models"
+            ? "video"
+            : section === "Audio Models"
+              ? "audio"
+              : "llm";
+    const candidate = `https://docs.z.ai/guides/${path}/${id}.md`;
+    const models = await fetchModelPage(candidate);
+    if (models.length === 0) continue;
+    guideUrls.set(id, candidate);
+    allModels.push(...models);
+  }
+
+  const pageModels = new Map<string, ZhipuModel>();
+  for (const model of allModels) {
+    if (pricingMap.has(model.id)) pageModels.set(model.page_url, model);
+  }
+  for (const [id, pricing] of pricingMap) {
+    if (allModels.some((model) => model.id === id)) continue;
+    const guide = guideUrls.get(id);
+    const page = guide ? pageModels.get(guide.replace(/\.md$/, "")) : undefined;
+    const category = pricing.category;
+    const input =
+      category === "Audio Models"
+        ? ["audio"]
+        : category === "Video Generation Models"
+          ? ["text", "image"]
+          : ["text"];
+    if (category === "Vision Models") input.push("image");
+    allModels.push({
+      id,
+      name: pricing.name,
+      description: page?.description,
+      context_window: page?.context_window,
+      max_output_tokens: page?.max_output_tokens,
+      inputModalities: page?.inputModalities ?? input,
+      outputModalities:
+        page?.outputModalities ??
+        (category === "Image Generation Models"
+          ? ["image"]
+          : category === "Video Generation Models"
+            ? ["video"]
+            : ["text"]),
+      capabilities:
+        page?.capabilities ??
+        (category === "Text Models" ||
+        category === "Latest Models" ||
+        category === "Vision Models"
+          ? { streaming: true }
+          : {}),
+      page_url: guide?.replace(/\.md$/, "") ?? PRICING_URL.replace(/\.md$/, ""),
+      parameters: page?.parameters,
+      active_parameters: page?.active_parameters,
+      architecture: page?.architecture,
+    });
+  }
+
   // 6. Deduplicate
   const seen = new Set<string>();
   const unique = allModels.filter((m) => {
+    if (!pricingMap.has(m.id)) return false;
     if (seen.has(m.id)) return false;
     seen.add(m.id);
     return true;

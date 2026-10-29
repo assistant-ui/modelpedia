@@ -1,0 +1,40 @@
+{
+  "id": "lfm3-audio",
+  "name": "lfm3-audio",
+  "created_by": "liquid",
+  "source": "official",
+  "description": "LFM3-Audio-2B is a compact, fully featured audio model.",
+  "context_window": 128000,
+  "license": "open-weight",
+  "parameters": 2,
+  "page_url": "https://ollama.com/library/lfm3-audio",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "LFM3-Audio-2B is a compact, fully featured audio model.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7e9ff3b6",
+    "description": "a3713ef8",
+    "context_window": "34434798",
+    "license": "6327aaea",
+    "parameters": "c81e728d",
+    "page_url": "75058f09",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "a3713ef8",
+    "capabilities": "62b3fd83",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

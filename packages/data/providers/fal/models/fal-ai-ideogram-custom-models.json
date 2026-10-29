@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Train Ideogram on your photos, your style, your subject, your look, from a small set of reference images to images that feel consistently yours ",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-22",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ideogram/custom-models",
@@ -16,7 +16,7 @@
   "_generated": {
     "name": "b834d5be",
     "description": "35ed412a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c48b287d",
     "model_type": "ddb0b7bc",
     "page_url": "d7216309",
@@ -24,5 +24,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

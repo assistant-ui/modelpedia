@@ -3,11 +3,11 @@
   "name": "Reka Flash",
   "created_by": "reka",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-10-29",
   "family": "reka-flash",
   "description": "Cost-efficient multimodal vision-language model for everyday chat, coding, and instruction-following.",
   "tagline": "Reliable and cost-efficient multimodal LLM.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "context_window": 128000,
   "license": "proprietary",
@@ -28,5 +28,21 @@
   "pricing": {
     "input": 0.8,
     "output": 2
+  },
+  "_generated": {
+    "name": "da09bb4d",
+    "family": "2d617627",
+    "description": "f3c5e051",
+    "tagline": "af700582",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "377f5126",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "07f6f1d2"
   }
 }

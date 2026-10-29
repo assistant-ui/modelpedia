@@ -1,0 +1,50 @@
+{
+  "id": "glm5.3-flash",
+  "name": "GLM 5.3 Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm",
+  "description": "GLM 5.3 Flash is an open-weight 321B-parameter (18B active) reasoning model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, logprobs, and streaming.",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 1048576,
+  "model_type": "reasoning",
+  "page_url": "https://developer.reka.ai/models/glm5.3-flash",
+  "tagline": "GLM 5.3 Flash is an open-weight 321B-parameter (18B active) reasoning model with a 1M context window, hosted by Reka.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.015
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "42f9a08b",
+    "family": "cb6bfc11",
+    "description": "45ec0a45",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7d28a051",
+    "model_type": "17475f7f",
+    "page_url": "f29a07c6",
+    "tagline": "f2b0490e",
+    "capabilities": "d1034176",
+    "modalities": "6399757e",
+    "pricing": "2226d489",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

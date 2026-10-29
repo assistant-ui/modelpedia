@@ -3,9 +3,9 @@
   "name": "gpt-4o-2024-08-06",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
-  "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -45,17 +45,6 @@
             "values": [25, 2.225, 0.9, 12.5]
           }
         ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [2.5, 1.25, 10]
-          }
-        ]
       }
     ],
     "input": 2.5,
@@ -74,7 +63,7 @@
   "_generated": {
     "name": "1c18e976",
     "family": "15249632",
-    "description": "f06aa8e0",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -85,7 +74,7 @@
     "tagline": "f06aa8e0",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "ec81df4f",
+    "pricing": "b4e63b8a",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "1d54b01d",

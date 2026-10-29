@@ -7,7 +7,7 @@
   "context_window": 229376,
   "license": "apache-2.0",
   "parameters": 27,
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-27b",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -26,7 +26,7 @@
     "context_window": "11e655cf",
     "license": "60245731",
     "parameters": "02e74f10",
-    "page_url": "23162829",
+    "page_url": "862282fd",
     "model_type": "d669f408",
     "capabilities": "034b2f91",
     "modalities": "68e53d93",
@@ -34,6 +34,6 @@
     "endpoints": "75df3f1c",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "status": "deprecated"
 }

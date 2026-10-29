@@ -3,11 +3,11 @@
   "name": "Reka Edge",
   "created_by": "reka",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-10-29",
   "family": "reka-edge",
   "description": "7B multimodal vision-language model optimized for edge deployments, robotics, and real-time visual reasoning.",
   "tagline": "Frontier-level edge VLM for physical AI.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "context_window": 16384,
   "max_output_tokens": 16384,
@@ -28,5 +28,23 @@
   "pricing": {
     "input": 0.1,
     "output": 0.1
+  },
+  "_generated": {
+    "name": "30e489a3",
+    "family": "076a54b7",
+    "description": "bf5f4ab9",
+    "tagline": "dda1ff19",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "c76fe1d8",
+    "max_output_tokens": "c76fe1d8",
+    "release_date": "d91bb602",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "2bf9a9a4",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "dabb026f"
   }
 }

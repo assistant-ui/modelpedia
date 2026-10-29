@@ -1,0 +1,48 @@
+{
+  "id": "moonshotai/kimi-k3.1-pro-highspeed",
+  "name": "Kimi K3.1 Pro Highspeed",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3.1",
+  "description": "Kimi K3.1 Pro Highspeed is the high-speed model released.",
+  "status": "active",
+  "release_date": "2026-10-24",
+  "context_window": 1048576,
+  "max_output_tokens": 1048576,
+  "model_type": "chat",
+  "tagline": "Kimi K3.1 Pro Highspeed is the high-speed model released.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3c57dc53",
+    "family": "90fce409",
+    "description": "c50b69e9",
+    "status": "379ac110",
+    "release_date": "61fb2f38",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7d28a051",
+    "model_type": "d669f408",
+    "tagline": "c50b69e9",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "7b432ec6",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

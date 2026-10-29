@@ -1,0 +1,19 @@
+{
+  "id": "elevenlabs/sound-effects-v2",
+  "name": "sound-effects-v2",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "ea834ffd",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-10-29"
+}

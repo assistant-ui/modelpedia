@@ -1,5 +1,12 @@
 {
-  "date": "2026-09-01",
-  "count": 4,
-  "ids": ["kimi-k2.6", "kimi-k2.7-code", "kimi-k2.7-code-highspeed", "kimi-k3"]
+  "date": "2026-10-29",
+  "count": 6,
+  "ids": [
+    "kimi-k2.6",
+    "kimi-k2.7-code",
+    "kimi-k2.7-code-highspeed",
+    "kimi-k3",
+    "kimi-k3.1-pro",
+    "kimi-k3.1-pro-highspeed"
+  ]
 }

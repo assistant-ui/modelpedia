@@ -1,0 +1,30 @@
+{
+  "id": "s/minimax-m3-1-flash",
+  "name": "Minimax M3 1 Flash",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "page_url": "https://www.together.ai/models/minimax-m3-1-flash",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.015,
+    "output": 0.6
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ad297ff8",
+    "family": "c85916f0",
+    "page_url": "0027f8eb",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "68ccca45",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -3,9 +3,9 @@
   "name": "gpt-4.1-nano-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -45,17 +45,6 @@
             "values": [1.5, 0.1, 0.025, 0.4]
           }
         ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.1, 0.025, 0.4]
-          }
-        ]
       }
     ],
     "input": 0.1,
@@ -74,7 +63,7 @@
   "_generated": {
     "name": "1c49c282",
     "family": "d240daf4",
-    "description": "7ca18e8b",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -85,7 +74,7 @@
     "tagline": "7aa786f3",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "76ee858a",
+    "pricing": "f8364aba",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",

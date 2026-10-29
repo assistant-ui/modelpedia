@@ -1,0 +1,38 @@
+{
+  "id": "fireworks/qwen3-235b-a22b-thinking-2507",
+  "name": "qwen3-235b-a22b-thinking-2507",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "context_window": 262000,
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "alias": "fireworks/qwen3-235b-a22b-thinking",
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-235b-a22b-thinking-2507",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.22,
+    "output": 0.88,
+    "cached_input": 0.11
+  },
+  "_generated": {
+    "name": "7aa41933",
+    "family": "48c385a0",
+    "context_window": "4ed74017",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "23247d8d",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "866fea92"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "LoRA endpoint for the Chrono Edit model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-21",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/chrono-edit-lora",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "82b84495",
     "description": "cf0e93d8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "efb5c5c4",
     "model_type": "db8857fe",
     "page_url": "80002cbb",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,40 @@
+{
+  "id": "particle-ai/particle-1",
+  "name": "Particle AI: Particle-1",
+  "created_by": "particle-ai",
+  "source": "official",
+  "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
+  "release_date": "2026-10-28",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "tagline": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f1cb915d",
+    "description": "83b31197",
+    "release_date": "cbc52969",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "tagline": "83b31197",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "f343c2a3",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

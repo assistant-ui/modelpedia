@@ -3,9 +3,9 @@
   "name": "GPT-4o Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
-  "description": "GPT-4o Mini (“o” for “omni”) is a fast, affordable small model for focused tasks. It accepts both text and image inputs, and produces text outputs (including Structured Outputs).  It is ideal for fine-tuning, and model outputs from a larger model like GPT-4o can be distilled to GPT-4o-Mini to produce similar results at lower cost and latency.",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -35,17 +35,6 @@
     "batch_input": 0.075,
     "batch_output": 0.3,
     "tiers": [
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.15, 0.075, 0.6]
-          }
-        ]
-      },
       {
         "label": "Fine-tuning",
         "unit": "",
@@ -82,7 +71,7 @@
   "_generated": {
     "name": "9f1373e8",
     "family": "15249632",
-    "description": "f699d09f",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -93,22 +82,22 @@
     "tagline": "44be8422",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "9258a42f",
+    "pricing": "463040c5",
     "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "page_url": "b718fb77",
     "open_weight": "68934a3e",
     "release_date": "23482102",
-    "deprecation_date": "b735ec37",
     "retirement_date": "b3b7551d",
+    "deprecation_date": "b735ec37",
     "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
   "open_weight": false,
   "release_date": "2024-07-18",
-  "deprecation_date": "2026-10-14",
   "retirement_date": "2027-01-14",
+  "deprecation_date": "2026-10-14",
   "successor": "gpt-6-luna"
 }

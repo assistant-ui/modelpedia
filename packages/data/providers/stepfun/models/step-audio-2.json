@@ -1,6 +1,6 @@
 {
   "id": "step-audio-2",
-  "name": "step-audio-2",
+  "name": "Step Audio 2",
   "created_by": "stepfun",
   "source": "official",
   "license": "proprietary",
@@ -11,12 +11,18 @@
   },
   "open_weight": false,
   "_generated": {
-    "name": "9e5880bf",
+    "name": "5862aa2b",
     "license": "9186c466",
     "pricing": "343d8c2d",
     "open_weight": "68934a3e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "description": "67f78102",
+    "model_type": "9f84c007",
+    "tagline": "cd36b6c8"
   },
-  "last_updated": "2026-09-16",
-  "status": "deprecated"
+  "last_updated": "2026-10-29",
+  "status": "active",
+  "description": "* 定位：全方位感官理解与端到端自然交互 * 能力标签：音色复刻、Tool Call、网络搜索 * 体验入口：[体验中心](https://www.stepfun.com/studio/audio?tab=voice-chat) * 在语言方面能够理解中文普通话、中文方言、英语、日语。支持语音复刻（通过上传音色片段实现自定义音色）。在能力方面能够理解环境声音事件、人类副语言和语音中的情绪、根据声音推测用户年龄、理解音乐，能够控制不同的语速、语调和情感进行表达，具备原生的 Tool Call 和 网络搜索 能力。",
+  "model_type": "audio",
+  "tagline": "* 定位：全方位感官理解与端到端自然交互 * 能力标签：音色复刻、Tool Call、网络搜索 * 体验入口：[体验中心](https://www.stepfun.com/studio/audio?tab=voice-chat) * 在语言方面能够理解中文普通话、中文方言、英语、日语。支持语音复刻（通过上传音色片段实现自定义音色）。在能力方面能够理解环境声音事件、人类副语言和语音中的情绪、根据声音"
 }

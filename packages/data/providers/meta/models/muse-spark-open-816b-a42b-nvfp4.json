@@ -1,0 +1,29 @@
+{
+  "id": "Muse-Spark-Open-816B-A42B-NVFP4",
+  "name": "Muse-Spark-Open-816B-A42B-NVFP4",
+  "created_by": "meta",
+  "source": "official",
+  "family": "muse-spark-open",
+  "release_date": "2026-09-15",
+  "license": "muse-model-license",
+  "parameters": 816,
+  "active_parameters": 42,
+  "page_url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "8849685f",
+    "family": "6818a85c",
+    "release_date": "5ed4afcc",
+    "license": "bc3e4a17",
+    "parameters": "43fa7f58",
+    "active_parameters": "a1d0c6e8",
+    "page_url": "6ca0d312",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

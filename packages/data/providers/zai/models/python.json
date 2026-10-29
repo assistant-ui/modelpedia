@@ -3,7 +3,7 @@
   "name": "Python",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-10-29",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/vlm/glm-ocr",
   "modalities": {
@@ -23,7 +23,8 @@
     "max_output_tokens": "34434798",
     "capabilities": "1029c7f0",
     "tools": "f0c1dc7e",
-    "parameters": "a894124c"
+    "parameters": "a894124c",
+    "status": "2e2f74dc"
   },
   "description": "GLM-OCR is a lightweight professional OCR model with parameters as small as 0.9B, yet it achieves state-of-the-art performance across multiple capabilities. It sets a new benchmark for document parsing with its “small size and high accuracy.” Key features include:",
   "tagline": "CogView-4 is Z.AI’s first open-source text-to-image model.",
@@ -37,5 +38,6 @@
     "fine_tuning": true
   },
   "tools": ["function_calling"],
-  "parameters": 0.9
+  "parameters": 0.9,
+  "status": "deprecated"
 }

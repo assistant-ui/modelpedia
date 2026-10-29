@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-tts-2025-12-15",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
   "status": "deprecated",
   "model_type": "tts",
@@ -24,9 +24,9 @@
     "speed": "a87ff679",
     "modalities": "601e776d",
     "endpoints": "1d7fad2a",
-    "description": "b111801c",
+    "description": "5344a855",
     "tagline": "defab719",
-    "pricing": "2935d710",
+    "pricing": "8c5b89f0",
     "license": "9186c466",
     "release_date": "56423574",
     "page_url": "0237c868",
@@ -35,10 +35,21 @@
     "retirement_date": "cdcb8c77",
     "successor": "d913f5f3"
   },
-  "description": "GPT-4o Mini TTS is a text-to-speech model built on GPT-4o Mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
+  "description": "Status: Deprecated",
   "tagline": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model.",
   "pricing": {
     "tiers": [
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [null, null, 12]
+          }
+        ]
+      },
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
@@ -47,17 +58,6 @@
           {
             "label": "Standard",
             "values": [0.6, null, null]
-          }
-        ]
-      },
-      {
-        "label": "Audio tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Output", "Input", "Cached input"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [12, null, null]
           }
         ]
       }

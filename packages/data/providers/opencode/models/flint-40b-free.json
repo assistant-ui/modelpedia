@@ -1,0 +1,24 @@
+{
+  "id": "flint-40b-free",
+  "name": "Flint 40B Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "parameters": 40,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
+  },
+  "_generated": {
+    "name": "d594aa58",
+    "status": "379ac110",
+    "parameters": "d645920e",
+    "capabilities": "0fa77dc6",
+    "pricing": "d7e97780"
+  },
+  "last_updated": "2026-10-29"
+}

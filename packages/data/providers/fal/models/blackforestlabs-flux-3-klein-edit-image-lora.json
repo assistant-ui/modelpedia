@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/klein/edit-image/lora",
+  "name": "FLUX 3 Klein Edit LoRA",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "Edit images fast with distilled FLUX 3 Image Klein and up to 3 custom LoRAs.",
+  "status": "active",
+  "release_date": "2026-10-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/klein/edit-image/lora",
+  "tagline": "Edit images fast with distilled FLUX 3 Image Klein and up to 3 custom LoRAs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-26",
+  "_generated": {
+    "name": "35fa48a2",
+    "description": "44633fc6",
+    "status": "379ac110",
+    "release_date": "28277fd5",
+    "model_type": "db8857fe",
+    "page_url": "b5c4d2fd",
+    "tagline": "44633fc6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "28277fd5"
+  },
+  "last_updated": "2026-10-29"
+}

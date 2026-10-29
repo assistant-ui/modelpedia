@@ -15,9 +15,9 @@ import {
  * Fetch Alibaba Cloud Model Studio (Qwen) models from docs. No API key needed.
  *
  * models.md is a link hub: it links per-category pages (text-generation-model,
- * vision-model, ...) whose `.md` variants carry the `Model ID | Context | ...`
- * tables. Pricing is not in these tables (it lives on a separate pricing
- * console), so existing pricing on disk is left untouched by the upsert merge.
+ * vision-model, ...) with `Model ID | Context | ...` tables. Pricing is not in
+ * these tables (it lives on a separate pricing console), so existing pricing on
+ * disk is left untouched by the upsert merge.
  */
 
 const sources = readSources("alibaba");
@@ -53,7 +53,9 @@ function parseTables(html: string): {
   header: string[];
   rows: { cells: string[]; ids: string[]; isSectionLabel: boolean }[];
 }[] {
-  return [...html.matchAll(/<table\b[^>]*>([\s\S]*?)<\/table>/gi)].map((t) => {
+  const htmlTables = [
+    ...html.matchAll(/<table\b[^>]*>([\s\S]*?)<\/table>/gi),
+  ].map((t) => {
     const trMatches = [...t[1].matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
     const rows = trMatches.map((tr) => {
       const cellHtml = [...tr[1].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/g)];
@@ -79,6 +81,37 @@ function parseTables(html: string): {
       rows: headerIndex === -1 ? [] : rows.slice(headerIndex + 1),
     };
   });
+  const markdownTables = [...html.matchAll(/(?:^\|[^\n]+\n)+/gm)].map(
+    (match) => {
+      const rows = match[0]
+        .trimEnd()
+        .split("\n")
+        .filter((line) => !/^\|[\s|:-]+\|$/.test(line))
+        .map((line) => {
+          const raw = line.split("|").slice(1, -1);
+          const cells = raw.map((cell) =>
+            cell
+              .replace(/\*\*/g, "")
+              .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+              .replace(/<[^>]+>/g, "")
+              .trim(),
+          );
+          return {
+            cells,
+            ids: extractModelIds(raw[0] ?? "", cells[0] ?? ""),
+            isSectionLabel: raw.length === 1,
+          };
+        });
+      const headerIndex = rows.findIndex((row) =>
+        /^model(?: id)?$/i.test(row.cells[0] ?? ""),
+      );
+      return {
+        header: (rows[headerIndex]?.cells ?? []).map((h) => h.toLowerCase()),
+        rows: headerIndex === -1 ? [] : rows.slice(headerIndex + 1),
+      };
+    },
+  );
+  return [...htmlTables, ...markdownTables];
 }
 
 function detailPageUrl(href: string): string | undefined {
@@ -90,15 +123,74 @@ function detailPageUrl(href: string): string | undefined {
     return undefined;
   }
   url.hash = "";
-  if (!url.pathname.endsWith(".md")) url.pathname += ".md";
+  url.pathname = url.pathname.replace(/\.md$|\/$/, "");
   return url.href;
 }
 
 function discoverDetailPages(hubMd: string): string[] {
-  const links = [...hubMd.matchAll(/\]\(([^)\s]+)\)/g)]
-    .map((match) => detailPageUrl(match[1]))
+  const links = [
+    ...[
+      ...hubMd.matchAll(
+        /<a\b[^>]*href="([^"]+)"[^>]*>\s*(?:More|Learn more)\s*<\/a>/gi,
+      ),
+    ].map((match) => match[1]),
+    ...[...hubMd.matchAll(/\[(?:More|Learn more)\]\(([^)\s]+)\)/gi)].map(
+      (match) => match[1],
+    ),
+  ]
+    .map((href) => detailPageUrl(href))
     .filter((url): url is string => url !== undefined);
   return [...new Set(links)];
+}
+
+function discoverModelListPages(index: string): string[] {
+  return [
+    ...new Set(
+      [
+        ...index.matchAll(
+          /(?:https?:\/\/www\.alibabacloud\.com)?\/help\/en\/model-studio\/model-list-[a-z-]+\/?/gi,
+        ),
+      ]
+        .map((match) => detailPageUrl(match[0]))
+        .filter((url): url is string => url !== undefined),
+    ),
+  ];
+}
+
+function discoverModelLinks(page: string): { id: string; url: string }[] {
+  const article = page.includes("Copy as MD")
+    ? page.split("Copy as MD")[1].split(/\[Previous:|Is this page helpful\?/)[0]
+    : (page.match(
+        /<article\b[^>]*class="[^"]*product-description[^"]*"[^>]*>([\s\S]*?)<\/article>/i,
+      )?.[1] ?? "");
+  const links = [
+    ...[...article.matchAll(/^\*\s+\[([a-z][a-z0-9._-]*)\]\(([^)]+)\)/gim)].map(
+      (match) => ({ id: match[1], href: match[2] }),
+    ),
+    ...[
+      ...article.matchAll(
+        /<li[^>]*>\s*<a\b[^>]*href="([^"]+)"[^>]*>\s*([a-z][a-z0-9._-]*)\s*<\/a>/gi,
+      ),
+    ].map((match) => ({ id: match[2], href: match[1] })),
+  ];
+  return links.flatMap(({ id, href }) => {
+    const url = detailPageUrl(href);
+    return url && MODEL_ID.test(id) && !THIRD_PARTY.test(id)
+      ? [{ id, url }]
+      : [];
+  });
+}
+
+async function fetchDoc(url: string): Promise<string> {
+  try {
+    const res = await fetchWithRetry(url, { redirect: "follow" });
+    if (res.ok) {
+      const text = await res.text();
+      if (!/bxpunish|_____tmd_____/.test(text)) return text;
+    }
+  } catch {}
+  // The docs CDN sometimes serves a bot challenge to public requests; the reader serves the same public page as Markdown.
+  return fetchText(`https://r.jina.ai/${url}`);
 }
 
 const CHAT_TYPES = new Set(["chat", "reasoning", "code"]);
@@ -106,7 +198,7 @@ const CHAT_TYPES = new Set(["chat", "reasoning", "code"]);
 async function main() {
   console.log("Fetching Alibaba Cloud models from docs...");
 
-  const hub = await fetchText(DOCS_MD);
+  const hub = await fetchDoc(DOCS_MD);
   const detailPages = discoverDetailPages(hub);
   console.log(`Discovered ${detailPages.length} detail pages`);
   assertParsed(detailPages.length, "alibaba (detail page discovery)");
@@ -122,15 +214,9 @@ async function main() {
 
   for (const url of detailPages) {
     let html: string;
-    let finalUrl = url;
+    const finalUrl = url;
     try {
-      const res = await fetchWithRetry(url, { redirect: "follow" });
-      if (!res.ok) {
-        console.warn(`Could not fetch ${url}: ${res.status}`);
-        continue;
-      }
-      finalUrl = res.url.replace(/\.md$/, "");
-      html = await res.text();
+      html = await fetchDoc(url);
     } catch {
       console.warn(`Could not fetch ${url}`);
       continue;
@@ -223,6 +309,43 @@ async function main() {
           written += upsertWithSnapshot("alibaba", entry);
         }
       }
+    }
+  }
+
+  const modelListUrl = new URL("model-studio-model-list", DOCS_MD).href;
+  const modelList = await fetchDoc(modelListUrl);
+  const modelListPages = discoverModelListPages(modelList);
+  console.log(`Discovered ${modelListPages.length} model list pages`);
+  assertParsed(modelListPages.length, "alibaba (model list discovery)");
+
+  for (const pageUrl of modelListPages) {
+    let page: string;
+    try {
+      page = await fetchDoc(pageUrl);
+    } catch {
+      console.warn(`Could not fetch ${pageUrl}`);
+      continue;
+    }
+    for (const { id, url } of discoverModelLinks(page)) {
+      if (seen.has(id) || /latest$/i.test(id) || /-\d{4}-\d{2}-\d{2}$/.test(id))
+        continue;
+      seen.add(id);
+      const modelType = inferModelType(id) ?? "chat";
+      written += upsertWithSnapshot("alibaba", {
+        id,
+        name: id,
+        created_by: "qwen",
+        family: inferFamily(id),
+        page_url: url,
+        license: inferLicense(id),
+        model_type: modelType,
+        capabilities: { streaming: true },
+        modalities: modalitiesForType(
+          modelType as ModelEntry["model_type"],
+          id,
+        ),
+        ...(inferParameters(id) ?? {}),
+      });
     }
   }
 

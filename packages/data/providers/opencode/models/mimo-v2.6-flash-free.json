@@ -19,7 +19,13 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "d7e97780"
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-10-29",
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
+  }
 }

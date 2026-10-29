@@ -1,14 +1,28 @@
 {
-  "date": "2026-09-24",
-  "count": 8,
+  "date": "2026-10-29",
+  "count": 22,
   "ids": [
+    "depth-anything-3",
     "protenix",
     "seed-audio-1.0",
     "seed-gr-3",
     "seed-gr-rl",
+    "seed-prover-1.5",
+    "seed1.8",
+    "seed2.0",
+    "seed2.0-lite",
+    "seed2.0-mini",
+    "seed2.0-pro",
     "seed2.1",
+    "seed2.1-pro",
+    "seed2.1-turbo",
+    "seed3d-2.0",
+    "seedance-1.5-pro",
+    "seedance-2.0",
     "seedance-2.5",
     "seedrealtime",
-    "seedream-5.0-pro"
+    "seedream-5.0-lite",
+    "seedream-5.0-pro",
+    "seeduplex"
   ]
 }

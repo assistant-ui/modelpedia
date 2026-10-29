@@ -1,0 +1,16 @@
+{
+  "id": "hy4-preview",
+  "name": "Hy4 preview",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "176d97aa",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-10-29"
+}

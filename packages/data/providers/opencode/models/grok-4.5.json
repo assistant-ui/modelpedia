@@ -1,7 +1,7 @@
 {
   "id": "grok-4.5",
   "name": "Grok 4.5",
-  "created_by": "unknown",
+  "created_by": "xai",
   "source": "official",
   "family": "grok-4.5",
   "status": "active",
@@ -19,7 +19,30 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "2fa11871"
   },
-  "last_updated": "2026-07-09"
+  "last_updated": "2026-10-29",
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.3,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 200K tokens",
+            "values": [2, 6, 0.3, null]
+          },
+          {
+            "label": "> 200K tokens",
+            "values": [4, 12, 0.6, null]
+          }
+        ]
+      }
+    ]
+  }
 }

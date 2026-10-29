@@ -19,7 +19,7 @@
     "output": 0
   },
   "endpoints": ["chat_completions"],
-  "quantization": "bfloat16",
+  "quantization": "fp8",
   "_generated": {
     "name": "4aea082f",
     "status": "379ac110",
@@ -30,11 +30,11 @@
     "modalities": "68e53d93",
     "pricing": "59563a1f",
     "endpoints": "d8fa1080",
-    "quantization": "45ae6e17",
+    "quantization": "640679f9",
     "description": "f7094173",
     "tagline": "f7094173"
   },
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions.",
   "tagline": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions."
 }

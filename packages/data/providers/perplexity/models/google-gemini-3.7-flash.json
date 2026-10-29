@@ -1,6 +1,6 @@
 {
   "id": "google/gemini-3.7-flash",
-  "name": "google/gemini-3.7-flash",
+  "name": "Gemini 3.7 Flash",
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.7",
@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "ada03ef5",
+    "name": "1e6c9b2e",
     "family": "91a06ed1",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -29,5 +29,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-10-29"
 }

@@ -3,7 +3,7 @@
   "name": "qwen3-tts-instruct-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwen3",
   "model_type": "tts",
   "capabilities": {
@@ -26,11 +26,13 @@
     "open_weight": "b326b506",
     "description": "f54d4fc3",
     "page_url": "da2101f3",
-    "tagline": "c83d2447"
+    "tagline": "c83d2447",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "Supports mixed-language text input and streaming audio output. [Usage](https://www.alibabacloud.com/help/en/document_detail/2879134.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2881635.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore. ##### **Qwen3-TTS-Instruct-Flash**",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/tts-model",
-  "tagline": "Supports mixed-language text input and streaming audio output."
+  "tagline": "Supports mixed-language text input and streaming audio output.",
+  "status": "deprecated"
 }

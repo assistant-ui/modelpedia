@@ -1,6 +1,6 @@
 {
   "id": "openai/gpt-6-astra",
-  "name": "openai/gpt-6-astra",
+  "name": "Gpt 6 Astra",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-6",
@@ -20,10 +20,10 @@
     "output": ["text"]
   },
   "pricing_notes": [
-    "Input ranges $10 to $20, output ranges $50 to $75 per 1M tokens."
+    "Input: 10.00 (≤272k) 20.00 (>272k); Output: 50.00 (≤272k) 75.00 (>272k) per 1M tokens."
   ],
   "_generated": {
-    "name": "913931b1",
+    "name": "60a398ad",
     "family": "16342494",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -31,7 +31,7 @@
     "pricing": "69490ea7",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing_notes": "69e9bf28"
+    "pricing_notes": "341c32e7"
   },
-  "last_updated": "2026-10-18"
+  "last_updated": "2026-10-29"
 }

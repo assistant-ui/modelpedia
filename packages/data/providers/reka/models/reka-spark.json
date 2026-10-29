@@ -3,11 +3,11 @@
   "name": "Reka Spark",
   "created_by": "reka",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-10-29",
   "family": "reka-spark",
   "description": "Ultra-compact 1B model for embedding AI into the smallest devices.",
   "tagline": "Tiny on-device multimodal model.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
@@ -23,5 +23,19 @@
   "pricing": {
     "input": 0.05,
     "output": 0.05
+  },
+  "_generated": {
+    "name": "6c73de6a",
+    "family": "807c7540",
+    "description": "f4b01d64",
+    "tagline": "762f1ee6",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "pricing": "d3db3c2d"
   }
 }

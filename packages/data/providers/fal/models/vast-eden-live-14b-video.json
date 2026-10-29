@@ -1,0 +1,26 @@
+{
+  "id": "vast/eden-live-14b-video",
+  "name": "Eden Live 14B Video",
+  "created_by": "vast",
+  "source": "official",
+  "description": "Real-time generative rendering from any reference using VAST's Eden Live 14B",
+  "status": "active",
+  "release_date": "2026-10-22",
+  "model_type": "other",
+  "parameters": 14,
+  "page_url": "https://fal.run/vast/eden-live-14b-video",
+  "tagline": "Real-time generative rendering from any reference using VAST's Eden Live 14B",
+  "last_seen_at": "2026-10-23",
+  "_generated": {
+    "name": "f53f5856",
+    "description": "ea4c7162",
+    "status": "379ac110",
+    "release_date": "59575a1a",
+    "model_type": "ddb0b7bc",
+    "parameters": "aab32389",
+    "page_url": "64c05e96",
+    "tagline": "ea4c7162",
+    "last_seen_at": "68185e3b"
+  },
+  "last_updated": "2026-10-29"
+}

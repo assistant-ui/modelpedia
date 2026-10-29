@@ -3,7 +3,7 @@
   "name": "gpt-image-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-image-1",
   "capabilities": {
     "streaming": true
@@ -15,8 +15,11 @@
   "_generated": {
     "name": "480da012",
     "family": "480da012",
+    "capabilities": "0fa77dc6",
     "pricing": "3c45900a",
-    "capabilities": "0fa77dc6"
+    "model_type": "db8857fe",
+    "status": "2e2f74dc"
   },
-  "model_type": "image"
+  "model_type": "image",
+  "status": "deprecated"
 }

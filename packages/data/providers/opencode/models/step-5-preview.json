@@ -1,0 +1,16 @@
+{
+  "id": "step-5-preview",
+  "name": "Step 5 Preview",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "44adf2d0",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-10-29"
+}

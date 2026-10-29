@@ -3,7 +3,7 @@
   "name": "qwen3-coder-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwen3",
   "context_window": 1000000,
   "max_output_tokens": 65536,
@@ -37,7 +37,8 @@
     "page_url": "6ecc6f25",
     "tagline": "25d20c07",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "open_weight": true,
@@ -45,5 +46,6 @@
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "tagline": "Qwen-Coder is a code generation model.",
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

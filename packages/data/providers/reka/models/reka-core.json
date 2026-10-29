@@ -3,11 +3,11 @@
   "name": "Reka Core",
   "created_by": "reka",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-10-29",
   "family": "reka-core",
   "description": "Frontier-class multimodal model handling text, image, audio, and video for complex reasoning tasks.",
   "tagline": "Reka's frontier multimodal model.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "context_window": 128000,
   "license": "proprietary",
@@ -28,5 +28,21 @@
   "pricing": {
     "input": 2,
     "output": 6
+  },
+  "_generated": {
+    "name": "39c3914a",
+    "family": "78fd5fed",
+    "description": "659d2161",
+    "tagline": "72a51864",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "377f5126",
+    "modalities": "0843b982",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "e205efd3"
   }
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "NVIDIA's Logically Consistent and Physics-Aware Image Editing Model",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-30",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/chrono-edit",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "e59a7b88",
     "description": "b3fac2ad",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "097b1371",
     "model_type": "db8857fe",
     "page_url": "b4c8cec9",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

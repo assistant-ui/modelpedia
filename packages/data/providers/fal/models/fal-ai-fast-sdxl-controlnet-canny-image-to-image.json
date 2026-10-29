@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate Images with ControlNet.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2023-12-01",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/fast-sdxl-controlnet-canny/image-to-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "d734fa0b",
     "description": "893b2447",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8e5880c8",
     "model_type": "db8857fe",
     "page_url": "803fe270",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-10-29"
 }

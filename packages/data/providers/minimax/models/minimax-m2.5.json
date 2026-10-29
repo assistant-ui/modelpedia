@@ -3,7 +3,7 @@
   "name": "MiniMax-M2.5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-10-29",
   "family": "minimax",
   "capabilities": {
     "streaming": true,
@@ -28,7 +28,8 @@
     "description": "dfb20c0b",
     "context_window": "65d646a4",
     "tagline": "9e64bd64",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "mit",
@@ -40,5 +41,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }
