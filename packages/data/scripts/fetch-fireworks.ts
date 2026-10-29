@@ -21,10 +21,14 @@ const MODEL_BASE = `${(sources.docs as string).replace(/\/$/, "")}/`;
 // ── Get model slugs ──
 
 async function fetchModelSlugs(): Promise<string[]> {
-  const html = await fetchText(MODELS_PAGE);
+  const xml = await fetchText(new URL("/sitemap.xml", MODELS_PAGE).href);
   return [
     ...new Set(
-      [...html.matchAll(/href="\/models\/([\w/.-]+)"/g)].map((m) => m[1]),
+      [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)]
+        .map((m) => m[1])
+        .filter((url) => url.startsWith(MODEL_BASE))
+        .map((url) => url.slice(MODEL_BASE.length).replace(/\/$/, ""))
+        .filter((slug) => /^[\w.-]+\/[\w.-]+$/.test(slug)),
     ),
   ];
 }

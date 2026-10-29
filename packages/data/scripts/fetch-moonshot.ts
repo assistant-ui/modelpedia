@@ -12,24 +12,17 @@ import {
  * Fetch Moonshot AI (Kimi) models.
  *
  * Data sources:
- * 1. Public pricing docs — the catalog, prices and context windows
- * 2. /v1/models API (optional, requires MOONSHOT_API_KEY) — release dates
- * 3. MODEL_SPECS below — capabilities and modalities the tables do not carry
- *
- * Source history: this script had no live catalog at all. The API needs a key,
- * which CI deliberately never has, so every run fell back to a hardcoded list
- * and the catalog froze at kimi-k2.5 while k2.6, k2.7-code and k3 shipped. The
- * note that pricing "renders tables via JavaScript and cannot be scraped" was
- * true of the HTML page only: the `.md` variant serves the DocTable source.
- *
- * A hardcoded list is invisible to every guard: it parses cleanly, writes a
- * stable count and reports zero delisted models forever.
+ * 1. Public model list — the active catalog
+ * 2. Public pricing docs — prices and context windows
+ * 3. /v1/models API (optional, requires MOONSHOT_API_KEY) — release dates
+ * 4. MODELS below — capabilities and modalities the tables do not carry
  */
 
 const sources = readSources("moonshot");
 const API_URL = sources.api as string;
 const PRICING_INDEX = sources.pricing_index as string;
 const PRICING_PAGE = sources.pricing as string;
+const MODEL_LIST = new URL("/docs/models.md", PRICING_PAGE).href;
 
 // ── Docs-verified model specs ──
 // These come from platform.kimi.ai docs pages (intro, quickstart guides).
@@ -185,86 +178,40 @@ interface DocsModel {
   context_window?: number;
 }
 
-/** "$3.00" wrapped in JSX (`<>{"$"}3.00</>`) or plain; "1,048,576 tokens". */
-function cellNumber(cell: string): number | undefined {
-  const n = Number(cell.replace(/[^0-9.]/g, ""));
-  return Number.isFinite(n) && cell.match(/\d/) ? n : undefined;
+function parseModelList(md: string): string[] {
+  const active = md.split(/^## Deprecated Models/m)[0];
+  return [...active.matchAll(/^\| `([a-z][a-z0-9.-]+)` \|/gm)].map(
+    (match) => match[1],
+  );
 }
 
-/**
- * Split one `[...]` row into cells, respecting nested JSX braces and quotes.
- * Quote tracking is load-bearing: context windows are written "1,048,576
- * tokens", and splitting inside the quotes turned that cell into "1.
- */
-function splitRow(row: string): string[] {
-  const cells: string[] = [];
-  let depth = 0;
-  let inQuote = false;
-  let start = 0;
-  for (let i = 0; i < row.length; i++) {
-    const c = row[i];
-    if (c === '"' && row[i - 1] !== "\\") inQuote = !inQuote;
-    else if (inQuote) continue;
-    else if (c === "<" || c === "{" || c === "[") depth++;
-    else if (c === ">" || c === "}" || c === "]") depth--;
-    else if (c === "," && depth === 0) {
-      cells.push(row.slice(start, i));
-      start = i + 1;
-    }
-  }
-  cells.push(row.slice(start));
-  return cells.map((c) => c.trim().replace(/^"|"$/g, ""));
-}
-
-/**
- * Parse the `<DocTable columns={[...]} rows={[...]}/>` blocks on a pricing page.
- *
- * Column count varies by family: the v1 series has a single input price where
- * k2.6 and newer split cache hit from cache miss, so cells are located by
- * column title rather than by position.
- */
-function parsePricingPage(md: string): DocsModel[] {
-  const out: DocsModel[] = [];
-  for (const table of md.matchAll(
-    /columns=\{\[([\s\S]*?)\]\}\s*rows=\{\[([\s\S]*?)\]\}\s*\/>/g,
+function parsePricingPage(html: string, md: string): DocsModel[] {
+  const context = new Map<string, number>();
+  for (const match of md.matchAll(
+    /All (K\d+) series models support a ([\d,]+)-token context window/gi,
   )) {
-    const titles = [...table[1].matchAll(/title:\s*"([^"]+)"/g)].map((m) =>
-      m[1].trim().replace(/\s+/g, " ").toLowerCase(),
-    );
-    const col = (test: (t: string) => boolean) => titles.findIndex(test);
-    const iId = col((t) => t === "model");
-    const iCtx = col((t) => t.includes("context"));
-    const iOut = col((t) => t.startsWith("output"));
-    const iMiss = col((t) => t.includes("cache miss"));
-    const iHit = col((t) => t.includes("cache hit") || t.startsWith("cached"));
-    // No split means the single input column is the headline rate.
-    const iIn = iMiss >= 0 ? iMiss : col((t) => t.startsWith("input"));
-    const iCacheWrite = col(
-      (t) => t.startsWith("cache write") && !/\b1h\b/.test(t),
-    );
-    const iCacheWrite1h = col(
-      (t) => t.startsWith("cache write") && /\b1h\b/.test(t),
-    );
-    if (iId < 0) continue;
+    context.set(match[1].toLowerCase(), Number(match[2].replaceAll(",", "")));
+  }
 
-    for (const row of table[2].matchAll(/\[([\s\S]*?)\],?\s*(?=\[|$)/g)) {
-      const cells = splitRow(row[1]);
-      const id = cells[iId];
-      if (!id || !/^[a-z]/.test(id)) continue;
-      out.push({
-        id,
-        input: iIn >= 0 ? cellNumber(cells[iIn] ?? "") : undefined,
-        output: iOut >= 0 ? cellNumber(cells[iOut] ?? "") : undefined,
-        cached_input: iHit >= 0 ? cellNumber(cells[iHit] ?? "") : undefined,
-        cache_write:
-          iCacheWrite >= 0 ? cellNumber(cells[iCacheWrite] ?? "") : undefined,
-        cache_write_1h:
-          iCacheWrite1h >= 0
-            ? cellNumber(cells[iCacheWrite1h] ?? "")
-            : undefined,
-        context_window: iCtx >= 0 ? cellNumber(cells[iCtx] ?? "") : undefined,
-      });
-    }
+  const out: DocsModel[] = [];
+  for (const row of html.matchAll(
+    /\[_jsx\(_components\.a,\{[^}]*children:`(kimi-[a-z0-9.-]+)`\}\),([^\]]+)\]/g,
+  )) {
+    const prices = [...row[2].matchAll(/\$([\d.]+) \/ MTok/g)].map((m) =>
+      Number(m[1]),
+    );
+    if (prices.length !== 3 && prices.length !== 5) continue;
+    const id = row[1];
+    const series = id.match(/^kimi-(k\d+)/)?.[1];
+    out.push({
+      id,
+      input: prices[0],
+      output: prices[1],
+      cached_input: prices[2],
+      cache_write: prices[3],
+      cache_write_1h: prices[4],
+      context_window: series ? context.get(series) : undefined,
+    });
   }
   return out;
 }
@@ -283,15 +230,24 @@ interface ApiModel {
 async function main() {
   console.log("Fetching Moonshot AI models...");
 
-  // 1. Public pricing docs are the catalog.
-  const pricingMd = await fetchText(PRICING_INDEX);
-  const docsModels = new Map(
-    parsePricingPage(pricingMd).map((model) => [model.id, model]),
+  const [modelsMd, pricingMd, pricingHtml] = await Promise.all([
+    fetchText(MODEL_LIST),
+    fetchText(PRICING_INDEX),
+    fetchText(PRICING_PAGE),
+  ]);
+  const priced = new Map(
+    parsePricingPage(pricingHtml, pricingMd).map((model) => [model.id, model]),
   );
-  console.log(`Parsed ${docsModels.size} models from pricing docs`);
+  assertParsed(priced.size, "moonshot pricing");
+  const docsModels = new Map(
+    parseModelList(modelsMd).map((id) => [id, priced.get(id) ?? { id }]),
+  );
+  console.log(
+    `Parsed ${docsModels.size} active models, ${priced.size} prices from docs`,
+  );
   assertParsed(docsModels.size, "moonshot");
 
-  // 2. Optional: the API adds release dates but needs a key.
+  // Optional: the API adds release dates but needs a key.
   const apiKey = envOrNull("MOONSHOT_API_KEY");
   const apiModels = new Map<string, ApiModel>();
   if (apiKey && API_URL) {

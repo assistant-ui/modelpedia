@@ -1,4 +1,4 @@
-import { fetchJson } from "./parse.ts";
+import { fetchJson, fetchText, parseAllHtmlTables } from "./parse.ts";
 import {
   inferFamily,
   inferParameters,
@@ -9,19 +9,11 @@ import {
   upsertWithSnapshot,
 } from "./shared.ts";
 
-/**
- * Fetch Meta Llama models from Hugging Face API.
- * No API key needed — uses expand[] params for richer metadata.
- *
- * Scope: this covers Meta's open-weight releases only, which is everything the
- * meta-llama org publishes. Meta's hosted models (Muse Spark and later) are not
- * there, and llama.developer.meta.com is a geo-gated single-page app with no
- * parseable catalog, so they are absent from this provider until a key-free
- * first-party source exists. check-freshness.ts reports the resulting lag.
- */
+/** Fetch Meta's public model listings from Hugging Face and Meta's model docs. */
 
 const sources = readSources("meta");
 const BASE_API_URL = sources.api as string;
+const MODELS_DOCS_URL = "https://dev.meta.ai/docs/models";
 
 // Expand params to fetch richer metadata from HuggingFace list API
 const EXPAND_PARAMS = [
@@ -132,7 +124,7 @@ function extractKnowledgeCutoff(
 }
 
 async function main() {
-  console.log("Fetching Meta Llama models...");
+  console.log("Fetching Meta models...");
 
   // Fetch from both pipelines: text-generation (Llama 2/3) and
   // image-text-to-text (Llama 3.2 Vision, Llama 4 Scout/Maverick)
@@ -141,11 +133,35 @@ async function main() {
     "pipeline_tag=text-generation",
     "pipeline_tag=image-text-to-text",
   );
+  const museApiUrl = new URL(BASE_API_URL);
+  museApiUrl.searchParams.set("author", "meta-models");
+  museApiUrl.searchParams.delete("pipeline_tag");
+  const museUrl = `${museApiUrl}&${EXPAND_PARAMS}`;
 
-  const [textModels, visionModels] = await Promise.all([
+  const [textModels, visionModels, museRepos, docsHtml] = await Promise.all([
     fetchJson<HFModelListItem[]>(apiUrl),
     fetchJson<HFModelListItem[]>(visionApiUrl),
+    fetchJson<HFModelListItem[]>(museUrl),
+    fetchText(MODELS_DOCS_URL),
   ]);
+
+  const museModels = museRepos.filter(
+    (m) =>
+      m.tags?.some((tag) =>
+        ["text-generation", "image-text-to-text"].includes(tag),
+      ) && !m.tags.includes("feature-extraction"),
+  );
+  const hostedModels = parseAllHtmlTables(docsHtml)
+    .filter((table) => table[0]?.some((cell) => cell.includes("Model API")))
+    .flatMap((table) =>
+      table.slice(1).flatMap((row) => {
+        const match = row[0]?.match(/^(.+?)\s*\(\s*([a-z0-9._-]+)\s*\)$/i);
+        return match ? [{ id: match[2], name: match[1] }] : [];
+      }),
+    );
+  if (museModels.length === 0 || hostedModels.length === 0) {
+    throw new Error("Meta's public Muse listings returned no models");
+  }
 
   // Deduplicate by id
   const seen = new Set<string>();
@@ -250,6 +266,40 @@ async function main() {
     written += upsertWithSnapshot("meta", entry);
   }
 
+  for (const m of museModels) {
+    const shortName = m.id.split("/").pop() ?? m.id;
+    const inferred = inferParameters(shortName);
+    written += upsertWithSnapshot("meta", {
+      id: shortName,
+      name: shortName,
+      family: shortName.toLowerCase().replace(/-\d.*$/, ""),
+      parameters:
+        inferred?.parameters ??
+        (m.safetensors?.total ? toBillions(m.safetensors.total) : undefined),
+      active_parameters: inferred?.active_parameters,
+      license: extractLicense(m.cardData),
+      release_date: m.createdAt?.split("T")[0],
+      page_url: hfPageUrl(m.id),
+      modalities: {
+        input: m.tags.includes("image-text-to-text")
+          ? ["text", "image"]
+          : ["text"],
+        output: ["text"],
+      },
+    });
+  }
+
+  for (const m of hostedModels) {
+    written += upsertWithSnapshot("meta", {
+      ...m,
+      family: m.id.replace(/-\d.*$/, ""),
+      page_url: MODELS_DOCS_URL,
+    });
+  }
+
+  console.log(
+    `Found ${museModels.length} Muse repos and ${hostedModels.length} hosted models`,
+  );
   console.log(`Wrote ${written} models`);
   runGenerate();
 }

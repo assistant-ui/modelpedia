@@ -1,3 +1,6 @@
 {
-  "docs": "https://opencode.ai/docs/zen.md"
+  "docs": "https://opencode.ai/v2/docs/console/models/",
+  "models": "https://opencode.ai/inference/v1/models",
+  "go_docs": "https://opencode.ai/v2/docs/console/go/",
+  "go_models": "https://opencode.ai/inference/go/v1/models"
 }

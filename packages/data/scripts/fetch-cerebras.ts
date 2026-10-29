@@ -95,11 +95,13 @@ function parseOverview(md: string): OverviewInfo[] {
         .slice(1, -1)
         .map((c) => c.trim());
       const linkMatch = cells[nameIndex]?.match(
-        /\[([^\]]+)\]\((\/models\/[^)]+)\)/,
+        /\[([^\]]+)\]\((https:\/\/inference-docs\.cerebras\.ai\/models\/[^)]+|\/models\/[^)]+)\)/,
       );
       if (!linkMatch) continue;
       const name = linkMatch[1].replace(/<sup>.*?<\/sup>/g, "").trim();
-      const slug = linkMatch[2].replace("/models/", "").trim();
+      const slug = new URL(linkMatch[2], OVERVIEW_URL).pathname
+        .replace(/^\/models\//, "")
+        .replace(/\.md$/, "");
       const id = cells[idIndex]?.replace(/`/g, "").trim();
       if (!id) continue;
       result.push({
@@ -117,9 +119,7 @@ function parseOverview(md: string): OverviewInfo[] {
   return result;
 }
 
-// ── Model page parsing (.md MDX source) ──
-// The .md endpoint returns raw MDX with a <ModelInfo /> component carrying all
-// data as props (features, endpoints, inputOutput, contextLength, pricing, ...).
+// ── Model page parsing ──
 
 interface ModelPageData {
   id: string;
@@ -131,8 +131,6 @@ interface ModelPageData {
   pricing?: { input: number; output: number };
   capabilities: Record<string, boolean>;
   modalities: { input: string[]; output: string[] };
-  endpoints: string[];
-  notes?: string;
 }
 
 const FEATURE_MAP: Record<string, string> = {
@@ -144,105 +142,47 @@ const FEATURE_MAP: Record<string, string> = {
   "parallel tool calling": "tool_call",
   "prompt caching": "prompt_caching",
   vision: "vision",
+  "image inputs": "vision",
 };
-
-const ENDPOINT_MAP: Record<string, string> = {
-  "chat completions": "chat_completions",
-  completions: "completions",
-  models: "models",
-};
-
-function parseJsArray(raw: string): string[] {
-  return [...raw.matchAll(/"([^"]+)"/g)].map((m) => m[1]);
-}
 
 function parseModelPage(md: string): ModelPageData | null {
-  const idMatch = md.match(/modelId="([\w.-]+)"/);
+  const idMatch =
+    md.match(/Model ID:\s*`([\w.-]+)`/) ??
+    md.match(/^Model ID\s*\n\s*`([\w.-]+)`/m);
   if (!idMatch) return null;
   const id = idMatch[1];
-
-  const titleMatch =
-    md.match(/title:\s*["']?([^"'\n]+)/) ?? md.match(/^#\s+(.+)$/m);
-  const display_name = titleMatch?.[1]?.replace(/\\$/g, "").trim();
-
-  const cardMatch = md.match(/modelCardUrl="([^"]+)"/);
-  const model_card_url = cardMatch?.[1];
-
-  const speedMatch = md.match(/speed=\{\{[\s\S]*?value:\s*"~?(\d+)"/);
-  const speed = speedMatch ? Number(speedMatch[1]) : undefined;
-
-  const ctxMatch = md.match(
-    /contextLength=\{\{[\s\S]*?paidTiers:\s*"(\d+)[kK]\s*tokens"/i,
-  );
-  const context_window = ctxMatch ? Number(ctxMatch[1]) * 1000 : undefined;
-
-  const maxOutMatch = md.match(
-    /maxOutput=\{\{[\s\S]*?paidTiers:\s*"(\d+)[kK]\s*tokens"/i,
-  );
-  const max_output_tokens = maxOutMatch
-    ? Number(maxOutMatch[1]) * 1000
-    : undefined;
-
-  const inputPrice = md.match(/inputPrice:\s*"\$([\d.]+)/);
-  const outputPrice = md.match(/outputPrice:\s*"\$([\d.]+)/);
+  const display_name = md.match(/^#\s+(.+)$/m)?.[1].trim();
+  const model_card_url = md.match(/\[Model card\]\(([^)]+)\)/i)?.[1];
+  const speed =
+    Number(md.match(/Speed:\s*\\?~?(\d+)\s*tokens\/sec/i)?.[1]) || undefined;
+  const stats = md.split("### Model Stats")[1]?.split("### Pricing")[0] ?? "";
+  const context_window =
+    Number(stats.match(/CONTEXT WINDOW[\s\S]*?Paid\s*(\d+)k tokens/i)?.[1]) *
+      1000 || undefined;
+  const max_output_tokens =
+    Number(stats.match(/MAX OUTPUT[\s\S]*?Paid\s*(\d+)k tokens/i)?.[1]) *
+      1000 || undefined;
+  const prices = md.split("### Pricing")[1] ?? "";
+  const inputPrice = prices.match(/Input\s*\\?\$([\d.]+)/i);
+  const outputPrice = prices.match(/Output\s*\\?\$([\d.]+)/i);
   const pricing =
     inputPrice && outputPrice
       ? { input: Number(inputPrice[1]), output: Number(outputPrice[1]) }
       : undefined;
 
-  // Features → capabilities
   const caps: Record<string, boolean> = {};
-  const featMatch = md.match(/features=\{(\[[\s\S]*?\])\}/);
+  const featMatch = md.match(/Capabilities:\s*([^\n.]+)/i);
   if (featMatch) {
-    for (const feat of parseJsArray(featMatch[1])) {
-      const key = FEATURE_MAP[feat.toLowerCase()];
+    for (const feat of featMatch[1].split(/,|\band\b/i)) {
+      const key = FEATURE_MAP[feat.trim().toLowerCase()];
       if (key) caps[key] = true;
     }
   }
   if (Object.keys(caps).length === 0) caps.streaming = true;
-
-  // Modalities from inputOutput prop
-  const ioMatch = md.match(/inputOutput=\{\{([\s\S]*?)\}\}/);
-  let modalities = { input: ["text"], output: ["text"] };
-  if (ioMatch) {
-    const inMatch = ioMatch[1].match(/inputFormats:\s*(\[[\s\S]*?\])/);
-    const outMatch = ioMatch[1].match(/outputFormats:\s*(\[[\s\S]*?\])/);
-    modalities = {
-      input: inMatch ? parseJsArray(inMatch[1]) : ["text"],
-      output: outMatch ? parseJsArray(outMatch[1]) : ["text"],
-    };
-  }
-
-  // Endpoints
-  const endpoints: string[] = [];
-  const epMatch = md.match(/endpoints=\{(\[[\s\S]*?\])\}/);
-  if (epMatch) {
-    for (const ep of parseJsArray(epMatch[1])) {
-      const mapped = ENDPOINT_MAP[ep.toLowerCase()];
-      if (mapped && !endpoints.includes(mapped)) endpoints.push(mapped);
-    }
-  }
-
-  // Model notes from knownLimitations JSX array: [<span>text</span>, <span>text</span>]
-  const limMatch = md.match(/knownLimitations=\{(\[[\s\S]*?\])\}\s*\n/);
-  let notes: string | undefined;
-  if (limMatch) {
-    const items = limMatch[1]
-      .split(/,\s*(?=<span)/i)
-      .map((s) =>
-        s
-          .replace(/<[^>]+>/g, "")
-          .replace(/\{[^}]*\}/g, "")
-          .replace(/^\s*[[\]]\s*/g, "")
-          .replace(/,\s*$/g, "")
-          .replace(/&lt;/g, "<")
-          .replace(/&gt;/g, ">")
-          .replace(/&amp;/g, "&")
-          .trim(),
-      )
-      .filter((s) => s.length > 5);
-    notes = items.length > 0 ? items.join(" ") : undefined;
-  }
+  const modalities = {
+    input: /image inputs/i.test(md) ? ["text", "image"] : ["text"],
+    output: ["text"],
+  };
 
   return {
     id,
@@ -254,8 +194,6 @@ function parseModelPage(md: string): ModelPageData | null {
     pricing,
     capabilities: caps,
     modalities,
-    endpoints,
-    notes,
   };
 }
 
@@ -263,33 +201,27 @@ function parseModelPage(md: string): ModelPageData | null {
 
 interface DeprecatedModel {
   id: string;
+  name?: string;
   date: string;
   successor?: string;
 }
 
-/**
- * Parse the markdown deprecation log. Each entry is an
- *   <Update label="YYYY-MM-DD"> ... </Update>
- * block. Deprecated model ids are the backticked, model-id-shaped tokens
- * before the "recommend/migrate/transition" phrase; the successor is the
- * model linked/backticked after it. Sections that deprecate an API parameter
- * (e.g. `disable_reasoning`) rather than a model are skipped.
- */
 function parseDeprecations(
   md: string,
   slugToId: Map<string, string>,
 ): DeprecatedModel[] {
   const deprecated: DeprecatedModel[] = [];
-  const blockRe = /<Update label="(\d{4}-\d{2}-\d{2})">([\s\S]*?)<\/Update>/g;
-  let block: RegExpExecArray | null;
-  while ((block = blockRe.exec(md)) !== null) {
-    const date = block[1];
-    const body = block[2];
+  for (const block of md.split(/(?=^\*\*\d{4}-\d{2}-\d{2}\*\*$)/m)) {
+    const heading = block.match(/^\*\*(\d{4}-\d{2}-\d{2})\*\*\s*\n/);
+    if (!heading) continue;
+    const date = heading[1];
+    const body = block.slice(heading[0].length);
     const title = (body.match(/\*\*([\s\S]*?)\*\*/)?.[1] ?? body).trim();
-    // Parameter deprecations are not model deprecations.
     if (/\bparameter\b/i.test(title)) continue;
 
-    const recommendPos = body.search(/recommend|migrat|transition/i);
+    const recommendPos = body.search(
+      /\brecommend|\bmigrat|\btransition|^Use\s/im,
+    );
     const cutoff = recommendPos < 0 ? body.length : recommendPos;
 
     const depIds = [...body.slice(0, cutoff).matchAll(/`([^`]+)`/g)]
@@ -297,8 +229,6 @@ function parseDeprecations(
       .filter(looksLikeModelId);
     if (depIds.length === 0) continue;
 
-    // Successor: prefer a /models/<slug> link after "recommend", resolved to
-    // its model id; fall back to a backticked model id.
     let successor: string | undefined;
     const after = recommendPos < 0 ? "" : body.slice(recommendPos);
     const linkSlug = after.match(/\/models\/([a-z0-9-]+)/)?.[1];
@@ -309,7 +239,8 @@ function parseDeprecations(
         .find(looksLikeModelId);
     }
 
-    for (const id of depIds) deprecated.push({ id, date, successor });
+    const name = title.match(/^(.+?) availability changes with/i)?.[1];
+    for (const id of depIds) deprecated.push({ id, name, date, successor });
   }
   return deprecated;
 }
@@ -387,8 +318,7 @@ async function main() {
       reasoning_tokens: caps.reasoning ? true : undefined,
       capabilities: caps,
       modalities: page.modalities,
-      endpoints:
-        page.endpoints.length > 0 ? page.endpoints : ["chat_completions"],
+      endpoints: ["chat_completions", "completions"],
       ...extra,
     };
     if (page.pricing) entry.pricing = page.pricing;
@@ -412,7 +342,7 @@ async function main() {
         const depParams = inferParameters(dep.id);
         const entry: ModelEntry = {
           id: dep.id,
-          name: dep.id,
+          name: dep.name ?? dep.id,
           created_by: extractCreator(dep.id),
           family: inferFamily(dep.id),
           model_type: "chat",

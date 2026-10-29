@@ -7,6 +7,7 @@ import {
   stripHtml,
 } from "./parse.ts";
 import {
+  assertParsed,
   buildPricing,
   envOrNull,
   type ModelEntry,
@@ -27,7 +28,7 @@ import {
  */
 
 const sources = readSources("deepseek");
-const PRICING_URL = sources.docs as string;
+const PRICING_URL = `${(sources.docs as string).replace(/\/+$/, "")}/`;
 const CHANGELOG_URL = sources.changelog as string;
 
 // ── Pricing page parsing ──
@@ -48,9 +49,12 @@ function stripFootnote(s: string): string {
 
 function parsePricingPage(html: string): ParsedModel[] {
   const tables = findHtmlTables(html);
-  if (tables.length === 0) return [];
-
-  const table = tables[0];
+  const table = tables.find(
+    (t) =>
+      t.rows.some((row) => row[0]?.trim().toUpperCase() === "MODEL") &&
+      t.rows.some((row) => row[0]?.toUpperCase().includes("PRICING")),
+  );
+  if (!table) return [];
   const modelIds: string[] = [];
   const versions: (string | undefined)[] = [];
   const features: string[][] = [];
@@ -60,11 +64,18 @@ function parsePricingPage(html: string): ParsedModel[] {
   const output: (number | undefined)[] = [];
   let context: number | undefined;
   let currentCategory = "";
+  let currentPriceName = "";
 
-  // Pricing cells can look like "$0.003625 (75% off(3))$0.0145" — the first $
-  // is the current (discounted) price, which is what we want.
-  const cellPrice = (cell: string | undefined): number | undefined =>
-    cell ? parsePrice(cell) : undefined;
+  const recordPrices = (name: string, row: string[], firstCell: number) => {
+    for (let i = 0; i < modelIds.length; i++) {
+      const p = parsePrice(row[i + firstCell] ?? "");
+      if (p == null) continue;
+      if (name.includes("CACHE HIT")) cachedInput[i] = p;
+      else if (name.includes("CACHE MISS")) input[i] = p;
+      else if (name.includes("INPUT") && input[i] == null) input[i] = p;
+      else if (name.includes("OUTPUT")) output[i] = p;
+    }
+  };
 
   for (const row of table.rows) {
     if (row.length < 2) continue;
@@ -109,17 +120,12 @@ function parsePricingPage(html: string): ParsedModel[] {
         }
       }
       if (currentCategory === "pricing" && itemName) {
-        for (let i = 0; i < modelIds.length; i++) {
-          const p = cellPrice(row[i + 2]);
-          if (p == null) continue;
-          if (itemName.includes("CACHE HIT")) cachedInput[i] = p;
-          else if (
-            itemName.includes("CACHE MISS") ||
-            itemName.includes("INPUT")
-          )
-            input[i] = p;
-          else if (itemName.includes("OUTPUT")) output[i] = p;
-        }
+        currentPriceName = itemName.toUpperCase();
+        recordPrices(
+          currentPriceName,
+          row,
+          row[2]?.trim().toUpperCase() === "OFF-PEAK" ? 3 : 2,
+        );
       }
     } else if (currentCategory === "feature") {
       const featureName = stripFootnote(row[0]?.trim() ?? "");
@@ -130,13 +136,15 @@ function parsePricingPage(html: string): ParsedModel[] {
       }
     } else if (currentCategory === "pricing") {
       const priceName = stripFootnote(row[0]?.trim() ?? "").toUpperCase();
-      for (let i = 0; i < modelIds.length; i++) {
-        const p = cellPrice(row[i + 1]);
-        if (p == null) continue;
-        if (priceName.includes("CACHE HIT")) cachedInput[i] = p;
-        else if (priceName.includes("CACHE MISS")) input[i] = p;
-        else if (priceName.includes("INPUT") && input[i] == null) input[i] = p;
-        else if (priceName.includes("OUTPUT")) output[i] = p;
+      if (priceName === "PEAK") continue;
+      if (priceName === "OFF-PEAK") recordPrices(currentPriceName, row, 1);
+      else {
+        currentPriceName = priceName;
+        recordPrices(
+          priceName,
+          row,
+          row[1]?.trim().toUpperCase() === "OFF-PEAK" ? 2 : 1,
+        );
       }
     }
   }
@@ -189,13 +197,22 @@ function parseChangelog(html: string): VersionEntry[] {
     const date = sections[i];
     const content = sections[i + 1] ?? "";
 
-    // V4 era introduces distinct SKUs that share a release date. Emit one
-    // entry per SKU so each gets its own version label.
-    const hasV4Flash = /\bdeepseek-v4-flash\b/i.test(content);
-    const hasV4Pro = /\bdeepseek-v4-pro\b/i.test(content);
-    if (hasV4Flash || hasV4Pro) {
-      if (hasV4Flash) emit(date, "DeepSeek-V4-Flash", "deepseek-v4-flash");
-      if (hasV4Pro) emit(date, "DeepSeek-V4-Pro", "deepseek-v4-pro");
+    const v4Heading = content.match(
+      /\bDeepSeek-V4(?:\.\d+)?(?:-Flash(?:-Vision-Exp|-\d{4})?|-Pro(?:-\d{4})?)?\b(?=\s*(?:Update|Release|\u200b))/i,
+    )?.[0];
+    if (v4Heading) {
+      if (/V4\.\d+-Flash/i.test(v4Heading))
+        emit(date, v4Heading, "deepseek-flash");
+      else if (/Flash-Vision-Exp/i.test(v4Heading))
+        emit(date, v4Heading, "deepseek-v4-flash-vision-exp");
+      else if (/V4-Flash/i.test(v4Heading))
+        emit(date, v4Heading, "deepseek-v4-flash");
+      else if (/V4-Pro/i.test(v4Heading))
+        emit(date, v4Heading, "deepseek-v4-pro");
+      else {
+        emit(date, "DeepSeek-V4-Flash", "deepseek-v4-flash");
+        emit(date, "DeepSeek-V4-Pro", "deepseek-v4-pro");
+      }
       continue;
     }
 
@@ -260,55 +277,15 @@ function shortVersion(version: string): string {
   return version.replace(/^DeepSeek[- ]/i, "");
 }
 
-// ── Fallback model definitions ──
-
-const FALLBACK_MODELS: ParsedModel[] = [
-  {
-    id: "deepseek-v4-flash",
-    version: "DeepSeek-V4-Flash",
-    context_window: 1_000_000,
-    max_output_tokens: 384_000,
-    features: [
-      "Json Output",
-      "Tool Calls",
-      "Chat Prefix Completion",
-      "FIM Completion",
-    ],
-    pricing: { input: 0.14, output: 0.28, cached_input: 0.0028 },
-  },
-  {
-    id: "deepseek-v4-pro",
-    version: "DeepSeek-V4-Pro",
-    context_window: 1_000_000,
-    max_output_tokens: 384_000,
-    features: [
-      "Json Output",
-      "Tool Calls",
-      "Chat Prefix Completion",
-      "FIM Completion",
-    ],
-    pricing: { input: 0.435, output: 0.87, cached_input: 0.003625 },
-  },
-];
-
 // ── Main ──
 
 async function main() {
   console.log("Fetching DeepSeek models...");
 
   // 1. Parse pricing page for current model specs
-  let parsed: ParsedModel[] = [];
-  try {
-    const html = await fetchText(PRICING_URL);
-    parsed = parsePricingPage(html);
-    console.log(`Parsed ${parsed.length} models from pricing page`);
-  } catch (err) {
-    console.warn("Could not fetch pricing page:", err);
-  }
-  if (parsed.length === 0) {
-    console.log("Using fallback model definitions");
-    parsed = FALLBACK_MODELS;
-  }
+  const parsed = parsePricingPage(await fetchText(PRICING_URL));
+  assertParsed(parsed.length, "DeepSeek pricing");
+  console.log(`Parsed ${parsed.length} models from pricing page`);
 
   // 2. Parse changelog for version history
   let versions: VersionEntry[] = [];
@@ -357,6 +334,9 @@ async function main() {
   let written = 0;
 
   for (const m of parsed) {
+    const inputModalities = m.features.includes("Vision")
+      ? ["text", "image"]
+      : ["text"];
     const isReasoner = m.id.includes("reasoner");
     const isChatOnly = m.id.includes("chat");
     // V4-era SKUs (deepseek-v4-flash, deepseek-v4-pro) are hybrid: they
@@ -368,7 +348,7 @@ async function main() {
     const allSnapshotIds = modelVersions.map((v) => `${m.id}-${v.date}`);
     const fallbackVersion = isHybrid ? "DeepSeek-V4" : "DeepSeek-V3.2";
     const versionLabel = shortVersion(
-      latestVersion?.version ?? fallbackVersion,
+      m.version ?? latestVersion?.version ?? fallbackVersion,
     );
 
     const variantSuffix = isReasoner
@@ -376,7 +356,7 @@ async function main() {
       : isChatOnly
         ? " (Chat)"
         : "";
-    const fullVersion = latestVersion?.version ?? fallbackVersion;
+    const fullVersion = m.version ?? latestVersion?.version ?? fallbackVersion;
     const description = isReasoner
       ? `${fullVersion} in thinking mode with chain-of-thought reasoning.`
       : isChatOnly
@@ -396,7 +376,7 @@ async function main() {
       context_window: m.context_window,
       max_output_tokens: m.max_output_tokens,
       capabilities: featuresToCapabilities(m.features, hasReasoning),
-      modalities: { input: ["text"], output: ["text"] },
+      modalities: { input: inputModalities, output: ["text"] },
       endpoints: isReasoner
         ? ["chat_completions"]
         : ["chat_completions", "completions"],
@@ -423,7 +403,9 @@ async function main() {
       const v = modelVersions[idx];
       const snapshotId = `${m.id}-${v.date}`;
       const isCurrent = idx === 0;
-      const label = shortVersion(v.version);
+      const label = shortVersion(
+        isCurrent ? (m.version ?? v.version) : v.version,
+      );
       const wasReasoning =
         isReasoner ||
         isHybrid ||
@@ -448,7 +430,7 @@ async function main() {
         deprecation_date: deprecationDate,
         successor,
         alias: m.id,
-        modalities: { input: ["text"], output: ["text"] },
+        modalities: { input: inputModalities, output: ["text"] },
         capabilities: {
           streaming: true,
           ...(wasReasoning ? { reasoning: true } : {}),

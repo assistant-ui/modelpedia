@@ -1,39 +1,25 @@
 import { fetchText } from "./parse.ts";
+import type { Modality } from "../src/types.ts";
 import {
+  assertParsed,
   type ModelEntry,
   readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
 
-/**
- * Fetch MiniMax models from their docs .md endpoints.
- * - Pricing from pricing-paygo.md (input, output, cached_input, cache_write)
- * - Context window & description from text-anthropic-api.md model table
- * No API key needed.
- */
-
 const sources = readSources("minimax");
 const PRICING_MD = sources.pricing as string;
 const MODELS_MD = sources.models as string;
+const CATALOG_MD = "https://platform.minimax.io/docs/faq/models.md";
 
-function parseDollar(s: string | undefined): number | undefined {
-  const m = s?.match(/\$([\d.]+)/);
-  return m ? Number(m[1]) : undefined;
-}
-
-/** Normalize model name to lowercase ID. */
 function toId(name: string): string {
   return name.toLowerCase().replace(/\s+/g, "-");
 }
 
-/**
- * Strip HTML and tier annotations from a pricing-table name cell. M3 rows carry
- * markup like "MiniMax-M3<br />≤ 512k input tokens <span ...>7-day 50% off</span>";
- * only the leading model token is the name.
- */
-function cleanModelName(cell: string): string {
-  return cell.split("<")[0].trim();
+function parseDollar(cell: string | undefined): number | undefined {
+  const prices = [...(cell ?? "").matchAll(/\$([\d.]+)/g)];
+  return prices.length ? Number(prices[prices.length - 1][1]) : undefined;
 }
 
 interface ModelSpec {
@@ -41,131 +27,159 @@ interface ModelSpec {
   description?: string;
 }
 
-/**
- * Parse the model table from the Anthropic API reference page.
- * Table columns: Model Name | Context Window | Description
- */
 function parseModelSpecs(md: string): Map<string, ModelSpec> {
   const specs = new Map<string, ModelSpec>();
-  const lines = md.split("\n");
+  const table = md.split("## Supported Models")[1]?.split("\n## ")[0] ?? "";
 
-  for (const line of lines) {
-    if (!line.trimStart().startsWith("|")) continue;
-    // Skip headers and separators
-    if (line.includes("Model") && line.includes("Context")) continue;
-    if (/^\|\s*:?-/.test(line)) continue;
-
-    const cells = line
-      .split("|")
-      .map((c) => c.replace(/\*\*/g, "").trim())
-      .filter(Boolean);
-    if (cells.length < 2) continue;
-
-    const name = cells[0];
-    if (!name.startsWith("MiniMax") && !name.startsWith("M2")) continue;
-
-    const id = toId(name);
-    const spec: ModelSpec = {};
-
-    // Context window (column 2)
-    if (cells[1]) {
-      const cwText = cells[1].replace(/,/g, "");
-      const cwNum = Number.parseInt(cwText, 10);
-      if (!Number.isNaN(cwNum) && cwNum > 0) {
-        spec.context_window = cwNum;
-      }
-    }
-
-    // Description (column 3) — strip surrounding quotes and tps info
-    if (cells[2]) {
-      let desc = cells[2]
-        .replace(/^[""]|[""]$/g, "")
-        .replace(/\s*\(.*?tps\)$/i, "")
-        .trim();
-      // Remove trailing period artifacts
-      desc = desc.replace(/\.\s*$/, "").trim();
-      if (desc) {
-        spec.description = desc;
-      }
-    }
-
-    specs.set(id, spec);
+  for (const line of table.split("\n")) {
+    const cells = line.split("|").map((cell) => cell.trim());
+    if (cells.length < 5 || !/^MiniMax-/.test(cells[1])) continue;
+    const context = Number(cells[2].replace(/,/g, ""));
+    specs.set(toId(cells[1]), {
+      ...(context > 0 ? { context_window: context } : {}),
+      description: cells[3].replace(/\*\*/g, "").replace(/\.\s*$/, ""),
+    });
   }
 
   return specs;
 }
 
+function parseTokenPricing(md: string): Map<string, ModelEntry["pricing"]> {
+  const prices = new Map<string, ModelEntry["pricing"]>();
+  const llm = md.split("## LLM")[1]?.split("\n## Video")[0] ?? "";
+
+  for (const line of llm.split("\n")) {
+    const name = line.match(/^\|\s*\*\*(MiniMax-[^*]+)\*\*/)?.[1];
+    if (!name) continue;
+    const id = toId(name);
+    if (prices.has(id)) continue;
+    const cells = line.split("|").map((cell) => cell.trim());
+    const input = parseDollar(cells[2]);
+    const output = parseDollar(cells[3]);
+    const cachedRead = parseDollar(cells[4]);
+    if (input == null || output == null) continue;
+    prices.set(id, {
+      input,
+      output,
+      ...(cachedRead != null ? { cached_input: cachedRead } : {}),
+    });
+  }
+
+  return prices;
+}
+
+interface CatalogModel {
+  name: string;
+  description?: string;
+  model_type: "chat" | "video" | "audio" | "image";
+}
+
+function parseCatalog(md: string, pricingMd: string): CatalogModel[] {
+  const available =
+    md.split("## Available Models")[1]?.split("\n## Retired Models")[0] ?? "";
+  const models = new Map<string, CatalogModel>();
+  let modelType: CatalogModel["model_type"] | undefined;
+
+  for (const line of available.split("\n")) {
+    const heading = line.match(/^### (.+)$/)?.[1];
+    if (heading) {
+      modelType =
+        heading === "LLM"
+          ? "chat"
+          : heading === "Video Models"
+            ? "video"
+            : heading === "Speech Models"
+              ? "audio"
+              : heading === "Image Models"
+                ? "image"
+                : undefined;
+    }
+    const row = line.match(/^\|\s*\[([^\]]+)\]\([^)]+\)\s*\|\s*(.*?)\s*\|$/);
+    if (!row || !modelType) continue;
+    models.set(toId(row[1]), {
+      name: row[1],
+      description: row[2].replace(/\.\s*$/, ""),
+      model_type: modelType,
+    });
+  }
+
+  const videoPricing =
+    pricingMd.split("## Video")[1]?.split("\n## Audio")[0] ?? "";
+  for (const line of videoPricing.split("\n")) {
+    const name = line.match(/<td[^>]*>\*\*(MiniMax-H3[^*]+)\*\*/)?.[1];
+    if (name && !models.has(toId(name))) {
+      models.set(toId(name), { name, model_type: "video" });
+    }
+  }
+
+  return [...models.values()];
+}
+
 async function main() {
   console.log("Fetching MiniMax models from docs...");
-
-  // Fetch both sources in parallel
-  const [pricingMd, modelsMd] = await Promise.all([
+  const [pricingMd, modelsMd, catalogMd] = await Promise.all([
     fetchText(PRICING_MD),
-    MODELS_MD ? fetchText(MODELS_MD) : Promise.resolve(""),
+    fetchText(MODELS_MD),
+    fetchText(CATALOG_MD),
   ]);
 
-  // Build model specs lookup from Anthropic API docs
-  const modelSpecs = parseModelSpecs(modelsMd);
-
-  // Parse pricing tables
-  const lines = pricingMd.split("\n");
-  const seen = new Set<string>();
+  const catalog = parseCatalog(catalogMd, pricingMd);
+  assertParsed(catalog.length, "MiniMax model catalog");
+  const specs = parseModelSpecs(modelsMd);
+  const prices = parseTokenPricing(pricingMd);
+  for (const model of catalog) {
+    if (model.model_type === "chat" && !prices.has(toId(model.name))) {
+      throw new Error(`MiniMax pricing missing for ${model.name}`);
+    }
+  }
   let written = 0;
 
-  for (const line of lines) {
-    if (!line.trimStart().startsWith("|")) continue;
-    // Skip headers/separators
-    if (line.includes("Model") && line.includes("Input")) continue;
-    if (/^\|\s*:?-/.test(line)) continue;
-
-    const cells = line
-      .split("|")
-      .map((c) => c.replace(/\*\*/g, "").trim())
-      .filter(Boolean);
-    if (cells.length < 3) continue;
-
-    const name = cleanModelName(cells[0]);
-    if (!name.startsWith("MiniMax") && !name.startsWith("M2")) continue;
-
-    const input = parseDollar(cells[1]);
-    const output = parseDollar(cells[2]);
-    const cachedRead = parseDollar(cells[3]);
-    const cacheWrite = parseDollar(cells[4]);
-
-    if (input == null || output == null) continue;
-
-    const id = toId(name);
-    // M3 is listed once per tab/tier (Standard/Priority × ≤512k/>512k); the
-    // first row is the Standard ≤512k list price. Keep it, drop the rest.
-    if (seen.has(id)) continue;
-    seen.add(id);
-    const spec = modelSpecs.get(id);
-
+  for (const model of catalog) {
+    const id = toId(model.name);
+    const spec = specs.get(id);
+    const input: Modality[] =
+      model.model_type === "chat"
+        ? ["text", "image", "video"]
+        : model.model_type === "video"
+          ? id.startsWith("minimax-h3")
+            ? ["text", "image", "video", "audio"]
+            : ["text", "image"]
+          : model.model_type === "audio"
+            ? ["text"]
+            : ["text", "image"];
+    const output: Modality =
+      model.model_type === "chat"
+        ? "text"
+        : model.model_type === "audio"
+          ? "audio"
+          : model.model_type;
     const entry: ModelEntry = {
       id,
-      name,
+      name: model.name,
       family: "minimax",
-      license:
-        /m2\.?[0-7]($|-)/i.test(id) && !/m2\.?7/i.test(id)
-          ? "mit"
-          : "proprietary",
-      capabilities: { streaming: true, tool_call: true },
-      pricing: {
-        input,
-        output,
-        ...(cachedRead != null ? { cached_input: cachedRead } : {}),
-        ...(cacheWrite != null ? { cache_write: cacheWrite } : {}),
-      },
-      ...(spec?.context_window != null
-        ? { context_window: spec.context_window }
-        : {}),
-      ...(spec?.description ? { description: spec.description } : {}),
+      description: spec?.description ?? model.description,
+      context_window: spec?.context_window,
+      status: "active",
+      model_type: model.model_type,
+      modalities: { input, output: [output] },
+      ...(model.model_type === "chat"
+        ? { capabilities: { streaming: true, tool_call: true } }
+        : {
+            capabilities: {
+              streaming: model.model_type === "audio",
+              tool_call: false,
+            },
+          }),
+      ...(model.model_type === "chat"
+        ? { pricing: prices.get(id) }
+        : model.model_type === "video"
+          ? { pricing: { input: null, output: null } }
+          : {}),
     };
-
     written += upsertWithSnapshot("minimax", entry);
   }
 
-  console.log(`Wrote ${written} models`);
+  console.log(`Parsed ${catalog.length} models; wrote ${written} models`);
   runGenerate();
 }
 
