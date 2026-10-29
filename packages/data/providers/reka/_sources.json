@@ -1,5 +1,3 @@
 {
-  "models": "https://api.reka.ai/v1/models",
-  "pricing": "https://docs.reka.ai/pricing",
-  "pricing_md": "https://docs.reka.ai/pricing.md"
+  "models": "https://developer.reka.ai/models"
 }

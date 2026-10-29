@@ -3,11 +3,12 @@ import {
   assertParsed,
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertModel,
 } from "./shared.ts";
 
-const CATALOG_URL = "https://developer.reka.ai/models";
+const CATALOG_URL = readSources("reka").models as string;
 
 const HOSTED_CREATORS: [RegExp, string][] = [
   [/^deepseek/, "deepseek"],
