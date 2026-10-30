@@ -1,6 +1,6 @@
 {
   "id": "inclusionai/ling-3.1-flash",
-  "name": "Ling 3.1 Flash",
+  "name": "Ling 3.1 Flash 1019",
   "created_by": "inclusionai",
   "source": "official",
   "description": "Hybrid reasoning model with a 1M-token context window, featuring 560B total parameters and 25B activated parameters.",
@@ -22,7 +22,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "bc098e81",
+    "name": "2506a2f3",
     "description": "756e9809",
     "status": "379ac110",
     "release_date": "1ec3c8a2",
@@ -36,7 +36,7 @@
     "tools": "f0c1dc7e",
     "pricing": "8eb8395f"
   },
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "pricing": {
     "input": 0.3,
     "output": 0.9

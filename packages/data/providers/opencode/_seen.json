@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 98,
+  "date": "2026-10-30",
+  "count": 97,
   "ids": [
     "beam-free",
     "big-pickle",
@@ -14,7 +14,6 @@
     "claude-opus-4-8",
     "claude-opus-5",
     "claude-opus-5-5",
-    "claude-opus-5-5-backup",
     "claude-sonnet-4-5",
     "claude-sonnet-4-6",
     "claude-sonnet-5",

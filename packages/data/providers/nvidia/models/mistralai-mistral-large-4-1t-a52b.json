@@ -1,0 +1,23 @@
+{
+  "id": "mistralai/mistral-large-4-1t-a52b",
+  "name": "mistral-large-4-1t-a52b",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-large",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f12e6dc9",
+    "family": "70f9d51d",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-30"
+}

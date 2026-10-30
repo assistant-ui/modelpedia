@@ -4,7 +4,7 @@
   "created_by": "baidu",
   "source": "official",
   "description": "The ERNIE 4.5 series of open-source models adopts a Mixture-of-Experts (MoE) architecture, representing an innovative multimodal heterogeneous model structure.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-30",
   "context_window": 120000,
   "max_output_tokens": 8000,
@@ -30,7 +30,7 @@
   "_generated": {
     "name": "b6c8160c",
     "description": "a0725509",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "98c5c998",
     "context_window": "5344237a",
     "max_output_tokens": "67ff32d4",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-30"
 }

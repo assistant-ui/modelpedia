@@ -4,7 +4,7 @@
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-opus",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,10 +16,10 @@
   "_generated": {
     "name": "46c843f5",
     "family": "4e4c4b18",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-10-30"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "baseten/joey-1",
+  "name": "joey-1",
+  "created_by": "baseten",
+  "source": "official",
+  "context_window": 16400,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.01,
+    "output": 0
+  },
+  "_generated": {
+    "name": "ec882c83",
+    "context_window": "e375a58e",
+    "capabilities": "0fa77dc6",
+    "pricing": "2811ebe9"
+  },
+  "last_updated": "2026-10-30"
+}

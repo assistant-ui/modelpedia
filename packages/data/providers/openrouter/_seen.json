@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 469,
+  "date": "2026-10-30",
+  "count": 468,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -436,7 +436,6 @@
     "unbiased-pareto-26.9",
     "undi95-remm-slerp-l2-13b",
     "upstage-solar-mini4",
-    "upstage-solar-pro-3",
     "upstage-solar-pro4",
     "writer-palmyra-x5",
     "x-ai-grok-4.20",

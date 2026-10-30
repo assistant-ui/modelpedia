@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 84,
+  "date": "2026-10-30",
+  "count": 85,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -37,6 +37,7 @@
     "mistralai-mistral-7b-instruct-v0.3",
     "mistralai-mistral-large",
     "mistralai-mistral-large-2-instruct",
+    "mistralai-mistral-large-4-1t-a52b",
     "mistralai-mixtral-8x22b-v0.1",
     "moonshotai-kimi-k2.6",
     "nv-mistralai-mistral-nemo-12b-instruct",
