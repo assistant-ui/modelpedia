@@ -5,7 +5,7 @@
   "source": "official",
   "family": "gpt-image-1",
   "description": "OpenAI's latest image generation and editing model: gpt-1-image.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-23",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/gpt-image-1/edit-image",
@@ -23,7 +23,7 @@
     "name": "480da012",
     "family": "480da012",
     "description": "94893872",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "efc42cfe",
     "model_type": "db8857fe",
     "page_url": "c4605af9",
@@ -33,5 +33,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-30"
 }

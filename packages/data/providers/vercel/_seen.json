@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 431,
+  "date": "2026-10-30",
+  "count": 432,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -62,6 +62,7 @@
     "anthropic-claude-sonnet-5.5",
     "arcee-ai-trinity-large-thinking",
     "baseten-elephant-1",
+    "baseten-joey-1",
     "baseten-mammoth-1",
     "bfl-flux-2-flex",
     "bfl-flux-2-klein-4b",
