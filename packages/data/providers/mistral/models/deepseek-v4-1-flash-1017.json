@@ -12,10 +12,11 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "open_weight": true,
@@ -28,10 +29,10 @@
     "license": "60245731",
     "page_url": "ef34285c",
     "model_type": "d669f408",
-    "capabilities": "5780d00a",
-    "modalities": "68e53d93",
+    "capabilities": "04caa9d5",
+    "modalities": "6399757e",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-10-31"
 }

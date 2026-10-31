@@ -3,14 +3,14 @@
   "name": "Topogoogles Flow",
   "created_by": "topogoogles",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/topogoogles/topogoogles-flow",
   "_generated": {
     "name": "cd8927e7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "06ff46b8"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-10-31"
 }

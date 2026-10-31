@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/song/edit",
+  "name": "Mureka Song Editing",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Rewrites a selected time region of a generated song or uploaded audio using replacement lyrics.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/song/edit",
+  "tagline": "Rewrites a selected time region of a generated song or uploaded audio using replacement lyrics.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "505ef68a",
+    "description": "f9e17668",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "6c64114c",
+    "tagline": "f9e17668",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

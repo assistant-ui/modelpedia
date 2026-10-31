@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/generate/speech",
+  "name": "Mureka Speech Generation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Synthesizes speech from text using a built-in voice preset or an uploaded custom voice.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/generate/speech",
+  "tagline": "Synthesizes speech from text using a built-in voice preset or an uploaded custom voice.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "f7513915",
+    "description": "6c9022fd",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "ba99071c",
+    "tagline": "6c9022fd",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

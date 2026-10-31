@@ -4,7 +4,7 @@
   "created_by": "spacexai",
   "source": "official",
   "family": "grok-4.7",
-  "context_window": 500000,
+  "context_window": 524300,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -24,12 +24,12 @@
   "_generated": {
     "name": "1b9c0a81",
     "family": "1b9c0a81",
-    "context_window": "c9077732",
+    "context_window": "e1786268",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
     "pricing": "e205efd3",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-10-31"
 }

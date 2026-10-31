@@ -1,0 +1,24 @@
+{
+  "id": "mureka/v8/song/remix",
+  "name": "Mureka 8 Song Remix",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Remixes a generated song or uploaded audio with Mureka 8, using complete lyrics and a prompt that controls genre, mood, instrumentation, and arrangement.",
+  "status": "active",
+  "release_date": "2026-10-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/v8/song/remix",
+  "tagline": "Remixes a generated song or uploaded audio with Mureka 8, using complete lyrics and a prompt that controls genre, mood, instrumentation, and arrangement.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "30c1f137",
+    "description": "b3fa2fda",
+    "status": "379ac110",
+    "release_date": "5f779969",
+    "model_type": "ddb0b7bc",
+    "page_url": "91c54f7f",
+    "tagline": "b3fa2fda",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

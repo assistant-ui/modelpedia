@@ -1,0 +1,40 @@
+{
+  "id": "mimo-v2.6-flash",
+  "name": "mimo-v2.6-flash",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "Xiaomi&#39;s efficiency-balanced MiMo-V2.6 checkpoint, with 309B total parameters, 15B active, omnimodal input, and a 1M token context.",
+  "release_date": "2026-09-22",
+  "license": "open-weight",
+  "parameters": 309,
+  "active_parameters": 15,
+  "page_url": "https://ollama.com/library/mimo-v2.6-flash",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Xiaomi&#39;s efficiency-balanced MiMo-V2.6 checkpoint, with 309B total parameters, 15B active, omnimodal input, and a 1M token context.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "68e2ef66",
+    "family": "1a23786e",
+    "description": "83832fae",
+    "release_date": "a771be49",
+    "license": "6327aaea",
+    "parameters": "eddea82a",
+    "active_parameters": "9bf31c7f",
+    "page_url": "c0f8f021",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "83832fae",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-31"
+}

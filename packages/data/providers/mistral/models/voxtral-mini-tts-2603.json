@@ -5,7 +5,7 @@
   "source": "official",
   "family": "voxtral",
   "description": "Our state-of-the-art text-to-speech model with zero-shot voice cloning. Supports 9 languages, streaming with ~90ms time-to-first-audio, and no transcript required for voice prompts.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "tts",
   "license": "apache-2.0",
   "alias": "voxtral-mini-tts",
@@ -27,7 +27,7 @@
     "name": "52e36a03",
     "family": "88a5dabd",
     "description": "fbef4d0b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4e16a2cf",
     "license": "60245731",
     "page_url": "48156514",
@@ -37,5 +37,5 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-31"
 }

@@ -4,7 +4,7 @@
   "created_by": "mureka",
   "source": "official",
   "description": "Generates instrumental music from a text description or uploaded instrumental reference, with support for multiple variations.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-09-15",
   "model_type": "other",
   "page_url": "https://fal.run/mureka/api/generate/instrumental",
@@ -16,7 +16,7 @@
   "_generated": {
     "name": "e7148a4b",
     "description": "9c50a2c5",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5ed4afcc",
     "model_type": "ddb0b7bc",
     "page_url": "3996287d",
@@ -24,5 +24,5 @@
     "capabilities": "0fa77dc6",
     "last_seen_at": "0eeb85fa"
   },
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-10-31"
 }

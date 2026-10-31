@@ -3,8 +3,8 @@
   "name": "voxtral-mini-2602",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-09-24",
-  "status": "active",
+  "last_updated": "2026-10-31",
+  "status": "deprecated",
   "alias": "voxtral-mini",
   "capabilities": {
     "streaming": true,
@@ -19,7 +19,7 @@
   "context_window": 32000,
   "_generated": {
     "name": "ce306dad",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "62b3fd83",
     "modalities": "68e53d93",
     "context_window": "10e4d788",

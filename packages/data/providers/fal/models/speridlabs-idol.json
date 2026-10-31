@@ -1,0 +1,28 @@
+{
+  "id": "speridlabs/idol",
+  "name": "Sperid Labs Idol",
+  "created_by": "speridlabs",
+  "source": "official",
+  "description": "Idol by Sperid Labs turns a single image of an object into a 3D Gaussian splat, with a GLB point-cloud preview.",
+  "status": "active",
+  "release_date": "2026-10-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/speridlabs/idol",
+  "tagline": "Idol by Sperid Labs turns a single image of an object into a 3D Gaussian splat, with a GLB point-cloud preview.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "23b15735",
+    "description": "59eb867a",
+    "status": "379ac110",
+    "release_date": "5f779969",
+    "model_type": "ddb0b7bc",
+    "page_url": "513b211b",
+    "tagline": "59eb867a",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

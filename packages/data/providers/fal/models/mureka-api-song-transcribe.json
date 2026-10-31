@@ -1,0 +1,31 @@
+{
+  "id": "mureka/api/song/transcribe",
+  "name": "Mureka Music Transcription",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Transcribes generated or uploaded music into a downloadable archive that can include MusicXML, PDF sheet music, and timestamped lyrics.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/mureka/api/song/transcribe",
+  "tagline": "Transcribes generated or uploaded music into a downloadable archive that can include MusicXML, PDF sheet music, and timestamped lyrics.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "d2d46458",
+    "description": "4c93872f",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "5e12d29a",
+    "page_url": "dec7deab",
+    "tagline": "4c93872f",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

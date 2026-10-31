@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 35,
+  "date": "2026-10-31",
+  "count": 37,
   "ids": [
     "beam",
     "bonsai-2",
@@ -25,6 +25,8 @@
     "lfm3-audio",
     "lfm3-omni",
     "lfm3-vl",
+    "mimo-v2.6-flash",
+    "mimo-v2.6-pro",
     "minimax-m2.7",
     "minimax-m3",
     "minimax-m3.1-flash",

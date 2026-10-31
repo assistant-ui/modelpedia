@@ -1,0 +1,24 @@
+{
+  "id": "mureka/v8/generate/track",
+  "name": "Mureka 8 Track Generation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Generates vocal or instrumental tracks for an existing song or uploaded audio, with controls for track type, musical style, generation region, and optional vocal lyrics.",
+  "status": "active",
+  "release_date": "2026-10-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/v8/generate/track",
+  "tagline": "Generates vocal or instrumental tracks for an existing song or uploaded audio, with controls for track type, musical style, generation region, and optional vocal lyrics.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "a14510d1",
+    "description": "e05eb779",
+    "status": "379ac110",
+    "release_date": "68185e3b",
+    "model_type": "ddb0b7bc",
+    "page_url": "3866a46c",
+    "tagline": "e05eb779",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

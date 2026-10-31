@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "count": 432,
+  "date": "2026-10-31",
+  "count": 431,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -60,7 +60,6 @@
     "anthropic-claude-sonnet-4.6",
     "anthropic-claude-sonnet-5",
     "anthropic-claude-sonnet-5.5",
-    "arcee-ai-trinity-large-thinking",
     "baseten-elephant-1",
     "baseten-joey-1",
     "baseten-mammoth-1",
@@ -185,6 +184,7 @@
     "inclusionai-ling-3.0-flash-sante",
     "inclusionai-ling-3.0-flash-vl",
     "inclusionai-ling-3.1-flash",
+    "inclusionai-ling-3.1-flash-1019",
     "inference-net-schematron-v2-small",
     "inference-net-schematron-v2-turbo",
     "interfaze-interfaze-beta",
@@ -340,7 +340,6 @@
     "perplexity-search",
     "perplexity-sonar",
     "poolside-laguna-s-2.1",
-    "poolside-laguna-s-2.1-free",
     "prodia-flux-fast-schnell",
     "quiverai-arrow-2",
     "quiverai-arrow-2-telos",

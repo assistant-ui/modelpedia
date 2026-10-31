@@ -3,9 +3,9 @@
   "name": "mistral-large-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-31",
   "family": "mistral-large",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 256000,
   "alias": "mistral-large",
   "capabilities": {
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "7f39588b",
     "family": "70f9d51d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "2fd324cb",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",

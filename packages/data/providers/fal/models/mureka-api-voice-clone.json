@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/voice/clone",
+  "name": "Mureka Voice Cloning",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Creates a reusable custom voice from a short vocal recording and returns a voice identifier for supported generation workflows.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/voice/clone",
+  "tagline": "Creates a reusable custom voice from a short vocal recording and returns a voice identifier for supported generation workflows.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "60b267b0",
+    "description": "f2f03360",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "7e1c3b37",
+    "tagline": "f2f03360",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

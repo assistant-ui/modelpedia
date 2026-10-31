@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/song/stem",
+  "name": "Mureka Stem Separation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Separates a song into downloadable audio stems, with available stem types and optional MIDI output determined by the selected separation model.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/song/stem",
+  "tagline": "Separates a song into downloadable audio stems, with available stem types and optional MIDI output determined by the selected separation model.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "abc39bcb",
+    "description": "8765bf54",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "1b9b22cb",
+    "tagline": "8765bf54",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}
