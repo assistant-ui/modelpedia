@@ -39,7 +39,7 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^17.2.0",
-    "oxfmt": "^0.61.0",
+    "oxfmt": "^0.74.0",
     "oxlint": "^1.76.0",
     "turbo": "^2.10.7"
   },
