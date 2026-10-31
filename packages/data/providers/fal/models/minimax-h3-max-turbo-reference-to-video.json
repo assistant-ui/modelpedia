@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-max-turbo/reference-to-video",
+  "name": "H3 Max Turbo Reference to Video",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Generate video with synchronized audio from a prompt and image, video, or audio references with H3 Max Turbo, at 480p, 768p, or 1080p for up to 15 seconds.",
+  "status": "active",
+  "release_date": "2026-10-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3-max-turbo/reference-to-video",
+  "tagline": "Generate video with synchronized audio from a prompt and image, video, or audio references with H3 Max Turbo, at 480p, 768p, or 1080p for up to 15 seconds.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "5081399e",
+    "description": "ab9ebebb",
+    "status": "379ac110",
+    "release_date": "2020d4ea",
+    "model_type": "4d1b75ca",
+    "page_url": "26d08376",
+    "tagline": "ab9ebebb",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

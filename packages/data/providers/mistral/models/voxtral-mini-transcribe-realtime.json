@@ -3,8 +3,8 @@
   "name": "voxtral-mini-transcribe-realtime",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-09-24",
-  "status": "active",
+  "last_updated": "2026-10-31",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -19,7 +19,7 @@
   "model_type": "transcription",
   "_generated": {
     "name": "858085a5",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "62b3fd83",
     "modalities": "68e53d93",
     "model_type": "5e12d29a",

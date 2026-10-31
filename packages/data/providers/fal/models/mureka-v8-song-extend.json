@@ -1,0 +1,24 @@
+{
+  "id": "mureka/v8/song/extend",
+  "name": "Mureka 8 Song Extension",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Extends a generated song or uploaded audio from a specified timestamp using supplied lyrics, with head or tail extension depending on the selected model.",
+  "status": "active",
+  "release_date": "2026-10-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/v8/song/extend",
+  "tagline": "Extends a generated song or uploaded audio from a specified timestamp using supplied lyrics, with head or tail extension depending on the selected model.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "54e3e6ee",
+    "description": "d42fca57",
+    "status": "379ac110",
+    "release_date": "68185e3b",
+    "model_type": "ddb0b7bc",
+    "page_url": "1a3e2066",
+    "tagline": "d42fca57",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

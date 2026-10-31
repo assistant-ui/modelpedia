@@ -1,0 +1,31 @@
+{
+  "id": "mureka/api/song/recognize",
+  "name": "Mureka Lyrics Recognition",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Analyzes an uploaded song and returns its duration and recognized lyrics with timing information when available.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/mureka/api/song/recognize",
+  "tagline": "Analyzes an uploaded song and returns its duration and recognized lyrics with timing information when available.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "45726f61",
+    "description": "d3777d93",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "5e12d29a",
+    "page_url": "bb4953c9",
+    "tagline": "d3777d93",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

@@ -3,14 +3,14 @@
   "name": "Krea 3",
   "created_by": "krea",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/krea/krea-3",
   "_generated": {
     "name": "2196ab83",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "0fc4f29c"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-10-31"
 }

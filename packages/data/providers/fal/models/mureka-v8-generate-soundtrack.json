@@ -1,0 +1,28 @@
+{
+  "id": "mureka/v8/generate/soundtrack",
+  "name": "Mureka 8 Soundtrack Generation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Generates soundtracks from an uploaded image or video, with optional style and mood guidance, audio-range selection, and multiple variations.",
+  "status": "active",
+  "release_date": "2026-10-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/v8/generate/soundtrack",
+  "tagline": "Generates soundtracks from an uploaded image or video, with optional style and mood guidance, audio-range selection, and multiple variations.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "66b01d25",
+    "description": "75f856e8",
+    "status": "379ac110",
+    "release_date": "68185e3b",
+    "model_type": "ddb0b7bc",
+    "page_url": "41833cf7",
+    "tagline": "75f856e8",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}

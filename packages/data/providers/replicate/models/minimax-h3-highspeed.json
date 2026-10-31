@@ -1,0 +1,16 @@
+{
+  "id": "minimax/h3-highspeed",
+  "name": "H3 Highspeed",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/minimax/h3-highspeed",
+  "_generated": {
+    "name": "8e43f14f",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "0ed3314c"
+  },
+  "last_updated": "2026-10-31"
+}

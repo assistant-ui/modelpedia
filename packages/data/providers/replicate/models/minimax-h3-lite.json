@@ -1,0 +1,16 @@
+{
+  "id": "minimax/h3-lite",
+  "name": "H3 Lite",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/minimax/h3-lite",
+  "_generated": {
+    "name": "ed2ecefd",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "f96834c1"
+  },
+  "last_updated": "2026-10-31"
+}

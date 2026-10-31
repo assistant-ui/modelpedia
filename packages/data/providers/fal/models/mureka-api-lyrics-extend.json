@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/lyrics/extend",
+  "name": "Mureka Lyrics Extension",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Continues existing song lyrics, accepting section labels alongside the supplied text and returning extended lyrics.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/lyrics/extend",
+  "tagline": "Continues existing song lyrics, accepting section labels alongside the supplied text and returning extended lyrics.",
+  "last_seen_at": "2026-10-30",
+  "_generated": {
+    "name": "6a1cf468",
+    "description": "255cf8a2",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "49170aef",
+    "tagline": "255cf8a2",
+    "last_seen_at": "5f779969"
+  },
+  "last_updated": "2026-10-31"
+}
