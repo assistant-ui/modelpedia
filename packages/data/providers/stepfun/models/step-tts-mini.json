@@ -3,7 +3,7 @@
   "name": "Step TTS Mini",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-01",
   "family": "step-tts",
   "description": "Compact TTS with 9 emotions, 13 styles, 3 languages, 10s voice cloning.",
   "status": "active",
@@ -15,7 +15,7 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "pricing_notes": ["0.9 元／万字符 (CNY)"],
+  "pricing_notes": ["90.00 元／百万字符 (CNY)"],
   "tagline": "Compact TTS with 9 emotions, 13 styles, 3 languages, 10s voice cloning.",
   "_generated": {
     "name": "fd09887a",
@@ -27,7 +27,7 @@
     "open_weight": "68934a3e",
     "modalities": "ff1356fe",
     "endpoints": "0d745ead",
-    "pricing_notes": "94ed74c4",
+    "pricing_notes": "9585b637",
     "tagline": "ab8bf38f"
   }
 }

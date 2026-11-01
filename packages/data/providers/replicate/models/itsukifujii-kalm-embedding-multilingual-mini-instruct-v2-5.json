@@ -1,0 +1,23 @@
+{
+  "id": "itsukifujii/kalm-embedding-multilingual-mini-instruct-v2-5",
+  "name": "Kalm Embedding Multilingual Mini Instruct V2 5",
+  "created_by": "itsukifujii",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "page_url": "https://replicate.com/itsukifujii/kalm-embedding-multilingual-mini-instruct-v2-5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "3dec05be",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "page_url": "3a9f03c0",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-11-01"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "itsukifujii/kalm-reranker-v1-small-r2",
+  "name": "Kalm Reranker V1 Small R2",
+  "created_by": "itsukifujii",
+  "source": "official",
+  "status": "active",
+  "model_type": "rerank",
+  "page_url": "https://replicate.com/itsukifujii/kalm-reranker-v1-small-r2",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "63c8d637",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "page_url": "280d3d9c",
+    "modalities": "68e53d93",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-11-01"
+}

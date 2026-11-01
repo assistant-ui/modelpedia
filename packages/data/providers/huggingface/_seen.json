@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "count": 122,
+  "date": "2026-11-01",
+  "count": 123,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -112,6 +112,7 @@
     "unsloth-qwen2.5-coder-7b-instruct",
     "unsloth-qwen3-8b",
     "upstage-solar-10.7b-instruct-v1.0",
+    "vagosolutions-llama-3.1-sauerkrautlm-8b-instruct",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
     "xenova-sweep-next-edit-1.5b",
     "zai-org-glm-4.5",

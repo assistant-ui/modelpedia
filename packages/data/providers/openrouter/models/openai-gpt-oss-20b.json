@@ -3,11 +3,11 @@
   "name": "OpenAI: gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-11-01",
   "family": "gpt-oss",
   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
   "context_window": 131072,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 117964,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,19 +19,19 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.018,
-    "output": 0.09,
-    "cached_input": 0.009
+    "input": 0.03,
+    "output": 0.13,
+    "cached_input": 0.03
   },
   "_generated": {
     "name": "820c7c6c",
     "family": "82d0cb0b",
     "description": "9ef19f8d",
     "context_window": "f7de594e",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "242f56a4",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "4e07f254",
+    "pricing": "d179f33e",
     "model_type": "d669f408",
     "parameters": "98f13708",
     "release_date": "67086b15",

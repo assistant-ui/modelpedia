@@ -4,15 +4,18 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen3.6",
-  "context_window": 229376,
+  "context_window": 256000,
   "license": "apache-2.0",
   "parameters": 27,
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-27b",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,17 +26,21 @@
   "_generated": {
     "name": "d92720a3",
     "family": "1bc2d26f",
-    "context_window": "11e655cf",
+    "context_window": "2fd324cb",
     "license": "60245731",
     "parameters": "02e74f10",
-    "page_url": "862282fd",
+    "page_url": "6ecc6f25",
     "model_type": "d669f408",
-    "capabilities": "034b2f91",
+    "capabilities": "858c0038",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
     "endpoints": "75df3f1c",
-    "status": "2e2f74dc"
+    "status": "2e2f74dc",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-29",
-  "status": "deprecated"
+  "last_updated": "2026-11-01",
+  "status": "deprecated",
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

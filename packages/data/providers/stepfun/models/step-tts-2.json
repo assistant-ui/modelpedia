@@ -3,7 +3,7 @@
   "name": "Step TTS 2",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-01",
   "family": "step-tts",
   "description": "End-to-end TTS with 11 emotions, 17 styles, 3 languages (Mandarin, Cantonese, Sichuan dialect, Japanese). 10s audio voice cloning.",
   "status": "active",
@@ -15,7 +15,7 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "pricing_notes": ["2.8 元／万字符 (CNY)"],
+  "pricing_notes": ["280.00 元／百万字符 (CNY)"],
   "tagline": "End-to-end TTS with 11 emotions, 17 styles, 3 languages (Mandarin, Cantonese, Sichuan dialect, Japanese).",
   "_generated": {
     "name": "6ad8ed63",
@@ -27,7 +27,7 @@
     "open_weight": "68934a3e",
     "modalities": "ff1356fe",
     "endpoints": "0d745ead",
-    "pricing_notes": "ac34abbf",
+    "pricing_notes": "0d69b69b",
     "tagline": "67716f4e"
   }
 }
