@@ -4,7 +4,7 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen",
-  "context_window": 8000,
+  "context_window": 32000,
   "model_type": "chat",
   "reasoning_tokens": true,
   "license": "apache-2.0",
@@ -27,7 +27,7 @@
   "_generated": {
     "name": "9e60fb50",
     "family": "a3af76f3",
-    "context_window": "67ff32d4",
+    "context_window": "10e4d788",
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "license": "60245731",
@@ -37,5 +37,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-01"
 }

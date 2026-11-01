@@ -16,7 +16,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
@@ -29,9 +29,9 @@
     "open_weight": "b326b506",
     "tagline": "ef95eebc",
     "capabilities": "91e36286",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "release_date": "df39b194"
   },
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-11-01",
   "release_date": "2026-10-04"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "count": 468,
+  "date": "2026-11-01",
+  "count": 464,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -348,10 +348,6 @@
     "perplexity-sonar-pro",
     "perplexity-sonar-pro-search",
     "perplexity-sonar-reasoning-pro",
-    "poolside-laguna-s-2.1",
-    "poolside-laguna-s-2.1-free",
-    "poolside-laguna-xs-2.1",
-    "poolside-laguna-xs-2.1-free",
     "prism-ml-ternary-bonsai-2-27b",
     "prism-ml-ternary-bonsai-2-9b",
     "qwen-qwen-2.5-72b-instruct",

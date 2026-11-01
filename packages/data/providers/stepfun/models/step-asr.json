@@ -3,7 +3,7 @@
   "name": "Step ASR",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-01",
   "family": "step-asr",
   "description": "Real-time and offline speech recognition for Chinese (multi-dialect) and English. 100 MB file limit.",
   "status": "active",
@@ -15,7 +15,7 @@
     "output": ["text"]
   },
   "endpoints": ["audio_transcriptions"],
-  "pricing_notes": ["0.9 元／小时 (CNY)"],
+  "pricing_notes": ["0.90 元／小时 (CNY)"],
   "tagline": "Real-time and offline speech recognition for Chinese (multi-dialect) and English.",
   "_generated": {
     "name": "7cdc5857",
@@ -27,7 +27,7 @@
     "open_weight": "68934a3e",
     "modalities": "b8e84832",
     "endpoints": "30248ee0",
-    "pricing_notes": "9d36cf54",
+    "pricing_notes": "4d6afbd0",
     "tagline": "4a6d4756"
   }
 }

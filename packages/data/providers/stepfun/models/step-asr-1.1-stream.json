@@ -3,7 +3,7 @@
   "name": "Step ASR 1.1 Stream",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-01",
   "family": "step-asr",
   "description": "Streaming variant of Step ASR 1.1 for real-time transcription.",
   "status": "active",
@@ -19,7 +19,7 @@
   },
   "endpoints": ["audio_transcriptions"],
   "tagline": "Streaming variant of Step ASR 1.1 for real-time transcription.",
-  "pricing_notes": ["2.6 元／小时 (CNY)"],
+  "pricing_notes": ["5.50 元／小时 (CNY)"],
   "_generated": {
     "name": "da6f9643",
     "family": "87117355",
@@ -32,6 +32,6 @@
     "modalities": "b8e84832",
     "endpoints": "30248ee0",
     "tagline": "eb2c8a2d",
-    "pricing_notes": "54c114c9"
+    "pricing_notes": "0f236f96"
   }
 }

@@ -15,10 +15,11 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "reasoning": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -32,9 +33,11 @@
     "page_url": "08000af2",
     "open_weight": "b326b506",
     "tagline": "29f2f072",
-    "capabilities": "62b3fd83",
-    "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "capabilities": "3e581b07",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-01",
+  "reasoning_tokens": true
 }

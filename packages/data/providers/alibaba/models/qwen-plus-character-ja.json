@@ -3,9 +3,9 @@
   "name": "qwen-plus-character-ja",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-11-01",
   "family": "qwen",
-  "context_window": 32000,
+  "context_window": 8000,
   "max_output_tokens": 512,
   "model_type": "chat",
   "capabilities": {
@@ -28,7 +28,7 @@
   "_generated": {
     "name": "359c8b54",
     "family": "a3af76f3",
-    "context_window": "10e4d788",
+    "context_window": "67ff32d4",
     "max_output_tokens": "10a7cdd9",
     "model_type": "d669f408",
     "capabilities": "7e1117a8",

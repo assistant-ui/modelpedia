@@ -3,14 +3,14 @@
   "name": "Visual Music Search",
   "created_by": "myart-arch",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "audio",
   "page_url": "https://replicate.com/myart-arch/visual-music-search",
   "_generated": {
     "name": "648f6899",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "9f84c007",
     "page_url": "f915acc0"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-01"
 }
