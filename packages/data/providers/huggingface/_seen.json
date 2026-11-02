@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "count": 123,
+  "date": "2026-11-02",
+  "count": 126,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -107,6 +107,8 @@
     "unsloth-llama-3.1-8b-instruct",
     "unsloth-llama-3.3-70b-instruct",
     "unsloth-meta-llama-3.1-8b-instruct",
+    "unsloth-mistral-small-24b-instruct",
+    "unsloth-mistral-small-24b-instruct-2501",
     "unsloth-qwen2.5-14b-instruct",
     "unsloth-qwen2.5-7b-instruct",
     "unsloth-qwen2.5-coder-7b-instruct",
@@ -124,6 +126,7 @@
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
     "zai-org-glm-5.3",
-    "zai-org-glm-5.3-bf16"
+    "zai-org-glm-5.3-bf16",
+    "zai-org-glm-z1-32b-0414"
   ]
 }

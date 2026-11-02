@@ -31,7 +31,9 @@
     "model_type": "764cb3de",
     "tagline": "a004573e",
     "capabilities": "98ea92bd",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-08"
+  "last_updated": "2026-11-02",
+  "status": "deprecated"
 }

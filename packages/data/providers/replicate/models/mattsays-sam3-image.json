@@ -3,7 +3,7 @@
   "name": "Sam3 Image",
   "created_by": "mattsays",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/mattsays/sam3-image",
   "capabilities": {
@@ -16,12 +16,12 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "e34f32b1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "01d44146",
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-11-01"
+  "last_updated": "2026-11-02"
 }
