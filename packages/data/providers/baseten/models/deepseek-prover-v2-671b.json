@@ -1,0 +1,25 @@
+{
+  "id": "deepseek-prover-v2-671b",
+  "name": "deepseek-prover-v2-671b",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "parameters": 671,
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8fbc1215",
+    "family": "4b81b92d",
+    "parameters": "5dd9db5e",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

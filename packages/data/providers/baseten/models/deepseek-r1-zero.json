@@ -1,0 +1,25 @@
+{
+  "id": "deepseek-r1-zero",
+  "name": "deepseek-r1-zero",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-r1",
+  "open_weight": true,
+  "model_type": "reasoning",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "23b77c67",
+    "family": "c74cfb8e",
+    "open_weight": "b326b506",
+    "model_type": "17475f7f",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

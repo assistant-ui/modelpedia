@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen",
   "description": "Endpoint for Qwen's Image Editing model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-18",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/qwen-image-edit",
@@ -23,7 +23,7 @@
     "name": "ec5847c6",
     "family": "a3af76f3",
     "description": "8b650249",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a692155d",
     "model_type": "db8857fe",
     "page_url": "5222b4b0",
@@ -33,5 +33,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-03"
 }

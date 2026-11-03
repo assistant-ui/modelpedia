@@ -1,0 +1,25 @@
+{
+  "id": "nvidia-nemotron-35-bolt-74b-a9b-24gb",
+  "name": "nvidia-nemotron-35-bolt-74b-a9b-24gb",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 74,
+  "active_parameters": 9,
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ef5fa012",
+    "parameters": "ad61ab14",
+    "active_parameters": "45c48cce",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

@@ -6,7 +6,7 @@
   "family": "qwen3.8",
   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
   "release_date": "2026-08-14",
-  "context_window": 1000000,
+  "context_window": 1024000,
   "max_output_tokens": 235929,
   "parameters": 27,
   "model_type": "chat",
@@ -32,7 +32,7 @@
     "family": "e102ad6a",
     "description": "e630bf35",
     "release_date": "16d713cd",
-    "context_window": "8155bc54",
+    "context_window": "7695f674",
     "max_output_tokens": "7ad80673",
     "parameters": "02e74f10",
     "model_type": "d669f408",
@@ -42,5 +42,5 @@
     "pricing": "94097233",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-01"
+  "last_updated": "2026-11-03"
 }

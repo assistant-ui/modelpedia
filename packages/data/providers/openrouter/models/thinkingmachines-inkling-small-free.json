@@ -26,7 +26,11 @@
     "tagline": "09c78ccf",
     "capabilities": "05723a3e",
     "modalities": "05efe8aa",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "382007fc"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-11-03",
+  "status": "deprecated",
+  "deprecation_date": "2026-11-04"
 }

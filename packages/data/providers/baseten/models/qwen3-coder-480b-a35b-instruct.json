@@ -1,0 +1,29 @@
+{
+  "id": "qwen3-coder-480b-a35b-instruct",
+  "name": "qwen3-coder-480b-a35b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "parameters": 480,
+  "active_parameters": 35,
+  "open_weight": true,
+  "model_type": "code",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "941682f9",
+    "family": "48c385a0",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3",
+    "open_weight": "b326b506",
+    "model_type": "b6cc3ff4",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "llama-3-2-90b-vision-instruct",
+  "name": "llama-3-2-90b-vision-instruct",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-3",
+  "parameters": 90,
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e9de7c97",
+    "family": "a8d1600e",
+    "parameters": "8613985e",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

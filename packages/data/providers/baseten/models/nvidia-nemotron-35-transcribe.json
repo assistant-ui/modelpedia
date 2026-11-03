@@ -1,0 +1,23 @@
+{
+  "id": "nvidia-nemotron-35-transcribe",
+  "name": "nvidia-nemotron-35-transcribe",
+  "created_by": "nvidia",
+  "source": "official",
+  "open_weight": true,
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8a8b846b",
+    "open_weight": "b326b506",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

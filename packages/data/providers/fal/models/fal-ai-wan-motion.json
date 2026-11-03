@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan Motion is a streamlined character animation model that transfers motion from a driving video onto a reference character image.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-02-19",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-motion",
@@ -18,7 +18,7 @@
     "name": "5e156260",
     "family": "2aadc089",
     "description": "a958d1ae",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1323dc51",
     "model_type": "ddb0b7bc",
     "page_url": "c1d5ebce",
@@ -26,5 +26,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-03"
 }

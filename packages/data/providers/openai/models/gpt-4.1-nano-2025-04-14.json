@@ -3,7 +3,7 @@
   "name": "gpt-4.1-nano-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-03",
   "family": "gpt-4.1",
   "description": "Status: Shut down",
   "status": "deprecated",
@@ -32,17 +32,13 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Fine-tuning",
-        "unit": "",
-        "columns": ["Training", "Input", "Cached input", "Output"],
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.5, 0.2, 0.05, 0.8]
-          },
-          {
-            "label": "Batch",
-            "values": [1.5, 0.1, 0.025, 0.4]
+            "values": [0.1, 0.025, 0.4]
           }
         ]
       }
@@ -74,7 +70,7 @@
     "tagline": "7aa786f3",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "f8364aba",
+    "pricing": "1553f78a",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",

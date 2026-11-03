@@ -1,0 +1,27 @@
+{
+  "id": "voxtral-mini-3b",
+  "name": "voxtral-mini-3b",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "voxtral",
+  "parameters": 3,
+  "open_weight": true,
+  "model_type": "audio",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f3039869",
+    "family": "88a5dabd",
+    "parameters": "eccbc87e",
+    "open_weight": "b326b506",
+    "model_type": "9f84c007",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}
