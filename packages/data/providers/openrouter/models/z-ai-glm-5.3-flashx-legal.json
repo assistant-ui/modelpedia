@@ -1,0 +1,44 @@
+{
+  "id": "z-ai/glm-5.3-flashx-legal",
+  "name": "Z.ai: GLM 5.3 FlashX Legal",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text.",
+  "release_date": "2026-11-02",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.37,
+    "output": 1.25,
+    "cached_input": 0.075
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "452b0606",
+    "family": "9f217d9a",
+    "description": "6f450b32",
+    "release_date": "ea7c98c3",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "6f450b32",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "75eba2ff",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-03"
+}

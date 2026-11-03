@@ -1,0 +1,25 @@
+{
+  "id": "nemotron-3-embed-1b",
+  "name": "nemotron-3-embed-1b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 1,
+  "open_weight": true,
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f3c9aa92",
+    "parameters": "c4ca4238",
+    "open_weight": "b326b506",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

@@ -3,7 +3,7 @@
   "name": "babbage-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-03",
   "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2021-09",
@@ -28,21 +28,6 @@
   },
   "pricing": {
     "tiers": [
-      {
-        "label": "Fine-tuning",
-        "unit": "",
-        "columns": ["Training", "Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.4, 1.6, null, 1.6]
-          },
-          {
-            "label": "Batch",
-            "values": [0.4, 0.8, null, 0.9]
-          }
-        ]
-      },
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
@@ -75,7 +60,7 @@
     "successor": "d5215155",
     "capabilities": "77cb67d9",
     "modalities": "68e53d93",
-    "pricing": "0448749b",
+    "pricing": "547c4708",
     "endpoints": "69bfe5cd",
     "license": "9186c466",
     "page_url": "4de3ff66",

@@ -8,7 +8,7 @@
   "model_type": "chat",
   "license": "apache-2.0",
   "parameters": 27,
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-27b",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -30,7 +30,7 @@
     "model_type": "d669f408",
     "license": "60245731",
     "parameters": "02e74f10",
-    "page_url": "6ecc6f25",
+    "page_url": "862282fd",
     "open_weight": "b326b506",
     "capabilities": "858c0038",
     "modalities": "68e53d93",
@@ -39,7 +39,7 @@
     "reasoning_tokens": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-03",
   "status": "deprecated",
   "reasoning_tokens": true,
   "tools": ["function_calling"]

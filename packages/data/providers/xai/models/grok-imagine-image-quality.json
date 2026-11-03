@@ -26,10 +26,10 @@
     "capabilities": "bcb7869e",
     "modalities": "814867b9",
     "open_weight": "68934a3e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "pricing_notes": "99fbbb7b"
   },
-  "last_updated": "2026-07-31",
-  "status": "active",
+  "last_updated": "2026-11-03",
+  "status": "deprecated",
   "pricing_notes": ["$0.05 / image."]
 }

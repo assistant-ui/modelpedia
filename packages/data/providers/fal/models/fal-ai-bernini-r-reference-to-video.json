@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Turn up to five reference images into one continuous, consistent video with Bernini-R, with smooth, stable camera motion and no scene cuts.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-06-08",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/bernini-r/reference-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "37d586cf",
     "description": "8a35d254",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "850fe4a0",
     "model_type": "4d1b75ca",
     "page_url": "11fff6b8",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-03"
 }

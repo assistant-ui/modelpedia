@@ -1,0 +1,27 @@
+{
+  "id": "llama-3-1-70b-instruct",
+  "name": "llama-3-1-70b-instruct",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-3",
+  "parameters": 70,
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1968c978",
+    "family": "a8d1600e",
+    "parameters": "7cbbc409",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "count": 464,
+  "date": "2026-11-03",
+  "count": 463,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -221,8 +221,6 @@
     "morph-morph-v3-large",
     "nex-agi-nex-n2.5-mini",
     "nex-agi-nex-n2.5-pro",
-    "nousresearch-hermes-3-llama-3.1-405b",
-    "nousresearch-hermes-3-llama-3.1-70b",
     "nousresearch-hermes-4-405b",
     "nvidia-nemotron-3-nano-30b-a3b",
     "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free",
@@ -464,6 +462,7 @@
     "z-ai-glm-5.3-flash",
     "z-ai-glm-5.3-flash-batch",
     "z-ai-glm-5.3-flashx",
+    "z-ai-glm-5.3-flashx-legal",
     "z-ai-glm-5.3-prime",
     "z-ai-glm-5v-turbo"
   ]

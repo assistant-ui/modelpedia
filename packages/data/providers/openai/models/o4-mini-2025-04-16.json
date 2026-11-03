@@ -3,7 +3,7 @@
   "name": "o4-mini-2025-04-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-03",
   "family": "o4",
   "description": "Status: Shut down",
   "status": "deprecated",
@@ -34,17 +34,13 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Fine-tuning",
-        "unit": "",
-        "columns": ["Training", "Input", "Cached input", "Output"],
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [100, 4, 1, 16]
-          },
-          {
-            "label": "Batch",
-            "values": [100, 2, 0.5, 8]
+            "values": [1.1, 0.275, 4.4]
           }
         ]
       }
@@ -72,7 +68,7 @@
     "tagline": "d120aad1",
     "capabilities": "7e267bba",
     "modalities": "6399757e",
-    "pricing": "d1d52ef8",
+    "pricing": "de43f1cb",
     "endpoints": "b36a99d3",
     "license": "9186c466",
     "release_date": "67604092",

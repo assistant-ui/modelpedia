@@ -3,7 +3,7 @@
   "name": "davinci-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-03",
   "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2021-09",
@@ -27,21 +27,6 @@
   },
   "pricing": {
     "tiers": [
-      {
-        "label": "Fine-tuning",
-        "unit": "",
-        "columns": ["Training", "Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [6, 12, null, 12]
-          },
-          {
-            "label": "Batch",
-            "values": [6, 6, null, 6]
-          }
-        ]
-      },
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
@@ -73,7 +58,7 @@
     "tagline": "25a45b8b",
     "capabilities": "77cb67d9",
     "modalities": "68e53d93",
-    "pricing": "891963ed",
+    "pricing": "6cebc190",
     "endpoints": "69bfe5cd",
     "license": "9186c466",
     "page_url": "2bdb5292",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-02",
-  "count": 124,
+  "date": "2026-11-03",
+  "count": 125,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -103,7 +103,10 @@
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-2-pro-avatar",
+    "prunaai-p-video-animate",
     "prunaai-p-video-avatar",
+    "prunaai-p-video-edit",
+    "prunaai-p-video-replace",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",
@@ -120,8 +123,6 @@
     "wan-video-wan-2.2-t2v-fast",
     "wan-video-wan-2.5-i2v-fast",
     "wan-video-wan-2.5-t2v-fast",
-    "xai-grok-imagine-image-2",
-    "xai-grok-imagine-image-quality",
     "xai-grok-imagine-video",
     "xai-grok-imagine-video-extension",
     "zsxkib-create-rvc-dataset",

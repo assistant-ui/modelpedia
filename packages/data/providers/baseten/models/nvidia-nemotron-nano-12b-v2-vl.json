@@ -1,0 +1,23 @@
+{
+  "id": "nvidia-nemotron-nano-12b-v2-vl",
+  "name": "nvidia-nemotron-nano-12b-v2-vl",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 12,
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "02a8086d",
+    "parameters": "c20ad4d7",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

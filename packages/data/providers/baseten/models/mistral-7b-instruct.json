@@ -1,0 +1,27 @@
+{
+  "id": "mistral-7b-instruct",
+  "name": "mistral-7b-instruct",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-7b",
+  "parameters": 7,
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "eca57311",
+    "family": "33212289",
+    "parameters": "8f14e45f",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

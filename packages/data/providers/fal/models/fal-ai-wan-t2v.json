@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.1 is a text-to-video model that generates high-quality videos with high visual quality and motion diversity from text prompts",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-25",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-t2v",
@@ -20,7 +20,7 @@
     "name": "48742603",
     "family": "2aadc089",
     "description": "19ab7872",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8bae68f1",
     "model_type": "4d1b75ca",
     "page_url": "4f1b3628",
@@ -29,5 +29,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-03"
 }

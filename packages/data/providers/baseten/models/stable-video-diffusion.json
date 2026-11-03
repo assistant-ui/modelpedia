@@ -1,0 +1,21 @@
+{
+  "id": "stable-video-diffusion",
+  "name": "stable-video-diffusion",
+  "created_by": "unknown",
+  "source": "official",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ad38597b",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

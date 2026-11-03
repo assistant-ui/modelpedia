@@ -1,0 +1,21 @@
+{
+  "id": "stable-studiofreight.vercel.app",
+  "name": "stable-studiofreight.vercel.app",
+  "created_by": "unknown",
+  "source": "official",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "88b1e6b2",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}

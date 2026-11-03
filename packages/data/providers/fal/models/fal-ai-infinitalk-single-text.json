@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Infinitalk model generates a talking avatar video from a text and audio file.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-22",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/infinitalk/single-text",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "9a459fbd",
     "description": "963f1594",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1d1bda9c",
     "model_type": "4d1b75ca",
     "page_url": "0ab53ff5",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-03"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "qwen3-coder-30b",
+  "name": "qwen3-coder-30b",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "parameters": 30,
+  "open_weight": true,
+  "model_type": "code",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b3c9b8b2",
+    "family": "48c385a0",
+    "parameters": "34173cb3",
+    "open_weight": "b326b506",
+    "model_type": "b6cc3ff4",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-03"
+}
