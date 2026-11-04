@@ -1,0 +1,40 @@
+{
+  "id": "tencent/hy4",
+  "name": "Tencent: Hy4",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor",
+  "release_date": "2026-11-04",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "tagline": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.417,
+    "output": 1.251,
+    "cached_input": 0.021
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5c80cf86",
+    "description": "d791e424",
+    "release_date": "382007fc",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "d791e424",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "839ee365",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-04"
+}

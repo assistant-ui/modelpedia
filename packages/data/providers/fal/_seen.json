@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "count": 1453,
   "ids": [
     "alibaba-abot-world-0",
@@ -205,7 +205,6 @@
     "fal-ai-elevenlabs-dubbing",
     "fal-ai-elevenlabs-forced-alignment",
     "fal-ai-elevenlabs-music",
-    "fal-ai-elevenlabs-sound-effects-v2",
     "fal-ai-elevenlabs-speech-to-text",
     "fal-ai-elevenlabs-speech-to-text-scribe-v2",
     "fal-ai-elevenlabs-text-to-dialogue-eleven-v3",
@@ -1326,6 +1325,7 @@
     "mureka-v9.5-generate-instrumental",
     "mureka-v9.5-generate-song",
     "mureka-v9.5-generate-soundtrack",
+    "mureka-v9.5-song-remix",
     "nvidia-cosmos-3-super-image-to-video",
     "nvidia-cosmos-3-super-text-to-image",
     "nvidia-nemotron-3-5-super-text",

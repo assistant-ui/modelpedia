@@ -6,7 +6,7 @@
   "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total.",
   "release_date": "2026-10-15",
   "context_window": 1048576,
-  "max_output_tokens": 235929,
+  "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total.",
   "capabilities": {
@@ -30,7 +30,7 @@
     "description": "368bf114",
     "release_date": "b3e9e1a3",
     "context_window": "7d28a051",
-    "max_output_tokens": "7ad80673",
+    "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "368bf114",
     "capabilities": "03fbefb4",
@@ -38,5 +38,5 @@
     "pricing": "853927ab",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-11-04"
 }

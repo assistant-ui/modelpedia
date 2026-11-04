@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "count": 16,
+  "date": "2026-11-04",
+  "count": 15,
   "ids": [
     "grok-4.20-0309-non-reasoning",
     "grok-4.20-0309-reasoning",
@@ -12,7 +12,6 @@
     "grok-build-0.1",
     "grok-imagine-image",
     "grok-imagine-image-2.0",
-    "grok-imagine-image-quality",
     "grok-imagine-video",
     "grok-imagine-video-1.5",
     "grok-imagine-video-1.5-lite",

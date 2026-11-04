@@ -1,0 +1,24 @@
+{
+  "id": "mureka/v9.5/song/remix",
+  "name": "Mureka 9.5 Song Remix",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Remixes a generated song or uploaded audio with Mureka 9.5, using complete lyrics and a prompt that controls genre, mood, instrumentation, arrangement, and vocal gender.",
+  "status": "active",
+  "release_date": "2026-09-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/v9.5/song/remix",
+  "tagline": "Remixes a generated song or uploaded audio with Mureka 9.5, using complete lyrics and a prompt that controls genre, mood, instrumentation, arrangement, and vocal gender.",
+  "last_seen_at": "2026-11-03",
+  "_generated": {
+    "name": "cea6d298",
+    "description": "87bb1b15",
+    "status": "379ac110",
+    "release_date": "d5789345",
+    "model_type": "ddb0b7bc",
+    "page_url": "878cf02b",
+    "tagline": "87bb1b15",
+    "last_seen_at": "762307b9"
+  },
+  "last_updated": "2026-11-04"
+}

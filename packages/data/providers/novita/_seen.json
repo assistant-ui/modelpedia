@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "count": 98,
+  "date": "2026-11-04",
+  "count": 99,
   "ids": [
     "apodex-apodex-1.1-mini",
     "baichuan-baichuan-m2-32b",
@@ -83,6 +83,7 @@
     "stepfun-step-3.7-flash",
     "stepfun-step-5-preview",
     "tencent-hy3",
+    "tencent-hy4",
     "tencent-hy4-preview",
     "xiaomimimo-mimo-v2.6-flash",
     "xiaomimimo-mimo-v2.6-pro",
