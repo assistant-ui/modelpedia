@@ -1,0 +1,35 @@
+{
+  "id": "pplx-decider-flash",
+  "name": "pplx-decider-flash",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "pplx-decider-flash is a 4B decision model from Perplexity, built on Qwen3.5-4B",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 4,
+  "page_url": "https://ollama.com/library/pplx-decider-flash",
+  "open_weight": true,
+  "tagline": "pplx-decider-flash is a 4B decision model from Perplexity, built on Qwen3.5-4B",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a005efe6",
+    "description": "f3d31e63",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "a87ff679",
+    "page_url": "dd38f01e",
+    "open_weight": "b326b506",
+    "tagline": "f3d31e63",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-11-04"
+}

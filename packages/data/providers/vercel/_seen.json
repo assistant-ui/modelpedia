@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "count": 432,
+  "date": "2026-11-04",
+  "count": 433,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -390,6 +390,7 @@
     "tencent-hy-mt2-plus",
     "tencent-hy-mt2-pro",
     "tencent-hy3",
+    "tencent-hy4",
     "tencent-hy4-preview",
     "thinkingmachines-inkling",
     "thinkingmachines-inkling-small",

@@ -1,0 +1,30 @@
+{
+  "id": "s/kimi-k3-1-pro",
+  "name": "Kimi K3 1 Pro",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "page_url": "https://www.together.ai/models/kimi-k3-1-pro",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "407773b6",
+    "family": "73e8093c",
+    "page_url": "e11ad305",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "c74fbef8",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-04"
+}

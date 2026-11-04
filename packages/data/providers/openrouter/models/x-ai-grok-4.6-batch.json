@@ -1,0 +1,44 @@
+{
+  "id": "x-ai/grok-4.6:batch",
+  "name": "SpaceXAI: Grok 4.6 (batch)",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.6",
+  "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM.",
+  "release_date": "2026-08-12",
+  "context_window": 500000,
+  "max_output_tokens": 450000,
+  "model_type": "chat",
+  "tagline": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.6,
+    "output": 4.8,
+    "cached_input": 0.4
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f8086307",
+    "family": "6351f129",
+    "description": "caff8d8c",
+    "release_date": "968fe5cf",
+    "context_window": "c9077732",
+    "max_output_tokens": "e894e1c5",
+    "model_type": "d669f408",
+    "tagline": "caff8d8c",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "355681a4",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-04"
+}

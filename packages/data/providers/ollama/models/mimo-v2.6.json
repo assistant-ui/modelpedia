@@ -1,0 +1,45 @@
+{
+  "id": "mimo-v2.6",
+  "name": "mimo-v2.6",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Distill-Qwen-9B is Xiaomi MiMo’s 9B model for code and agent workflows",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "mit",
+  "parameters": 9,
+  "page_url": "https://ollama.com/library/mimo-v2.6",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "MiMo-V2.6-Distill-Qwen-9B is Xiaomi MiMo’s 9B model for code and agent workflows",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fb3d2699",
+    "family": "1a23786e",
+    "description": "7887e42b",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "3c4c3ba5",
+    "parameters": "45c48cce",
+    "page_url": "72713d22",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "7887e42b",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-04"
+}

@@ -3,7 +3,7 @@
   "name": "GPT-Realtime Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-04",
   "family": "gpt-realtime",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -88,9 +88,9 @@
     "page_url": "f63fd922",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "56423574",
-    "deprecation_date": "7047ff2b",
-    "retirement_date": "28df5f11",
+    "release_date": "17ddf71c",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
     "successor": "d913f5f3"
   },
   "model_type": "audio",
@@ -98,8 +98,8 @@
   "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-mini",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-12-15",
-  "deprecation_date": "2026-07-20",
-  "retirement_date": "2027-01-20",
+  "release_date": "2025-10-06",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
   "successor": "gpt-realtime-2.1-mini"
 }

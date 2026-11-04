@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-02",
-  "count": 37,
+  "date": "2026-11-04",
+  "count": 38,
   "ids": [
     "beam",
     "bonsai-2",
@@ -24,6 +24,7 @@
     "lfm3-audio",
     "lfm3-omni",
     "lfm3-vl",
+    "mimo-v2.6",
     "mimo-v2.6-flash",
     "mimo-v2.6-pro",
     "minimax-m2.7",
@@ -38,6 +39,6 @@
     "nemotron-3.5-bolt",
     "nimble-v3",
     "phonon",
-    "pplx-decider"
+    "pplx-decider-flash"
   ]
 }

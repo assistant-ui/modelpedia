@@ -1,0 +1,16 @@
+{
+  "id": "crouton-alpha-free",
+  "name": "crouton-alpha-free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "e0a00c72",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-04"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "count": 126,
+  "date": "2026-11-04",
+  "count": 124,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -13,6 +13,7 @@
     "google-gemma-2-9b-it",
     "google-gemma-3-1b-it",
     "gradientai-llama-3-8b-instruct-gradient-1048k",
+    "ibm-granite-granite-4.2-30b",
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
     "kisti-koni-koni-llama3.1-8b-instruct",
@@ -76,7 +77,6 @@
     "qwen-qwen3-1.7b-base",
     "qwen-qwen3-14b",
     "qwen-qwen3-14b-base",
-    "qwen-qwen3-235b-a22b",
     "qwen-qwen3-235b-a22b-instruct",
     "qwen-qwen3-235b-a22b-instruct-2507",
     "qwen-qwen3-30b-a3b",
@@ -85,8 +85,6 @@
     "qwen-qwen3-32b",
     "qwen-qwen3-4b",
     "qwen-qwen3-4b-base",
-    "qwen-qwen3-4b-instruct",
-    "qwen-qwen3-4b-instruct-2507",
     "qwen-qwen3-4b-thinking",
     "qwen-qwen3-4b-thinking-2507",
     "qwen-qwen3-8b",

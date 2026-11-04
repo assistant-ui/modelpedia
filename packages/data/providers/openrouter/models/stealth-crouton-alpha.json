@@ -1,0 +1,34 @@
+{
+  "id": "stealth/crouton-alpha",
+  "name": "Crouton Alpha",
+  "created_by": "stealth",
+  "source": "official",
+  "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows.",
+  "release_date": "2026-11-03",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b333c8b6",
+    "description": "7192b722",
+    "release_date": "762307b9",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "7192b722",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-04"
+}
