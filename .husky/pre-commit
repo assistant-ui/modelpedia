@@ -1,1 +1,2 @@
+. "$(dirname "$0")/global-hook"
 pnpm exec lint-staged
