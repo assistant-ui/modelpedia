@@ -3,7 +3,7 @@
 # Sourced from .husky/<hook>; uses that hook's name, args and stdin.
 
 hook=$(basename "$0")
-dir=$(git config --global --get core.hooksPath || git config --system --get core.hooksPath || true)
+dir=$(git config --global --includes --get core.hooksPath || git config --system --includes --get core.hooksPath || true)
 case $dir in "~"/*) dir=$HOME/${dir#"~/"} ;; esac
 
 if [ -n "$dir" ] && [ -f "$dir/$hook" ] && [ -x "$dir/$hook" ]; then
