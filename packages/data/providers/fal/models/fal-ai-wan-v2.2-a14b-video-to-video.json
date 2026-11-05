@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.2 video-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts and source videos.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-02",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/video-to-video",
@@ -15,12 +15,12 @@
     "name": "1cffaf76",
     "family": "2aadc089",
     "description": "f7b7152b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6514752a",
     "model_type": "ddb0b7bc",
     "page_url": "9212de70",
     "tagline": "f7b7152b",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-05"
 }

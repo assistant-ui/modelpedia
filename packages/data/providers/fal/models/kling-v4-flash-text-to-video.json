@@ -1,0 +1,31 @@
+{
+  "id": "kling/v4/flash/text-to-video",
+  "name": "Kling 4.0 Flash Text to Video",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Kling 4.0 Flash generates videos from text prompts at 720p, with durations from 3 to 20 seconds and configurable aspect ratios.",
+  "status": "active",
+  "release_date": "2026-09-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/kling/v4/flash/text-to-video",
+  "tagline": "Kling 4.0 Flash generates videos from text prompts at 720p, with durations from 3 to 20 seconds and configurable aspect ratios.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-11-04",
+  "_generated": {
+    "name": "02055c6e",
+    "description": "5fda7e82",
+    "status": "379ac110",
+    "release_date": "1ec3c8a2",
+    "model_type": "4d1b75ca",
+    "page_url": "4f6ebcb5",
+    "tagline": "5fda7e82",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "382007fc"
+  },
+  "last_updated": "2026-11-05"
+}

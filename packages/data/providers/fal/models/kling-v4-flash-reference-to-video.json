@@ -1,0 +1,28 @@
+{
+  "id": "kling/v4/flash/reference-to-video",
+  "name": "Kling 4.0 Flash Reference to Video",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Kling 4.0 Flash generates 720p videos from text prompts and image or video references, with durations from 3 to 20 seconds.",
+  "status": "active",
+  "release_date": "2026-09-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/kling/v4/flash/reference-to-video",
+  "tagline": "Kling 4.0 Flash generates 720p videos from text prompts and image or video references, with durations from 3 to 20 seconds.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-04",
+  "_generated": {
+    "name": "5a21c401",
+    "description": "213ddb82",
+    "status": "379ac110",
+    "release_date": "1ec3c8a2",
+    "model_type": "ddb0b7bc",
+    "page_url": "56693863",
+    "tagline": "213ddb82",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "382007fc"
+  },
+  "last_updated": "2026-11-05"
+}

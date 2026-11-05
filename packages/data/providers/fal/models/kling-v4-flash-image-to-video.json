@@ -1,0 +1,35 @@
+{
+  "id": "kling/v4/flash/image-to-video",
+  "name": "Kling 4.0 Flash Image to Video",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Kling 4.0 Flash animates a starting image into a 720p video, with optional text prompts and durations from 3 to 20 seconds.",
+  "status": "active",
+  "release_date": "2026-09-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/kling/v4/flash/image-to-video",
+  "tagline": "Kling 4.0 Flash animates a starting image into a 720p video, with optional text prompts and durations from 3 to 20 seconds.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-11-04",
+  "_generated": {
+    "name": "da3ff14d",
+    "description": "a92ec8d7",
+    "status": "379ac110",
+    "release_date": "1ec3c8a2",
+    "model_type": "4d1b75ca",
+    "page_url": "045724a9",
+    "tagline": "a92ec8d7",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "382007fc"
+  },
+  "last_updated": "2026-11-05"
+}

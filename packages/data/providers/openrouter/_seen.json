@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "count": 467,
   "ids": [
     "-anthropic-claude-fable-latest",
@@ -143,6 +143,7 @@
     "inception-mercury-3",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-vl",
+    "inclusionai-ling-3.0-tiny",
     "inclusionai-ling-3.1-flash",
     "inference-net-schematron-v2-small",
     "inference-net-schematron-v2-turbo",
@@ -400,6 +401,7 @@
     "rekaai-reka-flash-3",
     "relace-relace-apply-3",
     "relace-relace-search",
+    "ricursiveai-ripple-65b-preview",
     "sakana-fugu-max",
     "sakana-fugu-ultra",
     "sakana-fugu-ultra-v2",
@@ -424,9 +426,7 @@
     "thedrummer-skyfall-36b-v2",
     "thedrummer-unslopnemo-12b",
     "thinkingmachines-inkling",
-    "thinkingmachines-inkling-free",
     "thinkingmachines-inkling-small",
-    "thinkingmachines-inkling-small-free",
     "typesafe-jev-router",
     "unbiased-pareto-26.10",
     "unbiased-pareto-26.9",

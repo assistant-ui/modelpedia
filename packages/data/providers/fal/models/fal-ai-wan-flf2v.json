@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.1 flf2v generates dynamic videos by intelligently bridging a given first frame to a desired end frame through smooth, coherent motion sequences.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-17",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-flf2v",
@@ -23,7 +23,7 @@
     "name": "c042d094",
     "family": "2aadc089",
     "description": "3e96951e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c495f388",
     "model_type": "4d1b75ca",
     "page_url": "8f2d43fa",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-05"
 }

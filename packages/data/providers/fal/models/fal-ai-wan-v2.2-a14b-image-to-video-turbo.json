@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.2 Turbo image-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-31",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/image-to-video/turbo",
@@ -23,7 +23,7 @@
     "name": "1cffaf76",
     "family": "2aadc089",
     "description": "277b5018",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ae53f5de",
     "model_type": "4d1b75ca",
     "page_url": "29ad2eff",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-05"
 }

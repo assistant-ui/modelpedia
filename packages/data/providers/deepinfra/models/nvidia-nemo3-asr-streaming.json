@@ -1,0 +1,31 @@
+{
+  "id": "nvidia/Nemo3-ASR-Streaming",
+  "name": "Nemo3-ASR-Streaming",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron Speech Streaming EN 0.6B is NVIDIA's 600M-parameter cache-aware FastConformer-RNNT model for low-latency English speech recognition. It transcribes audio as it arrives, with native punctuation and capitalization, by reusing cached encoder context instead of recomputing overlapping windows. DeepInfra serves it at 560 ms lookahead over a realtime WebSocket API compatible with OpenAI Realtime transcription, batching many concurrent streams on each GPU, for live captioning, voice agents ...",
+  "status": "active",
+  "model_type": "transcription",
+  "open_weight": true,
+  "tagline": "Nemotron Speech Streaming EN 0.6B is NVIDIA's 600M-parameter cache-aware FastConformer-RNNT model for low-latency English speech recognition.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "9eb4e0ec",
+    "description": "255408ae",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "tagline": "1ed740af",
+    "capabilities": "0fa77dc6",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-11-05"
+}

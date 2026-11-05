@@ -3,8 +3,8 @@
   "name": "Auto Router",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-08-30",
-  "description": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market.",
+  "last_updated": "2026-11-05",
+  "description": "Auto is OpenRouter’s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router).",
   "context_window": 2000000,
   "modalities": {
     "input": ["text", "image", "audio", "video"],
@@ -18,7 +18,7 @@
   },
   "_generated": {
     "name": "4420e201",
-    "description": "4a8a236e",
+    "description": "b5c2c3a7",
     "context_window": "805f7438",
     "modalities": "bedbbc8b",
     "capabilities": "03fbefb4",

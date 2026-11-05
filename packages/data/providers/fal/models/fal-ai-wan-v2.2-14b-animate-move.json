@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-Animate is a video model that generates high-fidelity character videos by replicating the expressions and movements of characters from reference videos.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-09-21",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-14b/animate/move",
@@ -15,12 +15,12 @@
     "name": "06836c2e",
     "family": "2aadc089",
     "description": "f756e4aa",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e7ea6717",
     "model_type": "ddb0b7bc",
     "page_url": "ec0e95ac",
     "tagline": "f756e4aa",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-05"
 }
