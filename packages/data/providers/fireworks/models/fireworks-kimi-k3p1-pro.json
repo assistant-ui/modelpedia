@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/kimi-k3p1-pro",
+  "name": "kimi-k3p1-pro",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/kimi-k3p1-pro",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.2
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "feeba9ee",
+    "family": "73e8093c",
+    "context_window": "1bf8ad8b",
+    "page_url": "8d723852",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "76ce7a5a",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-05"
+}

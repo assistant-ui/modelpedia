@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "count": 433,
+  "date": "2026-11-05",
+  "count": 434,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -310,6 +310,8 @@
     "openai-gpt-image-2",
     "openai-gpt-image-2.5-flare",
     "openai-gpt-image-2.5-sunburst",
+    "openai-gpt-image-2.6-flare",
+    "openai-gpt-image-2.6-sunburst",
     "openai-gpt-live-1",
     "openai-gpt-live-transcribe",
     "openai-gpt-oss-120b",
@@ -381,7 +383,6 @@
     "spacexai-grok-stt",
     "spacexai-grok-tts",
     "spacexai-grok-voice-3.0",
-    "spacexai-grok-voice-think-fast-2.0",
     "stealth-glyph-cluster",
     "stepfun-step-3.7-flash",
     "stepfun-step-5-preview",

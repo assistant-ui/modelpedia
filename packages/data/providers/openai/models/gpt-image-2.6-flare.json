@@ -1,0 +1,63 @@
+{
+  "id": "gpt-image-2.6-flare",
+  "name": "GPT-Image-2.6 Flare",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.6",
+  "description": "GPT Image 2.6 Flare generates and edits images from text and image inputs. Use it for interactive image generation and editing workflows. Learn about the complexity setting, markup-guided edits, SVG output, and animated GIF output in the image generation guide.",
+  "status": "active",
+  "license": "proprietary",
+  "tagline": "Image generation and editing for fast iteration",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare",
+  "open_weight": false,
+  "model_type": "image",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["image_generation", "image_edit"],
+  "snapshots": ["gpt-image-2.6-flare"],
+  "_generated": {
+    "name": "faf06fac",
+    "family": "8de336be",
+    "description": "c9d1f807",
+    "status": "379ac110",
+    "license": "9186c466",
+    "tagline": "2feecafd",
+    "page_url": "4e30e31a",
+    "open_weight": "68934a3e",
+    "model_type": "db8857fe",
+    "modalities": "bbf9b8bb",
+    "pricing": "c3e9b7d3",
+    "endpoints": "ae04eebc"
+  },
+  "last_updated": "2026-11-05"
+}

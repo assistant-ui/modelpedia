@@ -1,7 +1,8 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "count": 38,
   "ids": [
+    "autotrust-jev",
     "beam",
     "bonsai-2",
     "clef",
@@ -16,10 +17,10 @@
     "glm-5.3",
     "glm-5.3-flash",
     "gpt-oss",
-    "kev",
     "kimi-k2.6",
     "kimi-k2.7-code",
     "kimi-k3",
+    "kimi-k3.1-pro",
     "lfm3",
     "lfm3-audio",
     "lfm3-omni",
@@ -37,7 +38,6 @@
     "nemotron-3-super",
     "nemotron-3-ultra",
     "nemotron-3.5-bolt",
-    "nimble-v3",
     "phonon",
     "pplx-decider-flash"
   ]

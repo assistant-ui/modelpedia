@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Superfast video model based on Wan 2.1 14b by Krea, excelling at real-time video-editing.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-14",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/krea-wan-14b/video-to-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "61a5df7c",
     "description": "658ff16a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "2fc04e35",
     "model_type": "ddb0b7bc",
     "page_url": "bf5eb764",
     "tagline": "658ff16a",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-05"
 }

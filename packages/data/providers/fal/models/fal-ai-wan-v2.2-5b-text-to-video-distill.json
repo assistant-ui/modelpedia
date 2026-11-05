@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan 2.2's 5B distill model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-06",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/text-to-video/distill",
@@ -20,7 +20,7 @@
     "name": "1cffaf76",
     "family": "2aadc089",
     "description": "91532c04",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ffc45752",
     "model_type": "4d1b75ca",
     "page_url": "faae3cc9",
@@ -29,5 +29,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-05"
 }

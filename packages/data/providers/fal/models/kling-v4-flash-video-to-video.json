@@ -1,0 +1,28 @@
+{
+  "id": "kling/v4/flash/video-to-video",
+  "name": "Kling 4.0 Flash Video Editing",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Kling 4.0 Flash edits an input video using text instructions and optional image, video or element references, producing 3 to 20-second videos at 720p.",
+  "status": "active",
+  "release_date": "2026-11-04",
+  "model_type": "other",
+  "page_url": "https://fal.run/kling/v4/flash/video-to-video",
+  "tagline": "Kling 4.0 Flash edits an input video using text instructions and optional image, video or element references, producing 3 to 20-second videos at 720p.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-04",
+  "_generated": {
+    "name": "0177e2f3",
+    "description": "82e6f61a",
+    "status": "379ac110",
+    "release_date": "382007fc",
+    "model_type": "ddb0b7bc",
+    "page_url": "afe6ab07",
+    "tagline": "82e6f61a",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "382007fc"
+  },
+  "last_updated": "2026-11-05"
+}

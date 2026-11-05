@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-image-2.6-sunburst",
+  "name": "Gpt Image 2.6 Sunburst",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.6",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/openai/gpt-image-2.6-sunburst",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "90e9a24e",
+    "family": "8de336be",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "21965c82",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-05"
+}

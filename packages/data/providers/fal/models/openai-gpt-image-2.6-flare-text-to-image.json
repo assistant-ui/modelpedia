@@ -1,0 +1,37 @@
+{
+  "id": "openai/gpt-image-2.6/flare/text-to-image",
+  "name": "GPT Image 2.6 Flare Text to Image",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.6",
+  "description": "OpenAI's default image model for most applications.",
+  "status": "active",
+  "release_date": "2026-11-04",
+  "model_type": "image",
+  "page_url": "https://fal.run/openai/gpt-image-2.6/flare/text-to-image",
+  "tagline": "OpenAI's default image model for most applications.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-04",
+  "_generated": {
+    "name": "3f09a940",
+    "family": "8de336be",
+    "description": "5228d643",
+    "status": "379ac110",
+    "release_date": "382007fc",
+    "model_type": "db8857fe",
+    "page_url": "77e06e56",
+    "tagline": "5228d643",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "382007fc"
+  },
+  "last_updated": "2026-11-05"
+}

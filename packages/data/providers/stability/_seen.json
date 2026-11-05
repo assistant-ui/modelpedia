@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-05",
   "count": 100,
   "ids": [
+    "ar-stablelm-2-base",
     "ar-stablelm-2-chat",
     "ar-stablelm-2-chat-gguf",
     "codellama13b_instruct_260k_synthesis",
     "japanese-instructblip-alpha",
     "japanese-stable-clip-vit-l-16",
     "japanese-stable-diffusion-xl",
-    "japanese-stable-vlm",
     "japanese-stablelm-2-instruct-1_6b",
     "japanese-stablelm-3b-4e1t-base",
     "japanese-stablelm-3b-4e1t-instruct",

@@ -6,7 +6,7 @@
   "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net.",
   "release_date": "2026-09-12",
   "context_window": 128000,
-  "max_output_tokens": 4096,
+  "max_output_tokens": 8192,
   "tagline": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net.",
   "capabilities": {
     "structured_output": true,
@@ -26,11 +26,11 @@
     "description": "50a29122",
     "release_date": "31d65adc",
     "context_window": "34434798",
-    "max_output_tokens": "f7efa4f8",
+    "max_output_tokens": "77441296",
     "tagline": "50a29122",
     "capabilities": "dbb5b7fe",
     "modalities": "68e53d93",
     "pricing": "b0b3fd29"
   },
-  "last_updated": "2026-09-14"
+  "last_updated": "2026-11-05"
 }

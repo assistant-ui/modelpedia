@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 348,
+  "date": "2026-11-05",
+  "count": 350,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -123,6 +123,7 @@
     "fireworks-kimi-k2p6",
     "fireworks-kimi-k2p7-code",
     "fireworks-kimi-k3",
+    "fireworks-kimi-k3p1-pro",
     "fireworks-ling-3-flash",
     "fireworks-ling-3-flash-fin",
     "fireworks-llama-guard-2-8b",
@@ -322,6 +323,7 @@
     "fireworks-qwen3p8-flash-next-nvfp4",
     "fireworks-qwen3p8-max",
     "fireworks-qwq-32b",
+    "fireworks-ripple-65b-preview",
     "fireworks-rolm-ocr",
     "fireworks-rune",
     "fireworks-seed-oss-36b-instruct",

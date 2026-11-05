@@ -1,0 +1,63 @@
+{
+  "id": "gpt-image-2.6-sunburst",
+  "name": "GPT-Image-2.6 Sunburst",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.6",
+  "description": "GPT Image 2.6 Sunburst generates and edits images from text and image inputs. Use it for detailed compositions and image editing workflows. Learn about the complexity setting, markup-guided edits, SVG output, and animated GIF output in the image generation guide.",
+  "status": "active",
+  "license": "proprietary",
+  "tagline": "Image generation and editing for detailed visual work",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+  "open_weight": false,
+  "model_type": "image",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["image_generation", "image_edit"],
+  "snapshots": ["gpt-image-2.6-sunburst"],
+  "_generated": {
+    "name": "4a8cd7d7",
+    "family": "8de336be",
+    "description": "656f2c69",
+    "status": "379ac110",
+    "license": "9186c466",
+    "tagline": "6f8b95e4",
+    "page_url": "86bf6ec5",
+    "open_weight": "68934a3e",
+    "model_type": "db8857fe",
+    "modalities": "bbf9b8bb",
+    "pricing": "c3e9b7d3",
+    "endpoints": "ae04eebc"
+  },
+  "last_updated": "2026-11-05"
+}

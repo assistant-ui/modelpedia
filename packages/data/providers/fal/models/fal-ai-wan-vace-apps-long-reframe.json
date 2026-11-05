@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Reframe entire videos scene-by-scene using Wan VACE 2.1",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-07",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-vace-apps/long-reframe",
@@ -15,12 +15,12 @@
     "name": "73fb863a",
     "family": "2aadc089",
     "description": "99b84139",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "94efe4a0",
     "model_type": "ddb0b7bc",
     "page_url": "2d937e18",
     "tagline": "99b84139",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-05"
 }

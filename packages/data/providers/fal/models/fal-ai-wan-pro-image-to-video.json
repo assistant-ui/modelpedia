@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.1 Pro is a premium image-to-video model that generates high-quality 1080p videos at 30fps with up to 6 seconds duration, delivering exceptional visual quality and motion diversity from images",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-11",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-pro/image-to-video",
@@ -23,7 +23,7 @@
     "name": "da31770e",
     "family": "2aadc089",
     "description": "98743e0e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "53813ccd",
     "model_type": "4d1b75ca",
     "page_url": "8bbc7bec",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-05"
 }

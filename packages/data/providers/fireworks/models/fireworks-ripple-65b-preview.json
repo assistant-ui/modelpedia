@@ -1,0 +1,26 @@
+{
+  "id": "fireworks/ripple-65b-preview",
+  "name": "ripple-65b-preview",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 1040000,
+  "parameters": 65,
+  "page_url": "https://fireworks.ai/models/fireworks/ripple-65b-preview",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "cd551222",
+    "context_window": "1bf8ad8b",
+    "parameters": "fc490ca4",
+    "page_url": "019c7a9f",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-11-05"
+}
