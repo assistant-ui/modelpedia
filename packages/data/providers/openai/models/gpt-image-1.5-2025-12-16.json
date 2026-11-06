@@ -3,7 +3,7 @@
   "name": "gpt-image-1.5-2025-12-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-06",
   "family": "gpt-image-1.5",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -94,7 +94,7 @@
     "capabilities": "ec32b5a4",
     "deprecation_date": "61fd683f",
     "retirement_date": "a96180df",
-    "successor": "90f6585f"
+    "successor": "dd338b61"
   },
   "license": "proprietary",
   "release_date": "2025-12-16",
@@ -112,5 +112,5 @@
   },
   "deprecation_date": "2026-06-02",
   "retirement_date": "2026-12-01",
-  "successor": "gpt-image-2.5-sunburst"
+  "successor": "gpt-image-2.6-sunburst"
 }

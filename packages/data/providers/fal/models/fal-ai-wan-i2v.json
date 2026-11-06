@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.1 is a image-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-02-25",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-i2v",
@@ -18,12 +18,12 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-10-20",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "1f22fb8b",
     "family": "2aadc089",
     "description": "2a70bdc0",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "8bae68f1",
     "model_type": "4d1b75ca",
     "page_url": "d130fad9",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "d322d85c"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

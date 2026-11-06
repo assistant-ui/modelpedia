@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan 2.2's 14B model edit high-resolution, photorealistic images with powerful prompt understanding and fine-grained visual detail",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-09-03",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/image-to-image",
@@ -18,12 +18,12 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "1cffaf76",
     "family": "2aadc089",
     "description": "16dbee69",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "80e5c530",
     "model_type": "db8857fe",
     "page_url": "88a4579d",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

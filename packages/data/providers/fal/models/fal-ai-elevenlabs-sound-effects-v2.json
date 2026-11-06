@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate sound effects using ElevenLabs advanced sound effects model.",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-09-02",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/elevenlabs/sound-effects/v2",
@@ -12,17 +12,17 @@
   "capabilities": {
     "streaming": true
   },
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "0cf55667",
     "description": "890698a5",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "5c809219",
     "model_type": "ddb0b7bc",
     "page_url": "ce424fb8",
     "tagline": "890698a5",
     "capabilities": "0fa77dc6",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-06"
 }

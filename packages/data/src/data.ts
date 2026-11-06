@@ -65854,7 +65854,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-08-16",
         "status": "deprecated",
-        "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+        "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "max_output_tokens": 128000,
         "max_input_tokens": 922000,
@@ -79598,8 +79598,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-28",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "blackforestlabs/flux-3/klein/text-to-image/lora",
@@ -79654,8 +79654,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-28",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "blackforestlabs/flux-3-max/image-to-video",
@@ -81084,8 +81084,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-15",
-        "last_updated": "2026-10-16"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "bytedance/seed-audio-1.0",
@@ -82023,6 +82023,20 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Real-time, prompt-driven video editing over WebRTC.",
         "last_seen_at": "2026-08-14",
         "last_updated": "2026-08-16"
+      },
+      {
+        "id": "decart/lucy-2-6/realtime",
+        "name": "Lucy 2 6",
+        "created_by": "decart",
+        "source": "official",
+        "description": "Real-time, prompt-driven video editing over WebRTC.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "other",
+        "page_url": "https://fal.run/decart/lucy-2-6/realtime",
+        "tagline": "Real-time, prompt-driven video editing over WebRTC.",
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "decart/lucy-edit/pro",
@@ -83843,8 +83857,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/bytedance-upscaler/upscale/video",
         "tagline": "Upscale videos with Bytedance's video upscaler.",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/bytedance/video-stylize",
@@ -84781,13 +84795,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "DiffRhythm is a blazing fast model for transforming lyrics into full songs.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-03-04",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/diffrhythm",
         "tagline": "DiffRhythm is a blazing fast model for transforming lyrics into full songs.",
         "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/diffusion-edge",
@@ -84881,7 +84895,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Upscale your images with DRCT-Super-Resolution.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-02-24",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/drct-super-resolution",
@@ -84902,7 +84916,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_seen_at": "2026-04-21",
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/dreamo",
@@ -85150,7 +85164,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Generate sound effects using ElevenLabs advanced sound effects model.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-02",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/elevenlabs/sound-effects/v2",
@@ -85158,8 +85172,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-04"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/elevenlabs/speech-to-text/scribe-v2",
@@ -85454,7 +85468,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "LoRA trainer for ERNIE-Image, Baidu's powerful 8B-parameter text-to-image model.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-04-15",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/ernie-image-trainer",
@@ -85463,7 +85477,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "last_seen_at": "2026-04-21",
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/ernie-image/turbo",
@@ -88821,7 +88835,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "FLUX Control LoRA Depth is a high-performance endpoint that uses a control image using a depth map to transfer structure to the generated image and another initial image to guide color.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-02-11",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/flux-control-lora-depth/image-to-image",
@@ -88842,7 +88856,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_seen_at": "2026-04-21",
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/flux-control-lora-depth",
@@ -88850,7 +88864,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "FLUX Control LoRA Depth is a high-performance endpoint that uses a control image to transfer structure to the generated image, using a depth map.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-02-11",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/flux-control-lora-depth",
@@ -88870,7 +88884,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_seen_at": "2026-04-21",
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/flux/dev/image-to-image",
@@ -97914,7 +97928,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Fast Text-to-Video endpoint for Krea's Wan 14b model.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-10-20",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/krea-wan-14b/text-to-video",
@@ -97930,8 +97944,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/krea-wan-14b/video-to-video",
@@ -97939,13 +97953,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Superfast video model based on Wan 2.1 14b by Krea, excelling at real-time video-editing.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-10-14",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/krea-wan-14b/video-to-video",
         "tagline": "Superfast video model based on Wan 2.1 14b by Krea, excelling at real-time video-editing.",
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/latentsync",
@@ -98009,7 +98023,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Produce high-quality images with minimal inference steps.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2023-11-09",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/lcm-sd15-i2i",
@@ -98030,7 +98044,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_seen_at": "2026-06-24",
-        "last_updated": "2026-06-29"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/lcm",
@@ -101040,13 +101054,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Train LTX-2.3 22B for video transformation or video-conditioned generation.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-03-17",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/ltx23-v2v-trainer",
         "tagline": "Train LTX-2.3 22B for video transformation or video-conditioned generation.",
         "last_seen_at": "2026-07-13",
-        "last_updated": "2026-07-17"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/ltx23-video-trainer",
@@ -101866,7 +101880,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Maya1 is a state-of-the-art speech model by Maya Research for expressive voice generation, built to capture real human emotion and precise voice design.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-12-12",
         "model_type": "tts",
         "page_url": "https://fal.run/fal-ai/maya/batch",
@@ -101883,7 +101897,7 @@ export const providers: ProviderWithModels[] = [
           "audio_speech"
         ],
         "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/maya/stream",
@@ -101891,7 +101905,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Maya1 is a state-of-the-art speech model by Maya Research for expressive voice generation, built to capture real human emotion and precise voice design.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-12-12",
         "model_type": "tts",
         "page_url": "https://fal.run/fal-ai/maya/stream",
@@ -101908,7 +101922,7 @@ export const providers: ProviderWithModels[] = [
           "audio_speech"
         ],
         "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/maya",
@@ -101916,7 +101930,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Maya1 is a state-of-the-art speech model by Maya Research for expressive voice generation, built to capture real human emotion and precise voice design.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-11-15",
         "model_type": "tts",
         "page_url": "https://fal.run/fal-ai/maya",
@@ -101933,7 +101947,7 @@ export const providers: ProviderWithModels[] = [
           "audio_speech"
         ],
         "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/meshy/rigging/multi-animation",
@@ -102016,7 +102030,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meshy 6",
         "created_by": "fal",
         "source": "official",
-        "description": "Meshy-6 is the latest model from Meshy.",
+        "description": "Meshy 6 generates 3D models from a single image.",
         "status": "active",
         "release_date": "2026-02-09",
         "model_type": "other",
@@ -102025,8 +102039,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-11-03",
-        "last_updated": "2026-11-04"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/meshy/v6/multi-image-to-3d",
@@ -102050,7 +102064,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meshy 6 Preview",
         "created_by": "fal",
         "source": "official",
-        "description": "Meshy-6-Preview is the latest model from Meshy.",
+        "description": "Meshy 6 Preview generates 3D models from a single image.",
         "status": "active",
         "release_date": "2025-10-06",
         "model_type": "other",
@@ -102059,36 +102073,36 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-14",
-        "last_updated": "2026-10-15"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/meshy/v6-preview/text-to-3d",
         "name": "Meshy 6 Preview",
         "created_by": "fal",
         "source": "official",
-        "description": "Meshy-6-Preview is the latest model from Meshy.",
+        "description": "Meshy 6 Preview generates 3D models from text prompts.",
         "status": "active",
         "release_date": "2025-10-06",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v6-preview/text-to-3d",
         "tagline": "Meshy-6-Preview is the latest model from Meshy.",
-        "last_seen_at": "2026-11-03",
-        "last_updated": "2026-11-04"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/meshy/v6/text-to-3d",
         "name": "Meshy 6",
         "created_by": "fal",
         "source": "official",
-        "description": "Meshy-6 is the latest model from Meshy.",
+        "description": "Meshy 6 generates 3D models from text prompts.",
         "status": "active",
         "release_date": "2026-02-09",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v6/text-to-3d",
         "tagline": "Meshy-6 is the latest model from Meshy.",
-        "last_seen_at": "2026-11-03",
-        "last_updated": "2026-11-04"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/minimax/hailuo-02-fast/image-to-video",
@@ -103435,7 +103449,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "MuseTalk is a real-time high quality audio-driven lip-syncing model.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2024-04-11",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/musetalk",
@@ -103457,7 +103471,7 @@ export const providers: ProviderWithModels[] = [
           "video"
         ],
         "last_seen_at": "2026-06-24",
-        "last_updated": "2026-06-29"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/nafnet/deblur",
@@ -110328,13 +110342,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Stable Audio 3 LoRA Trainer fine-tunes Stable Audio 3 base models on paired audio-caption datasets, producing compact LoRA weights that adapt generation toward a custom music style, sound palette, or ",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-06-11",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/stable-audio-3-trainer",
         "tagline": "Stable Audio 3 LoRA Trainer fine-tunes Stable Audio 3 base models on paired audio-caption datasets, producing compact LoRA weights that adapt generation toward a custom music style, sound palette, or ",
         "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/stable-audio",
@@ -111079,13 +111093,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Train LoRA adapters for TRELLIS.2 model",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-06-23",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/trellis-2-lora-trainer",
         "tagline": "Train LoRA adapters for TRELLIS.2 model",
         "last_seen_at": "2026-10-12",
-        "last_updated": "2026-10-13"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/trellis-2-lora",
@@ -111281,7 +111295,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Vector font generation with VecGlypher.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-03-10",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/vecglypher/image-to-svg",
@@ -111302,7 +111316,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_seen_at": "2026-03-10",
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/vecglypher",
@@ -111310,7 +111324,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Vector font generation with VecGlypher.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-03-10",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/vecglypher",
@@ -111330,7 +111344,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_seen_at": "2026-03-10",
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/veo2/image-to-video",
@@ -112665,13 +112679,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Train custom LoRAs for Wan-2.2 T2V/I2V 480P",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2026-02-23",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-22-trainer/i2v-a14b",
         "tagline": "Train custom LoRAs for Wan-2.2 T2V/I2V 480P",
-        "last_seen_at": "2026-02-25",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-22-trainer/t2v-a14b",
@@ -112680,13 +112694,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Train custom LoRAs for Wan-2.2 T2V/I2V 480P",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2026-02-23",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-22-trainer/t2v-a14b",
         "tagline": "Train custom LoRAs for Wan-2.2 T2V/I2V 480P",
-        "last_seen_at": "2026-02-25",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-22-vace-fun-a14b/depth",
@@ -112695,13 +112709,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-17",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-22-vace-fun-a14b/depth",
         "tagline": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-22-vace-fun-a14b/inpainting",
@@ -112710,13 +112724,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-17",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-22-vace-fun-a14b/inpainting",
         "tagline": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-22-vace-fun-a14b/outpainting",
@@ -112725,13 +112739,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-17",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-22-vace-fun-a14b/outpainting",
         "tagline": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-22-vace-fun-a14b/reframe",
@@ -112740,13 +112754,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-17",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-22-vace-fun-a14b/reframe",
         "tagline": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-25-preview/image-to-image",
@@ -113001,7 +113015,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Add custom LoRAs to Wan-2.1 is a image-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-03-08",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan-i2v-lora",
@@ -113021,8 +113035,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-i2v",
@@ -113031,7 +113045,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.1 is a image-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-02-25",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan-i2v",
@@ -113051,8 +113065,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-motion",
@@ -113109,7 +113123,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.1 Pro is a premium image-to-video model that generates high-quality 1080p videos at 30fps with up to 6 seconds duration, delivering exceptional visual quality and motion diversity from images",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-03-11",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan-pro/image-to-video",
@@ -113129,8 +113143,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-01-26",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-pro/text-to-video",
@@ -113139,7 +113153,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.1 Pro is a premium text-to-video model that generates high-quality 1080p videos at 30fps with up to 6 seconds duration, delivering exceptional visual quality and motion diversity from text promp",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-03-11",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan-pro/text-to-video",
@@ -113155,8 +113169,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-01-26",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-t2v-lora",
@@ -113165,7 +113179,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Add custom LoRAs to Wan-2.1 is a text-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-03-25",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan-t2v-lora",
@@ -113184,8 +113198,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-t2v",
@@ -113235,13 +113249,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Train custom LoRAs for Wan-2.1 I2V 720P",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-11",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-trainer/i2v-720p",
         "tagline": "Train custom LoRAs for Wan-2.1 I2V 720P",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-trainer/t2v-14b",
@@ -113250,14 +113264,14 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Train custom LoRAs for Wan-2.1 T2V 14B",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-11",
         "model_type": "other",
         "parameters": 14,
         "page_url": "https://fal.run/fal-ai/wan-trainer/t2v-14b",
         "tagline": "Train custom LoRAs for Wan-2.1 T2V 14B",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-trainer/t2v",
@@ -113266,13 +113280,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Train custom LoRAs for Wan-2.1 T2V 1.3B",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-11",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-trainer/t2v",
         "tagline": "Train custom LoRAs for Wan-2.1 T2V 1.3B",
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-trainer",
@@ -113322,13 +113336,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-Animate is a video model that generates high-fidelity character videos by replicating the expressions and movements of characters from reference videos.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-21",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-14b/animate/move",
         "tagline": "Wan-Animate is a video model that generates high-fidelity character videos by replicating the expressions and movements of characters from reference videos.",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-14b/animate/replace",
@@ -113337,13 +113351,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-Animate Replace is a model that can integrate animated characters into reference videos, replacing the original character while preserving the scene’s lighting and color tone for seamless environm",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-21",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-14b/animate/replace",
         "tagline": "Wan-Animate Replace is a model that can integrate animated characters into reference videos, replacing the original character while preserving the scene’s lighting and color tone for seamless environm",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-14b/speech-to-video",
@@ -113352,7 +113366,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-S2V is a video model that generates high-quality videos from static images and audio, with realistic facial expressions, body movements, and professional camera work for film and television applic",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-27",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-14b/speech-to-video",
@@ -113360,8 +113374,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-5b/image-to-video",
@@ -113370,7 +113384,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 5B model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-07-30",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/image-to-video",
@@ -113390,8 +113404,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-5b/text-to-image",
@@ -113400,7 +113414,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 5B model generates high-resolution, photorealistic images with powerful prompt understanding and fine-grained visual detail",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-05",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/text-to-image",
@@ -113419,8 +113433,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-5b/text-to-video/distill",
@@ -113429,7 +113443,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 5B distill model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-06",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/text-to-video/distill",
@@ -113445,8 +113459,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-5b/text-to-video/fast-wan",
@@ -113455,7 +113469,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 5B FastVideo model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-05",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/text-to-video/fast-wan",
@@ -113471,8 +113485,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-5b/text-to-video",
@@ -113481,7 +113495,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 5B model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-07-28",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/text-to-video",
@@ -113497,8 +113511,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/image-to-image",
@@ -113507,7 +113521,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 14B model edit high-resolution, photorealistic images with powerful prompt understanding and fine-grained visual detail",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-03",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/image-to-image",
@@ -113527,8 +113541,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/image-to-video/lora",
@@ -113537,7 +113551,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.2 image-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts and images.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-07",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/image-to-video/lora",
@@ -113557,8 +113571,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/image-to-video/turbo",
@@ -113567,7 +113581,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.2 Turbo image-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-07-31",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/image-to-video/turbo",
@@ -113587,8 +113601,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/image-to-video",
@@ -113597,7 +113611,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "fal-ai/wan/v2.2-A14B/image-to-video",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-07-28",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14B/image-to-video",
@@ -113617,8 +113631,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/text-to-image/lora",
@@ -113627,7 +113641,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 14B model with LoRA support generates high-fidelity images with enhanced prompt alignment, style adaptability.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-05",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/text-to-image/lora",
@@ -113646,8 +113660,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/text-to-image",
@@ -113656,7 +113670,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan 2.2's 14B model generates high-resolution, photorealistic images with powerful prompt understanding and fine-grained visual detail",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-05",
         "model_type": "image",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/text-to-image",
@@ -113675,8 +113689,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/text-to-video/lora",
@@ -113685,7 +113699,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.2 text-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-07",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/text-to-video/lora",
@@ -113701,8 +113715,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-06-24",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/text-to-video/turbo",
@@ -113711,7 +113725,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.2 turbo text-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-07-31",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/text-to-video/turbo",
@@ -113727,8 +113741,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/text-to-video",
@@ -113737,7 +113751,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.2 text-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-07-28",
         "model_type": "video",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/text-to-video",
@@ -113753,8 +113767,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.2-a14b/video-to-video",
@@ -113763,13 +113777,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Wan-2.2 video-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts and source videos.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-08-02",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/video-to-video",
         "tagline": "Wan-2.2 video-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts and source videos.",
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan/v2.7/edit-video",
@@ -114016,7 +114030,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-14b/depth",
@@ -114024,8 +114038,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-14b/inpainting",
@@ -114034,7 +114048,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-14b/inpainting",
@@ -114042,8 +114056,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-14b/outpainting",
@@ -114052,7 +114066,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-14b/outpainting",
@@ -114060,8 +114074,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-14b/pose",
@@ -114070,7 +114084,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-14b/pose",
@@ -114078,8 +114092,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-14b/reframe",
@@ -114088,7 +114102,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-06-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-14b/reframe",
@@ -114096,8 +114110,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-14b",
@@ -114106,7 +114120,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-05-27",
         "model_type": "other",
         "parameters": 14,
@@ -114115,8 +114129,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-apps/long-reframe",
@@ -114125,13 +114139,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Reframe entire videos scene-by-scene using Wan VACE 2.1",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-10-07",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-apps/long-reframe",
         "tagline": "Reframe entire videos scene-by-scene using Wan VACE 2.1",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace-apps/video-edit",
@@ -114140,13 +114154,13 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "wan",
         "description": "Edit videos using plain language and Wan VACE",
-        "status": "deprecated",
+        "status": "active",
         "release_date": "2025-09-22",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/wan-vace-apps/video-edit",
         "tagline": "Edit videos using plain language and Wan VACE",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-04",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "fal-ai/wan-vace",
@@ -115087,6 +115101,145 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_seen_at": "2026-10-20",
         "last_updated": "2026-10-21"
+      },
+      {
+        "id": "google/gemini-omni-flash/v1.2/edit",
+        "name": "Gemini Omni Flash 1.2 Edit Video",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "other",
+        "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/edit",
+        "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "google/gemini-omni-flash/v1.2/extend",
+        "name": "Gemini Omni Flash 1.2 Extend Video",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "other",
+        "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/extend",
+        "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "google/gemini-omni-flash/v1.2/image-to-video",
+        "name": "Gemini Omni Flash 1.2 Image to Video",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "video",
+        "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/image-to-video",
+        "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "google/gemini-omni-flash/v1.2/reference-to-video",
+        "name": "Gemini Omni Flash 1.2 Reference to Video",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "video",
+        "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/reference-to-video",
+        "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "google/gemini-omni-flash/v1.2/text-to-video",
+        "name": "Gemini Omni Flash 1.2 Text to Video",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "video",
+        "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/text-to-video",
+        "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "google/gemini-omni-flash/v1.2/upscale",
+        "name": "Gemini Omni Flash 1.2 Upscale Video",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "other",
+        "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/upscale",
+        "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "google/gemini-omni-flash",
@@ -116857,6 +117010,40 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-10-21"
       },
       {
+        "id": "meshy/n1/retexture",
+        "name": "Meshy N1 Retexture",
+        "created_by": "meshy",
+        "source": "official",
+        "description": "Meshy N1 retexture applies new textures to an existing 3D model using native 3D texturing, producing 2K base color textures from reference images.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "other",
+        "page_url": "https://fal.run/meshy/n1/retexture",
+        "tagline": "Meshy N1 retexture applies new textures to an existing 3D model using native 3D texturing, producing 2K base color textures from reference images.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "meshy/relief",
+        "name": "Meshy Relief",
+        "created_by": "meshy",
+        "source": "official",
+        "description": "Meshy Relief converts an image into a 3D relief model with a raised surface and a flat back.",
+        "status": "active",
+        "release_date": "2026-11-05",
+        "model_type": "other",
+        "page_url": "https://fal.run/meshy/relief",
+        "tagline": "Meshy Relief converts an image into a 3D relief model with a raised surface and a flat back.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
+      },
+      {
         "id": "meshy/v6-lite/retexture",
         "name": "Meshy 6 Lite Retexture",
         "created_by": "meshy",
@@ -116895,8 +117082,8 @@ export const providers: ProviderWithModels[] = [
         "name": "V7 Image to 3D",
         "created_by": "meshy",
         "source": "official",
-        "description": "Turns a single image into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
-        "status": "deprecated",
+        "description": "Meshy 7 generates 3D models from a single image, with optional textures and PBR maps.",
+        "status": "active",
         "release_date": "2026-08-11",
         "model_type": "other",
         "page_url": "https://fal.run/meshy/v7/image-to-3d",
@@ -116904,16 +117091,16 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-02",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "meshy/v7/multi-image-to-3d",
         "name": "V7 Multi Image to 3D",
         "created_by": "meshy",
         "source": "official",
-        "description": "econstructs a high-fidelity textured 3D model from multiple angle views of one object, with game-ready topology and polygon control",
-        "status": "deprecated",
+        "description": "Meshy 7 generates 3D models from multiple images of the same object, with optional textures and PBR maps.",
+        "status": "active",
         "release_date": "2026-08-11",
         "model_type": "other",
         "page_url": "https://fal.run/meshy/v7/multi-image-to-3d",
@@ -116921,8 +117108,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-02",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "meshy/v7/retexture",
@@ -116946,21 +117133,21 @@ export const providers: ProviderWithModels[] = [
         "name": "V7 Text to 3D",
         "created_by": "meshy",
         "source": "official",
-        "description": "Turns text into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
-        "status": "deprecated",
+        "description": "Meshy 7 generates 3D models from text prompts, with optional textures and PBR maps.",
+        "status": "active",
         "release_date": "2026-08-24",
         "model_type": "other",
         "page_url": "https://fal.run/meshy/v7/text-to-3d",
         "tagline": "Turns text into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
-        "last_seen_at": "2026-10-02",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "meshy/v7.1/image-to-3d",
         "name": "Meshy 7.1 Image to 3D",
         "created_by": "meshy",
         "source": "official",
-        "description": "Meshy 7.1 generates 3D models from a single image, with standard, low-poly, and Smart Topology modes, optional textures and PBR maps, and geometry resolution up to 4K.",
+        "description": "Meshy 7.1 is the latest standard model from Meshy.",
         "status": "active",
         "release_date": "2026-09-19",
         "model_type": "other",
@@ -116969,15 +117156,15 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-02",
-        "last_updated": "2026-10-03"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "meshy/v7.1/multi-image-to-3d",
         "name": "Meshy 7.1 Multi Image to 3D",
         "created_by": "meshy",
         "source": "official",
-        "description": "Meshy 7.1 generates textured 3D models from one to four views of the same object, with polygon count, topology, symmetry, and optional PBR texture controls.",
+        "description": "Meshy 7.1 is the latest standard model from Meshy.",
         "status": "active",
         "release_date": "2026-09-19",
         "model_type": "other",
@@ -116986,22 +117173,22 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-02",
-        "last_updated": "2026-10-03"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "meshy/v7.1/text-to-3d",
         "name": "Meshy 7.1 Text to 3D",
         "created_by": "meshy",
         "source": "official",
-        "description": "Meshy 7.1 generates 3D models from text prompts, with untextured preview and textured full modes, standard, low-poly, and Smart Topology options, and geometry resolution up to 4K.",
+        "description": "Meshy 7.1 is the latest standard model from Meshy.",
         "status": "active",
         "release_date": "2026-09-19",
         "model_type": "other",
         "page_url": "https://fal.run/meshy/v7.1/text-to-3d",
         "tagline": "Meshy 7.1 generates 3D models from text prompts, with untextured preview and textured full modes, standard, low-poly, and Smart Topology options, and geometry resolution up to 4K.",
-        "last_seen_at": "2026-10-02",
-        "last_updated": "2026-10-03"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "meta/muse-image/edit",
@@ -117788,8 +117975,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-30",
-        "last_updated": "2026-10-31"
+        "last_seen_at": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "minimax/h3-max-turbo/text-to-video",
@@ -161710,7 +161897,7 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-3.2-11b-vision-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-06",
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true,
@@ -161731,6 +161918,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "status": "deprecated",
         "context_window": 131072,
         "max_output_tokens": 131072,
         "knowledge_cutoff": "2023-12",
@@ -169229,7 +169417,7 @@ export const providers: ProviderWithModels[] = [
         "name": "chatgpt-image-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-06",
         "family": "chatgpt",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -169372,7 +169560,7 @@ export const providers: ProviderWithModels[] = [
         },
         "deprecation_date": "2026-06-02",
         "retirement_date": "2026-12-01",
-        "successor": "gpt-image-2.5-sunburst"
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "codex-mini-latest",
@@ -177582,8 +177770,8 @@ export const providers: ProviderWithModels[] = [
           "responses",
           "batch"
         ],
-        "last_updated": "2026-10-21",
-        "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+        "last_updated": "2026-11-06",
+        "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "snapshots": [
           "gpt-5.6-luna"
@@ -178014,6 +178202,98 @@ export const providers: ProviderWithModels[] = [
           "gpt-6-astra"
         ],
         "family": "gpt-6"
+      },
+      {
+        "id": "gpt-6-cyber",
+        "name": "GPT-6-Cyber",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-6",
+        "description": "Your organization needs Daybreak Red access and approval to use GPT-6-Cyber. Your account team can confirm access. The standard rate limits below apply to approved organizations and may differ if your organization has custom limits.",
+        "status": "active",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 922000,
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 4,
+        "tagline": "Investigate a vulnerability, reproduce it in an authorized test environment, or verify a fix.",
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-6-cyber",
+        "open_weight": false,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 20,
+          "output": 100,
+          "cached_input": 2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Cached input",
+                "30m write",
+                "12h write",
+                "Cache writes"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    20,
+                    100,
+                    2,
+                    25,
+                    50,
+                    25
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "tool_search",
+          "image_generation",
+          "code_interpreter",
+          "hosted_shell",
+          "apply_patch",
+          "skills",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-6-cyber"
+        ],
+        "last_updated": "2026-11-06"
       },
       {
         "id": "gpt-6-luna",
@@ -179249,7 +179529,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-Image-1 Mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-06",
         "family": "gpt-image-1",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -179379,14 +179659,14 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "deprecation_date": "2026-06-02",
         "retirement_date": "2026-12-01",
-        "successor": "gpt-image-2.5-sunburst"
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-image-1.5-2025-12-16",
         "name": "gpt-image-1.5-2025-12-16",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-06",
         "family": "gpt-image-1.5",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -179528,14 +179808,14 @@ export const providers: ProviderWithModels[] = [
         },
         "deprecation_date": "2026-06-02",
         "retirement_date": "2026-12-01",
-        "successor": "gpt-image-2.5-sunburst"
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-image-1.5",
         "name": "GPT-Image-1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-06",
         "family": "gpt-image-1.5",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -179679,7 +179959,7 @@ export const providers: ProviderWithModels[] = [
         },
         "deprecation_date": "2026-06-02",
         "retirement_date": "2026-12-01",
-        "successor": "gpt-image-2.5-sunburst"
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-image-1",
@@ -186916,7 +187196,7 @@ export const providers: ProviderWithModels[] = [
             }
           ]
         },
-        "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+        "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "context_window": 1050000,
         "max_output_tokens": 128000,
@@ -189122,14 +189402,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.096,
+          "input": 0.1,
           "output": 8,
-          "cached_input": 0.096
+          "cached_input": 0.1
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "~deepseek/deepseek-v4-flash-latest",
@@ -189272,14 +189552,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.182,
-          "output": 10.557,
-          "cached_input": 0.18
+          "input": 0.153,
+          "output": 10.554,
+          "cached_input": 0.15
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "~openai/gpt-astra-latest",
@@ -189593,14 +189873,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.029,
+          "input": 0.028,
           "output": 0.092,
-          "cached_input": 0.029
+          "cached_input": 0.028
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "~z-ai/glm-latest",
@@ -193655,7 +193935,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding whil",
         "release_date": "2026-08-21",
         "context_window": 1048576,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 943717,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding whil",
         "capabilities": {
@@ -193676,14 +193956,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.216,
-          "output": 0.647,
-          "cached_input": 0.007
+          "input": 0.44,
+          "output": 1.32,
+          "cached_input": 0.014
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-29",
+        "last_updated": "2026-11-06",
         "license": "mit",
         "open_weight": true
       },
@@ -193791,14 +194071,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.107,
-          "output": 4.278,
-          "cached_input": 0.102
+          "input": 0.111,
+          "output": 4.44,
+          "cached_input": 0.106
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -193809,7 +194089,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window.",
         "release_date": "2026-04-24",
         "context_window": 1048576,
-        "max_output_tokens": 393216,
+        "max_output_tokens": 384000,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window.",
         "capabilities": {
@@ -193829,14 +194109,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.6,
-          "output": 3.2,
-          "cached_input": 0.135
+          "input": 0.955,
+          "output": 1.911,
+          "cached_input": 0.08
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-31",
+        "last_updated": "2026-11-06",
         "license": "mit",
         "open_weight": true
       },
@@ -193942,14 +194222,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.045,
-          "output": 0.5,
+          "input": 0.049,
+          "output": 0.54,
           "cached_input": 0.018
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-04"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "dots-studio/dots-3-note-preview:free",
@@ -195768,6 +196048,68 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "google/gemini-omni-1.1-flash",
+        "name": "Google: Gemini Omni 1.1 Flash",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview.",
+        "release_date": "2026-11-04",
+        "context_window": 131072,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview.",
+        "capabilities": {
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text",
+            "video"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9
+        },
+        "last_updated": "2026-11-06"
+      },
+      {
+        "id": "google/gemini-omni-1.2-flash",
+        "name": "Google: Gemini Omni 1.2 Flash",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash.",
+        "release_date": "2026-11-05",
+        "context_window": 131072,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash.",
+        "capabilities": {
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text",
+            "video"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9
+        },
+        "last_updated": "2026-11-06"
+      },
+      {
         "id": "google/gemma-2-27b-it",
         "name": "Google: Gemma 2 27B",
         "created_by": "google",
@@ -196142,7 +196484,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
         "release_date": "2026-04-03",
         "context_window": 262144,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 235929,
         "parameters": 26,
         "active_parameters": 4,
         "model_type": "chat",
@@ -196164,14 +196506,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.022,
-          "output": 0.067,
-          "cached_input": 0.011
+          "input": 0.09,
+          "output": 0.3,
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "google/gemma-4-31b-it:batch",
@@ -197127,7 +197469,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "inclusionai",
         "source": "official",
         "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total.",
-        "release_date": "2026-11-05",
+        "release_date": "2026-08-06",
         "context_window": 262144,
         "max_output_tokens": 250000,
         "tagline": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total.",
@@ -197153,7 +197495,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "inclusionai/ling-3.1-flash",
@@ -198044,7 +198386,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.2 1B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-06",
         "family": "llama-3.2",
         "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis.",
         "context_window": 60000,
@@ -198064,7 +198406,9 @@ export const providers: ProviderWithModels[] = [
         "parameters": 1,
         "release_date": "2024-09-25",
         "tagline": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis.",
-        "max_output_tokens": 54000
+        "max_output_tokens": 54000,
+        "status": "deprecated",
+        "deprecation_date": "2026-11-15"
       },
       {
         "id": "meta-llama/llama-3.2-3b-instruct:free",
@@ -198095,7 +198439,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.2 3B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-11-02",
+        "last_updated": "2026-11-06",
         "family": "llama-3.2",
         "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization.",
         "context_window": 131072,
@@ -198119,7 +198463,9 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "structured_output": true,
           "json_mode": true
-        }
+        },
+        "status": "deprecated",
+        "deprecation_date": "2026-11-15"
       },
       {
         "id": "meta-llama/llama-3.3-70b-instruct:free",
@@ -198156,11 +198502,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.3 70B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-11-05",
+        "last_updated": "2026-11-06",
         "family": "llama-3.3",
         "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
         "context_window": 131072,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 32768,
         "modalities": {
           "input": [
             "text"
@@ -198175,9 +198521,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.2,
-          "output": 0.52,
-          "cached_input": 0.1
+          "input": 0.59,
+          "output": 0.79,
+          "cached_input": 0.295
         },
         "model_type": "chat",
         "parameters": 70,
@@ -199003,10 +199349,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-11-04",
+        "last_updated": "2026-11-06",
         "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement.",
         "context_window": 204800,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 176947,
         "modalities": {
           "input": [
             "text"
@@ -199023,9 +199369,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cached_input": 0.06
+          "input": 0.21,
+          "output": 0.84,
+          "cached_input": 0.042
         },
         "family": "minimax",
         "model_type": "chat",
@@ -201303,12 +201649,12 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.6,
           "output": 3.5,
-          "cached_input": 0.15
+          "cached_input": 0.16
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-31"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -206946,7 +207292,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-05",
+        "last_updated": "2026-11-06",
         "family": "gpt-oss",
         "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
         "context_window": 131072,
@@ -206969,9 +207315,9 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 0.011,
-          "output": 0.04,
-          "cached_input": 0.01
+          "input": 0.022,
+          "output": 0.082,
+          "cached_input": 0.02
         },
         "model_type": "chat",
         "parameters": 120,
@@ -207887,12 +208233,45 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 65536
       },
       {
+        "id": "openrouter/auto-code",
+        "name": "Auto Code",
+        "created_by": "openrouter",
+        "source": "official",
+        "description": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses.",
+        "release_date": "2026-11-05",
+        "context_window": 2000000,
+        "max_output_tokens": 65536,
+        "tagline": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-06"
+      },
+      {
         "id": "openrouter/auto",
         "name": "Auto Router",
         "created_by": "openrouter",
         "source": "official",
-        "last_updated": "2026-11-05",
-        "description": "Auto is OpenRouter’s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router).",
+        "last_updated": "2026-11-06",
+        "description": "Auto is OpenRouter’s flagship model router, built for general-purpose usage.",
         "context_window": 2000000,
         "modalities": {
           "input": [
@@ -207912,7 +208291,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true
         },
-        "release_date": "2023-11-08",
+        "release_date": "2026-11-05",
         "tagline": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
         "tools": [
           "function_calling"
@@ -210137,7 +210516,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Next 80B A3B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-06",
         "family": "qwen3",
         "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces.",
         "context_window": 262144,
@@ -210159,7 +210538,7 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.1,
+          "input": 0.09,
           "output": 1.1,
           "cached_input": 0.07
         },
@@ -210171,7 +210550,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 235929,
+        "max_output_tokens": 16384,
         "status": "deprecated",
         "deprecation_date": "2026-10-08",
         "license": "apache-2.0",
@@ -211824,7 +212203,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows.",
         "release_date": "2026-10-16",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 943718,
         "parameters": 501,
         "active_parameters": 23,
         "tagline": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows.",
@@ -211843,14 +212222,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
+          "input": 0.3,
           "output": 1,
-          "cached_input": 0.05
+          "cached_input": 0.04
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "reka/reka-edge",
@@ -217095,7 +217474,7 @@ export const providers: ProviderWithModels[] = [
         "pricing_notes": [
           "Input: 0.20 (≤272k) 0.40 (>272k); Output: 1.20 (≤272k) 1.80 (>272k) per 1M tokens."
         ],
-        "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+        "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "context_window": 1050000,
         "max_output_tokens": 128000,
@@ -228470,10 +228849,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Seedream 4.5",
         "created_by": "bytedance",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "other",
         "page_url": "https://replicate.com/bytedance/seedream-4.5",
-        "last_updated": "2026-05-11",
+        "last_updated": "2026-11-06",
         "description": "Seedream 4.5 has an all-round improvement to support professional visual creatives with high consistency and fidelity.",
         "tagline": "Seedream 4.5 has an all-round improvement to support professional visual creatives with high consistency and fidelity.",
         "modalities": {
@@ -229233,10 +229612,10 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.8",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "audio",
         "page_url": "https://replicate.com/google/gemini-3.8-flash-lite-tts",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-06",
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
@@ -229322,6 +229701,30 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-09-15"
+      },
+      {
+        "id": "google/gemini-omni-1.2-flash",
+        "name": "Gemini Omni 1.2 Flash",
+        "created_by": "google",
+        "source": "official",
+        "status": "active",
+        "model_type": "chat",
+        "page_url": "https://replicate.com/google/gemini-omni-1.2-flash",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-06"
       },
       {
         "id": "google/imagen-4-fast",
@@ -231084,7 +231487,7 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-07-31",
-        "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+        "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "context_window": 1050000,
         "max_output_tokens": 128000,
@@ -231219,7 +231622,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "family": "gpt-image-1.5",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "image",
         "page_url": "https://replicate.com/openai/gpt-image-1.5",
         "capabilities": {
@@ -231243,7 +231646,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-11-04",
+        "last_updated": "2026-11-06",
         "description": "Status: Deprecated",
         "tagline": "Our previous image generation model",
         "license": "proprietary",
@@ -231658,7 +232061,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Image Edit",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/p-image-edit",
         "capabilities": {
@@ -231675,7 +232078,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-11-01"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "prunaai/p-image-ideogram",
@@ -231840,6 +232243,27 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-11-04"
       },
       {
+        "id": "prunaai/p-video-2-pro-replace",
+        "name": "P Video 2 Pro Replace",
+        "created_by": "prunaai",
+        "source": "official",
+        "status": "active",
+        "model_type": "video",
+        "page_url": "https://replicate.com/prunaai/p-video-2-pro-replace",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_updated": "2026-11-06"
+      },
+      {
         "id": "prunaai/p-video-2-pro",
         "name": "P Video 2 Pro",
         "created_by": "prunaai",
@@ -231949,7 +232373,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Video Replace",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "video",
         "page_url": "https://replicate.com/prunaai/p-video-replace",
         "modalities": {
@@ -231963,7 +232387,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "prunaai/p-video-upscale",
@@ -233858,9 +234282,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 195,
+        "huggingface_downloads": 196,
         "last_modified": "2023-11-08",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "control-lora",
@@ -233989,9 +234413,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 116,
+        "huggingface_downloads": 115,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stable-diffusion-xl",
@@ -234021,9 +234445,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 48,
+        "huggingface_downloads": 54,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stable-vlm",
@@ -234154,9 +234578,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 451,
+        "huggingface_downloads": 464,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-3b-4e1t-instruct",
@@ -234187,9 +234611,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 545,
+        "huggingface_downloads": 560,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-base-alpha-7b",
@@ -234220,9 +234644,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1015,
+        "huggingface_downloads": 1019,
         "last_modified": "2023-08-22",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-base-beta-70b",
@@ -234253,9 +234677,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 684,
+        "huggingface_downloads": 707,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-base-beta-7b",
@@ -234286,9 +234710,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 724,
+        "huggingface_downloads": 747,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-base-gamma-7b",
@@ -234319,9 +234743,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 526,
+        "huggingface_downloads": 534,
         "last_modified": "2024-01-25",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-base-ja_vocab-beta-7b",
@@ -234352,9 +234776,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 731,
+        "huggingface_downloads": 753,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b-v2",
@@ -234385,9 +234809,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 415,
+        "huggingface_downloads": 428,
         "last_modified": "2023-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b",
@@ -234451,9 +234875,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 708,
+        "huggingface_downloads": 729,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-instruct-beta-7b",
@@ -234484,9 +234908,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 701,
+        "huggingface_downloads": 725,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-instruct-gamma-7b",
@@ -234517,9 +234941,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 516,
+        "huggingface_downloads": 529,
         "last_modified": "2024-01-24",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "japanese-stablelm-instruct-ja_vocab-beta-7b",
@@ -234550,9 +234974,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 699,
+        "huggingface_downloads": 723,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "SAME-L",
@@ -234582,9 +235006,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6745,
+        "huggingface_downloads": 5626,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "SAME-S",
@@ -234614,9 +235038,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1981,
+        "huggingface_downloads": 1876,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sd-turbo",
@@ -234644,9 +235068,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 543736,
+        "huggingface_downloads": 522967,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sd-vae-ft-ema-original",
@@ -234693,9 +235117,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 9128,
+        "huggingface_downloads": 9291,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sd-vae-ft-mse-original",
@@ -234742,9 +235166,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 308039,
+        "huggingface_downloads": 312682,
         "last_modified": "2023-06-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sd-x2-latent-upscaler",
@@ -234759,9 +235183,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2008,
+        "huggingface_downloads": 1966,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sdxl-turbo-ryzen-ai",
@@ -234791,9 +235215,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 313,
+        "huggingface_downloads": 307,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sdxl-turbo-tensorrt",
@@ -234823,9 +235247,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 152,
+        "huggingface_downloads": 150,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sdxl-turbo",
@@ -234855,9 +235279,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 641087,
+        "huggingface_downloads": 645149,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sdxl-vae",
@@ -234872,9 +235296,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 229562,
+        "huggingface_downloads": 229005,
         "last_modified": "2023-08-04",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sp4d",
@@ -234889,9 +235313,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sp4d",
         "open_weight": true,
         "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 55,
+        "huggingface_downloads": 53,
         "last_modified": "2025-11-05",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-medium-base",
@@ -234906,9 +235330,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 6610,
+        "huggingface_downloads": 6741,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-medium",
@@ -234923,9 +235347,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 85987,
+        "huggingface_downloads": 89681,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-optimized",
@@ -234940,9 +235364,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
         "open_weight": true,
         "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 47077,
+        "huggingface_downloads": 47719,
         "last_modified": "2026-10-30",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-small-music-base",
@@ -234957,9 +235381,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2207,
+        "huggingface_downloads": 2159,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-small-music",
@@ -234974,9 +235398,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 38115,
+        "huggingface_downloads": 38120,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-small-sfx-base",
@@ -234991,9 +235415,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2930,
+        "huggingface_downloads": 2922,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-3-small-sfx",
@@ -235008,9 +235432,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 57304,
+        "huggingface_downloads": 58249,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-open-1.0",
@@ -235032,9 +235456,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 20208,
+        "huggingface_downloads": 21181,
         "last_modified": "2025-06-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-audio-open-small",
@@ -235056,9 +235480,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 6829,
-        "last_modified": "2025-05-27",
-        "last_updated": "2026-11-05"
+        "huggingface_downloads": 6852,
+        "last_modified": "2026-11-05",
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-cascade-prior",
@@ -235088,9 +235512,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 205,
+        "huggingface_downloads": 206,
         "last_modified": "2024-03-14",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-cascade",
@@ -235120,9 +235544,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 18844,
+        "huggingface_downloads": 18770,
         "last_modified": "2024-03-16",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-code-3b",
@@ -235153,9 +235577,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6956,
+        "huggingface_downloads": 6880,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-code-instruct-3b",
@@ -235186,9 +235610,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2677,
+        "huggingface_downloads": 2689,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-codec-speech-16k-base",
@@ -235266,9 +235690,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 38,
+        "huggingface_downloads": 37,
         "last_modified": "2026-07-28",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3-medium-diffusers",
@@ -235298,9 +235722,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 54398,
+        "huggingface_downloads": 59253,
         "last_modified": "2024-06-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3-medium-tensorrt",
@@ -235362,9 +235786,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 2191,
+        "huggingface_downloads": 2146,
         "last_modified": "2024-08-12",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3-medium_amdgpu",
@@ -235490,9 +235914,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 143,
+        "huggingface_downloads": 142,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-canny",
@@ -235522,9 +235946,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3107,
+        "huggingface_downloads": 3224,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-depth",
@@ -235554,9 +235978,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1934,
+        "huggingface_downloads": 1931,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3.5-large-tensorrt",
@@ -235618,9 +236042,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4426,
+        "huggingface_downloads": 4242,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3.5-large",
@@ -235650,9 +236074,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 55151,
+        "huggingface_downloads": 54936,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-3.5-medium-tensorrt",
@@ -235714,9 +236138,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 68971,
+        "huggingface_downloads": 69390,
         "last_modified": "2024-10-31",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-x4-upscaler",
@@ -235731,9 +236155,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 5805,
+        "huggingface_downloads": 5861,
         "last_modified": "2023-07-05",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-xl-1.0-tensorrt",
@@ -235763,9 +236187,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 203,
+        "huggingface_downloads": 209,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-xl-base-0.9",
@@ -235827,9 +236251,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4559985,
+        "huggingface_downloads": 4574581,
         "last_modified": "2023-10-30",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-xl-refiner-0.9",
@@ -235860,9 +236284,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 33,
+        "huggingface_downloads": 27,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-diffusion-xl-refiner-1.0",
@@ -235893,9 +236317,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 103294,
+        "huggingface_downloads": 105365,
         "last_modified": "2023-09-25",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-fast-3d",
@@ -235914,9 +236338,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 57040,
+        "huggingface_downloads": 54218,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-point-aware-3d",
@@ -235935,9 +236359,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 6939,
+        "huggingface_downloads": 6934,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
@@ -236001,9 +236425,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 3694,
+        "huggingface_downloads": 3651,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt",
@@ -236034,9 +236458,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 130556,
+        "huggingface_downloads": 129781,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-video-diffusion-img2vid",
@@ -236067,9 +236491,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 38706,
+        "huggingface_downloads": 39075,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-virtual-camera",
@@ -236100,9 +236524,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 26165,
+        "huggingface_downloads": 26996,
         "last_modified": "2025-06-03",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stable-zero123",
@@ -236148,9 +236572,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 651,
+        "huggingface_downloads": 663,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "StableBeluga-7B",
@@ -236179,9 +236603,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 602,
+        "huggingface_downloads": 614,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "StableBeluga1-Delta",
@@ -236211,9 +236635,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 255,
+        "huggingface_downloads": 250,
         "last_modified": "2023-07-27",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "StableBeluga2",
@@ -236241,9 +236665,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 827,
+        "huggingface_downloads": 833,
         "last_modified": "2023-09-18",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablecode-completion-alpha-3b-4k",
@@ -236274,9 +236698,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 937,
+        "huggingface_downloads": 1014,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablecode-completion-alpha-3b",
@@ -236307,9 +236731,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 705,
+        "huggingface_downloads": 714,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablecode-instruct-alpha-3b",
@@ -236340,9 +236764,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 4,
+        "huggingface_downloads": 1,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-2-12b-chat-GGUF",
@@ -236377,9 +236801,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 465,
+        "huggingface_downloads": 429,
         "last_modified": "2024-04-20",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-2-12b-chat",
@@ -236414,9 +236838,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 675,
+        "huggingface_downloads": 668,
         "last_modified": "2024-05-20",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-2-12b",
@@ -236447,9 +236871,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 932,
+        "huggingface_downloads": 1070,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-2-1_6b-chat",
@@ -236480,9 +236904,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1139,
+        "huggingface_downloads": 1128,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-2-1_6b",
@@ -236513,9 +236937,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 9637,
+        "huggingface_downloads": 9292,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-2-zephyr-1_6b",
@@ -236546,9 +236970,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 7493,
+        "huggingface_downloads": 7569,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-3b-4e1t",
@@ -236579,9 +237003,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 12972,
+        "huggingface_downloads": 12804,
         "last_modified": "2024-03-07",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-base-alpha-3b-v2",
@@ -236612,9 +237036,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 511,
+        "huggingface_downloads": 427,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-base-alpha-3b",
@@ -236645,9 +237069,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3495,
+        "huggingface_downloads": 3515,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-base-alpha-7b-v2",
@@ -236678,9 +237102,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 512,
+        "huggingface_downloads": 510,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-base-alpha-7b",
@@ -236711,9 +237135,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 885,
+        "huggingface_downloads": 900,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-tuned-alpha-3b",
@@ -236744,9 +237168,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1289,
+        "huggingface_downloads": 1342,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-tuned-alpha-7b",
@@ -236777,9 +237201,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1051,
+        "huggingface_downloads": 1163,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "stablelm-zephyr-3b",
@@ -236810,9 +237234,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 22424,
+        "huggingface_downloads": 22616,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "sv3d",
@@ -236877,9 +237301,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 5992,
+        "huggingface_downloads": 5960,
         "last_modified": "2025-04-04",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "tiny-random-stablelm-2",
@@ -236907,9 +237331,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3714,
+        "huggingface_downloads": 3855,
         "last_modified": "2024-03-31",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       },
       {
         "id": "TripoSR",
@@ -236928,9 +237352,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 214373,
+        "huggingface_downloads": 207426,
         "last_modified": "2024-08-09",
-        "last_updated": "2026-11-05"
+        "last_updated": "2026-11-06"
       }
     ]
   },
@@ -244770,7 +245194,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3.1-flash-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-06",
         "family": "gemini-3.1",
         "context_window": 131100,
         "capabilities": {
@@ -244795,6 +245219,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "status": "deprecated",
         "max_output_tokens": 32768,
         "knowledge_cutoff": "2025-01",
         "license": "proprietary",
@@ -245510,6 +245935,32 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "google/gemini-omni-1.2-flash",
+        "name": "gemini-omni-1.2-flash",
+        "created_by": "google",
+        "source": "official",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-06"
+      },
+      {
         "id": "google/gemini-omni-flash-preview",
         "name": "gemini-omni-flash-preview",
         "created_by": "google",
@@ -245719,7 +246170,7 @@ export const providers: ProviderWithModels[] = [
         "name": "veo-3.0-fast-generate-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-21",
+        "last_updated": "2026-11-06",
         "capabilities": {
           "streaming": true
         },
@@ -245729,6 +246180,7 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "video",
         "family": "veo-3.0",
+        "status": "deprecated",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -245745,7 +246197,7 @@ export const providers: ProviderWithModels[] = [
         "name": "veo-3.0-generate-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-21",
+        "last_updated": "2026-11-06",
         "capabilities": {
           "streaming": true
         },
@@ -245755,6 +246207,7 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "video",
         "family": "veo-3.0",
+        "status": "deprecated",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -248935,7 +249388,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.16,
+          "input": 0.18,
           "output": 10
         },
         "modalities": {
@@ -248949,7 +249402,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-05",
+        "last_updated": "2026-11-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -250562,7 +251015,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-31",
-        "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+        "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "max_output_tokens": 128000,
         "max_input_tokens": 922000,
@@ -255635,8 +256088,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.35,
-          "output": 0.7
+          "input": 0.33,
+          "output": 0.65
         },
         "modalities": {
           "input": [
@@ -255649,7 +256102,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-06",
         "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding workloads. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.",
         "tagline": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi.",
         "max_output_tokens": 131072

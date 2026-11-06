@@ -5,22 +5,22 @@
   "source": "official",
   "family": "wan",
   "description": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-09-17",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-22-vace-fun-a14b/inpainting",
   "tagline": "VACE Fun for Wan 2.2 A14B from Alibaba-PAI",
-  "last_seen_at": "2026-06-24",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "eb8e0019",
     "family": "2aadc089",
     "description": "40ed329c",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "b4116b27",
     "model_type": "ddb0b7bc",
     "page_url": "688d00d4",
     "tagline": "40ed329c",
-    "last_seen_at": "b7ac61f6"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

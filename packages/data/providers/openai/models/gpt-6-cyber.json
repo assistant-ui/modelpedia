@@ -1,0 +1,98 @@
+{
+  "id": "gpt-6-cyber",
+  "name": "GPT-6-Cyber",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6",
+  "description": "Your organization needs Daybreak Red access and approval to use GPT-6-Cyber. Your account team can confirm access. The standard rate limits below apply to approved organizations and may differ if your organization has custom limits.",
+  "status": "active",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 4,
+  "tagline": "Investigate a vulnerability, reproduce it in an authorized test environment, or verify a fix.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-6-cyber",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 20,
+    "output": 100,
+    "cached_input": 2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write",
+          "Cache writes"
+        ],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [20, 100, 2, 25, 50, 25]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "tool_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp"
+  ],
+  "endpoints": ["chat_completions", "responses"],
+  "snapshots": ["gpt-6-cyber"],
+  "_generated": {
+    "name": "44eec477",
+    "family": "16342494",
+    "description": "091c4a20",
+    "status": "379ac110",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "a87ff679",
+    "tagline": "0f7df10e",
+    "page_url": "99dbf8ba",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "15adcda2",
+    "modalities": "6399757e",
+    "pricing": "6949e0ba",
+    "tools": "44af6f15",
+    "endpoints": "72e91ba7"
+  },
+  "last_updated": "2026-11-06"
+}

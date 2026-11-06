@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-05",
-  "count": 123,
+  "date": "2026-11-06",
+  "count": 124,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -42,7 +42,6 @@
     "openai-gpt-oss-120b",
     "openai-gpt-oss-20b",
     "openchat-openchat-3.5-1210",
-    "openthaigpt-openthaigpt1.5-7b-instruct",
     "ornith-ai-ornith-1.0-9b",
     "ornith-ai-ornith-1.5-9b",
     "primeintellect-qwen3-0.6b",
@@ -84,6 +83,8 @@
     "qwen-qwen3-32b",
     "qwen-qwen3-4b",
     "qwen-qwen3-4b-base",
+    "qwen-qwen3-4b-instruct",
+    "qwen-qwen3-4b-instruct-2507",
     "qwen-qwen3-4b-thinking",
     "qwen-qwen3-4b-thinking-2507",
     "qwen-qwen3-8b",

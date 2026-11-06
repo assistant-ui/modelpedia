@@ -1,0 +1,27 @@
+{
+  "id": "google/gemini-omni-1.2-flash",
+  "name": "Gemini Omni 1.2 Flash",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/google/gemini-omni-1.2-flash",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "884c2b9e",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "74cc8cbc",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-06"
+}

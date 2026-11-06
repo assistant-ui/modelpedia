@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "fal-ai/wan/v2.2-A14B/image-to-video",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-07-28",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-a14B/image-to-video",
@@ -18,12 +18,12 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "d118288f",
     "family": "2aadc089",
     "description": "80fce241",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "8ef4ed35",
     "model_type": "4d1b75ca",
     "page_url": "0f3a4612",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

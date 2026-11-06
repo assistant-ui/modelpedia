@@ -3,8 +3,8 @@
   "name": "Auto Router",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-11-05",
-  "description": "Auto is OpenRouter’s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router).",
+  "last_updated": "2026-11-06",
+  "description": "Auto is OpenRouter’s flagship model router, built for general-purpose usage.",
   "context_window": 2000000,
   "modalities": {
     "input": ["text", "image", "audio", "video"],
@@ -18,15 +18,15 @@
   },
   "_generated": {
     "name": "4420e201",
-    "description": "b5c2c3a7",
+    "description": "c2174e3c",
     "context_window": "805f7438",
     "modalities": "bedbbc8b",
     "capabilities": "03fbefb4",
-    "release_date": "8565ad2e",
+    "release_date": "0a938750",
     "tagline": "b49f0d12",
     "tools": "f0c1dc7e"
   },
-  "release_date": "2023-11-08",
+  "release_date": "2026-11-05",
   "tagline": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
   "tools": ["function_calling"]
 }
