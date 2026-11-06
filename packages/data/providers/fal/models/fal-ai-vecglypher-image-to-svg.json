@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Vector font generation with VecGlypher.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-10",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/vecglypher/image-to-svg",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "3190015d",
     "description": "c604eb86",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "49946764",
     "model_type": "db8857fe",
     "page_url": "bc11a233",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "49946764"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-06"
 }

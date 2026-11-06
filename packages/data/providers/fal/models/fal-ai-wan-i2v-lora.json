@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Add custom LoRAs to Wan-2.1 is a image-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-03-08",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-i2v-lora",
@@ -18,12 +18,12 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "4a5c6124",
     "family": "2aadc089",
     "description": "10dc709c",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "219f6e4e",
     "model_type": "4d1b75ca",
     "page_url": "14118511",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

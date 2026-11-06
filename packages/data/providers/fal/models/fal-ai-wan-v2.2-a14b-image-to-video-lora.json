@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Wan-2.2 image-to-video is a video model that generates high-quality videos with high visual quality and motion diversity from text prompts and images.",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-08-07",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan/v2.2-a14b/image-to-video/lora",
@@ -18,12 +18,12 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-06-24",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "7f0622bb",
     "family": "2aadc089",
     "description": "6110d558",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "79c30d0c",
     "model_type": "4d1b75ca",
     "page_url": "d06c4709",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "b7ac61f6"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

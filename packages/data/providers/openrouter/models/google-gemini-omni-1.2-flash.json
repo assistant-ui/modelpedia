@@ -1,0 +1,36 @@
+{
+  "id": "google/gemini-omni-1.2-flash",
+  "name": "Google: Gemini Omni 1.2 Flash",
+  "created_by": "google",
+  "source": "official",
+  "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash.",
+  "release_date": "2026-11-05",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash.",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text", "video"]
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 9
+  },
+  "_generated": {
+    "name": "a3a7ce67",
+    "description": "f36dfebf",
+    "release_date": "0a938750",
+    "context_window": "f7de594e",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "f36dfebf",
+    "capabilities": "7107421f",
+    "modalities": "83331ec5",
+    "pricing": "9e6fc751"
+  },
+  "last_updated": "2026-11-06"
+}

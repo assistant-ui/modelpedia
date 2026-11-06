@@ -3,7 +3,7 @@
   "name": "Meshy 7.1 Image to 3D",
   "created_by": "meshy",
   "source": "official",
-  "description": "Meshy 7.1 generates 3D models from a single image, with standard, low-poly, and Smart Topology modes, optional textures and PBR maps, and geometry resolution up to 4K.",
+  "description": "Meshy 7.1 is the latest standard model from Meshy.",
   "status": "active",
   "release_date": "2026-09-19",
   "model_type": "other",
@@ -12,17 +12,17 @@
   "capabilities": {
     "vision": true
   },
-  "last_seen_at": "2026-10-02",
+  "last_seen_at": "2026-11-05",
   "_generated": {
     "name": "c99db1de",
-    "description": "c62a74c3",
+    "description": "8aecd734",
     "status": "379ac110",
     "release_date": "05663993",
     "model_type": "ddb0b7bc",
     "page_url": "319847c2",
     "tagline": "c62a74c3",
     "capabilities": "d3117eb0",
-    "last_seen_at": "8d21ace3"
+    "last_seen_at": "0a938750"
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-11-06"
 }

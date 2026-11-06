@@ -3,7 +3,7 @@
   "name": "Meshy 6",
   "created_by": "fal",
   "source": "official",
-  "description": "Meshy-6 is the latest model from Meshy.",
+  "description": "Meshy 6 generates 3D models from a single image.",
   "status": "active",
   "release_date": "2026-02-09",
   "model_type": "other",
@@ -12,17 +12,17 @@
   "capabilities": {
     "vision": true
   },
-  "last_seen_at": "2026-11-03",
+  "last_seen_at": "2026-11-05",
   "_generated": {
     "name": "45976d25",
-    "description": "086dd32b",
+    "description": "ce7d0b51",
     "status": "379ac110",
     "release_date": "4b53817b",
     "model_type": "ddb0b7bc",
     "page_url": "14194186",
     "tagline": "086dd32b",
     "capabilities": "d3117eb0",
-    "last_seen_at": "762307b9"
+    "last_seen_at": "0a938750"
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-06"
 }

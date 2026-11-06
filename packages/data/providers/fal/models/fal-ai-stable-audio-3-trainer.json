@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Stable Audio 3 LoRA Trainer fine-tunes Stable Audio 3 base models on paired audio-caption datasets, producing compact LoRA weights that adapt generation toward a custom music style, sound palette, or ",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-06-11",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/stable-audio-3-trainer",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "e6835723",
     "description": "6262694a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "af441ea0",
     "model_type": "ddb0b7bc",
     "page_url": "b3da46ad",
     "tagline": "6262694a",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-06"
 }

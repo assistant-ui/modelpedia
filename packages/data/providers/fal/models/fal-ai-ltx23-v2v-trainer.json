@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Train LTX-2.3 22B for video transformation or video-conditioned generation.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-17",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-v2v-trainer",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "e425224a",
     "description": "480870ae",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "56d4bd95",
     "model_type": "ddb0b7bc",
     "page_url": "37e9c90a",
     "tagline": "480870ae",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-11-06"
 }

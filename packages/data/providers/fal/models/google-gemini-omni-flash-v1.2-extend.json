@@ -1,0 +1,28 @@
+{
+  "id": "google/gemini-omni-flash/v1.2/extend",
+  "name": "Gemini Omni Flash 1.2 Extend Video",
+  "created_by": "google",
+  "source": "official",
+  "description": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+  "status": "active",
+  "release_date": "2026-11-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/google/gemini-omni-flash/v1.2/extend",
+  "tagline": "Gemini Omni Flash 1.2 is Google's multimodal video model.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-05",
+  "_generated": {
+    "name": "4009c86e",
+    "description": "a53724de",
+    "status": "379ac110",
+    "release_date": "0a938750",
+    "model_type": "ddb0b7bc",
+    "page_url": "8298b235",
+    "tagline": "a53724de",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "0a938750"
+  },
+  "last_updated": "2026-11-06"
+}

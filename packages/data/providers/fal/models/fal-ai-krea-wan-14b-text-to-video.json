@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Fast Text-to-Video endpoint for Krea's Wan 14b model.",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-10-20",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/krea-wan-14b/text-to-video",
@@ -14,18 +14,18 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-11-04",
   "_generated": {
     "name": "bd0d6247",
     "description": "38434cbb",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "ba1efbec",
     "model_type": "4d1b75ca",
     "page_url": "c40ea27a",
     "tagline": "38434cbb",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "382007fc"
   },
-  "last_updated": "2026-11-05"
+  "last_updated": "2026-11-06"
 }

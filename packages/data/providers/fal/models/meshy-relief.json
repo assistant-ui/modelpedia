@@ -1,0 +1,28 @@
+{
+  "id": "meshy/relief",
+  "name": "Meshy Relief",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Meshy Relief converts an image into a 3D relief model with a raised surface and a flat back.",
+  "status": "active",
+  "release_date": "2026-11-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/relief",
+  "tagline": "Meshy Relief converts an image into a 3D relief model with a raised surface and a flat back.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-05",
+  "_generated": {
+    "name": "e63ec808",
+    "description": "f8daa1f8",
+    "status": "379ac110",
+    "release_date": "0a938750",
+    "model_type": "ddb0b7bc",
+    "page_url": "a59549c7",
+    "tagline": "f8daa1f8",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "0a938750"
+  },
+  "last_updated": "2026-11-06"
+}

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Maya1 is a state-of-the-art speech model by Maya Research for expressive voice generation, built to capture real human emotion and precise voice design.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-12",
   "model_type": "tts",
   "page_url": "https://fal.run/fal-ai/maya/stream",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "39249c41",
     "description": "51d3bfba",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "23dc170c",
     "model_type": "4e16a2cf",
     "page_url": "485e2cb9",
@@ -27,5 +27,5 @@
     "endpoints": "0d745ead",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-06"
 }
