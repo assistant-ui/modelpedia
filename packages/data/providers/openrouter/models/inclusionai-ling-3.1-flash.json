@@ -29,12 +29,12 @@
     "capabilities": "9346c8a7",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e",
-    "pricing": "8f83a570"
+    "pricing": "6ae4395b"
   },
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-07",
   "pricing": {
-    "input": 0.075,
-    "output": 0.225,
-    "cached_input": 0.015
+    "input": 0.045,
+    "output": 0.135,
+    "cached_input": 0.009
   }
 }

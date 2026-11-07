@@ -1,8 +1,7 @@
 {
-  "date": "2026-11-03",
-  "count": 160,
+  "date": "2026-11-07",
+  "count": 157,
   "ids": [
-    "cosyvoice-v2",
     "cosyvoice-v3-flash",
     "cosyvoice-v3-plus",
     "cosyvoice-v3.5-flash",
@@ -73,8 +72,6 @@
     "qwen3-livetranslate-flash",
     "qwen3-omni-flash",
     "qwen3-rerank",
-    "qwen3-tts-flash",
-    "qwen3-tts-flash-realtime",
     "qwen3-vl-embedding",
     "qwen3-vl-plus",
     "qwen3-vl-rerank",

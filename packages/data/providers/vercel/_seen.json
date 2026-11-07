@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "count": 432,
+  "date": "2026-11-07",
+  "count": 435,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -115,6 +115,7 @@
     "deepseek-deepseek-v4.1-flash",
     "deepseek-deepseek-v4.1-flash-1017",
     "deepseek-deepseek-v4.1-flash-1017-fast",
+    "deepseek-deepseek-v4.1-flash-1017-ultrafast",
     "deepseek-deepseek-v4.1-flash-fast",
     "deepseek-fetch",
     "deepseek-search",
@@ -175,6 +176,7 @@
     "google-veo-3.1-generate-001",
     "google-veo-3.1-lite-generate-001",
     "heygen-heygen-video-1",
+    "humansand-ampersand-v0.1",
     "inception-mercury-2",
     "inception-mercury-2.5",
     "inception-mercury-3",
@@ -333,6 +335,7 @@
     "openai-tts-1",
     "openai-tts-1-hd",
     "openai-whisper-1",
+    "parallel-parallel-decisions-fast",
     "parallel-search",
     "particle-particle-1",
     "perplexity-pplx-decider-flash-v1.2",

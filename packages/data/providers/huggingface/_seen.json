@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "count": 124,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
@@ -8,6 +8,7 @@
     "efficient-large-model-gemma-2-2b-it",
     "failspy-meta-llama-3-8b-instruct-abliterated-v3",
     "farbodtavakkoli-otel-2.0-llm-31b-it",
+    "fdtn-ai-foundation-sec-8b-instruct",
     "featherless-chat-models-llama2-13b-chat-hf",
     "google-gemma-2-2b-it",
     "google-gemma-2-9b-it",
@@ -87,7 +88,6 @@
     "qwen-qwen3-4b-instruct-2507",
     "qwen-qwen3-4b-thinking",
     "qwen-qwen3-4b-thinking-2507",
-    "qwen-qwen3-8b",
     "qwen-qwen3-8b-base",
     "qwen-qwen3-coder-30b-a3b-instruct",
     "qwen-qwen3-coder-480b-a35b-instruct",

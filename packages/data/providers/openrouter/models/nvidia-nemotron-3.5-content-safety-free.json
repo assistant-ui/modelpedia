@@ -25,7 +25,9 @@
     "model_type": "d669f408",
     "tagline": "6ac8ad33",
     "capabilities": "7107421f",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-11-07",
+  "status": "deprecated"
 }

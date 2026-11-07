@@ -1,0 +1,28 @@
+{
+  "id": "meshy/t2/image-to-3d",
+  "name": "Meshy T2 Image to 3D",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Meshy T2 is Meshy's faster Smart Topology model.",
+  "status": "active",
+  "release_date": "2026-11-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/t2/image-to-3d",
+  "tagline": "Meshy T2 is Meshy's faster Smart Topology model.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-06",
+  "_generated": {
+    "name": "f20d1b6c",
+    "description": "9b607a71",
+    "status": "379ac110",
+    "release_date": "1db6ee00",
+    "model_type": "ddb0b7bc",
+    "page_url": "851994b6",
+    "tagline": "9b607a71",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "1db6ee00"
+  },
+  "last_updated": "2026-11-07"
+}

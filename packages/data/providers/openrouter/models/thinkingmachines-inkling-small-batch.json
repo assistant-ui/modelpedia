@@ -6,7 +6,7 @@
   "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total.",
   "release_date": "2026-07-30",
   "context_window": 524288,
-  "max_output_tokens": 471859,
+  "max_output_tokens": 262144,
   "tagline": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total.",
   "capabilities": {
     "tool_call": true,
@@ -17,9 +17,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.5,
-    "output": 1.2,
-    "cached_input": 0.1
+    "input": 0.36,
+    "output": 0.96,
+    "cached_input": 0.08
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -27,14 +27,14 @@
     "description": "09c78ccf",
     "release_date": "6a999b3f",
     "context_window": "bcabf6a1",
-    "max_output_tokens": "552badfe",
+    "max_output_tokens": "4a1d32eb",
     "tagline": "09c78ccf",
     "capabilities": "05723a3e",
     "modalities": "05efe8aa",
-    "pricing": "36da4ff1",
+    "pricing": "fa9f211b",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-11-07",
   "status": "deprecated"
 }

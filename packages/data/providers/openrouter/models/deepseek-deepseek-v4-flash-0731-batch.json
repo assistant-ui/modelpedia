@@ -7,7 +7,7 @@
   "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
   "release_date": "2026-07-31",
   "context_window": 1048576,
-  "max_output_tokens": 943718,
+  "max_output_tokens": 384000,
   "model_type": "chat",
   "tagline": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.11,
-    "output": 0.33,
-    "cached_input": 0.004
+    "input": 0.048,
+    "output": 0.144,
+    "cached_input": 0.012
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,15 +32,15 @@
     "description": "b4fa0f05",
     "release_date": "0ee605c3",
     "context_window": "7d28a051",
-    "max_output_tokens": "7843f47e",
+    "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
     "tagline": "b4fa0f05",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "f9295343",
+    "pricing": "c61a0dad",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-11-07",
   "status": "deprecated"
 }

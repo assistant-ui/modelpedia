@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-4o",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "page_url": "https://replicate.com/openai/gpt-4o-mini",
   "capabilities": {
@@ -18,12 +18,12 @@
   "_generated": {
     "name": "9c199ebd",
     "family": "15249632",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "page_url": "955f31a1",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-07"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "google/lyria-3-pro",
+  "name": "Lyria 3 Pro",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/google/lyria-3-pro",
+  "_generated": {
+    "name": "0618d5a4",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "ed340184"
+  },
+  "last_updated": "2026-11-07"
+}

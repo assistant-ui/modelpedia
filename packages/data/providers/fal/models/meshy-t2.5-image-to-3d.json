@@ -1,0 +1,28 @@
+{
+  "id": "meshy/t2.5/image-to-3d",
+  "name": "Meshy T2.5 Image to 3D",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Meshy T2.5 is Meshy's latest Smart Topology model.",
+  "status": "active",
+  "release_date": "2026-11-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/t2.5/image-to-3d",
+  "tagline": "Meshy T2.5 is Meshy's latest Smart Topology model.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-06",
+  "_generated": {
+    "name": "a22aa053",
+    "description": "dd811571",
+    "status": "379ac110",
+    "release_date": "1db6ee00",
+    "model_type": "ddb0b7bc",
+    "page_url": "0611fc03",
+    "tagline": "dd811571",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "1db6ee00"
+  },
+  "last_updated": "2026-11-07"
+}
