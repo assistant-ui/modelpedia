@@ -6,7 +6,7 @@
   "description": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware.",
   "release_date": "2026-08-09",
   "context_window": 131072,
-  "max_output_tokens": 117964,
+  "max_output_tokens": 16384,
   "tagline": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware.",
   "capabilities": {
     "tool_call": true,
@@ -19,9 +19,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.175,
-    "output": 0.75,
-    "cached_input": 0.02
+    "input": 0.24,
+    "output": 0.96,
+    "cached_input": 0.032
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -29,14 +29,14 @@
     "description": "c87b3f26",
     "release_date": "c1e6d6e9",
     "context_window": "f7de594e",
-    "max_output_tokens": "242f56a4",
+    "max_output_tokens": "c76fe1d8",
     "tagline": "c87b3f26",
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
-    "pricing": "2fe4de2a",
+    "pricing": "4fb9d714",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-11-07",
   "status": "deprecated"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "parallel/parallel-decisions-fast",
+  "name": "parallel-decisions-fast",
+  "created_by": "parallel",
+  "source": "official",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "377bfac8",
+    "context_window": "10e4d788",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-11-07"
+}

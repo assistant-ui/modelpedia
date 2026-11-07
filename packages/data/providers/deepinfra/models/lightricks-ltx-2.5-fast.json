@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-2.5-Fast",
+  "name": "LTX-2.5-Fast",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX-2.5 Fast is Lightricks' speed-optimized LTX-2.5 model. It generates video from text or a first frame in 16:9, 9:16, 1:1, 3:2 or 2:3, up to 4K at 24–50 fps, with synchronized audio, native multi-shot scenes and clips up to 20 seconds.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX-2.5 Fast is Lightricks' speed-optimized LTX-2.5 model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.13 / second"],
+  "_generated": {
+    "name": "43ba39bc",
+    "description": "77e4e63a",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "2a00bd23",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "b9d42cb7"
+  },
+  "last_updated": "2026-11-07"
+}

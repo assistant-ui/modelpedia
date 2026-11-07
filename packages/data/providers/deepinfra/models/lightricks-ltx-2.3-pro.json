@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-2.3-Pro",
+  "name": "LTX-2.3-Pro",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX-2.3 Pro is Lightricks' higher-fidelity LTX-2.3 model. It generates landscape or portrait video from text or a first frame, up to 4K at 24–50 fps, with synchronized audio and clips of 6, 8 or 10 seconds.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX-2.3 Pro is Lightricks' higher-fidelity LTX-2.3 model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.08 / second"],
+  "_generated": {
+    "name": "178195ff",
+    "description": "e9223529",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "6b2678c0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "66fe1c62"
+  },
+  "last_updated": "2026-11-07"
+}

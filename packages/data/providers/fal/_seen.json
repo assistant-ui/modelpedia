@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "count": 1453,
+  "date": "2026-11-07",
+  "count": 1459,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -1242,6 +1242,10 @@
     "luma-agent-uni-1-v1-text-to-image",
     "meshy-n1-retexture",
     "meshy-relief",
+    "meshy-t2-image-to-3d",
+    "meshy-t2-text-to-3d",
+    "meshy-t2.5-image-to-3d",
+    "meshy-t2.5-text-to-3d",
     "meshy-v6-lite-retexture",
     "meshy-v6-retexture",
     "meshy-v7-image-to-3d",
@@ -1257,6 +1261,8 @@
     "microsoft-mai-image-2.5-edit",
     "microsoft-mai-image-2.5-pro",
     "microsoft-mai-image-2.5-pro-edit",
+    "microsoft-moge-2",
+    "microsoft-moge-3",
     "minimax-h3-flf2v-trainer",
     "minimax-h3-i2v-trainer",
     "minimax-h3-image-to-video",

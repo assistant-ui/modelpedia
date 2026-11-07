@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-05",
-  "count": 100,
+  "date": "2026-11-07",
+  "count": 101,
   "ids": [
     "beam-free",
     "big-pickle",
@@ -69,6 +69,8 @@
     "hy4",
     "hy4-preview",
     "iceman-contributor-free",
+    "iceman-free",
+    "inkling-2-small-free",
     "jev-1.13",
     "jev-1.13-free",
     "kimi-k2.5",
@@ -95,7 +97,6 @@
     "nemotron-3-ultra-free",
     "nemotron-3.5-lightning-free",
     "nemotron-3.5-super-vl-free",
-    "pulse-alpha-free",
     "qwen3.5-plus",
     "qwen3.6-plus",
     "qwen3.7-plus",

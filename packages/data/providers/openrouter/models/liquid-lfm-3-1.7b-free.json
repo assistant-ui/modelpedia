@@ -1,0 +1,36 @@
+{
+  "id": "liquid/lfm-3-1.7b:free",
+  "name": "LiquidAI: LFM3-1.7B (free)",
+  "created_by": "liquid",
+  "source": "official",
+  "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs.",
+  "release_date": "2026-11-06",
+  "context_window": 262144,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "tagline": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a6b7edf4",
+    "description": "91156195",
+    "release_date": "1db6ee00",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "tagline": "91156195",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-07"
+}

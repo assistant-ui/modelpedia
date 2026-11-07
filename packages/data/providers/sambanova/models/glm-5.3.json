@@ -1,0 +1,32 @@
+{
+  "id": "GLM-5.3",
+  "name": "GLM-5.3",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "GLM-5.3",
+  "status": "active",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.8,
+    "output": 8.8
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "7fca6967",
+    "family": "7fca6967",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93",
+    "pricing": "a223062e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-07"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-2.3-Fast",
+  "name": "LTX-2.3-Fast",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX-2.3 Fast is Lightricks' lowest-cost video model. It generates landscape or portrait video from text or a first frame, up to 4K at 24–50 fps, with synchronized audio and clips up to 20 seconds.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX-2.3 Fast is Lightricks' lowest-cost video model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.06 / second"],
+  "_generated": {
+    "name": "b0a80015",
+    "description": "e52701e0",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "6bc49660",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "c391040f"
+  },
+  "last_updated": "2026-11-07"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cohere-embed-v5-fast",
+  "name": "Cohere-embed-v5-Fast",
+  "created_by": "cohere",
+  "source": "official",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "22b5d268",
+    "model_type": "764cb3de",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-11-07"
+}

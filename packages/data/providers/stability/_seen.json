@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-07",
   "count": 100,
   "ids": [
     "ar-stablelm-2-base",
@@ -17,7 +17,6 @@
     "japanese-stablelm-base-beta-7b",
     "japanese-stablelm-base-gamma-7b",
     "japanese-stablelm-base-ja_vocab-beta-7b",
-    "japanese-stablelm-instruct-alpha-7b",
     "japanese-stablelm-instruct-alpha-7b-v2",
     "japanese-stablelm-instruct-beta-70b",
     "japanese-stablelm-instruct-beta-7b",
@@ -27,6 +26,7 @@
     "same-s",
     "sd-turbo",
     "sd-vae-ft-ema",
+    "sd-vae-ft-ema-original",
     "sd-vae-ft-mse",
     "sd-vae-ft-mse-original",
     "sd-x2-latent-upscaler",
