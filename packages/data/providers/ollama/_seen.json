@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "count": 38,
   "ids": [
     "autotrust-jev",
@@ -37,8 +37,8 @@
     "nemotron-3-nano",
     "nemotron-3-super",
     "nemotron-3-ultra",
-    "nimble-v3",
     "phonon",
+    "pplx-decider",
     "pplx-decider-flash"
   ]
 }

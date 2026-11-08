@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/elevenlabs/sound-effects/v3",
   "tagline": "Generate sound effects up to 30 seconds from a text prompt with ElevenLabs SFX v3, with optional seamless looping.",
-  "last_seen_at": "2026-11-02",
+  "last_seen_at": "2026-11-08",
   "_generated": {
     "name": "dee4ae62",
     "description": "02ac66c7",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "33de3241",
     "tagline": "02ac66c7",
-    "last_seen_at": "ea7c98c3"
+    "last_seen_at": "396e313a"
   },
-  "last_updated": "2026-11-03"
+  "last_updated": "2026-11-08"
 }
