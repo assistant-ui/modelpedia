@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "count": 119,
+  "date": "2026-11-08",
+  "count": 120,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -102,6 +102,7 @@
     "prunaai-p-video-2-pro-avatar",
     "prunaai-p-video-2-pro-reference",
     "prunaai-p-video-avatar",
+    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "replicate-train-rvc-model",
     "runwayml-gen4-image",

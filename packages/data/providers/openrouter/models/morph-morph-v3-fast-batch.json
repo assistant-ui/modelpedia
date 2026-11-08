@@ -1,0 +1,30 @@
+{
+  "id": "morph/morph-v3-fast:batch",
+  "name": "Morph: Morph V3 Fast (batch)",
+  "created_by": "morph",
+  "source": "official",
+  "description": "Morph's fastest apply model for code edits.",
+  "release_date": "2025-07-07",
+  "context_window": 81920,
+  "max_output_tokens": 38000,
+  "tagline": "Morph's fastest apply model for code edits.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "2dcf2a62",
+    "description": "b85fd907",
+    "release_date": "dca51777",
+    "context_window": "7e248a40",
+    "max_output_tokens": "4f4b5b9a",
+    "tagline": "b85fd907",
+    "modalities": "68e53d93",
+    "pricing": "4a5e7d07"
+  },
+  "last_updated": "2026-11-08"
+}

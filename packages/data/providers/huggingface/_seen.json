@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "count": 124,
+  "date": "2026-11-08",
+  "count": 125,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -117,6 +117,7 @@
     "xenova-sweep-next-edit-1.5b",
     "zai-org-glm-4.5",
     "zai-org-glm-4.5-air",
+    "zai-org-glm-4.6",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",
     "zai-org-glm-5",

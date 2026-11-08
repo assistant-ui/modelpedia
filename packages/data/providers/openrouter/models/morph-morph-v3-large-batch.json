@@ -1,0 +1,35 @@
+{
+  "id": "morph/morph-v3-large:batch",
+  "name": "Morph: Morph V3 Large (batch)",
+  "created_by": "morph",
+  "source": "official",
+  "description": "Morph's high-accuracy apply model for complex code edits.",
+  "release_date": "2025-07-07",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "tagline": "Morph's high-accuracy apply model for complex code edits.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.45,
+    "output": 0.95
+  },
+  "_generated": {
+    "name": "a2f50f78",
+    "description": "cfbba1db",
+    "release_date": "dca51777",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "tagline": "cfbba1db",
+    "capabilities": "dbb5b7fe",
+    "modalities": "68e53d93",
+    "pricing": "82822756"
+  },
+  "last_updated": "2026-11-08"
+}
