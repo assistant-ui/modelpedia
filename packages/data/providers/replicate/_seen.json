@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "count": 120,
   "ids": [
     "851-labs-background-remover",
@@ -42,6 +42,7 @@
     "elevenlabs-music",
     "elevenlabs-v3",
     "falcons-ai-nsfw_image_detection",
+    "ferogabor1999-oss-kiki",
     "fictions-ai-autocaption",
     "flux-kontext-apps-restore-image",
     "fofr-face-swap-with-ideogram",
@@ -102,7 +103,6 @@
     "prunaai-p-video-2-pro-avatar",
     "prunaai-p-video-2-pro-reference",
     "prunaai-p-video-avatar",
-    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "replicate-train-rvc-model",
     "runwayml-gen4-image",
