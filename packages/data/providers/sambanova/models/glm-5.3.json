@@ -5,8 +5,8 @@
   "source": "official",
   "family": "GLM-5.3",
   "status": "active",
-  "context_window": 131072,
-  "max_output_tokens": 131072,
+  "context_window": 1048576,
+  "max_output_tokens": 1048576,
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
@@ -21,12 +21,12 @@
     "name": "7fca6967",
     "family": "7fca6967",
     "status": "379ac110",
-    "context_window": "f7de594e",
-    "max_output_tokens": "f7de594e",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7d28a051",
     "model_type": "d669f408",
     "modalities": "68e53d93",
     "pricing": "a223062e",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-10"
 }

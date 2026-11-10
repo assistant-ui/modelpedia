@@ -28,7 +28,9 @@
     "tagline": "7192b722",
     "capabilities": "03fbefb4",
     "modalities": "c569b149",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-10",
+  "status": "deprecated"
 }

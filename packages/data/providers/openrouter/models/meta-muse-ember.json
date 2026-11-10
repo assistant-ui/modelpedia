@@ -1,0 +1,40 @@
+{
+  "id": "meta/muse-ember",
+  "name": "Meta: Muse Ember",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+  "release_date": "2026-11-09",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.004
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8974cde7",
+    "description": "2b57238d",
+    "release_date": "01461164",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "2b57238d",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "041bd4a8",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-10"
+}

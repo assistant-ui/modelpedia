@@ -3,7 +3,7 @@
   "name": "nemotron-3-nano",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-11-10",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -24,7 +24,8 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "description": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
@@ -40,5 +41,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

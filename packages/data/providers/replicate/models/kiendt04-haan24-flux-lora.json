@@ -1,0 +1,23 @@
+{
+  "id": "kiendt04/haan24-flux-lora",
+  "name": "Haan24 Flux Lora",
+  "created_by": "kiendt04",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/kiendt04/haan24-flux-lora",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "e7e14b08",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "a7ec566f",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-10"
+}

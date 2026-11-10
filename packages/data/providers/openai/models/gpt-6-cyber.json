@@ -39,18 +39,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": [
-          "Input",
-          "Output",
-          "Cached input",
-          "30m write",
-          "12h write",
-          "Cache writes"
-        ],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [20, 100, 2, 25, 50, 25]
+            "values": [20, 2, 25, 100]
           }
         ]
       }
@@ -90,9 +83,9 @@
     "model_type": "d669f408",
     "capabilities": "15adcda2",
     "modalities": "6399757e",
-    "pricing": "6949e0ba",
+    "pricing": "25bd60bc",
     "tools": "44af6f15",
     "endpoints": "72e91ba7"
   },
-  "last_updated": "2026-11-06"
+  "last_updated": "2026-11-10"
 }

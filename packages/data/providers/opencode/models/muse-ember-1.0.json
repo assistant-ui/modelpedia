@@ -1,0 +1,22 @@
+{
+  "id": "muse-ember-1.0",
+  "name": "Muse Ember 1.0",
+  "created_by": "meta",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.004
+  },
+  "_generated": {
+    "name": "1e786f57",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "041bd4a8"
+  },
+  "last_updated": "2026-11-10"
+}

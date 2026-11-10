@@ -27,8 +27,8 @@
     "capabilities": "03fbefb4",
     "modalities": "bedbbc8b",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "297ce0b3"
+    "max_output_tokens": "762e98db"
   },
-  "last_updated": "2026-10-30",
-  "max_output_tokens": 65536
+  "last_updated": "2026-11-10",
+  "max_output_tokens": 64000
 }

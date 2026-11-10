@@ -1,0 +1,21 @@
+{
+  "id": "nace-ai/drex-v2.0",
+  "name": "drex-v2.0",
+  "created_by": "nace-ai",
+  "source": "official",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0
+  },
+  "_generated": {
+    "name": "4c3ad34f",
+    "context_window": "b23f4471",
+    "capabilities": "0fa77dc6",
+    "pricing": "276b4597"
+  },
+  "last_updated": "2026-11-10"
+}

@@ -12,7 +12,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "json_mode": true
+    "json_mode": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -32,10 +33,10 @@
     "max_output_tokens": "f7de594e",
     "parameters": "fc490ca4",
     "tagline": "f08cc2c2",
-    "capabilities": "6c9aa67e",
+    "capabilities": "69269084",
     "modalities": "68e53d93",
     "pricing": "3082b311",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-10"
 }

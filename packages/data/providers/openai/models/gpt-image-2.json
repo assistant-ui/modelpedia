@@ -4,8 +4,8 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-image-2",
-  "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
-  "status": "active",
+  "description": "Status: Deprecated",
+  "status": "deprecated",
   "model_type": "image",
   "license": "proprietary",
   "performance": 4,
@@ -71,8 +71,8 @@
   "_generated": {
     "name": "c2ef86d7",
     "family": "c79be345",
-    "description": "07b7a68e",
-    "status": "379ac110",
+    "description": "5344a855",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "license": "9186c466",
     "performance": "a87ff679",
@@ -84,8 +84,14 @@
     "modalities": "bbf9b8bb",
     "pricing": "fe1cd369",
     "endpoints": "af128fc0",
-    "release_date": "5029e96d"
+    "release_date": "5029e96d",
+    "deprecation_date": "e365aa16",
+    "retirement_date": "0fcd5fe7",
+    "successor": "dd338b61"
   },
-  "last_updated": "2026-09-24",
-  "release_date": "2026-04-21"
+  "last_updated": "2026-11-10",
+  "release_date": "2026-04-21",
+  "deprecation_date": "2026-11-10",
+  "retirement_date": "2027-02-10",
+  "successor": "gpt-image-2.6-sunburst"
 }

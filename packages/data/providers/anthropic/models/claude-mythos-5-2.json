@@ -1,0 +1,48 @@
+{
+  "id": "claude-mythos-5-2",
+  "name": "Claude Mythos 5.2",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-mythos",
+  "retirement_date": "2027-11-09",
+  "license": "proprietary",
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-mythos-5-2",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 8,
+    "output": 40,
+    "cache_write": 10,
+    "cached_input": 0.2,
+    "cache_write_1h": 16,
+    "batch_input": 4,
+    "batch_output": 20
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "d4d94ff5",
+    "family": "b59a9ff7",
+    "retirement_date": "8ef5502a",
+    "license": "9186c466",
+    "page_url": "732fb4fa",
+    "model_type": "d669f408",
+    "capabilities": "29417d42",
+    "modalities": "6399757e",
+    "pricing": "0ec7bfe2",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
+  },
+  "last_updated": "2026-11-10"
+}

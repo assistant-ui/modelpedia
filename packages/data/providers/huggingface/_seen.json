@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "count": 125,
+  "date": "2026-11-10",
+  "count": 126,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -95,6 +95,7 @@
     "qwen-qwen3-next-80b-a3b-instruct",
     "qwen-qwen3guard-gen-0.6b",
     "qwen-qwen3guard-gen-8b",
+    "speakleash-bielik-11b-v3.0-instruct",
     "swiss-ai-apertus-8b-instruct",
     "swiss-ai-apertus-8b-instruct-2509",
     "tencent-hunyuan-a13b-instruct",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-10",
   "count": 24,
   "ids": [
     "s-deepseek-v4-1-flash-1017",
@@ -12,6 +12,7 @@
     "s-glm-5-3-flash",
     "s-glm-52",
     "s-gpt-image-2",
+    "s-inkling",
     "s-kimi-k3",
     "s-kimi-k3-1-pro",
     "s-minimax-h3",
@@ -20,7 +21,6 @@
     "s-muse-spark-open",
     "s-prism-ml-ternary-bonsai-27b",
     "s-qwen3-8-flash",
-    "s-qwen3-8-max",
     "s-qwen37-plus",
     "s-reflection-beam",
     "s-seedance-2-0",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-09",
-  "count": 228,
+  "date": "2026-11-10",
+  "count": 229,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -128,6 +128,7 @@
     "moonshotai-kimi-k3",
     "moonshotai-kimi-k3.1-pro",
     "nace-ai-drex-max",
+    "nace-ai-drex-max-finance",
     "nace-ai-drex-v1.5",
     "nace-ai-drex-v2.0",
     "nvidia-llama-nemotron-embed-vl-1b-v2",

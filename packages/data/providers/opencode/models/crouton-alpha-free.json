@@ -3,17 +3,17 @@
   "name": "Crouton Alpha Free",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "bb2cedc7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6",
     "pricing": "d7e97780"
   },
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-10",
   "pricing": {
     "input": 0,
     "output": 0,

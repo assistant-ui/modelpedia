@@ -6,7 +6,7 @@
   "description": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses.",
   "release_date": "2026-11-05",
   "context_window": 2000000,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 64000,
   "tagline": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses.",
   "capabilities": {
     "tool_call": true,
@@ -24,11 +24,11 @@
     "description": "37b80f60",
     "release_date": "0a938750",
     "context_window": "805f7438",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "762e98db",
     "tagline": "37b80f60",
     "capabilities": "03fbefb4",
     "modalities": "bedbbc8b",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-06"
+  "last_updated": "2026-11-10"
 }
