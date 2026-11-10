@@ -1,0 +1,40 @@
+{
+  "id": "nex-agi/nex-n2.6",
+  "name": "Nex AGI: Nex-N2.6",
+  "created_by": "nex-agi",
+  "source": "official",
+  "description": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters.",
+  "release_date": "2026-11-10",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "tagline": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0.4,
+    "cached_input": 0.024
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2e60e27c",
+    "description": "9dfacf1a",
+    "release_date": "e365aa16",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "tagline": "9dfacf1a",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "c9564958",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-10"
+}

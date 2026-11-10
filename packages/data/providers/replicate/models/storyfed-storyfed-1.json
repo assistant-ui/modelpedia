@@ -3,14 +3,14 @@
   "name": "Storyfed 1",
   "created_by": "storyfed",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/storyfed/storyfed-1",
   "_generated": {
     "name": "7b27b8b9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "d853499a"
   },
-  "last_updated": "2026-10-31"
+  "last_updated": "2026-11-10"
 }

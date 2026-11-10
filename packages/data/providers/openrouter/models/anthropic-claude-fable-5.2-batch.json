@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-fable-5.2:batch",
+  "name": "Anthropic: Claude Fable 5.2 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision.",
+  "release_date": "2026-11-09",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f8cf2703",
+    "family": "127f43cd",
+    "description": "a547d6ac",
+    "release_date": "01461164",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "a547d6ac",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "9f463192",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-10"
+}

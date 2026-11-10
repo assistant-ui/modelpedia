@@ -8135,6 +8135,33 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-02"
       },
       {
+        "id": "anthropic.claude-fable-5-2",
+        "name": "Claude Fable 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "release_date": "2026-11-09",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-2",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "anthropic.claude-fable-5",
         "name": "Claude Fable 5",
         "created_by": "anthropic",
@@ -8269,6 +8296,33 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-09-02"
+      },
+      {
+        "id": "anthropic.claude-mythos-5-2",
+        "name": "Claude Mythos 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "release_date": "2026-11-09",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-5-2",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-10"
       },
       {
         "id": "anthropic.claude-mythos-5",
@@ -11625,6 +11679,74 @@ export const providers: ProviderWithModels[] = [
         "priority_tier": true
       },
       {
+        "id": "claude-fable-5-2",
+        "name": "Claude Fable 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "description": "For demanding reasoning and long-horizon agentic work",
+        "status": "active",
+        "release_date": "2026-11-09",
+        "retirement_date": "2027-11-09",
+        "knowledge_cutoff": "2026-06",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 3,
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-fable-5-2",
+        "training_data_cutoff": "2026-06",
+        "model_type": "chat",
+        "tagline": "For demanding reasoning and long-horizon agentic work",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40,
+          "cache_write": 10,
+          "cached_input": 0.2,
+          "cache_write_1h": 16,
+          "batch_input": 4,
+          "batch_output": 20
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ],
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-fable-5-2",
+        "priority_tier": true,
+        "fast_mode_pricing": {
+          "input": 16,
+          "output": 80
+        },
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "claude-fable-5",
         "name": "Claude Fable 5",
         "created_by": "anthropic",
@@ -11921,6 +12043,49 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-09-19",
         "retirement_date": "2027-09-01"
+      },
+      {
+        "id": "claude-mythos-5-2",
+        "name": "Claude Mythos 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-mythos",
+        "retirement_date": "2027-11-09",
+        "license": "proprietary",
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-mythos-5-2",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40,
+          "cache_write": 10,
+          "cached_input": 0.2,
+          "cache_write_1h": 16,
+          "batch_input": 4,
+          "batch_output": 20
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "claude-mythos-5",
@@ -15846,7 +16011,7 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-07-31",
         "status": "deprecated",
-        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
+        "description": "Status: Deprecated",
         "tagline": "State-of-the-art image generation model",
         "license": "proprietary",
         "open_weight": false
@@ -21962,7 +22127,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A multimodal image generation model that features advanced reasoning and efficient content creation.",
         "status": "active",
         "model_type": "image",
-        "page_url": "https://seed.bytedance.com/en/seedream5_0_pro",
+        "page_url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
         "tagline": "A multimodal image generation model that features advanced reasoning and efficient content creation.",
         "capabilities": {
           "vision": true,
@@ -21979,7 +22144,33 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-07-09"
+        "last_updated": "2026-11-10"
+      },
+      {
+        "id": "seedream-5.5",
+        "name": "Seedream 5.5",
+        "created_by": "bytedance",
+        "source": "official",
+        "description": "A multimodal image generation model with greater creativity and more precise execution.",
+        "status": "active",
+        "model_type": "image",
+        "page_url": "https://seed.bytedance.com/en/seedream5_5",
+        "tagline": "A multimodal image generation model with greater creativity and more precise execution.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "seeduplex",
@@ -72656,6 +72847,40 @@ export const providers: ProviderWithModels[] = [
         "reasoning_tokens": true
       },
       {
+        "id": "nace-ai/drex-max-finance",
+        "name": "drex-max-finance",
+        "created_by": "nace-ai",
+        "source": "official",
+        "description": "Drex Max Finance is the finance version of Drex Max, Nace.AI's 27B multimodal decision model, for banking, accounting, payments, insurance, credit, compliance, filings and markets. Given a state (text, JSON, or images such as invoices, receipts and statements) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible, handles contexts up to 262K t...",
+        "status": "active",
+        "context_window": 262144,
+        "model_type": "chat",
+        "open_weight": true,
+        "tagline": "Drex Max Finance is the finance version of Drex Max, Nace.AI's 27B multimodal decision model, for banking, accounting, payments, insurance, credit, compliance, filings and markets.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0,
+          "cached_input": 0.12
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "nace-ai/drex-max",
         "name": "drex-max",
         "created_by": "nace-ai",
@@ -80128,8 +80353,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "json_mode": true
         },
-        "last_seen_at": "2026-09-09",
-        "last_updated": "2026-09-10"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/bria_video_eraser/erase/keypoints",
@@ -80258,8 +80483,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-04",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/fibo-2/generate",
@@ -80289,8 +80514,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-04",
-        "last_updated": "2026-11-05"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/fibo-bbq-preview/generate",
@@ -80375,8 +80600,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-15",
-        "last_updated": "2026-10-16"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/fibo-edit-1.5/product-holding",
@@ -80404,8 +80629,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/fibo-edit-1.5/virtual-try-on",
@@ -80433,8 +80658,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/fibo-edit/add_object_by_text",
@@ -81017,8 +81242,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-12",
-        "last_updated": "2026-10-13"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/increase-resolution",
@@ -81046,8 +81271,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-09-09",
-        "last_updated": "2026-09-10"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/product-dimensions",
@@ -81204,8 +81429,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/bria/video/background-removal/green-screen-despill",
         "tagline": "Remove background from videos filmed using chromakey, with automatic green spill suppression for clean, professional edges.",
-        "last_seen_at": "2026-08-27",
-        "last_updated": "2026-08-30"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "bria/video/background-removal/realtime",
@@ -83268,8 +83493,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/bria/background/replace",
@@ -83895,8 +84120,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-09",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/bytedance/seedance/v1.5/pro/text-to-video",
@@ -83921,8 +84146,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-09",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/bytedance/seedream/v3/text-to-image",
@@ -84850,8 +85075,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-04-21",
-        "last_updated": "2026-05-11"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/creative-upscaler",
@@ -90655,8 +90880,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-08",
-        "last_updated": "2026-11-08"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/fooocus/inpaint",
@@ -90683,8 +90908,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-08",
-        "last_updated": "2026-11-08"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/fooocus/upscale-or-vary",
@@ -90711,8 +90936,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-08",
-        "last_updated": "2026-11-08"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/fooocus",
@@ -90739,8 +90964,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-08",
-        "last_updated": "2026-11-08"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/framepack/f1",
@@ -90915,8 +91140,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/gemini-3-pro-image-preview",
@@ -90944,8 +91169,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/gemini-3.1-flash-image-preview/edit",
@@ -90974,8 +91199,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/gemini-3.1-flash-image-preview",
@@ -91003,8 +91228,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/gemini-3.1-flash-tts",
@@ -102316,8 +102541,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-11-07",
-        "last_updated": "2026-11-07"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/meshy/v6/multi-image-to-3d",
@@ -102364,8 +102589,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v6-preview/text-to-3d",
         "tagline": "Meshy-6-Preview is the latest model from Meshy.",
-        "last_seen_at": "2026-11-07",
-        "last_updated": "2026-11-07"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/meshy/v6/text-to-3d",
@@ -102378,8 +102603,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v6/text-to-3d",
         "tagline": "Meshy-6 is the latest model from Meshy.",
-        "last_seen_at": "2026-11-07",
-        "last_updated": "2026-11-07"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/minimax/hailuo-02-fast/image-to-video",
@@ -103834,8 +104059,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/nano-banana-2",
@@ -103862,8 +104087,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/nano-banana/edit",
@@ -103920,8 +104145,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/nano-banana-pro",
@@ -103948,8 +104173,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fal-ai/nano-banana",
@@ -115144,8 +115369,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "audio_speech"
         ],
-        "last_seen_at": "2026-09-30",
-        "last_updated": "2026-09-30",
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10",
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
@@ -115183,8 +115408,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "audio_speech"
         ],
-        "last_seen_at": "2026-09-30",
-        "last_updated": "2026-09-30",
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10",
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
@@ -115393,8 +115618,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-11-05",
-        "last_updated": "2026-11-06"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemini-omni-flash/v1.2/extend",
@@ -115410,8 +115635,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-11-05",
-        "last_updated": "2026-11-06"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemini-omni-flash/v1.2/image-to-video",
@@ -115440,8 +115665,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-11-05",
-        "last_updated": "2026-11-06"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemini-omni-flash/v1.2/reference-to-video",
@@ -115469,8 +115694,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-11-05",
-        "last_updated": "2026-11-06"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemini-omni-flash/v1.2/text-to-video",
@@ -115498,8 +115723,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-11-05",
-        "last_updated": "2026-11-06"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemini-omni-flash/v1.2/upscale",
@@ -115515,8 +115740,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-11-05",
-        "last_updated": "2026-11-06"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemini-omni-flash",
@@ -115783,8 +116008,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-23",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "heygen/heygen-video/reference-to-video",
@@ -115813,8 +116038,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-23",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "heygen/heygen-video/text-to-video",
@@ -115839,8 +116064,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-23",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "heygen/heygen-voice/turbo",
@@ -115864,8 +116089,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "audio_speech"
         ],
-        "last_seen_at": "2026-10-23",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "heygen/heygen-voice",
@@ -115889,8 +116114,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "audio_speech"
         ],
-        "last_seen_at": "2026-10-23",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "hitem3d/hi3d/image-to-3d",
@@ -116279,8 +116504,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-29",
-        "last_updated": "2026-10-30"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "ideogram/v4.5",
@@ -116307,8 +116532,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-29",
-        "last_updated": "2026-10-30"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "ideogram/v4",
@@ -116365,8 +116590,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-22",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "ideogram/vector/text-to-vector",
@@ -116393,8 +116618,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-10-22",
-        "last_updated": "2026-10-29"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "imagineart/imagineart-1.5-preview/text-to-image",
@@ -117169,8 +117394,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/luma/agent/ray/v3.2/video-to-video",
         "tagline": "Luma Ray 3.2 re-renders an existing video into new cinematic motion guided by a text prompt, preserving the source's look and movement while controlling resolution, duration, and HDR.",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "luma/agent/uni-1/v1/edit",
@@ -117841,8 +118066,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/camera-controls",
@@ -117955,8 +118180,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-19",
-        "last_updated": "2026-10-20"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/lip-sync/image-to-video",
@@ -118028,8 +118253,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/minimax/h3-max/recast",
         "tagline": "Recast the people in a video using reference photos with H3 Max, while preserving the source motion, camera, cuts, and audio.",
-        "last_seen_at": "2026-10-21",
-        "last_updated": "2026-10-22"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/reference-director",
@@ -118088,8 +118313,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/minimax/h3-max/reframe-video",
         "tagline": "Expands existing videos to a selected aspect ratio with generative outpainting, preserving source audio and timing.",
-        "last_seen_at": "2026-10-20",
-        "last_updated": "2026-10-21"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/relight",
@@ -118105,8 +118330,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-10-19",
-        "last_updated": "2026-10-20"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/styles/16bit-pixel",
@@ -118134,8 +118359,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-18",
-        "last_updated": "2026-10-19"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/styles/hand-drawn",
@@ -118163,8 +118388,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-18",
-        "last_updated": "2026-10-19"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/styles/low-poly",
@@ -118192,8 +118417,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-18",
-        "last_updated": "2026-10-19"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/styles/retro-toon-70s",
@@ -118221,8 +118446,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-18",
-        "last_updated": "2026-10-19"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/styles/vhs",
@@ -118250,8 +118475,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-10-18",
-        "last_updated": "2026-10-19"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "minimax/h3-max/text-to-video",
@@ -119755,8 +119980,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-06",
-        "last_updated": "2026-11-07"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "openai/gpt-image-2.6/sunburst/edit",
@@ -119814,8 +120039,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-06",
-        "last_updated": "2026-11-07"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "openai/gpt-image-2",
@@ -119880,8 +120105,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/openrouter/router/decisions",
         "tagline": "Run any decision model with fal, powered by OpenRouter.",
-        "last_seen_at": "2026-09-30",
-        "last_updated": "2026-09-30"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "openrouter/router/enterprise",
@@ -120916,8 +121141,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-11-06",
-        "last_updated": "2026-11-07"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "topaz/adjust/image",
@@ -121562,8 +121787,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/veed/clean-audio",
         "tagline": "Studio-quality speech from noisy recordings",
-        "last_seen_at": "2026-09-30",
-        "last_updated": "2026-10-01"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "veed/dubbing/pro",
@@ -122384,8 +122609,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/xai/grok-voice/realtime",
         "tagline": "Build real-time voice applications powered by Grok.",
-        "last_seen_at": "2026-09-16",
-        "last_updated": "2026-09-17"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "xai/grok-voice",
@@ -122398,8 +122623,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/xai/grok-voice",
         "tagline": "Build real-time voice applications powered by Grok.",
-        "last_seen_at": "2026-09-16",
-        "last_updated": "2026-09-17"
+        "last_seen_at": "2026-11-10",
+        "last_updated": "2026-11-10"
       },
       {
         "id": "xai/tts/v1",
@@ -122729,6 +122954,25 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-10-02"
+      },
+      {
+        "id": "fireworks/beam-1p0-501b-a23b-nvfp4",
+        "name": "beam-1p0-501b-a23b-nvfp4",
+        "created_by": "fireworks",
+        "source": "official",
+        "context_window": 1040000,
+        "parameters": 501,
+        "active_parameters": 23,
+        "page_url": "https://fireworks.ai/models/fireworks/beam-1p0-501b-a23b-nvfp4",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "last_updated": "2026-11-10"
       },
       {
         "id": "fireworks/beam-1p0-501b-a23b",
@@ -156645,10 +156889,10 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-09-21",
+        "last_updated": "2026-11-10",
         "pricing": {
           "input": 1,
-          "output": 1
+          "output": 2
         }
       },
       {
@@ -156675,10 +156919,10 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-09-21",
+        "last_updated": "2026-11-10",
         "pricing": {
           "input": 1,
-          "output": 1
+          "output": 2
         }
       },
       {
@@ -168225,7 +168469,7 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-11-10",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true,
@@ -168252,7 +168496,8 @@ export const providers: ProviderWithModels[] = [
         "reasoning_tokens": true,
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated"
       },
       {
         "id": "minimax-m2",
@@ -168395,7 +168640,7 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-large-3",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-10",
         "family": "mistral-large",
         "capabilities": {
           "streaming": true,
@@ -168417,7 +168662,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "status": "deprecated"
       },
       {
         "id": "mistral-large-4",
@@ -168563,7 +168809,7 @@ export const providers: ProviderWithModels[] = [
         "name": "nemotron-3-nano",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-10",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -168590,7 +168836,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "status": "deprecated"
       },
       {
         "id": "nemotron-3-super",
@@ -169408,6 +169655,37 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-10-17",
         "status": "deprecated"
+      },
+      {
+        "id": "ripple-preview",
+        "name": "ripple-preview",
+        "created_by": "unknown",
+        "source": "official",
+        "description": "65B dense model built for agentic coding, with up to 1M tokens of context.",
+        "reasoning_tokens": true,
+        "license": "apache-2.0",
+        "parameters": 65,
+        "page_url": "https://ollama.com/library/ripple-preview",
+        "open_weight": true,
+        "tagline": "65B dense model built for agentic coding, with up to 1M tokens of context.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "rnj-1",
@@ -178002,20 +178280,16 @@ export const providers: ProviderWithModels[] = [
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
-                "Output",
                 "Cached input",
-                "30m write",
-                "12h write"
+                "Output"
               ],
               "rows": [
                 {
                   "label": "Standard",
                   "values": [
                     12.5,
-                    75,
                     1.25,
-                    15.625,
-                    31.25
+                    75
                   ]
                 }
               ]
@@ -178028,7 +178302,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "responses"
         ],
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-10",
         "description": "An alias for our most advanced purpose-trained cybersecurity models, for approved defenders conducting advanced, authorized vulnerability research, exploit validation, and security testing.",
         "alias": "gpt-daybreak-red-latest",
         "tagline": "Our most advanced cybersecurity model for authorized vulnerability research and security testing.",
@@ -178624,22 +178898,18 @@ export const providers: ProviderWithModels[] = [
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
-                "Output",
                 "Cached input",
-                "30m write",
-                "12h write",
-                "Cache writes"
+                "Cache writes",
+                "Output"
               ],
               "rows": [
                 {
                   "label": "Standard",
                   "values": [
                     20,
-                    100,
                     2,
                     25,
-                    50,
-                    25
+                    100
                   ]
                 }
               ]
@@ -178666,7 +178936,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-6-cyber"
         ],
-        "last_updated": "2026-11-06"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "gpt-6-luna",
@@ -179856,20 +180126,16 @@ export const providers: ProviderWithModels[] = [
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
-                "Output",
                 "Cached input",
-                "30m write",
-                "12h write"
+                "Output"
               ],
               "rows": [
                 {
                   "label": "Standard",
                   "values": [
                     12.5,
-                    75,
                     1.25,
-                    15.625,
-                    31.25
+                    75
                   ]
                 }
               ]
@@ -179894,7 +180160,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-5.6-cyber"
         ],
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-10",
         "status": "active"
       },
       {
@@ -180470,8 +180736,8 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "family": "gpt-image-2",
-        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
-        "status": "active",
+        "description": "Status: Deprecated",
+        "status": "deprecated",
         "release_date": "2026-04-21",
         "model_type": "image",
         "license": "proprietary",
@@ -180568,7 +180834,10 @@ export const providers: ProviderWithModels[] = [
           "image_generation",
           "image_edit"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-10",
+        "deprecation_date": "2026-11-10",
+        "retirement_date": "2027-02-10",
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-image-2.5-flare-2026-09-08",
@@ -181156,8 +181425,8 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "family": "gpt-image-2",
-        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
-        "status": "active",
+        "description": "Status: Deprecated",
+        "status": "deprecated",
         "model_type": "image",
         "license": "proprietary",
         "performance": 4,
@@ -181255,8 +181524,11 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-image-2-2026-04-21"
         ],
-        "last_updated": "2026-09-24",
-        "release_date": "2026-04-21"
+        "last_updated": "2026-11-10",
+        "release_date": "2026-04-21",
+        "deprecation_date": "2026-11-10",
+        "retirement_date": "2027-02-10",
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-live-1",
@@ -185393,6 +185665,47 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "claude-fable-5-2",
+        "name": "Claude Fable 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40,
+          "cached_input": 0.2,
+          "cache_write": 10
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-10",
+        "description": "For demanding reasoning and long-horizon agentic work",
+        "tagline": "For demanding reasoning and long-horizon agentic work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "claude-fable-5",
         "name": "Claude Fable 5",
         "created_by": "anthropic",
@@ -186003,7 +186316,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 2,
           "output": 10,
-          "cached_input": 0.2,
+          "cached_input": 0.1,
           "cache_write": 2.5
         },
         "modalities": {
@@ -186014,7 +186327,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-08",
+        "last_updated": "2026-11-10",
         "description": "The best combination of speed and intelligence",
         "tagline": "The best combination of speed and intelligence",
         "context_window": 1000000,
@@ -186070,11 +186383,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Crouton Alpha Free",
         "created_by": "unknown",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-05",
+        "last_updated": "2026-11-10",
         "pricing": {
           "input": 0,
           "output": 0,
@@ -186460,9 +186773,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cached_input": 0.15
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
         },
         "modalities": {
           "input": [
@@ -186472,7 +186785,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-10",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
@@ -186498,9 +186811,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cached_input": 0.15
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
         },
         "modalities": {
           "input": [
@@ -186510,7 +186823,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-08-16",
+        "last_updated": "2026-11-10",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.7 Flash Gemini 3.7 Flash is the next iteration in the Gemini 3 series of highly-capable, natively multimodal, reasoning models.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
@@ -186536,9 +186849,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cached_input": 0.15
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
         },
         "modalities": {
           "input": [
@@ -186548,7 +186861,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-09-03",
+        "last_updated": "2026-11-10",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -188655,6 +188968,22 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-10-29"
       },
       {
+        "id": "longcat-2.5-free",
+        "name": "LongCat 2.5 Free",
+        "created_by": "unknown",
+        "source": "official",
+        "status": "active",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cached_input": 0
+        },
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "longcat-2.5-preview-free",
         "name": "LongCat 2.5 Preview Free",
         "created_by": "unknown",
@@ -188968,6 +189297,32 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "minimax-m3.1-flash-free",
+        "name": "MiniMax M3.1 Flash Free",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cached_input": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "minimax-m3.1-flash",
         "name": "MiniMax M3.1 Flash",
         "created_by": "minimax",
@@ -189057,6 +189412,22 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1000000,
         "license": "apache-2.0",
         "open_weight": true
+      },
+      {
+        "id": "muse-ember-1.0",
+        "name": "Muse Ember 1.0",
+        "created_by": "meta",
+        "source": "official",
+        "status": "active",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5,
+          "cached_input": 0.004
+        },
+        "last_updated": "2026-11-10"
       },
       {
         "id": "muse-spark-1.2-contributor-free",
@@ -189625,14 +189996,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 10,
-          "output": 50,
-          "cached_input": 0.25
+          "input": 8,
+          "output": 40,
+          "cached_input": 0.2
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-02"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "~anthropic/claude-haiku-latest",
@@ -191400,6 +191771,80 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-09-02"
+      },
+      {
+        "id": "anthropic/claude-fable-5.2:batch",
+        "name": "Anthropic: Claude Fable 5.2 (batch)",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision.",
+        "release_date": "2026-11-09",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 4,
+          "output": 20,
+          "cached_input": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
+      },
+      {
+        "id": "anthropic/claude-fable-5.2",
+        "name": "Anthropic: Claude Fable 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision.",
+        "release_date": "2026-11-09",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40,
+          "cached_input": 0.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "anthropic/claude-fable-5",
@@ -194616,7 +195061,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
         "release_date": "2026-09-10",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
         "capabilities": {
@@ -194635,14 +195080,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.011,
-          "output": 0.2,
-          "cached_input": 0.002
+          "input": 0.112,
+          "output": 0.336,
+          "cached_input": 0.003
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-08"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "deepseek/deepseek-v4.1-flash",
@@ -196934,7 +197379,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
         "release_date": "2026-04-03",
         "context_window": 262144,
-        "max_output_tokens": 235929,
+        "max_output_tokens": 128000,
         "parameters": 26,
         "active_parameters": 4,
         "model_type": "chat",
@@ -196956,14 +197401,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.09,
-          "output": 0.3,
-          "cached_input": 0.05
+          "input": 0.08,
+          "output": 0.1,
+          "cached_input": 0.046
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/gemma-4-31b-it:batch",
@@ -199023,11 +199468,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.3 70B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-11-06",
+        "last_updated": "2026-11-10",
         "family": "llama-3.3",
         "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
         "context_window": 131072,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 115200,
         "modalities": {
           "input": [
             "text"
@@ -199042,9 +199487,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.59,
-          "output": 0.79,
-          "cached_input": 0.295
+          "input": 0.71,
+          "output": 0.71,
+          "cached_input": 0.71
         },
         "model_type": "chat",
         "parameters": 70,
@@ -199209,6 +199654,43 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2025-04-30",
         "tagline": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification.",
         "max_output_tokens": 16384
+      },
+      {
+        "id": "meta/muse-ember",
+        "name": "Meta: Muse Ember",
+        "created_by": "meta",
+        "source": "official",
+        "description": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+        "release_date": "2026-11-09",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "tagline": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5,
+          "cached_input": 0.004
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "meta/muse-glimmer-30b:batch",
@@ -199473,7 +199955,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Muse Spark Open is a coding-optimized open-weight model.",
         "release_date": "2026-10-15",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 131072,
         "tagline": "Muse Spark Open is a coding-optimized open-weight model.",
         "capabilities": {
           "tool_call": true,
@@ -199500,7 +199982,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "meta/muse-wonder",
@@ -199662,7 +200144,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M1",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-10-01",
+        "last_updated": "2026-11-10",
         "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference.",
         "context_window": 1000000,
         "max_output_tokens": 40000,
@@ -199688,7 +200170,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated"
       },
       {
         "id": "minimax/minimax-m2-her",
@@ -199798,9 +200281,9 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-11-07",
+        "last_updated": "2026-11-10",
         "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity.",
-        "context_window": 204800,
+        "context_window": 200000,
         "max_output_tokens": 58982,
         "modalities": {
           "input": [
@@ -199870,9 +200353,9 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-11-06",
+        "last_updated": "2026-11-10",
         "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement.",
-        "context_window": 204800,
+        "context_window": 196608,
         "max_output_tokens": 176947,
         "modalities": {
           "input": [
@@ -201479,7 +201962,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Mistral: Mistral Small 3.2 24B",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-10",
         "family": "mistral-small",
         "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling.",
         "context_window": 256000,
@@ -201498,8 +201981,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.075,
-          "output": 0.2,
+          "input": 0.1,
+          "output": 0.3,
           "cached_input": 0.01
         },
         "model_type": "chat",
@@ -201509,7 +201992,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 16384
+        "max_output_tokens": 26214
       },
       {
         "id": "mistralai/mistral-small-creative",
@@ -202220,7 +202703,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI.",
         "release_date": "2026-07-16",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 16384,
         "model_type": "chat",
         "tagline": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI.",
         "capabilities": {
@@ -202240,14 +202723,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.917,
-          "output": 6,
-          "cached_input": 0.226
+          "input": 2.28,
+          "output": 11.4,
+          "cached_input": 0.228
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-09",
+        "last_updated": "2026-11-10",
         "status": "deprecated"
       },
       {
@@ -202705,6 +203188,41 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-09-24",
         "status": "deprecated"
+      },
+      {
+        "id": "nex-agi/nex-n2.6",
+        "name": "Nex AGI: Nex-N2.6",
+        "created_by": "nex-agi",
+        "source": "official",
+        "description": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters.",
+        "release_date": "2026-11-10",
+        "context_window": 262144,
+        "max_output_tokens": 235929,
+        "tagline": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0.4,
+          "cached_input": 0.024
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "nousresearch/hermes-2-pro-llama-3-8b",
@@ -203451,13 +203969,13 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.15,
-          "output": 0.5,
+          "output": 0.47,
           "cached_input": 0.02
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-04"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -207978,11 +208496,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-09",
+        "last_updated": "2026-11-10",
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 117964,
         "modalities": {
           "input": [
             "text"
@@ -208002,9 +208520,9 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 0.018,
-          "output": 0.09,
-          "cached_input": 0.009
+          "input": 0.03,
+          "output": 0.13,
+          "cached_input": 0.03
         },
         "model_type": "chat",
         "parameters": 20,
@@ -208803,8 +209321,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-30",
-        "max_output_tokens": 65536
+        "last_updated": "2026-11-10",
+        "max_output_tokens": 64000
       },
       {
         "id": "openrouter/auto-code",
@@ -208814,7 +209332,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses.",
         "release_date": "2026-11-05",
         "context_window": 2000000,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 64000,
         "tagline": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses.",
         "capabilities": {
           "tool_call": true,
@@ -208837,7 +209355,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-06"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "openrouter/auto",
@@ -210173,11 +210691,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 14B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-10-11",
+        "last_updated": "2026-11-10",
         "family": "qwen3",
         "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue.",
         "context_window": 40960,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 36864,
         "modalities": {
           "input": [
             "text"
@@ -210196,8 +210714,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.24
+          "input": 0.1,
+          "output": 0.22
         },
         "model_type": "chat",
         "parameters": 14,
@@ -212494,7 +213012,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.8",
         "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
         "release_date": "2026-08-14",
-        "context_window": 1024000,
+        "context_window": 1048575,
         "max_output_tokens": 235929,
         "parameters": 27,
         "model_type": "chat",
@@ -212525,7 +213043,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-10",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -212570,6 +213088,43 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-08-30",
         "license": "apache-2.0",
         "open_weight": true
+      },
+      {
+        "id": "qwen/qwen3.8-max-0902:batch",
+        "name": "Qwen: Qwen3.8 Max (0902) (batch)",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.8",
+        "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team.",
+        "release_date": "2026-09-03",
+        "context_window": 262144,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "tagline": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.15,
+          "output": 3.45
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "qwen/qwen3.8-max-0902",
@@ -213016,7 +213571,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "reasoning": true
         },
         "modalities": {
           "input": [
@@ -213034,7 +213590,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sakana/fugu-max",
@@ -213408,7 +213964,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-04"
+        "last_updated": "2026-11-10",
+        "status": "deprecated"
       },
       {
         "id": "stealth/space-bunny-alpha",
@@ -213587,7 +214144,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "description": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters).",
         "release_date": "2026-10-08",
-        "context_window": 1048576,
+        "context_window": 1000000,
         "max_output_tokens": 64000,
         "tagline": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters).",
         "capabilities": {
@@ -213614,7 +214171,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-16",
+        "last_updated": "2026-11-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -214083,6 +214640,34 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "thinkingmachines/inkling-2-small:free",
+        "name": "Thinking Machines: Inkling 2 Small (free)",
+        "created_by": "thinkingmachines",
+        "source": "official",
+        "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total.",
+        "release_date": "2026-11-09",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "tagline": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "thinkingmachines/inkling:batch",
         "name": "Thinking Machines: Inkling (batch)",
         "created_by": "thinkingmachines",
@@ -214343,7 +214928,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-10",
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
@@ -214353,7 +214938,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 65536
+        "max_output_tokens": 64000
       },
       {
         "id": "unbiased/pareto-26.10-preview",
@@ -215579,7 +216164,7 @@ export const providers: ProviderWithModels[] = [
         "family": "mimo",
         "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
         "release_date": "2026-04-22",
-        "context_window": 1050000,
+        "context_window": 1024000,
         "max_output_tokens": 235929,
         "model_type": "chat",
         "tagline": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
@@ -215608,7 +216193,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-10",
         "status": "deprecated",
         "deprecation_date": "2026-10-21"
       },
@@ -215881,7 +216466,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.5 Air",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-06-18",
+        "last_updated": "2026-11-10",
         "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications.",
         "context_window": 131072,
         "max_output_tokens": 98304,
@@ -215900,9 +216485,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.13,
-          "output": 0.85,
-          "cached_input": 0.025
+          "input": 0.2,
+          "output": 1.1,
+          "cached_input": 0.03
         },
         "family": "glm-4.5",
         "model_type": "chat",
@@ -216241,14 +216826,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.623,
-          "output": 1.271,
-          "cached_input": 0.21
+          "input": 0.573,
+          "output": 1.169,
+          "cached_input": 0.194
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-09",
+        "last_updated": "2026-11-10",
         "status": "deprecated",
         "max_output_tokens": 943718
       },
@@ -216365,7 +216950,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
         "release_date": "2026-08-26",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 943718,
         "model_type": "chat",
         "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
         "capabilities": {
@@ -216385,14 +216970,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.05,
-          "output": 0.18,
-          "cached_input": 0.01
+          "input": 0.03,
+          "output": 0.061,
+          "cached_input": 0.013
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-16"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "z-ai/glm-5.3-flash",
@@ -216405,7 +216990,7 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2026-08-26",
         "deprecation_date": "2098-12-31",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 943717,
         "model_type": "chat",
         "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
         "capabilities": {
@@ -216425,14 +217010,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.034,
-          "output": 0.083,
+          "input": 0.15,
+          "output": 0.5,
           "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-08"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "z-ai/glm-5.3-flashx-legal",
@@ -228738,6 +229323,31 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-11"
       },
       {
+        "id": "anthropic/claude-fable-5.2",
+        "name": "Claude Fable 5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "status": "active",
+        "model_type": "chat",
+        "page_url": "https://replicate.com/anthropic/claude-fable-5.2",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "anthropic/claude-fable-5",
         "name": "Claude Fable 5",
         "created_by": "anthropic",
@@ -228916,6 +229526,16 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "appmeloncreator/pixelship-2.0",
+        "name": "Pixelship 2.0",
+        "created_by": "appmeloncreator",
+        "source": "official",
+        "status": "active",
+        "model_type": "other",
+        "page_url": "https://replicate.com/appmeloncreator/pixelship-2.0",
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "appmeloncreator/pixelship",
         "name": "Pixelship",
         "created_by": "appmeloncreator",
@@ -228982,10 +229602,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Yolo World M",
         "created_by": "asyasyarif",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "other",
         "page_url": "https://replicate.com/asyasyarif/yolo-world-m",
-        "last_updated": "2026-10-31"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "barakplasma/jev-omni",
@@ -229842,6 +230462,31 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-10-01"
       },
       {
+        "id": "deepseek-ai/deepseek-v3",
+        "name": "Deepseek V3",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "status": "active",
+        "model_type": "chat",
+        "page_url": "https://replicate.com/deepseek-ai/deepseek-v3",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "devgmstudios/nsfw-filter-adjustable",
         "name": "Nsfw Filter Adjustable",
         "created_by": "devgmstudios",
@@ -230432,10 +231077,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Lyria 3 Pro",
         "created_by": "google",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "other",
         "page_url": "https://replicate.com/google/lyria-3-pro",
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/lyria-3.5",
@@ -230472,10 +231117,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Lyria 3",
         "created_by": "google",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "other",
         "page_url": "https://replicate.com/google/lyria-3",
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "google/nano-banana-2-lite",
@@ -230887,7 +231532,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Kalm Reranker V1 Nano R2",
         "created_by": "itsukifujii",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "rerank",
         "page_url": "https://replicate.com/itsukifujii/kalm-reranker-v1-nano-r2",
         "modalities": {
@@ -230901,7 +231546,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "rerank"
         ],
-        "last_updated": "2026-11-01"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "itsukifujii/kalm-reranker-v1-small-r2",
@@ -230973,6 +231618,27 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://replicate.com/karthiksync/blitz",
         "last_updated": "2026-10-10"
+      },
+      {
+        "id": "kiendt04/haan24-flux-lora",
+        "name": "Haan24 Flux Lora",
+        "created_by": "kiendt04",
+        "source": "official",
+        "status": "active",
+        "model_type": "image",
+        "page_url": "https://replicate.com/kiendt04/haan24-flux-lora",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "krea/krea-2-large",
@@ -231066,6 +231732,27 @@ export const providers: ProviderWithModels[] = [
           "video"
         ],
         "last_updated": "2026-11-04"
+      },
+      {
+        "id": "kwaivgi/kling-v4-flash",
+        "name": "Kling V4 Flash",
+        "created_by": "kwaivgi",
+        "source": "official",
+        "status": "active",
+        "model_type": "video",
+        "page_url": "https://replicate.com/kwaivgi/kling-v4-flash",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "kwaivgi/kling-v4.0",
@@ -232489,7 +233176,7 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "last_updated": "2026-05-11",
-        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
+        "description": "Status: Deprecated",
         "tagline": "State-of-the-art image generation model",
         "license": "proprietary",
         "open_weight": false
@@ -233516,10 +234203,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Storyfed 1",
         "created_by": "storyfed",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "other",
         "page_url": "https://replicate.com/storyfed/storyfed-1",
-        "last_updated": "2026-10-31"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sync/lipsync-2-pro",
@@ -234496,8 +235183,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "GLM-5.3",
         "status": "active",
-        "context_window": 131072,
-        "max_output_tokens": 131072,
+        "context_window": 1048576,
+        "max_output_tokens": 1048576,
         "model_type": "chat",
         "modalities": {
           "input": [
@@ -234514,7 +235201,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "gpt-oss-120b",
@@ -234985,9 +235672,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 205,
+        "huggingface_downloads": 204,
         "last_modified": "2023-11-08",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "control-lora",
@@ -235083,9 +235770,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 275,
+        "huggingface_downloads": 259,
         "last_modified": "2023-11-17",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stable-clip-vit-l-16",
@@ -235116,9 +235803,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 119,
+        "huggingface_downloads": 117,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stable-diffusion-xl",
@@ -235281,9 +235968,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 455,
+        "huggingface_downloads": 433,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-3b-4e1t-instruct",
@@ -235314,9 +236001,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 557,
+        "huggingface_downloads": 532,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-base-alpha-7b",
@@ -235347,9 +236034,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 911,
+        "huggingface_downloads": 853,
         "last_modified": "2023-08-22",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-base-beta-70b",
@@ -235380,9 +236067,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 721,
+        "huggingface_downloads": 708,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-base-beta-7b",
@@ -235413,9 +236100,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 746,
+        "huggingface_downloads": 727,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-base-gamma-7b",
@@ -235446,9 +236133,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 516,
+        "huggingface_downloads": 500,
         "last_modified": "2024-01-25",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-base-ja_vocab-beta-7b",
@@ -235479,9 +236166,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 750,
+        "huggingface_downloads": 741,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b-v2",
@@ -235512,9 +236199,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 415,
+        "huggingface_downloads": 399,
         "last_modified": "2023-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b",
@@ -235578,9 +236265,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 743,
+        "huggingface_downloads": 739,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-instruct-beta-7b",
@@ -235611,9 +236298,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 727,
+        "huggingface_downloads": 706,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-instruct-gamma-7b",
@@ -235644,9 +236331,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 509,
+        "huggingface_downloads": 496,
         "last_modified": "2024-01-24",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "japanese-stablelm-instruct-ja_vocab-beta-7b",
@@ -235677,9 +236364,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 725,
+        "huggingface_downloads": 712,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "SAME-L",
@@ -235709,9 +236396,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 5808,
+        "huggingface_downloads": 5451,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "SAME-S",
@@ -235741,9 +236428,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1674,
+        "huggingface_downloads": 1682,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sd-turbo",
@@ -235771,9 +236458,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 469700,
+        "huggingface_downloads": 453536,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sd-vae-ft-ema-original",
@@ -235820,9 +236507,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 11553,
+        "huggingface_downloads": 12438,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sd-vae-ft-mse-original",
@@ -235869,9 +236556,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 322032,
+        "huggingface_downloads": 324296,
         "last_modified": "2023-06-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sd-x2-latent-upscaler",
@@ -235886,9 +236573,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2000,
+        "huggingface_downloads": 2080,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sdxl-turbo-ryzen-ai",
@@ -235918,9 +236605,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 291,
+        "huggingface_downloads": 289,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sdxl-turbo-tensorrt",
@@ -235950,9 +236637,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 143,
+        "huggingface_downloads": 145,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sdxl-turbo",
@@ -235982,9 +236669,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 647298,
+        "huggingface_downloads": 626033,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sdxl-vae",
@@ -235999,9 +236686,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 230600,
+        "huggingface_downloads": 229752,
         "last_modified": "2023-08-04",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sp4d",
@@ -236016,9 +236703,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sp4d",
         "open_weight": true,
         "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 53,
+        "huggingface_downloads": 48,
         "last_modified": "2025-11-05",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-medium-base",
@@ -236033,9 +236720,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 8257,
+        "huggingface_downloads": 8215,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-medium",
@@ -236050,9 +236737,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 99671,
+        "huggingface_downloads": 103573,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-optimized",
@@ -236067,9 +236754,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
         "open_weight": true,
         "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 38892,
+        "huggingface_downloads": 38939,
         "last_modified": "2026-10-30",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-small-music-base",
@@ -236084,9 +236771,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2188,
+        "huggingface_downloads": 2195,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-small-music",
@@ -236101,9 +236788,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 32153,
+        "huggingface_downloads": 25776,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-small-sfx-base",
@@ -236118,9 +236805,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 3046,
+        "huggingface_downloads": 3034,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-3-small-sfx",
@@ -236135,9 +236822,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 61046,
+        "huggingface_downloads": 62232,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-open-1.0",
@@ -236159,9 +236846,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 21464,
+        "huggingface_downloads": 21305,
         "last_modified": "2025-06-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-audio-open-small",
@@ -236183,9 +236870,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 7167,
+        "huggingface_downloads": 7195,
         "last_modified": "2026-11-05",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-cascade-prior",
@@ -236247,9 +236934,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 18981,
+        "huggingface_downloads": 18809,
         "last_modified": "2024-03-16",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-code-3b",
@@ -236280,9 +236967,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6762,
+        "huggingface_downloads": 6629,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-code-instruct-3b",
@@ -236313,9 +237000,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2635,
+        "huggingface_downloads": 2603,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-codec-speech-16k-base",
@@ -236361,9 +237048,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 152,
+        "huggingface_downloads": 289,
         "last_modified": "2025-01-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3-medium-amdnpu",
@@ -236425,9 +237112,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 62457,
+        "huggingface_downloads": 62069,
         "last_modified": "2024-06-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3-medium-tensorrt",
@@ -236489,9 +237176,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 2253,
+        "huggingface_downloads": 2246,
         "last_modified": "2024-08-12",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3-medium_amdgpu",
@@ -236585,9 +237272,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 23,
+        "huggingface_downloads": 152,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-blur",
@@ -236617,9 +237304,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 140,
+        "huggingface_downloads": 150,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-canny",
@@ -236649,9 +237336,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3334,
+        "huggingface_downloads": 3198,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-depth",
@@ -236681,9 +237368,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1418,
+        "huggingface_downloads": 1406,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-large-tensorrt",
@@ -236713,9 +237400,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 27,
+        "huggingface_downloads": 23,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-large-turbo",
@@ -236745,9 +237432,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3792,
+        "huggingface_downloads": 3677,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-large",
@@ -236777,9 +237464,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 49744,
+        "huggingface_downloads": 49219,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-medium-tensorrt",
@@ -236809,9 +237496,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 5,
+        "huggingface_downloads": 10,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-08"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-3.5-medium",
@@ -236841,9 +237528,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 68580,
+        "huggingface_downloads": 71903,
         "last_modified": "2024-10-31",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-x4-upscaler",
@@ -236858,9 +237545,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 6109,
+        "huggingface_downloads": 6192,
         "last_modified": "2023-07-05",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-xl-1.0-tensorrt",
@@ -236890,9 +237577,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 245,
+        "huggingface_downloads": 249,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-xl-base-0.9",
@@ -236922,9 +237609,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 22,
+        "huggingface_downloads": 24,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-xl-base-1.0",
@@ -236954,9 +237641,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4634993,
+        "huggingface_downloads": 4649928,
         "last_modified": "2023-10-30",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-diffusion-xl-refiner-0.9",
@@ -237020,9 +237707,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 107237,
+        "huggingface_downloads": 107892,
         "last_modified": "2023-09-25",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-fast-3d",
@@ -237041,9 +237728,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 42145,
+        "huggingface_downloads": 39118,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-point-aware-3d",
@@ -237062,9 +237749,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 5402,
+        "huggingface_downloads": 4827,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
@@ -237128,9 +237815,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 3597,
+        "huggingface_downloads": 3495,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt",
@@ -237161,9 +237848,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 121674,
+        "huggingface_downloads": 120839,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-video-diffusion-img2vid",
@@ -237194,9 +237881,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 42543,
+        "huggingface_downloads": 42104,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-virtual-camera",
@@ -237227,9 +237914,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 29599,
+        "huggingface_downloads": 30350,
         "last_modified": "2025-06-03",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stable-zero123",
@@ -237275,9 +237962,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 679,
+        "huggingface_downloads": 689,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "StableBeluga-7B",
@@ -237306,9 +237993,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 707,
+        "huggingface_downloads": 757,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "StableBeluga1-Delta",
@@ -237338,9 +238025,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 244,
+        "huggingface_downloads": 241,
         "last_modified": "2023-07-27",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "StableBeluga2",
@@ -237368,9 +238055,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 874,
+        "huggingface_downloads": 869,
         "last_modified": "2023-09-18",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablecode-completion-alpha-3b-4k",
@@ -237401,9 +238088,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1061,
+        "huggingface_downloads": 1066,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablecode-completion-alpha-3b",
@@ -237434,9 +238121,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 740,
+        "huggingface_downloads": 733,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablecode-instruct-alpha-3b",
@@ -237504,9 +238191,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 419,
+        "huggingface_downloads": 418,
         "last_modified": "2024-04-20",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-2-12b-chat",
@@ -237541,9 +238228,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 658,
+        "huggingface_downloads": 653,
         "last_modified": "2024-05-20",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-2-12b",
@@ -237574,9 +238261,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1051,
+        "huggingface_downloads": 1036,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-08"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-2-1_6b-chat",
@@ -237607,9 +238294,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1082,
+        "huggingface_downloads": 1068,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-2-1_6b",
@@ -237640,9 +238327,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 8510,
+        "huggingface_downloads": 8016,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-2-zephyr-1_6b",
@@ -237673,9 +238360,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 7542,
+        "huggingface_downloads": 7522,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-3b-4e1t",
@@ -237706,9 +238393,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 11982,
+        "huggingface_downloads": 11782,
         "last_modified": "2024-03-07",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-base-alpha-3b-v2",
@@ -237739,9 +238426,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 386,
+        "huggingface_downloads": 381,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-base-alpha-3b",
@@ -237772,9 +238459,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3532,
+        "huggingface_downloads": 3542,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-base-alpha-7b-v2",
@@ -237805,9 +238492,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 524,
+        "huggingface_downloads": 520,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-08"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-base-alpha-7b",
@@ -237838,9 +238525,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 895,
+        "huggingface_downloads": 891,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-tuned-alpha-3b",
@@ -237871,9 +238558,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1391,
+        "huggingface_downloads": 1478,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-tuned-alpha-7b",
@@ -237904,9 +238591,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1223,
+        "huggingface_downloads": 1228,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "stablelm-zephyr-3b",
@@ -237937,9 +238624,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 23058,
+        "huggingface_downloads": 23366,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "sv3d",
@@ -238004,9 +238691,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 4937,
+        "huggingface_downloads": 6331,
         "last_modified": "2025-04-04",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "tiny-random-stablelm-2",
@@ -238034,9 +238721,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3884,
+        "huggingface_downloads": 3860,
         "last_modified": "2024-03-31",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       },
       {
         "id": "TripoSR",
@@ -238055,9 +238742,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 187453,
+        "huggingface_downloads": 184631,
         "last_modified": "2024-08-09",
-        "last_updated": "2026-11-09"
+        "last_updated": "2026-11-10"
       }
     ]
   },
@@ -239771,7 +240458,7 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-11-09",
         "context_window": 32000,
-        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
+        "description": "Status: Deprecated",
         "tagline": "State-of-the-art image generation model",
         "license": "proprietary",
         "open_weight": false,
@@ -240852,8 +241539,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-08-30",
-        "context_window": 256000
+        "last_updated": "2026-11-10",
+        "context_window": 256000,
+        "status": "deprecated"
       },
       {
         "id": "s/qwen3-coder-next",
@@ -242925,6 +243613,37 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-09-02"
+      },
+      {
+        "id": "anthropic/claude-fable-5.2",
+        "name": "claude-fable-5.2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
       },
       {
         "id": "anthropic/claude-fable-5",
@@ -248223,6 +248942,36 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "meta/muse-ember",
+        "name": "muse-ember",
+        "created_by": "meta",
+        "source": "official",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-10"
+      },
+      {
         "id": "meta/muse-glimmer-30b",
         "name": "muse-glimmer-30b",
         "created_by": "meta",
@@ -250119,8 +250868,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.18,
-          "output": 8.5
+          "input": 0.16,
+          "output": 7
         },
         "modalities": {
           "input": [
@@ -250133,7 +250882,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-09",
+        "last_updated": "2026-11-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -250152,8 +250901,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.16,
-          "output": 10
+          "input": 0.18,
+          "output": 9.34
         },
         "modalities": {
           "input": [
@@ -250166,7 +250915,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-09",
+        "last_updated": "2026-11-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -250217,6 +250966,53 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "nace-ai/drex-max-finance",
+        "name": "drex-max-finance",
+        "created_by": "nace-ai",
+        "source": "official",
+        "context_window": 262100,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        },
+        "last_updated": "2026-11-10"
+      },
+      {
+        "id": "nace-ai/drex-max-v1.1",
+        "name": "drex-max-v1.1",
+        "created_by": "nace-ai",
+        "source": "official",
+        "context_window": 262100,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        },
+        "last_updated": "2026-11-10"
+      },
+      {
+        "id": "nace-ai/drex-v2.0",
+        "name": "drex-v2.0",
+        "created_by": "nace-ai",
+        "source": "official",
+        "context_window": 262100,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        },
+        "last_updated": "2026-11-10"
       },
       {
         "id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -252403,7 +253199,7 @@ export const providers: ProviderWithModels[] = [
           "output": 30
         },
         "last_updated": "2026-04-22",
-        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
+        "description": "Status: Deprecated",
         "tagline": "State-of-the-art image generation model",
         "license": "proprietary",
         "open_weight": false,

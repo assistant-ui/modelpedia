@@ -1,0 +1,31 @@
+{
+  "id": "seedream-5.5",
+  "name": "Seedream 5.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A multimodal image generation model with greater creativity and more precise execution.",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://seed.bytedance.com/en/seedream5_5",
+  "tagline": "A multimodal image generation model with greater creativity and more precise execution.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "81cd9635",
+    "description": "c06687f0",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "cac61375",
+    "tagline": "c06687f0",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-10"
+}

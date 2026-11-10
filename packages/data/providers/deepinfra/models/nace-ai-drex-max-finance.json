@@ -1,0 +1,40 @@
+{
+  "id": "nace-ai/drex-max-finance",
+  "name": "drex-max-finance",
+  "created_by": "nace-ai",
+  "source": "official",
+  "description": "Drex Max Finance is the finance version of Drex Max, Nace.AI's 27B multimodal decision model, for banking, accounting, payments, insurance, credit, compliance, filings and markets. Given a state (text, JSON, or images such as invoices, receipts and statements) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible, handles contexts up to 262K t...",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "open_weight": true,
+  "tagline": "Drex Max Finance is the finance version of Drex Max, Nace.AI's 27B multimodal decision model, for banking, accounting, payments, insurance, credit, compliance, filings and markets.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0,
+    "cached_input": 0.12
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "86838f26",
+    "description": "f1cd0a52",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "tagline": "f8164f1a",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "1b3c678b",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-10"
+}

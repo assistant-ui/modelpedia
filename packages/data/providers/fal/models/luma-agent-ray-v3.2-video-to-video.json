@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/luma/agent/ray/v3.2/video-to-video",
   "tagline": "Luma Ray 3.2 re-renders an existing video into new cinematic motion guided by a text prompt, preserving the source's look and movement while controlling resolution, duration, and HDR.",
-  "last_seen_at": "2026-10-20",
+  "last_seen_at": "2026-11-10",
   "_generated": {
     "name": "b1f8ccc5",
     "description": "1decba18",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "83418872",
     "tagline": "1decba18",
-    "last_seen_at": "d322d85c"
+    "last_seen_at": "e365aa16"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-10"
 }

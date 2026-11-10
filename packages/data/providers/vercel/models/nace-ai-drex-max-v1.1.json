@@ -1,0 +1,22 @@
+{
+  "id": "nace-ai/drex-max-v1.1",
+  "name": "drex-max-v1.1",
+  "created_by": "nace-ai",
+  "source": "official",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0
+  },
+  "_generated": {
+    "name": "76313078",
+    "context_window": "b23f4471",
+    "capabilities": "8a3b232e",
+    "pricing": "276b4597"
+  },
+  "last_updated": "2026-11-10"
+}

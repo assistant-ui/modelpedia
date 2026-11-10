@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "count": 38,
+  "date": "2026-11-10",
+  "count": 35,
   "ids": [
     "autotrust-jev",
     "beam",
@@ -28,17 +28,14 @@
     "mimo-v2.6",
     "mimo-v2.6-flash",
     "mimo-v2.6-pro",
-    "minimax-m2.7",
     "minimax-m3",
     "minimax-m3.1-flash",
-    "mistral-large-3",
     "mistral-large-4",
     "muse-spark-open",
-    "nemotron-3-nano",
     "nemotron-3-super",
     "nemotron-3-ultra",
     "phonon",
-    "pplx-decider",
-    "pplx-decider-flash"
+    "pplx-decider-flash",
+    "ripple-preview"
   ]
 }

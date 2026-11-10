@@ -23,11 +23,11 @@
     "capabilities": "5f5c7516",
     "modalities": "6399757e",
     "endpoints": "d8fa1080",
-    "pricing": "5418a9a1"
+    "pricing": "ac91204c"
   },
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-11-10",
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 2
   }
 }

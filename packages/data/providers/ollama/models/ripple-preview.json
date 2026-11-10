@@ -1,0 +1,38 @@
+{
+  "id": "ripple-preview",
+  "name": "ripple-preview",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "65B dense model built for agentic coding, with up to 1M tokens of context.",
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "parameters": 65,
+  "page_url": "https://ollama.com/library/ripple-preview",
+  "open_weight": true,
+  "tagline": "65B dense model built for agentic coding, with up to 1M tokens of context.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "16faf45f",
+    "description": "d297e875",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "parameters": "fc490ca4",
+    "page_url": "4cb8cdf0",
+    "open_weight": "b326b506",
+    "tagline": "d297e875",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-10"
+}

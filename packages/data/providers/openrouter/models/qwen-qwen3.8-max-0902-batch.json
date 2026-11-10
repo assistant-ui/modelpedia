@@ -1,0 +1,43 @@
+{
+  "id": "qwen/qwen3.8-max-0902:batch",
+  "name": "Qwen: Qwen3.8 Max (0902) (batch)",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team.",
+  "release_date": "2026-09-03",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.15,
+    "output": 3.45
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d511d0a5",
+    "family": "e102ad6a",
+    "description": "e5a6492e",
+    "release_date": "424d10af",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "e5a6492e",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "f2c4d75d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-10"
+}

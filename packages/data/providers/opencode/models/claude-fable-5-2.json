@@ -1,0 +1,32 @@
+{
+  "id": "claude-fable-5-2",
+  "name": "Claude Fable 5.2",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 8,
+    "output": 40,
+    "cached_input": 0.2,
+    "cache_write": 10
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f8f7523f",
+    "family": "127f43cd",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "42dfbee7",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-10"
+}
