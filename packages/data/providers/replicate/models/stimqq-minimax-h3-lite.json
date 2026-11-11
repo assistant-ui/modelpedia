@@ -1,0 +1,18 @@
+{
+  "id": "stimqq/minimax-h3-lite",
+  "name": "Minimax H3 Lite",
+  "created_by": "stimqq",
+  "source": "official",
+  "family": "minimax",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/stimqq/minimax-h3-lite",
+  "_generated": {
+    "name": "2efde444",
+    "family": "c85916f0",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "738bad59"
+  },
+  "last_updated": "2026-11-11"
+}

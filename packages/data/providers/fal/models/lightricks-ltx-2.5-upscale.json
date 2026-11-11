@@ -1,0 +1,24 @@
+{
+  "id": "lightricks/ltx-2.5/upscale",
+  "name": "LTX 2.5 Upscale",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX 2.5 Upscale increases the resolution of existing H.264 or HEVC video to 1080p, 4K, or 8K.",
+  "status": "active",
+  "release_date": "2026-11-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/lightricks/ltx-2.5/upscale",
+  "tagline": "LTX 2.5 Upscale increases the resolution of existing H.264 or HEVC video to 1080p, 4K, or 8K.",
+  "last_seen_at": "2026-11-10",
+  "_generated": {
+    "name": "4547d25d",
+    "description": "542b7749",
+    "status": "379ac110",
+    "release_date": "e365aa16",
+    "model_type": "ddb0b7bc",
+    "page_url": "ad72f7ec",
+    "tagline": "542b7749",
+    "last_seen_at": "e365aa16"
+  },
+  "last_updated": "2026-11-11"
+}

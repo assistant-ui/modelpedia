@@ -1,0 +1,23 @@
+{
+  "id": "recraft-ai/recraft-crisp-upscale",
+  "name": "Recraft Crisp Upscale",
+  "created_by": "recraft-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/recraft-ai/recraft-crisp-upscale",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "4b7029c2",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "72ee2f42",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-11"
+}

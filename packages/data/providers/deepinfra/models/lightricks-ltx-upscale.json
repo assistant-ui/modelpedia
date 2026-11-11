@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-Upscale",
+  "name": "LTX-Upscale",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX Upscale by Lightricks upscales video to 1080p, 4K or 8K, keeping its aspect ratio, frame rate and audio.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX Upscale by Lightricks upscales video to 1080p, 4K or 8K, keeping its aspect ratio, frame rate and audio.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["from $0.08 / second"],
+  "_generated": {
+    "name": "58be5991",
+    "description": "c4c8f5a6",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "c4c8f5a6",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "ffa1c212"
+  },
+  "last_updated": "2026-11-11"
+}

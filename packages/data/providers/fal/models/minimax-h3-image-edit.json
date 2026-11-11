@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-image/edit",
+  "name": "MiniMax H3 Image Edit",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "MiniMax H3 Image Edit transforms and combines up to 16 reference images using text instructions, supporting targeted edits, style changes, and multi-image composition.",
+  "status": "active",
+  "release_date": "2026-11-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/minimax/h3-image/edit",
+  "tagline": "MiniMax H3 Image Edit transforms and combines up to 16 reference images using text instructions, supporting targeted edits, style changes, and multi-image composition.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-10",
+  "_generated": {
+    "name": "617512e4",
+    "description": "1578ba7b",
+    "status": "379ac110",
+    "release_date": "e365aa16",
+    "model_type": "db8857fe",
+    "page_url": "a87e2af4",
+    "tagline": "1578ba7b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "e365aa16"
+  },
+  "last_updated": "2026-11-11"
+}

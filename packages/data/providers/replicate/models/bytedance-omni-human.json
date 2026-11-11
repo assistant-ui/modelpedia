@@ -1,0 +1,16 @@
+{
+  "id": "bytedance/omni-human",
+  "name": "Omni Human",
+  "created_by": "bytedance",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/bytedance/omni-human",
+  "_generated": {
+    "name": "87fbdc57",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "7e97ac6b"
+  },
+  "last_updated": "2026-11-11"
+}

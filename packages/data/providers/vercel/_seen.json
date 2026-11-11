@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "count": 440,
+  "date": "2026-11-11",
+  "count": 444,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -20,6 +20,7 @@
     "alibaba-qwen3.5-flash",
     "alibaba-qwen3.5-plus",
     "alibaba-qwen3.6-27b",
+    "alibaba-qwen3.6-35b-a3b",
     "alibaba-qwen3.6-plus",
     "alibaba-qwen3.7-flash",
     "alibaba-qwen3.7-max",
@@ -164,6 +165,7 @@
     "google-gemini-3.8-live",
     "google-gemini-3.8-live-extended-thinking",
     "google-gemini-4-argon",
+    "google-gemini-4-carbon",
     "google-gemini-embedding-001",
     "google-gemini-embedding-2",
     "google-gemini-nano-banana-2.1",
@@ -228,6 +230,8 @@
     "microsoft-mai-voice-2.1-flash",
     "microsoft-microsoft-decision-1",
     "minimax-minimax-h3",
+    "minimax-minimax-h3-image",
+    "minimax-minimax-h3-image-highspeed",
     "minimax-minimax-h3-max",
     "minimax-minimax-m2",
     "minimax-minimax-m2.1",

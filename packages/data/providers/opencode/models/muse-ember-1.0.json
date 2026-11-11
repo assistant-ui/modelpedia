@@ -10,13 +10,30 @@
   "pricing": {
     "input": 0.1,
     "output": 0.5,
-    "cached_input": 0.004
+    "cached_input": 0.004,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 200K tokens",
+            "values": [0.1, 0.5, 0.004, null]
+          },
+          {
+            "label": "> 200K tokens",
+            "values": [0.3, 1.5, 0.012, null]
+          }
+        ]
+      }
+    ]
   },
   "_generated": {
     "name": "1e786f57",
     "status": "379ac110",
     "capabilities": "0fa77dc6",
-    "pricing": "041bd4a8"
+    "pricing": "cb38a9fe"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-11"
 }

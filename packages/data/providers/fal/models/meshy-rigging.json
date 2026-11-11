@@ -1,0 +1,24 @@
+{
+  "id": "meshy/rigging",
+  "name": "Meshy Rigging",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Rig humanoid 3D models from GLB URLs with Meshy, returning rigged GLB/FBX files plus basic animations.",
+  "status": "active",
+  "release_date": "2026-11-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/rigging",
+  "tagline": "Rig humanoid 3D models from GLB URLs with Meshy, returning rigged GLB/FBX files plus basic animations.",
+  "last_seen_at": "2026-11-10",
+  "_generated": {
+    "name": "25f8e2f8",
+    "description": "a40814da",
+    "status": "379ac110",
+    "release_date": "e365aa16",
+    "model_type": "ddb0b7bc",
+    "page_url": "9ef50647",
+    "tagline": "a40814da",
+    "last_seen_at": "e365aa16"
+  },
+  "last_updated": "2026-11-11"
+}

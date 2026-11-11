@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-HDR",
+  "name": "LTX-HDR",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX SDR to HDR by Lightricks converts standard-dynamic-range video to HDR. It returns a 10-bit HEVC BT.2020/HLG master and a sequence of 16-bit OpenEXR frames in ACEScg, ACEScct, linear sRGB or ACES2065-1 for grading.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX SDR to HDR by Lightricks converts standard-dynamic-range video to HDR.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["from $0.20 / second"],
+  "_generated": {
+    "name": "020aea59",
+    "description": "d9b48314",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "0a408a73",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "df7be9a6"
+  },
+  "last_updated": "2026-11-11"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "kt/midm-k-3.0-pro",
+  "name": "KT: Mi:dm K 3.0 Pro",
+  "created_by": "kt",
+  "source": "official",
+  "description": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters.",
+  "release_date": "2026-11-05",
+  "context_window": 261795,
+  "max_output_tokens": 235615,
+  "tagline": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters.",
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.8,
+    "cached_input": 0.04
+  },
+  "_generated": {
+    "name": "84684cbc",
+    "description": "3e7a30c8",
+    "release_date": "0a938750",
+    "context_window": "ca1fe6a0",
+    "max_output_tokens": "7cf8d88d",
+    "tagline": "3e7a30c8",
+    "capabilities": "d53412cf",
+    "modalities": "68e53d93",
+    "pricing": "010ffb9e"
+  },
+  "last_updated": "2026-11-11"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "baidu/ernie-light-dt-1.0-intl",
+  "name": "Baidu: ERNIE-Light-DT-1.0",
+  "created_by": "baidu",
+  "source": "official",
+  "description": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model.",
+  "release_date": "2026-11-10",
+  "context_window": 1024000,
+  "max_output_tokens": 131072,
+  "tagline": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.13,
+    "output": 3.94,
+    "cached_input": 0.113
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c020cce8",
+    "description": "bd23a53a",
+    "release_date": "e365aa16",
+    "context_window": "7695f674",
+    "max_output_tokens": "f7de594e",
+    "tagline": "bd23a53a",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "53bfb67c",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "lightricks/ltx-2.5/reframe",
+  "name": "LTX 2.5 Reframe",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX 2.5 Reframe adapts existing video to a new aspect ratio by generating missing frame content.",
+  "status": "active",
+  "release_date": "2026-11-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/lightricks/ltx-2.5/reframe",
+  "tagline": "LTX 2.5 Reframe adapts existing video to a new aspect ratio by generating missing frame content.",
+  "last_seen_at": "2026-11-10",
+  "_generated": {
+    "name": "e791d4ed",
+    "description": "14e8c969",
+    "status": "379ac110",
+    "release_date": "e365aa16",
+    "model_type": "ddb0b7bc",
+    "page_url": "5cf9e969",
+    "tagline": "14e8c969",
+    "last_seen_at": "e365aa16"
+  },
+  "last_updated": "2026-11-11"
+}

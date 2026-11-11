@@ -1,0 +1,23 @@
+{
+  "id": "minimax/video-01",
+  "name": "Video 01",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/minimax/video-01",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "81679011",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "18df02e4",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-11-11"
+}

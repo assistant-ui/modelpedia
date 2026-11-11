@@ -1,0 +1,24 @@
+{
+  "id": "minimax/minimax-h3-image-highspeed",
+  "name": "minimax-h3-image-highspeed",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 2.3,
+    "output": 7.6
+  },
+  "_generated": {
+    "name": "60ce755f",
+    "family": "c85916f0",
+    "model_type": "db8857fe",
+    "capabilities": "8a3b232e",
+    "pricing": "58ff6af6"
+  },
+  "last_updated": "2026-11-11"
+}
