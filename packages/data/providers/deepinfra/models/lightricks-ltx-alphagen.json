@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-AlphaGen",
+  "name": "LTX-AlphaGen",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX AlphaGen by Lightricks separates a video's foreground from its background. It returns a grayscale alpha matte and the input with that matte as its alpha channel, as a ProRes 4444 file ready to composite, with fine edge detail and partial transparency up to 4K.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX AlphaGen by Lightricks separates a video's foreground from its background.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["from $0.25 / second"],
+  "_generated": {
+    "name": "d35406ff",
+    "description": "7639c5c0",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "45ed8f64",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "d663d929"
+  },
+  "last_updated": "2026-11-11"
+}

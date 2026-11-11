@@ -1,0 +1,23 @@
+{
+  "id": "black-forest-labs/flux-2-dev",
+  "name": "Flux 2 Dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/black-forest-labs/flux-2-dev",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "20586af8",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "f240de44",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-11"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-4-carbon:batch",
+  "name": "Google: Gemini 4 Carbon (batch)",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work.",
+  "release_date": "2026-11-10",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "71eabc06",
+    "family": "bd0f233d",
+    "description": "ebf10680",
+    "release_date": "e365aa16",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "ebf10680",
+    "capabilities": "03fbefb4",
+    "modalities": "b7a3ac68",
+    "pricing": "fc8a7941",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-11"
+}

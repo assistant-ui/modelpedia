@@ -13,7 +13,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "pricing_notes": ["$0.17 / second"],
+  "pricing_notes": ["from $0.12 / second"],
   "_generated": {
     "name": "13333d6d",
     "description": "db3a6e9f",
@@ -23,7 +23,7 @@
     "tagline": "e51ee483",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "pricing_notes": "3a9492db"
+    "pricing_notes": "0413ae55"
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-11"
 }

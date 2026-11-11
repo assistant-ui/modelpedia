@@ -1,0 +1,29 @@
+{
+  "id": "Lightricks/LTX-Reframe",
+  "name": "LTX-Reframe",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX Reframe by Lightricks changes a video's aspect ratio without cropping. It keeps the whole source and generates matching content around it, for square, 4:5, 5:4, 9:16 or 16:9 output at 720p or 1080p.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "LTX Reframe by Lightricks changes a video's aspect ratio without cropping.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["from $0.10 / second"],
+  "_generated": {
+    "name": "988467cf",
+    "description": "86f6d74f",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "62dd5bc3",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "5f0e33a5"
+  },
+  "last_updated": "2026-11-11"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minimax/speech-2.8-hd",
+  "name": "Speech 2.8 Hd",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/minimax/speech-2.8-hd",
+  "_generated": {
+    "name": "fee79f81",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "f566184b"
+  },
+  "last_updated": "2026-11-11"
+}

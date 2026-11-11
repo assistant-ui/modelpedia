@@ -1,0 +1,40 @@
+{
+  "id": "baidu/ernie-5.5-flash-preview",
+  "name": "Baidu: ERNIE-5.5-Flash-Preview",
+  "created_by": "baidu",
+  "source": "official",
+  "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research.",
+  "release_date": "2026-11-10",
+  "context_window": 1024000,
+  "max_output_tokens": 921600,
+  "tagline": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.28,
+    "output": 1.13,
+    "cached_input": 0.028
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f9e9ed63",
+    "description": "f259667c",
+    "release_date": "e365aa16",
+    "context_window": "7695f674",
+    "max_output_tokens": "f5e5a652",
+    "tagline": "f259667c",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "464ea916",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-11"
+}

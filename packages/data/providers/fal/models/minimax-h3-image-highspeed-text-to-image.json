@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-image/highspeed/text-to-image",
+  "name": "MiniMax H3 Image Highspeed Text to Image",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "MiniMax H3 Image Highspeed generates detailed images from text prompts using the Highspeed variant of MiniMax H3 Image.",
+  "status": "active",
+  "release_date": "2026-11-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/minimax/h3-image/highspeed/text-to-image",
+  "tagline": "MiniMax H3 Image Highspeed generates detailed images from text prompts using the Highspeed variant of MiniMax H3 Image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-10",
+  "_generated": {
+    "name": "30bf08f5",
+    "description": "66e00ae8",
+    "status": "379ac110",
+    "release_date": "e365aa16",
+    "model_type": "db8857fe",
+    "page_url": "55c244b2",
+    "tagline": "66e00ae8",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "e365aa16"
+  },
+  "last_updated": "2026-11-11"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minimax/speech-2.8-turbo",
+  "name": "Speech 2.8 Turbo",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/minimax/speech-2.8-turbo",
+  "_generated": {
+    "name": "bd160e8c",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "87ba30e8"
+  },
+  "last_updated": "2026-11-11"
+}

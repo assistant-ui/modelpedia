@@ -3,14 +3,14 @@
   "name": "V3",
   "created_by": "elevenlabs",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/elevenlabs/v3",
   "_generated": {
     "name": "7f261218",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "629d5ca5"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-11-11"
 }

@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/meshy/v7.1/text-to-3d",
   "tagline": "Meshy 7.1 generates 3D models from text prompts, with untextured preview and textured full modes, standard, low-poly, and Smart Topology options, and geometry resolution up to 4K.",
-  "last_seen_at": "2026-11-07",
+  "last_seen_at": "2026-11-11",
   "_generated": {
     "name": "c4b931f9",
     "description": "8aecd734",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "93922eed",
     "tagline": "eab16a59",
-    "last_seen_at": "6a77d29e"
+    "last_seen_at": "7914a035"
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-11"
 }

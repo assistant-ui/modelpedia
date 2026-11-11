@@ -1,0 +1,16 @@
+{
+  "id": "datalab-to/ocr",
+  "name": "Ocr",
+  "created_by": "datalab-to",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/datalab-to/ocr",
+  "_generated": {
+    "name": "74c0287d",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "cec47510"
+  },
+  "last_updated": "2026-11-11"
+}

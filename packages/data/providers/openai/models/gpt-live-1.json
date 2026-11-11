@@ -1,9 +1,9 @@
 {
   "id": "gpt-live-1",
-  "name": "GPT-Live 1",
+  "name": "GPT-Live-1",
   "created_by": "openai",
   "source": "official",
-  "description": "GPT-Live 1 is a full-duplex voice model for real-time conversations. It can listen and speak at the same time, and delegate reasoning and tool use to a backend agent.",
+  "description": "GPT-Live-1 is a full-duplex voice model for real-time conversations. It can listen and speak at the same time, and delegate reasoning and tool use to a backend agent.",
   "status": "active",
   "license": "proprietary",
   "tagline": "Our premier model for natural, expressive voice conversations with smooth interruption handling.",
@@ -15,8 +15,8 @@
   ],
   "snapshots": ["gpt-live-1"],
   "_generated": {
-    "name": "874e4644",
-    "description": "f46dd1b6",
+    "name": "1db543a6",
+    "description": "dbe422cb",
     "status": "379ac110",
     "license": "9186c466",
     "tagline": "402c738c",
@@ -30,7 +30,7 @@
     "tools": "f0c1dc7e",
     "endpoints": "7468d746"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-11-11",
   "knowledge_cutoff": "2025-07",
   "capabilities": {
     "streaming": true,

@@ -1,0 +1,24 @@
+{
+  "id": "lightricks/ltx-2.5/hdr",
+  "name": "LTX 2.5 SDR to HDR",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX 2.5 SDR to HDR converts existing SDR video for HDR finishing workflows.",
+  "status": "active",
+  "release_date": "2026-11-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/lightricks/ltx-2.5/hdr",
+  "tagline": "LTX 2.5 SDR to HDR converts existing SDR video for HDR finishing workflows.",
+  "last_seen_at": "2026-11-10",
+  "_generated": {
+    "name": "6e9821ab",
+    "description": "c05e4dbb",
+    "status": "379ac110",
+    "release_date": "e365aa16",
+    "model_type": "ddb0b7bc",
+    "page_url": "5b6bd7cd",
+    "tagline": "c05e4dbb",
+    "last_seen_at": "e365aa16"
+  },
+  "last_updated": "2026-11-11"
+}
