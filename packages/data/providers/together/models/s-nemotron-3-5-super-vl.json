@@ -1,0 +1,30 @@
+{
+  "id": "s/nemotron-3-5-super-vl",
+  "name": "Nemotron 3 5 Super Vl",
+  "created_by": "nvidia",
+  "source": "official",
+  "context_window": 256000,
+  "page_url": "https://www.together.ai/models/nemotron-3-5-super-vl",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "45a5f50e",
+    "context_window": "2fd324cb",
+    "page_url": "991e0c36",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "74943107",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-12"
+}

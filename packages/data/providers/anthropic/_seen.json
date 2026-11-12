@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "count": 23,
+  "date": "2026-11-12",
+  "count": 24,
   "ids": [
     "claude-fable-5",
     "claude-fable-5-1",
@@ -22,6 +22,7 @@
     "claude-opus-5-5",
     "claude-sonnet-4-0",
     "claude-sonnet-4-5",
+    "claude-sonnet-4-5-20250929",
     "claude-sonnet-4-6",
     "claude-sonnet-5",
     "claude-sonnet-5-5"

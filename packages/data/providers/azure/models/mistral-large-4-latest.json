@@ -1,0 +1,28 @@
+{
+  "id": "mistral-large-4-latest",
+  "name": "mistral-large-4-latest Preview",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-large",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d468129a",
+    "family": "70f9d51d",
+    "model_type": "d669f408",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-12"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pixverse/v6/max/image-to-video",
+  "name": "PixVerse V6 Max Image To Video",
+  "created_by": "pixverse",
+  "source": "official",
+  "description": "Generate videos from images with PixVerse V6 Max, with optional audio and multi-clip generation.",
+  "status": "active",
+  "release_date": "2026-10-20",
+  "model_type": "video",
+  "page_url": "https://fal.run/pixverse/v6/max/image-to-video",
+  "tagline": "Generate videos from images with PixVerse V6 Max, with optional audio and multi-clip generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-11-11",
+  "_generated": {
+    "name": "6b73d0db",
+    "description": "60711030",
+    "status": "379ac110",
+    "release_date": "d322d85c",
+    "model_type": "4d1b75ca",
+    "page_url": "e004ce55",
+    "tagline": "60711030",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "7914a035"
+  },
+  "last_updated": "2026-11-12"
+}

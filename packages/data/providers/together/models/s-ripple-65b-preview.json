@@ -1,0 +1,25 @@
+{
+  "id": "s/ripple-65b-preview",
+  "name": "Ripple 65b Preview",
+  "created_by": "unknown",
+  "source": "official",
+  "context_window": 128000,
+  "parameters": 65,
+  "page_url": "https://www.together.ai/models/ripple-65b-preview",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "badabf61",
+    "context_window": "34434798",
+    "parameters": "fc490ca4",
+    "page_url": "da18470e",
+    "capabilities": "0fa77dc6",
+    "pricing": "89c4ba7e"
+  },
+  "last_updated": "2026-11-12"
+}

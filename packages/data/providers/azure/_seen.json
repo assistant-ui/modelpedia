@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "count": 135,
+  "date": "2026-11-12",
+  "count": 136,
   "ids": [
     "codex-mini",
     "cohere-command-a",
@@ -116,6 +116,7 @@
     "mistral-document-ai",
     "mistral-document-ai-2512",
     "mistral-large-3",
+    "mistral-large-4-latest",
     "mistral-medium-3-5",
     "mistral-ocr-4-0",
     "muse-glimmer-30b",

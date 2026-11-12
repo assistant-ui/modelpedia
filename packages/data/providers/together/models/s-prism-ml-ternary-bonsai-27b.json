@@ -19,7 +19,9 @@
     "parameters": "02e74f10",
     "page_url": "de958450",
     "capabilities": "0fa77dc6",
-    "pricing": "9827eff5"
+    "pricing": "9827eff5",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-17"
+  "last_updated": "2026-11-12",
+  "status": "deprecated"
 }

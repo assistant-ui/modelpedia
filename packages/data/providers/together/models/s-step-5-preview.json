@@ -1,0 +1,21 @@
+{
+  "id": "s/step-5-preview",
+  "name": "Step 5 Preview",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/step-5-preview",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "44adf2d0",
+    "page_url": "37ff0aba",
+    "capabilities": "0fa77dc6",
+    "pricing": "d6e0ad87"
+  },
+  "last_updated": "2026-11-12"
+}

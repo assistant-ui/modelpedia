@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-11-12",
   "family": "claude-opus",
   "status": "active",
   "knowledge_cutoff": "2025-05",
@@ -62,7 +62,7 @@
     "page_url": "aed07289",
     "release_date": "4d88f8bb",
     "thinking_modes": "3f7ae0d0",
-    "bedrock_id": "548347f8",
+    "bedrock_id": "ed807f2c",
     "vertex_id": "a96e921a",
     "retirement_date": "bec6282f"
   },
@@ -72,7 +72,7 @@
   "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5-20251101",
   "release_date": "2025-11-24",
   "thinking_modes": ["extended"],
-  "bedrock_id": "anthropic.claude-opus-4-5-20251101-v1:0",
+  "bedrock_id": "global.anthropic.claude-opus-4-5-20251101-v1:0",
   "vertex_id": "claude-opus-4-5@20251101",
   "retirement_date": "2026-11-24"
 }
