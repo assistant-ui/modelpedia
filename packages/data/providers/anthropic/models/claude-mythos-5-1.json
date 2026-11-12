@@ -11,7 +11,10 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "batch": true
+    "batch": true,
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -27,7 +30,7 @@
     "batch_output": 25
   },
   "open_weight": false,
-  "tools": ["function_calling"],
+  "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
   "_generated": {
     "name": "5c6b6e9c",
@@ -35,14 +38,36 @@
     "license": "9186c466",
     "page_url": "6be96552",
     "model_type": "d669f408",
-    "capabilities": "29417d42",
+    "capabilities": "174773ec",
     "modalities": "6399757e",
     "pricing": "03b4e290",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
+    "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "retirement_date": "54283ec7"
+    "retirement_date": "54283ec7",
+    "status": "379ac110",
+    "release_date": "8045414c",
+    "knowledge_cutoff": "cb890cbe",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "training_data_cutoff": "cb890cbe",
+    "thinking_modes": "a8582e89",
+    "bedrock_id": "447640ed",
+    "priority_tier": "b326b506"
   },
-  "last_updated": "2026-09-19",
-  "retirement_date": "2027-09-01"
+  "last_updated": "2026-11-12",
+  "retirement_date": "2027-09-01",
+  "status": "active",
+  "release_date": "2026-09-01",
+  "knowledge_cutoff": "2026-06",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "performance": 5,
+  "reasoning": 5,
+  "training_data_cutoff": "2026-06",
+  "thinking_modes": ["adaptive"],
+  "bedrock_id": "anthropic.claude-mythos-5-1",
+  "priority_tier": true
 }

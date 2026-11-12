@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "count": 1470,
   "ids": [
     "alibaba-abot-world-0",
@@ -171,8 +171,6 @@
     "fal-ai-bytedance-seedance-v1-pro-fast-text-to-video",
     "fal-ai-bytedance-seedance-v1-pro-image-to-video",
     "fal-ai-bytedance-seedance-v1-pro-text-to-video",
-    "fal-ai-bytedance-seedance-v1.5-pro-image-to-video",
-    "fal-ai-bytedance-seedance-v1.5-pro-text-to-video",
     "fal-ai-bytedance-seedream-v4-edit",
     "fal-ai-bytedance-seedream-v4-text-to-image",
     "fal-ai-bytedance-seedream-v4.5-edit",
@@ -1376,6 +1374,8 @@
     "pixelcut-product-photo",
     "pixelcut-video-background-removal",
     "pixverse-music-video-vibemv",
+    "pixverse-v6-max-image-to-video",
+    "pixverse-v6-max-text-to-video",
     "recraft-v4-create-style",
     "recraft-v4-pro-create-style",
     "recraft-v4-style-pro-text-to-image",

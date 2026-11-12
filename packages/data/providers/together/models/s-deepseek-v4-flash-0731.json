@@ -24,7 +24,9 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "9583dd8b",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-11-12",
+  "status": "deprecated"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "count": 128,
+  "date": "2026-11-12",
+  "count": 127,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -65,7 +65,6 @@
     "itsukifujii-kalm-embedding-multilingual-mini-instruct-v2-5",
     "kiendt04-haan24-flux-lora",
     "kwaivgi-kling-lip-sync",
-    "kwaivgi-kling-v3-motion-control",
     "kwaivgi-kling-v3-omni-video",
     "kwaivgi-kling-v3-video",
     "kwaivgi-kling-v4-flash",
@@ -101,9 +100,9 @@
     "piddnad-ddcolor",
     "prunaai-hunyuan3d-2",
     "prunaai-p-image",
-    "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video-2-pro-reference",
+    "prunaai-p-video-upscale",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-creative-upscale",
     "recraft-ai-recraft-crisp-upscale",

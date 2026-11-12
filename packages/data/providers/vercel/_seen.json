@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "count": 444,
+  "date": "2026-11-12",
+  "count": 442,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -80,8 +80,6 @@
     "bfl-flux-pro-1.1-ultra",
     "browserbase-fetch",
     "browserbase-search",
-    "bytedance-seed-1.6",
-    "bytedance-seed-1.8",
     "bytedance-seed-2.1-turbo",
     "bytedance-seedance-2.0",
     "bytedance-seedance-2.0-fast",
@@ -89,7 +87,6 @@
     "bytedance-seedance-2.5",
     "bytedance-seedance-v1.0-pro",
     "bytedance-seedance-v1.0-pro-fast",
-    "bytedance-seedance-v1.5-pro",
     "bytedance-seedream-4.0",
     "bytedance-seedream-4.5",
     "bytedance-seedream-5.0-lite",
@@ -166,6 +163,7 @@
     "google-gemini-3.8-live-extended-thinking",
     "google-gemini-4-argon",
     "google-gemini-4-carbon",
+    "google-gemini-decision-1",
     "google-gemini-embedding-001",
     "google-gemini-embedding-2",
     "google-gemini-nano-banana-2.1",

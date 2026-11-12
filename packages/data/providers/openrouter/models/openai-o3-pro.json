@@ -3,7 +3,7 @@
   "name": "OpenAI: o3 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-11-12",
   "family": "o3",
   "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
   "context_window": 200000,
@@ -34,10 +34,14 @@
     "model_type": "17475f7f",
     "release_date": "298b4e52",
     "tagline": "11f45bd4",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "d0164be5"
   },
   "model_type": "reasoning",
   "release_date": "2025-06-10",
   "tagline": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-12-11"
 }

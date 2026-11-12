@@ -39,8 +39,10 @@
     "modalities": "6399757e",
     "pricing": "247fe8d8",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "2e2f74dc",
+    "deprecation_date": "d0164be5"
   },
-  "last_updated": "2026-08-02",
-  "status": "deprecated"
+  "last_updated": "2026-11-12",
+  "status": "deprecated",
+  "deprecation_date": "2026-12-11"
 }

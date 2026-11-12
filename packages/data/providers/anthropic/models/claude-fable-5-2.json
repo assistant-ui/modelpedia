@@ -45,7 +45,7 @@
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
   "thinking_modes": ["adaptive"],
-  "bedrock_id": "anthropic.claude-fable-5-2",
+  "bedrock_id": "global.anthropic.claude-fable-5-2",
   "priority_tier": true,
   "fast_mode_pricing": {
     "input": 16,
@@ -76,9 +76,9 @@
     "tools": "abde16bc",
     "endpoints": "94bb8b7a",
     "thinking_modes": "a8582e89",
-    "bedrock_id": "858a2b0e",
+    "bedrock_id": "ed6ac08d",
     "priority_tier": "b326b506",
     "fast_mode_pricing": "cf422e9d"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-12"
 }

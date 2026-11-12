@@ -13,11 +13,13 @@
     "page_url": "d3fe55f4",
     "model_type": "4d1b75ca",
     "capabilities": "0fa77dc6",
-    "pricing": "e3331ba8"
+    "pricing": "e3331ba8",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "pricing": {
     "input": 0.1326,
     "output": 0.16
-  }
+  },
+  "status": "deprecated"
 }

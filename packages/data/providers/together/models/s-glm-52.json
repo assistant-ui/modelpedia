@@ -25,8 +25,10 @@
     "capabilities": "0fa77dc6",
     "pricing": "ef5dd26e",
     "modalities": "68e53d93",
-    "context_window": "2fd324cb"
+    "context_window": "2fd324cb",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31",
-  "context_window": 256000
+  "last_updated": "2026-11-12",
+  "context_window": 256000,
+  "status": "deprecated"
 }
