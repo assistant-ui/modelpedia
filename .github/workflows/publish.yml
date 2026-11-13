@@ -1,5 +1,9 @@
 name: Publish
 
+# Publishes the modelpedia package (packages/npm) through npm trusted
+# publishing (OIDC): npm trusts this workflow file, so no npm token exists.
+# Bump the version in packages/npm/package.json, merge, then push the tag
+# v<version>. A version already on npm is skipped.
 on:
   push:
     tags:
@@ -9,11 +13,24 @@ permissions:
   contents: write
   id-token: write
 
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Publish only what is merged: the tagged commit must be on main.
+      - run: |
+          if ! git merge-base --is-ancestor HEAD origin/main; then
+            echo "::error::$GITHUB_REF_NAME ($GITHUB_SHA) is not on main; merge the release first"
+            exit 1
+          fi
 
       - uses: oven-sh/setup-bun@v2
         with:
@@ -25,18 +42,49 @@ jobs:
         with:
           node-version: 26.13.0
           cache: pnpm
-          registry-url: https://registry.npmjs.org
+
+      # Trusted publishing needs npm 11.5 or newer.
+      - run: |
+          npm --version
+          node -e 'const [a,b]=process.argv[1].split(".").map(Number); if (a<11||(a===11&&b<5)) process.exit(1)' "$(npm --version)" || npm i -g npm@latest
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
 
+      - id: version
+        working-directory: packages/npm
+        run: |
+          version=$(node -p 'require("./package.json").version')
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          if [ "$GITHUB_REF_NAME" != "v$version" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match v$version"
+            exit 1
+          fi
+          if out=$(npm view "modelpedia@$version" version 2>&1); then
+            if [ "$out" != "$version" ]; then
+              echo "::error::Unexpected npm view output: $out"
+              exit 1
+            fi
+            echo "::notice::modelpedia@$version is already on npm; skipping"
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          elif grep -q E404 <<< "$out"; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "$out"
+            exit 1
+          fi
+
+      # pnpm pack resolves catalog: and workspace: ranges; npm publishes the
+      # tarball through OIDC.
       - name: Publish to npm
-        working-directory: packages/data
-        run: pnpm publish --no-git-checks --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        if: steps.version.outputs.publish == 'true'
+        working-directory: packages/npm
+        run: |
+          pnpm pack --out modelpedia.tgz
+          npm publish ./modelpedia.tgz --provenance --access public
 
       - name: Create GitHub Release
+        if: steps.version.outputs.publish == 'true'
         run: gh release create "${{ github.ref_name }}" --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}
