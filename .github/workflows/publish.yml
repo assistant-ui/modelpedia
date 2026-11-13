@@ -83,8 +83,14 @@ jobs:
           pnpm pack --out modelpedia.tgz
           npm publish ./modelpedia.tgz --provenance --access public
 
+      # Runs even when npm already has the version, so a rerun after a failed
+      # release step still creates the release.
       - name: Create GitHub Release
-        if: steps.version.outputs.publish == 'true'
-        run: gh release create "${{ github.ref_name }}" --generate-notes
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            echo "::notice::Release $GITHUB_REF_NAME already exists"
+          else
+            gh release create "$GITHUB_REF_NAME" --generate-notes
+          fi
         env:
           GH_TOKEN: ${{ github.token }}
