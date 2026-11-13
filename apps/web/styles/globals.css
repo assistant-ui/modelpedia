@@ -75,6 +75,16 @@ a,
   border-radius: 2px;
 }
 
+/* Firefox has no ::-webkit-scrollbar. Chrome 121+ ignores the rules above
+   once scrollbar-width or scrollbar-color is set, so scope these to browsers
+   without the pseudo-element to keep the 5px bar in Chrome and Safari. */
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+}
+
 /* ── Sortable table ── */
 
 [data-sort] {
