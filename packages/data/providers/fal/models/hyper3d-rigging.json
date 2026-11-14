@@ -1,0 +1,24 @@
+{
+  "id": "hyper3d/rigging",
+  "name": "Hyper3D Rigging",
+  "created_by": "hyper3d",
+  "source": "official",
+  "description": "Hyper3D Rigging automatically rigs existing 3D models with a skeleton for animation.",
+  "status": "active",
+  "release_date": "2026-11-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/hyper3d/rigging",
+  "tagline": "Hyper3D Rigging automatically rigs existing 3D models with a skeleton for animation.",
+  "last_seen_at": "2026-11-14",
+  "_generated": {
+    "name": "2be7746b",
+    "description": "752e5b11",
+    "status": "379ac110",
+    "release_date": "7914a035",
+    "model_type": "ddb0b7bc",
+    "page_url": "272ff493",
+    "tagline": "752e5b11",
+    "last_seen_at": "2a189e02"
+  },
+  "last_updated": "2026-11-14"
+}

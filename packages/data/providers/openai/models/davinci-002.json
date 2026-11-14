@@ -3,9 +3,9 @@
   "name": "davinci-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-14",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2021-09",
   "max_output_tokens": 16384,
   "model_type": "chat",
@@ -49,7 +49,7 @@
   "_generated": {
     "name": "b6a39e85",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b61a1a89",
     "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
@@ -63,14 +63,10 @@
     "license": "9186c466",
     "page_url": "2bdb5292",
     "open_weight": "68934a3e",
-    "deprecation_date": "9503bf58",
-    "retirement_date": "1ec3c8a2",
-    "successor": "d5215155"
+    "retirement_date": "1ec3c8a2"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/davinci-002",
   "open_weight": false,
-  "deprecation_date": "2025-09-26",
-  "retirement_date": "2026-09-28",
-  "successor": "gpt-5.6-terra"
+  "retirement_date": "2026-09-28"
 }

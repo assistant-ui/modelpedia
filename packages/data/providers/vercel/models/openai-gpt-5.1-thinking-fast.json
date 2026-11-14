@@ -1,0 +1,35 @@
+{
+  "id": "openai/gpt-5.1-thinking-fast",
+  "name": "gpt-5.1-thinking-fast",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.1",
+  "context_window": 400000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 20
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c2cbf850",
+    "family": "2089aff2",
+    "context_window": "2a3a2d28",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "d4b74d11",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-14"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-4-hydrogen:batch",
+  "name": "Google: Gemini 4 Hydrogen (batch)",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
+  "release_date": "2026-11-12",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.038
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "97c5503a",
+    "family": "bd0f233d",
+    "description": "04984f05",
+    "release_date": "444e0990",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "04984f05",
+    "capabilities": "03fbefb4",
+    "modalities": "b7a3ac68",
+    "pricing": "dc9845c7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-14"
+}

@@ -1,10 +1,10 @@
 {
   "id": "gpt-6-cyber",
-  "name": "GPT-6-Cyber",
+  "name": "GPT-6 Cyber",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-6",
-  "description": "Your organization needs Daybreak Red access and approval to use GPT-6-Cyber. Your account team can confirm access. The standard rate limits below apply to approved organizations and may differ if your organization has custom limits.",
+  "description": "Your organization needs Daybreak Red access and approval to use GPT-6 Cyber. Your account team can confirm access. The standard rate limits below apply to approved organizations and may differ if your organization has custom limits.",
   "status": "active",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -65,9 +65,9 @@
   "endpoints": ["chat_completions", "responses"],
   "snapshots": ["gpt-6-cyber"],
   "_generated": {
-    "name": "44eec477",
+    "name": "b5a71627",
     "family": "16342494",
-    "description": "091c4a20",
+    "description": "fcd58033",
     "status": "379ac110",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -87,5 +87,5 @@
     "tools": "44af6f15",
     "endpoints": "72e91ba7"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-14"
 }

@@ -26,10 +26,10 @@
     "capabilities": "bcb7869e",
     "modalities": "94e5e9ab",
     "open_weight": "68934a3e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "pricing_notes": "779499a4"
   },
-  "last_updated": "2026-07-31",
-  "status": "active",
+  "last_updated": "2026-11-14",
+  "status": "deprecated",
   "pricing_notes": ["$0.080 / sec."]
 }

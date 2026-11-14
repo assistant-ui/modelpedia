@@ -1,0 +1,22 @@
+{
+  "id": "@cf/google/embeddinggemma-2",
+  "name": "embeddinggemma-2",
+  "created_by": "google",
+  "source": "official",
+  "family": "embed",
+  "status": "active",
+  "model_type": "embed",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#embeddinggemma-2",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "63549a23",
+    "family": "764cb3de",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "page_url": "a4da8365",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-14"
+}

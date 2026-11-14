@@ -1,0 +1,50 @@
+{
+  "id": "thinkingmachines/Inkling-2-Small",
+  "name": "Inkling-2-Small",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "description": "Inkling 2 Small is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Inkling 2 Small is a general-purpose multimodal model that accepts text and image inputs and generates text outputs.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "c3c2ef86",
+    "description": "9f537004",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "7c879c85",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "3db3c527",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-11-14"
+}

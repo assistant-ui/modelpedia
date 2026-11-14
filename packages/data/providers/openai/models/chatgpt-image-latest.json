@@ -3,10 +3,10 @@
   "name": "chatgpt-image-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-14",
   "family": "chatgpt",
   "description": "Status: Deprecated",
-  "status": "deprecated",
+  "status": "active",
   "model_type": "image",
   "performance": 5,
   "speed": 3,
@@ -79,7 +79,7 @@
     "name": "aecf32bc",
     "family": "65aec523",
     "description": "5344a855",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "model_type": "db8857fe",
     "performance": "e4da3b7f",
     "speed": "eccbc87e",
@@ -91,9 +91,7 @@
     "page_url": "50159502",
     "open_weight": "68934a3e",
     "capabilities": "ec32b5a4",
-    "deprecation_date": "61fd683f",
-    "retirement_date": "a96180df",
-    "successor": "dd338b61"
+    "retirement_date": "a96180df"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/chatgpt-image-latest",
@@ -108,7 +106,5 @@
     "reasoning": false,
     "batch": true
   },
-  "deprecation_date": "2026-06-02",
-  "retirement_date": "2026-12-01",
-  "successor": "gpt-image-2.6-sunburst"
+  "retirement_date": "2026-12-01"
 }

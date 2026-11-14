@@ -3,10 +3,10 @@
   "name": "GPT-4o Realtime",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-14",
   "family": "gpt-4o",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2023-10",
   "context_window": 32000,
   "max_output_tokens": 4096,
@@ -65,7 +65,7 @@
     "name": "c9f34e94",
     "family": "15249632",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "10e4d788",
     "max_output_tokens": "f7efa4f8",
@@ -82,9 +82,7 @@
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "4a83ff32",
-    "deprecation_date": "792c58a8",
-    "retirement_date": "d465a48a",
-    "successor": "ba790d92"
+    "retirement_date": "d465a48a"
   },
   "model_type": "audio",
   "license": "proprietary",
@@ -92,7 +90,5 @@
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2024-12-17",
-  "deprecation_date": "2025-09-15",
-  "retirement_date": "2026-05-07",
-  "successor": "gpt-realtime-1.5"
+  "retirement_date": "2026-05-07"
 }

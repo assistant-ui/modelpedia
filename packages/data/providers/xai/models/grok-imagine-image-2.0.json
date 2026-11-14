@@ -4,7 +4,7 @@
   "created_by": "xai",
   "source": "official",
   "family": "grok-imagine",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "license": "proprietary",
   "page_url": "https://docs.x.ai/developers/models",
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "5a1ca807",
     "family": "a4576b5e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "license": "9186c466",
     "page_url": "053acbe7",
@@ -25,5 +25,5 @@
     "open_weight": "68934a3e",
     "pricing_notes": "2a325362"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-11-14"
 }

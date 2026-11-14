@@ -1,8 +1,7 @@
 {
-  "date": "2026-11-12",
-  "count": 129,
+  "date": "2026-11-14",
+  "count": 127,
   "ids": [
-    "aisingapore-gemma-sea-lion-v3-9b-it",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
     "defog-sqlcoder-7b-2",
     "efficient-large-model-gemma-2-2b-it",
@@ -66,7 +65,6 @@
     "qwen-qwen2.5-coder-1.5b-instruct",
     "qwen-qwen2.5-coder-14b-instruct",
     "qwen-qwen2.5-coder-32b-instruct",
-    "qwen-qwen2.5-coder-3b",
     "qwen-qwen2.5-coder-3b-instruct",
     "qwen-qwen2.5-coder-7b",
     "qwen-qwen2.5-coder-7b-instruct",

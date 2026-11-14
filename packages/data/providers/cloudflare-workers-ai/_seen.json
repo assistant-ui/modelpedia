@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "count": 73,
+  "date": "2026-11-14",
+  "count": 75,
   "ids": [
     "-cf-ai4bharat-indictrans2-en-indic-1b",
     "-cf-aisingapore-gemma-sea-lion-v4-27b-it",
@@ -28,6 +28,7 @@
     "-cf-deepseek-ai-deepseek-v4-flash-0731",
     "-cf-deepseek-ai-deepseek-v4-pro-0813",
     "-cf-deepseek-ai-deepseek-v4.1-flash-1017",
+    "-cf-google-embeddinggemma-2",
     "-cf-google-embeddinggemma-300m",
     "-cf-google-gemma-2b-it-lora",
     "-cf-google-gemma-4-26b-a4b-it",
@@ -70,6 +71,7 @@
     "-cf-runwayml-stable-diffusion-v1-5-inpainting",
     "-cf-stabilityai-stable-diffusion-xl-base-1.0",
     "-cf-swiss-ai-apertus-v1.5-8b",
+    "-cf-thinkingmachines-inkling-2-small",
     "-cf-utter-project-eurollm-9b-it",
     "-cf-zai-org-glm-4.7-flash",
     "-cf-zai-org-glm-5.2",

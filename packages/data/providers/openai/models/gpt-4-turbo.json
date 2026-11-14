@@ -3,9 +3,9 @@
   "name": "GPT-4 Turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "gpt-4-turbo",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2023-12",
   "context_window": 128000,
   "max_output_tokens": 4096,
@@ -30,7 +30,7 @@
   "_generated": {
     "name": "70884aa4",
     "family": "e55097d8",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "06c60023",
     "context_window": "34434798",
     "max_output_tokens": "f7efa4f8",
@@ -48,8 +48,6 @@
     "page_url": "9fe58bee",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "successor": "cadec60b",
-    "deprecation_date": "c48b287d",
     "retirement_date": "68185e3b"
   },
   "description": "Status: Shut down",
@@ -79,7 +77,5 @@
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
   "open_weight": false,
   "tools": ["function_calling"],
-  "successor": "gpt-5.6-sol",
-  "deprecation_date": "2026-04-22",
   "retirement_date": "2026-10-23"
 }

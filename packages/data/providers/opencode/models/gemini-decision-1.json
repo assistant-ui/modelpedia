@@ -1,0 +1,28 @@
+{
+  "id": "gemini-decision-1",
+  "name": "Gemini Decision 1",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f624956d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "fceb22e8",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-14"
+}

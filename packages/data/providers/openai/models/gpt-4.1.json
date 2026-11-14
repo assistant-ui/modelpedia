@@ -3,10 +3,10 @@
   "name": "GPT-4.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "gpt-4.1",
   "description": "Status: Deprecated",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
   "max_output_tokens": 32768,
@@ -36,17 +36,13 @@
     "batch_output": 4,
     "tiers": [
       {
-        "label": "Fine-tuning",
-        "unit": "",
-        "columns": ["Training", "Input", "Cached input", "Output"],
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [25, 3, 0.75, 12]
-          },
-          {
-            "label": "Batch",
-            "values": [25, 1.5, 0.5, 6]
+            "values": [2, 0.5, 8]
           }
         ]
       }
@@ -72,7 +68,7 @@
     "name": "1b6b5f58",
     "family": "d240daf4",
     "description": "5344a855",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
     "max_output_tokens": "f4376436",
@@ -82,22 +78,18 @@
     "tagline": "4fa85a98",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "12dcdc81",
+    "pricing": "ce78c534",
     "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "page_url": "0ff223d7",
     "open_weight": "68934a3e",
     "release_date": "85c7118a",
-    "retirement_date": "b3b7551d",
-    "deprecation_date": "b735ec37",
-    "successor": "8f1f2183"
+    "retirement_date": "b3b7551d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
   "open_weight": false,
   "release_date": "2025-04-14",
-  "retirement_date": "2027-01-14",
-  "deprecation_date": "2026-10-14",
-  "successor": "gpt-6-luna"
+  "retirement_date": "2027-01-14"
 }

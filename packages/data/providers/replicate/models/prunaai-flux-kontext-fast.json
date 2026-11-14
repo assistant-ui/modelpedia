@@ -1,0 +1,23 @@
+{
+  "id": "prunaai/flux-kontext-fast",
+  "name": "Flux Kontext Fast",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/prunaai/flux-kontext-fast",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "1aae25b4",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "2e9fa736",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-14"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "gpt-6-luna-decision",
+  "name": "GPT 6 Luna Decision",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0,
+    "cached_input": 0.01,
+    "cache_write": 0.125,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 272K tokens",
+            "values": [0.1, 0, 0.01, 0.125]
+          },
+          {
+            "label": "> 272K tokens",
+            "values": [0.2, 0, 0.02, 0.25]
+          }
+        ]
+      }
+    ]
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f9b7f785",
+    "family": "16342494",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "593c430a",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-14"
+}

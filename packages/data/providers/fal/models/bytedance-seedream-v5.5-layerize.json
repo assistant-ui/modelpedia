@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedream/v5.5/layerize",
+  "name": "Seedream 5.5 Layerize",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedream 5.5 decomposes an image into a base image and independently editable PNG layers, with layer positions, stacking order, and optional text recognition.",
+  "status": "active",
+  "release_date": "2026-11-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5.5/layerize",
+  "tagline": "Seedream 5.5 decomposes an image into a base image and independently editable PNG layers, with layer positions, stacking order, and optional text recognition.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-13",
+  "_generated": {
+    "name": "bad85edf",
+    "description": "2be7818e",
+    "status": "379ac110",
+    "release_date": "7914a035",
+    "model_type": "db8857fe",
+    "page_url": "a2f9cd51",
+    "tagline": "2be7818e",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "af40eeba"
+  },
+  "last_updated": "2026-11-14"
+}
