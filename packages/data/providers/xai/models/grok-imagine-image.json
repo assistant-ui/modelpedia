@@ -3,7 +3,7 @@
   "name": "grok-imagine-image",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-11-14",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
@@ -28,13 +28,13 @@
     "page_url": "053acbe7",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "pricing_notes": "9994083b"
   },
   "license": "proprietary",
   "page_url": "https://docs.x.ai/developers/models",
   "open_weight": false,
   "tools": ["function_calling"],
-  "status": "active",
+  "status": "deprecated",
   "pricing_notes": ["$0.02 / image."]
 }

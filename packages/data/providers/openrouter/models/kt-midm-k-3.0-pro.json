@@ -11,7 +11,8 @@
   "capabilities": {
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text"],
@@ -29,9 +30,11 @@
     "context_window": "ca1fe6a0",
     "max_output_tokens": "7cf8d88d",
     "tagline": "3e7a30c8",
-    "capabilities": "d53412cf",
+    "capabilities": "83495353",
     "modalities": "68e53d93",
-    "pricing": "010ffb9e"
+    "pricing": "010ffb9e",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-11"
+  "last_updated": "2026-11-14",
+  "tools": ["function_calling"]
 }

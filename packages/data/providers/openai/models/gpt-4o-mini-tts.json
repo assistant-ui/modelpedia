@@ -1,11 +1,11 @@
 {
   "id": "gpt-4o-mini-tts",
-  "name": "GPT-4o Mini TTS",
+  "name": "GPT-4o mini TTS",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-14",
   "family": "gpt-4o",
-  "status": "deprecated",
+  "status": "active",
   "model_type": "tts",
   "performance": 4,
   "speed": 4,
@@ -16,27 +16,25 @@
   "endpoints": ["speech_generation"],
   "snapshots": ["gpt-4o-mini-tts-2025-03-20", "gpt-4o-mini-tts-2025-12-15"],
   "_generated": {
-    "name": "d9e0cceb",
+    "name": "ccd986da",
     "family": "15249632",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "model_type": "4e16a2cf",
     "performance": "a87ff679",
     "speed": "a87ff679",
     "modalities": "601e776d",
     "endpoints": "1d7fad2a",
     "description": "5344a855",
-    "tagline": "ea72098d",
+    "tagline": "1d998aa8",
     "pricing": "8c5b89f0",
     "license": "9186c466",
     "release_date": "56423574",
     "page_url": "35e1f90d",
     "open_weight": "68934a3e",
-    "deprecation_date": "00dfb29f",
-    "retirement_date": "cdcb8c77",
-    "successor": "d913f5f3"
+    "retirement_date": "cdcb8c77"
   },
   "description": "Status: Deprecated",
-  "tagline": "Text-to-speech model powered by GPT-4o Mini",
+  "tagline": "Text-to-speech model powered by GPT-4o mini",
   "pricing": {
     "tiers": [
       {
@@ -68,7 +66,5 @@
   "release_date": "2025-12-15",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
   "open_weight": false,
-  "deprecation_date": "2026-10-01",
-  "retirement_date": "2027-01-06",
-  "successor": "gpt-realtime-2.1-mini"
+  "retirement_date": "2027-01-06"
 }

@@ -1,12 +1,11 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-14",
   "count": 35,
   "ids": [
     "autotrust-jev",
     "beam",
     "bonsai-2",
     "clef",
-    "d1",
     "d1-omni",
     "d3",
     "deepseek-v4-pro",
@@ -17,6 +16,7 @@
     "glm-5.3",
     "glm-5.3-flash",
     "gpt-oss",
+    "inkling-2-small",
     "kimi-k2.6",
     "kimi-k2.7-code",
     "kimi-k3",

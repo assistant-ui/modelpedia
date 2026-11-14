@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/minimax/h3-max/reframe-video",
   "tagline": "Expands existing videos to a selected aspect ratio with generative outpainting, preserving source audio and timing.",
-  "last_seen_at": "2026-11-10",
+  "last_seen_at": "2026-11-13",
   "_generated": {
     "name": "748f5c0e",
     "description": "2e6b8394",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "4ef2883d",
     "tagline": "2e6b8394",
-    "last_seen_at": "e365aa16"
+    "last_seen_at": "af40eeba"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-14"
 }

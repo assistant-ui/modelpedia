@@ -3,10 +3,10 @@
   "name": "o4-mini-deep-research",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-14",
   "family": "o4",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -57,7 +57,7 @@
     "name": "c73d23c2",
     "family": "a842f941",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -76,15 +76,11 @@
     "page_url": "2dcede25",
     "open_weight": "68934a3e",
     "release_date": "f083d14e",
-    "deprecation_date": "c48b287d",
-    "retirement_date": "26fc75d3",
-    "successor": "cadec60b"
+    "retirement_date": "26fc75d3"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
   "open_weight": false,
   "release_date": "2025-06-26",
-  "deprecation_date": "2026-04-22",
-  "retirement_date": "2026-07-23",
-  "successor": "gpt-5.6-sol"
+  "retirement_date": "2026-07-23"
 }

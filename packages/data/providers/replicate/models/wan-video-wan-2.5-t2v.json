@@ -4,7 +4,7 @@
   "created_by": "wan-video",
   "source": "official",
   "family": "wan",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/wan-video/wan-2.5-t2v",
   "modalities": {
@@ -15,11 +15,11 @@
   "_generated": {
     "name": "7a94486d",
     "family": "2aadc089",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "d655031a",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-11-11"
+  "last_updated": "2026-11-14"
 }

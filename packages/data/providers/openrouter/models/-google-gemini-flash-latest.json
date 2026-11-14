@@ -6,7 +6,7 @@
   "description": "This model always redirects to the latest model in the Gemini Flash family.",
   "release_date": "2026-04-27",
   "context_window": 1048576,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the Google Gemini Flash family.",
   "capabilities": {
@@ -16,12 +16,12 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
+    "input": ["audio", "image", "text", "video"],
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.75,
-    "output": 3.75,
+    "input": 1.5,
+    "output": 7.5,
     "cached_input": 0.075
   },
   "tools": ["function_calling"],
@@ -30,13 +30,13 @@
     "description": "ce271584",
     "release_date": "79a25cd1",
     "context_window": "7d28a051",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "f2602b58",
     "capabilities": "03fbefb4",
-    "modalities": "c569b149",
-    "pricing": "ba418c83",
+    "modalities": "b7a3ac68",
+    "pricing": "efc01807",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-11-14"
 }

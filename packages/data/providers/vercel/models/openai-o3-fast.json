@@ -1,0 +1,35 @@
+{
+  "id": "openai/o3-fast",
+  "name": "o3-fast",
+  "created_by": "openai",
+  "source": "official",
+  "family": "o3",
+  "context_window": 200000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 3.5,
+    "output": 14
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "34ec8aaf",
+    "family": "193049bc",
+    "context_window": "03e6c616",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "9df0e9dc",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-14"
+}

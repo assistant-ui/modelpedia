@@ -1,0 +1,40 @@
+{
+  "id": "thinkingmachines/inkling-2-small",
+  "name": "Thinking Machines: Inkling 2 Small",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total.",
+  "release_date": "2026-11-09",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "417ebb02",
+    "description": "b8f5e252",
+    "release_date": "01461164",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "b8f5e252",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "3db3c527",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-14"
+}

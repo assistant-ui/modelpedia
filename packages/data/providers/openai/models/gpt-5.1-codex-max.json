@@ -3,10 +3,10 @@
   "name": "GPT-5.1-Codex-Max",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "gpt-5.1",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -15,7 +15,7 @@
   "performance": 4,
   "reasoning": 4,
   "speed": 4,
-  "tagline": "A version of GPT-5.1-codex optimized for long running tasks.",
+  "tagline": "A version of GPT-5.1-Codex optimized for long running tasks.",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -54,7 +54,7 @@
     "name": "8375977d",
     "family": "2089aff2",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -63,7 +63,7 @@
     "performance": "a87ff679",
     "reasoning": "a87ff679",
     "speed": "a87ff679",
-    "tagline": "38621811",
+    "tagline": "11fcf206",
     "capabilities": "07de7920",
     "modalities": "6399757e",
     "pricing": "53068594",
@@ -72,14 +72,10 @@
     "license": "9186c466",
     "page_url": "bf7e20c0",
     "open_weight": "68934a3e",
-    "deprecation_date": "c48b287d",
-    "retirement_date": "26fc75d3",
-    "successor": "cadec60b"
+    "retirement_date": "26fc75d3"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
   "open_weight": false,
-  "deprecation_date": "2026-04-22",
-  "retirement_date": "2026-07-23",
-  "successor": "gpt-5.6-sol"
+  "retirement_date": "2026-07-23"
 }

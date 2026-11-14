@@ -12,7 +12,9 @@
     "name": "1e05ff33",
     "parameters": "4e732ced",
     "active_parameters": "a87ff679",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-11-14",
+  "status": "deprecated"
 }

@@ -3,10 +3,10 @@
   "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "gpt-5",
   "description": "Status: Deprecated",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-05",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -64,7 +64,7 @@
     "name": "5b55012d",
     "family": "aa904c16",
     "description": "5344a855",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "1d431428",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -84,15 +84,11 @@
     "page_url": "c92fdc64",
     "open_weight": "68934a3e",
     "release_date": "79c30d0c",
-    "deprecation_date": "af441ea0",
-    "retirement_date": "d0164be5",
-    "successor": "dc307f2f"
+    "retirement_date": "d0164be5"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
   "open_weight": false,
   "release_date": "2025-08-07",
-  "deprecation_date": "2026-06-11",
-  "retirement_date": "2026-12-11",
-  "successor": "gpt-5.6-luna"
+  "retirement_date": "2026-12-11"
 }

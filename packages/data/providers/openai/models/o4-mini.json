@@ -3,10 +3,10 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-14",
   "family": "o4",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -15,7 +15,7 @@
   "performance": 4,
   "reasoning": 4,
   "speed": 3,
-  "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 Mini",
+  "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -63,7 +63,7 @@
     "name": "0ad044e2",
     "family": "a842f941",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -72,7 +72,7 @@
     "performance": "a87ff679",
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
-    "tagline": "fea2d815",
+    "tagline": "5aa524ce",
     "capabilities": "7e267bba",
     "modalities": "6399757e",
     "pricing": "07118b3e",
@@ -82,15 +82,11 @@
     "page_url": "6a4100e1",
     "open_weight": "68934a3e",
     "release_date": "67604092",
-    "deprecation_date": "c48b287d",
-    "retirement_date": "68185e3b",
-    "successor": "d5215155"
+    "retirement_date": "68185e3b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o4-mini",
   "open_weight": false,
   "release_date": "2025-04-16",
-  "deprecation_date": "2026-04-22",
-  "retirement_date": "2026-10-23",
-  "successor": "gpt-5.6-terra"
+  "retirement_date": "2026-10-23"
 }

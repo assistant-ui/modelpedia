@@ -3,10 +3,10 @@
   "name": "o1-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "o1",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -56,7 +56,7 @@
     "name": "76a0c706",
     "family": "e1ab0820",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -75,15 +75,11 @@
     "page_url": "13d1c6da",
     "open_weight": "68934a3e",
     "release_date": "2df47595",
-    "deprecation_date": "c48b287d",
-    "retirement_date": "68185e3b",
-    "successor": "cadec60b"
+    "retirement_date": "68185e3b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o1-pro",
   "open_weight": false,
   "release_date": "2025-03-19",
-  "deprecation_date": "2026-04-22",
-  "retirement_date": "2026-10-23",
-  "successor": "gpt-5.6-sol"
+  "retirement_date": "2026-10-23"
 }

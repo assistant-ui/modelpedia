@@ -1,11 +1,11 @@
 {
   "id": "gpt-5-pro",
-  "name": "GPT-5 Pro",
+  "name": "GPT-5 pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "gpt-5",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 272000,
@@ -48,9 +48,9 @@
   },
   "endpoints": ["responses", "batch"],
   "_generated": {
-    "name": "58fd5766",
+    "name": "958796f8",
     "family": "aa904c16",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "3f9281a0",
@@ -70,9 +70,7 @@
     "release_date": "17ddf71c",
     "description": "5344a855",
     "tagline": "827b0fb2",
-    "deprecation_date": "af441ea0",
-    "retirement_date": "d0164be5",
-    "successor": "cadec60b"
+    "retirement_date": "d0164be5"
   },
   "snapshots": ["gpt-5-pro-2025-10-06"],
   "model_type": "chat",
@@ -89,7 +87,5 @@
   "release_date": "2025-10-06",
   "description": "Status: Deprecated",
   "tagline": "Version of GPT-5 that produces smarter and more precise responses",
-  "deprecation_date": "2026-06-11",
-  "retirement_date": "2026-12-11",
-  "successor": "gpt-5.6-sol"
+  "retirement_date": "2026-12-11"
 }

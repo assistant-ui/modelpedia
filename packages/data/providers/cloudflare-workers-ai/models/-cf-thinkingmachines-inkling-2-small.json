@@ -1,0 +1,30 @@
+{
+  "id": "@cf/thinkingmachines/inkling-2-small",
+  "name": "inkling-2-small",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#inkling-2-small",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "24255150",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "d2ac8ed1",
+    "capabilities": "45192957",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-14"
+}

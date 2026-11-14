@@ -7,7 +7,7 @@
   "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
   "release_date": "2026-10-17",
   "context_window": 1048576,
-  "max_output_tokens": 943718,
+  "max_output_tokens": 384000,
   "model_type": "chat",
   "tagline": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.011,
-    "output": 0.2,
-    "cached_input": 0.002
+    "input": 0.05,
+    "output": 0.15,
+    "cached_input": 0.004
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,13 +32,13 @@
     "description": "3a2bad75",
     "release_date": "149591c4",
     "context_window": "7d28a051",
-    "max_output_tokens": "7843f47e",
+    "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
     "tagline": "3a2bad75",
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
-    "pricing": "729ad7a3",
+    "pricing": "25a7ccf4",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-08"
+  "last_updated": "2026-11-14"
 }

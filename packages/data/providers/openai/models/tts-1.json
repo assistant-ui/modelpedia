@@ -3,9 +3,9 @@
   "name": "TTS-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "description": "Status: Deprecated",
-  "status": "deprecated",
+  "status": "active",
   "model_type": "tts",
   "performance": 2,
   "speed": 4,
@@ -46,7 +46,7 @@
   "_generated": {
     "name": "373ed2dd",
     "description": "5344a855",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "model_type": "4e16a2cf",
     "performance": "c81e728d",
     "speed": "a87ff679",
@@ -58,15 +58,11 @@
     "license": "9186c466",
     "page_url": "add1629d",
     "open_weight": "68934a3e",
-    "deprecation_date": "00dfb29f",
-    "retirement_date": "cdcb8c77",
-    "successor": "d913f5f3"
+    "retirement_date": "cdcb8c77"
   },
   "family": "tts",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/tts-1",
   "open_weight": false,
-  "deprecation_date": "2026-10-01",
-  "retirement_date": "2027-01-06",
-  "successor": "gpt-realtime-2.1-mini"
+  "retirement_date": "2027-01-06"
 }

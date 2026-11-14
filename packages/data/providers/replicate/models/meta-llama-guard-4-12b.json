@@ -4,7 +4,7 @@
   "created_by": "meta",
   "source": "official",
   "family": "llama-guard",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "parameters": 12,
   "page_url": "https://replicate.com/meta/llama-guard-4-12b",
@@ -19,7 +19,7 @@
   "_generated": {
     "name": "00a75364",
     "family": "3190be28",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "parameters": "c20ad4d7",
     "page_url": "ef2ec5b1",
@@ -27,5 +27,5 @@
     "modalities": "68e53d93",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-14"
 }

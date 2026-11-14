@@ -1,0 +1,41 @@
+{
+  "id": "inkling-2-small",
+  "name": "inkling-2-small",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "594B Mixture-of-Experts model (17B active) with image input and up to 1M tokens of context, built for agentic coding and knowledge work.",
+  "release_date": "2026-11-12",
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 594,
+  "page_url": "https://ollama.com/library/inkling-2-small",
+  "open_weight": true,
+  "tagline": "594B Mixture-of-Experts model (17B active) with image input and up to 1M tokens of context, built for agentic coding and knowledge work.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "24255150",
+    "description": "c38bfd7c",
+    "release_date": "444e0990",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "076a0c97",
+    "page_url": "05c6920a",
+    "open_weight": "b326b506",
+    "tagline": "c38bfd7c",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-14"
+}

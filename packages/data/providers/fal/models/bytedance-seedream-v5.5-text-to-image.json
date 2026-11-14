@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedream/v5.5/text-to-image",
+  "name": "Seedream 5.5 Text to Image",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedream 5.5 generates images from text prompts with configurable dimensions, batch generation, and support for transparent PNG backgrounds.",
+  "status": "active",
+  "release_date": "2026-11-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5.5/text-to-image",
+  "tagline": "Seedream 5.5 generates images from text prompts with configurable dimensions, batch generation, and support for transparent PNG backgrounds.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-13",
+  "_generated": {
+    "name": "7cc18666",
+    "description": "eb2bef30",
+    "status": "379ac110",
+    "release_date": "7914a035",
+    "model_type": "db8857fe",
+    "page_url": "0b43f0aa",
+    "tagline": "eb2bef30",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "af40eeba"
+  },
+  "last_updated": "2026-11-14"
+}

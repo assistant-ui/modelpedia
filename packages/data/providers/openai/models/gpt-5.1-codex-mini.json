@@ -1,12 +1,12 @@
 {
   "id": "gpt-5.1-codex-mini",
-  "name": "GPT-5.1-Codex Mini",
+  "name": "GPT-5.1-Codex-Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-14",
   "family": "gpt-5.1",
   "description": "Status: Shut down",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -51,10 +51,10 @@
   "endpoints": ["responses"],
   "snapshots": ["gpt-5.1-codex-mini"],
   "_generated": {
-    "name": "09e9d5d0",
+    "name": "c1206d9a",
     "family": "2089aff2",
     "description": "9aaf237e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -72,14 +72,10 @@
     "license": "9186c466",
     "page_url": "a6276159",
     "open_weight": "68934a3e",
-    "deprecation_date": "c48b287d",
-    "retirement_date": "26fc75d3",
-    "successor": "d5215155"
+    "retirement_date": "26fc75d3"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
   "open_weight": false,
-  "deprecation_date": "2026-04-22",
-  "retirement_date": "2026-07-23",
-  "successor": "gpt-5.6-terra"
+  "retirement_date": "2026-07-23"
 }
