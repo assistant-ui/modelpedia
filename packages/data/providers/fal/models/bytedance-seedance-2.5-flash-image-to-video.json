@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.5/flash/image-to-video",
+  "name": "Seedance 2.5 Flash Image to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Dreamina Seedance 2.5 Flash is the fast tier of Seedance 2.5.",
+  "status": "active",
+  "release_date": "2026-11-15",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.5/flash/image-to-video",
+  "tagline": "Dreamina Seedance 2.5 Flash is the fast tier of Seedance 2.5.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-11-15",
+  "_generated": {
+    "name": "6b59340f",
+    "description": "6f1c4161",
+    "status": "379ac110",
+    "release_date": "b574ef83",
+    "model_type": "4d1b75ca",
+    "page_url": "1a3b6dc6",
+    "tagline": "6f1c4161",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "b574ef83"
+  },
+  "last_updated": "2026-11-15"
+}

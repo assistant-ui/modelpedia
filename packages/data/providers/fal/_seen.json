@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "count": 1475,
+  "date": "2026-11-15",
+  "count": 1480,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -104,6 +104,9 @@
     "bytedance-seedance-2.0-us-image-to-video",
     "bytedance-seedance-2.0-us-reference-to-video",
     "bytedance-seedance-2.0-us-text-to-video",
+    "bytedance-seedance-2.5-flash-image-to-video",
+    "bytedance-seedance-2.5-flash-reference-to-video",
+    "bytedance-seedance-2.5-flash-text-to-video",
     "bytedance-seedance-2.5-us-draft-complete",
     "bytedance-seedance-2.5-us-image-to-video",
     "bytedance-seedance-2.5-us-reference-to-video",
@@ -116,6 +119,8 @@
     "bytedance-seedream-v5-pro-edit",
     "bytedance-seedream-v5-pro-layerize",
     "bytedance-seedream-v5-pro-text-to-image",
+    "bytedance-seedream-v5-pro-us-edit",
+    "bytedance-seedream-v5-pro-us-text-to-image",
     "bytedance-seedream-v5.5-edit",
     "bytedance-seedream-v5.5-layerize",
     "bytedance-seedream-v5.5-text-to-image",

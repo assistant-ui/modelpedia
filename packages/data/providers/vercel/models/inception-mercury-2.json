@@ -3,7 +3,7 @@
   "name": "mercury-2",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-11-15",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -21,12 +21,14 @@
     "pricing": "5b74b6c8",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "tools": ["function_calling"],
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }
