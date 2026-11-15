@@ -1,7 +1,8 @@
 {
-  "date": "2026-11-14",
-  "count": 127,
+  "date": "2026-11-15",
+  "count": 128,
   "ids": [
+    "aeon-7-qwen3.8-27b-aeon-ultimate-uncensored-bf16",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
     "defog-sqlcoder-7b-2",
     "efficient-large-model-gemma-2-2b-it",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "count": 471,
+  "date": "2026-11-15",
+  "count": 468,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -183,10 +183,7 @@
     "google-veo-3.1-lite-generate-001",
     "heygen-heygen-video-1",
     "humansand-ampersand-v0.1",
-    "inception-mercury-2",
-    "inception-mercury-2.5",
     "inception-mercury-3",
-    "inception-mercury-coder-small",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-fin",
     "inclusionai-ling-3.0-flash-sante",

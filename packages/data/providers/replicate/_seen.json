@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "count": 128,
+  "date": "2026-11-15",
+  "count": 127,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -75,7 +75,6 @@
     "lucataco-remove-bg",
     "m1guelpf-nsfw-filter",
     "maikocode-ascii-style",
-    "mattsays-sam3-image",
     "megvii-research-nafnet",
     "meta-llama-guard-3-8b",
     "meta-sam-2-video",
