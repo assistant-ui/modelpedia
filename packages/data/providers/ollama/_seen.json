@@ -1,10 +1,9 @@
 {
-  "date": "2026-11-14",
-  "count": 35,
+  "date": "2026-11-16",
+  "count": 36,
   "ids": [
     "autotrust-jev",
     "beam",
-    "bonsai-2",
     "clef",
     "d1-omni",
     "d3",
@@ -34,8 +33,10 @@
     "muse-spark-open",
     "nemotron-3-super",
     "nemotron-3-ultra",
+    "nemotron-3.5-lightning",
     "phonon",
     "pplx-decider-flash",
+    "qwen3.8",
     "ripple-preview"
   ]
 }

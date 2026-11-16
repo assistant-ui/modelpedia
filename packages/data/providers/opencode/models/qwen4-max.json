@@ -1,0 +1,25 @@
+{
+  "id": "qwen4-max",
+  "name": "Qwen4 Max",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen4",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c8e5bbcc",
+    "family": "ba67260b",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-16"
+}

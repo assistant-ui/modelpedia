@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "count": 127,
   "ids": [
     "851-labs-background-remover",
@@ -45,6 +45,7 @@
     "falcons-ai-nsfw_image_detection",
     "ferogabor1999-oss-kiki",
     "fictions-ai-autocaption",
+    "flux-kontext-apps-kontext-emoji-maker",
     "flux-kontext-apps-restore-image",
     "fofr-face-swap-with-ideogram",
     "fofr-flux-mona-lisa",
@@ -78,7 +79,6 @@
     "megvii-research-nafnet",
     "meta-llama-guard-3-8b",
     "meta-sam-2-video",
-    "miike-ai-flux-ico",
     "minimax-h3-highspeed",
     "minimax-h3-lite",
     "minimax-music-1.5",
@@ -101,7 +101,7 @@
     "piddnad-ddcolor",
     "prunaai-flux-kontext-fast",
     "prunaai-hunyuan3d-2",
-    "prunaai-p-image",
+    "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video-2-pro-reference",
     "rafaelgalle-whisper-diarization-advanced",

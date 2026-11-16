@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "count": 108,
+  "date": "2026-11-16",
+  "count": 109,
   "ids": [
     "beam-free",
     "big-pickle",
@@ -109,6 +109,7 @@
     "qwen3.7-plus",
     "qwen3.8-flash",
     "qwen3.8-max",
+    "qwen4-max",
     "step-5-preview"
   ]
 }
