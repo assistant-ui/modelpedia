@@ -1,0 +1,41 @@
+{
+  "id": "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+  "name": "Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+  "created_by": "aeon-7",
+  "source": "official",
+  "description": "Refusal-removed, capability-preserving BF16 abliteration of `google/gemma-4-12B-it` (K=4 multi-direction biprojection). Bit-exact full-precision anchor of the K4 quant family — pick this for fine-tuning or non-Blackwell hardware; on Blackwell the FP8 / NVFP4 siblings are 2–3× faster.",
+  "release_date": "2026-06-04",
+  "license": "gemma",
+  "parameters": 12,
+  "page_url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "Refusal-removed, capability-preserving BF16 abliteration of `google/gemma-4-12B-it` (K=4 multi-direction biprojection).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e668c8d6",
+    "description": "2a88f0ec",
+    "release_date": "054ba895",
+    "license": "3fe02b16",
+    "parameters": "c20ad4d7",
+    "page_url": "19fec772",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "b0773d26",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-16"
+}

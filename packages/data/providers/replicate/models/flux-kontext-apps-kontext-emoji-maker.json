@@ -1,0 +1,23 @@
+{
+  "id": "flux-kontext-apps/kontext-emoji-maker",
+  "name": "Kontext Emoji Maker",
+  "created_by": "flux-kontext-apps",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/flux-kontext-apps/kontext-emoji-maker",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "64aace81",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "e8023d57",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-16"
+}

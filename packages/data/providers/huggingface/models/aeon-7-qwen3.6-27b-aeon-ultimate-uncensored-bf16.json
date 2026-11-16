@@ -1,0 +1,41 @@
+{
+  "id": "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16",
+  "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16",
+  "created_by": "aeon-7",
+  "source": "official",
+  "description": "> [!IMPORTANT] > **Superseded by Qwen3.8 — use this instead:** [`AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED`](https://huggingface.co/AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED) > > **Operator recipes (Spark Dynamic DFlash lattice, TP=2, RTX):** [`AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED`](https://github.com/AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED) > > This Qwen3.6-27B card stays online for history and existing downloads.",
+  "release_date": "2026-04-24",
+  "license": "apache-2.0",
+  "parameters": 27,
+  "page_url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "> [!IMPORTANT] > **Superseded by Qwen3.8 — use this instead:** [`AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED`](https://huggingface.co/AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXE",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9ea17235",
+    "description": "5d0f4cad",
+    "release_date": "173d2bb2",
+    "license": "60245731",
+    "parameters": "02e74f10",
+    "page_url": "95adca30",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "38b30930",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-16"
+}
