@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Kandinsky 5.0 Pro is a diffusion model for fast, high-quality image-to-video generation.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-23",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/kandinsky5-pro/image-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "b6cd2e1c",
     "description": "b11d2917",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "b3874102",
     "model_type": "4d1b75ca",
     "page_url": "a964dbb8",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-17"
 }

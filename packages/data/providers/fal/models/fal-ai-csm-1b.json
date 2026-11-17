@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-13",
   "model_type": "other",
   "parameters": 1,
@@ -14,7 +14,7 @@
   "_generated": {
     "name": "306e1d2c",
     "description": "c1724973",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5558421b",
     "model_type": "ddb0b7bc",
     "parameters": "c4ca4238",
@@ -22,5 +22,5 @@
     "tagline": "c1724973",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "EchoMimic V3 generates a talking avatar model from a picture, audio and text prompt.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-13",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/echomimic-v3",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "6055240c",
     "description": "6046b833",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ab9b808c",
     "model_type": "ddb0b7bc",
     "page_url": "69cda8e7",
     "tagline": "6046b833",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-17"
 }

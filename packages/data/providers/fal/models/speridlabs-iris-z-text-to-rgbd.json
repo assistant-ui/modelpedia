@@ -1,0 +1,35 @@
+{
+  "id": "speridlabs/iris-z/text-to-rgbd",
+  "name": "Iris-Z Text to RGB-D",
+  "created_by": "speridlabs",
+  "source": "official",
+  "description": "Generates an image and its aligned depth together from a text prompt with Iris-Z, a FLUX.2-based joint RGB and depth model, returning the RGB image, a colorized depth map and a float32 log-depth array.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/speridlabs/iris-z/text-to-rgbd",
+  "tagline": "Generates an image and its aligned depth together from a text prompt with Iris-Z, a FLUX.2-based joint RGB and depth model, returning the RGB image, a colorized depth map and a float32 log-depth array",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-16",
+  "_generated": {
+    "name": "3f5e00f0",
+    "description": "4f6a3e14",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "db8857fe",
+    "page_url": "83fce7c1",
+    "tagline": "764701d5",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "56e9ce3f"
+  },
+  "last_updated": "2026-11-17"
+}

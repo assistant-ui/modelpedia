@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "LoRA trainer for FLUX.1 Kontext [dev]",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-26",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/flux-kontext-trainer",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "5264ade3",
     "description": "38f82082",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "f083d14e",
     "model_type": "ddb0b7bc",
     "page_url": "1ad00e60",
     "tagline": "38f82082",
     "last_seen_at": "444e0990"
   },
-  "last_updated": "2026-11-12"
+  "last_updated": "2026-11-17"
 }

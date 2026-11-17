@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Restyle any image with TeleStyle v2 — provide an original image and a styling reference, and the model re-renders the original in the reference's visual style while preserving its content and composit",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-06-22",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/telestyle-v2",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "f5828870",
     "description": "62a16afa",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1413cbcd",
     "model_type": "db8857fe",
     "page_url": "ccf48704",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-11-17"
 }

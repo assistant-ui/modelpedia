@@ -1,0 +1,40 @@
+{
+  "id": "tencent/hy4-flash",
+  "name": "Tencent: Hy4 flash",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost.",
+  "release_date": "2026-11-16",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "tagline": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.035,
+    "output": 0.141,
+    "cached_input": 0.002
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "259acc7c",
+    "description": "b0aceccf",
+    "release_date": "56e9ce3f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "b0aceccf",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "1cd4498a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-17"
+}

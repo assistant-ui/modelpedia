@@ -3,7 +3,7 @@
   "name": "gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-17",
   "family": "gpt-oss",
   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs.",
   "status": "active",
@@ -25,7 +25,8 @@
   },
   "pricing": {
     "input": 0.03,
-    "output": 0.14
+    "output": 0.14,
+    "cached_input": 0.015
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -43,7 +44,7 @@
     "license": "9186c466",
     "capabilities": "a17ad43b",
     "modalities": "68e53d93",
-    "pricing": "b56a8399",
+    "pricing": "01ff349c",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "45ae6e17",

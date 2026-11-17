@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "FireRed Image Edit v1.1 is an updated version of FireRed Image Edit, with improved image editing capabilities.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-05",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/firered-image-edit-v1.1",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "c4c116c7",
     "description": "5b293b51",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e6626ce2",
     "model_type": "db8857fe",
     "page_url": "810a6bcf",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "e6626ce2"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

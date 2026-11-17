@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Clone dialog voices from a sample audio and generate dialogs from text prompts using the Dia TTS which leverages advanced AI techniques to create high-quality text-to-speech.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-22",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/dia-tts/voice-clone",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "156709a0",
     "description": "6df17dad",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6dce7146",
     "model_type": "ddb0b7bc",
     "page_url": "f1967c0d",
     "tagline": "6df17dad",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

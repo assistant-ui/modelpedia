@@ -1,0 +1,51 @@
+{
+  "id": "Qwen/Qwen4-Max",
+  "name": "Qwen4-Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen's next-generation flagship multimodal model, combining text, image and video understanding with deep reasoning for coding, office work and complex agentic tasks.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "open_weight": false,
+  "tagline": "Qwen's next-generation flagship multimodal model, combining text, image and video understanding with deep reasoning for coding, office work and complex agentic tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.413,
+    "output": 4.24,
+    "cached_input": 0.071
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "6d62fd37",
+    "description": "b89cbb3c",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "68934a3e",
+    "tagline": "b89cbb3c",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "940cc7ba",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-17"
+}

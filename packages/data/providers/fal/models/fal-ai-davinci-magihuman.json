@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Expressive facial performance, natural speech-expression coordination, realistic body motion, and accurate audio-video synchronization with DaVinci-MagiHuman model",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-25",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/davinci-magihuman",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "32de58c7",
     "description": "5b571a2c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "244f8d0f",
     "model_type": "4d1b75ca",
     "page_url": "374c21fd",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "52326430"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-17",
   "count": 24,
   "ids": [
     "s-boreal-h3",
@@ -8,9 +8,11 @@
     "s-deepseek-v4-pro-0813",
     "s-elorian-glimpse",
     "s-flux-3",
+    "s-gemma-4-31b",
     "s-glm-5-3",
     "s-glm-5-3-flash",
     "s-gpt-image-2",
+    "s-inkling",
     "s-inkling-2-small",
     "s-kimi-k3-1-pro",
     "s-minimax-h3",
@@ -18,13 +20,11 @@
     "s-muse-spark-open",
     "s-nemotron-3-5-super-vl",
     "s-qwen3-8-flash",
-    "s-qwen37-max",
-    "s-qwen37-plus",
     "s-reflection-beam",
     "s-ripple-65b-preview",
+    "s-seedance-2-0",
     "s-seedance-2-5",
-    "s-step-5-preview",
-    "s-tev1-4b-experimental",
-    "s-wan-2-6-image"
+    "s-ternary-bonsai-2-27b",
+    "s-tev1-4b-experimental"
   ]
 }

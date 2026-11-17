@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Kandinsky 6.0 VSR Lite is a fast, lightweight video super-resolution model for quick, cost-efficient upscaling.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-10-05",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/kandinsky6-vsr/lite",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "f9360521",
     "description": "afb97e51",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5678bd8d",
     "model_type": "ddb0b7bc",
     "page_url": "9d505f5f",
     "tagline": "afb97e51",
     "last_seen_at": "899c841f"
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-11-17"
 }

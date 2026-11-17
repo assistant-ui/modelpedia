@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen",
   "description": "Qwen Image 2512 LoRA training",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-01-01",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/qwen-image-2512-trainer",
@@ -18,7 +18,7 @@
     "name": "88cb6aad",
     "family": "a3af76f3",
     "description": "83b5d5a9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "cbf2bba0",
     "model_type": "ddb0b7bc",
     "page_url": "cdd9b7e1",
@@ -26,5 +26,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "444e0990"
   },
-  "last_updated": "2026-11-12"
+  "last_updated": "2026-11-17"
 }

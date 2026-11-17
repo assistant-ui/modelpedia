@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "MultiTalk model generates a talking avatar video from an image and text.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-23",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/ai-avatar/single-text",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "678425c7",
     "description": "58382a42",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "b3f1b1d4",
     "model_type": "4d1b75ca",
     "page_url": "f504b400",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-17"
 }

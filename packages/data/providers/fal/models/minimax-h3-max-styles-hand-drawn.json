@@ -4,7 +4,7 @@
   "created_by": "minimax",
   "source": "official",
   "description": "Generates 768p video with audio in a hand-drawn animation style from text prompts or an optional first-frame image.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-09-17",
   "model_type": "video",
   "page_url": "https://fal.run/minimax/h3-max/styles/hand-drawn",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "d5f57889",
     "description": "bef0bb6b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "4ef67ac3",
     "model_type": "4d1b75ca",
     "page_url": "25ab4f10",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "e365aa16"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-17"
 }

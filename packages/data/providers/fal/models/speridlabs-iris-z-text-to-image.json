@@ -1,0 +1,35 @@
+{
+  "id": "speridlabs/iris-z/text-to-image",
+  "name": "Iris-Z Text to Image",
+  "created_by": "speridlabs",
+  "source": "official",
+  "description": "Generates an image from a text prompt with Iris-Z, a FLUX.2-based joint RGB and depth model.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/speridlabs/iris-z/text-to-image",
+  "tagline": "Generates an image from a text prompt with Iris-Z, a FLUX.2-based joint RGB and depth model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-16",
+  "_generated": {
+    "name": "28d596dd",
+    "description": "4d4da3f0",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "db8857fe",
+    "page_url": "00615332",
+    "tagline": "4d4da3f0",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "56e9ce3f"
+  },
+  "last_updated": "2026-11-17"
+}

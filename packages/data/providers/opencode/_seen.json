@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "count": 109,
+  "date": "2026-11-17",
+  "count": 110,
   "ids": [
     "beam-free",
     "big-pickle",
@@ -71,6 +71,7 @@
     "grok-build-0.1",
     "hy3",
     "hy4",
+    "hy4-flash-free",
     "hy4-preview",
     "iceman-contributor-free",
     "iceman-free",

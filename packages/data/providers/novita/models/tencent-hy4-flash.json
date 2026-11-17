@@ -1,0 +1,46 @@
+{
+  "id": "tencent/hy4-flash",
+  "name": "Hy4 Flash",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Tencent: The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity tasks.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "context_window": 1000000,
+  "max_output_tokens": 64000,
+  "model_type": "chat",
+  "tagline": "Tencent: The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.281
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "aaa999f2",
+    "description": "14097264",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
+    "tagline": "6ff77d2d",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "cb2dd3ae",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-17"
+}

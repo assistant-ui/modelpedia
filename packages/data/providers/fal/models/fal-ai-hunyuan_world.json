@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Hunyuan World 1.0 turns a single image into a panorama or a 3D world.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-28",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/hunyuan_world",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "a1409294",
     "description": "a6993b97",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8ef4ed35",
     "model_type": "db8857fe",
     "page_url": "25155b7a",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-17"
 }

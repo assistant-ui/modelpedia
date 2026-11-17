@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "LongCat image is a 6B parameter model excelling at multilingual text rendering, photorealism and deployment efficiency.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-05",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/longcat-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "e90429b0",
     "description": "a6c13ed7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "292ee6dc",
     "model_type": "db8857fe",
     "page_url": "ff5852c4",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "heygen/heygen-decision-1-turbo",
+  "name": "heygen-decision-1-turbo",
+  "created_by": "heygen",
+  "source": "official",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0
+  },
+  "_generated": {
+    "name": "af9ee09b",
+    "context_window": "b23f4471",
+    "capabilities": "8a3b232e",
+    "pricing": "74479a1b"
+  },
+  "last_updated": "2026-11-17"
+}
