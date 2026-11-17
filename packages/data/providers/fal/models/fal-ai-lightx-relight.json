@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Use tlightx capabilities to relight and recamera your videos.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-22",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/lightx/relight",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "12d65d89",
     "description": "8c7a6581",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "13396b7f",
     "model_type": "ddb0b7bc",
     "page_url": "561a10f5",
     "tagline": "8c7a6581",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-17"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Automatically generates text captions for your videos from the audio as per text colour/font specifications",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-01-03",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/auto-caption",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "e4a89b46",
     "description": "b1b2e8f9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "42600b47",
     "model_type": "ddb0b7bc",
     "page_url": "189fcfb2",
     "tagline": "b1b2e8f9",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

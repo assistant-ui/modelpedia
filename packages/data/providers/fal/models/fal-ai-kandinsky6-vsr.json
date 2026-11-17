@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Kandinsky 6.0 VSR is a video super-resolution model that upscales and enhances videos with sharper detail and stable, flicker-free frames.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-09-28",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/kandinsky6-vsr",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "f9360521",
     "description": "0c0f0a84",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1ec3c8a2",
     "model_type": "ddb0b7bc",
     "page_url": "1484320e",
     "tagline": "0c0f0a84",
     "last_seen_at": "899c841f"
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-11-17"
 }

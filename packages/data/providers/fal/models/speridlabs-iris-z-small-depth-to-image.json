@@ -1,0 +1,35 @@
+{
+  "id": "speridlabs/iris-z/small/depth-to-image",
+  "name": "Iris-Z Small Depth to Image",
+  "created_by": "speridlabs",
+  "source": "official",
+  "description": "Generates an image that follows the geometry of a depth map with Iris-Z Small, the lighter variant of the FLUX.2-based joint RGB and depth model, at roughly a third of the generation time of Iris-Z.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/speridlabs/iris-z/small/depth-to-image",
+  "tagline": "Generates an image that follows the geometry of a depth map with Iris-Z Small, the lighter variant of the FLUX.2-based joint RGB and depth model, at roughly a third of the generation time of Iris-Z.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-16",
+  "_generated": {
+    "name": "bb033f13",
+    "description": "b20345b6",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "db8857fe",
+    "page_url": "312b98ec",
+    "tagline": "b20345b6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "56e9ce3f"
+  },
+  "last_updated": "2026-11-17"
+}

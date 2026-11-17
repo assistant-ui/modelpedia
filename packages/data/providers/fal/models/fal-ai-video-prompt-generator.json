@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate video prompts using a variety of techniques including camera direction, style, pacing, special effects and more.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-25",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/video-prompt-generator",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "e0042e6c",
     "description": "f5884504",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8bae68f1",
     "model_type": "ddb0b7bc",
     "page_url": "63023012",
     "tagline": "f5884504",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

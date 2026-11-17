@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Kandinsky 6.0 Lite is a lightweight, high-speed text-to-video model from Kandinsky Lab, built for fast, efficient generation with strong prompt adherence.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-10-05",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/kandinsky6-lite/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "d942953d",
     "description": "b9d5a268",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5678bd8d",
     "model_type": "4d1b75ca",
     "page_url": "9f1898a6",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "28277fd5"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-17"
 }

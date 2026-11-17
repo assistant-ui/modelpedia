@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen",
   "description": "LoRA trainer for Qwen Image Edit 2509",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-15",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/qwen-image-edit-2509-trainer",
@@ -18,7 +18,7 @@
     "name": "37d67186",
     "family": "a3af76f3",
     "description": "e1dbcbdc",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "56423574",
     "model_type": "ddb0b7bc",
     "page_url": "889df80d",
@@ -26,5 +26,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "444e0990"
   },
-  "last_updated": "2026-11-12"
+  "last_updated": "2026-11-17"
 }

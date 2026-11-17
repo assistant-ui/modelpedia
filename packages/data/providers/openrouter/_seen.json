@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "count": 480,
+  "date": "2026-11-17",
+  "count": 482,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -431,6 +431,7 @@
     "tencent-hy3",
     "tencent-hy3-preview",
     "tencent-hy4",
+    "tencent-hy4-flash",
     "tencent-hy4-preview",
     "thedrummer-cydonia-24b-v4.1",
     "thedrummer-skyfall-36b-v2",
@@ -474,6 +475,7 @@
     "z-ai-glm-5-turbo",
     "z-ai-glm-5.1",
     "z-ai-glm-5.2",
+    "z-ai-glm-5.2-batch",
     "z-ai-glm-5.3",
     "z-ai-glm-5.3-batch",
     "z-ai-glm-5.3-flash",

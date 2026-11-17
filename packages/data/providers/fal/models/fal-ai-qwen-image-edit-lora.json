@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen",
   "description": "LoRA inference endpoint for the Qwen Image Editing model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-09-10",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/qwen-image-edit-lora",
@@ -23,7 +23,7 @@
     "name": "89ae0c91",
     "family": "a3af76f3",
     "description": "5069b9ba",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6b120f3c",
     "model_type": "db8857fe",
     "page_url": "41d91b4b",
@@ -33,5 +33,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-11-17"
 }

@@ -4,7 +4,7 @@
   "created_by": "nvidia",
   "source": "official",
   "description": "Nemotron-ASR-Streaming is a multi lingual, streaming Automatic Speech Recognition (ASR) engineered to deliver high-quality multi lingual transcription across both low-latency streaming and high-throug",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-06-01",
   "model_type": "transcription",
   "page_url": "https://fal.run/nvidia/nemotron-asr-multilingual/asr",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "07eb845f",
     "description": "3b6f387a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "80eaf594",
     "model_type": "5e12d29a",
     "page_url": "2200d1d0",
@@ -31,5 +31,5 @@
     "endpoints": "30248ee0",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-11-17"
 }

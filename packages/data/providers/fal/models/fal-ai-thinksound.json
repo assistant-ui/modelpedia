@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate realistic audio for a video with an optional text prompt and combine",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-01",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/thinksound",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "96f8f7fd",
     "description": "c23c3c30",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "7a7b6168",
     "model_type": "ddb0b7bc",
     "page_url": "3478daca",
     "tagline": "c23c3c30",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

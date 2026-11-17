@@ -1,0 +1,49 @@
+{
+  "id": "qwen/qwen4-max",
+  "name": "Qwen4 Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen4",
+  "description": "Qwen4‑max is the new‑generation MoE flagship model of the Qwen4 family, with 2.4T total parameters and 71B activated parameters.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "context_window": 1000000,
+  "max_output_tokens": 131000,
+  "model_type": "chat",
+  "tagline": "Qwen4‑max is the new‑generation MoE flagship model of the Qwen4 family, with 2.4T total parameters and 71B activated parameters.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.413,
+    "output": 4.24
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c8e5bbcc",
+    "family": "ba67260b",
+    "description": "8aa42f66",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "context_window": "8155bc54",
+    "max_output_tokens": "834bd590",
+    "model_type": "d669f408",
+    "tagline": "8aa42f66",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "53d6fdcf",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-17"
+}

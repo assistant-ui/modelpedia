@@ -1,0 +1,23 @@
+{
+  "id": "detailx-video-upscale/detailx-video-upscaler",
+  "name": "Detailx Video Upscaler",
+  "created_by": "detailx-video-upscale",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/detailx-video-upscale/detailx-video-upscaler",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "5da63abe",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "1adad9e2",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-17"
+}

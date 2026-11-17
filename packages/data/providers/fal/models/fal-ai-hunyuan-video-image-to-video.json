@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Image to Video for the high-quality Hunyuan Video I2V model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-06",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/hunyuan-video-image-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "7178ac35",
     "description": "214b2375",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a1c4c09c",
     "model_type": "4d1b75ca",
     "page_url": "c701d02f",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

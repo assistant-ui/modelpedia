@@ -1,0 +1,22 @@
+{
+  "id": "heygen/heygen-decision-1",
+  "name": "heygen-decision-1",
+  "created_by": "heygen",
+  "source": "official",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b0967a18",
+    "context_window": "a683b9ae",
+    "capabilities": "8a3b232e",
+    "pricing": "a38c61d4"
+  },
+  "last_updated": "2026-11-17"
+}

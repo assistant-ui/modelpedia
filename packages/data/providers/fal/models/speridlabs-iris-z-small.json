@@ -1,0 +1,35 @@
+{
+  "id": "speridlabs/iris-z/small",
+  "name": "Iris-Z Small Depth Estimation",
+  "created_by": "speridlabs",
+  "source": "official",
+  "description": "Estimates relative depth from a single image with Iris-Z Small, the lighter variant of the FLUX.2-based joint RGB and depth model, returning a colorized depth map and a float32 log-depth array at the input resolution.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/speridlabs/iris-z/small",
+  "tagline": "Estimates relative depth from a single image with Iris-Z Small, the lighter variant of the FLUX.2-based joint RGB and depth model, returning a colorized depth map and a float32 log-depth array at the ",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-16",
+  "_generated": {
+    "name": "ec0469e5",
+    "description": "3f86ad1a",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "db8857fe",
+    "page_url": "541ab3b5",
+    "tagline": "5e517779",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "56e9ce3f"
+  },
+  "last_updated": "2026-11-17"
+}

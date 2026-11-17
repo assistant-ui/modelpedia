@@ -6,7 +6,7 @@
   "description": "Beam is an open model by Reflection designed to deliver strong performance for areas such as agentic tool use, coding and general reasoning with an emphasis on token efficient usage.",
   "release_date": "2026-10-16",
   "reasoning_tokens": true,
-  "license": "open-weight",
+  "license": "apache-2.0",
   "parameters": 501,
   "active_parameters": 23,
   "page_url": "https://ollama.com/library/beam",
@@ -28,7 +28,7 @@
     "description": "c1fcd03e",
     "release_date": "a343464b",
     "reasoning_tokens": "b326b506",
-    "license": "6327aaea",
+    "license": "60245731",
     "parameters": "5b69b9cb",
     "active_parameters": "37693cfc",
     "page_url": "34c2f2e7",
@@ -38,5 +38,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-17"
+  "last_updated": "2026-11-17"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Dia directly generates realistic dialogue from transcripts.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-22",
   "model_type": "tts",
   "page_url": "https://fal.run/fal-ai/dia-tts",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "e629bb72",
     "description": "bd0d7536",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6dce7146",
     "model_type": "4e16a2cf",
     "page_url": "b7af0f55",
@@ -27,5 +27,5 @@
     "endpoints": "0d745ead",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-17"
 }

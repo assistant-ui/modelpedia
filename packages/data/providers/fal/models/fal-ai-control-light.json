@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "ControlLight is a LoRA fine-tune of FLUX.2 [klein] 9B that enhances low-light images while preserving scene structure and fine details, with a single alpha parameter that gives continuous control over",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-05-27",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/control-light",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "b9c257ee",
     "description": "65bbffbf",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "9625e2ac",
     "model_type": "db8857fe",
     "page_url": "bf504f90",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-11-17"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Edit images with a text prompt using Emu 3.5 Image",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-01",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/emu-3.5-image/edit-image",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "4a0b3dff",
     "description": "a04aa0a8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "65f68c13",
     "model_type": "db8857fe",
     "page_url": "a9a8fc59",
@@ -32,5 +32,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-17"
 }

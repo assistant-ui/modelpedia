@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "MAGI-1 distilled extends videos faster with an exceptional understanding of physical interactions and prompts",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-23",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/magi-distilled/extend-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "001c312c",
     "description": "eaaa05cb",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "efc42cfe",
     "model_type": "ddb0b7bc",
     "page_url": "2cdcc97c",
     "tagline": "eaaa05cb",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-17"
 }

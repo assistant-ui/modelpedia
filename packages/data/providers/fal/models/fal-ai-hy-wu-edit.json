@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Image editing with HY-WU.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-25",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/hy-wu-edit",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "de830f43",
     "description": "399a2ee3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "244f8d0f",
     "model_type": "db8857fe",
     "page_url": "30f32937",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-17"
 }
