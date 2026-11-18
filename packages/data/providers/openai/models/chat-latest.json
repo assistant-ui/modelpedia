@@ -3,7 +3,7 @@
   "name": "Chat Latest",
   "created_by": "openai",
   "source": "official",
-  "description": "chat-latest points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-6 Astra for production API usage. Learn more on the Model guidance page. The underlying model snapshot will be regularly updated.",
+  "description": "chat-latest points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-6.2 Astra for production API usage. Learn more on the Model guidance page. The underlying model snapshot will be regularly updated.",
   "status": "active",
   "knowledge_cutoff": "2026-04",
   "context_window": 400000,
@@ -61,7 +61,7 @@
   "snapshots": ["chat-latest"],
   "_generated": {
     "name": "1d88561d",
-    "description": "5d892db0",
+    "description": "c774e6cc",
     "status": "379ac110",
     "knowledge_cutoff": "58654c5c",
     "context_window": "2a3a2d28",
@@ -80,5 +80,5 @@
     "tools": "1d5a765f",
     "endpoints": "72e91ba7"
   },
-  "last_updated": "2026-10-11"
+  "last_updated": "2026-11-18"
 }

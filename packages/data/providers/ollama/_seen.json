@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "count": 36,
   "ids": [
     "autotrust-jev",
@@ -9,7 +9,6 @@
     "d3",
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
-    "flint",
     "gemma4",
     "glm-5.2",
     "glm-5.3",
@@ -34,6 +33,7 @@
     "nemotron-3-super",
     "nemotron-3-ultra",
     "nemotron-3.5-lightning",
+    "ornith-1.5",
     "phonon",
     "pplx-decider-flash",
     "qwen3.8",

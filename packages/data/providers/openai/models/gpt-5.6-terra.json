@@ -56,6 +56,10 @@
             "values": [1, 6, 0.1, 1.25, 2.5]
           },
           {
+            "label": "Flex",
+            "values": [1, 6, 0.1, 1.25, 2.5]
+          },
+          {
             "label": "Fast",
             "values": [4, 24, 0.4, 5, 10]
           }
@@ -96,13 +100,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "16094cd8",
+    "pricing": "014ee5fd",
     "tools": "c3217644",
     "endpoints": "ec55a017",
     "description": "da8093ac",
     "tagline": "47ab7302"
   },
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-18",
   "description": "GPT-5.6 Terra is designed for workloads that balance intelligence and cost. It roughly corresponds to the mini model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "tagline": "GPT-5.6 model that balances intelligence and cost",
   "snapshots": ["gpt-5.6-terra"]

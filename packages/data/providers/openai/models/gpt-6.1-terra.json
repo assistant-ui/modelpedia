@@ -61,6 +61,10 @@
             "values": [0.5, 2.5, 0.025, 0.625, 1.25, null]
           },
           {
+            "label": "Flex",
+            "values": [0.5, 2.5, 0.025, 0.625, 1.25, null]
+          },
+          {
             "label": "Fast",
             "values": [2, 10, 0.1, 2.5, 5, null]
           }
@@ -102,9 +106,9 @@
     "model_type": "d669f408",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "1dfb9a40",
+    "pricing": "2c9ed062",
     "tools": "c3217644",
     "endpoints": "ec55a017"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-18"
 }

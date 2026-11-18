@@ -1,0 +1,39 @@
+{
+  "id": "zai-org/glm-new",
+  "name": "zai-org/glm-new",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm",
+  "status": "active",
+  "release_date": "2026-03-11",
+  "context_window": 198000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0a53d8dc",
+    "family": "cb6bfc11",
+    "status": "379ac110",
+    "release_date": "81f079f9",
+    "context_window": "0b9a31cd",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-18"
+}

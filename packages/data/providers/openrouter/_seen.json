@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "count": 482,
+  "date": "2026-11-18",
+  "count": 490,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -330,6 +330,14 @@
     "openai-gpt-6.1-terra-batch",
     "openai-gpt-6.1-terra-pro",
     "openai-gpt-6.1-terra-pro-batch",
+    "openai-gpt-6.2-astra",
+    "openai-gpt-6.2-astra-batch",
+    "openai-gpt-6.2-astra-pro",
+    "openai-gpt-6.2-astra-pro-batch",
+    "openai-gpt-6.2-sol",
+    "openai-gpt-6.2-sol-batch",
+    "openai-gpt-6.2-sol-pro",
+    "openai-gpt-6.2-sol-pro-batch",
     "openai-gpt-audio",
     "openai-gpt-audio-mini",
     "openai-gpt-chat-latest",

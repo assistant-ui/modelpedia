@@ -1,0 +1,30 @@
+{
+  "id": "openai.gpt-6.2-sol",
+  "name": "GPT-6.2 Sol",
+  "created_by": "openai",
+  "source": "official",
+  "release_date": "2026-11-17",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-2-sol",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d29d59e2",
+    "release_date": "e8e85b8a",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "page_url": "88aaceac",
+    "capabilities": "8a3b232e",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-11-18"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "heygen/avatar-6/turbo/ref-video-to-video",
+  "name": "HeyGen Avatar 6 Turbo Reference Video to Video",
+  "created_by": "heygen",
+  "source": "official",
+  "description": "HeyGen Avatar 6 Turbo, the lower-cost tier, animates an animated or illustrated character from a reference video into a talking video lip-synced to a supplied speech track, with an optional reference photo of the same character.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "other",
+  "page_url": "https://fal.run/heygen/avatar-6/turbo/ref-video-to-video",
+  "tagline": "HeyGen Avatar 6 Turbo, the lower-cost tier, animates an animated or illustrated character from a reference video into a talking video lip-synced to a supplied speech track, with an optional reference ",
+  "last_seen_at": "2026-11-17",
+  "_generated": {
+    "name": "7c21bff9",
+    "description": "2e019658",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "ddb0b7bc",
+    "page_url": "1874903c",
+    "tagline": "2d4992a8",
+    "last_seen_at": "e8e85b8a"
+  },
+  "last_updated": "2026-11-18"
+}

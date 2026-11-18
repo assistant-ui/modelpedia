@@ -3,7 +3,7 @@
   "name": "GPT-5.4 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-18",
   "family": "gpt-5.4",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -50,6 +50,10 @@
           {
             "label": "Batch",
             "values": [15, 90, null, null, null]
+          },
+          {
+            "label": "Flex",
+            "values": [15, 90, null, null, null]
           }
         ]
       }
@@ -69,7 +73,7 @@
     "speed": "c4ca4238",
     "capabilities": "817f839e",
     "modalities": "6399757e",
-    "pricing": "b3b4fe4c",
+    "pricing": "4625212e",
     "endpoints": "acb164ea",
     "model_type": "d669f408",
     "license": "9186c466",

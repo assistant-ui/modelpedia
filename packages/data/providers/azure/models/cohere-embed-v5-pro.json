@@ -16,7 +16,9 @@
     "name": "56f9a7e9",
     "model_type": "764cb3de",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-18",
+  "status": "deprecated"
 }

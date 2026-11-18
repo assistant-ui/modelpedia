@@ -56,6 +56,10 @@
             "values": [0.1, 0.6, 0.01, 0.125, 0.25]
           },
           {
+            "label": "Flex",
+            "values": [0.1, 0.6, 0.01, 0.125, 0.25]
+          },
+          {
             "label": "Fast",
             "values": [0.4, 2.4, 0.04, 0.5, 1]
           }
@@ -96,13 +100,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "5e5a3c39",
+    "pricing": "90d4486a",
     "tools": "c3217644",
     "endpoints": "ec55a017",
     "description": "cedc5bcb",
     "tagline": "e7e57a3e"
   },
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-18",
   "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
   "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
   "snapshots": ["gpt-5.6-luna"]

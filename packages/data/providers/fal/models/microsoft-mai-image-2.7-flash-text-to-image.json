@@ -1,0 +1,35 @@
+{
+  "id": "microsoft/mai-image-2.7/flash/text-to-image",
+  "name": "MAI-Image-2.7 Flash",
+  "created_by": "microsoft",
+  "source": "official",
+  "description": "MAI-Image-2.7 Flash is Microsoft’s lower-cost image generation variant, producing images from text prompts with preset or custom dimensions and PNG, JPEG, or WebP output.",
+  "status": "active",
+  "release_date": "2026-11-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/microsoft/mai-image-2.7/flash/text-to-image",
+  "tagline": "MAI-Image-2.7 Flash is Microsoft’s lower-cost image generation variant, producing images from text prompts with preset or custom dimensions and PNG, JPEG, or WebP output.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-17",
+  "_generated": {
+    "name": "f319581d",
+    "description": "46c21bda",
+    "status": "379ac110",
+    "release_date": "2a189e02",
+    "model_type": "db8857fe",
+    "page_url": "c0804122",
+    "tagline": "46c21bda",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "e8e85b8a"
+  },
+  "last_updated": "2026-11-18"
+}

@@ -3,7 +3,7 @@
   "name": "qwen-3-235b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-18",
   "family": "qwen",
   "context_window": 262100,
   "capabilities": {
@@ -24,7 +24,8 @@
     "model_type": "d669f408",
     "parameters": "577ef115",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 235,
@@ -32,5 +33,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

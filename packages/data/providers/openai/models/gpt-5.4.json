@@ -3,7 +3,7 @@
   "name": "GPT-5.4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-18",
   "family": "gpt-5.4",
   "description": "GPT-5.4 is a flagship model for complex professional work. Learn more in our GPT-5.4 model guidance. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
   "status": "active",
@@ -57,6 +57,10 @@
             "values": [1.25, 7.5, 0.13, null, null]
           },
           {
+            "label": "Flex",
+            "values": [1.25, 7.5, 0.13, null, null]
+          },
+          {
             "label": "Fast",
             "values": [5, 30, 0.5, null, null]
           }
@@ -99,7 +103,7 @@
     "tagline": "81e35884",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "82360324",
+    "pricing": "d74f1f54",
     "tools": "44af6f15",
     "endpoints": "ec55a017",
     "pricing_notes": "05914e8c",

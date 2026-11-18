@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "count": 144,
+  "date": "2026-11-18",
+  "count": 146,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
     "ai21.jamba-1-5-mini-v1-0",
@@ -104,6 +104,8 @@
     "openai.gpt-6-sol",
     "openai.gpt-6.1-sol",
     "openai.gpt-6.1-terra",
+    "openai.gpt-6.2-astra",
+    "openai.gpt-6.2-sol",
     "openai.gpt-daybreak-blue-5.6-sol",
     "openai.gpt-oss-120b-1-0",
     "openai.gpt-oss-20b-1-0",

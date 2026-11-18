@@ -1,0 +1,35 @@
+{
+  "id": "kling/v4/long-image",
+  "name": "Kling Image V4 Long Image",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Generates long-form visual designs for webpages and ecommerce from a text prompt, with optional reference images and controls for length and resolution.",
+  "status": "active",
+  "release_date": "2026-11-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/kling/v4/long-image",
+  "tagline": "Generates long-form visual designs for webpages and ecommerce from a text prompt, with optional reference images and controls for length and resolution.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-17",
+  "_generated": {
+    "name": "21046a80",
+    "description": "73b810a8",
+    "status": "379ac110",
+    "release_date": "e8e85b8a",
+    "model_type": "db8857fe",
+    "page_url": "85d6f907",
+    "tagline": "73b810a8",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "e8e85b8a"
+  },
+  "last_updated": "2026-11-18"
+}
