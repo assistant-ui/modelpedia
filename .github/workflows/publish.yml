@@ -20,6 +20,8 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # Protected environment: required reviewers; only v* tags and main.
+    environment: npm-publish
     steps:
       - uses: actions/checkout@v4
         with:
