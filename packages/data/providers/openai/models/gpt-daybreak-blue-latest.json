@@ -53,6 +53,10 @@
             "values": [2, 10, 0.2, 2.5, 5]
           },
           {
+            "label": "Flex",
+            "values": [2, 10, 0.2, 2.5, 5]
+          },
+          {
             "label": "Fast",
             "values": [8, 40, 0.8, 10, 20]
           }
@@ -88,11 +92,11 @@
     "open_weight": "68934a3e",
     "capabilities": "15adcda2",
     "modalities": "6399757e",
-    "pricing": "063d134f",
+    "pricing": "370cbb35",
     "tools": "c3217644",
     "endpoints": "acb164ea",
     "status": "379ac110"
   },
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-18",
   "status": "active"
 }

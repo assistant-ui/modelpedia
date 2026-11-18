@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Veo 3 by Google, the most advanced AI video generation model in the world.",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2025-06-05",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/veo3",
@@ -14,18 +14,18 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-04-28",
+  "last_seen_at": "2026-11-17",
   "_generated": {
     "name": "ed7d4190",
     "description": "453f495e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "f6aec5de",
     "model_type": "4d1b75ca",
     "page_url": "bb8417a6",
     "tagline": "453f495e",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "last_seen_at": "52326430"
+    "last_seen_at": "e8e85b8a"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-11-18"
 }

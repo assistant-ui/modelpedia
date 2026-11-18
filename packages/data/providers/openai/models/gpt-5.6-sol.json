@@ -56,6 +56,10 @@
             "values": [2, 10, 0.2, 2.5, 5]
           },
           {
+            "label": "Flex",
+            "values": [2, 10, 0.2, 2.5, 5]
+          },
+          {
             "label": "Fast",
             "values": [8, 40, 0.8, 10, 20]
           }
@@ -85,13 +89,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "a30014ee",
+    "pricing": "90d67a35",
     "tools": "f0c1dc7e",
     "endpoints": "acb164ea",
     "description": "1fe77ac6",
     "tagline": "b2373111"
   },
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-18",
   "description": "GPT-5.6 Sol is a flagship model in the GPT-5.6 family. It roughly corresponds to the unsuffixed model tier used in earlier GPT-5 families. The `gpt-5.6` alias routes requests to GPT-5.6 Sol. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "alias": "gpt-daybreak-blue-latest",
   "tagline": "GPT-5.6 flagship model for complex professional work",

@@ -1,0 +1,35 @@
+{
+  "id": "kling/v4/text-to-image",
+  "name": "Kling Image V4 Text to Image",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Kling Image V4 text-to-image endpoint.",
+  "status": "active",
+  "release_date": "2026-11-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/kling/v4/text-to-image",
+  "tagline": "Kling Image V4 text-to-image endpoint.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-17",
+  "_generated": {
+    "name": "f214bde5",
+    "description": "1082d74b",
+    "status": "379ac110",
+    "release_date": "7914a035",
+    "model_type": "db8857fe",
+    "page_url": "0b19e3e6",
+    "tagline": "1082d74b",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "e8e85b8a"
+  },
+  "last_updated": "2026-11-18"
+}

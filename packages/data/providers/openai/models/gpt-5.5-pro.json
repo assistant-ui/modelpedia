@@ -54,6 +54,10 @@
           {
             "label": "Batch",
             "values": [15, 90, null, null, null]
+          },
+          {
+            "label": "Flex",
+            "values": [15, 90, null, null, null]
           }
         ]
       }
@@ -86,14 +90,14 @@
     "open_weight": "68934a3e",
     "capabilities": "bcd7f168",
     "modalities": "6399757e",
-    "pricing": "b3b4fe4c",
+    "pricing": "4625212e",
     "tools": "0172b421",
     "endpoints": "6f01fd6c",
     "release_date": "a87679d0",
     "description": "4bbff3ab",
     "tagline": "7db15905"
   },
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-18",
   "release_date": "2026-04-23",
   "snapshots": ["gpt-5.5-pro-2026-04-23"],
   "description": "GPT-5.5 Pro uses more compute to think harder and provide consistently better answers.",

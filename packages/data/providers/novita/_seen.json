@@ -1,8 +1,7 @@
 {
-  "date": "2026-11-17",
-  "count": 101,
+  "date": "2026-11-18",
+  "count": 108,
   "ids": [
-    "apodex-apodex-1.1-mini",
     "baichuan-baichuan-m2-32b",
     "baidu-cobuddy",
     "bunny",
@@ -61,11 +60,18 @@
     "nvidia-nemotron-3-nano-30b-a3b",
     "nvrouter-auto",
     "nvrouter-fusion",
+    "openai-gpt-6.2-astra",
+    "openai-gpt-6.2-astra-azure-dst",
+    "openai-gpt-6.2-astra-es",
+    "openai-gpt-6.2-sol",
+    "openai-gpt-6.2-sol-azure-dst",
+    "openai-gpt-6.2-sol-es",
     "openai-gpt-oss-120b",
     "paddlepaddle-paddleocr-vl",
     "qwen-qwen-mt-plus",
     "qwen-qwen3-omni-30b-a3b-thinking",
     "qwen-qwen3-vl-30b-a3b-instruct",
+    "qwen-qwen3-vl-plus",
     "qwen-qwen3.5-122b-a10b",
     "qwen-qwen3.5-27b",
     "qwen-qwen3.5-35b-a3b",
@@ -102,6 +108,7 @@
     "zai-org-glm-5.3",
     "zai-org-glm-5.3-flash",
     "zai-org-glm-5.3-flashx",
-    "zai-org-glm-5.3-p"
+    "zai-org-glm-5.3-p",
+    "zai-org-glm-new"
   ]
 }

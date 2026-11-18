@@ -3,16 +3,16 @@
   "name": "Gemini 3.1 Pro",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-18",
   "family": "gemini-3.1",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "2b2f1d84",
     "family": "ea4a1a23",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6",
     "model_type": "d669f408",
     "modalities": "68e53d93",

@@ -1,0 +1,35 @@
+{
+  "id": "heygen/avatar-6/turbo/image-to-video",
+  "name": "HeyGen Avatar 6 Turbo Image to Video",
+  "created_by": "heygen",
+  "source": "official",
+  "description": "HeyGen Avatar 6 Turbo, the lower-cost tier, animates a photo of a person into a talking video lip-synced to a supplied speech track, with the audio setting the video length.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/heygen/avatar-6/turbo/image-to-video",
+  "tagline": "HeyGen Avatar 6 Turbo, the lower-cost tier, animates a photo of a person into a talking video lip-synced to a supplied speech track, with the audio setting the video length.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-11-17",
+  "_generated": {
+    "name": "8bd3c2ad",
+    "description": "18a3a400",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "4d1b75ca",
+    "page_url": "26651a1b",
+    "tagline": "18a3a400",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "e8e85b8a"
+  },
+  "last_updated": "2026-11-18"
+}

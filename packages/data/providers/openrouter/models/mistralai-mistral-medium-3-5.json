@@ -36,8 +36,12 @@
     "modalities": "6399757e",
     "pricing": "c99e0f75",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "fbae4e32"
+    "max_output_tokens": "fbae4e32",
+    "status": "2e2f74dc",
+    "deprecation_date": "3d0c3f66"
   },
-  "last_updated": "2026-08-30",
-  "max_output_tokens": 209715
+  "last_updated": "2026-11-18",
+  "max_output_tokens": 209715,
+  "status": "deprecated",
+  "deprecation_date": "2027-01-31"
 }

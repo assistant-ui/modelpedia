@@ -12,7 +12,9 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -26,10 +28,14 @@
     "page_url": "6c951c6e",
     "open_weight": "b326b506",
     "tagline": "b5a3a947",
-    "capabilities": "91e36286",
+    "capabilities": "484b331c",
     "modalities": "6399757e",
-    "status": "2e2f74dc"
+    "status": "2e2f74dc",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-17",
-  "status": "deprecated"
+  "last_updated": "2026-11-18",
+  "status": "deprecated",
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

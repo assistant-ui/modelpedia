@@ -1,0 +1,31 @@
+{
+  "id": "heygen/avatar-6/identity-to-video",
+  "name": "HeyGen Avatar 6 Identity to Video",
+  "created_by": "heygen",
+  "source": "official",
+  "description": "HeyGen Avatar 6 generates a talking video of a stock HeyGen avatar speaking a text script in a selected HeyGen voice, or lip-synced to an uploaded audio file.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/heygen/avatar-6/identity-to-video",
+  "tagline": "HeyGen Avatar 6 generates a talking video of a stock HeyGen avatar speaking a text script in a selected HeyGen voice, or lip-synced to an uploaded audio file.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-11-18",
+  "_generated": {
+    "name": "2c5b2de6",
+    "description": "5dcdcf2e",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "4d1b75ca",
+    "page_url": "40b551f6",
+    "tagline": "5dcdcf2e",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "1b67f42e"
+  },
+  "last_updated": "2026-11-18"
+}

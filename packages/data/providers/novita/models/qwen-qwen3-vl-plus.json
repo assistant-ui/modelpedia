@@ -1,0 +1,49 @@
+{
+  "id": "qwen/qwen3-vl-plus",
+  "name": "Qwen3 VL Plus",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "The Qwen3 series VL models effectively integrates thinking and non-thinking modes, achieving world-leading performance in visual agent capabilities on public benchmark datasets such as OS World.",
+  "status": "active",
+  "release_date": "2026-11-17",
+  "context_window": 262000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "tagline": "The Qwen3 series VL models effectively integrates thinking and non-thinking modes, achieving world-leading performance in visual agent capabilities on public benchmark datasets such as OS World.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3f26f5c6",
+    "family": "48c385a0",
+    "description": "5401fc2a",
+    "status": "379ac110",
+    "release_date": "e8e85b8a",
+    "context_window": "4ed74017",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "tagline": "5401fc2a",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "5418a9a1",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-18"
+}

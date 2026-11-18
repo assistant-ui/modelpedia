@@ -1,0 +1,109 @@
+{
+  "id": "gpt-6.2-astra",
+  "name": "GPT-6.2 Astra",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.2",
+  "description": "GPT-6.2 Astra can build and revise software, use a computer, and work with documents. It accepts text and images and responds with text. In the Responses API, use the Multi-agent beta to delegate work to subagents.",
+  "status": "active",
+  "knowledge_cutoff": "2026-05",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 4,
+  "tagline": "Our most capable model for your hardest projects, from start to finish.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 8,
+    "output": 40,
+    "cached_input": 0.4,
+    "batch_input": 4,
+    "batch_output": 20,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write",
+          "Cache writes"
+        ],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 40, 0.4, 10, 20, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 20, 0.2, 5, 10, null]
+          },
+          {
+            "label": "Fast",
+            "values": [16, 80, 0.8, 20, 40, null]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "_generated": {
+    "name": "87054822",
+    "family": "046037f3",
+    "description": "b08c618a",
+    "status": "379ac110",
+    "knowledge_cutoff": "0580e31b",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "a87ff679",
+    "tagline": "03e6b537",
+    "page_url": "f81590ee",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "822aa4d1",
+    "modalities": "6399757e",
+    "pricing": "fb8748d4",
+    "tools": "c3217644",
+    "endpoints": "ec55a017"
+  },
+  "last_updated": "2026-11-18"
+}

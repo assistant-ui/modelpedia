@@ -3,7 +3,7 @@
   "name": "gpt-5.4-2026-03-05",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-18",
   "family": "gpt-5.4",
   "description": "GPT-5.4 is a flagship model for complex professional work.",
   "status": "active",
@@ -58,6 +58,10 @@
             "values": [1.25, 0.13, 7.5, null, null]
           },
           {
+            "label": "Flex",
+            "values": [1.25, 0.13, 7.5, null, null]
+          },
+          {
             "label": "Fast",
             "values": [5, 0.5, 30, null, null]
           }
@@ -82,7 +86,7 @@
     "tagline": "d4da0a8e",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "384fcabb",
+    "pricing": "ffda1929",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "e6626ce2",

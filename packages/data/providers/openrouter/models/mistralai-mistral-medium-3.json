@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral Medium 3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-18",
   "family": "mistral-medium",
   "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost.",
   "context_window": 131072,
@@ -17,9 +17,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.4,
-    "output": 2,
-    "cached_input": 0.04
+    "input": 0.44,
+    "output": 2.2,
+    "cached_input": 0.044
   },
   "_generated": {
     "name": "e4e1eea4",
@@ -28,7 +28,7 @@
     "context_window": "f7de594e",
     "modalities": "6399757e",
     "capabilities": "6c9aa67e",
-    "pricing": "e7be2550",
+    "pricing": "d7ff11d3",
     "model_type": "d669f408",
     "release_date": "0d063515",
     "tagline": "152d4a56",

@@ -56,6 +56,10 @@
           {
             "label": "Batch",
             "values": [15, 90, null, null, null]
+          },
+          {
+            "label": "Flex",
+            "values": [15, 90, null, null, null]
           }
         ]
       }
@@ -81,9 +85,9 @@
     "open_weight": "68934a3e",
     "capabilities": "bcd7f168",
     "modalities": "6399757e",
-    "pricing": "b3b4fe4c",
+    "pricing": "4625212e",
     "tools": "f0c1dc7e",
     "endpoints": "6f01fd6c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-18"
 }

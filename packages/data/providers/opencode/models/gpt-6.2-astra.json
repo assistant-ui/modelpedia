@@ -1,0 +1,49 @@
+{
+  "id": "gpt-6.2-astra",
+  "name": "GPT 6.2 Astra",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.2",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 8,
+    "output": 40,
+    "cached_input": 0.4,
+    "cache_write": 10,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 272K tokens",
+            "values": [8, 40, 0.4, 10]
+          },
+          {
+            "label": "> 272K tokens",
+            "values": [16, 60, 0.8, 20]
+          }
+        ]
+      }
+    ]
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c56907e5",
+    "family": "046037f3",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "9da83fde",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-18"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bytedance/seedream-5.5",
+  "name": "seedream-5.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "a3c524ea",
+    "model_type": "db8857fe",
+    "capabilities": "8a3b232e",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-11-18"
+}

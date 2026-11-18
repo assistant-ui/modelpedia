@@ -4,7 +4,7 @@
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -21,11 +21,11 @@
   "_generated": {
     "name": "84bf4b56",
     "family": "c85916f0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "d7e97780",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-18"
 }

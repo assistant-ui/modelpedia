@@ -1,0 +1,27 @@
+{
+  "id": "gpt-6.2",
+  "name": "GPT-6.2 series",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.2",
+  "description": "NEW gpt-6.2-astra , NEW gpt-6.2-sol",
+  "model_type": "chat",
+  "tagline": "NEW gpt-6.2-astra , NEW gpt-6.2-sol",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1119f810",
+    "family": "046037f3",
+    "description": "b06cd93b",
+    "model_type": "d669f408",
+    "tagline": "b06cd93b",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-18"
+}

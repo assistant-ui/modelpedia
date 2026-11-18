@@ -1,0 +1,24 @@
+{
+  "id": "heygen/avatar-6/ref-video-to-video",
+  "name": "HeyGen Avatar 6 Reference Video to Video",
+  "created_by": "heygen",
+  "source": "official",
+  "description": "HeyGen Avatar 6 animates an animated or illustrated character from a reference video into a talking video lip-synced to a supplied speech track, with an optional reference photo of the same character.",
+  "status": "active",
+  "release_date": "2026-11-16",
+  "model_type": "other",
+  "page_url": "https://fal.run/heygen/avatar-6/ref-video-to-video",
+  "tagline": "HeyGen Avatar 6 animates an animated or illustrated character from a reference video into a talking video lip-synced to a supplied speech track, with an optional reference photo of the same character.",
+  "last_seen_at": "2026-11-17",
+  "_generated": {
+    "name": "92f69009",
+    "description": "fda8e5e3",
+    "status": "379ac110",
+    "release_date": "56e9ce3f",
+    "model_type": "ddb0b7bc",
+    "page_url": "d539cdb8",
+    "tagline": "fda8e5e3",
+    "last_seen_at": "e8e85b8a"
+  },
+  "last_updated": "2026-11-18"
+}
