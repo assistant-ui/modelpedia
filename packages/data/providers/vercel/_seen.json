@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "count": 477,
+  "date": "2026-11-19",
+  "count": 479,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-30b",
@@ -168,6 +168,7 @@
     "google-gemini-4-argon",
     "google-gemini-4-carbon",
     "google-gemini-4-hydrogen",
+    "google-gemini-4-neon",
     "google-gemini-decision-1",
     "google-gemini-embedding-001",
     "google-gemini-embedding-2",
@@ -402,6 +403,7 @@
     "sakana-fugu-ultra",
     "sakana-fugu-ultra-v2",
     "sakana-namazu",
+    "scaledown-extract-1",
     "scaledown-scaledown-classify-1",
     "scaledown-scaledown-extract-1",
     "scaledown-scaledown-summarize-1",

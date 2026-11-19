@@ -1,0 +1,30 @@
+{
+  "id": "s/qwen4-max",
+  "name": "Qwen4 Max",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen4",
+  "page_url": "https://www.together.ai/models/qwen4-max",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0713,
+    "output": 4.28
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c8e5bbcc",
+    "family": "ba67260b",
+    "page_url": "a3fec053",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "df6cb596",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-19"
+}

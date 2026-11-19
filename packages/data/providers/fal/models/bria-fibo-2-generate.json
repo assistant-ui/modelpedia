@@ -20,7 +20,7 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-11-18",
+  "last_seen_at": "2026-11-19",
   "_generated": {
     "name": "52fbfd37",
     "description": "aa9709fc",
@@ -32,7 +32,7 @@
     "capabilities": "d9a4fb45",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "1b67f42e"
+    "last_seen_at": "8ca45baf"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-19"
 }

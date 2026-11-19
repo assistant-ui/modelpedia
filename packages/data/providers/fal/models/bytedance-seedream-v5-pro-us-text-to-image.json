@@ -1,6 +1,6 @@
 {
   "id": "bytedance/seedream/v5/pro/us/text-to-image",
-  "name": "Seedream",
+  "name": "Seedream 5.0 Pro US Text to Image",
   "created_by": "bytedance",
   "source": "official",
   "description": "US Inference endpoint for Seedream 5.0 Pro Text-to-Image.",
@@ -17,9 +17,9 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-11-14",
+  "last_seen_at": "2026-11-18",
   "_generated": {
-    "name": "cd6ab6f1",
+    "name": "e7a70834",
     "description": "bc915c8a",
     "status": "379ac110",
     "release_date": "2a189e02",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "2a189e02"
+    "last_seen_at": "1b67f42e"
   },
-  "last_updated": "2026-11-15"
+  "last_updated": "2026-11-19"
 }

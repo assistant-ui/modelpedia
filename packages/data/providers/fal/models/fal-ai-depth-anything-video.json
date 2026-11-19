@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/depth-anything-video",
   "tagline": "Generates depth maps from video using Video Depth Anything (CVPR 2025).",
-  "last_seen_at": "2026-10-20",
+  "last_seen_at": "2026-11-18",
   "_generated": {
     "name": "576accf0",
     "description": "9e157c61",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "6c12bef5",
     "tagline": "9e157c61",
-    "last_seen_at": "d322d85c"
+    "last_seen_at": "1b67f42e"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-19"
 }

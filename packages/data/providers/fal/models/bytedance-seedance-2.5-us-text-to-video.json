@@ -3,7 +3,7 @@
   "name": "Seedance 2.5 US Text to Video",
   "created_by": "bytedance",
   "source": "official",
-  "description": "US-hosted ByteDance Seedance 2.5 generates cinematic video from text with synchronized audio, up to 30-second duration, and 480p, 720p or 1080p output.",
+  "description": "US-hosted ByteDance Seedance 2.5 generates cinematic video from text with synchronized audio, up to 30-second duration, and 480p, 720p, 1080p or 4K output.",
   "status": "active",
   "release_date": "2026-09-19",
   "model_type": "video",
@@ -17,7 +17,7 @@
   "last_seen_at": "2026-11-18",
   "_generated": {
     "name": "0c4d2ca1",
-    "description": "723dd597",
+    "description": "e6e15f5d",
     "status": "379ac110",
     "release_date": "05663993",
     "model_type": "4d1b75ca",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "1b67f42e"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-19"
 }

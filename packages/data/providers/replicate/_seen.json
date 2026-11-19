@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "count": 127,
   "ids": [
     "851-labs-background-remover",
@@ -10,7 +10,6 @@
     "anthropic-claude-fable-5.2",
     "anthropic-claude-opus-4.6",
     "anthropic-claude-opus-5.5",
-    "appmeloncreator-pixelship-2.0",
     "appmeloncreator-platmoji-beta",
     "arielreplicate-robust_video_matting",
     "beautyyuyanli-multilingual-e5-large",
@@ -42,6 +41,7 @@
     "datalab-to-marker",
     "datalab-to-ocr",
     "detailx-video-upscale-detailx-video-upscaler",
+    "edgardozavala-phonon-tts-31m",
     "elevenlabs-music",
     "falcons-ai-nsfw_image_detection",
     "ferogabor1999-oss-kiki",

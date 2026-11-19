@@ -1,0 +1,22 @@
+{
+  "id": "scaledown/extract-1",
+  "name": "extract-1",
+  "created_by": "scaledown",
+  "source": "official",
+  "context_window": 1000000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0
+  },
+  "_generated": {
+    "name": "e2b0ef0f",
+    "context_window": "8155bc54",
+    "capabilities": "8a3b232e",
+    "pricing": "edbb3c0f"
+  },
+  "last_updated": "2026-11-19"
+}

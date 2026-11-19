@@ -1,11 +1,9 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-19",
   "count": 24,
   "ids": [
-    "s-boreal-h3",
     "s-deepseek-v4-1-flash-1017",
     "s-deepseek-v4-pro",
-    "s-deepseek-v4-pro-0813",
     "s-elorian-glimpse",
     "s-flux-3",
     "s-gemma-4-31b",
@@ -20,6 +18,8 @@
     "s-muse-spark-open",
     "s-nemotron-3-5-super-vl",
     "s-qwen3-8-flash",
+    "s-qwen3-tts-12hz-1-7b",
+    "s-qwen4-max",
     "s-reflection-beam",
     "s-ripple-65b-preview",
     "s-seedance-2-0",

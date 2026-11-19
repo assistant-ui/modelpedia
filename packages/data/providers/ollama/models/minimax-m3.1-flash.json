@@ -20,7 +20,7 @@
     "reasoning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -36,10 +36,10 @@
     "model_type": "d669f408",
     "tagline": "85023046",
     "capabilities": "3e581b07",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-19",
   "reasoning_tokens": true
 }

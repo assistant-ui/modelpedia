@@ -3,7 +3,7 @@
   "name": "MAI-Image-2.7 Edit",
   "created_by": "microsoft",
   "source": "official",
-  "description": "MAI-Image-2.7 edits images from text instructions and up to two input images, with preset or custom dimensions and PNG, JPEG, or WebP output.",
+  "description": "MAI-Image-2.7 edits images from text instructions and up to five input images, with preset or custom dimensions and PNG, JPEG, or WebP output.",
   "status": "active",
   "release_date": "2026-11-14",
   "model_type": "image",
@@ -20,7 +20,7 @@
   "last_seen_at": "2026-11-18",
   "_generated": {
     "name": "794855be",
-    "description": "aeb626e0",
+    "description": "092c02cb",
     "status": "379ac110",
     "release_date": "2a189e02",
     "model_type": "db8857fe",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "1b67f42e"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-19"
 }

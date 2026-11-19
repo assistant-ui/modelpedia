@@ -3,7 +3,7 @@
   "name": "Seedance 2.5 US Draft Complete",
   "created_by": "bytedance",
   "source": "official",
-  "description": "Draft completion endpoint for Seedance 2.5 US - submit a draft id to regenerate the task at 1080p.",
+  "description": "Draft completion endpoint for Seedance 2.5 US - submit a draft id to regenerate the task at 1080p or 4K.",
   "status": "active",
   "release_date": "2026-10-30",
   "model_type": "other",
@@ -12,7 +12,7 @@
   "last_seen_at": "2026-11-18",
   "_generated": {
     "name": "b075bf96",
-    "description": "7b763f05",
+    "description": "9f5ad6e3",
     "status": "379ac110",
     "release_date": "5f779969",
     "model_type": "ddb0b7bc",
@@ -20,5 +20,5 @@
     "tagline": "7b763f05",
     "last_seen_at": "1b67f42e"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-19"
 }

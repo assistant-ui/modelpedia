@@ -1,0 +1,16 @@
+{
+  "id": "edgardozavala/phonon-tts-31m",
+  "name": "Phonon Tts 31m",
+  "created_by": "edgardozavala",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/edgardozavala/phonon-tts-31m",
+  "_generated": {
+    "name": "6cbb02eb",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "1f979c4c"
+  },
+  "last_updated": "2026-11-19"
+}

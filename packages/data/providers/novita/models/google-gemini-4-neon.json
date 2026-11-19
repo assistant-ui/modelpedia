@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-4-neon",
+  "name": "google/gemini-4-neon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "status": "active",
+  "release_date": "2026-11-19",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8f481e02",
+    "family": "bd0f233d",
+    "status": "379ac110",
+    "release_date": "8ca45baf",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "7939f0ff",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-19"
+}

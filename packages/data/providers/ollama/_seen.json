@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "count": 36,
+  "date": "2026-11-19",
+  "count": 37,
   "ids": [
     "autotrust-jev",
     "beam",
@@ -33,6 +33,7 @@
     "nemotron-3-super",
     "nemotron-3-ultra",
     "nemotron-3.5-lightning",
+    "ornith",
     "ornith-1.5",
     "phonon",
     "pplx-decider-flash",

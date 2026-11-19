@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "count": 109,
+  "date": "2026-11-19",
+  "count": 110,
   "ids": [
     "beam-free",
     "big-pickle",
@@ -31,6 +31,7 @@
     "gemini-4-argon",
     "gemini-4-carbon",
     "gemini-4-hydrogen",
+    "gemini-4-neon",
     "gemini-decision-1",
     "gemini-nano-banana-2.1",
     "glm-5",
@@ -38,7 +39,6 @@
     "glm-5.2",
     "glm-5.3",
     "glm-5.3-flash",
-    "glm-5.3-flash-free",
     "gpt-5",
     "gpt-5-codex",
     "gpt-5-nano",
@@ -110,6 +110,7 @@
     "qwen3.8-flash",
     "qwen3.8-max",
     "qwen4-max",
-    "step-5-preview"
+    "step-5-preview",
+    "tidepool-alpha-free"
   ]
 }
