@@ -4,7 +4,7 @@
   "created_by": "zai",
   "source": "official",
   "family": "glm-5.3",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -21,11 +21,11 @@
   "_generated": {
     "name": "e447137d",
     "family": "9f217d9a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "d7e97780",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-19"
 }

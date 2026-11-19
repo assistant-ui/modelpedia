@@ -1,0 +1,28 @@
+{
+  "id": "speridlabs/idol/max/turbo",
+  "name": "Idol Max Turbo",
+  "created_by": "speridlabs",
+  "source": "official",
+  "description": "Turn one image into a game-ready 3D mesh in about 20 seconds, with an optional rig and animations.",
+  "status": "active",
+  "release_date": "2026-11-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/speridlabs/idol/max/turbo",
+  "tagline": "Turn one image into a game-ready 3D mesh in about 20 seconds, with an optional rig and animations.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-19",
+  "_generated": {
+    "name": "94cc9e18",
+    "description": "f853920b",
+    "status": "379ac110",
+    "release_date": "e8e85b8a",
+    "model_type": "ddb0b7bc",
+    "page_url": "d407c3ce",
+    "tagline": "f853920b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "8ca45baf"
+  },
+  "last_updated": "2026-11-19"
+}

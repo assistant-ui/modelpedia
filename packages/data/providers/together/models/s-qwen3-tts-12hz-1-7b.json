@@ -1,0 +1,22 @@
+{
+  "id": "s/qwen3-tts-12hz-1-7b",
+  "name": "Qwen3 Tts 12hz 1 7b",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "parameters": 7,
+  "page_url": "https://www.together.ai/models/qwen3-tts-12hz-1-7b",
+  "model_type": "tts",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "961e8c04",
+    "family": "48c385a0",
+    "parameters": "8f14e45f",
+    "page_url": "c888880b",
+    "model_type": "4e16a2cf",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-19"
+}

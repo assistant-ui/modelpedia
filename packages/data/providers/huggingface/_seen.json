@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "count": 127,
+  "date": "2026-11-19",
+  "count": 129,
   "ids": [
     "aeon-7-gemma-4-12b-it-aeon-abliterated-k4-bf16",
     "aeon-7-qwen3.6-27b-aeon-ultimate-uncensored-bf16",
@@ -15,6 +15,7 @@
     "google-gemma-2-2b-it",
     "google-gemma-2-9b-it",
     "google-gemma-3-1b-it",
+    "google-gemma-7b-it",
     "ibm-granite-granite-4.2-30b",
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
@@ -120,6 +121,7 @@
     "xenova-sweep-next-edit-1.5b",
     "zai-org-glm-4.5",
     "zai-org-glm-4.5-air",
+    "zai-org-glm-4.6",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",
     "zai-org-glm-5",

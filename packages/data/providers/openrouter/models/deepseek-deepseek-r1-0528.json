@@ -3,11 +3,11 @@
   "name": "DeepSeek: R1 0528",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-19",
   "family": "deepseek-r1",
   "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens.",
   "context_window": 163840,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 32000,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,8 +19,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.5,
-    "output": 2.15,
+    "input": 0.571,
+    "output": 2.286,
     "cached_input": 0.35
   },
   "_generated": {
@@ -28,10 +28,10 @@
     "family": "c74cfb8e",
     "description": "b822e1ca",
     "context_window": "7edab444",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "10e4d788",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "0e072b08",
+    "pricing": "cb684860",
     "model_type": "17475f7f",
     "release_date": "172a2c69",
     "tagline": "b822e1ca",

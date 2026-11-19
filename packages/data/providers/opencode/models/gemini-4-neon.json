@@ -1,0 +1,25 @@
+{
+  "id": "gemini-4-neon",
+  "name": "gemini-4-neon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b5e67c7d",
+    "family": "bd0f233d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-19"
+}

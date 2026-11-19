@@ -4,7 +4,7 @@
   "created_by": "wan",
   "source": "official",
   "description": "Wan 2.6 reference-to-video model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-16",
   "model_type": "other",
   "page_url": "https://fal.run/wan/v2.6/reference-to-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "3e30b64b",
     "description": "a5fe77b4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "799b50a0",
     "model_type": "ddb0b7bc",
     "page_url": "8fcf41eb",
     "tagline": "a5fe77b4",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-11-19"
 }

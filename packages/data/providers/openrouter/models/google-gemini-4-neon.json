@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-4-neon",
+  "name": "Google: Gemini 4 Neon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "description": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work.",
+  "release_date": "2026-11-18",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8a4ee671",
+    "family": "bd0f233d",
+    "description": "9d5ce88f",
+    "release_date": "1b67f42e",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "9d5ce88f",
+    "capabilities": "03fbefb4",
+    "modalities": "b7a3ac68",
+    "pricing": "48e156c4",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-19"
+}

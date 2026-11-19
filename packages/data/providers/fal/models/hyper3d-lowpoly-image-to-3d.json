@@ -1,0 +1,28 @@
+{
+  "id": "hyper3d/lowpoly/image-to-3d",
+  "name": "Hyper3D Low Poly Image to 3D",
+  "created_by": "hyper3d",
+  "source": "official",
+  "description": "Hyper3D Low Poly generates low-poly 3D models from reference images, with optional texture generation and support for triangle or quad topology.",
+  "status": "active",
+  "release_date": "2026-11-18",
+  "model_type": "other",
+  "page_url": "https://fal.run/hyper3d/lowpoly/image-to-3d",
+  "tagline": "Hyper3D Low Poly generates low-poly 3D models from reference images, with optional texture generation and support for triangle or quad topology.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-18",
+  "_generated": {
+    "name": "0f1364d2",
+    "description": "a97c1aa2",
+    "status": "379ac110",
+    "release_date": "1b67f42e",
+    "model_type": "ddb0b7bc",
+    "page_url": "21f096a5",
+    "tagline": "a97c1aa2",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "1b67f42e"
+  },
+  "last_updated": "2026-11-19"
+}

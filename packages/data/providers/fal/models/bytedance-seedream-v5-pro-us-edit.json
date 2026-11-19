@@ -1,6 +1,6 @@
 {
   "id": "bytedance/seedream/v5/pro/us/edit",
-  "name": "Seedream 5.0 Pro US",
+  "name": "Seedream 5.0 Pro US Image Editing",
   "created_by": "bytedance",
   "source": "official",
   "description": "US inference endpoint for Seedream 5.0 Pro Image Editing.",
@@ -17,9 +17,9 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-11-14",
+  "last_seen_at": "2026-11-18",
   "_generated": {
-    "name": "343663da",
+    "name": "9acd66f2",
     "description": "d864e073",
     "status": "379ac110",
     "release_date": "2a189e02",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "2a189e02"
+    "last_seen_at": "1b67f42e"
   },
-  "last_updated": "2026-11-15"
+  "last_updated": "2026-11-19"
 }

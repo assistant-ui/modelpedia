@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "count": 490,
+  "date": "2026-11-19",
+  "count": 492,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -132,6 +132,8 @@
     "google-gemini-4-carbon-batch",
     "google-gemini-4-hydrogen",
     "google-gemini-4-hydrogen-batch",
+    "google-gemini-4-neon",
+    "google-gemini-4-neon-batch",
     "google-gemini-nano-banana-2.1",
     "google-gemini-omni-1.1-flash",
     "google-gemini-omni-1.2-flash",

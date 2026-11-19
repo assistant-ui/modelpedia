@@ -1,0 +1,24 @@
+{
+  "id": "hyper3d/lowpoly/mesh-to-3d",
+  "name": "Hyper3D Low Poly Mesh to 3D",
+  "created_by": "hyper3d",
+  "source": "official",
+  "description": "Hyper3D Low Poly converts existing high-poly models into low-poly meshes with triangle or quad topology, optionally projecting and baking the original textures onto the resulting mesh.",
+  "status": "active",
+  "release_date": "2026-11-18",
+  "model_type": "other",
+  "page_url": "https://fal.run/hyper3d/lowpoly/mesh-to-3d",
+  "tagline": "Hyper3D Low Poly converts existing high-poly models into low-poly meshes with triangle or quad topology, optionally projecting and baking the original textures onto the resulting mesh.",
+  "last_seen_at": "2026-11-18",
+  "_generated": {
+    "name": "f8429fc8",
+    "description": "ce240ff0",
+    "status": "379ac110",
+    "release_date": "1b67f42e",
+    "model_type": "ddb0b7bc",
+    "page_url": "7ed6efb9",
+    "tagline": "ce240ff0",
+    "last_seen_at": "1b67f42e"
+  },
+  "last_updated": "2026-11-19"
+}
