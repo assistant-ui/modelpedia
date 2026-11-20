@@ -3,7 +3,7 @@
   "name": "Kling 4.0 Video Editing",
   "created_by": "kling",
   "source": "official",
-  "description": "Kling 4.0 edits an input video using text instructions and optional image references, producing 3 to 30-second videos at 720p or 1080p.",
+  "description": "Kling 4.0 edits an input video using text instructions and optional image references, producing 3 to 30-second videos at 720p, 1080p or native 4K, with optional 10-bit HDR at 1080p and 4K.",
   "status": "active",
   "release_date": "2026-10-16",
   "model_type": "other",
@@ -12,17 +12,17 @@
   "capabilities": {
     "vision": true
   },
-  "last_seen_at": "2026-11-18",
+  "last_seen_at": "2026-11-20",
   "_generated": {
     "name": "245964c5",
-    "description": "bfc9809d",
+    "description": "8ae86635",
     "status": "379ac110",
     "release_date": "a343464b",
     "model_type": "ddb0b7bc",
     "page_url": "5b891a29",
     "tagline": "bfc9809d",
     "capabilities": "d3117eb0",
-    "last_seen_at": "1b67f42e"
+    "last_seen_at": "67948752"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-20"
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "minimax",
   "description": "MiniMax M3.1 Flash is positioned as a lightweight model optimized for Coding/Agent scenarios, boasting a 1 million-token context window.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-10-19",
   "context_window": 1000000,
   "max_output_tokens": 524288,
@@ -33,7 +33,7 @@
     "name": "ad239625",
     "family": "c85916f0",
     "description": "f1b476f9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "24f81a75",
     "context_window": "8155bc54",
     "max_output_tokens": "bcabf6a1",
@@ -45,5 +45,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-20"
 }

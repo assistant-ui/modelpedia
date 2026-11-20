@@ -20,9 +20,9 @@
     "modalities": "b7a3ac68",
     "capabilities": "03fbefb4",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "762e98db"
+    "max_output_tokens": "34434798"
   },
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-20",
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
@@ -30,5 +30,5 @@
     "json_mode": true
   },
   "tools": ["function_calling"],
-  "max_output_tokens": 64000
+  "max_output_tokens": 128000
 }

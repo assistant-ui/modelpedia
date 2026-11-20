@@ -1,0 +1,14 @@
+{
+  "id": "fastino/gliner2-pii",
+  "name": "gliner2-pii",
+  "created_by": "fastino",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "3c8e967c",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-20"
+}

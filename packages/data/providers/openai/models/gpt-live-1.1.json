@@ -1,0 +1,58 @@
+{
+  "id": "gpt-live-1.1",
+  "name": "GPT-Live-1.1",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT-Live-1.1 can listen while it speaks. Compared with GPT-Live-1, it transcribes speech more accurately and maintains a more consistent accent and voice across languages. Describe in plain language when the model should hand a task to your backend for reasoning or tool use.",
+  "status": "active",
+  "license": "proprietary",
+  "tagline": "Full-duplex voice model for multilingual conversations.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-live-1.1",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": false,
+    "tool_call": true,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["audio", "text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Live session duration",
+        "unit": "Per minute",
+        "columns": ["Active", "Standby"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.05, 0.02]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["live"],
+  "snapshots": ["gpt-live-1.1"],
+  "_generated": {
+    "name": "12755706",
+    "description": "06b9f2e9",
+    "status": "379ac110",
+    "license": "9186c466",
+    "tagline": "e7ed5b5f",
+    "page_url": "eaf1d5da",
+    "open_weight": "68934a3e",
+    "capabilities": "89789fa6",
+    "modalities": "aeba3801",
+    "pricing": "ac183c5e",
+    "tools": "f0c1dc7e",
+    "endpoints": "7468d746"
+  },
+  "last_updated": "2026-11-20"
+}

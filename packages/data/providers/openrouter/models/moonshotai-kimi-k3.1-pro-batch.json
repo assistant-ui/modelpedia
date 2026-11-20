@@ -11,7 +11,10 @@
   "model_type": "chat",
   "tagline": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window.",
   "capabilities": {
-    "reasoning": true
+    "reasoning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image", "video"],
@@ -31,9 +34,11 @@
     "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "9522b4d8",
-    "capabilities": "7107421f",
+    "capabilities": "9fe8aa88",
     "modalities": "3ad4060a",
-    "pricing": "531c9a77"
+    "pricing": "531c9a77",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-17"
+  "last_updated": "2026-11-20",
+  "tools": ["function_calling"]
 }

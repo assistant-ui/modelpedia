@@ -1,10 +1,10 @@
 {
   "id": "x-ai/grok-4.6:batch",
-  "name": "SpaceXAI: Grok 4.6 (batch)",
+  "name": "SpaceXSI: Grok 4.6 (batch)",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.6",
-  "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM.",
+  "description": "Grok 4.6 is a model from SpaceXSI with frontier performance on coding, knowledge work, and STEM.",
   "release_date": "2026-08-12",
   "context_window": 500000,
   "max_output_tokens": 450000,
@@ -27,9 +27,9 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "f8086307",
+    "name": "f30d2d01",
     "family": "6351f129",
-    "description": "caff8d8c",
+    "description": "aa48fce5",
     "release_date": "968fe5cf",
     "context_window": "c9077732",
     "max_output_tokens": "e894e1c5",
@@ -40,5 +40,5 @@
     "pricing": "355681a4",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-04"
+  "last_updated": "2026-11-20"
 }

@@ -3,7 +3,7 @@
   "name": "Kling 4.0 Image to Video",
   "created_by": "kling",
   "source": "official",
-  "description": "Kling 4.0 animates a starting image into a 3 to 30-second video at 720p or 1080p, with optional ending frames and per-shot prompts.",
+  "description": "Kling 4.0 animates a starting image into a 3 to 30-second video at 720p, 1080p or native 4K, with optional 10-bit HDR at 1080p and 4K, optional ending frames and per-shot prompts.",
   "status": "active",
   "release_date": "2026-10-16",
   "model_type": "video",
@@ -17,10 +17,10 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-11-19",
+  "last_seen_at": "2026-11-20",
   "_generated": {
     "name": "73c66641",
-    "description": "d9265d58",
+    "description": "29a82c3a",
     "status": "379ac110",
     "release_date": "a343464b",
     "model_type": "4d1b75ca",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "8ca45baf"
+    "last_seen_at": "67948752"
   },
-  "last_updated": "2026-11-19"
+  "last_updated": "2026-11-20"
 }

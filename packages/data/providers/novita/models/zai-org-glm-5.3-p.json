@@ -5,7 +5,7 @@
   "source": "official",
   "family": "glm-5.3",
   "description": "GLM-5.3 is Z.ai’s latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-09-11",
   "context_window": 1048576,
   "max_output_tokens": 131072,
@@ -32,7 +32,7 @@
     "name": "e9d0b829",
     "family": "9f217d9a",
     "description": "c4cc6c0c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6ff6abef",
     "context_window": "7d28a051",
     "max_output_tokens": "f7de594e",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-11-20"
 }

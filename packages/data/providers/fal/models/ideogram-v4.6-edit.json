@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/v4.6/edit",
+  "name": "Ideogram 4.6 Edit",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Ideogram 4.6 edits an image from a text instruction, with optional masks, reference images, and precision controls.",
+  "status": "active",
+  "release_date": "2026-11-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4.6/edit",
+  "tagline": "Ideogram 4.6 edits an image from a text instruction, with optional masks, reference images, and precision controls.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-20",
+  "_generated": {
+    "name": "5f97efa9",
+    "description": "c65e7f25",
+    "status": "379ac110",
+    "release_date": "1b67f42e",
+    "model_type": "db8857fe",
+    "page_url": "ebbd2b88",
+    "tagline": "c65e7f25",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "67948752"
+  },
+  "last_updated": "2026-11-20"
+}

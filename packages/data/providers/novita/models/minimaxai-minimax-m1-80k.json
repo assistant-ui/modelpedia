@@ -5,7 +5,7 @@
   "source": "official",
   "family": "minimax",
   "description": "MiniMax-M1: The World's First Open-Weight, Large-Scale Hybrid Attention Inference Model\n\nMiniMax-M1 adopts a Mixture of Experts (MoE) architecture and integrates the Flash Attention mechanism. The mod",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-17",
   "context_window": 1000000,
   "max_output_tokens": 40000,
@@ -32,7 +32,7 @@
     "name": "82bc0f83",
     "family": "c85916f0",
     "description": "838cbaa4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "41e2691d",
     "context_window": "8155bc54",
     "max_output_tokens": "7c77f048",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-11-20"
 }
