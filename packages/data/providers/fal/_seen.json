@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "count": 1404,
+  "date": "2026-11-20",
+  "count": 1406,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -1132,6 +1132,8 @@
     "ideogram-v4-trainer",
     "ideogram-v4.5",
     "ideogram-v4.5-edit",
+    "ideogram-v4.6",
+    "ideogram-v4.6-edit",
     "ideogram-vector-image-to-vector",
     "ideogram-vector-text-to-vector",
     "kling-v4-flash-image-to-video",

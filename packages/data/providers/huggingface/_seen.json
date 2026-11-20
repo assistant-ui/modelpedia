@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "count": 129,
+  "date": "2026-11-20",
+  "count": 128,
   "ids": [
     "aeon-7-gemma-4-12b-it-aeon-abliterated-k4-bf16",
     "aeon-7-qwen3.6-27b-aeon-ultimate-uncensored-bf16",
@@ -104,7 +104,6 @@
     "swiss-ai-apertus-8b-instruct",
     "swiss-ai-apertus-8b-instruct-2509",
     "tinyllama-tinyllama-1.1b-chat-v1.0",
-    "typhoon-ai-typhoon2.5-qwen3-4b",
     "unsloth-gemma-3-1b-it",
     "unsloth-llama-3-8b-instruct",
     "unsloth-llama-3.1-8b-instruct",

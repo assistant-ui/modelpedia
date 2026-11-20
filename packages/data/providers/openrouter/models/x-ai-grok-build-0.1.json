@@ -35,8 +35,10 @@
     "modalities": "6399757e",
     "pricing": "20a9a8a7",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "4002f938"
+    "max_output_tokens": "4002f938",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-08-30",
-  "max_output_tokens": 230400
+  "last_updated": "2026-11-20",
+  "max_output_tokens": 230400,
+  "status": "deprecated"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "s/tencent-hy4",
+  "name": "Tencent Hy4",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/tencent-hy4",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.042,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "41358a30",
+    "page_url": "95f75d96",
+    "capabilities": "0fa77dc6",
+    "pricing": "67fa6976"
+  },
+  "last_updated": "2026-11-20"
+}

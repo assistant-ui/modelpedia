@@ -26,11 +26,11 @@
     "knowledge_cutoff": "bfdca3f9",
     "capabilities": "89789fa6",
     "modalities": "aeba3801",
-    "pricing": "01a1ae83",
+    "pricing": "ac183c5e",
     "tools": "f0c1dc7e",
     "endpoints": "7468d746"
   },
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-20",
   "knowledge_cutoff": "2025-07",
   "capabilities": {
     "streaming": true,
@@ -50,11 +50,11 @@
       {
         "label": "Live session duration",
         "unit": "Per minute",
-        "columns": ["Per minute"],
+        "columns": ["Active", "Standby"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.05]
+            "values": [0.05, 0.02]
           }
         ]
       }

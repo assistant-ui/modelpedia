@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "count": 110,
+  "date": "2026-11-20",
+  "count": 111,
   "ids": [
     "beam-free",
     "big-pickle",
@@ -67,6 +67,7 @@
     "gpt-6.2-astra",
     "gpt-6.2-sol",
     "gpt-image-2.5-sunburst",
+    "gpt-live-1",
     "grok-4.5",
     "grok-4.6",
     "grok-4.7",

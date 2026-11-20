@@ -1,0 +1,22 @@
+{
+  "id": "modaic/mo",
+  "name": "mo",
+  "created_by": "modaic",
+  "source": "official",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "_generated": {
+    "name": "46e28ce3",
+    "context_window": "b23f4471",
+    "capabilities": "8a3b232e",
+    "pricing": "52a74acf"
+  },
+  "last_updated": "2026-11-20"
+}

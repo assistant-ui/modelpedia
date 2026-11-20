@@ -1,0 +1,16 @@
+{
+  "id": "gpt-live-1",
+  "name": "gpt-live-1",
+  "created_by": "openai",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "c28c6bdd",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-20"
+}

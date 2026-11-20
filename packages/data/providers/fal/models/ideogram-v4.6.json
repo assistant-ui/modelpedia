@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/v4.6",
+  "name": "Ideogram 4.6 Text to Image",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Ideogram 4.6 generates images from text prompts with configurable quality, image dimensions, and optional transparent backgrounds.",
+  "status": "active",
+  "release_date": "2026-11-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4.6",
+  "tagline": "Ideogram 4.6 generates images from text prompts with configurable quality, image dimensions, and optional transparent backgrounds.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-19",
+  "_generated": {
+    "name": "816939d8",
+    "description": "d18651d0",
+    "status": "379ac110",
+    "release_date": "1b67f42e",
+    "model_type": "db8857fe",
+    "page_url": "da091140",
+    "tagline": "d18651d0",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "8ca45baf"
+  },
+  "last_updated": "2026-11-20"
+}

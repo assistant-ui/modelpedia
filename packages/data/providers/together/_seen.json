@@ -1,11 +1,10 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "count": 24,
   "ids": [
     "s-deepseek-v4-1-flash-1017",
     "s-deepseek-v4-pro",
     "s-elorian-glimpse",
-    "s-flux-3",
     "s-gemma-4-31b",
     "s-glm-5-3",
     "s-glm-5-3-flash",
@@ -24,6 +23,7 @@
     "s-ripple-65b-preview",
     "s-seedance-2-0",
     "s-seedance-2-5",
+    "s-tencent-hy4",
     "s-ternary-bonsai-2-27b",
     "s-tev1-4b-experimental"
   ]

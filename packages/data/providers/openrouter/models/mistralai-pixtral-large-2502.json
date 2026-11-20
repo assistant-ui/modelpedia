@@ -1,0 +1,44 @@
+{
+  "id": "mistralai/pixtral-large-2502",
+  "name": "Mistral: Pixtral Large 2502",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "pixtral",
+  "description": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter.ai/mistralai/pixtral-large-2411).",
+  "release_date": "2026-11-20",
+  "context_window": 128000,
+  "max_output_tokens": 102400,
+  "model_type": "chat",
+  "alias": "mistralai/pixtral-large",
+  "tagline": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter.ai/mistralai/pixtral-large-2411).",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f61955e9",
+    "family": "c606df51",
+    "description": "f74c1416",
+    "release_date": "67948752",
+    "context_window": "34434798",
+    "max_output_tokens": "c0cae821",
+    "model_type": "d669f408",
+    "tagline": "f74c1416",
+    "capabilities": "6c9aa67e",
+    "modalities": "6399757e",
+    "pricing": "9277b5ca",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-20"
+}

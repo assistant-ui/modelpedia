@@ -4,7 +4,7 @@
   "created_by": "zai",
   "source": "official",
   "family": "glm",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-11",
   "context_window": 198000,
   "max_output_tokens": 131072,
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "0a53d8dc",
     "family": "cb6bfc11",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "81f079f9",
     "context_window": "0b9a31cd",
     "max_output_tokens": "f7de594e",
@@ -35,5 +35,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-20"
 }

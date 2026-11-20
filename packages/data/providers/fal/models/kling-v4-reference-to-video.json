@@ -3,7 +3,7 @@
   "name": "Kling 4.0 Reference to Video",
   "created_by": "kling",
   "source": "official",
-  "description": "Kling 4.0 generates videos from text prompts and image or video references at 720p or 1080p, with durations from 3 to 30 seconds and per-shot prompts.",
+  "description": "Kling 4.0 generates videos from text prompts and image or video references at 720p, 1080p or native 4K, with optional 10-bit HDR at 1080p and 4K, durations from 3 to 30 seconds and per-shot prompts.",
   "status": "active",
   "release_date": "2026-10-16",
   "model_type": "other",
@@ -12,17 +12,17 @@
   "capabilities": {
     "vision": true
   },
-  "last_seen_at": "2026-11-18",
+  "last_seen_at": "2026-11-20",
   "_generated": {
     "name": "aa39092d",
-    "description": "c5463e19",
+    "description": "66992925",
     "status": "379ac110",
     "release_date": "a343464b",
     "model_type": "ddb0b7bc",
     "page_url": "4e6e7bba",
     "tagline": "c5463e19",
     "capabilities": "d3117eb0",
-    "last_seen_at": "1b67f42e"
+    "last_seen_at": "67948752"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-20"
 }

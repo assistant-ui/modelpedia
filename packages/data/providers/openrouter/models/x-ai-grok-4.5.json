@@ -1,10 +1,10 @@
 {
   "id": "x-ai/grok-4.5",
-  "name": "SpaceXAI: Grok 4.5",
+  "name": "SpaceXSI: Grok 4.5",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.5",
-  "description": "Grok 4.5 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM.",
+  "description": "Grok 4.5 is a model from SpaceXSI with frontier performance on coding, knowledge work, and STEM.",
   "release_date": "2026-07-08",
   "context_window": 500000,
   "model_type": "chat",
@@ -26,9 +26,9 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "ca998134",
+    "name": "a8cb9acf",
     "family": "ce414514",
-    "description": "aaae5acd",
+    "description": "37ef2307",
     "release_date": "8f95d981",
     "context_window": "c9077732",
     "model_type": "d669f408",
@@ -39,6 +39,6 @@
     "tools": "f0c1dc7e",
     "max_output_tokens": "e894e1c5"
   },
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-20",
   "max_output_tokens": 450000
 }

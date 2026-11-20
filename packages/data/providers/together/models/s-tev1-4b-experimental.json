@@ -9,7 +9,7 @@
     "streaming": true
   },
   "pricing": {
-    "input": 3,
+    "input": 0.5,
     "output": 0.042
   },
   "_generated": {
@@ -17,9 +17,9 @@
     "parameters": "a87ff679",
     "page_url": "bd767c16",
     "capabilities": "0fa77dc6",
-    "pricing": "100d9532",
+    "pricing": "36716e7e",
     "context_window": "10e4d788"
   },
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "context_window": 32000
 }

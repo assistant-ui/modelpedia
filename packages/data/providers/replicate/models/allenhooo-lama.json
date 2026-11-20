@@ -3,14 +3,14 @@
   "name": "Lama",
   "created_by": "allenhooo",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/allenhooo/lama",
   "_generated": {
     "name": "992019e8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "9c28f878"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-20"
 }
