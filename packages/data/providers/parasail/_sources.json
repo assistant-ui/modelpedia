@@ -1,4 +1,5 @@
 {
-  "models": "https://api.parasail.io/v1/models",
+  "models": "https://www.parasail.io/models",
+  "pricing": "https://www.parasail.io/pricing",
   "docs": "https://docs.parasail.io/parasail-docs/serverless-and-models/serverless.md"
 }
