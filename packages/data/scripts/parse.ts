@@ -63,6 +63,22 @@ export async function fetchText(url: string): Promise<string> {
   return res.text();
 }
 
+/**
+ * Fetch a docs page as markdown. Docs sites serve a client-rendered HTML shell
+ * by default and the page source only when the request asks for markdown, so a
+ * non-markdown response is an error rather than something to parse.
+ */
+export async function fetchMarkdown(url: string): Promise<string> {
+  const res = await fetchWithRetry(url, {
+    headers: { accept: "text/markdown" },
+  });
+  if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${url}`);
+  if (!res.headers.get("content-type")?.includes("markdown")) {
+    throw new Error(`Expected markdown from ${url}`);
+  }
+  return res.text();
+}
+
 /** Fetch a URL and return parsed JSON. */
 export async function fetchJson<T = unknown>(
   url: string,
@@ -115,10 +131,18 @@ export function findHtmlTables(
  * Parse a markdown table into array of objects.
  * Handles `| col1 | col2 |` format. First row is headers.
  */
+/**
+ * Strip blockquote markers from a markdown line. Docs sites export tabbed and
+ * callout content as blockquotes, so a table inside a tab arrives as `> | a |`.
+ */
+export function unquoteMarkdownLine(line: string): string {
+  return line.replace(/^\s*(?:>\s*)*/, "");
+}
+
 export function parseMdTable(md: string): Record<string, string>[] {
   const lines = md
     .split("\n")
-    .map((l) => l.trim())
+    .map((l) => unquoteMarkdownLine(l).trim())
     .filter((l) => l.startsWith("|"));
   if (lines.length < 3) return []; // header + separator + at least 1 row
 
@@ -195,6 +219,17 @@ export function parseTokenCount(text: string): number | undefined {
   if (m[2] === "K" || m[2] === "k") return num * 1000;
   if (m[2] === "M" || m[2] === "m") return num * 1_000_000;
   return num;
+}
+
+/**
+ * Snap a display-rounded token count to the binary limit it stands for when it
+ * is within 5%, since catalogs print 131,072 as "128K" and 262,144 as "262k".
+ */
+export function snapBinaryTokens(approximate: number): number {
+  const binary = 2 ** Math.round(Math.log2(approximate));
+  return Math.abs(binary - approximate) / approximate < 0.05
+    ? binary
+    : approximate;
 }
 
 // ── Date extraction ──
