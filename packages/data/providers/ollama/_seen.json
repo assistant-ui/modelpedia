@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-21",
   "count": 37,
   "ids": [
     "autotrust-jev",
@@ -14,6 +14,7 @@
     "glm-5.3",
     "glm-5.3-flash",
     "gpt-oss",
+    "inkling-2-mini",
     "inkling-2-small",
     "kimi-k2.6",
     "kimi-k2.7-code",
@@ -33,7 +34,6 @@
     "nemotron-3-super",
     "nemotron-3-ultra",
     "nemotron-3.5-lightning",
-    "ornith",
     "ornith-1.5",
     "phonon",
     "pplx-decider-flash",

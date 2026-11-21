@@ -1,0 +1,20 @@
+{
+  "id": "codestral-embed",
+  "name": "codestral-embed",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "codestral",
+  "status": "active",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "341fa67d",
+    "family": "a0734f6e",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-21"
+}

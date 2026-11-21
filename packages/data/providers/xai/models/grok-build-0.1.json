@@ -3,7 +3,7 @@
   "name": "grok-build-0.1",
   "created_by": "xai",
   "source": "official",
-  "context_window": 256000,
+  "context_window": 500000,
   "reasoning_tokens": true,
   "license": "proprietary",
   "page_url": "https://docs.x.ai/developers/models",
@@ -30,7 +30,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "53802957",
-    "context_window": "2fd324cb",
+    "context_window": "c9077732",
     "reasoning_tokens": "b326b506",
     "license": "9186c466",
     "page_url": "053acbe7",
@@ -40,11 +40,11 @@
     "pricing": "20a9a8a7",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "pricing_notes": "9bb11f15"
   },
-  "last_updated": "2026-11-20",
-  "status": "deprecated",
+  "last_updated": "2026-11-21",
+  "status": "active",
   "pricing_notes": [
     "Base rate applies < 200k prompt tokens.",
     "≥ 200k prompt tokens: $2 input / $4 output per 1M tokens."

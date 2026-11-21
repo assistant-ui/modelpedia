@@ -16,7 +16,9 @@
     "name": "59f86957",
     "context_window": "90c532bc",
     "capabilities": "8a3b232e",
-    "pricing": "8d85a56c"
+    "pricing": "8d85a56c",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-11-21",
+  "status": "deprecated"
 }

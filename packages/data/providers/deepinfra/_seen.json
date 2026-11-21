@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "count": 232,
+  "date": "2026-11-21",
+  "count": 233,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -196,6 +196,7 @@
     "qwen-qwen3.8-flash",
     "qwen-qwen3.8-max",
     "qwen-qwen4-max",
+    "radixark-daisyrose-27b",
     "resembleai-chatterbox-multilingual",
     "resembleai-chatterbox-turbo",
     "sao10k-l3-8b-lunaris-v1-turbo",

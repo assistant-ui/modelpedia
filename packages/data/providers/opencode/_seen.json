@@ -1,8 +1,9 @@
 {
-  "date": "2026-11-20",
-  "count": 111,
+  "date": "2026-11-21",
+  "count": 124,
   "ids": [
     "beam-free",
+    "bge-m3",
     "big-pickle",
     "claude-fable-5",
     "claude-fable-5-1",
@@ -19,6 +20,9 @@
     "claude-sonnet-4-6",
     "claude-sonnet-5",
     "claude-sonnet-5-5",
+    "codestral-embed",
+    "cohere-embed-v5-fast",
+    "cohere-embed-v5-pro",
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
     "deepseek-v4.1-flash-free",
@@ -33,7 +37,10 @@
     "gemini-4-hydrogen",
     "gemini-4-neon",
     "gemini-decision-1",
+    "gemini-embedding-001",
+    "gemini-embedding-2",
     "gemini-nano-banana-2.1",
+    "gemini-omni-1.2-flash",
     "glm-5",
     "glm-5.1",
     "glm-5.2",
@@ -96,6 +103,7 @@
     "minimax-m2.7",
     "minimax-m3",
     "minimax-m3.1-flash",
+    "mistral-embed",
     "mistral-large-4",
     "muse-ember-1.0",
     "muse-spark-1.2",
@@ -105,6 +113,7 @@
     "muse-wonder-1.0",
     "nemotron-3.5-lightning-free",
     "nemotron-3.5-super-vl-free",
+    "qwen3-embedding-8b",
     "qwen3.5-plus",
     "qwen3.6-plus",
     "qwen3.7-plus",
@@ -112,6 +121,10 @@
     "qwen3.8-max",
     "qwen4-max",
     "step-5-preview",
-    "tidepool-alpha-free"
+    "text-embedding-3-large",
+    "text-embedding-3-small",
+    "tidepool-alpha-free",
+    "voyage-4",
+    "voyage-code-4"
   ]
 }

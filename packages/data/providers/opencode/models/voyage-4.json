@@ -1,0 +1,16 @@
+{
+  "id": "voyage-4",
+  "name": "voyage-4",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "b09ad972",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-21"
+}

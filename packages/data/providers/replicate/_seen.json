@@ -1,9 +1,10 @@
 {
-  "date": "2026-11-20",
-  "count": 126,
+  "date": "2026-11-21",
+  "count": 125,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
+    "ahmad-tijjani-garba-avdsec",
     "alibaba-wan-3",
     "andreasjansson-clip-features",
     "anthropic-claude-fable-5.2",
@@ -62,7 +63,6 @@
     "google-nano-banana-pro",
     "google-veo-3.1-fast",
     "heygen-lipsync-speed",
-    "humbleworth-price-predict-v1",
     "hyper3d-rodin",
     "ideogram-ai-ideogram-4-6",
     "ideogram-ai-ideogram-4-6-precise-edit",
@@ -99,10 +99,10 @@
     "openai-gpt-image-1.5",
     "openai-gpt-image-2",
     "openai-gpt-image-2.6-flare",
-    "openai-gpt-image-2.6-sunburst",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
     "prunaai-hunyuan3d-2",
+    "prunaai-p-image-ideogram",
     "prunaai-p-image-upscale",
     "prunaai-p-video-2-pro-reference",
     "rafaelgalle-whisper-diarization-advanced",
@@ -126,7 +126,6 @@
     "xai-grok-imagine-video-1.5",
     "xai-grok-imagine-video-extension",
     "zsxkib-create-rvc-dataset",
-    "zsxkib-jina-clip-v2",
     "zsxkib-realistic-voice-cloning"
   ]
 }

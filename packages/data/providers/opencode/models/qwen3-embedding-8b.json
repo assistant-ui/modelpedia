@@ -1,0 +1,22 @@
+{
+  "id": "qwen3-embedding-8b",
+  "name": "qwen3-embedding-8b",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "parameters": 8,
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "02e8e9b4",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "parameters": "c9f0f895",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -4,7 +4,7 @@
   "created_by": "dev",
   "source": "official",
   "family": "glm",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-20",
   "context_window": 256000,
   "max_output_tokens": 256000,
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "702d8409",
     "family": "cb6bfc11",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "38dc8373",
     "context_window": "2fd324cb",
     "max_output_tokens": "2fd324cb",
@@ -34,5 +34,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-21"
 }

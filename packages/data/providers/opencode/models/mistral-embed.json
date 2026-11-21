@@ -1,0 +1,20 @@
+{
+  "id": "mistral-embed",
+  "name": "mistral-embed",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-embed",
+  "status": "active",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "230fa4c3",
+    "family": "230fa4c3",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-21"
+}
