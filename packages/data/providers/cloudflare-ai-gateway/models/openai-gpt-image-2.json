@@ -1,0 +1,22 @@
+{
+  "id": "openai/gpt-image-2",
+  "name": "GPT Image 2",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2",
+  "status": "active",
+  "model_type": "image",
+  "pricing": {
+    "input": 5,
+    "output": 10,
+    "cached_input": 1.25
+  },
+  "_generated": {
+    "name": "8644edb0",
+    "family": "c79be345",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "pricing": "f25b3100"
+  },
+  "last_updated": "2026-11-21"
+}

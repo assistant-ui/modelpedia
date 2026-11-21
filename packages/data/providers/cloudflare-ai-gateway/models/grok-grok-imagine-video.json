@@ -1,0 +1,16 @@
+{
+  "id": "grok/grok-imagine-video",
+  "name": "Grok Imagine Video",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "5a3f9dd3",
+    "family": "a4576b5e",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

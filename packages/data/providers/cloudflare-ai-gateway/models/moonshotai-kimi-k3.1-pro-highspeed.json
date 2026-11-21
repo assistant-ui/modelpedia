@@ -1,0 +1,29 @@
+{
+  "id": "moonshotai/kimi-k3.1-pro-highspeed",
+  "name": "Kimi K3.1 Pro Highspeed",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3.1",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.2
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3c57dc53",
+    "family": "90fce409",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "pricing": "775f1e21",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

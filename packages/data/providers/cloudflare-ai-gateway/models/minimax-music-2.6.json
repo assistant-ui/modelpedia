@@ -1,0 +1,14 @@
+{
+  "id": "minimax/music-2.6",
+  "name": "MiniMax Music 2.6",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "_generated": {
+    "name": "100353fc",
+    "status": "379ac110",
+    "model_type": "9f84c007"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "minimax/speech-2.6-hd",
+  "name": "MiniMax Speech 2.6 HD",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "b62a52fe",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

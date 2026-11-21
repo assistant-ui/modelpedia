@@ -1,0 +1,14 @@
+{
+  "id": "pruna/p-image-edit",
+  "name": "P-Image-Edit",
+  "created_by": "pruna",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "c338fa7a",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

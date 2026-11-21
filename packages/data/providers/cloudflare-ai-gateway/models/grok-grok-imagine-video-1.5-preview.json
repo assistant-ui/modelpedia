@@ -1,0 +1,16 @@
+{
+  "id": "grok/grok-imagine-video-1.5-preview",
+  "name": "Grok Imagine Video 1.5 Preview",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "30edd155",
+    "family": "a4576b5e",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

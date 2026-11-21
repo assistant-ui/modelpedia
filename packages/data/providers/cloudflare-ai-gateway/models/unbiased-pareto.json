@@ -1,0 +1,25 @@
+{
+  "id": "unbiased/pareto",
+  "name": "Pareto",
+  "created_by": "unbiased",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "pricing": {
+    "input": 2.5,
+    "output": 7.5,
+    "cached_input": 0.25
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "fed265f9",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "pricing": "7db711ab",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "elevenlabs/eleven-text-to-sound-v3",
+  "name": "Eleven Sound Effects v3",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "_generated": {
+    "name": "3870d9b8",
+    "status": "379ac110",
+    "model_type": "9f84c007"
+  },
+  "last_updated": "2026-11-21"
+}

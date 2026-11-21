@@ -1,0 +1,16 @@
+{
+  "id": "alibaba/wan-2.6-image",
+  "name": "Wan 2.6 Image",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "wan",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "8dd0508f",
+    "family": "2aadc089",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

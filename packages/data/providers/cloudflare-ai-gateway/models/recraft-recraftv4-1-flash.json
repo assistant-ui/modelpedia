@@ -1,0 +1,14 @@
+{
+  "id": "recraft/recraftv4-1-flash",
+  "name": "Recraft V4.1 Flash",
+  "created_by": "recraft",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "cfca4625",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

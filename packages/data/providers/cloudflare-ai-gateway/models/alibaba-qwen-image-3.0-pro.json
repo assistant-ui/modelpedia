@@ -1,0 +1,16 @@
+{
+  "id": "alibaba/qwen-image-3.0-pro",
+  "name": "Qwen Image 3.0 Pro",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "cce497e3",
+    "family": "a3af76f3",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

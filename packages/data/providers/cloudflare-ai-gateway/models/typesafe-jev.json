@@ -1,0 +1,27 @@
+{
+  "id": "typesafe/jev",
+  "name": "Jev",
+  "created_by": "typesafe",
+  "source": "official",
+  "status": "active",
+  "context_window": 32000,
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.042,
+    "output": 0,
+    "cached_input": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d8921602",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "model_type": "d669f408",
+    "pricing": "e72e49de",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

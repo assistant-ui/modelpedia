@@ -1,0 +1,23 @@
+{
+  "id": "google-ai-studio/gemini-3-flash",
+  "name": "Gemini 3 Flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3693a991",
+    "family": "eb14e598",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

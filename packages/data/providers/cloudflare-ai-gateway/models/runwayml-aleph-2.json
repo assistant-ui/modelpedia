@@ -1,0 +1,14 @@
+{
+  "id": "runwayml/aleph-2",
+  "name": "RunwayML Aleph 2",
+  "created_by": "runwayml",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "3ba1e091",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

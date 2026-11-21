@@ -1,0 +1,29 @@
+{
+  "id": "moonshotai/kimi-k3",
+  "name": "Kimi K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "894c7fc5",
+    "family": "73e8093c",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "pricing": "0deaf3da",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

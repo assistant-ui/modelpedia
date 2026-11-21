@@ -1,0 +1,14 @@
+{
+  "id": "black-forest-labs/flux-1-kontext-pro",
+  "name": "FLUX.1 Kontext \\[pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "a91dd11f",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

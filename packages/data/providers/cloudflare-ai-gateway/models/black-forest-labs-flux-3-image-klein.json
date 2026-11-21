@@ -1,0 +1,14 @@
+{
+  "id": "black-forest-labs/flux-3-image-klein",
+  "name": "FLUX 3 Image Klein",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "d44f212e",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

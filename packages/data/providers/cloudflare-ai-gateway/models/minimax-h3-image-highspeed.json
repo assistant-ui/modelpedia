@@ -1,0 +1,14 @@
+{
+  "id": "minimax/h3-image-highspeed",
+  "name": "MiniMax H3 Image Highspeed",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "e9e962ff",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

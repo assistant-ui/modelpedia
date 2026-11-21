@@ -1,0 +1,14 @@
+{
+  "id": "bria/remove-background",
+  "name": "Remove Background",
+  "created_by": "bria",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "572faba9",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "meta/muse-spark-1.1",
+  "name": "Muse Spark 1.1",
+  "created_by": "meta",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.16
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b908ceb6",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "pricing": "06c9fc6c",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

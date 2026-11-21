@@ -1,0 +1,27 @@
+{
+  "id": "alibaba/qwen3.7-max",
+  "name": "Qwen 3.7 Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.7",
+  "status": "active",
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.25,
+    "output": 3.75,
+    "cached_input": 0.25
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "0ff48fb4",
+    "family": "d71bf7f7",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "pricing": "58327b2e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

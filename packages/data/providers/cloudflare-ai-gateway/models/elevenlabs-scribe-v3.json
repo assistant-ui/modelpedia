@@ -1,0 +1,14 @@
+{
+  "id": "elevenlabs/scribe-v3",
+  "name": "Scribe v3",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "_generated": {
+    "name": "b4476c74",
+    "status": "379ac110",
+    "model_type": "5e12d29a"
+  },
+  "last_updated": "2026-11-21"
+}

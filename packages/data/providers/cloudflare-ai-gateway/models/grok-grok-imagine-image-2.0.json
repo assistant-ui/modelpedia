@@ -1,0 +1,16 @@
+{
+  "id": "grok/grok-imagine-image-2.0",
+  "name": "Grok Imagine Image 2.0",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "a5586686",
+    "family": "a4576b5e",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

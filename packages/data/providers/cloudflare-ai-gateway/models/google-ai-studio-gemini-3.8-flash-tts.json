@@ -1,0 +1,22 @@
+{
+  "id": "google-ai-studio/gemini-3.8-flash-tts",
+  "name": "Gemini 3.8 Flash TTS",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "status": "active",
+  "context_window": 8192,
+  "model_type": "tts",
+  "pricing": {
+    "cached_input": 0.125
+  },
+  "_generated": {
+    "name": "0c1c514e",
+    "family": "d937426a",
+    "status": "379ac110",
+    "context_window": "77441296",
+    "model_type": "4e16a2cf",
+    "pricing": "464e9f40"
+  },
+  "last_updated": "2026-11-21"
+}

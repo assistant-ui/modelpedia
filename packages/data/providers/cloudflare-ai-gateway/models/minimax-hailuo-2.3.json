@@ -1,0 +1,14 @@
+{
+  "id": "minimax/hailuo-2.3",
+  "name": "MiniMax Hailuo 2.3",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "dc72b346",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

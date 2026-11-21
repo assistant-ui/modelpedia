@@ -1,0 +1,21 @@
+{
+  "id": "openai/gpt-image-2.6-sunburst",
+  "name": "GPT Image 2.6 Sunburst",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.6",
+  "status": "active",
+  "model_type": "image",
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25
+  },
+  "_generated": {
+    "name": "f79f0371",
+    "family": "8de336be",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "pricing": "2a4aa632"
+  },
+  "last_updated": "2026-11-21"
+}

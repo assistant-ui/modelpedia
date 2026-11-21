@@ -1,0 +1,14 @@
+{
+  "id": "recraft/recraftv4",
+  "name": "Recraft V4",
+  "created_by": "recraft",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "9bc1d25d",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

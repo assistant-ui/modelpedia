@@ -1,0 +1,16 @@
+{
+  "id": "openai/tts-1-hd",
+  "name": "TTS-1 HD",
+  "created_by": "openai",
+  "source": "official",
+  "family": "tts",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "0b10e0fb",
+    "family": "4e16a2cf",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

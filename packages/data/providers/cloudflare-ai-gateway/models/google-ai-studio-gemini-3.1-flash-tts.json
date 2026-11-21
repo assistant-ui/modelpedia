@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio/gemini-3.1-flash-tts",
+  "name": "Gemini 3.1 Flash TTS",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.1",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "a8df0c24",
+    "family": "ea4a1a23",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,24 +1,30 @@
 {
   "id": "anthropic/claude-sonnet-4.6",
-  "name": "Anthropic: claude-sonnet-4.6",
+  "name": "Claude Sonnet 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-11-21",
   "family": "claude-sonnet",
   "pricing": {
     "input": 3,
-    "output": 15
+    "output": 15,
+    "cached_input": 0.3,
+    "cache_write": 3.75
   },
   "_generated": {
-    "name": "af177b39",
+    "name": "50184618",
     "family": "68d1c457",
-    "pricing": "7939f0ff",
+    "pricing": "fcf3f284",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "379ac110",
+    "context_window": "03e6c616"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "active",
+  "context_window": 200000
 }

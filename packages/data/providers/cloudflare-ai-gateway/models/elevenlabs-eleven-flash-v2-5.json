@@ -1,0 +1,14 @@
+{
+  "id": "elevenlabs/eleven-flash-v2-5",
+  "name": "Eleven Flash v2.5",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "a3f686f3",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

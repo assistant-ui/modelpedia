@@ -1,0 +1,16 @@
+{
+  "id": "openai/tts-1",
+  "name": "TTS-1",
+  "created_by": "openai",
+  "source": "official",
+  "family": "tts",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "373ed2dd",
+    "family": "4e16a2cf",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

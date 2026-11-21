@@ -1,0 +1,14 @@
+{
+  "id": "pruna/p-image-try-on",
+  "name": "P-Image Try-On",
+  "created_by": "pruna",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "a410f0b2",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

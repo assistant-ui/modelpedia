@@ -1,0 +1,14 @@
+{
+  "id": "bytedance/seedance-2.0-fast",
+  "name": "Seedance 2.0 Fast",
+  "created_by": "bytedance",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "d3050c53",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

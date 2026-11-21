@@ -1,0 +1,14 @@
+{
+  "id": "grok/grok-stt",
+  "name": "Grok STT",
+  "created_by": "xai",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "_generated": {
+    "name": "f1ee89b1",
+    "status": "379ac110",
+    "model_type": "5e12d29a"
+  },
+  "last_updated": "2026-11-21"
+}

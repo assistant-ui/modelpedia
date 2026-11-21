@@ -1,0 +1,27 @@
+{
+  "id": "meta/muse-spark-open",
+  "name": "Muse Spark Open",
+  "created_by": "meta",
+  "source": "official",
+  "status": "active",
+  "context_window": 1040000,
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "37a63bfb",
+    "status": "379ac110",
+    "context_window": "1bf8ad8b",
+    "model_type": "d669f408",
+    "pricing": "a0f59bdb",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

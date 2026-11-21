@@ -1,0 +1,29 @@
+{
+  "id": "google-ai-studio/gemini-3.7-flash",
+  "name": "Gemini 3.7 Flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.7",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1e6c9b2e",
+    "family": "91a06ed1",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "pricing": "ba418c83",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

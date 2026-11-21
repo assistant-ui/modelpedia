@@ -1,0 +1,14 @@
+{
+  "id": "assemblyai/universal-3.5-pro",
+  "name": "AssemblyAI Universal-3.5 Pro",
+  "created_by": "assemblyai",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "_generated": {
+    "name": "4764241e",
+    "status": "379ac110",
+    "model_type": "5e12d29a"
+  },
+  "last_updated": "2026-11-21"
+}

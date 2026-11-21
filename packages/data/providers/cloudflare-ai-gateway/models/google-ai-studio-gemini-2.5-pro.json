@@ -1,24 +1,29 @@
 {
   "id": "google-ai-studio/gemini-2.5-pro",
-  "name": "Google AI Studio: gemini-2.5-pro",
+  "name": "Gemini 2.5 Pro",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-11-21",
   "family": "gemini-2.5",
   "pricing": {
     "input": 1.25,
-    "output": 10
+    "output": 10,
+    "cached_input": 0.125
   },
   "_generated": {
-    "name": "779f00c2",
+    "name": "1f6a8da2",
     "family": "ea6b88bf",
-    "pricing": "b092c164",
+    "pricing": "50bb1323",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "379ac110",
+    "context_window": "8155bc54"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "active",
+  "context_window": 1000000
 }

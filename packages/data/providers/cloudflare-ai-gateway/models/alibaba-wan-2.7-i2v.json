@@ -1,0 +1,16 @@
+{
+  "id": "alibaba/wan-2.7-i2v",
+  "name": "Wan 2.7 I2V",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "wan",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "93fc6abf",
+    "family": "2aadc089",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "klingai/kling-v4-flash",
+  "name": "Kling 4.0 Flash",
+  "created_by": "klingai",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "e420f03d",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}
