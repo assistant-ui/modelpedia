@@ -1,0 +1,23 @@
+{
+  "id": "gemini-omni-1.2-flash",
+  "name": "gemini-omni-1.2-flash",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "18025669",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

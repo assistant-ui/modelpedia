@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-6.1",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-10-27",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -29,7 +29,7 @@
   "_generated": {
     "name": "613344cb",
     "family": "d6597770",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6a3e5c81",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -40,5 +40,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-19"
+  "last_updated": "2026-11-21"
 }

@@ -3,7 +3,7 @@
   "name": "Bunny",
   "created_by": "novita",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-10",
   "context_window": 262144,
   "max_output_tokens": 32768,
@@ -22,7 +22,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "106d4ea4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "9fb89bf7",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
@@ -32,5 +32,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-21"
 }

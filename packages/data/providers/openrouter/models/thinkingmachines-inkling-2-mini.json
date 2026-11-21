@@ -1,0 +1,40 @@
+{
+  "id": "thinkingmachines/inkling-2-mini",
+  "name": "Thinking Machines: Inkling 2 Mini",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "description": "Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE).",
+  "release_date": "2026-11-21",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "tagline": "Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE).",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.4,
+    "cached_input": 0.02
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6c60cf76",
+    "description": "bf6f65af",
+    "release_date": "f40e8beb",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "bf6f65af",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "35c70c86",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-21"
+}

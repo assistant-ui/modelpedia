@@ -1,0 +1,39 @@
+{
+  "id": "inkling-2-mini",
+  "name": "inkling-2-mini",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Thinking Machines&#39; small open-weights model that can run on a Mac: 26B parameters, 5.4B active, with looped layers for more computation per token.",
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "parameters": 26,
+  "page_url": "https://ollama.com/library/inkling-2-mini",
+  "open_weight": true,
+  "tagline": "Thinking Machines&#39; small open-weights model that can run on a Mac: 26B parameters, 5.4B active, with looped layers for more computation per token.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0d41181b",
+    "description": "013f74ad",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "parameters": "4e732ced",
+    "page_url": "4655b989",
+    "open_weight": "b326b506",
+    "tagline": "013f74ad",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-21"
+}

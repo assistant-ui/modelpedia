@@ -4,7 +4,7 @@
   "created_by": "baidu",
   "source": "official",
   "description": "CoBuddy is a specialized code generation model developed by Baidu, engineered with targeted optimizations for Coding and AI Agent scenarios.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-06-03",
   "context_window": 131072,
   "max_output_tokens": 65536,
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "2fc605d0",
     "description": "1e5dfca3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6c186db5",
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
@@ -36,7 +36,7 @@
     "tools": "f0c1dc7e",
     "pricing": "6552cd5c"
   },
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-11-21",
   "pricing": {
     "input": 0.28,
     "output": 1.13

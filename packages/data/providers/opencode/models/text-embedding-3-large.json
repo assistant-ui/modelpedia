@@ -1,0 +1,20 @@
+{
+  "id": "text-embedding-3-large",
+  "name": "text-embedding-3-large",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "text-embedding",
+  "status": "active",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "f0bef7e2",
+    "family": "41411f76",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-21"
+}
