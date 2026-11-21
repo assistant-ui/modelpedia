@@ -75,10 +75,9 @@ jobs:
             fi
             echo "::endgroup::"
           done
-          # Surface failures prominently instead of letting a broken scraper go
-          # unnoticed. The job stays green so a single broken provider does not
-          # block the data PR, but the failures are reported in the run summary
-          # and carried into the PR body.
+          # A single broken provider must not block the data PR, so failures are
+          # collected here, reported in the run summary and the PR body, and
+          # fail the run only in the last step.
           if [ ${#failed[@]} -gt 0 ]; then
             {
               echo "### ${#failed[@]} fetch script(s) failed"
@@ -188,3 +187,13 @@ jobs:
           else
             curl -sf "$HEARTBEAT_URL" > /dev/null || echo "::warning::heartbeat ping failed"
           fi
+
+      # Runs after the data PR and the heartbeat so a broken scraper never blocks
+      # the other providers' data, but still turns the run red: a green run with
+      # failures in a summary nobody opens let scrapers stay broken for weeks.
+      - name: Fail on fetch script failures
+        run: |
+          FAILURES="$GITHUB_WORKSPACE/fetch-failures.txt"
+          [ -f "$FAILURES" ] || exit 0
+          echo "::error::$(wc -l < "$FAILURES" | tr -d ' ') fetch script(s) failed: $(paste -sd ' ' "$FAILURES")"
+          exit 1
