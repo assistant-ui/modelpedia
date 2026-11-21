@@ -188,7 +188,9 @@ function parseModalities(value: string | undefined): string[] | undefined {
 }
 
 function parseBulletValues(markdown: string): string[] | undefined {
-  const values = [...markdown.matchAll(/^[-*]\s+`?([^`\n]+)`?\s*$/gm)]
+  const values = [
+    ...markdown.matchAll(/^[-*]\s+`?([^`\n]+?)`?(?:\s+[—–-]\s+[^`\n]+)?\s*$/gm),
+  ]
     .map((match) => cleanCell(match[1]))
     .filter(Boolean);
   return values.length > 0 ? values : undefined;
@@ -407,19 +409,16 @@ export function parseDeprecations(
 ): Map<string, DeprecationEntry> {
   const deprecations = new Map<string, DeprecationEntry>();
   const lines = markdown.split("\n");
-  let deprecation_date: string | undefined;
+  let inDeprecations = false;
 
   for (let index = 0; index < lines.length; index++) {
-    const heading = lines[index].match(/^###\s+(\d{4}-\d{2}-\d{2}):/);
-    if (heading) {
-      deprecation_date = heading[1];
+    if (/^#{1,2}\s+/.test(lines[index])) {
+      inDeprecations = /^##\s+(?:upcoming|past) deprecations\s*$/i.test(
+        lines[index],
+      );
       continue;
     }
-    if (/^#{1,3}\s+/.test(lines[index])) {
-      deprecation_date = undefined;
-      continue;
-    }
-    if (!deprecation_date) continue;
+    if (!inDeprecations) continue;
     const tableStart = index;
     const table = parseTable(lines, index);
     if (!table) continue;
@@ -433,6 +432,9 @@ export function parseDeprecations(
     );
     const replacementIndex = table.headers.findIndex((header) =>
       /(?:recommended replacement|substitute model)/i.test(header),
+    );
+    const noticeIndex = table.headers.findIndex((header) =>
+      /notice date/i.test(header),
     );
     if (modelIndex < 0 || shutdownIndex < 0) continue;
     const family = /family/i.test(table.headers[modelIndex]);
@@ -450,6 +452,10 @@ export function parseDeprecations(
         ...(rawCells[replacementIndex] ?? "").matchAll(/`([^`]+)`/g),
       ][0]?.[1]?.trim();
       const retirement_date = parseDate(row[shutdownIndex] ?? "");
+      const deprecation_date =
+        (noticeIndex >= 0 ? parseDate(row[noticeIndex] ?? "") : undefined) ??
+        retirement_date;
+      if (!deprecation_date) continue;
       for (const id of ids) {
         if (deprecations.has(id)) continue;
         deprecations.set(id, {

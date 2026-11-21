@@ -1,4 +1,4 @@
-import { fetchText, stripHtml } from "./parse.ts";
+import { fetchText, snapBinaryTokens, stripHtml } from "./parse.ts";
 import {
   assertParsed,
   inferFamily,
@@ -31,12 +31,9 @@ function parseContext(card: string): number | undefined {
     /class="mlist-headline">([\d.]+)([kM])(?:<!-- -->)? context<\/span>/,
   );
   if (!match) return undefined;
-  const approximate = Number(match[1]) * (match[2] === "M" ? 1_000_000 : 1_000);
-  const binary = 2 ** Math.round(Math.log2(approximate));
-  // The catalog rounds binary limits for display, including 262k for 262,144 tokens.
-  return Math.abs(binary - approximate) / approximate < 0.05
-    ? binary
-    : approximate;
+  return snapBinaryTokens(
+    Number(match[1]) * (match[2] === "M" ? 1_000_000 : 1_000),
+  );
 }
 
 function parseCatalog(html: string): ModelEntry[] {

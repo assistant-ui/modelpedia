@@ -6,7 +6,7 @@ import {
   upsertWithSnapshot,
   type ModelEntry,
 } from "./shared.ts";
-import { fetchText } from "./parse.ts";
+import { fetchText, unquoteMarkdownLine } from "./parse.ts";
 import { displayNameFromId } from "./provider-fetch-utils.ts";
 
 const sources = readSources("perplexity");
@@ -47,7 +47,8 @@ function parseAgentModels(md: string): ModelEntry[] {
   const models: ModelEntry[] = [];
   let group = "";
 
-  for (const line of md.split("\n")) {
+  for (const raw of md.split("\n")) {
+    const line = unquoteMarkdownLine(raw).trim();
     const heading = line.match(/^\*\*([^*]+)\*\*$/);
     if (heading) group = heading[1].toLowerCase();
 
@@ -96,7 +97,8 @@ function parseAgentModels(md: string): ModelEntry[] {
 function parseOtherModels(md: string): ModelEntry[] {
   const models: ModelEntry[] = [];
 
-  for (const line of md.split("\n")) {
+  for (const raw of md.split("\n")) {
+    const line = unquoteMarkdownLine(raw).trim();
     const id = line.match(/^\|\s*`([^`]+)`\s*\|/)?.[1];
     if (!id) continue;
     const cells = line.split("|").map((cell) => cell.trim());

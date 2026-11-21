@@ -7,7 +7,6 @@ import {
   parseMarkdownTable,
   readSources,
   runGenerate,
-  upsertModel,
   upsertWithSnapshot,
 } from "./shared.ts";
 import { fetchText, fetchWithRetry } from "./parse.ts";
@@ -78,10 +77,12 @@ function splitModelCell(cell: string): { id: string; tier?: string } {
 }
 
 /** Lines of the section introduced by `heading`, up to the next heading. */
-function section(md: string, heading: string): string[] {
+function section(md: string, heading: string | RegExp): string[] {
   const lines = md.split("\n");
-  const start = lines.findIndex(
-    (l) => l.trim().toLowerCase() === heading.toLowerCase(),
+  const start = lines.findIndex((l) =>
+    typeof heading === "string"
+      ? l.trim().toLowerCase() === heading.toLowerCase()
+      : heading.test(l.trim()),
   );
   if (start === -1) return [];
   const rest = lines.slice(start + 1);
@@ -116,10 +117,11 @@ function parseTextPricing(md: string): Map<string, DocsModel> {
     if (existing) {
       // Second row for the same model: record the uplift, keep the base price.
       const price = iIn >= 0 ? parseUsd(cells[iIn] ?? "") : undefined;
+      const outPrice = iOut >= 0 ? parseUsd(cells[iOut] ?? "") : undefined;
       if (tier && price != null) {
         existing.pricing_notes = [
           ...(existing.pricing_notes ?? []),
-          `${tier}: $${price} input / $${iOut >= 0 ? parseUsd(cells[iOut] ?? "") : "?"} output per 1M tokens.`,
+          `${tier}: $${price} input${outPrice != null ? ` / $${outPrice} output` : ""} per 1M tokens.`,
         ];
       }
       continue;
@@ -151,7 +153,9 @@ function parseTextPricing(md: string): Map<string, DocsModel> {
 /** Imagine (image and video generation) models, priced per image or per second. */
 function parseImaginePricing(md: string): Map<string, DocsModel> {
   const out = new Map<string, DocsModel>();
-  for (const cells of parseMarkdownTable(section(md, "### Imagine Pricing"))) {
+  for (const cells of parseMarkdownTable(
+    section(md, /^###\s+(?:imagine|image|video)\b.*\bpricing$/i),
+  )) {
     const { id } = splitModelCell(cells[0] ?? "");
     if (!id.startsWith("grok") || /^model$/i.test(id)) continue;
     const cost = (cells[1] ?? "").trim();
@@ -250,17 +254,13 @@ async function main() {
   for (const [id, m] of parseImaginePricing(md)) docsModels.set(id, m);
   for (const [id, m] of parseVoicePricing(md)) docsModels.set(id, m);
 
-  const fullDocs = await fetchWithRetry(FULL_DOCS_URL)
-    .then((r) => (r.ok ? r.text() : ""))
-    .catch(() => "");
-  if (fullDocs) {
-    const aliases = recoverAliases(fullDocs, docsModels);
-    for (const [id, m] of aliases) docsModels.set(id, m);
-    if (aliases.size > 0) {
-      console.log(
-        `Recovered ${aliases.size} undated alias(es): ${[...aliases.keys()].join(", ")}`,
-      );
-    }
+  const fullDocs = await fetchText(FULL_DOCS_URL);
+  const aliases = recoverAliases(fullDocs, docsModels);
+  for (const [id, m] of aliases) docsModels.set(id, m);
+  if (aliases.size > 0) {
+    console.log(
+      `Recovered ${aliases.size} undated alias(es): ${[...aliases.keys()].join(", ")}`,
+    );
   }
 
   console.log(`Parsed ${docsModels.size} models from docs`);
@@ -299,14 +299,16 @@ async function main() {
 
     // Match knowledge cutoff by prefix (e.g. "grok-4" matches "grok-4-1-fast-reasoning")
     let knowledgeCutoff: string | undefined;
+    let matched = "";
     for (const [prefix, date] of knowledgeCutoffs) {
+      if (prefix.length <= matched.length) continue;
       if (
         id === prefix ||
         id.startsWith(`${prefix}-`) ||
         id.startsWith(`${prefix}.`)
       ) {
         knowledgeCutoff = date;
-        break;
+        matched = prefix;
       }
     }
 
@@ -331,20 +333,6 @@ async function main() {
     if (doc.pricing_notes?.length) entry.pricing_notes = doc.pricing_notes;
 
     written += upsertWithSnapshot("xai", entry);
-  }
-
-  // Mark models no longer listed as deprecated (skips ones already deprecated).
-  const activeIds = new Set(docsModels.keys());
-  const modelsDir = new URL("../providers/xai/models/", import.meta.url);
-  for (const file of await Array.fromAsync(
-    new Bun.Glob("*.json").scan(modelsDir.pathname),
-  )) {
-    const id = file.replace(".json", "");
-    if (activeIds.has(id)) continue;
-    const existing = await Bun.file(`${modelsDir.pathname}/${file}`).json();
-    if (existing.status === "deprecated") continue;
-    upsertModel("xai", { id, name: id, status: "deprecated" } as ModelEntry);
-    written++;
   }
 
   console.log(`Wrote ${written} models`);
