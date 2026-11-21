@@ -1,24 +1,29 @@
 {
   "id": "openai/gpt-5-nano",
-  "name": "OpenAI: gpt-5-nano",
+  "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-11-21",
   "family": "gpt-5",
   "pricing": {
-    "input": 0.049999999999999996,
-    "output": 0.39999999999999997
+    "input": 0.05,
+    "output": 0.4,
+    "cached_input": 0.005
   },
   "_generated": {
-    "name": "3b91b5fa",
+    "name": "5b55012d",
     "family": "aa904c16",
-    "pricing": "1f11d182",
+    "pricing": "63b50152",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "379ac110",
+    "context_window": "34434798"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "active",
+  "context_window": 128000
 }

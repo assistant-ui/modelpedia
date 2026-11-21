@@ -1,0 +1,19 @@
+{
+  "id": "grok/grok-voice",
+  "name": "Grok Voice",
+  "created_by": "xai",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "fef2e906",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

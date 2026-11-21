@@ -1,0 +1,14 @@
+{
+  "id": "krea/krea-2-large",
+  "name": "Krea 2 Large",
+  "created_by": "krea",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "c0d71bd6",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

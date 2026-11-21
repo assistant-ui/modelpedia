@@ -67,6 +67,7 @@ async function main() {
   const pricing = parsePricing(pricingMarkdown);
   const pricingSections = parsePricingSections(pricingMarkdown);
   assertParsed(catalog.size, "OpenAI model catalog");
+  assertParsed(deprecations.size, "OpenAI deprecations");
   console.log(
     `Catalog: ${catalog.size} model pages, ${pricing.size} priced models, ${deprecations.size} deprecations`,
   );

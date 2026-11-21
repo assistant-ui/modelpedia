@@ -1,153 +1,139 @@
+import { fetchMarkdown, pMap } from "./parse.ts";
+import { modelTypeFromCategory } from "./provider-fetch-utils.ts";
 import {
   buildPricing,
-  envOrNull,
   inferFamily,
   inferModelType,
   inferParameters,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertModel,
 } from "./shared.ts";
-import { fetchWithRetry } from "./parse.ts";
 
 /**
- * Fetch Cloudflare AI Gateway models from the /compat/v1/models API.
+ * Fetch Cloudflare AI Gateway models from the public model catalog.
  *
- * The API returns every model the gateway can route, with per-token costs
- * and the upstream provider name (owned_by).
- *
- * Env vars:
- *   CLOUDFLARE_ACCOUNT_ID          — CF account ID
- *   CLOUDFLARE_AI_GATEWAY_ID       — CF AI Gateway ID
- *   CLOUDFLARE_AI_GATEWAY_TOKEN    — CF API token with AI Gateway permissions
+ * The catalog index lists every model reachable through Cloudflare; each
+ * third-party model has its own markdown page with a context window and
+ * per-1M-token pricing. `@cf/` models belong to the Workers AI script.
  */
 
 const PROVIDER = "cloudflare-ai-gateway";
+const sources = readSources(PROVIDER);
+const CATALOG_URL = sources.models as string;
 
-// CF AI Gateway provider names → our internal provider IDs
-const CF_TO_INTERNAL: Record<string, string | null> = {
-  "aws-bedrock": "amazon",
-  "azure-openai": "azure",
-  "cerebras-ai": "cerebras",
-  "google-ai-studio": "google",
-  "google-vertex-ai": "vertex",
-  grok: "xai",
-  "perplexity-ai": "perplexity",
-  "workers-ai": "cloudflare-workers-ai",
+// Public catalog provider slugs → the id prefix stored on disk (the gateway's
+// legacy /compat/v1/models naming), so existing files are updated in place.
+const PUBLIC_TO_GATEWAY_PREFIX: Record<string, string> = {
+  google: "google-ai-studio",
+  xai: "grok",
 };
 
-function mapProvider(cfProvider: string): string {
-  const mapped = CF_TO_INTERNAL[cfProvider];
-  if (mapped === null) return cfProvider;
-  return mapped ?? cfProvider;
+// Public catalog provider slugs → our internal provider ids.
+const PUBLIC_TO_INTERNAL: Record<string, string> = {
+  "deepseek-ai": "deepseek",
+  moonshotai: "moonshot",
+};
+
+function priceFor(pricing: string, label: string): number | undefined {
+  const match = pricing.match(
+    new RegExp(`(?:^|<li>)${label} \\(per 1M tokens\\)\\$([\\d.,]+)`),
+  );
+  return match ? Number(match[1].replace(/,/g, "")) : undefined;
 }
 
-function mapProviderLabel(cfProvider: string): string {
-  const labels: Record<string, string> = {
-    openai: "OpenAI",
-    anthropic: "Anthropic",
-    "google-ai-studio": "Google AI Studio",
-    "google-vertex-ai": "Google Vertex AI",
-    mistral: "Mistral",
-    deepseek: "DeepSeek",
-    groq: "Groq",
-    grok: "xAI",
-    cohere: "Cohere",
-    "cerebras-ai": "Cerebras",
-    "perplexity-ai": "Perplexity",
-    "aws-bedrock": "Amazon Bedrock",
-    "azure-openai": "Azure OpenAI",
-    baseten: "Baseten",
-    huggingface: "HuggingFace",
-    replicate: "Replicate",
-    "workers-ai": "Workers AI",
-    openrouter: "OpenRouter",
-    fal: "Fal AI",
-    elevenlabs: "ElevenLabs",
-    cartesia: "Cartesia",
-    deepgram: "Deepgram",
-    ideogram: "Ideogram",
-    parallel: "Parallel",
+function parseContextWindow(text: string | undefined): number | undefined {
+  const match = text?.match(/([\d,]+) tokens/);
+  return match ? Number(match[1].replace(/,/g, "")) : undefined;
+}
+
+function modelTypeFromTask(task: string): ModelEntry["model_type"] | undefined {
+  if (/speech recognition/i.test(task)) return "transcription";
+  if (/music|sound/i.test(task)) return "audio";
+  if (/video-to-video|video generation/i.test(task)) return "video";
+  if (/to-document/i.test(task)) return "other";
+  const type = modelTypeFromCategory(task.replace(/\s+/g, "-"));
+  return type === "other" ? undefined : type;
+}
+
+function parseModelPage(md: string, slug: string): ModelEntry | null {
+  const title = md.match(/^# (.+)$/m)?.[1]?.trim();
+  const rawId = md.match(/Model ID\s+`([^`]+)`/)?.[1] ?? slug;
+  if (!title || rawId.startsWith("@cf/")) return null;
+
+  const slashIdx = rawId.indexOf("/");
+  if (slashIdx < 0) return null;
+  const publicProvider = rawId.slice(0, slashIdx);
+  const bareModel = rawId.slice(slashIdx + 1);
+  const gatewayPrefix =
+    PUBLIC_TO_GATEWAY_PREFIX[publicProvider] ?? publicProvider;
+
+  const task = md.match(/^([^\n•]+) • [^\n]+$/m)?.[1]?.trim() ?? "";
+  const info: Record<string, string> = {};
+  for (const [, key, value] of md.matchAll(/^\| ([^|]+?) \| (.+) \|$/gm)) {
+    info[key.replace(/\s*\[.*$/, "")] = value;
+  }
+  const pricing = info.Pricing ?? "";
+  const params = inferParameters(bareModel);
+
+  const entry: ModelEntry = {
+    id: `${gatewayPrefix}/${bareModel}`,
+    name: title,
+    created_by: PUBLIC_TO_INTERNAL[publicProvider] ?? publicProvider,
+    family: inferFamily(bareModel),
+    status: "active",
+    model_type: modelTypeFromTask(task) ?? inferModelType(bareModel),
+    context_window: parseContextWindow(info["Context Window"]),
+    parameters: params?.parameters,
+    active_parameters: params?.active_parameters,
   };
-  return labels[cfProvider] ?? cfProvider;
-}
-
-interface CfModel {
-  id: string;
-  cost_in: number;
-  cost_out: number;
-  owned_by: string;
+  entry.pricing = buildPricing({
+    input: priceFor(pricing, "Input"),
+    output: priceFor(pricing, "Output"),
+    cached_input: priceFor(pricing, "Cached input"),
+    cache_write: priceFor(pricing, "Cache creation"),
+  });
+  return entry;
 }
 
 async function main() {
-  const accountId = envOrNull("CLOUDFLARE_ACCOUNT_ID");
-  const gatewayId = envOrNull("CLOUDFLARE_AI_GATEWAY_ID");
-  const token = envOrNull("CLOUDFLARE_AI_GATEWAY_TOKEN");
-
-  if (!accountId || !gatewayId || !token) {
-    console.warn(
-      "No Cloudflare AI Gateway credentials and no key-free public model list; skipping. Set CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_AI_GATEWAY_ID / CLOUDFLARE_AI_GATEWAY_TOKEN locally to fetch.",
+  console.log(`Fetching Cloudflare model catalog from ${CATALOG_URL}...`);
+  const index = await fetchMarkdown(CATALOG_URL);
+  const slugs = [
+    ...new Set(
+      [
+        ...index.matchAll(
+          /\]\(https:\/\/developers\.cloudflare\.com\/ai\/models\/([^)]+?)\/\)/g,
+        ),
+      ]
+        .map((m) => m[1])
+        .filter((slug) => !slug.startsWith("@cf/")),
+    ),
+  ];
+  console.log(`Got ${slugs.length} gateway models from catalog`);
+  if (slugs.length === 0) {
+    throw new Error(
+      "cloudflare-ai-gateway: catalog listed 0 models (page structure changed?)",
     );
-    return;
   }
 
-  const apiUrl = `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/compat/v1/models`;
-  console.log(`Fetching AI Gateway models from ${apiUrl}...`);
+  const entries = await pMap(
+    slugs,
+    async (slug) =>
+      parseModelPage(await fetchMarkdown(`${CATALOG_URL}${slug}/`), slug),
+    6,
+  );
 
-  const res = await fetchWithRetry(apiUrl, {
-    headers: { "cf-aig-authorization": `Bearer ${token}` },
-  });
-  if (!res.ok) throw new Error(`CF AI Gateway fetch failed: ${res.status}`);
-
-  const data = (await res.json()) as { data: CfModel[] };
-  console.log(`Got ${data.data.length} models from API`);
-
-  const providerCounts = new Map<string, number>();
   let written = 0;
-
-  for (const cfModel of data.data) {
-    const slashIdx = cfModel.id.indexOf("/");
-    if (slashIdx < 0) continue;
-
-    const cfProvider = cfModel.id.slice(0, slashIdx);
-    const bareModel = cfModel.id.slice(slashIdx + 1);
-    const internalProvider = mapProvider(cfProvider);
-    const providerLabel = mapProviderLabel(cfProvider);
-
-    // Use the full CF ID as model ID (e.g. "openai/gpt-4o")
-    const gatewayModelId = cfModel.id;
-
-    const params = inferParameters(bareModel);
-    const modelType = inferModelType(bareModel);
-
-    const entry: ModelEntry = {
-      id: gatewayModelId,
-      name: `${providerLabel}: ${bareModel}`,
-      created_by: internalProvider,
-      family: inferFamily(bareModel),
-      model_type: modelType,
-      parameters: params?.parameters,
-      active_parameters: params?.active_parameters,
-    };
-
-    // CF costs are per-token → convert to per-million-token
-    if (cfModel.cost_in > 0 || cfModel.cost_out > 0) {
-      entry.pricing = buildPricing({
-        input: cfModel.cost_in * 1_000_000,
-        output: cfModel.cost_out * 1_000_000,
-      });
-    }
-
+  let priced = 0;
+  for (const entry of entries) {
+    if (!entry) continue;
+    if (entry.pricing) priced++;
     if (upsertModel(PROVIDER, entry)) written++;
-    providerCounts.set(cfProvider, (providerCounts.get(cfProvider) ?? 0) + 1);
   }
 
-  // Log breakdown
-  const sorted = [...providerCounts.entries()].sort(([, a], [, b]) => b - a);
-  for (const [p, count] of sorted) {
-    console.log(`  ${p.padEnd(22)} ${String(count).padStart(4)} models`);
-  }
-  console.log(`\nWrote ${written} models`);
+  console.log(`Wrote ${written} models (${priced} with token pricing)`);
   runGenerate();
 }
 

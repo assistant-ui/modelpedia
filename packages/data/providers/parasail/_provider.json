@@ -8,7 +8,7 @@
   "pricing_url": "https://www.parasail.io/pricing",
   "description": "AI inference and compute platform providing serverless OpenAI-compatible access to popular models.",
   "type": "cloud",
-  "models_url": "https://api.parasail.io/v1/models",
+  "models_url": "https://www.parasail.io/models",
   "openai_compatible": true,
   "free_tier": false,
   "github_url": "https://github.com/parasail-ai",

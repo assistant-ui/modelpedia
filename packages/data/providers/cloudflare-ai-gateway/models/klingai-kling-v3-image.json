@@ -1,0 +1,14 @@
+{
+  "id": "klingai/kling-v3-image",
+  "name": "Kling v3 Image",
+  "created_by": "klingai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "b42e9215",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

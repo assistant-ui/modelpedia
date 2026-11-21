@@ -1,0 +1,29 @@
+{
+  "id": "google-ai-studio/gemini-4-hydrogen",
+  "name": "Gemini 4 Hydrogen",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.5,
+    "output": 7.5,
+    "cached_input": 0.075
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "01940432",
+    "family": "bd0f233d",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "pricing": "efc01807",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

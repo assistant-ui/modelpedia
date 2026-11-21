@@ -1,0 +1,16 @@
+{
+  "id": "openai/gpt-4o-transcribe",
+  "name": "GPT-4o Transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4o",
+  "status": "active",
+  "model_type": "transcription",
+  "_generated": {
+    "name": "04ad7ace",
+    "family": "15249632",
+    "status": "379ac110",
+    "model_type": "5e12d29a"
+  },
+  "last_updated": "2026-11-21"
+}

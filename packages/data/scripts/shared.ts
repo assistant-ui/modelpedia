@@ -2,7 +2,7 @@ import { execSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import * as fs from "node:fs";
 import * as path from "node:path";
-import { fetchWithRetry } from "./parse.ts";
+import { fetchWithRetry, unquoteMarkdownLine } from "./parse.ts";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 
@@ -145,8 +145,11 @@ const PARTIAL_WRITERS = new Set([
  * to be a half-broken scraper than a mass delisting, and sweeping on it would
  * retire the catalog. xai did exactly this: its sweep ran before the guard, so
  * a zero-parse run marked all 24 models deprecated and only then threw.
+ * Losing up to SWEEP_SHRINK_FLOOR models always sweeps, so a provider with a
+ * handful of models can retire one or two without tripping the ratio.
  */
 const SWEEP_SHRINK_TOLERANCE = 0.2;
+const SWEEP_SHRINK_FLOOR = 2;
 
 function refusesSweep(
   provider: string,
@@ -154,7 +157,10 @@ function refusesSweep(
   seenCount: number,
 ): boolean {
   if (PARTIAL_WRITERS.has(provider) || !priorCount) return false;
-  return (priorCount - seenCount) / priorCount > SWEEP_SHRINK_TOLERANCE;
+  const lost = priorCount - seenCount;
+  return (
+    lost > SWEEP_SHRINK_FLOOR && lost / priorCount > SWEEP_SHRINK_TOLERANCE
+  );
 }
 
 /**
@@ -327,7 +333,8 @@ export function filterModalities(input: string[], output: string[]) {
  */
 export function parseMarkdownTable(lines: string[]): string[][] {
   const rows: string[][] = [];
-  for (const line of lines) {
+  for (const raw of lines) {
+    const line = unquoteMarkdownLine(raw);
     if (!line.startsWith("|")) continue;
     // Separator row: contains only `|`, `:`, `-`, whitespace.
     if (line.replace(/[|:\-\s]/g, "") === "") continue;

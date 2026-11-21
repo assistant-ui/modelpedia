@@ -1,0 +1,14 @@
+{
+  "id": "black-forest-labs/flux-3-video",
+  "name": "FLUX 3 Video",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "cfb6c4c8",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

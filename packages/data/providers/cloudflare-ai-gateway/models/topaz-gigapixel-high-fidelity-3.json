@@ -1,0 +1,14 @@
+{
+  "id": "topaz/gigapixel-high-fidelity-3",
+  "name": "Gigapixel High Fidelity 3",
+  "created_by": "topaz",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "7697842a",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

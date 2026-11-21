@@ -1,0 +1,14 @@
+{
+  "id": "google-ai-studio/gemini-omni-1.1-flash",
+  "name": "Gemini Omni Flash 1.1",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "d8432533",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

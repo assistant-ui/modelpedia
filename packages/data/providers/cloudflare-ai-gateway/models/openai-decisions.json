@@ -1,0 +1,26 @@
+{
+  "id": "openai/decisions",
+  "name": "Decisions",
+  "created_by": "openai",
+  "source": "official",
+  "status": "active",
+  "context_window": 1050000,
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.1,
+    "output": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c4c091b0",
+    "status": "379ac110",
+    "context_window": "f170ebb2",
+    "model_type": "d669f408",
+    "pricing": "fceb22e8",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

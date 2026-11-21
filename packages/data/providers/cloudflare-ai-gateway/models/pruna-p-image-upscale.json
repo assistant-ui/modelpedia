@@ -1,0 +1,14 @@
+{
+  "id": "pruna/p-image-upscale",
+  "name": "P-Image-Upscale",
+  "created_by": "pruna",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "9e278717",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

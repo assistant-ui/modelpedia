@@ -1,5 +1,6 @@
-import { fetchText, parseMdTable } from "./parse.ts";
+import { fetchMarkdown, parseMdTable } from "./parse.ts";
 import {
+  assertParsed,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -14,6 +15,7 @@ import {
 
 const sources = readSources("recraft");
 const PRICING_URL = sources.pricing as string;
+if (!PRICING_URL) throw new Error("recraft _sources.json is missing pricing");
 
 interface ModelMeta {
   name: string;
@@ -105,66 +107,75 @@ const MODELS: Record<string, ModelMeta> = {
   },
 };
 
-// fallback per-image USD costs if the markdown table can't be reached.
-const FALLBACK_PRICING: Record<string, number> = {
-  recraftv4: 0.04,
-  recraftv4_vector: 0.08,
-  recraftv4_pro: 0.25,
-  recraftv4_pro_vector: 0.3,
-  recraftv3: 0.04,
-  recraftv3_vector: 0.08,
-  recraftv2: 0.022,
-  recraftv2_vector: 0.044,
+const AGENTS_URL = new URL("agents.md", PRICING_URL).href;
+
+const RELEASE_DATES: Record<string, string> = {
+  recraftv4_1: "2026-05-01",
+  recraftv4_1_utility: "2026-05-01",
+  recraftv4_styles: "2026-08-01",
+  recraftv4_1_flash_v2: "2026-11-01",
 };
 
-function parseUsd(s: string): number | undefined {
-  const m = s.match(/\$([\d.]+)/);
-  return m ? Number(m[1]) : undefined;
+const GENERATION_NAMES: Record<string, string> = {
+  utility: "Utility",
+  styles: "Styles",
+  flash: "Flash",
+  v2: "V2",
+};
+
+interface ApiModel {
+  id: string;
+  usd: number;
 }
 
-function parsePricingMd(md: string): Record<string, number> {
-  const rows = parseMdTable(md);
-  const map: Record<string, number> = {};
-  for (const row of rows) {
-    // Each table has at least a model id column and a USD column. The
-    // exact header text varies across the page, so we scan all cells.
-    let foundId: string | undefined;
-    let foundUsd: number | undefined;
-    for (const v of Object.values(row)) {
-      const idMatch = v.match(/recraftv[234](?:_pro)?(?:_vector)?/i);
-      if (idMatch && !foundId) foundId = idMatch[0].toLowerCase();
-      const usd = parseUsd(v);
-      if (usd != null && (foundUsd == null || usd < foundUsd)) foundUsd = usd;
-    }
-    if (foundId && foundUsd != null) {
-      map[foundId] = foundUsd;
-    }
+/** Parses the docs model list: `model` id, output kind, and per-image USD price. */
+function parseModelList(md: string): ApiModel[] {
+  const models: ApiModel[] = [];
+  const section = md.split(/^## /m).find((s) => s.startsWith("Models"));
+  for (const row of section ? parseMdTable(section) : []) {
+    const id = row["`model`"]?.match(/^`(recraftv[\w]+)`/)?.[1];
+    const usd = row.Price?.match(/^([\d.]+) USD/)?.[1];
+    if (id && usd) models.push({ id, usd: Number(usd) });
   }
-  return map;
+  return models;
+}
+
+function deriveMeta(id: string): ModelMeta {
+  const known = MODELS[id];
+  if (known) return known;
+  const vector = id.endsWith("_vector");
+  const pro = /_pro(_vector)?$/.test(id);
+  const base = id.replace(/(_pro)?(_vector)?$/, "");
+  const parts = base.replace(/^recraftv/, "").split("_");
+  const version = parts[0] === "4" && parts[1] === "1" ? "4.1" : parts[0];
+  const rest = parts.slice(version === "4.1" ? 2 : 1);
+  const label = [
+    `Recraft V${version}`,
+    ...rest.map((p) => GENERATION_NAMES[p] ?? p.toUpperCase()),
+    ...(pro ? ["Pro"] : []),
+    ...(vector ? ["Vector"] : []),
+  ].join(" ");
+  return {
+    name: label,
+    family: `recraft-v${version.replace(".", "-")}`,
+    description: `${label} image generation model in the Recraft API${vector ? ", outputting editable SVG vector graphics" : ""}${pro ? " at 2K resolution" : ""}.`,
+    tagline: `${label}.`,
+    release_date: RELEASE_DATES[base] ?? "",
+    endpoints: ["images"],
+    inputs: rest.includes("flash") ? ["text"] : ["text", "image"],
+  };
 }
 
 async function main() {
   console.log("Fetching Recraft models...");
 
-  let pricing = FALLBACK_PRICING;
-  if (PRICING_URL) {
-    try {
-      const md = await fetchText(PRICING_URL);
-      const parsed = parsePricingMd(md);
-      console.log(
-        `Parsed pricing for ${Object.keys(parsed).length} model ids from markdown`,
-      );
-      pricing = { ...FALLBACK_PRICING, ...parsed };
-    } catch (err) {
-      console.warn(
-        `Could not fetch pricing markdown (${(err as Error).message}); using fallback.`,
-      );
-    }
-  }
+  const apiModels = parseModelList(await fetchMarkdown(AGENTS_URL));
+  console.log(`Parsed pricing for ${apiModels.length} model ids from markdown`);
+  assertParsed(apiModels.length, "Recraft pricing");
 
   let written = 0;
-  for (const [id, meta] of Object.entries(MODELS)) {
-    const usd = pricing[id];
+  for (const { id, usd } of apiModels) {
+    const meta = deriveMeta(id);
     const entry: ModelEntry = {
       id,
       name: meta.name,
@@ -174,18 +185,26 @@ async function main() {
       tagline: meta.tagline,
       status: "active",
       model_type: "image",
-      release_date: meta.release_date,
+      ...(meta.release_date && { release_date: meta.release_date }),
       license: "proprietary",
       open_weight: false,
       modalities: { input: meta.inputs, output: ["image"] },
       endpoints: meta.endpoints,
     };
-    if (usd != null) {
-      const units = Math.round(usd * 1000);
-      entry.pricing_notes = [
-        `$${usd.toFixed(usd < 0.1 ? 3 : 2)} per image (${units} API units).`,
-      ];
-    }
+    entry.pricing = {
+      tiers: [
+        {
+          label: "Image generation",
+          unit: "Per image",
+          columns: ["Price"],
+          rows: [{ label: "Standard", values: [usd] }],
+        },
+      ],
+    };
+    const units = Math.round(usd * 1000);
+    entry.pricing_notes = [
+      `$${usd.toFixed(usd < 0.1 ? 3 : 2)} per image (${units} API units).`,
+    ];
     if (upsertModel("recraft", entry)) written++;
   }
 

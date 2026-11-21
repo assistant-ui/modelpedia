@@ -78,11 +78,13 @@ export function capabilitiesFromText(
 ) {
   const lower = text.toLowerCase();
   const caps: Record<string, boolean> = { ...extra };
-  if (/(vision|image|multimodal|vl\b)/.test(lower)) caps.vision = true;
-  if (/(tool|function calling|function-calling)/.test(lower))
-    caps.tool_call = true;
-  if (/(reasoning|thinking)/.test(lower)) caps.reasoning = true;
-  if (/(json|structured)/.test(lower)) caps.structured_output = true;
+  const infer = (key: string, pattern: RegExp) => {
+    if (caps[key] === undefined && pattern.test(lower)) caps[key] = true;
+  };
+  infer("vision", /(vision|image|multimodal|vl\b)/);
+  infer("tool_call", /(tool|function calling|function-calling)/);
+  infer("reasoning", /(reasoning|thinking)/);
+  infer("structured_output", /(json|structured)/);
   return caps;
 }
 

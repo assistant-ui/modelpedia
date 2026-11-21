@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio/nano-banana-2.1",
+  "name": "Nano Banana 2.1",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "image",
+  "_generated": {
+    "name": "fdcdaf63",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

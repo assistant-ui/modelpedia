@@ -1,0 +1,14 @@
+{
+  "id": "bytedance/seedream-4.0",
+  "name": "Seedream 4.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "207269d1",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

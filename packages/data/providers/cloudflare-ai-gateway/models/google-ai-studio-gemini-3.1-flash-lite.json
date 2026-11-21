@@ -1,0 +1,23 @@
+{
+  "id": "google-ai-studio/gemini-3.1-flash-lite",
+  "name": "Gemini 3.1 Flash Lite",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.1",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4ecd8d7d",
+    "family": "ea4a1a23",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

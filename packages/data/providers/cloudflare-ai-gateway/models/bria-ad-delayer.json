@@ -1,0 +1,14 @@
+{
+  "id": "bria/ad-delayer",
+  "name": "Ad Delayer",
+  "created_by": "bria",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "_generated": {
+    "name": "bd51ad61",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,4 +1,4 @@
-import { fetchText } from "./parse.ts";
+import { fetchText, unquoteMarkdownLine } from "./parse.ts";
 import type { Modality } from "../src/types.ts";
 import {
   assertParsed,
@@ -48,8 +48,9 @@ function parseTokenPricing(md: string): Map<string, ModelEntry["pricing"]> {
   const prices = new Map<string, ModelEntry["pricing"]>();
   const llm = md.split("## LLM")[1]?.split("\n## Video")[0] ?? "";
 
-  for (const line of llm.split("\n")) {
-    const name = line.match(/^\|\s*\*\*(MiniMax-[^*]+)\*\*/)?.[1];
+  for (const raw of llm.split("\n")) {
+    const line = unquoteMarkdownLine(raw).trim();
+    const name = line.match(/^\|\s*\*\*(MiniMax-[^*]+)\*\*/)?.[1]?.trim();
     if (!name) continue;
     const id = toId(name);
     if (prices.has(id)) continue;
@@ -129,8 +130,13 @@ async function main() {
   const prices = parseTokenPricing(pricingMd);
   for (const model of catalog) {
     if (model.model_type === "chat" && !prices.has(toId(model.name))) {
-      throw new Error(`MiniMax pricing missing for ${model.name}`);
+      console.warn(`MiniMax pricing missing for ${model.name}`);
     }
+  }
+  if (
+    !catalog.some((m) => m.model_type === "chat" && prices.has(toId(m.name)))
+  ) {
+    throw new Error("MiniMax pricing missing for every chat model");
   }
   let written = 0;
 

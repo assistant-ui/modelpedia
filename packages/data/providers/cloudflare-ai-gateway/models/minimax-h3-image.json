@@ -1,0 +1,14 @@
+{
+  "id": "minimax/h3-image",
+  "name": "MiniMax H3 Image",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "0e043559",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -13,7 +13,7 @@
   "status_url": "https://www.cloudflarestatus.com",
   "openai_compatible": true,
   "free_tier": true,
-  "models_url": "https://developers.cloudflare.com/ai-gateway/providers/",
+  "models_url": "https://developers.cloudflare.com/ai/models/",
   "twitter_url": "https://x.com/Cloudflare",
   "discord_url": "https://discord.com/invite/cloudflaredev",
   "blog_url": "https://blog.cloudflare.com",

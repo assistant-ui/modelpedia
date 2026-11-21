@@ -1,0 +1,30 @@
+{
+  "id": "alibaba/qwen3.5-397b-a17b",
+  "name": "Qwen 3.5 397B A17B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.5",
+  "status": "active",
+  "model_type": "chat",
+  "parameters": 397,
+  "active_parameters": 17,
+  "pricing": {
+    "input": 0.6,
+    "output": 3.6
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a7e636b9",
+    "family": "d548f421",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "parameters": "e46de7e1",
+    "active_parameters": "70efdf2e",
+    "pricing": "fd53beb3",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

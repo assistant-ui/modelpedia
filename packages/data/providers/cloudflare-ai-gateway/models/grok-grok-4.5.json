@@ -1,0 +1,23 @@
+{
+  "id": "grok/grok-4.5",
+  "name": "Grok 4.5",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.5",
+  "status": "active",
+  "context_window": 500000,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3b3306ef",
+    "family": "ce414514",
+    "status": "379ac110",
+    "context_window": "c9077732",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

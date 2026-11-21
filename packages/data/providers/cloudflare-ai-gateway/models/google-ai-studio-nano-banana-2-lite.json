@@ -1,0 +1,21 @@
+{
+  "id": "google-ai-studio/nano-banana-2-lite",
+  "name": "Nano Banana 2 Lite",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "context_window": 65536,
+  "model_type": "image",
+  "pricing": {
+    "input": 0.25,
+    "output": 30
+  },
+  "_generated": {
+    "name": "eef4bdcf",
+    "status": "379ac110",
+    "context_window": "297ce0b3",
+    "model_type": "db8857fe",
+    "pricing": "61998dd9"
+  },
+  "last_updated": "2026-11-21"
+}

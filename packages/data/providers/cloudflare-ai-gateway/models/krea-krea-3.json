@@ -1,0 +1,14 @@
+{
+  "id": "krea/krea-3",
+  "name": "Krea 3",
+  "created_by": "krea",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "2196ab83",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

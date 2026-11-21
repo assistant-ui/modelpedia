@@ -45,39 +45,113 @@ function normalizeModelKey(name: string): string {
     .toLowerCase();
 }
 
-/** Extract Gemini pricing rows from a table for a given tier label */
+function cellText(html: string): string {
+  return html
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Model names in the first column carry footnote stars, validity windows
+ * ("through <date>", "(Starting <date>)") and several comma separated models
+ * sharing one price row. Returns the keys of the models priced right now.
+ */
+function resolveModelKeys(cell: string, now = Date.now()): string[] {
+  let name = cell.replace(/\[\d+\]/g, "").replace(/\*+/g, "");
+  const through = name.match(/through\s+([A-Z][a-z]+ \d{1,2}, \d{4})/);
+  if (through) {
+    if (now > Date.parse(through[1]) + 86_400_000) return [];
+    name = name.replace(through[0], "");
+  }
+  const starting = name.match(/\(?Starting\s+([A-Z][a-z]+ \d{1,2}, \d{4})\)?/);
+  if (starting) {
+    if (now < Date.parse(starting[1])) return [];
+    name = name.replace(starting[0], "");
+  }
+  return name
+    .replace(/\([^)]*\)/g, "")
+    .split(",")
+    .map((n) => n.trim())
+    .filter((n) => /^Gemini/i.test(n))
+    .map(normalizeModelKey);
+}
+
+/**
+ * Extract Gemini pricing rows from a table. Columns are
+ * Model | Type | [Region] | price columns; the model, type and region cells
+ * are blank on continuation rows. Global prices win over non-global ones.
+ */
 function parseGeminiTable(
   tableHtml: string,
 ): Map<string, { type: string; price: number }[]> {
   const models = new Map<string, { type: string; price: number }[]>();
-  let current = "";
+  const rows = [...tableHtml.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].map(
+    (row) =>
+      [...row[1].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/g)].map((c) =>
+        cellText(c[1]),
+      ),
+  );
+  const header = rows[0];
+  if (!header || !/^Model$/i.test(header[0]) || !/^Type$/i.test(header[1]))
+    return models;
 
-  const rows = [...tableHtml.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
-  for (const row of rows) {
-    const cells = [...row[1].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/g)].map(
-      (c) =>
-        c[1]
-          .replace(/<[^>]+>/g, " ")
-          .replace(/\s+/g, " ")
-          .trim(),
-    );
-    if (cells.length === 0) continue;
+  const regionIdx = header.findIndex((h) => /^Region$/i.test(h));
+  const firstPrice = Math.max(1, regionIdx) + 1;
+  const priceIdx = header.findIndex(
+    (h, i) => i >= firstPrice && !h.includes(">"),
+  );
+  const cachedIdx = header.findIndex(
+    (h, i) =>
+      i >= firstPrice &&
+      /cach/i.test(h) &&
+      !/write/i.test(h) &&
+      !h.includes(">"),
+  );
+  if (priceIdx === -1) return models;
 
-    // Model name row
-    if (
-      cells.length === 1 &&
-      /^Gemini/i.test(cells[0]) &&
-      !cells[0].includes("$")
-    ) {
-      current = normalizeModelKey(cells[0]);
-      if (!models.has(current)) models.set(current, []);
-      continue;
+  const priceOf = (cell: string | undefined) => {
+    const m = cell?.match(/\$([\d.]+)/);
+    return m ? Number(m[1]) : undefined;
+  };
+
+  const tagged = new Map<
+    string,
+    { type: string; price: number; global: boolean }[]
+  >();
+  let current: string[] = [];
+  let type = "";
+  let region = "";
+  for (const cells of rows.slice(1)) {
+    if (cells.length !== header.length) continue;
+    if (cells[0]) current = resolveModelKeys(cells[0]);
+    if (cells[1]) type = cells[1];
+    if (regionIdx !== -1 && cells[regionIdx]) region = cells[regionIdx];
+    const price = priceOf(cells[priceIdx]);
+    if (price == null || current.length === 0) continue;
+
+    const global = regionIdx === -1 || !/non-global/i.test(region);
+    const cached = cachedIdx === -1 ? undefined : priceOf(cells[cachedIdx]);
+    for (const key of current) {
+      const list = tagged.get(key) ?? [];
+      list.push({ type, price, global });
+      if (cached != null)
+        list.push({ type: "Cache read", price: cached, global });
+      tagged.set(key, list);
     }
+  }
 
-    if (!current || cells.length < 2) continue;
-    const price = cells[1]?.match(/\$([\d.]+)/);
-    if (!price) continue;
-    models.get(current)?.push({ type: cells[0], price: Number(price[1]) });
+  for (const [key, list] of tagged) {
+    const preferred = list.some((r) => r.global)
+      ? list.filter((r) => r.global)
+      : list;
+    models.set(
+      key,
+      preferred.map(({ type, price }) => ({ type, price })),
+    );
   }
   return models;
 }
@@ -89,28 +163,39 @@ async function fetchVertexPricing(): Promise<Map<string, VertexPricing>> {
 
   const tables = [...html.matchAll(/<table[^>]*>([\s\S]*?)<\/table>/g)];
 
-  // Classify tables by tier heading
+  // Each pricing block has a tab group (Standard / Priority / Flex or Batch)
+  // above its tables, one table per tab in order. Tables beyond the tab count
+  // (grounding, tooling) and tabs for other pricing modes are skipped.
+  const tabs = [
+    ...html.matchAll(
+      /track-name="pricing table tab"[^>]*?track-metadata-eventdetail="([^"]*)"/g,
+    ),
+  ].map((m) => ({ idx: m.index!, label: m[1] }));
+  const groups: { idx: number; labels: string[] }[] = [];
+  for (const [i, tab] of tabs.entries()) {
+    const prev = tabs[i - 1];
+    const sameGroup =
+      prev && !tables.some((t) => t.index! > prev.idx && t.index! < tab.idx);
+    if (sameGroup) groups[groups.length - 1].labels.push(tab.label);
+    else groups.push({ idx: tab.idx, labels: [tab.label] });
+  }
+
   const tierTables: { tier: string; table: string }[] = [];
-  for (const table of tables) {
-    const tableIdx = html.indexOf(table[0]);
-    const before = html.slice(Math.max(0, tableIdx - 500), tableIdx);
-    const headings = [...before.matchAll(/<h[2-6][^>]*>([\s\S]*?)<\/h[2-6]>/g)];
-    const heading =
-      headings.length > 0
-        ? headings[headings.length - 1][1].replace(/<[^>]+>/g, "").trim()
-        : "";
-
-    const text = table[1].replace(/<[^>]+>/g, " ").trim();
-    if (!text.includes("Gemini") || !text.includes("$")) continue;
-    if (/Grounding|Search|Cache Storage|fine-tuning|Embedding/i.test(heading))
-      continue;
-
-    let tier = "Standard";
-    if (/Priority/i.test(heading)) tier = "Priority";
-    else if (/Flex|Batch/i.test(heading)) tier = "Flex";
-    else if (/Token-based/i.test(heading)) tier = "Standard";
-
-    tierTables.push({ tier, table: table[1] });
+  for (const [g, group] of groups.entries()) {
+    const end = groups[g + 1]?.idx ?? Infinity;
+    const inGroup = tables.filter(
+      (t) => t.index! > group.idx && t.index! < end,
+    );
+    for (const [k, table] of inGroup.entries()) {
+      const label = group.labels[k];
+      if (!label) break;
+      let tier: string;
+      if (/priority/i.test(label)) tier = "Priority";
+      else if (/flex|batch/i.test(label)) tier = "Flex";
+      else if (/standard|token-based/i.test(label)) tier = "Standard";
+      else continue;
+      tierTables.push({ tier, table: table[1] });
+    }
   }
 
   // Parse each tier table
@@ -121,7 +206,9 @@ async function fetchVertexPricing(): Promise<Map<string, VertexPricing>> {
 
       const inputRow = rows.find((r) => /input/i.test(r.type));
       const outputRow = rows.find((r) => /output/i.test(r.type));
-      const cachedRow = rows.find((r) => /cach/i.test(r.type));
+      const cachedRow = rows.find(
+        (r) => /cach/i.test(r.type) && !/storage/i.test(r.type),
+      );
 
       // Set flat fields from Standard tier
       if (tier === "Standard") {
@@ -133,6 +220,8 @@ async function fetchVertexPricing(): Promise<Map<string, VertexPricing>> {
         if (inputRow) info.batch_input = inputRow.price;
         if (outputRow) info.batch_output = outputRow.price;
       }
+
+      if (!inputRow && !outputRow && !cachedRow) continue;
 
       // Build tier row
       if (!info.tiers) info.tiers = [];
@@ -238,11 +327,12 @@ function lookupPricing(
 ): VertexPricing | undefined {
   // Direct match
   if (pricing.has(modelId)) return pricing.get(modelId);
-  // Fuzzy: strip version suffixes, try partial match
-  for (const [key, val] of pricing) {
-    if (modelId.startsWith(key) || key.startsWith(modelId)) return val;
+  let best: string | undefined;
+  for (const key of pricing.keys()) {
+    if (modelId.startsWith(key) && (!best || key.length > best.length))
+      best = key;
   }
-  return undefined;
+  return best === undefined ? undefined : pricing.get(best);
 }
 
 // Partner models available on Vertex AI
@@ -322,6 +412,16 @@ async function main() {
 
   // Fetch Vertex-specific pricing
   const pricing = await fetchVertexPricing();
+  if (pricing.size === 0) {
+    throw new Error(
+      "vertex: parsed 0 pricing entries; the pricing page structure likely changed",
+    );
+  }
+  if (![...pricing.keys()].some((k) => k.startsWith("gemini"))) {
+    throw new Error(
+      "vertex: parsed 0 Gemini pricing entries; the Gemini pricing table structure likely changed",
+    );
+  }
   console.log(`Fetched ${pricing.size} Vertex pricing entries`);
 
   let written = 0;

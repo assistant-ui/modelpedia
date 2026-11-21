@@ -1,0 +1,14 @@
+{
+  "id": "veed/fabric-1.0",
+  "name": "VEED Fabric 1.0",
+  "created_by": "veed",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "a65816af",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

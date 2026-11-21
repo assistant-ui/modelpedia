@@ -1,0 +1,14 @@
+{
+  "id": "krea/krea-2-medium",
+  "name": "Krea 2 Medium",
+  "created_by": "krea",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "02c80bc5",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

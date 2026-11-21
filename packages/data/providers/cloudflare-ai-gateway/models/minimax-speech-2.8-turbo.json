@@ -1,0 +1,14 @@
+{
+  "id": "minimax/speech-2.8-turbo",
+  "name": "MiniMax Speech 2.8 Turbo",
+  "created_by": "minimax",
+  "source": "official",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "b03aaab8",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

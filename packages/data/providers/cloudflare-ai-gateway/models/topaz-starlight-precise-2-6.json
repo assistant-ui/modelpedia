@@ -1,0 +1,14 @@
+{
+  "id": "topaz/starlight-precise-2-6",
+  "name": "Starlight Precise 2.6",
+  "created_by": "topaz",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "2a1d73cd",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

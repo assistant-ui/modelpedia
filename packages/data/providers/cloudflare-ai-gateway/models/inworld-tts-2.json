@@ -1,0 +1,16 @@
+{
+  "id": "inworld/tts-2",
+  "name": "Inworld TTS 2",
+  "created_by": "inworld",
+  "source": "official",
+  "family": "tts",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "56b8b06e",
+    "family": "4e16a2cf",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

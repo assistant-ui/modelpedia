@@ -1,0 +1,27 @@
+{
+  "id": "fireworks/ember-1",
+  "name": "Ember-1",
+  "created_by": "fireworks",
+  "source": "official",
+  "status": "active",
+  "context_window": 1040000,
+  "model_type": "chat",
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "135f083f",
+    "status": "379ac110",
+    "context_window": "1bf8ad8b",
+    "model_type": "d669f408",
+    "pricing": "0deaf3da",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

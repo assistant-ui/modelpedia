@@ -1,0 +1,26 @@
+{
+  "id": "alibaba/qwen3-max",
+  "name": "Qwen 3 Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.2,
+    "output": 6
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "81511df7",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "pricing": "5c5dd606",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

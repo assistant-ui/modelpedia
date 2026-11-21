@@ -1,0 +1,14 @@
+{
+  "id": "bria/fibo-edit-1.5",
+  "name": "FIBO Edit 1.5",
+  "created_by": "bria",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "a3c29f58",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

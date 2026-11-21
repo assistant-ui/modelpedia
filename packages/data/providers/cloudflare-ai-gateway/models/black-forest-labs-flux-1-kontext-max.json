@@ -1,0 +1,14 @@
+{
+  "id": "black-forest-labs/flux-1-kontext-max",
+  "name": "FLUX.1 Kontext \\[max]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "08cbef5e",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

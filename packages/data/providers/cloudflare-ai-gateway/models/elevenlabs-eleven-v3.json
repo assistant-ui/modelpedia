@@ -1,0 +1,14 @@
+{
+  "id": "elevenlabs/eleven-v3",
+  "name": "Eleven v3",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "cdc418e2",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

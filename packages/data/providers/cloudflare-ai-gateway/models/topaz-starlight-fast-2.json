@@ -1,0 +1,14 @@
+{
+  "id": "topaz/starlight-fast-2",
+  "name": "Starlight Fast 2",
+  "created_by": "topaz",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "c7c25fa0",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "google-ai-studio/nano-banana-pro",
+  "name": "Nano Banana Pro",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "pricing": {
+    "input": 2,
+    "output": 120
+  },
+  "_generated": {
+    "name": "005ed6a5",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "pricing": "5d3ed881"
+  },
+  "last_updated": "2026-11-21"
+}

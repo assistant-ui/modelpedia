@@ -1,0 +1,14 @@
+{
+  "id": "elevenlabs/eleven-multilingual-v2",
+  "name": "Eleven Multilingual v2",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "tts",
+  "_generated": {
+    "name": "aaaf9913",
+    "status": "379ac110",
+    "model_type": "4e16a2cf"
+  },
+  "last_updated": "2026-11-21"
+}

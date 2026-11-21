@@ -1,0 +1,14 @@
+{
+  "id": "alibaba/hh1-t2v",
+  "name": "HappyHorse 1.0 T2V",
+  "created_by": "alibaba",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "a8b1daa8",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

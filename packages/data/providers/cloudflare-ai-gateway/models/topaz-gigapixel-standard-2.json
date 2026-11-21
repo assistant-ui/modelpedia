@@ -1,0 +1,14 @@
+{
+  "id": "topaz/gigapixel-standard-2",
+  "name": "Gigapixel Standard 2",
+  "created_by": "topaz",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "fe36edca",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-21"
+}

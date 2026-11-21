@@ -1,79 +1,79 @@
 {
   "ai21": {
-    "models": 2,
-    "active": 2,
+    "models": 9,
+    "active": 4,
     "fields": {
-      "pricing": 2,
-      "context_window": 2,
+      "pricing": 4,
+      "context_window": 4,
       "release_date": 2,
       "description": 0,
-      "capabilities": 2,
-      "modalities": 2
+      "capabilities": 4,
+      "modalities": 9
     }
   },
   "alibaba": {
-    "models": 176,
-    "active": 176,
+    "models": 246,
+    "active": 129,
     "fields": {
       "pricing": 28,
-      "context_window": 97,
+      "context_window": 103,
       "release_date": 0,
       "description": 87,
-      "capabilities": 176,
-      "modalities": 166
+      "capabilities": 246,
+      "modalities": 231
     }
   },
   "amazon": {
-    "models": 130,
-    "active": 130,
+    "models": 157,
+    "active": 142,
     "fields": {
       "pricing": 0,
-      "context_window": 99,
-      "release_date": 120,
+      "context_window": 126,
+      "release_date": 146,
       "description": 0,
-      "capabilities": 120,
-      "modalities": 130
+      "capabilities": 147,
+      "modalities": 157
     }
   },
   "anthropic": {
-    "models": 25,
-    "active": 14,
+    "models": 32,
+    "active": 19,
     "fields": {
-      "pricing": 25,
-      "context_window": 19,
-      "release_date": 7,
-      "description": 8,
-      "capabilities": 25,
-      "modalities": 25
+      "pricing": 31,
+      "context_window": 28,
+      "release_date": 25,
+      "description": 14,
+      "capabilities": 32,
+      "modalities": 32
     }
   },
   "azure": {
-    "models": 128,
-    "active": 128,
+    "models": 163,
+    "active": 130,
     "fields": {
       "pricing": 0,
-      "context_window": 72,
+      "context_window": 84,
       "release_date": 0,
-      "description": 86,
-      "capabilities": 128,
-      "modalities": 128
+      "description": 98,
+      "capabilities": 163,
+      "modalities": 163
     }
   },
   "baseten": {
-    "models": 56,
-    "active": 56,
+    "models": 120,
+    "active": 120,
     "fields": {
       "pricing": 0,
-      "context_window": 5,
+      "context_window": 11,
       "release_date": 0,
-      "description": 3,
-      "capabilities": 56,
-      "modalities": 56
+      "description": 4,
+      "capabilities": 120,
+      "modalities": 120
     }
   },
   "black-forest-labs": {
     "models": 20,
-    "active": 18,
+    "active": 17,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -84,231 +84,231 @@
     }
   },
   "bytedance": {
-    "models": 28,
-    "active": 28,
+    "models": 37,
+    "active": 36,
     "fields": {
       "pricing": 0,
       "context_window": 0,
       "release_date": 0,
-      "description": 28,
-      "capabilities": 17,
-      "modalities": 20
+      "description": 32,
+      "capabilities": 25,
+      "modalities": 28
     }
   },
   "cerebras": {
-    "models": 16,
-    "active": 4,
+    "models": 17,
+    "active": 2,
     "fields": {
-      "pricing": 6,
-      "context_window": 11,
+      "pricing": 7,
+      "context_window": 12,
       "release_date": 0,
       "description": 1,
-      "capabilities": 11,
-      "modalities": 16
+      "capabilities": 12,
+      "modalities": 17
     }
   },
   "cloudflare-ai-gateway": {
-    "models": 1831,
-    "active": 1831,
+    "models": 239,
+    "active": 239,
     "fields": {
-      "pricing": 1607,
-      "context_window": 177,
+      "pricing": 87,
+      "context_window": 89,
       "release_date": 0,
-      "description": 142,
-      "capabilities": 191,
-      "modalities": 1508
+      "description": 70,
+      "capabilities": 69,
+      "modalities": 133
     }
   },
   "cloudflare-workers-ai": {
-    "models": 100,
-    "active": 82,
+    "models": 116,
+    "active": 76,
     "fields": {
       "pricing": 0,
       "context_window": 0,
       "release_date": 0,
-      "description": 1,
-      "capabilities": 100,
-      "modalities": 67
+      "description": 2,
+      "capabilities": 116,
+      "modalities": 81
     }
   },
   "cohere": {
-    "models": 34,
-    "active": 32,
+    "models": 45,
+    "active": 40,
     "fields": {
       "pricing": 12,
-      "context_window": 28,
+      "context_window": 37,
       "release_date": 0,
-      "description": 34,
-      "capabilities": 33,
-      "modalities": 34
+      "description": 45,
+      "capabilities": 40,
+      "modalities": 45
     }
   },
   "cursor": {
-    "models": 34,
-    "active": 34,
+    "models": 57,
+    "active": 10,
     "fields": {
-      "pricing": 34,
-      "context_window": 32,
+      "pricing": 57,
+      "context_window": 49,
       "release_date": 0,
-      "description": 15,
+      "description": 22,
+      "capabilities": 57,
+      "modalities": 57
+    }
+  },
+  "deepinfra": {
+    "models": 318,
+    "active": 318,
+    "fields": {
+      "pricing": 158,
+      "context_window": 159,
+      "release_date": 0,
+      "description": 312,
+      "capabilities": 277,
+      "modalities": 318
+    }
+  },
+  "deepseek": {
+    "models": 34,
+    "active": 4,
+    "fields": {
+      "pricing": 15,
+      "context_window": 16,
+      "release_date": 32,
+      "description": 9,
       "capabilities": 34,
       "modalities": 34
     }
   },
-  "deepinfra": {
-    "models": 251,
-    "active": 251,
+  "fal": {
+    "models": 1882,
+    "active": 1407,
     "fields": {
-      "pricing": 118,
-      "context_window": 119,
-      "release_date": 0,
-      "description": 245,
-      "capabilities": 220,
-      "modalities": 251
+      "pricing": 0,
+      "context_window": 4,
+      "release_date": 1882,
+      "description": 1882,
+      "capabilities": 1257,
+      "modalities": 1212
     }
   },
-  "deepseek": {
-    "models": 26,
-    "active": 8,
+  "fireworks": {
+    "models": 367,
+    "active": 351,
     "fields": {
-      "pricing": 10,
-      "context_window": 10,
+      "pricing": 367,
+      "context_window": 338,
+      "release_date": 0,
+      "description": 21,
+      "capabilities": 367,
+      "modalities": 240
+    }
+  },
+  "google": {
+    "models": 91,
+    "active": 44,
+    "fields": {
+      "pricing": 34,
+      "context_window": 56,
+      "release_date": 0,
+      "description": 33,
+      "capabilities": 74,
+      "modalities": 91
+    }
+  },
+  "groq": {
+    "models": 20,
+    "active": 12,
+    "fields": {
+      "pricing": 12,
+      "context_window": 18,
+      "release_date": 0,
+      "description": 2,
+      "capabilities": 13,
+      "modalities": 20
+    }
+  },
+  "huggingface": {
+    "models": 294,
+    "active": 294,
+    "fields": {
+      "pricing": 0,
+      "context_window": 259,
+      "release_date": 293,
+      "description": 149,
+      "capabilities": 294,
+      "modalities": 221
+    }
+  },
+  "inception": {
+    "models": 8,
+    "active": 4,
+    "fields": {
+      "pricing": 8,
+      "context_window": 8,
+      "release_date": 4,
+      "description": 8,
+      "capabilities": 8,
+      "modalities": 8
+    }
+  },
+  "jina": {
+    "models": 26,
+    "active": 26,
+    "fields": {
+      "pricing": 26,
+      "context_window": 26,
       "release_date": 26,
-      "description": 6,
+      "description": 26,
+      "capabilities": 0,
+      "modalities": 26
+    }
+  },
+  "meta": {
+    "models": 49,
+    "active": 49,
+    "fields": {
+      "pricing": 0,
+      "context_window": 26,
+      "release_date": 43,
+      "description": 0,
+      "capabilities": 38,
+      "modalities": 43
+    }
+  },
+  "minimax": {
+    "models": 26,
+    "active": 17,
+    "fields": {
+      "pricing": 18,
+      "context_window": 9,
+      "release_date": 0,
+      "description": 22,
       "capabilities": 26,
       "modalities": 26
     }
   },
-  "fal": {
-    "models": 1543,
-    "active": 1543,
-    "fields": {
-      "pricing": 0,
-      "context_window": 1,
-      "release_date": 1543,
-      "description": 1543,
-      "capabilities": 1041,
-      "modalities": 1023
-    }
-  },
-  "fireworks": {
-    "models": 325,
-    "active": 325,
-    "fields": {
-      "pricing": 325,
-      "context_window": 301,
-      "release_date": 0,
-      "description": 17,
-      "capabilities": 325,
-      "modalities": 215
-    }
-  },
-  "google": {
-    "models": 77,
-    "active": 42,
-    "fields": {
-      "pricing": 25,
-      "context_window": 45,
-      "release_date": 0,
-      "description": 31,
-      "capabilities": 60,
-      "modalities": 77
-    }
-  },
-  "groq": {
-    "models": 18,
-    "active": 14,
-    "fields": {
-      "pricing": 11,
-      "context_window": 16,
-      "release_date": 0,
-      "description": 2,
-      "capabilities": 11,
-      "modalities": 18
-    }
-  },
-  "huggingface": {
-    "models": 251,
-    "active": 251,
-    "fields": {
-      "pricing": 0,
-      "context_window": 225,
-      "release_date": 249,
-      "description": 122,
-      "capabilities": 251,
-      "modalities": 189
-    }
-  },
-  "inception": {
-    "models": 5,
-    "active": 5,
-    "fields": {
-      "pricing": 5,
-      "context_window": 5,
-      "release_date": 4,
-      "description": 5,
-      "capabilities": 5,
-      "modalities": 5
-    }
-  },
-  "jina": {
-    "models": 25,
-    "active": 25,
-    "fields": {
-      "pricing": 25,
-      "context_window": 25,
-      "release_date": 25,
-      "description": 25,
-      "capabilities": 0,
-      "modalities": 25
-    }
-  },
-  "meta": {
-    "models": 38,
-    "active": 38,
-    "fields": {
-      "pricing": 0,
-      "context_window": 26,
-      "release_date": 38,
-      "description": 0,
-      "capabilities": 38,
-      "modalities": 38
-    }
-  },
-  "minimax": {
-    "models": 9,
-    "active": 9,
-    "fields": {
-      "pricing": 9,
-      "context_window": 8,
-      "release_date": 0,
-      "description": 8,
-      "capabilities": 9,
-      "modalities": 9
-    }
-  },
   "mistral": {
-    "models": 90,
-    "active": 43,
+    "models": 106,
+    "active": 47,
     "fields": {
-      "pricing": 52,
-      "context_window": 78,
+      "pricing": 55,
+      "context_window": 91,
       "release_date": 0,
-      "description": 76,
-      "capabilities": 90,
-      "modalities": 90
+      "description": 83,
+      "capabilities": 106,
+      "modalities": 106
     }
   },
   "moonshot": {
-    "models": 12,
-    "active": 12,
+    "models": 18,
+    "active": 6,
     "fields": {
-      "pricing": 0,
-      "context_window": 12,
+      "pricing": 12,
+      "context_window": 18,
       "release_date": 0,
       "description": 6,
       "capabilities": 12,
-      "modalities": 12
+      "modalities": 18
     }
   },
   "nebius": {
@@ -324,75 +324,75 @@
     }
   },
   "novita": {
-    "models": 149,
-    "active": 149,
+    "models": 200,
+    "active": 78,
     "fields": {
-      "pricing": 136,
-      "context_window": 143,
-      "release_date": 149,
-      "description": 124,
-      "capabilities": 149,
-      "modalities": 149
+      "pricing": 184,
+      "context_window": 192,
+      "release_date": 200,
+      "description": 157,
+      "capabilities": 200,
+      "modalities": 200
     }
   },
   "nvidia": {
-    "models": 215,
-    "active": 215,
+    "models": 233,
+    "active": 85,
     "fields": {
       "pricing": 0,
-      "context_window": 32,
+      "context_window": 39,
       "release_date": 0,
-      "description": 19,
-      "capabilities": 215,
-      "modalities": 153
-    }
-  },
-  "ollama": {
-    "models": 61,
-    "active": 61,
-    "fields": {
-      "pricing": 0,
-      "context_window": 59,
-      "release_date": 38,
-      "description": 60,
-      "capabilities": 61,
-      "modalities": 60
-    }
-  },
-  "openai": {
-    "models": 168,
-    "active": 140,
-    "fields": {
-      "pricing": 152,
-      "context_window": 129,
-      "release_date": 107,
-      "description": 144,
-      "capabilities": 138,
+      "description": 25,
+      "capabilities": 233,
       "modalities": 167
     }
   },
-  "opencode": {
-    "models": 71,
-    "active": 61,
+  "ollama": {
+    "models": 105,
+    "active": 33,
     "fields": {
-      "pricing": 48,
-      "context_window": 39,
+      "pricing": 0,
+      "context_window": 97,
+      "release_date": 50,
+      "description": 104,
+      "capabilities": 105,
+      "modalities": 104
+    }
+  },
+  "openai": {
+    "models": 188,
+    "active": 118,
+    "fields": {
+      "pricing": 180,
+      "context_window": 144,
+      "release_date": 111,
+      "description": 171,
+      "capabilities": 159,
+      "modalities": 188
+    }
+  },
+  "opencode": {
+    "models": 166,
+    "active": 116,
+    "fields": {
+      "pricing": 104,
+      "context_window": 81,
       "release_date": 0,
-      "description": 29,
-      "capabilities": 71,
-      "modalities": 64
+      "description": 63,
+      "capabilities": 166,
+      "modalities": 114
     }
   },
   "openrouter": {
-    "models": 521,
-    "active": 449,
+    "models": 775,
+    "active": 385,
     "fields": {
-      "pricing": 460,
-      "context_window": 521,
-      "release_date": 518,
-      "description": 521,
-      "capabilities": 490,
-      "modalities": 521
+      "pricing": 682,
+      "context_window": 775,
+      "release_date": 772,
+      "description": 775,
+      "capabilities": 742,
+      "modalities": 775
     }
   },
   "parasail": {
@@ -408,27 +408,27 @@
     }
   },
   "perplexity": {
-    "models": 44,
-    "active": 44,
+    "models": 76,
+    "active": 39,
     "fields": {
-      "pricing": 30,
-      "context_window": 35,
+      "pricing": 74,
+      "context_window": 56,
       "release_date": 0,
-      "description": 26,
-      "capabilities": 44,
-      "modalities": 44
+      "description": 43,
+      "capabilities": 66,
+      "modalities": 66
     }
   },
   "qwen": {
-    "models": 214,
-    "active": 214,
+    "models": 284,
+    "active": 129,
     "fields": {
       "pricing": 28,
-      "context_window": 97,
+      "context_window": 103,
       "release_date": 0,
       "description": 87,
-      "capabilities": 214,
-      "modalities": 166
+      "capabilities": 284,
+      "modalities": 269
     }
   },
   "recraft": {
@@ -444,39 +444,39 @@
     }
   },
   "reka": {
-    "models": 6,
-    "active": 6,
+    "models": 14,
+    "active": 9,
     "fields": {
-      "pricing": 5,
-      "context_window": 4,
+      "pricing": 13,
+      "context_window": 12,
       "release_date": 2,
-      "description": 6,
-      "capabilities": 6,
-      "modalities": 6
+      "description": 14,
+      "capabilities": 14,
+      "modalities": 14
     }
   },
   "replicate": {
-    "models": 219,
-    "active": 219,
+    "models": 380,
+    "active": 125,
     "fields": {
       "pricing": 0,
-      "context_window": 10,
+      "context_window": 17,
       "release_date": 0,
-      "description": 18,
-      "capabilities": 42,
-      "modalities": 101
+      "description": 33,
+      "capabilities": 81,
+      "modalities": 185
     }
   },
   "sambanova": {
-    "models": 11,
-    "active": 11,
+    "models": 15,
+    "active": 4,
     "fields": {
-      "pricing": 11,
-      "context_window": 11,
+      "pricing": 15,
+      "context_window": 15,
       "release_date": 0,
-      "description": 10,
-      "capabilities": 10,
-      "modalities": 11
+      "description": 12,
+      "capabilities": 12,
+      "modalities": 15
     }
   },
   "siliconflow": {
@@ -493,7 +493,7 @@
   },
   "stability": {
     "models": 109,
-    "active": 109,
+    "active": 100,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -504,111 +504,111 @@
     }
   },
   "stepfun": {
-    "models": 25,
+    "models": 38,
     "active": 25,
     "fields": {
-      "pricing": 12,
+      "pricing": 19,
       "context_window": 13,
       "release_date": 0,
-      "description": 25,
+      "description": 32,
       "capabilities": 15,
       "modalities": 25
     }
   },
   "together": {
-    "models": 67,
-    "active": 67,
+    "models": 96,
+    "active": 18,
     "fields": {
-      "pricing": 54,
-      "context_window": 39,
+      "pricing": 83,
+      "context_window": 47,
       "release_date": 0,
-      "description": 7,
-      "capabilities": 67,
-      "modalities": 38
+      "description": 8,
+      "capabilities": 96,
+      "modalities": 52
     }
   },
   "vercel": {
-    "models": 355,
-    "active": 355,
+    "models": 624,
+    "active": 476,
     "fields": {
-      "pricing": 355,
-      "context_window": 271,
+      "pricing": 622,
+      "context_window": 462,
       "release_date": 0,
-      "description": 121,
-      "capabilities": 355,
-      "modalities": 314
+      "description": 181,
+      "capabilities": 624,
+      "modalities": 493
     }
   },
   "vertex": {
-    "models": 83,
-    "active": 48,
+    "models": 97,
+    "active": 50,
     "fields": {
       "pricing": 41,
-      "context_window": 48,
+      "context_window": 59,
       "release_date": 0,
-      "description": 34,
-      "capabilities": 66,
-      "modalities": 83
+      "description": 36,
+      "capabilities": 80,
+      "modalities": 97
     }
   },
   "voyage": {
-    "models": 32,
-    "active": 32,
+    "models": 35,
+    "active": 35,
     "fields": {
-      "pricing": 31,
+      "pricing": 34,
       "context_window": 9,
       "release_date": 0,
       "description": 0,
       "capabilities": 0,
-      "modalities": 32
+      "modalities": 35
     }
   },
   "writer": {
-    "models": 7,
+    "models": 8,
     "active": 2,
     "fields": {
-      "pricing": 6,
-      "context_window": 7,
+      "pricing": 7,
+      "context_window": 8,
       "release_date": 5,
-      "description": 7,
-      "capabilities": 7,
-      "modalities": 7
+      "description": 8,
+      "capabilities": 8,
+      "modalities": 8
     }
   },
   "xai": {
-    "models": 24,
-    "active": 0,
+    "models": 34,
+    "active": 10,
     "fields": {
-      "pricing": 14,
-      "context_window": 18,
+      "pricing": 18,
+      "context_window": 22,
       "release_date": 18,
       "description": 7,
       "capabilities": 24,
-      "modalities": 24
+      "modalities": 34
     }
   },
   "xiaomi": {
-    "models": 10,
-    "active": 8,
+    "models": 13,
+    "active": 6,
     "fields": {
-      "pricing": 3,
-      "context_window": 10,
-      "release_date": 4,
-      "description": 4,
-      "capabilities": 6,
-      "modalities": 10
+      "pricing": 8,
+      "context_window": 13,
+      "release_date": 9,
+      "description": 9,
+      "capabilities": 9,
+      "modalities": 13
     }
   },
   "zai": {
-    "models": 32,
-    "active": 32,
+    "models": 41,
+    "active": 13,
     "fields": {
-      "pricing": 16,
-      "context_window": 14,
+      "pricing": 24,
+      "context_window": 21,
       "release_date": 0,
-      "description": 29,
-      "capabilities": 18,
-      "modalities": 32
+      "description": 34,
+      "capabilities": 29,
+      "modalities": 41
     }
   }
 }

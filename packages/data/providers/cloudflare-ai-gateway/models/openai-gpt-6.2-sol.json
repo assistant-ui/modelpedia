@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-6.2-sol",
+  "name": "GPT-6.2 Sol",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.2",
+  "status": "active",
+  "context_window": 1050000,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d29d59e2",
+    "family": "046037f3",
+    "status": "379ac110",
+    "context_window": "f170ebb2",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

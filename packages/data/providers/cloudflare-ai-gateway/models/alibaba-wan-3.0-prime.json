@@ -1,0 +1,16 @@
+{
+  "id": "alibaba/wan-3.0-prime",
+  "name": "Wan 3.0 Prime Video",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "wan",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "29ed9b2c",
+    "family": "2aadc089",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

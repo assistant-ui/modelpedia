@@ -123,6 +123,46 @@ function extractKnowledgeCutoff(
   return null;
 }
 
+/**
+ * Hosted model ids come from the `Model ID` tables, one id or a comma separated
+ * list per cell. Display names pair the id's base with the use case table's
+ * Model column ("Muse Spark"), falling back to the id words.
+ */
+function parseHostedModels(html: string): { id: string; name: string }[] {
+  const tables = parseAllHtmlTables(html);
+  const display = new Map<string, string>();
+  for (const table of tables) {
+    if (table[0]?.[1] !== "Model") continue;
+    for (const row of table.slice(1)) {
+      for (const label of row[1]?.split(",") ?? []) {
+        const name = label.trim();
+        if (name) display.set(name.toLowerCase().replace(/\s+/g, "-"), name);
+      }
+    }
+  }
+  const out: { id: string; name: string }[] = [];
+  for (const table of tables) {
+    if (table[0]?.[0] !== "Model ID") continue;
+    for (const row of table.slice(1)) {
+      for (const raw of row[0]?.split(",") ?? []) {
+        const id = raw.trim();
+        if (!/^[a-z0-9][a-z0-9._-]*$/i.test(id) || out.some((o) => o.id === id))
+          continue;
+        const m = id.match(/^(.*?)-(\d[\w.]*)$/);
+        const base = m ? m[1] : id;
+        const label =
+          display.get(base) ??
+          base.replace(
+            /(^|-)(\w)/g,
+            (_, sep, c) => `${sep && " "}${c.toUpperCase()}`,
+          );
+        out.push({ id, name: m ? `${label} ${m[2]}` : label });
+      }
+    }
+  }
+  return out;
+}
+
 async function main() {
   console.log("Fetching Meta models...");
 
@@ -151,14 +191,7 @@ async function main() {
         ["text-generation", "image-text-to-text"].includes(tag),
       ) && !m.tags.includes("feature-extraction"),
   );
-  const hostedModels = parseAllHtmlTables(docsHtml)
-    .filter((table) => table[0]?.some((cell) => cell.includes("Model API")))
-    .flatMap((table) =>
-      table.slice(1).flatMap((row) => {
-        const match = row[0]?.match(/^(.+?)\s*\(\s*([a-z0-9._-]+)\s*\)$/i);
-        return match ? [{ id: match[2], name: match[1] }] : [];
-      }),
-    );
+  const hostedModels = parseHostedModels(docsHtml);
   if (museModels.length === 0 || hostedModels.length === 0) {
     throw new Error("Meta's public Muse listings returned no models");
   }

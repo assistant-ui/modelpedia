@@ -1,0 +1,21 @@
+{
+  "id": "openai/gpt-image-2.5-flare",
+  "name": "GPT Image 2.5 Flare",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "status": "active",
+  "model_type": "image",
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25
+  },
+  "_generated": {
+    "name": "32f84811",
+    "family": "b65aa56d",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "pricing": "2a4aa632"
+  },
+  "last_updated": "2026-11-21"
+}

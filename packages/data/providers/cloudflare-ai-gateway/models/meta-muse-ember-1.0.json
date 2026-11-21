@@ -1,0 +1,25 @@
+{
+  "id": "meta/muse-ember-1.0",
+  "name": "Muse Ember 1.0",
+  "created_by": "meta",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.004
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1e786f57",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "pricing": "041bd4a8",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio/veo-3.1-fast",
+  "name": "Veo 3.1 Fast",
+  "created_by": "google",
+  "source": "official",
+  "family": "veo-3.1",
+  "status": "active",
+  "model_type": "video",
+  "_generated": {
+    "name": "d6d87fa3",
+    "family": "0fa3bcca",
+    "status": "379ac110",
+    "model_type": "4d1b75ca"
+  },
+  "last_updated": "2026-11-21"
+}

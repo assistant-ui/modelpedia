@@ -29,8 +29,12 @@ const CNY_TO_USD_PER_M = 1 / 7.2; // ≈ 0.13889
 /** Parse a CNY price string like "0.7元", "0.5元", "限免中" → number | undefined */
 function parseCnyPrice(s: string): number | undefined {
   const cleaned = s.trim();
-  if (!cleaned || cleaned.includes("限免")) return undefined;
-  const m = cleaned.match(/([\d.]+)/);
+  if (!cleaned || /限免|免费/.test(cleaned)) return undefined;
+  const withoutDates = cleaned.replace(
+    /\d{4}\s*年(\s*\d{1,2}\s*月)?(\s*\d{1,2}\s*[日号])?/g,
+    "",
+  );
+  const m = withoutDates.match(/(\d+(?:\.\d+)?)/);
   if (!m) return undefined;
   return Number(m[1]);
 }
@@ -72,7 +76,7 @@ function parseTokenTable(lines: string[]): PricingRow[] {
     const r = rows[i];
     if (r.length < 4) continue;
     const id = cleanId(r[0]);
-    if (!id) continue;
+    if (!/^step[a-z0-9.-]+$/.test(id)) continue;
     if (out.some((p) => p.id === id)) continue;
     out.push({
       id,
@@ -99,6 +103,29 @@ function parseAudioTable(lines: string[]): AudioRow[] {
     const id = cleanId(r[0]);
     if (!/^step[a-z0-9.-]+$/.test(id)) continue;
     out.push({ id, unit: r[1].trim() });
+  }
+  return out;
+}
+
+interface CapabilityRow {
+  id: string;
+  notes: string[];
+}
+
+/** Rows repeat the model id once per billed capability; fold them into one entry per id. */
+function parseCapabilityTable(lines: string[]): CapabilityRow[] {
+  const rows = parseMarkdownTable(lines);
+  if (rows.length < 2 || rows[0][0] !== "Model ID") return [];
+  const out: CapabilityRow[] = [];
+  for (let i = 1; i < rows.length; i++) {
+    const r = rows[i];
+    if (r.length < 3) continue;
+    const id = cleanId(r[0]);
+    if (!/^step[a-z0-9.-]+$/.test(id)) continue;
+    const note = `${r[1].trim()}: ${r[2].trim()}`;
+    const existing = out.find((o) => o.id === id);
+    if (existing) existing.notes.push(note);
+    else out.push({ id, notes: [note] });
   }
   return out;
 }
@@ -313,8 +340,6 @@ const SPECS: Record<string, Partial<ModelEntry>> = {
     modalities: { input: ["text", "audio"], output: ["text", "audio"] },
     endpoints: ["realtime"],
   },
-  "stepaudio-3-realtime-preview": { name: "StepAudio 3 Realtime" },
-  "stepaudio-3-chat-preview": { name: "StepAudio 3 Chat" },
   "stepaudio-2.5-realtime": { name: "StepAudio 2.5 Realtime" },
   "stepaudio-2.5-chat": { name: "StepAudio 2.5 Chat" },
   "step-audio-2": { name: "Step Audio 2" },
@@ -391,8 +416,17 @@ const AUDIO_SPECS: Record<string, Partial<ModelEntry>> = {
     modalities: { input: ["audio"], output: ["text"] },
     endpoints: ["audio_transcriptions"],
   },
-  "stepaudio-3-gen-preview": { name: "StepAudio 3 Gen" },
-  "stepaudio-3-music-preview": { name: "StepAudio 3 Music" },
+  "stepaudio-3-realtime": { name: "StepAudio 3 Realtime" },
+  "stepaudio-3-gen": { name: "StepAudio 3 Gen" },
+  "stepaudio-3-music": { name: "StepAudio 3 Music" },
+};
+
+const STEPAUDIO3_TYPES: Record<string, ModelEntry["model_type"]> = {
+  "stepaudio-3-realtime": "audio",
+  "stepaudio-3-tts": "tts",
+  "stepaudio-3-gen": "audio",
+  "stepaudio-3-music": "audio",
+  "stepaudio-3-asr-max": "transcription",
 };
 
 // ── Main ──
@@ -406,11 +440,11 @@ async function main() {
     sectionLines(pricingMd, /^## 文本与多模态模型$/),
   );
   const audioPricing = parseTokenTable(
-    sectionLines(pricingMd, /^### 按 Token 计费$/),
+    sectionLines(pricingMd, /^###\s.*按 Token 计费/),
   );
   const tts = parseAudioTable(sectionLines(pricingMd, /^### 语音合成$/));
-  const audioGeneration = parseAudioTable(
-    sectionLines(pricingMd, /^### 音频与音乐生成$/),
+  const audioGeneration = parseCapabilityTable(
+    sectionLines(pricingMd, /^## StepAudio 3 系列/),
   );
   const asr = parseAudioTable(sectionLines(pricingMd, /^### 语音识别$/));
   const allTokenPricing = [...textPricing, ...audioPricing];
@@ -450,8 +484,8 @@ async function main() {
       family: inferFamily(p.id),
       created_by: "stepfun",
       license: "proprietary",
-      ...specs,
       status: p.id.endsWith("-preview") ? "preview" : "active",
+      ...specs,
     };
     if (audioPricing.includes(p)) entry.model_type = "audio";
     const desc =
@@ -484,13 +518,15 @@ async function main() {
   }
 
   for (const a of audioGeneration) {
+    const specs = AUDIO_SPECS[a.id];
     const entry: ModelEntry = {
       id: a.id,
-      name: AUDIO_SPECS[a.id]?.name ?? a.id,
-      model_type: "audio",
+      name: specs?.name ?? a.id,
+      model_type: STEPAUDIO3_TYPES[a.id] ?? "audio",
       license: "proprietary",
-      status: a.id.endsWith("-preview") ? "preview" : "active",
-      pricing_notes: [a.unit],
+      ...specs,
+      status: "active",
+      pricing_notes: a.notes,
     };
     if (upsertModel("stepfun", entry)) written++;
   }

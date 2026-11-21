@@ -1,0 +1,27 @@
+{
+  "id": "deepseek-ai/deepseek-v4.1-flash-1017",
+  "name": "DeepSeek V4.1 Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.007
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b19b4a5a",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "pricing": "0f93a1d9",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}

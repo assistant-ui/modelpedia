@@ -1,0 +1,28 @@
+{
+  "id": "thinkingmachines/inkling-256k",
+  "name": "Inkling 256K",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "pricing": {
+    "input": 3.74,
+    "output": 9.36,
+    "cached_input": 0.748,
+    "cache_write": 3.74
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d8c17558",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "pricing": "98038f31",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-21"
+}
