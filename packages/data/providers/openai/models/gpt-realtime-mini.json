@@ -3,10 +3,10 @@
   "name": "GPT-Realtime mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-realtime",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 32000,
   "max_output_tokens": 4096,
@@ -72,7 +72,7 @@
     "name": "4b75fd16",
     "family": "f5032d33",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "10e4d788",
     "max_output_tokens": "f7efa4f8",
@@ -89,7 +89,9 @@
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "17ddf71c",
-    "retirement_date": "26fc75d3"
+    "retirement_date": "28df5f11",
+    "deprecation_date": "7047ff2b",
+    "successor": "d913f5f3"
   },
   "model_type": "audio",
   "license": "proprietary",
@@ -97,5 +99,7 @@
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2025-10-06",
-  "retirement_date": "2026-07-23"
+  "retirement_date": "2027-01-20",
+  "deprecation_date": "2026-07-20",
+  "successor": "gpt-realtime-2.1-mini"
 }

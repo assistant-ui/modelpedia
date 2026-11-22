@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "count": 233,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
@@ -211,7 +211,7 @@
     "sesame-csm-1b",
     "shibing624-text2vec-base-chinese",
     "stabilityai-sdxl-turbo",
-    "tencent-hy4-preview",
+    "tencent-hy4",
     "thenlper-gte-base",
     "thenlper-gte-large",
     "thinkingmachines-inkling-2-small",

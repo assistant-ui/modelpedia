@@ -8,7 +8,7 @@
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+  "page_url": "https://aistudio.google.com/docs/models/deep-research-max-preview-04-2026",
   "model_type": "reasoning",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text"]
+    "output": ["text", "image"]
   },
   "open_weight": false,
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -27,12 +27,16 @@
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
-    "page_url": "6d03a9af",
+    "page_url": "3568c525",
     "model_type": "17475f7f",
     "capabilities": "8a3b232e",
-    "modalities": "c569b149",
+    "modalities": "08235294",
     "open_weight": "68934a3e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "fb127699",
+    "tagline": "bdfa14ee"
   },
-  "last_updated": "2026-04-22"
+  "last_updated": "2026-11-22",
+  "description": "Maximum comprehensiveness for automated context gathering and synthesis. Deep Research Max is optimized for long-running, accuracy-critical investigations that synthesize complex information from hundreds of public web sources and private workspace data into comprehensive, cited reports. It supports collaborative planning, visualization, MCP servers, and File Search.",
+  "tagline": "Maximum comprehensiveness for automated context gathering and synthesis."
 }

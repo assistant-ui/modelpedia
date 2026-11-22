@@ -1,0 +1,14 @@
+{
+  "id": "sam-3.1",
+  "name": "Sam 3.1",
+  "created_by": "meta",
+  "source": "official",
+  "family": "sam",
+  "page_url": "https://dev.meta.ai/docs/models",
+  "_generated": {
+    "name": "b4a4d619",
+    "family": "5a647ffe",
+    "page_url": "4651069e"
+  },
+  "last_updated": "2026-11-22"
+}

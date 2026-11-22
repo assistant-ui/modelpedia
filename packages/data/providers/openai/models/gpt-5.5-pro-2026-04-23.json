@@ -20,8 +20,8 @@
   "open_weight": false,
   "capabilities": {
     "streaming": false,
-    "vision": true,
-    "tool_call": true,
+    "vision": false,
+    "tool_call": false,
     "structured_output": true,
     "json_mode": true,
     "fine_tuning": false,
@@ -83,11 +83,11 @@
     "speed": "c4ca4238",
     "page_url": "4bc65f71",
     "open_weight": "68934a3e",
-    "capabilities": "bcd7f168",
+    "capabilities": "3c64c7bc",
     "modalities": "6399757e",
     "pricing": "4625212e",
     "tools": "f0c1dc7e",
     "endpoints": "6f01fd6c"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-22"
 }

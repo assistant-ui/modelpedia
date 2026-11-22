@@ -3,10 +3,10 @@
   "name": "GPT-Audio mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-audio",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -62,7 +62,7 @@
     "name": "aa7cc64c",
     "family": "29debdf1",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -79,11 +79,15 @@
     "page_url": "5e94d582",
     "open_weight": "68934a3e",
     "release_date": "17ddf71c",
-    "retirement_date": "26fc75d3"
+    "retirement_date": "28df5f11",
+    "deprecation_date": "7047ff2b",
+    "successor": "a649f503"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
   "open_weight": false,
   "release_date": "2025-10-06",
-  "retirement_date": "2026-07-23"
+  "retirement_date": "2027-01-20",
+  "deprecation_date": "2026-07-20",
+  "successor": "gpt-audio-1.5"
 }

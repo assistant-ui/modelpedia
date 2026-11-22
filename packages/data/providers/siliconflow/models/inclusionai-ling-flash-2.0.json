@@ -1,0 +1,57 @@
+{
+  "id": "inclusionAI/Ling-flash-2.0",
+  "name": "Ling-flash-2.0",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-flash-2.0 is a language model from inclusionAI with a total of 100 billion parameters, of which 6.1 billion are activated per token (4.8 billion non-embedding).",
+  "status": "active",
+  "release_date": "2025-09-18",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "MIT LICENSE",
+  "parameters": 100,
+  "active_parameters": 6.1,
+  "page_url": "https://www.siliconflow.com/models/ling-flash-2-0",
+  "tagline": "Ling-flash-2.0 is a language model from inclusionAI with a total of 100 billion parameters, of which 6.1 billion are activated per token (4.8 billion non-embedding).",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.57
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3cb197a7",
+    "description": "7a743012",
+    "status": "379ac110",
+    "release_date": "ae10afe6",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "c194895b",
+    "parameters": "f899139d",
+    "active_parameters": "d6eb82c3",
+    "page_url": "3264e1a5",
+    "tagline": "7a743012",
+    "capabilities": "322221af",
+    "modalities": "68e53d93",
+    "pricing": "5990c46b",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

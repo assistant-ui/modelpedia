@@ -3,9 +3,9 @@
   "name": "GPT-4 Turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4-turbo",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-12",
   "context_window": 128000,
   "max_output_tokens": 4096,
@@ -14,7 +14,7 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true,
+    "tool_call": false,
     "structured_output": false,
     "json_mode": false,
     "fine_tuning": false,
@@ -30,13 +30,13 @@
   "_generated": {
     "name": "70884aa4",
     "family": "e55097d8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "06c60023",
     "context_window": "34434798",
     "max_output_tokens": "f7efa4f8",
     "performance": "c81e728d",
     "speed": "eccbc87e",
-    "capabilities": "5dc39f53",
+    "capabilities": "dea9d825",
     "modalities": "6399757e",
     "endpoints": "1c48b50a",
     "description": "9aaf237e",
@@ -48,7 +48,8 @@
     "page_url": "9fe58bee",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "retirement_date": "68185e3b"
+    "retirement_date": "68185e3b",
+    "deprecation_date": "c48b287d"
   },
   "description": "Status: Shut down",
   "model_type": "chat",
@@ -77,5 +78,6 @@
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
   "open_weight": false,
   "tools": ["function_calling"],
-  "retirement_date": "2026-10-23"
+  "retirement_date": "2026-10-23",
+  "deprecation_date": "2026-04-22"
 }

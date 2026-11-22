@@ -1,0 +1,57 @@
+{
+  "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "name": "Qwen3-Coder-30B-A3B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-Coder-30B-A3B-Instruct is a code model from the Qwen3 series developed by Alibaba's Qwen team.",
+  "status": "active",
+  "release_date": "2025-08-01",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 30,
+  "active_parameters": 3.3,
+  "page_url": "https://www.siliconflow.com/models/qwen3-coder-30b-a3b-instruct",
+  "tagline": "Qwen3-Coder-30B-A3B-Instruct is a code model from the Qwen3 series developed by Alibaba's Qwen team.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.28
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e3a7712d",
+    "description": "b8356dff",
+    "status": "379ac110",
+    "release_date": "a5942af2",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "34173cb3",
+    "active_parameters": "bca66716",
+    "page_url": "5bfb9b31",
+    "tagline": "b8356dff",
+    "capabilities": "322221af",
+    "modalities": "68e53d93",
+    "pricing": "883b5325",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

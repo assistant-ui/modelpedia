@@ -3,7 +3,7 @@
   "name": "veo-2.0-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-22",
   "status": "deprecated",
   "model_type": "video",
   "capabilities": {
@@ -16,7 +16,7 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["video"]
   },
   "tools": ["function_calling"],
@@ -26,7 +26,7 @@
     "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "capabilities": "fdff467b",
-    "modalities": "85fd0565",
+    "modalities": "94e5e9ab",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "family": "95836dec",
@@ -35,7 +35,7 @@
     "description": "b4307c94",
     "tagline": "b16f53f3",
     "deprecation_date": "ebf8cb32",
-    "successor": "2999ebc0"
+    "successor": "18025669"
   },
   "family": "veo-2.0",
   "license": "proprietary",
@@ -43,9 +43,5 @@
   "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
   "tagline": "Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows.",
   "deprecation_date": "2026-06-30",
-  "successor": [
-    "gemini-omni-1.1-flash",
-    "the GA models on the Gemini Enterprise Agent Platf",
-    "m"
-  ]
+  "successor": "gemini-omni-1.2-flash"
 }

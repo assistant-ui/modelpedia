@@ -3,7 +3,7 @@
   "name": "Recraft V3",
   "created_by": "recraft",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-22",
   "family": "recraft-v3",
   "description": "Previously codenamed Red Panda; raster model with strong text rendering and brand-style preservation. Used for image-to-image, inpainting, and background editing endpoints.",
   "tagline": "Recraft V3 raster (formerly Red Panda).",
@@ -30,6 +30,22 @@
     "license": "9186c466",
     "modalities": "bbf9b8bb",
     "endpoints": "4c2aa55c",
-    "pricing_notes": "c16448d2"
+    "pricing_notes": "c16448d2",
+    "pricing": "e0fcdb86"
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.04]
+          }
+        ]
+      }
+    ]
   }
 }

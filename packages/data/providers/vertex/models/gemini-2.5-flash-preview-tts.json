@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-preview-tts",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 8192,
@@ -15,12 +15,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text"],
+    "output": ["audio"]
   },
   "pricing": {
     "input": 0.3,
@@ -35,11 +35,11 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [0.3, null, 2.5]
+            "values": [0.3, 0.03, 2.5]
           },
           {
             "label": "Priority",
-            "values": [0.54, null, 4.5]
+            "values": [0.54, 0.054, 4.5]
           },
           {
             "label": "Flex",
@@ -47,7 +47,8 @@
           }
         ]
       }
-    ]
+    ],
+    "cached_input": 0.03
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -58,9 +59,9 @@
     "context_window": "77441296",
     "max_output_tokens": "c76fe1d8",
     "model_type": "4e16a2cf",
-    "capabilities": "fdff467b",
-    "modalities": "a8211f74",
-    "pricing": "eaae666f",
+    "capabilities": "47f1f394",
+    "modalities": "601e776d",
+    "pricing": "556c5687",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "license": "9186c466",

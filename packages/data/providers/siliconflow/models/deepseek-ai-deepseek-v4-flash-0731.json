@@ -1,0 +1,58 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+  "name": "DeepSeek-V4-Flash-0731",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4-Flash-0731 is the official release of DeepSeek-V4-Flash, superseding the preview version, with substantially enhanced agentic capabilities.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 284,
+  "active_parameters": 13,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v4-flash-0731",
+  "tagline": "DeepSeek-V4-Flash-0731 is the official release of DeepSeek-V4-Flash, superseding the preview version, with substantially enhanced agentic capabilities.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.22,
+    "output": 0.66,
+    "cached_input": 0.014
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ecc4cb51",
+    "description": "30d8a86e",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "46ba9f2a",
+    "active_parameters": "c51ce410",
+    "page_url": "c36b23dd",
+    "tagline": "30d8a86e",
+    "capabilities": "322221af",
+    "modalities": "68e53d93",
+    "pricing": "85124e8c",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

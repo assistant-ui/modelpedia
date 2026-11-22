@@ -1,0 +1,48 @@
+{
+  "id": "parasail-trinity-large-thinking",
+  "name": "Trinity Large (Thinking)",
+  "created_by": "trinity",
+  "source": "official",
+  "description": "Reasoning-focused model with extended thinking for complex problem-solving.",
+  "status": "active",
+  "release_date": "2026-04",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "page_url": "https://www.parasail.io/models/trinity-large-thinking",
+  "tagline": "Reasoning-focused model with extended thinking for complex problem-solving.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.22,
+    "output": 0.85,
+    "cached_input": 0.06
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "dd25438e",
+    "description": "3a041760",
+    "status": "379ac110",
+    "release_date": "58654c5c",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "page_url": "a0e901b5",
+    "tagline": "3a041760",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "00ab7a2f",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

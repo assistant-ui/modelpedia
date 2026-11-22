@@ -1,0 +1,20 @@
+{
+  "id": "stepaudio-3-realtime",
+  "name": "StepAudio 3 Realtime",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "license": "proprietary",
+  "open_weight": false,
+  "pricing_notes": ["实时语音: 0.65 元／会话分钟（39.00 元／会话小时）"],
+  "_generated": {
+    "name": "be68f270",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "pricing_notes": "01c74d43"
+  },
+  "last_updated": "2026-11-22"
+}

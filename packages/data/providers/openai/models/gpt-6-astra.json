@@ -20,8 +20,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -30,18 +30,7 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "tools": [
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp",
-    "tool_search"
-  ],
+  "tools": ["web_search", "image_generation", "hosted_shell", "skills", "mcp"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "c49e091e",
@@ -58,16 +47,16 @@
     "speed": "a87ff679",
     "page_url": "23d9f2b2",
     "open_weight": "68934a3e",
-    "capabilities": "822aa4d1",
+    "capabilities": "36380241",
     "modalities": "6399757e",
-    "tools": "c3217644",
+    "tools": "a5527a04",
     "endpoints": "ec55a017",
     "description": "ce1a329f",
     "tagline": "fc1fe15f",
     "pricing": "49893de2",
     "family": "16342494"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "description": "Use GPT-6 Astra for complex reasoning, coding, computer use, research, and document creation. `reasoning.effort` supports `low`, `medium`, `high`, `xhigh`, and `max`.",
   "tagline": "A reasoning model for complex coding and professional work.",
   "pricing": {

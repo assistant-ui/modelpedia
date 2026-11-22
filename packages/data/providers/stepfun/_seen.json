@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "count": 25,
+  "date": "2026-11-22",
+  "count": 24,
   "ids": [
     "step-1o-audio",
     "step-1o-turbo-vision",
@@ -22,10 +22,9 @@
     "stepaudio-2.5-realtime",
     "stepaudio-2.5-tts",
     "stepaudio-3-asr-max",
-    "stepaudio-3-chat-preview",
-    "stepaudio-3-gen-preview",
-    "stepaudio-3-music-preview",
-    "stepaudio-3-realtime-preview",
+    "stepaudio-3-gen",
+    "stepaudio-3-music",
+    "stepaudio-3-realtime",
     "stepaudio-3-tts"
   ]
 }

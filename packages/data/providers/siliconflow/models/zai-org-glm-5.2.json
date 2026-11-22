@@ -1,0 +1,58 @@
+{
+  "id": "zai-org/GLM-5.2",
+  "name": "GLM-5.2",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.2",
+  "description": "GLM-5.2 is Z.ai’s most capable open-source model to date, built for long-horizon agentic engineering with a truly usable 1M-token context window.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 744,
+  "page_url": "https://www.siliconflow.com/models/glm-5-2",
+  "tagline": "GLM-5.2 is Z.ai’s most capable open-source model to date, built for long-horizon agentic engineering with a truly usable 1M-token context window.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": false,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.302,
+    "output": 4.092,
+    "cached_input": 0.26
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0e01939a",
+    "family": "0e01939a",
+    "description": "c11d8306",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "0537fb40",
+    "page_url": "bed998ad",
+    "tagline": "c11d8306",
+    "capabilities": "a6bd137d",
+    "modalities": "68e53d93",
+    "pricing": "5a444b84",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "parasail-deepseek-v4-flash",
+  "name": "DeepSeek V4 Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "Ultra-fast, ultra-cheap reasoning model for high-throughput workloads.",
+  "status": "active",
+  "release_date": "2026-05",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/deepseek-v4-flash",
+  "tagline": "Ultra-fast, ultra-cheap reasoning model for high-throughput workloads.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.07
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "261a5345",
+    "family": "4b81b92d",
+    "description": "888a074b",
+    "status": "379ac110",
+    "release_date": "0580e31b",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "page_url": "76e68251",
+    "tagline": "888a074b",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "548c2850",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

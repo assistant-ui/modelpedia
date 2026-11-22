@@ -3,7 +3,7 @@
   "name": "gpt-image-1.5-2025-12-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-22",
   "family": "gpt-image-1.5",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -22,21 +22,6 @@
     "cached_input": 1.25,
     "tiers": [
       {
-        "label": "Image tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [8, 2, 32]
-          },
-          {
-            "label": "Batch",
-            "values": [4, 1, 16]
-          }
-        ]
-      },
-      {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -48,6 +33,21 @@
           {
             "label": "Batch",
             "values": [2.5, 0.63, 5]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 32]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 1, 16]
           }
         ]
       },
@@ -85,7 +85,7 @@
     "speed": "eccbc87e",
     "tagline": "d1d7ff5d",
     "modalities": "996cb582",
-    "pricing": "2ac704cd",
+    "pricing": "ff299af9",
     "endpoints": "af128fc0",
     "license": "9186c466",
     "release_date": "799b50a0",

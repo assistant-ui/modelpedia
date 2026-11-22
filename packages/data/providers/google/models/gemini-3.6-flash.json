@@ -4,12 +4,12 @@
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.6",
-  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+  "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
   "status": "active",
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.6-flash",
   "model_type": "chat",
   "tagline": "The Interactions API is now generally available.",
   "capabilities": {
@@ -23,7 +23,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "pricing": {
     "input": 0.75,
@@ -55,20 +55,20 @@
   "_generated": {
     "name": "53a6c3eb",
     "family": "7715664f",
-    "description": "9734930b",
+    "description": "8658d0eb",
     "status": "379ac110",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
-    "page_url": "e779e3ed",
+    "page_url": "fa80028e",
     "model_type": "d669f408",
     "tagline": "9fee8828",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "c569b149",
     "pricing": "135ec167",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-11-22"
 }

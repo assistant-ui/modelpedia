@@ -1,0 +1,50 @@
+{
+  "id": "parasail-glm-51",
+  "name": "GLM-5.1",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-51",
+  "description": "Strong reasoning and coding model with a 1M context window at competitive pricing.",
+  "status": "active",
+  "release_date": "2026-04",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/glm-51",
+  "tagline": "Strong reasoning and coding model with a 1M context window at competitive pricing.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "751e8f2b",
+    "family": "d93c7a3f",
+    "description": "e512c13f",
+    "status": "379ac110",
+    "release_date": "58654c5c",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "page_url": "da9452b4",
+    "tagline": "e512c13f",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

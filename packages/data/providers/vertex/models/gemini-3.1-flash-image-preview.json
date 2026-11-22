@@ -3,7 +3,7 @@
   "name": "gemini-3.1-flash-image-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-11-22",
   "family": "gemini-3.1",
   "status": "deprecated",
   "knowledge_cutoff": "2025-01",
@@ -35,19 +35,20 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [0.5, null, 3]
+            "values": [0.5, 0.05, 3]
           },
           {
             "label": "Priority",
-            "values": [null, null, null]
+            "values": [0.9, 0.09, 5.4]
           },
           {
             "label": "Flex",
-            "values": [0.25, null, 1.5]
+            "values": [0.25, 0.025, 1.5]
           }
         ]
       }
-    ]
+    ],
+    "cached_input": 0.05
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -60,7 +61,7 @@
     "max_output_tokens": "f4376436",
     "capabilities": "fdff467b",
     "modalities": "6399757e",
-    "pricing": "5666d5fa",
+    "pricing": "39a9ab4c",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",

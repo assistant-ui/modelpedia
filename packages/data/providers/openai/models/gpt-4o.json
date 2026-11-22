@@ -3,10 +3,10 @@
   "name": "GPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -16,11 +16,11 @@
   "tagline": "Fast, intelligent, flexible GPT model",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "fine_tuning": true,
-    "structured_output": true,
-    "json_mode": true,
+    "fine_tuning": false,
+    "structured_output": false,
+    "json_mode": false,
     "reasoning": false,
     "batch": true
   },
@@ -45,17 +45,25 @@
             "values": [2.5, 1.25, 10]
           }
         ]
+      },
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [25, 3.75, 1.875, 15]
+          },
+          {
+            "label": "Batch",
+            "values": [25, 2.225, 0.9, 12.5]
+          }
+        ]
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "mcp"
-  ],
+  "tools": ["function_calling", "file_search", "code_interpreter"],
   "endpoints": [
     "chat_completions",
     "responses",
@@ -68,7 +76,7 @@
     "name": "6867acdf",
     "family": "15249632",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -76,20 +84,24 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "964f7a0b",
-    "capabilities": "c7bd5743",
+    "capabilities": "87a2f48e",
     "modalities": "6399757e",
-    "pricing": "75606018",
-    "tools": "1d5a765f",
+    "pricing": "7fdd976f",
+    "tools": "52c26e60",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "page_url": "4d20d32d",
     "open_weight": "68934a3e",
     "release_date": "836378f5",
-    "retirement_date": "68185e3b"
+    "retirement_date": "b3b7551d",
+    "deprecation_date": "b735ec37",
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o",
   "open_weight": false,
   "release_date": "2024-05-13",
-  "retirement_date": "2026-10-23"
+  "retirement_date": "2027-01-14",
+  "deprecation_date": "2026-10-14",
+  "successor": "gpt-6-luna"
 }

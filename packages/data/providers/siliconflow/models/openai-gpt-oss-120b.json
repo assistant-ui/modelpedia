@@ -1,0 +1,59 @@
+{
+  "id": "openai/gpt-oss-120b",
+  "name": "gpt-oss-120b",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "description": "The gpt-oss series is OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+  "status": "active",
+  "release_date": "2025-08-13",
+  "context_window": 131072,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 120,
+  "active_parameters": 5.1,
+  "page_url": "https://www.siliconflow.com/models/gpt-oss-120b",
+  "tagline": "The gpt-oss series is OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": false,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.45,
+    "cached_input": 0.075
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "e8458743",
+    "family": "82d0cb0b",
+    "description": "57f11a67",
+    "status": "379ac110",
+    "release_date": "ab9b808c",
+    "context_window": "f7de594e",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "da4fb5c6",
+    "active_parameters": "43ff194f",
+    "page_url": "bd675334",
+    "tagline": "57f11a67",
+    "capabilities": "d9318738",
+    "modalities": "68e53d93",
+    "pricing": "1529722e",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

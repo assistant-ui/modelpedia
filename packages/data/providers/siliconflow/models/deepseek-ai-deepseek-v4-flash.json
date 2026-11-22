@@ -1,0 +1,59 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Flash",
+  "name": "DeepSeek-V4-Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4-Flash is DeepSeek's latest open-source MoE model featuring 284B total parameters with only 13B activated during inference, delivering high-speed generation without sacrificing capability.",
+  "status": "active",
+  "release_date": "2026-04-24",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 158,
+  "active_parameters": 13,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v4-flash",
+  "tagline": "DeepSeek-V4-Flash is DeepSeek's latest open-source MoE model featuring 284B total parameters with only 13B activated during inference, delivering high-speed generation without sacrificing capability.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.13,
+    "output": 0.28,
+    "cached_input": 0.028
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a570d0cd",
+    "description": "7af05403",
+    "status": "379ac110",
+    "release_date": "173d2bb2",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "06409663",
+    "active_parameters": "c51ce410",
+    "page_url": "1f3fef97",
+    "tagline": "7af05403",
+    "capabilities": "467329b3",
+    "modalities": "68e53d93",
+    "pricing": "e17cb8b7",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

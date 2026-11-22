@@ -1,0 +1,57 @@
+{
+  "id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
+  "status": "active",
+  "release_date": "2025-07-29",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "tagline": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3,
+    "cached_input": 0.1
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "quantization": "fp8",
+  "tokenizer": "Qwen3",
+  "_generated": {
+    "name": "63e2bcaf",
+    "family": "48c385a0",
+    "description": "ad02a99b",
+    "status": "379ac110",
+    "release_date": "f7a967dd",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "tagline": "ad02a99b",
+    "capabilities": "1f11f035",
+    "modalities": "68e53d93",
+    "pricing": "c162912e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e",
+    "quantization": "640679f9",
+    "tokenizer": "d76a4935"
+  },
+  "last_updated": "2026-11-22"
+}

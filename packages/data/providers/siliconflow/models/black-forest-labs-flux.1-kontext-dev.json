@@ -1,0 +1,51 @@
+{
+  "id": "black-forest-labs/FLUX.1-Kontext-dev",
+  "name": "FLUX.1-Kontext-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX.1 Kontext [dev] is a 12 billion parameter image editing model developed by Black Forest Labs.",
+  "status": "active",
+  "release_date": "2025-06-27",
+  "model_type": "image",
+  "license": "FLUX.1 [DEV] NON-COMMERCIAL LICENSE",
+  "parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/flux-1-kontext-dev",
+  "tagline": "FLUX.1 Kontext [dev] is a 12 billion parameter image editing model developed by Black Forest Labs.",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.015]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "ac90538e",
+    "description": "22133c94",
+    "status": "379ac110",
+    "release_date": "3c0b361c",
+    "model_type": "db8857fe",
+    "license": "220a0b22",
+    "parameters": "c20ad4d7",
+    "page_url": "729745c6",
+    "tagline": "22133c94",
+    "modalities": "bbf9b8bb",
+    "pricing": "1fc893e4",
+    "open_weight": "b326b506",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

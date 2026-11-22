@@ -1,0 +1,50 @@
+{
+  "id": "parasail-deepseek-v4-pro",
+  "name": "DeepSeek V4 Pro",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "Open model for reasoning and coding workloads.",
+  "status": "active",
+  "release_date": "2026-05",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/deepseek-v4-pro",
+  "tagline": "Open model for reasoning and coding workloads.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.74,
+    "output": 3.48,
+    "cached_input": 0.1
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "2da236ad",
+    "family": "4b81b92d",
+    "description": "d2bfa336",
+    "status": "379ac110",
+    "release_date": "0580e31b",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "page_url": "43cf461f",
+    "tagline": "d2bfa336",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "e4477b99",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

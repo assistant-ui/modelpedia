@@ -3,9 +3,9 @@
   "name": "GPT-4o Mini Transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 16000,
   "max_output_tokens": 2000,
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "1589159d",
     "family": "15249632",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "67510c89",
     "max_output_tokens": "08f90c1a",
@@ -40,7 +40,9 @@
     "release_date": "56423574",
     "page_url": "f4721e5e",
     "open_weight": "68934a3e",
-    "retirement_date": "9245bce7"
+    "retirement_date": "9245bce7",
+    "deprecation_date": "7d843204",
+    "successor": "829f2d5f"
   },
   "description": "Status: Deprecated",
   "tagline": "Speech-to-text model powered by GPT-4o mini",
@@ -65,5 +67,7 @@
   "release_date": "2025-12-15",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe",
   "open_weight": false,
-  "retirement_date": "2027-02-26"
+  "retirement_date": "2027-02-26",
+  "deprecation_date": "2026-08-26",
+  "successor": "gpt-live-transcribe"
 }

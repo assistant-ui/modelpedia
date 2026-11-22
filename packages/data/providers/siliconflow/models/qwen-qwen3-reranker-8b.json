@@ -1,0 +1,41 @@
+{
+  "id": "Qwen/Qwen3-Reranker-8B",
+  "name": "Qwen3-Reranker-8B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-Reranker-8B is the 8-billion parameter text reranking model from the Qwen3 series.",
+  "status": "active",
+  "release_date": "2025-06-06",
+  "context_window": 32768,
+  "model_type": "rerank",
+  "license": "APACHE-2.0",
+  "parameters": 8,
+  "page_url": "https://www.siliconflow.com/models/qwen3-reranker-8b",
+  "tagline": "Qwen3-Reranker-8B is the 8-billion parameter text reranking model from the Qwen3 series.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04
+  },
+  "open_weight": true,
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "29ad17ec",
+    "description": "836828af",
+    "status": "379ac110",
+    "release_date": "a78dab25",
+    "context_window": "f4376436",
+    "model_type": "477930e6",
+    "license": "98ac2124",
+    "parameters": "c9f0f895",
+    "page_url": "162e5a08",
+    "tagline": "836828af",
+    "modalities": "68e53d93",
+    "pricing": "713be9f3",
+    "open_weight": "b326b506",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-11-22"
+}

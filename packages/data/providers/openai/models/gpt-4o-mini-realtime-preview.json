@@ -3,10 +3,10 @@
   "name": "GPT-4o Mini Realtime",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 16000,
   "max_output_tokens": 4096,
@@ -61,7 +61,7 @@
     "name": "71fa0624",
     "family": "15249632",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "67510c89",
     "max_output_tokens": "f7efa4f8",
@@ -78,7 +78,8 @@
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "4a83ff32",
-    "retirement_date": "28df5f11"
+    "retirement_date": "d465a48a",
+    "deprecation_date": "792c58a8"
   },
   "model_type": "audio",
   "license": "proprietary",
@@ -86,5 +87,6 @@
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2024-12-17",
-  "retirement_date": "2027-01-20"
+  "retirement_date": "2026-05-07",
+  "deprecation_date": "2025-09-15"
 }

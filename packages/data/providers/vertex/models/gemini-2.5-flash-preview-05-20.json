@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-preview-05-20",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "deprecated",
   "deprecation_date": "2025-11-18",
@@ -29,11 +29,11 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [0.3, null, 2.5]
+            "values": [0.3, 0.03, 2.5]
           },
           {
             "label": "Priority",
-            "values": [0.54, null, 4.5]
+            "values": [0.54, 0.054, 4.5]
           },
           {
             "label": "Flex",
@@ -41,7 +41,8 @@
           }
         ]
       }
-    ]
+    ],
+    "cached_input": 0.03
   },
   "_generated": {
     "name": "1e8dae15",
@@ -51,7 +52,7 @@
     "successor": "53a6c3eb",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "pricing": "eaae666f",
+    "pricing": "556c5687",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e"

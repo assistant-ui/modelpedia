@@ -3,7 +3,7 @@
   "name": "gpt-audio-mini-2025-10-06",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "gpt-audio",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -33,6 +33,17 @@
     "output": 2.4,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached input"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, 2.4, null]
+          }
+        ]
+      },
+      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -40,17 +51,6 @@
           {
             "label": "Standard",
             "values": [10, null, 20]
-          }
-        ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.6, null, 2.4]
           }
         ]
       }
@@ -71,7 +71,7 @@
     "tagline": "24fe34a9",
     "capabilities": "67f48281",
     "modalities": "cf05925d",
-    "pricing": "ab94a543",
+    "pricing": "69d029f1",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "release_date": "17ddf71c",

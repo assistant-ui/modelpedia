@@ -1,0 +1,55 @@
+{
+  "id": "gemini-decision-1",
+  "name": "gemini-decision-1",
+  "created_by": "google",
+  "source": "official",
+  "description": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API. It evaluates typed questions over text, images, video, audio, and PDFs in a single prefill pass and returns calibrated outcome probabilities with zero output tokens. Use Gemini Decision 1 for request routing, policy checks across many rules at once, candidate scoring against a rubric, tool selection, and low-latency classification over live media streams. A single request can evaluate up to 1,000 independent questions over shared input up to 262,144 tokens: * **Yes/no:** Returns a calibrated probability from 0.01 to 0.99 and a confidence score. * **Single-select:** Evaluates 2 to 255 options and returns the top option, per-option probabilities, and confidence. * **Rubric rating:** Evaluates 2 to 255 ordered rubric levels and returns the probability-weighted expected score, per-level probabilities, and confidence.",
+  "status": "active",
+  "context_window": 262144,
+  "license": "proprietary",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-decision-1",
+  "model_type": "chat",
+  "tagline": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.1, null, null]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": false,
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "a3a44efd",
+    "description": "8e4af2f3",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "license": "9186c466",
+    "page_url": "67301839",
+    "model_type": "d669f408",
+    "tagline": "397835a6",
+    "capabilities": "8a3b232e",
+    "modalities": "c569b149",
+    "pricing": "90960127",
+    "open_weight": "68934a3e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-11-22"
+}

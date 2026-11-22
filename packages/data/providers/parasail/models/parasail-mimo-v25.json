@@ -1,0 +1,50 @@
+{
+  "id": "parasail-mimo-v25",
+  "name": "MiMo v2.5",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "Xiaomi’s efficient reasoning model with strong coding capabilities.",
+  "status": "active",
+  "release_date": "2026-04",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "page_url": "https://www.parasail.io/models/mimo-v25",
+  "tagline": "Xiaomi’s efficient reasoning model with strong coding capabilities.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.05
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "5afca0b1",
+    "family": "1a23786e",
+    "description": "b0653bc7",
+    "status": "379ac110",
+    "release_date": "58654c5c",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "page_url": "52d5f5fb",
+    "tagline": "b0653bc7",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "e6a0243a",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

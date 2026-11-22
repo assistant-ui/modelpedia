@@ -1,0 +1,51 @@
+{
+  "id": "IndexTeam/IndexTTS-2",
+  "name": "IndexTTS-2",
+  "created_by": "indexteam",
+  "source": "official",
+  "description": "IndexTTS2 is a breakthrough auto-regressive zero-shot Text-to-Speech (TTS) model designed to address the challenge of precise duration control in large-scale TTS systems, which is a significant limitation in applications like video dubbing.",
+  "status": "active",
+  "release_date": "2025-09-10",
+  "model_type": "tts",
+  "license": "APACHE-2.0",
+  "parameters": 1,
+  "page_url": "https://www.siliconflow.com/models/indextts-2",
+  "tagline": "IndexTTS2 is a breakthrough auto-regressive zero-shot Text-to-Speech (TTS) model designed to address the challenge of precise duration control in large-scale TTS systems, which is a significant limita",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Speech synthesis",
+        "unit": "Per 1M UTF-8 bytes",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [7.15]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["audio_speech"],
+  "_generated": {
+    "name": "7e4b0382",
+    "description": "86f16665",
+    "status": "379ac110",
+    "release_date": "6b120f3c",
+    "model_type": "4e16a2cf",
+    "license": "98ac2124",
+    "parameters": "c4ca4238",
+    "page_url": "40ba9803",
+    "tagline": "957fbdd6",
+    "modalities": "601e776d",
+    "pricing": "dc534e6b",
+    "open_weight": "b326b506",
+    "endpoints": "0d745ead"
+  },
+  "last_updated": "2026-11-22"
+}

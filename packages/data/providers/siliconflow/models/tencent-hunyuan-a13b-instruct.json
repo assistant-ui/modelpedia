@@ -1,0 +1,51 @@
+{
+  "id": "tencent/Hunyuan-A13B-Instruct",
+  "name": "Hunyuan-A13B-Instruct",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hunyuan-A13B-Instruct activates only 13 B of its 80 B parameters, yet matches much larger LLMs on mainstream benchmarks.",
+  "status": "active",
+  "release_date": "2025-06-30",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 80,
+  "active_parameters": 13,
+  "page_url": "https://www.siliconflow.com/models/hunyuan-a13b-instruct",
+  "tagline": "Hunyuan-A13B-Instruct activates only 13 B of its 80 B parameters, yet matches much larger LLMs on mainstream benchmarks.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": false,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.57
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "bda63a12",
+    "description": "d9ecbde9",
+    "status": "379ac110",
+    "release_date": "98c5c998",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "f033ab37",
+    "active_parameters": "c51ce410",
+    "page_url": "d87af30f",
+    "tagline": "d9ecbde9",
+    "capabilities": "29959311",
+    "modalities": "68e53d93",
+    "pricing": "5990c46b",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

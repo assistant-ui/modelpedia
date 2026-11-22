@@ -1,14 +1,27 @@
 {
-  "date": "2026-07-31",
-  "count": 8,
+  "date": "2026-11-22",
+  "count": 21,
   "ids": [
     "recraftv2",
     "recraftv2_vector",
     "recraftv3",
     "recraftv3_vector",
     "recraftv4",
+    "recraftv4_1",
+    "recraftv4_1_flash_v2",
+    "recraftv4_1_pro",
+    "recraftv4_1_pro_vector",
+    "recraftv4_1_utility",
+    "recraftv4_1_utility_pro",
+    "recraftv4_1_utility_pro_vector",
+    "recraftv4_1_utility_vector",
+    "recraftv4_1_vector",
     "recraftv4_pro",
     "recraftv4_pro_vector",
+    "recraftv4_styles",
+    "recraftv4_styles_pro",
+    "recraftv4_styles_pro_vector",
+    "recraftv4_styles_vector",
     "recraftv4_vector"
   ]
 }

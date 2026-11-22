@@ -21,7 +21,7 @@
   },
   "modalities": {
     "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text", "audio"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -35,9 +35,13 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "modalities": "d78a8420",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "087b0094",
+    "tagline": "862363a7"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions. It processes configurable background reasoning (`low`, `medium`, `high`), thought summaries, and asynchronous tool calls while streaming continuous audio responses. For low-latency conversational voice experiences without background reasoning delays, see Gemini 3.8 Live.",
+  "tagline": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions."
 }

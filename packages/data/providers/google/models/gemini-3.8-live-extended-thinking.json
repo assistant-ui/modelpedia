@@ -8,7 +8,7 @@
   "context_window": 131072,
   "max_output_tokens": 65536,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-live-extended-thinking",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -21,7 +21,7 @@
   },
   "modalities": {
     "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text", "audio"]
   },
   "open_weight": false,
   "tools": ["function_calling"],
@@ -33,13 +33,35 @@
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
-    "page_url": "9ffb59f5",
+    "page_url": "b5d5b83e",
     "model_type": "d669f408",
     "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "modalities": "d78a8420",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "087b0094",
+    "tagline": "862363a7",
+    "pricing": "98c9b360"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions. It processes configurable background reasoning (`low`, `medium`, `high`), thought summaries, and asynchronous tool calls while streaming continuous audio responses. For low-latency conversational voice experiences without background reasoning delays, see Gemini 3.8 Live.",
+  "tagline": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions.",
+  "pricing": {
+    "input": 0.75,
+    "output": 4.5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.75, null, 4.5]
+          }
+        ]
+      }
+    ]
+  }
 }

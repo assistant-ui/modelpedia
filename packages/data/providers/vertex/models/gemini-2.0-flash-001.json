@@ -3,7 +3,7 @@
   "name": "gemini-2.0-flash-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.0",
   "status": "deprecated",
   "capabilities": {
@@ -15,8 +15,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.25,
-    "output": 0.15,
+    "input": 0.000001,
+    "output": 0.6,
     "tiers": [
       {
         "label": "Text tokens",
@@ -37,7 +37,7 @@
     "status": "2e2f74dc",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "pricing": "5eba8367",
+    "pricing": "78cf4206",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",

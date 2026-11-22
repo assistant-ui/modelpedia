@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-image",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "active",
   "knowledge_cutoff": "2025-06",
@@ -19,8 +19,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "image"],
+    "output": ["text", "image"]
   },
   "pricing": {
     "input": 0.3,
@@ -55,20 +55,20 @@
     "context_window": "297ce0b3",
     "max_output_tokens": "f4376436",
     "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "modalities": "a812c6f9",
     "pricing": "e7e5842a",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "e9d9ca54",
+    "page_url": "9ed1ce00",
     "open_weight": "68934a3e",
     "description": "5afd9123",
     "tagline": "a8cf2326"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-image",
   "open_weight": false,
   "description": "Our best engine for high-velocity visual creation, offering state-of-the-art speed and efficiency. Gemini 2.5 Flash Image, also known as Nano Banana, is best for high-volume generation, conversational image editing, and low-latency creative workflows that require native multimodal understanding.",
   "tagline": "Our best engine for high-velocity visual creation, offering state-of-the-art speed and efficiency."

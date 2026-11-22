@@ -19,7 +19,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -31,9 +31,46 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "c569b149",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "aa53fa8e",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "3aeb3ac5",
+    "pricing": "ae9d1b76"
   },
-  "last_updated": "2026-10-14"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model.",
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.1,
+    "batch_input": 1,
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.1, 10]
+          },
+          {
+            "label": "Priority",
+            "values": [3.6, 0.18, 18]
+          },
+          {
+            "label": "Flex",
+            "values": [1, 0.05, 5]
+          }
+        ]
+      }
+    ]
+  }
 }

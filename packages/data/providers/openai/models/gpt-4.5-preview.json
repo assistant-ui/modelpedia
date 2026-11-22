@@ -3,9 +3,9 @@
   "name": "GPT-4.5 Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -17,8 +17,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": false,
     "batch": true
@@ -52,7 +52,7 @@
   "_generated": {
     "name": "b96e8e3d",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -60,7 +60,7 @@
     "performance": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "956dc0c5",
-    "capabilities": "299e8d16",
+    "capabilities": "5dc39f53",
     "modalities": "6399757e",
     "pricing": "267aa757",
     "endpoints": "1c48b50a",
@@ -70,7 +70,8 @@
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "0c569d59",
-    "retirement_date": "65c93d90"
+    "retirement_date": "65c93d90",
+    "deprecation_date": "85c7118a"
   },
   "family": "gpt-4.5",
   "license": "proprietary",
@@ -78,5 +79,6 @@
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2025-02-27",
-  "retirement_date": "2025-07-14"
+  "retirement_date": "2025-07-14",
+  "deprecation_date": "2025-04-14"
 }

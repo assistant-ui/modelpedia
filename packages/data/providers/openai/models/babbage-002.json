@@ -3,9 +3,9 @@
   "name": "babbage-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2021-09",
   "max_output_tokens": 16384,
   "model_type": "chat",
@@ -49,7 +49,7 @@
   "_generated": {
     "name": "f57ef8c0",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b61a1a89",
     "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
@@ -63,10 +63,12 @@
     "license": "9186c466",
     "page_url": "4de3ff66",
     "open_weight": "68934a3e",
-    "retirement_date": "1ec3c8a2"
+    "retirement_date": "1ec3c8a2",
+    "deprecation_date": "9503bf58"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/babbage-002",
   "open_weight": false,
-  "retirement_date": "2026-09-28"
+  "retirement_date": "2026-09-28",
+  "deprecation_date": "2025-09-26"
 }

@@ -1,0 +1,49 @@
+{
+  "id": "parasail-llama-4-maverick-instruct-fp8",
+  "name": "Llama 4 Maverick",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-4",
+  "description": "Meta’s multimodal Llama model with native image understanding.",
+  "status": "active",
+  "release_date": "2025-04",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "Llama 4 Community License",
+  "page_url": "https://www.parasail.io/models/llama-4-maverick",
+  "tagline": "Meta’s multimodal Llama model with native image understanding.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.35,
+    "output": 1,
+    "cached_input": 0.17
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "44672f7d",
+    "family": "3169363f",
+    "description": "5ffed7ed",
+    "status": "379ac110",
+    "release_date": "61c6d14e",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "f2741585",
+    "page_url": "6ff9e1a7",
+    "tagline": "5ffed7ed",
+    "capabilities": "944b5fe5",
+    "modalities": "6399757e",
+    "pricing": "2399f4dc",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

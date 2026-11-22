@@ -18,7 +18,7 @@
   "open_weight": false,
   "capabilities": {
     "streaming": false,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
     "structured_output": true,
     "json_mode": true,
@@ -63,15 +63,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "mcp"
-  ],
+  "tools": ["function_calling", "file_search", "code_interpreter", "mcp"],
   "endpoints": ["responses", "batch"],
   "_generated": {
     "name": "28499ab9",
@@ -88,16 +80,16 @@
     "speed": "c4ca4238",
     "page_url": "4661f821",
     "open_weight": "68934a3e",
-    "capabilities": "bcd7f168",
+    "capabilities": "fcdc8ba7",
     "modalities": "6399757e",
     "pricing": "4625212e",
-    "tools": "0172b421",
+    "tools": "924384e4",
     "endpoints": "6f01fd6c",
     "release_date": "a87679d0",
     "description": "4bbff3ab",
     "tagline": "7db15905"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "release_date": "2026-04-23",
   "snapshots": ["gpt-5.5-pro-2026-04-23"],
   "description": "GPT-5.5 Pro uses more compute to think harder and provide consistently better answers.",

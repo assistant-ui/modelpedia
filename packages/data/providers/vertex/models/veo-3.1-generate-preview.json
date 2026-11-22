@@ -3,7 +3,7 @@
   "name": "veo-3.1-generate-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-11-22",
   "status": "deprecated",
   "context_window": 1024,
   "model_type": "video",
@@ -17,7 +17,7 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["video"]
   },
   "tools": ["function_calling"],
@@ -28,7 +28,7 @@
     "context_window": "021bbc7e",
     "model_type": "4d1b75ca",
     "capabilities": "fdff467b",
-    "modalities": "85fd0565",
+    "modalities": "94e5e9ab",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "family": "0fa3bcca",
@@ -37,7 +37,7 @@
     "description": "5af40e04",
     "tagline": "0cc905e7",
     "deprecation_date": "59575a1a",
-    "successor": "77f576ba"
+    "successor": "18025669"
   },
   "family": "veo-3.1",
   "license": "proprietary",
@@ -45,5 +45,5 @@
   "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production. Veo 3.1 is best for professional-grade 4K output, natively synchronized audio generation, and complex camera movements that require the highest level of temporal consistency and artistic control.",
   "tagline": "A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production.",
   "deprecation_date": "2026-10-22",
-  "successor": "gemini-omni-1.1-flash"
+  "successor": "gemini-omni-1.2-flash"
 }

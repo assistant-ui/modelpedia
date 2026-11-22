@@ -1,0 +1,49 @@
+{
+  "id": "parasail-glm-53",
+  "name": "GLM-5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-53",
+  "description": "Z.AI’s strongest GLM-5 agentic coder — the same base as GLM-5.2, with every gain coming from post-training.",
+  "status": "active",
+  "release_date": "2026-08",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "GLM-5.3 License",
+  "page_url": "https://www.parasail.io/models/glm-53",
+  "tagline": "Z.AI’s strongest GLM-5 agentic coder — the same base as GLM-5.2, with every gain coming from post-training.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "7fca6967",
+    "family": "97e0a5ca",
+    "description": "aff04adc",
+    "status": "379ac110",
+    "release_date": "1f3cc0a2",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "baffd90a",
+    "page_url": "95d9a456",
+    "tagline": "aff04adc",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -16,7 +16,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text"]
+    "output": ["text", "image"]
   },
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
@@ -29,8 +29,12 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "8a3b232e",
-    "modalities": "c569b149",
-    "endpoints": "20e16908"
+    "modalities": "08235294",
+    "endpoints": "20e16908",
+    "description": "fb127699",
+    "tagline": "bdfa14ee"
   },
-  "last_updated": "2026-04-22"
+  "last_updated": "2026-11-22",
+  "description": "Maximum comprehensiveness for automated context gathering and synthesis. Deep Research Max is optimized for long-running, accuracy-critical investigations that synthesize complex information from hundreds of public web sources and private workspace data into comprehensive, cited reports. It supports collaborative planning, visualization, MCP servers, and File Search.",
+  "tagline": "Maximum comprehensiveness for automated context gathering and synthesis."
 }

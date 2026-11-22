@@ -1,0 +1,58 @@
+{
+  "id": "deepseek-ai/DeepSeek-V3",
+  "name": "DeepSeek-V3",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V3-0324 demonstrates notable improvements over its predecessor, DeepSeek-V3, in several key aspects, including major boost in reasoning performance, stronger front-end development skills and ",
+  "status": "active",
+  "release_date": "2024-12-26",
+  "context_window": 163840,
+  "max_output_tokens": 163840,
+  "model_type": "chat",
+  "license": "MODEL AGREEMENT",
+  "parameters": 671,
+  "active_parameters": 37,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v3",
+  "tagline": "DeepSeek-V3-0324 demonstrates notable improvements over its predecessor, DeepSeek-V3, in several key aspects, including major boost in reasoning performance, stronger front-end development skills and ",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c5c91141",
+    "description": "4579e198",
+    "status": "379ac110",
+    "release_date": "2de42b83",
+    "context_window": "7edab444",
+    "max_output_tokens": "7edab444",
+    "model_type": "d669f408",
+    "license": "13c898a3",
+    "parameters": "5dd9db5e",
+    "active_parameters": "a5bfc9e0",
+    "page_url": "8644a385",
+    "tagline": "4579e198",
+    "capabilities": "467329b3",
+    "modalities": "68e53d93",
+    "pricing": "f691bdc3",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

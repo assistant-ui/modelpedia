@@ -9,7 +9,7 @@
   "context_window": 131072,
   "max_output_tokens": 32768,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-image",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -21,8 +21,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "image", "video"],
+    "output": ["text", "image"]
   },
   "pricing": {
     "input": 0.5,
@@ -38,10 +38,6 @@
           {
             "label": "Standard",
             "values": [0.5, null, 3]
-          },
-          {
-            "label": "Batch",
-            "values": [0.25, null, 1.5]
           }
         ]
       }
@@ -58,18 +54,18 @@
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
     "license": "9186c466",
-    "page_url": "b38d202b",
+    "page_url": "cc690ca5",
     "model_type": "d669f408",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
-    "pricing": "260fed4f",
+    "modalities": "78793ec0",
+    "pricing": "b19af37b",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
-    "description": "041403e6",
+    "description": "6f12f3a8",
     "tagline": "9fee8828"
   },
-  "last_updated": "2026-09-04",
-  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Image Nano Banana 2 provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image , optimized for speed and high-volume developer use cases. Key updates: New output resolution options: New support for 0.5K, 2K and 4K, default 1K New Image Search Grounding: Integration of both text and image search results to inform generation with real-time web data Supported with Thinking on or off New 1:4, 4:1, 1:8 and 8:1 aspect ratios Improved aspect ratio adherence Improved image quality and consistency Improved i18n text rendering",
+  "last_updated": "2026-11-22",
+  "description": "**Nano Banana 2** provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image, optimized for speed and high-volume developer use cases. * New output resolution options: * New support for 0.5K, 2K and 4K, default 1K * New Image Search Grounding: * Integration of both text and image search results to inform generation with real-time web data * Supported with Thinking on or off * New 1:4, 4:1, 1:8 and 8:1 aspect ratios * Improved aspect ratio adherence * Improved image quality and consistency * Improved i18n text rendering",
   "tagline": "The Interactions API is now generally available."
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "gpt-image-2",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "license": "proprietary",
   "performance": 4,
@@ -72,7 +72,7 @@
     "name": "c2ef86d7",
     "family": "c79be345",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "license": "9186c466",
     "performance": "a87ff679",
@@ -85,9 +85,13 @@
     "pricing": "fe1cd369",
     "endpoints": "af128fc0",
     "release_date": "5029e96d",
-    "retirement_date": "0fcd5fe7"
+    "retirement_date": "0fcd5fe7",
+    "deprecation_date": "e365aa16",
+    "successor": "dd338b61"
   },
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "release_date": "2026-04-21",
-  "retirement_date": "2027-02-10"
+  "retirement_date": "2027-02-10",
+  "deprecation_date": "2026-11-10",
+  "successor": "gpt-image-2.6-sunburst"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "Qwen/Qwen2.5-72B-Instruct",
+  "name": "Qwen2.5-72B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen2.5-72B-Instruct is one of the latest large language model series released by Alibaba Cloud.",
+  "status": "active",
+  "release_date": "2024-09-18",
+  "context_window": 32768,
+  "max_output_tokens": 4096,
+  "model_type": "chat",
+  "parameters": 72,
+  "page_url": "https://www.siliconflow.com/models/qwen2-5-72b-instruct",
+  "tagline": "Qwen2.5-72B-Instruct is one of the latest large language model series released by Alibaba Cloud.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.59,
+    "output": 0.59
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5e3cfe3b",
+    "description": "1afdd9fd",
+    "status": "379ac110",
+    "release_date": "80d14872",
+    "context_window": "f4376436",
+    "max_output_tokens": "f7efa4f8",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "page_url": "48888d94",
+    "tagline": "1afdd9fd",
+    "capabilities": "f5705964",
+    "modalities": "68e53d93",
+    "pricing": "e8b3f9b6",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

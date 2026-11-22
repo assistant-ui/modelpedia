@@ -1,0 +1,49 @@
+{
+  "id": "parasail-ui-tars-1p5-7b",
+  "name": "UI-TARS 1.5 7B",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "GUI agent model that can operate computer interfaces autonomously.",
+  "status": "active",
+  "release_date": "2025-04",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 7,
+  "page_url": "https://www.parasail.io/models/ui-tars-15-7b",
+  "tagline": "GUI agent model that can operate computer interfaces autonomously.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.2,
+    "cached_input": 0.1
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1c79cf3f",
+    "description": "9bd08dbd",
+    "status": "379ac110",
+    "release_date": "61c6d14e",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "8f14e45f",
+    "page_url": "9a705f83",
+    "tagline": "9bd08dbd",
+    "capabilities": "944b5fe5",
+    "modalities": "6399757e",
+    "pricing": "cceb8e9c",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

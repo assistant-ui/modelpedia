@@ -3,7 +3,7 @@
   "name": "Recraft V4 Vector",
   "created_by": "recraft",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-22",
   "family": "recraft-v4",
   "description": "Recraft V4 model that outputs editable SVG vector graphics.",
   "tagline": "V4 vector / SVG output.",
@@ -30,6 +30,22 @@
     "license": "9186c466",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "pricing_notes": "15802efc"
+    "pricing_notes": "15802efc",
+    "pricing": "acdc0b81"
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.08]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -3,10 +3,10 @@
   "name": "o3-deep-research",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o3",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -50,14 +50,14 @@
       }
     ]
   },
-  "tools": ["web_search", "code_interpreter", "mcp"],
+  "tools": ["web_search", "mcp"],
   "endpoints": ["responses", "batch"],
   "snapshots": ["o3-deep-research-2025-06-26"],
   "_generated": {
     "name": "6204a974",
     "family": "193049bc",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -70,17 +70,19 @@
     "capabilities": "0651f887",
     "modalities": "6399757e",
     "pricing": "baca9e1c",
-    "tools": "a651ddf3",
+    "tools": "1463d3da",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "page_url": "16116ae1",
     "open_weight": "68934a3e",
     "release_date": "f083d14e",
-    "retirement_date": "26fc75d3"
+    "retirement_date": "26fc75d3",
+    "deprecation_date": "c48b287d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
   "open_weight": false,
   "release_date": "2025-06-26",
-  "retirement_date": "2026-07-23"
+  "retirement_date": "2026-07-23",
+  "deprecation_date": "2026-04-22"
 }

@@ -3,16 +3,16 @@
   "name": "StepAudio 3 Chat",
   "created_by": "stepfun",
   "source": "official",
-  "status": "preview",
+  "status": "deprecated",
   "model_type": "audio",
   "license": "proprietary",
   "open_weight": false,
   "_generated": {
     "name": "4344f8b6",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "model_type": "9f84c007",
     "license": "9186c466",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-22"
 }

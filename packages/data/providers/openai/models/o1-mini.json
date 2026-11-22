@@ -3,10 +3,10 @@
   "name": "o1-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o1",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 65536,
@@ -49,14 +49,14 @@
       }
     ]
   },
-  "tools": ["file_search", "code_interpreter", "mcp"],
+  "tools": ["file_search", "mcp"],
   "endpoints": ["chat_completions", "assistants"],
   "snapshots": ["o1-mini-2024-09-12"],
   "_generated": {
     "name": "34f0dfa6",
     "family": "e1ab0820",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "297ce0b3",
@@ -69,17 +69,19 @@
     "capabilities": "b9aba792",
     "modalities": "68e53d93",
     "pricing": "77b314da",
-    "tools": "25473f2d",
+    "tools": "8730729f",
     "endpoints": "6558e44b",
     "license": "9186c466",
     "page_url": "149ea37e",
     "open_weight": "68934a3e",
     "release_date": "928ac16b",
-    "retirement_date": "7600ba0c"
+    "retirement_date": "7600ba0c",
+    "deprecation_date": "1487959c"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o1-mini",
   "open_weight": false,
   "release_date": "2024-09-12",
-  "retirement_date": "2025-10-27"
+  "retirement_date": "2025-10-27",
+  "deprecation_date": "2025-04-28"
 }

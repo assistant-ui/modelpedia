@@ -1,0 +1,49 @@
+{
+  "id": "FunAudioLLM/CosyVoice2-0.5B",
+  "name": "FunAudioLLM/CosyVoice2-0.5B",
+  "created_by": "funaudiollm",
+  "source": "official",
+  "description": "CosyVoice 2 is a streaming speech synthesis model based on a large language model, employing a unified streaming/non-streaming framework design.",
+  "status": "active",
+  "release_date": "2024-12-16",
+  "model_type": "tts",
+  "parameters": 1,
+  "active_parameters": 0.5,
+  "page_url": "https://www.siliconflow.com/models/funaudiollm-cosyvoice2-0-5b",
+  "tagline": "CosyVoice 2 is a streaming speech synthesis model based on a large language model, employing a unified streaming/non-streaming framework design.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Speech synthesis",
+        "unit": "Per 1M UTF-8 bytes",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [7.15]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["audio_speech"],
+  "_generated": {
+    "name": "f3b54c47",
+    "description": "e1a24935",
+    "status": "379ac110",
+    "release_date": "a968b91a",
+    "model_type": "4e16a2cf",
+    "parameters": "c4ca4238",
+    "active_parameters": "d310cb36",
+    "page_url": "4703f4cc",
+    "tagline": "e1a24935",
+    "modalities": "601e776d",
+    "pricing": "dc534e6b",
+    "endpoints": "0d745ead"
+  },
+  "last_updated": "2026-11-22"
+}

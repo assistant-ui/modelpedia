@@ -3,7 +3,7 @@
   "name": "o3-2025-04-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "o3",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -19,11 +19,11 @@
   "tagline": "o3 is a well-rounded and powerful model across domains.",
   "capabilities": {
     "streaming": true,
-    "vision": true,
-    "tool_call": true,
-    "structured_output": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false,
     "batch": true
   },
@@ -66,7 +66,7 @@
     "reasoning": "e4da3b7f",
     "speed": "c4ca4238",
     "tagline": "ebf30e4f",
-    "capabilities": "6295d8b9",
+    "capabilities": "fab0c94f",
     "modalities": "6399757e",
     "pricing": "ce78c534",
     "endpoints": "ec55a017",
@@ -77,7 +77,7 @@
     "tools": "f0c1dc7e",
     "deprecation_date": "af441ea0",
     "retirement_date": "d0164be5",
-    "successor": "cadec60b"
+    "successor": "ba9bb2d3"
   },
   "license": "proprietary",
   "release_date": "2025-04-16",
@@ -86,5 +86,5 @@
   "tools": ["function_calling"],
   "deprecation_date": "2026-06-11",
   "retirement_date": "2026-12-11",
-  "successor": "gpt-5.6-sol"
+  "successor": "gpt-6.1-sol"
 }

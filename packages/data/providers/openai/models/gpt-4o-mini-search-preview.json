@@ -3,10 +3,10 @@
   "name": "GPT-4o mini search preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -16,8 +16,8 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "tool_call": false,
     "fine_tuning": false,
     "reasoning": false
@@ -49,14 +49,14 @@
     "name": "afabdd3c",
     "family": "15249632",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
     "performance": "c81e728d",
     "speed": "a87ff679",
     "tagline": "75d14b10",
-    "capabilities": "c9a424d9",
+    "capabilities": "f06b4907",
     "modalities": "68e53d93",
     "pricing": "6974fb99",
     "endpoints": "d8fa1080",
@@ -65,12 +65,14 @@
     "page_url": "a5ac572c",
     "open_weight": "68934a3e",
     "release_date": "53813ccd",
-    "retirement_date": "26fc75d3"
+    "retirement_date": "26fc75d3",
+    "deprecation_date": "c48b287d"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
   "open_weight": false,
   "release_date": "2025-03-11",
-  "retirement_date": "2026-07-23"
+  "retirement_date": "2026-07-23",
+  "deprecation_date": "2026-04-22"
 }

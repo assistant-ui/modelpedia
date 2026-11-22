@@ -1,0 +1,51 @@
+{
+  "id": "tencent/Hy4-preview",
+  "name": "Hy4-preview",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy4 preview is Tencent Hy's new-generation productivity flagship model, built on Gated DeepSeek Sparse Attention with iHC residual design, with approximately 770B total and 49B activated parameters per token.",
+  "status": "active",
+  "release_date": "2026-09-14",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "parameters": 770,
+  "page_url": "https://www.siliconflow.com/models/hy4-preview",
+  "tagline": "Hy4 preview is Tencent Hy's new-generation productivity flagship model, built on Gated DeepSeek Sparse Attention with iHC residual design, with approximately 770B total and 49B activated parameters pe",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.834,
+    "output": 2.501,
+    "cached_input": 0.042
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a56e166a",
+    "description": "014a76b2",
+    "status": "379ac110",
+    "release_date": "d5789345",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "parameters": "4ea06fbc",
+    "page_url": "84183715",
+    "tagline": "1cceb0b8",
+    "capabilities": "f5705964",
+    "modalities": "68e53d93",
+    "pricing": "46ee453c",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

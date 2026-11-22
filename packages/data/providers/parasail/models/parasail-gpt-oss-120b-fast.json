@@ -1,0 +1,50 @@
+{
+  "id": "parasail-gpt-oss-120b-fast",
+  "name": "gpt-oss-120b (Fast)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "description": "Optimized fast tier of gpt-oss-120b with lower latency for real-time workloads.",
+  "status": "active",
+  "release_date": "2025-08",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 120,
+  "page_url": "https://www.parasail.io/models/gpt-oss-120b-fast",
+  "tagline": "Optimized fast tier of gpt-oss-120b with lower latency for real-time workloads.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "58e2eac7",
+    "family": "82d0cb0b",
+    "description": "12b034de",
+    "status": "379ac110",
+    "release_date": "5549a2cd",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "da4fb5c6",
+    "page_url": "84505d8c",
+    "tagline": "12b034de",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "89a9c6e2",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

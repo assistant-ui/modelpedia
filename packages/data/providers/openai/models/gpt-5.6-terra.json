@@ -21,8 +21,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -69,18 +69,7 @@
     "batch_input": 1,
     "batch_output": 6
   },
-  "tools": [
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp",
-    "tool_search"
-  ],
+  "tools": ["web_search", "image_generation", "hosted_shell", "skills", "mcp"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "19038c67",
@@ -98,15 +87,15 @@
     "speed": "a87ff679",
     "page_url": "00fd8fd5",
     "open_weight": "68934a3e",
-    "capabilities": "822aa4d1",
+    "capabilities": "36380241",
     "modalities": "6399757e",
     "pricing": "014ee5fd",
-    "tools": "c3217644",
+    "tools": "a5527a04",
     "endpoints": "ec55a017",
     "description": "da8093ac",
     "tagline": "47ab7302"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "description": "GPT-5.6 Terra is designed for workloads that balance intelligence and cost. It roughly corresponds to the mini model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "tagline": "GPT-5.6 model that balances intelligence and cost",
   "snapshots": ["gpt-5.6-terra"]

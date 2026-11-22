@@ -18,7 +18,7 @@
   "open_weight": false,
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
     "structured_output": true,
     "json_mode": true,
@@ -49,14 +49,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "mcp"
-  ],
+  "tools": ["function_calling", "file_search", "code_interpreter"],
   "endpoints": ["chat_completions", "responses"],
   "snapshots": ["chat-latest"],
   "_generated": {
@@ -74,11 +67,11 @@
     "tagline": "725c824e",
     "page_url": "599a464d",
     "open_weight": "68934a3e",
-    "capabilities": "ba4a328d",
+    "capabilities": "f026012d",
     "modalities": "6399757e",
     "pricing": "7aec7646",
-    "tools": "1d5a765f",
+    "tools": "52c26e60",
     "endpoints": "72e91ba7"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-22"
 }

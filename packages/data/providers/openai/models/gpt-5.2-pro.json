@@ -3,7 +3,7 @@
   "name": "GPT-5.2 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-22",
   "family": "gpt-5.2",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -65,7 +65,7 @@
     "license": "9186c466",
     "page_url": "508015ab",
     "open_weight": "68934a3e",
-    "tools": "a7dce5fd",
+    "tools": "04527048",
     "release_date": "26371115",
     "description": "dba28944",
     "tagline": "c8316d7d"
@@ -75,13 +75,7 @@
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro",
   "open_weight": false,
-  "tools": [
-    "function_calling",
-    "file_search",
-    "image_generation",
-    "mcp",
-    "web_search"
-  ],
+  "tools": ["function_calling", "image_generation", "web_search"],
   "release_date": "2025-12-11",
   "description": "GPT-5.2 Pro is our previous pro model for complex professional work. We recommend using GPT-5.5 Pro for the latest pro model. GPT-5.2 Pro is available in the Responses API only to enable support for multi-turn model interactions before responding to API requests, and other advanced API features in the future. Since GPT-5.2 Pro is designed to tackle tough problems, some requests may take several minutes to finish. To avoid timeouts, try using background mode. GPT-5.2 Pro supports reasoning.effort: medium, high, xhigh.",
   "tagline": "Previous pro model for professional work that produces smarter and more precise responses."

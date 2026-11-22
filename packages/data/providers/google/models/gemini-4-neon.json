@@ -1,0 +1,74 @@
+{
+  "id": "gemini-4-neon",
+  "name": "gemini-4-neon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "description": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "license": "proprietary",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-4-neon",
+  "model_type": "chat",
+  "tagline": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified ",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.15,
+    "batch_input": 1.5,
+    "batch_output": 7.5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [3, 0.15, 15]
+          },
+          {
+            "label": "Batch",
+            "values": [1.5, null, 7.5]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "b5e67c7d",
+    "family": "bd0f233d",
+    "description": "b346b9ef",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "license": "9186c466",
+    "page_url": "bd226c08",
+    "model_type": "d669f408",
+    "tagline": "b2328802",
+    "capabilities": "fdff467b",
+    "modalities": "c569b149",
+    "pricing": "c8f088db",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-11-22"
+}

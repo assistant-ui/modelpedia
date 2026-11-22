@@ -1,0 +1,55 @@
+{
+  "id": "Wan-AI/Wan2.2-T2V-A14B",
+  "name": "Wan2.2-T2V-A14B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "Wan2.2",
+  "description": "Wan2.2-T2V-A14B model supports generating 5s videos at both 480P and 720P resolutions.",
+  "status": "active",
+  "release_date": "2025-08-13",
+  "model_type": "video",
+  "license": "APACHE-2.0",
+  "parameters": 27,
+  "active_parameters": 14,
+  "page_url": "https://www.siliconflow.com/models/wan2-2-t2v-a14b",
+  "tagline": "Wan2.2-T2V-A14B model supports generating 5s videos at both 480P and 720P resolutions.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Video generation",
+        "unit": "Per video",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.29]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "5d8518b9",
+    "family": "755f9a30",
+    "description": "63f8f634",
+    "status": "379ac110",
+    "release_date": "ab9b808c",
+    "model_type": "4d1b75ca",
+    "license": "98ac2124",
+    "parameters": "02e74f10",
+    "active_parameters": "aab32389",
+    "page_url": "dfdefdaf",
+    "tagline": "63f8f634",
+    "modalities": "94e5e9ab",
+    "pricing": "3f688795",
+    "open_weight": "b326b506",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-11-22"
+}

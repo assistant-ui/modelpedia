@@ -1,0 +1,50 @@
+{
+  "id": "parasail-glm-5",
+  "name": "GLM-5",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5",
+  "description": "Z.AI’s open model for reasoning and agentic workflows.",
+  "status": "active",
+  "release_date": "2026-02",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/glm-5",
+  "tagline": "Z.AI’s open model for reasoning and agentic workflows.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3.2,
+    "cached_input": 0.2
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "bfb92394",
+    "family": "309daa86",
+    "description": "0819db3e",
+    "status": "379ac110",
+    "release_date": "911f4737",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "page_url": "f1665929",
+    "tagline": "0819db3e",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "7959e9d6",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

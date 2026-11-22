@@ -3,7 +3,7 @@
   "name": "gemini-2.0-flash-lite",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.0",
   "status": "deprecated",
   "knowledge_cutoff": "2024-08",
@@ -20,11 +20,11 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "pricing": {
-    "input": 0.25,
-    "output": 0.075,
+    "input": 0.000001,
+    "output": 0.3,
     "tiers": [
       {
         "label": "Text tokens",
@@ -49,8 +49,8 @@
     "context_window": "7d28a051",
     "max_output_tokens": "77441296",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
-    "pricing": "1432648c",
+    "modalities": "c569b149",
+    "pricing": "6f017589",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",

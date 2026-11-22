@@ -22,10 +22,10 @@
   "tagline": "GPT-5.5 is our newest frontier model for the most complex professional work.",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -92,11 +92,11 @@
     "page_url": "19a289d9",
     "open_weight": "68934a3e",
     "tagline": "a4105091",
-    "capabilities": "822aa4d1",
+    "capabilities": "e168da0f",
     "modalities": "6399757e",
     "pricing": "02308f12",
     "tools": "f0c1dc7e",
     "endpoints": "ec55a017"
   },
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-22"
 }

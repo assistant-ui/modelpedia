@@ -1,0 +1,47 @@
+{
+  "id": "black-forest-labs/FLUX-1.1-pro",
+  "name": "FLUX 1.1 [pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX1.1 Pro is an enhanced text-to-image model built on the FLUX.1 architecture, offering improved composition, detail, and rendering speed.",
+  "status": "active",
+  "release_date": "2025-07-11",
+  "model_type": "image",
+  "parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/flux-1-1-pro",
+  "tagline": "FLUX1.1 Pro is an enhanced text-to-image model built on the FLUX.1 architecture, offering improved composition, detail, and rendering speed.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.04]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "2d397437",
+    "description": "b3189b91",
+    "status": "379ac110",
+    "release_date": "c4808e8f",
+    "model_type": "db8857fe",
+    "parameters": "c20ad4d7",
+    "page_url": "4c02cfdf",
+    "tagline": "b3189b91",
+    "modalities": "814867b9",
+    "pricing": "e0fcdb86",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "parasail-glm-52",
+  "name": "GLM-5.2",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-52",
+  "description": "Z.AI’s next-gen model for agentic engineering — stronger coding and agentic capabilities with sustained execution on long-horizon tasks.",
+  "status": "active",
+  "release_date": "2026-06",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/glm-52",
+  "tagline": "Z.AI’s next-gen model for agentic engineering — stronger coding and agentic capabilities with sustained execution on long-horizon tasks.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "0e01939a",
+    "family": "e0a863a6",
+    "description": "87b5654a",
+    "status": "379ac110",
+    "release_date": "cb890cbe",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "page_url": "5ab8be4c",
+    "tagline": "87b5654a",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

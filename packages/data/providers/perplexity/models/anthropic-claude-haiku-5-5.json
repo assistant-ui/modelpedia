@@ -1,6 +1,6 @@
 {
   "id": "anthropic/claude-haiku-5-5",
-  "name": "Claude Haiku 5.5",
+  "name": "Claude Haiku 5 5",
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-haiku",
@@ -23,7 +23,7 @@
     "Input: 0.10 (≤100k) 0.50 (>100k); Output: 0.50 (≤100k) 2.50 (>100k) per 1M tokens."
   ],
   "_generated": {
-    "name": "b8ac4e9a",
+    "name": "11723ce3",
     "family": "1cfb9795",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -33,5 +33,5 @@
     "modalities": "68e53d93",
     "pricing_notes": "20e72ae3"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-22"
 }

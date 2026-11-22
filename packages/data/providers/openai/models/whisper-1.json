@@ -3,10 +3,10 @@
   "name": "Whisper",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "whisper",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "transcription",
   "performance": 2,
   "speed": 3,
@@ -36,7 +36,7 @@
     "name": "b2e4cdb6",
     "family": "7fbc43e3",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "5e12d29a",
     "performance": "c81e728d",
     "speed": "eccbc87e",
@@ -47,10 +47,14 @@
     "license": "9186c466",
     "page_url": "11933fc3",
     "open_weight": "68934a3e",
-    "retirement_date": "9245bce7"
+    "retirement_date": "9245bce7",
+    "deprecation_date": "7d843204",
+    "successor": "829f2d5f"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/whisper-1",
   "open_weight": false,
-  "retirement_date": "2027-02-26"
+  "retirement_date": "2027-02-26",
+  "deprecation_date": "2026-08-26",
+  "successor": "gpt-live-transcribe"
 }

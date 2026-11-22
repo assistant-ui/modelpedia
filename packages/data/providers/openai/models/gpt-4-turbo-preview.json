@@ -3,10 +3,10 @@
   "name": "GPT-4 Turbo preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4-turbo",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "tagline": "An older fast GPT model",
   "snapshots": ["gpt-4-0125-preview", "gpt-4-1106-vision-preview"],
@@ -14,7 +14,7 @@
     "name": "b22d12f4",
     "family": "e55097d8",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "tagline": "852f051a",
     "license": "9186c466",
@@ -29,7 +29,8 @@
     "speed": "eccbc87e",
     "capabilities": "ea522cff",
     "pricing": "02935d0a",
-    "endpoints": "5ea7876b"
+    "endpoints": "5ea7876b",
+    "deprecation_date": "9503bf58"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo-preview",
@@ -70,5 +71,6 @@
       }
     ]
   },
-  "endpoints": ["chat_completions", "responses", "assistants"]
+  "endpoints": ["chat_completions", "responses", "assistants"],
+  "deprecation_date": "2025-09-26"
 }

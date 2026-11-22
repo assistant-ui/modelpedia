@@ -1,0 +1,49 @@
+{
+  "id": "parasail-minimax-m25",
+  "name": "MiniMax M2.5",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Cost-effective large model with strong general capabilities and long context.",
+  "status": "active",
+  "release_date": "2026-03",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "MiniMax Model License",
+  "page_url": "https://www.parasail.io/models/minimax-m25",
+  "tagline": "Cost-effective large model with strong general capabilities and long context.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.03
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "fbc8323f",
+    "family": "c85916f0",
+    "description": "f04303b9",
+    "status": "379ac110",
+    "release_date": "f757eba1",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "49785b3d",
+    "page_url": "24048070",
+    "tagline": "f04303b9",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "af2df236",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -4,7 +4,7 @@
   "created_by": "xiaomi",
   "source": "official",
   "family": "mimo",
-  "context_window": 1100000,
+  "context_window": 1000000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -13,8 +13,8 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.11,
-    "output": 0.22
+    "input": 0.14,
+    "output": 0.28
   },
   "modalities": {
     "input": ["text"],
@@ -24,12 +24,12 @@
   "_generated": {
     "name": "68e2ef66",
     "family": "1a23786e",
-    "context_window": "6d81e421",
+    "context_window": "8155bc54",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
-    "pricing": "db8d797c",
+    "pricing": "5d28482e",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-03"
+  "last_updated": "2026-11-22"
 }

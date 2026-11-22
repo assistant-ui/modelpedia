@@ -8,7 +8,7 @@
   "context_window": 131072,
   "max_output_tokens": 65536,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-live",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -20,8 +20,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "image", "audio"],
+    "output": ["text", "audio"]
   },
   "pricing": {
     "input": 0.75,
@@ -50,14 +50,18 @@
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
-    "page_url": "16b4c7a0",
+    "page_url": "0f08c1cf",
     "model_type": "d669f408",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "d78a8420",
     "pricing": "98c9b360",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "c7cdde28",
+    "tagline": "6890f863"
   },
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays. It supports interleaved reasoning, asynchronous and synchronous function calling, full-session client content updates, and built-in proactive audio. For complex agentic tasks requiring multi-step reasoning and configurable thinking budgets, see Gemini 3.8 Live Extended Thinking.",
+  "tagline": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays."
 }

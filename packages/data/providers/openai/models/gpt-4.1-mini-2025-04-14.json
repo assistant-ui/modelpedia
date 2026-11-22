@@ -3,7 +3,7 @@
   "name": "gpt-4.1-mini-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "gpt-4.1",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -16,12 +16,12 @@
   "speed": 4,
   "tagline": "GPT-4.1 mini excels at instruction following and tool calling.",
   "capabilities": {
-    "streaming": true,
+    "streaming": false,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "fine_tuning": true,
-    "json_mode": true,
+    "structured_output": false,
+    "fine_tuning": false,
+    "json_mode": false,
     "reasoning": false,
     "batch": true
   },
@@ -43,6 +43,17 @@
           {
             "label": "Batch",
             "values": [5, 0.4, 0.1, 1.6]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.4, 0.1, 1.6]
           }
         ]
       }
@@ -72,9 +83,9 @@
     "performance": "eccbc87e",
     "speed": "a87ff679",
     "tagline": "18a22d24",
-    "capabilities": "8d3e7fd5",
+    "capabilities": "3c58f369",
     "modalities": "6399757e",
-    "pricing": "6173c4da",
+    "pricing": "d21f2048",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",

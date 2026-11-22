@@ -1,0 +1,54 @@
+{
+  "id": "parasail-qwen3-vl-235b-a22b-instruct",
+  "name": "Qwen3-VL 235B-A22B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Large vision-language model with strong document understanding and visual reasoning.",
+  "status": "active",
+  "release_date": "2026-05",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 235,
+  "active_parameters": 22,
+  "page_url": "https://www.parasail.io/models/qwen3-vl-235b-a22b",
+  "tagline": "Large vision-language model with strong document understanding and visual reasoning.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.21,
+    "output": 1.9,
+    "cached_input": 0.1
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "c2bf762c",
+    "family": "48c385a0",
+    "description": "79627fdf",
+    "status": "379ac110",
+    "release_date": "0580e31b",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "911dd184",
+    "tagline": "79627fdf",
+    "capabilities": "272b9653",
+    "modalities": "6399757e",
+    "pricing": "eb710318",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

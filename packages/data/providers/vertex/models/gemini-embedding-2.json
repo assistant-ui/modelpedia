@@ -13,7 +13,7 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image", "video", "audio"],
     "output": ["text"]
   },
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -26,8 +26,12 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "d3117eb0",
-    "modalities": "68e53d93",
-    "endpoints": "20e16908"
+    "modalities": "c569b149",
+    "endpoints": "20e16908",
+    "description": "42ea60f0",
+    "tagline": "a32fb6c6"
   },
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-11-22",
+  "description": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space. The Gemini Embedding 2 model is best for cross-modal semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large multimodal datasets.",
+  "tagline": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space."
 }

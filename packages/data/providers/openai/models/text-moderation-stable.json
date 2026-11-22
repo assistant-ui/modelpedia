@@ -3,9 +3,9 @@
   "name": "text-moderation-stable",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2021-09",
   "max_output_tokens": 32768,
   "model_type": "moderation",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "a37df06b",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b61a1a89",
     "max_output_tokens": "f4376436",
     "model_type": "1e7a7b87",
@@ -34,11 +34,13 @@
     "license": "9186c466",
     "page_url": "b840ce97",
     "open_weight": "68934a3e",
-    "retirement_date": "7600ba0c"
+    "retirement_date": "7600ba0c",
+    "deprecation_date": "1487959c"
   },
   "family": "text-moderation",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/text-moderation-stable",
   "open_weight": false,
-  "retirement_date": "2025-10-27"
+  "retirement_date": "2025-10-27",
+  "deprecation_date": "2025-04-28"
 }

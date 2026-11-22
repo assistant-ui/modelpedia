@@ -1,0 +1,23 @@
+{
+  "id": "stepaudio-3-music",
+  "name": "StepAudio 3 Music",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "license": "proprietary",
+  "open_weight": false,
+  "pricing_notes": [
+    "音乐生成·第一档（无音频输入）：歌曲创作、纯音乐创作: 16.00 元／输出音频小时",
+    "音乐生成·第二档（有音频输入）：歌曲改编、清唱配乐: 32.00 元／输出音频小时"
+  ],
+  "_generated": {
+    "name": "9e664b7d",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "pricing_notes": "f89cf93d"
+  },
+  "last_updated": "2026-11-22"
+}

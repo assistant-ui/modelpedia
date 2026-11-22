@@ -5,22 +5,22 @@
   "source": "official",
   "license": "proprietary",
   "pricing": {
-    "input": 1.389,
-    "cached_input": 0.278,
-    "output": 3.472
+    "input": 1.806,
+    "cached_input": 0.417,
+    "output": 4.444
   },
   "open_weight": false,
   "_generated": {
     "name": "1a4c0ee3",
     "license": "9186c466",
-    "pricing": "2d9bb8b1",
+    "pricing": "00dd0b3b",
     "open_weight": "68934a3e",
     "status": "379ac110",
     "description": "b3334130",
     "model_type": "9f84c007",
     "tagline": "b3334130"
   },
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "status": "active",
   "description": "真正具备“活人感”的对话大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**",
   "model_type": "audio",

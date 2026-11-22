@@ -3,10 +3,10 @@
   "name": "GPT-5-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-5",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -19,11 +19,11 @@
   "tagline": "A version of GPT-5 optimized for agentic coding in Codex",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false
   },
   "modalities": {
@@ -48,14 +48,14 @@
       }
     ]
   },
-  "tools": ["function_calling", "web_search"],
+  "tools": ["function_calling"],
   "endpoints": ["responses"],
   "snapshots": ["gpt-5-codex"],
   "_generated": {
     "name": "860109e1",
     "family": "aa904c16",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -66,18 +66,20 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "3fdd16f9",
-    "capabilities": "07de7920",
+    "capabilities": "61217667",
     "modalities": "6399757e",
     "pricing": "53068594",
-    "tools": "4db09141",
+    "tools": "f0c1dc7e",
     "endpoints": "acb164ea",
     "license": "9186c466",
     "page_url": "3e13b697",
     "open_weight": "68934a3e",
-    "retirement_date": "26fc75d3"
+    "retirement_date": "26fc75d3",
+    "deprecation_date": "c48b287d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
   "open_weight": false,
-  "retirement_date": "2026-07-23"
+  "retirement_date": "2026-07-23",
+  "deprecation_date": "2026-04-22"
 }

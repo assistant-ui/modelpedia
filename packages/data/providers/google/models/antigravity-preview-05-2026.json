@@ -3,7 +3,7 @@
   "name": "antigravity-preview-05-2026",
   "created_by": "google",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "license": "proprietary",
@@ -20,7 +20,7 @@
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "31b0927b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
@@ -30,5 +30,5 @@
     "open_weight": "68934a3e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-05-23"
+  "last_updated": "2026-11-22"
 }

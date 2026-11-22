@@ -1,0 +1,54 @@
+{
+  "id": "parasail-qwen3-235b-a22b-instruct-2507",
+  "name": "Qwen3 235B-A22B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Strong open MoE model with excellent coding and reasoning at low cost.",
+  "status": "active",
+  "release_date": "2025-07",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 235,
+  "active_parameters": 22,
+  "page_url": "https://www.parasail.io/models/qwen3-235b-a22b-2507",
+  "tagline": "Strong open MoE model with excellent coding and reasoning at low cost.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.8,
+    "cached_input": 0.05
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "ff9de4cb",
+    "family": "48c385a0",
+    "description": "d8ab5401",
+    "status": "379ac110",
+    "release_date": "bfdca3f9",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "e2a73d08",
+    "tagline": "d8ab5401",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "36aa8abc",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

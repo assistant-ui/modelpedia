@@ -21,7 +21,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -35,9 +35,42 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "c569b149",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "cbbb476e",
+    "tagline": "31d9f568",
+    "pricing": "f1778ee6"
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+  "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl",
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075,
+    "batch_input": 0.375,
+    "batch_output": 1.875,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.75, 0.075, 3.75]
+          },
+          {
+            "label": "Priority",
+            "values": [1.35, 0.135, 6.75]
+          },
+          {
+            "label": "Flex",
+            "values": [0.375, 0.0375, 1.875]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "gemini-2.5-computer-use-preview-10-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "deprecated",
   "context_window": 128000,
@@ -37,11 +37,15 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "deprecation_date": "b4e99da9",
-    "successor": "f20d4dae"
+    "successor": "f20d4dae",
+    "description": "d1bc1b81",
+    "tagline": "6ac43fba"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
   "deprecation_date": "2026-07-28",
-  "successor": "gemini-3.8-flash"
+  "successor": "gemini-3.8-flash",
+  "description": "This model was shut down on **July 28, 2026**; migrate to Gemini 3.8 Flash or other Gemini 3 models with built-in computer use support to avoid service interruptions. An agentic capability model designed for direct interface interaction, allowing Gemini to perceive and navigate digital environments. Gemini 2.5 Computer Use is best for browser automation, multi-step software tasks, and UI testing that requires visual reasoning and precise cursor control.",
+  "tagline": "This model was shut down on **July 28, 2026**; migrate to Gemini 3.8 Flash or other Gemini 3 models with built-in computer use support to avoid service interruptions."
 }

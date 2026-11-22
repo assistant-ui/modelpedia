@@ -3,7 +3,7 @@
   "name": "gpt-4o-search-preview-2025-03-11",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "description": "Status: Shut down",
   "status": "deprecated",
@@ -17,8 +17,8 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "tool_call": false,
     "fine_tuning": false,
     "reasoning": false
@@ -56,7 +56,7 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "e981b5d7",
-    "capabilities": "c9a424d9",
+    "capabilities": "f06b4907",
     "modalities": "68e53d93",
     "pricing": "414ecbde",
     "endpoints": "d8fa1080",

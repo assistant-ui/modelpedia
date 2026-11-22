@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["audio"]
+    "input": ["text", "image"],
+    "output": ["text", "audio"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -31,9 +31,13 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "601e776d",
+    "modalities": "cc48d9a5",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "5d024b51",
+    "tagline": "2d10a322"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-11-22",
+  "description": "Lyria 3.5 is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 44.1 kHz stereo audio from text prompts or image inputs.",
+  "tagline": "Lyria 3.5 is Google's flagship music generation model."
 }

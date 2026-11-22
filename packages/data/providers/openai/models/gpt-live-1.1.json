@@ -12,7 +12,7 @@
   "capabilities": {
     "streaming": true,
     "vision": false,
-    "tool_call": true,
+    "tool_call": false,
     "structured_output": false,
     "json_mode": false,
     "fine_tuning": false,
@@ -48,11 +48,11 @@
     "tagline": "e7ed5b5f",
     "page_url": "eaf1d5da",
     "open_weight": "68934a3e",
-    "capabilities": "89789fa6",
+    "capabilities": "51394a4e",
     "modalities": "aeba3801",
     "pricing": "ac183c5e",
     "tools": "f0c1dc7e",
     "endpoints": "7468d746"
   },
-  "last_updated": "2026-11-20"
+  "last_updated": "2026-11-22"
 }

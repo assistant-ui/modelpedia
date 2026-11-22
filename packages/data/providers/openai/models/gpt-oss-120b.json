@@ -3,7 +3,7 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-11-22",
   "family": "gpt-oss",
   "description": "`gpt-oss-120b`is our most powerful open-weight model, which fits into a single  H100 GPU (117B parameters with 5.1B active parameters).",
   "status": "active",
@@ -19,10 +19,10 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
     "fine_tuning": false,
-    "json_mode": true,
+    "json_mode": false,
     "vision": false,
     "batch": true
   },
@@ -30,7 +30,7 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tools": ["function_calling", "code_interpreter", "mcp", "web_search"],
+  "tools": ["function_calling", "mcp"],
   "endpoints": ["responses", "batch"],
   "snapshots": ["gpt-oss-120b"],
   "_generated": {
@@ -47,9 +47,9 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "254cefba",
-    "capabilities": "c0ba51bd",
+    "capabilities": "8cfa9799",
     "modalities": "68e53d93",
-    "tools": "67477b86",
+    "tools": "e1290f95",
     "endpoints": "6f01fd6c",
     "license": "60245731",
     "parameters": "da4fb5c6",

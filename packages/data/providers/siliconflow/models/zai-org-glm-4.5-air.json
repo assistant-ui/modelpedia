@@ -1,0 +1,60 @@
+{
+  "id": "zai-org/GLM-4.5-Air",
+  "name": "GLM-4.5-Air",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-4.5",
+  "description": "The GLM-4.5 series models are foundation models designed for intelligent agents.",
+  "status": "active",
+  "release_date": "2025-07-28",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 106,
+  "active_parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/glm-4-5-air",
+  "tagline": "The GLM-4.5 series models are foundation models designed for intelligent agents.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": false,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.86
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1a8fb936",
+    "family": "9ddeed20",
+    "description": "987533bd",
+    "status": "379ac110",
+    "release_date": "8ef4ed35",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "f0935e4c",
+    "active_parameters": "c20ad4d7",
+    "page_url": "2f97fbcc",
+    "tagline": "987533bd",
+    "capabilities": "74e858f1",
+    "modalities": "68e53d93",
+    "pricing": "2f770713",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

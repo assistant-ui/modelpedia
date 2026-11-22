@@ -1,0 +1,49 @@
+{
+  "id": "fishaudio/fish-speech-1.5",
+  "name": "Fish-Speech-1.5",
+  "created_by": "fishaudio",
+  "source": "official",
+  "description": "Fish Speech V1.5 is a leading open-source text-to-speech (TTS) model.",
+  "status": "active",
+  "release_date": "2024-11-29",
+  "model_type": "tts",
+  "license": "OPEN-SOURCE",
+  "page_url": "https://www.siliconflow.com/models/fish-speech-1-5",
+  "tagline": "Fish Speech V1.5 is a leading open-source text-to-speech (TTS) model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Speech synthesis",
+        "unit": "Per 1M UTF-8 bytes",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [15]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["audio_speech"],
+  "_generated": {
+    "name": "78ec616d",
+    "description": "8d0eea77",
+    "status": "379ac110",
+    "release_date": "8fb80669",
+    "model_type": "4e16a2cf",
+    "license": "4244c3ec",
+    "page_url": "f0401271",
+    "tagline": "8d0eea77",
+    "modalities": "601e776d",
+    "pricing": "bf922b7b",
+    "open_weight": "b326b506",
+    "endpoints": "0d745ead"
+  },
+  "last_updated": "2026-11-22"
+}

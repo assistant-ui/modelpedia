@@ -1,0 +1,51 @@
+{
+  "id": "black-forest-labs/FLUX.2-pro",
+  "name": "FLUX.2 [pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX.2 Pro is a cutting-edge image generation and editing model that builds on the strengths of its predecessor, supporting natural language prompts, reference images, and advanced control inputs.",
+  "status": "active",
+  "release_date": "2025-12-11",
+  "model_type": "image",
+  "license": "32B",
+  "parameters": 32,
+  "page_url": "https://www.siliconflow.com/models/flux-2-pro",
+  "tagline": "FLUX.2 Pro is a cutting-edge image generation and editing model that builds on the strengths of its predecessor, supporting natural language prompts, reference images, and advanced control inputs.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.03]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "6e378d1d",
+    "description": "e2641120",
+    "status": "379ac110",
+    "release_date": "26371115",
+    "model_type": "db8857fe",
+    "license": "250e9eb0",
+    "parameters": "6364d3f0",
+    "page_url": "40b83d9b",
+    "tagline": "e2641120",
+    "modalities": "814867b9",
+    "pricing": "b1330f6c",
+    "open_weight": "b326b506",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

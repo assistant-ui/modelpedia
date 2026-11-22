@@ -3,7 +3,7 @@
   "name": "Recraft V3 Vector",
   "created_by": "recraft",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-22",
   "family": "recraft-v3",
   "description": "Vector / SVG output variant of Recraft V3 for editable scalable graphics.",
   "tagline": "Recraft V3 vector / SVG.",
@@ -30,6 +30,22 @@
     "license": "9186c466",
     "modalities": "bbf9b8bb",
     "endpoints": "4c2aa55c",
-    "pricing_notes": "15802efc"
+    "pricing_notes": "15802efc",
+    "pricing": "acdc0b81"
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.08]
+          }
+        ]
+      }
+    ]
   }
 }

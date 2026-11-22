@@ -1,0 +1,54 @@
+{
+  "id": "parasail-qwen35-397b-a17b",
+  "name": "Qwen3.5 397B-A17B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen35",
+  "description": "Large-scale MoE model with frontier reasoning and multilingual capabilities.",
+  "status": "active",
+  "release_date": "2026-05",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 397,
+  "active_parameters": 17,
+  "page_url": "https://www.parasail.io/models/qwen35-397b-a17b",
+  "tagline": "Large-scale MoE model with frontier reasoning and multilingual capabilities.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3.6,
+    "cached_input": 0.3
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "a8a5ff8b",
+    "family": "51a2bb36",
+    "description": "d154e0be",
+    "status": "379ac110",
+    "release_date": "0580e31b",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "e46de7e1",
+    "active_parameters": "70efdf2e",
+    "page_url": "baeeb03e",
+    "tagline": "d154e0be",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "7324c4cd",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

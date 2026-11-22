@@ -21,8 +21,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -87,7 +87,7 @@
     "speed": "a87ff679",
     "page_url": "8152aea6",
     "open_weight": "68934a3e",
-    "capabilities": "822aa4d1",
+    "capabilities": "36380241",
     "modalities": "6399757e",
     "pricing": "90d67a35",
     "tools": "f0c1dc7e",
@@ -95,7 +95,7 @@
     "description": "1fe77ac6",
     "tagline": "b2373111"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "description": "GPT-5.6 Sol is a flagship model in the GPT-5.6 family. It roughly corresponds to the unsuffixed model tier used in earlier GPT-5 families. The `gpt-5.6` alias routes requests to GPT-5.6 Sol. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "alias": "gpt-daybreak-blue-latest",
   "tagline": "GPT-5.6 flagship model for complex professional work",

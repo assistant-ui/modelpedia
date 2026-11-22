@@ -17,8 +17,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true
   },
@@ -44,18 +44,7 @@
       }
     ]
   },
-  "tools": [
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp",
-    "tool_search"
-  ],
+  "tools": ["web_search", "image_generation", "hosted_shell", "skills", "mcp"],
   "endpoints": ["responses"],
   "snapshots": ["gpt-5.6-cyber"],
   "_generated": {
@@ -70,13 +59,13 @@
     "tagline": "e5bd3d32",
     "page_url": "d023ab21",
     "open_weight": "68934a3e",
-    "capabilities": "15adcda2",
+    "capabilities": "471e1278",
     "modalities": "6399757e",
     "pricing": "3a948f60",
-    "tools": "c3217644",
+    "tools": "a5527a04",
     "endpoints": "acb164ea",
     "status": "379ac110"
   },
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-22",
   "status": "active"
 }

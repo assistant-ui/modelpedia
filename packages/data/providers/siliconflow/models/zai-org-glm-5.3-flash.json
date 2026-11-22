@@ -1,0 +1,60 @@
+{
+  "id": "zai-org/GLM-5.3-Flash",
+  "name": "GLM-5.3-Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.3",
+  "description": "A frontier model built for efficient coding and long-horizon agentic tasks.",
+  "status": "active",
+  "release_date": "2026-08-27",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 320,
+  "active_parameters": 18,
+  "page_url": "https://www.siliconflow.com/models/glm-5-3-flash",
+  "tagline": "A frontier model built for efficient coding and long-horizon agentic tasks.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.03
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "76e00113",
+    "family": "7fca6967",
+    "description": "8f4a91aa",
+    "status": "379ac110",
+    "release_date": "0890bbf8",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "32072254",
+    "active_parameters": "6f4922f4",
+    "page_url": "2da61ba4",
+    "tagline": "8f4a91aa",
+    "capabilities": "28d6d4bb",
+    "modalities": "6399757e",
+    "pricing": "bd8fa987",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}
