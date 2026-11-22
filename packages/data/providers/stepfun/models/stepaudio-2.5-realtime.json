@@ -6,22 +6,22 @@
   "license": "proprietary",
   "model_type": "audio",
   "pricing": {
-    "input": 1.389,
-    "cached_input": 0.278,
-    "output": 9.722
+    "input": 1.806,
+    "cached_input": 0.417,
+    "output": 12.5
   },
   "open_weight": false,
   "_generated": {
     "name": "8188adae",
     "license": "9186c466",
     "model_type": "9f84c007",
-    "pricing": "343d8c2d",
+    "pricing": "ab4d7ceb",
     "open_weight": "68934a3e",
     "status": "379ac110",
     "description": "7c488bda",
     "tagline": "7c488bda"
   },
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "status": "active",
   "description": "真正具备“活人感”的实时语音大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**",
   "tagline": "真正具备“活人感”的实时语音大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**"

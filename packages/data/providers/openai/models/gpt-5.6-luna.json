@@ -21,8 +21,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -69,18 +69,7 @@
     "batch_input": 0.1,
     "batch_output": 0.6
   },
-  "tools": [
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp",
-    "tool_search"
-  ],
+  "tools": ["web_search", "image_generation", "hosted_shell", "skills", "mcp"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "d1984565",
@@ -98,15 +87,15 @@
     "speed": "a87ff679",
     "page_url": "289efccc",
     "open_weight": "68934a3e",
-    "capabilities": "822aa4d1",
+    "capabilities": "36380241",
     "modalities": "6399757e",
     "pricing": "90d4486a",
-    "tools": "c3217644",
+    "tools": "a5527a04",
     "endpoints": "ec55a017",
     "description": "cedc5bcb",
     "tagline": "e7e57a3e"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
   "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
   "snapshots": ["gpt-5.6-luna"]

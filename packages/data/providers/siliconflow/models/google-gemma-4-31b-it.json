@@ -1,0 +1,61 @@
+{
+  "id": "google/gemma-4-31B-it",
+  "name": "gemma-4-31B-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma 4 31B is Google DeepMind's latest open-source model, built on a 31B dense architecture from the same research foundation as Gemini 3.",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE 2.0",
+  "parameters": 31,
+  "active_parameters": 30.7,
+  "page_url": "https://www.siliconflow.com/models/gemma-4-31b-it",
+  "tagline": "Gemma 4 31B is Google DeepMind's latest open-source model, built on a 31B dense architecture from the same research foundation as Gemini 3.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 1,
+    "cached_input": 0.25
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4bac04e1",
+    "family": "811b6704",
+    "description": "64f86500",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "1f8a12d2",
+    "parameters": "c16a5320",
+    "active_parameters": "569bbb8b",
+    "page_url": "2568574b",
+    "tagline": "64f86500",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "ae708406",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

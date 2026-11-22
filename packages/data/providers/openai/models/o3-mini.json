@@ -3,10 +3,10 @@
   "name": "o3-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o3",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -20,9 +20,9 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false,
     "batch": true
   },
@@ -50,20 +50,14 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "file_search",
-    "code_interpreter",
-    "mcp",
-    "image_generation"
-  ],
+  "tools": ["function_calling", "code_interpreter", "image_generation"],
   "endpoints": ["chat_completions", "responses", "assistants", "batch"],
   "snapshots": ["o3-mini-2025-01-31"],
   "_generated": {
     "name": "7ea41c2f",
     "family": "193049bc",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -73,20 +67,22 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "b94a0450",
-    "capabilities": "6295d8b9",
+    "capabilities": "d9c17bc0",
     "modalities": "68e53d93",
     "pricing": "77b314da",
-    "tools": "595857a9",
+    "tools": "0d7d5a6c",
     "endpoints": "1c48b50a",
     "license": "9186c466",
     "page_url": "065f89cd",
     "open_weight": "68934a3e",
     "release_date": "8e2cb9dd",
-    "retirement_date": "68185e3b"
+    "retirement_date": "68185e3b",
+    "deprecation_date": "c48b287d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3-mini",
   "open_weight": false,
   "release_date": "2025-01-31",
-  "retirement_date": "2026-10-23"
+  "retirement_date": "2026-10-23",
+  "deprecation_date": "2026-04-22"
 }

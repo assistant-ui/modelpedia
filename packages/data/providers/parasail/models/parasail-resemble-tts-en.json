@@ -1,0 +1,43 @@
+{
+  "id": "parasail-resemble-tts-en",
+  "name": "Resemble TTS (English)",
+  "created_by": "resemble",
+  "source": "official",
+  "description": "High-quality text-to-speech model with natural-sounding English voices.",
+  "status": "active",
+  "release_date": "2026-04",
+  "model_type": "chat",
+  "license": "Commercial",
+  "page_url": "https://www.parasail.io/models/resemble-tts-en",
+  "tagline": "High-quality text-to-speech model with natural-sounding English voices.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 18.5
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "3baf4316",
+    "description": "40e2eb52",
+    "status": "379ac110",
+    "release_date": "58654c5c",
+    "model_type": "d669f408",
+    "license": "c132fc28",
+    "page_url": "ce8bff0b",
+    "tagline": "40e2eb52",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "28a7d523",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

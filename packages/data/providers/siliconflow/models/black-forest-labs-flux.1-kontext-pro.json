@@ -1,0 +1,47 @@
+{
+  "id": "black-forest-labs/FLUX.1-Kontext-pro",
+  "name": "FLUX.1 Kontext [pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX.1 Kontext Pro is an advanced image generation and editing model that supports both natural language prompts and reference images.",
+  "status": "active",
+  "release_date": "2025-07-11",
+  "model_type": "image",
+  "parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/flux-1-kontext-pro",
+  "tagline": "FLUX.1 Kontext Pro is an advanced image generation and editing model that supports both natural language prompts and reference images.",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.04]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "861a25f0",
+    "description": "b0eb1560",
+    "status": "379ac110",
+    "release_date": "c4808e8f",
+    "model_type": "db8857fe",
+    "parameters": "c20ad4d7",
+    "page_url": "983c1c07",
+    "tagline": "b0eb1560",
+    "modalities": "bbf9b8bb",
+    "pricing": "e0fcdb86",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

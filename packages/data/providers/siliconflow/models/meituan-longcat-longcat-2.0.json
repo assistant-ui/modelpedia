@@ -1,0 +1,58 @@
+{
+  "id": "meituan-longcat/LongCat-2.0",
+  "name": "LongCat-2.0",
+  "created_by": "meituan-longcat",
+  "source": "official",
+  "description": "LongCat-2.0 is a high-performance foundation model designed for agentic workloads.",
+  "status": "active",
+  "release_date": "2026-06-30",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 1600,
+  "active_parameters": 48,
+  "page_url": "https://www.siliconflow.com/models/longcat-2-0",
+  "tagline": "LongCat-2.0 is a high-performance foundation model designed for agentic workloads.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 2.95,
+    "cached_input": 0.015
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2ed60808",
+    "description": "0c12f5fc",
+    "status": "379ac110",
+    "release_date": "ebf8cb32",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "9e984c10",
+    "active_parameters": "642e92ef",
+    "page_url": "9b95fe22",
+    "tagline": "0c12f5fc",
+    "capabilities": "322221af",
+    "modalities": "68e53d93",
+    "pricing": "d8c5e95c",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

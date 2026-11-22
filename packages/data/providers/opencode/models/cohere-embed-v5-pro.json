@@ -1,6 +1,6 @@
 {
   "id": "cohere-embed-v5-pro",
-  "name": "cohere-embed-v5-pro",
+  "name": "Embed 5 Pro",
   "created_by": "unknown",
   "source": "official",
   "status": "active",
@@ -9,10 +9,10 @@
     "streaming": true
   },
   "_generated": {
-    "name": "562ba0fb",
+    "name": "c500d7d1",
     "status": "379ac110",
     "model_type": "764cb3de",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-11-21"
+  "last_updated": "2026-11-22"
 }

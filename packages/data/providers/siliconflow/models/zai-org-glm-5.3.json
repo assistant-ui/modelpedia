@@ -1,0 +1,53 @@
+{
+  "id": "zai-org/GLM-5.3",
+  "name": "GLM-5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.3",
+  "description": "GLM-5.3 is Zhipu AI's flagship language model, featuring a 1M-token context window and 128K max output.",
+  "status": "active",
+  "release_date": "2026-08-21",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "parameters": 744,
+  "page_url": "https://www.siliconflow.com/models/glm-5-3",
+  "tagline": "GLM-5.3 is Zhipu AI's flagship language model, featuring a 1M-token context window and 128K max output.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7fca6967",
+    "family": "7fca6967",
+    "description": "9c904e02",
+    "status": "379ac110",
+    "release_date": "4b63df80",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "parameters": "0537fb40",
+    "page_url": "883d46f0",
+    "tagline": "9c904e02",
+    "capabilities": "f5705964",
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

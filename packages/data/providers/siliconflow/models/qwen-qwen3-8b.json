@@ -1,0 +1,56 @@
+{
+  "id": "Qwen/Qwen3-8B",
+  "name": "Qwen3-8B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-8B is the latest large language model in the Qwen series with 8.2B parameters.",
+  "status": "active",
+  "release_date": "2025-04-30",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 8,
+  "page_url": "https://www.siliconflow.com/models/qwen3-8b",
+  "tagline": "Qwen3-8B is the latest large language model in the Qwen series with 8.2B parameters.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.06
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2d595bc5",
+    "description": "b5de9d0a",
+    "status": "379ac110",
+    "release_date": "6997487e",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "c9f0f895",
+    "page_url": "536d569b",
+    "tagline": "b5de9d0a",
+    "capabilities": "467329b3",
+    "modalities": "68e53d93",
+    "pricing": "15a2ea5b",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

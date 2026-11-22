@@ -3,7 +3,7 @@
   "name": "Recraft V4 Pro Vector",
   "created_by": "recraft",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-22",
   "family": "recraft-v4",
   "description": "Top-tier vector model in the V4 family for production-ready SVG illustrations.",
   "tagline": "Top-tier Recraft V4 vector model.",
@@ -17,5 +17,35 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "pricing_notes": ["$0.30 per image (300 API units)."]
+  "pricing_notes": ["$0.30 per image (300 API units)."],
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.3]
+          }
+        ]
+      }
+    ]
+  },
+  "_generated": {
+    "name": "8de831ad",
+    "family": "27eb0fd1",
+    "description": "6fa47972",
+    "tagline": "fcb99cd2",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "release_date": "9f9b3d52",
+    "open_weight": "68934a3e",
+    "license": "9186c466",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "7cce1b2a",
+    "pricing": "30982223"
+  }
 }

@@ -4,13 +4,13 @@
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.1",
-  "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+  "description": "Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
   "status": "active",
   "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-lite",
   "model_type": "chat",
   "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
   "capabilities": {
@@ -24,7 +24,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "pricing": {
     "input": 0.25,
@@ -56,21 +56,21 @@
   "_generated": {
     "name": "d9e5c54d",
     "family": "ea4a1a23",
-    "description": "0a7f497d",
+    "description": "ddbf1948",
     "status": "379ac110",
     "knowledge_cutoff": "3f358a56",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
-    "page_url": "9f247c3a",
+    "page_url": "7361c301",
     "model_type": "d669f408",
     "tagline": "11585d0a",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "c569b149",
     "pricing": "d85b4afa",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-11-22"
 }

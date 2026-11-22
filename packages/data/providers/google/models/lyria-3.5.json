@@ -6,7 +6,7 @@
   "status": "active",
   "context_window": 131072,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+  "page_url": "https://aistudio.google.com/docs/models/lyria-3.5",
   "model_type": "tts",
   "capabilities": {
     "streaming": true,
@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["audio"]
+    "input": ["text", "image"],
+    "output": ["text", "audio"]
   },
   "open_weight": false,
   "tools": ["function_calling"],
@@ -29,13 +29,17 @@
     "status": "379ac110",
     "context_window": "f7de594e",
     "license": "9186c466",
-    "page_url": "513a767f",
+    "page_url": "71c477a5",
     "model_type": "4e16a2cf",
     "capabilities": "fdff467b",
-    "modalities": "601e776d",
+    "modalities": "cc48d9a5",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "5d024b51",
+    "tagline": "2d10a322"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-11-22",
+  "description": "Lyria 3.5 is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 44.1 kHz stereo audio from text prompts or image inputs.",
+  "tagline": "Lyria 3.5 is Google's flagship music generation model."
 }

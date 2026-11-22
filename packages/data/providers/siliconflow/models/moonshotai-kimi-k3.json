@@ -1,0 +1,61 @@
+{
+  "id": "moonshotai/Kimi-K3",
+  "name": "Kimi-K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "Kimi-K3",
+  "description": "Kimi K3 is Kimi’s most capable model to date, featuring 2.8 trillion parameters.",
+  "status": "active",
+  "release_date": "2026-07-16",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "KIMI K3 LICENSE",
+  "parameters": 2800,
+  "active_parameters": 104,
+  "page_url": "https://www.siliconflow.com/models/kimi-k3",
+  "tagline": "Kimi K3 is Kimi’s most capable model to date, featuring 2.8 trillion parameters.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.7,
+    "output": 13.5,
+    "cached_input": 0.27
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "851ed684",
+    "family": "851ed684",
+    "description": "2fbacf13",
+    "status": "379ac110",
+    "release_date": "67357290",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "5feec57d",
+    "parameters": "0fc170ec",
+    "active_parameters": "c9e1074f",
+    "page_url": "5b303e95",
+    "tagline": "2fbacf13",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "2def4735",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

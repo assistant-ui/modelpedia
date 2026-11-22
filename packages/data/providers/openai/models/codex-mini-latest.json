@@ -3,10 +3,10 @@
   "name": "codex-mini-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "codex",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -17,11 +17,11 @@
   "tagline": "Fast reasoning model optimized for the Codex CLI",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false
   },
   "modalities": {
@@ -52,7 +52,7 @@
     "name": "c991c10c",
     "family": "97c0ee50",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -61,7 +61,7 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "6d7373b5",
-    "capabilities": "07de7920",
+    "capabilities": "61217667",
     "modalities": "6399757e",
     "pricing": "d90562d8",
     "endpoints": "acb164ea",
@@ -70,12 +70,14 @@
     "page_url": "a88aef49",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "retirement_date": "4c1b6684"
+    "retirement_date": "4c1b6684",
+    "deprecation_date": "d3ee3150"
   },
   "model_type": "code",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/codex-mini-latest",
   "open_weight": false,
   "tools": ["function_calling"],
-  "retirement_date": "2026-02-12"
+  "retirement_date": "2026-02-12",
+  "deprecation_date": "2025-11-17"
 }

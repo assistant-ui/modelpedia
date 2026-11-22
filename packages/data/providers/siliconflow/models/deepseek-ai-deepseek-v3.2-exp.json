@@ -1,0 +1,57 @@
+{
+  "id": "deepseek-ai/DeepSeek-V3.2-Exp",
+  "name": "DeepSeek-V3.2-Exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V3.2-Exp is an experimental version of DeepSeek model, built on V3.1-Terminus.",
+  "status": "active",
+  "release_date": "2025-10-10",
+  "context_window": 163840,
+  "max_output_tokens": 163840,
+  "model_type": "chat",
+  "license": "MIT LICENSE",
+  "parameters": 671,
+  "active_parameters": 37,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v3-2-exp",
+  "tagline": "DeepSeek-V3.2-Exp is an experimental version of DeepSeek model, built on V3.1-Terminus.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 0.41
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "468157f6",
+    "description": "94061646",
+    "status": "379ac110",
+    "release_date": "60fda614",
+    "context_window": "7edab444",
+    "max_output_tokens": "7edab444",
+    "model_type": "d669f408",
+    "license": "c194895b",
+    "parameters": "5dd9db5e",
+    "active_parameters": "a5bfc9e0",
+    "page_url": "7d496f00",
+    "tagline": "94061646",
+    "capabilities": "322221af",
+    "modalities": "68e53d93",
+    "pricing": "0d7298a4",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "nvidia/nemotron-3-nano-30b-a3b",
+  "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
+  "status": "active",
+  "release_date": "2025-12-14",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "tagline": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.24,
+    "cached_input": 0.012
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "quantization": "fp8",
+  "tokenizer": "Other",
+  "_generated": {
+    "name": "c75ee904",
+    "description": "3ee9613d",
+    "status": "379ac110",
+    "release_date": "9431e0b7",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "tagline": "3ee9613d",
+    "capabilities": "1f11f035",
+    "modalities": "68e53d93",
+    "pricing": "ac55b15b",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e",
+    "quantization": "640679f9",
+    "tokenizer": "51d8121b"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -3,9 +3,9 @@
   "name": "GPT-4o mini TTS",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "tts",
   "performance": 4,
   "speed": 4,
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "ccd986da",
     "family": "15249632",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4e16a2cf",
     "performance": "a87ff679",
     "speed": "a87ff679",
@@ -31,7 +31,9 @@
     "release_date": "56423574",
     "page_url": "35e1f90d",
     "open_weight": "68934a3e",
-    "retirement_date": "cdcb8c77"
+    "retirement_date": "cdcb8c77",
+    "deprecation_date": "00dfb29f",
+    "successor": "d913f5f3"
   },
   "description": "Status: Deprecated",
   "tagline": "Text-to-speech model powered by GPT-4o mini",
@@ -66,5 +68,7 @@
   "release_date": "2025-12-15",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
   "open_weight": false,
-  "retirement_date": "2027-01-06"
+  "retirement_date": "2027-01-06",
+  "deprecation_date": "2026-10-01",
+  "successor": "gpt-realtime-2.1-mini"
 }

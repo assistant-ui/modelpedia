@@ -1,0 +1,53 @@
+{
+  "id": "parasail-gemma-4-26b-a4b-it",
+  "name": "Gemma 4 26B-A4B",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Google’s efficient MoE Gemma model with 4B active parameters.",
+  "status": "active",
+  "release_date": "2026-03",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Gemma License",
+  "parameters": 26,
+  "active_parameters": 4,
+  "page_url": "https://www.parasail.io/models/gemma-4-26b-a4b",
+  "tagline": "Google’s efficient MoE Gemma model with 4B active parameters.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.13,
+    "output": 0.4,
+    "cached_input": 0.05
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1455d5a4",
+    "family": "811b6704",
+    "description": "bb641d5b",
+    "status": "379ac110",
+    "release_date": "f757eba1",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "cc7a2c0f",
+    "parameters": "4e732ced",
+    "active_parameters": "a87ff679",
+    "page_url": "c9fb0dd2",
+    "tagline": "bb641d5b",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "51be3ead",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

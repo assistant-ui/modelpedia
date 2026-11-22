@@ -3,7 +3,7 @@
   "name": "gemini-3-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-22",
   "family": "gemini-3",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -20,7 +20,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "pricing": {
     "input": 0.5,
@@ -56,20 +56,20 @@
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "c569b149",
     "pricing": "9b2e35d6",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "4b25ccad",
+    "page_url": "ecb1cdf7",
     "open_weight": "68934a3e",
     "description": "d6cf669b",
     "tagline": "14732e55"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3-flash-preview",
   "open_weight": false,
   "description": "The best model in the world for multimodal understanding, and our most powerful agentic and vibe-coding model yet, delivering richer visuals and deeper interactivity, all built on a foundation of state-of-the-art reasoning.",
   "tagline": "The best model in the world for multimodal understanding, and our most powerful agentic and vibe-coding model yet, delivering richer visuals and deeper interactivity, all built on a foundation of stat"

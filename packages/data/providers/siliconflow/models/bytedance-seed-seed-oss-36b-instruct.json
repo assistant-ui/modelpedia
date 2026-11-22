@@ -1,0 +1,51 @@
+{
+  "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+  "name": "Seed-OSS-36B-Instruct",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seed-OSS is a series of open-source large language models developed by the ByteDance Seed team, designed for powerful long-context processing, reasoning, agent capabilities, and general-purpose abilities.",
+  "status": "active",
+  "release_date": "2025-09-04",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "parameters": 36,
+  "page_url": "https://www.siliconflow.com/models/seed-oss-36b-instruct",
+  "tagline": "Seed-OSS is a series of open-source large language models developed by the ByteDance Seed team, designed for powerful long-context processing, reasoning, agent capabilities, and general-purpose abilit",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.21,
+    "output": 0.57
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "cea4e590",
+    "description": "de7d6018",
+    "status": "379ac110",
+    "release_date": "d9b57e93",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "parameters": "19ca14e7",
+    "page_url": "a486dd21",
+    "tagline": "78810e26",
+    "capabilities": "275f84ed",
+    "modalities": "68e53d93",
+    "pricing": "2be4e129",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

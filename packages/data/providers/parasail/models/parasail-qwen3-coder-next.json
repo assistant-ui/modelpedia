@@ -1,0 +1,49 @@
+{
+  "id": "parasail-qwen3-coder-next",
+  "name": "Qwen3-Coder-Next",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Code-specialized model with strong fill-in-the-middle and agentic coding support.",
+  "status": "active",
+  "release_date": "2026-05",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "page_url": "https://www.parasail.io/models/qwen3-coder-next",
+  "tagline": "Code-specialized model with strong fill-in-the-middle and agentic coding support.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0.8,
+    "cached_input": 0.07
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "07d147bb",
+    "family": "48c385a0",
+    "description": "80a74582",
+    "status": "379ac110",
+    "release_date": "0580e31b",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "page_url": "269ee880",
+    "tagline": "80a74582",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "8f82c4da",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

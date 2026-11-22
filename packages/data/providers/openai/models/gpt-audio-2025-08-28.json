@@ -3,7 +3,7 @@
   "name": "gpt-audio-2025-08-28",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "gpt-audio",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -17,7 +17,7 @@
   "tagline": "The gpt-audio model is our first generally available audio model.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true,
+    "tool_call": false,
     "vision": false,
     "structured_output": false,
     "json_mode": false,
@@ -33,24 +33,24 @@
     "output": 10,
     "tiers": [
       {
-        "label": "Audio tokens",
+        "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input"],
         "rows": [
           {
             "label": "Standard",
-            "values": [32, null, 64]
+            "values": [2.5, 10, null]
           }
         ]
       },
       {
-        "label": "Text tokens",
+        "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, null, 10]
+            "values": [32, 64, null]
           }
         ]
       }
@@ -69,9 +69,9 @@
     "performance": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "3fd8480f",
-    "capabilities": "e8cba1a0",
+    "capabilities": "f3087c93",
     "modalities": "cf05925d",
-    "pricing": "3f532d4a",
+    "pricing": "a478d77b",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "release_date": "9e3c5ae9",

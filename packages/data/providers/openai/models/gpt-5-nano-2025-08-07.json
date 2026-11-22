@@ -3,7 +3,7 @@
   "name": "gpt-5-nano-2025-08-07",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "gpt-5",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -20,8 +20,8 @@
   "tagline": "GPT-5 Nano is our fastest, cheapest version of GPT-5.",
   "capabilities": {
     "streaming": true,
-    "vision": true,
-    "tool_call": true,
+    "vision": false,
+    "tool_call": false,
     "structured_output": true,
     "reasoning": true,
     "json_mode": true,
@@ -68,7 +68,7 @@
     "reasoning": "c81e728d",
     "speed": "e4da3b7f",
     "tagline": "e8e5c7e3",
-    "capabilities": "6295d8b9",
+    "capabilities": "32409a3b",
     "modalities": "6399757e",
     "pricing": "b494f5cf",
     "endpoints": "ec55a017",
@@ -79,7 +79,7 @@
     "tools": "f0c1dc7e",
     "deprecation_date": "af441ea0",
     "retirement_date": "d0164be5",
-    "successor": "dc307f2f"
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "release_date": "2025-08-07",
@@ -88,5 +88,5 @@
   "tools": ["function_calling"],
   "deprecation_date": "2026-06-11",
   "retirement_date": "2026-12-11",
-  "successor": "gpt-5.6-luna"
+  "successor": "gpt-6-luna"
 }

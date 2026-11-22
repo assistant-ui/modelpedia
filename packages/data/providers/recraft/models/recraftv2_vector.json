@@ -3,7 +3,7 @@
   "name": "Recraft V2 Vector",
   "created_by": "recraft",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-22",
   "family": "recraft-v2",
   "description": "First-generation vector / SVG output model.",
   "tagline": "Legacy Recraft V2 vector.",
@@ -17,5 +17,35 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "pricing_notes": ["$0.044 per image (44 API units)."]
+  "pricing_notes": ["$0.044 per image (44 API units)."],
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.044]
+          }
+        ]
+      }
+    ]
+  },
+  "_generated": {
+    "name": "914f91c7",
+    "family": "4cd1ccf2",
+    "description": "2c8f6fab",
+    "tagline": "fa8660aa",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "release_date": "81370f77",
+    "open_weight": "68934a3e",
+    "license": "9186c466",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "57d81d34",
+    "pricing": "0a6095fe"
+  }
 }

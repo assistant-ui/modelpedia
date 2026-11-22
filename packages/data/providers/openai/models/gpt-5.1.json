@@ -3,10 +3,10 @@
   "name": "GPT-5.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-5.1",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -18,11 +18,11 @@
   "tagline": "The best model for coding and agentic tasks with configurable reasoning effort",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false,
     "batch": true
   },
@@ -50,22 +50,14 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "apply_patch",
-    "mcp"
-  ],
+  "tools": ["function_calling", "file_search", "code_interpreter", "mcp"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5.1-2025-11-13"],
   "_generated": {
     "name": "98d8ee2f",
     "family": "2089aff2",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -75,20 +67,24 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "0adb465b",
-    "capabilities": "6295d8b9",
+    "capabilities": "29ff982c",
     "modalities": "6399757e",
     "pricing": "8a137c04",
-    "tools": "001a5eb1",
+    "tools": "924384e4",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "d43b0cd0",
     "open_weight": "68934a3e",
     "release_date": "c4b1d0fd",
-    "retirement_date": "94273062"
+    "retirement_date": "94273062",
+    "deprecation_date": "00dfb29f",
+    "successor": "5e9d1260"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
   "open_weight": false,
   "release_date": "2025-11-13",
-  "retirement_date": "2027-04-01"
+  "retirement_date": "2027-04-01",
+  "deprecation_date": "2026-10-01",
+  "successor": "gpt-6-sol"
 }

@@ -3,10 +3,10 @@
   "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-5",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-05",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -19,7 +19,7 @@
   "tagline": "Fastest, most cost-efficient version of GPT-5",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
@@ -51,20 +51,14 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "code_interpreter",
-    "mcp"
-  ],
+  "tools": ["function_calling", "file_search", "mcp"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5-nano-2025-08-07"],
   "_generated": {
     "name": "5b55012d",
     "family": "aa904c16",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "1d431428",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -75,20 +69,24 @@
     "reasoning": "c81e728d",
     "speed": "e4da3b7f",
     "tagline": "b641cfdd",
-    "capabilities": "6295d8b9",
+    "capabilities": "00e51f3f",
     "modalities": "6399757e",
     "pricing": "b494f5cf",
-    "tools": "907918a7",
+    "tools": "895d6d67",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "c92fdc64",
     "open_weight": "68934a3e",
     "release_date": "79c30d0c",
-    "retirement_date": "d0164be5"
+    "retirement_date": "d0164be5",
+    "deprecation_date": "af441ea0",
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
   "open_weight": false,
   "release_date": "2025-08-07",
-  "retirement_date": "2026-12-11"
+  "retirement_date": "2026-12-11",
+  "deprecation_date": "2026-06-11",
+  "successor": "gpt-6-luna"
 }

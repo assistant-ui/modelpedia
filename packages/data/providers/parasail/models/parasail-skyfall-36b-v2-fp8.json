@@ -1,0 +1,49 @@
+{
+  "id": "parasail-skyfall-36b-v2-fp8",
+  "name": "Skyfall 36B v2",
+  "created_by": "skyfall",
+  "source": "official",
+  "description": "Fine-tuned model with enhanced instruction-following and creative output.",
+  "status": "active",
+  "release_date": "2025-02",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 36,
+  "page_url": "https://www.parasail.io/models/skyfall-36b-v2",
+  "tagline": "Fine-tuned model with enhanced instruction-following and creative output.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 0.8,
+    "cached_input": 0.25
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "d4d61a77",
+    "description": "6887547b",
+    "status": "379ac110",
+    "release_date": "27b52f8e",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "19ca14e7",
+    "page_url": "0621667f",
+    "tagline": "6887547b",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "c06df71a",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

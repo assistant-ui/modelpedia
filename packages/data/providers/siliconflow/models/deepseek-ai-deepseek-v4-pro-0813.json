@@ -1,0 +1,58 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+  "name": "DeepSeek-V4-Pro-0813",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4-Pro-0813 is the official release of DeepSeek-V4-Pro, superseding the preview version, with greatly enhanced agentic capabilities and performance improvements that are especially pronounced in production environments.",
+  "status": "active",
+  "release_date": "2026-08-14",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 1600,
+  "active_parameters": 49,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v4-pro-0813",
+  "tagline": "DeepSeek-V4-Pro-0813 is the official release of DeepSeek-V4-Pro, superseding the preview version, with greatly enhanced agentic capabilities and performance improvements that are especially pronounced",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.32,
+    "output": 3.96,
+    "cached_input": 0.044
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f03c4f0c",
+    "description": "88142ade",
+    "status": "379ac110",
+    "release_date": "16d713cd",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "9e984c10",
+    "active_parameters": "f457c545",
+    "page_url": "6fa35129",
+    "tagline": "83a70a36",
+    "capabilities": "322221af",
+    "modalities": "68e53d93",
+    "pricing": "488e876f",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

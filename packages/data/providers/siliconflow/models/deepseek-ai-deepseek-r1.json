@@ -1,0 +1,58 @@
+{
+  "id": "deepseek-ai/DeepSeek-R1",
+  "name": "DeepSeek-R1",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-R1-0528 is an upgraded model shows significant improvements in handling complex reasoning tasks，also offers a reduced hallucination rate, enhanced support for function calling, and better experience for vibe coding.",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "context_window": 163840,
+  "max_output_tokens": 163840,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 671,
+  "active_parameters": 37,
+  "page_url": "https://www.siliconflow.com/models/deepseek-r1",
+  "tagline": "DeepSeek-R1-0528 is an upgraded model shows significant improvements in handling complex reasoning tasks，also offers a reduced hallucination rate, enhanced support for function calling, and better exp",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.18
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2baa17f2",
+    "description": "4d95acd7",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "context_window": "7edab444",
+    "max_output_tokens": "7edab444",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "5dd9db5e",
+    "active_parameters": "a5bfc9e0",
+    "page_url": "963698e4",
+    "tagline": "aa771a5e",
+    "capabilities": "467329b3",
+    "modalities": "68e53d93",
+    "pricing": "959e7a4f",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "black-forest-labs/FLUX.1-schnell",
+  "name": "FLUX.1-schnell",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+  "status": "active",
+  "release_date": "2024-08-01",
+  "model_type": "image",
+  "license": "APACHE 2.0",
+  "parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/flux-1-schnell",
+  "tagline": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.0014]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "53156177",
+    "description": "0ad87ef4",
+    "status": "379ac110",
+    "release_date": "d616039b",
+    "model_type": "db8857fe",
+    "license": "1f8a12d2",
+    "parameters": "c20ad4d7",
+    "page_url": "f5281bba",
+    "tagline": "0ad87ef4",
+    "modalities": "814867b9",
+    "pricing": "117f9a3e",
+    "open_weight": "b326b506",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

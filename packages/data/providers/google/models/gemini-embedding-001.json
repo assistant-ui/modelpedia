@@ -3,12 +3,12 @@
   "name": "gemini-embedding-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-11-22",
   "status": "active",
   "context_window": 2048,
   "model_type": "embed",
   "capabilities": {
-    "vision": true
+    "vision": false
   },
   "modalities": {
     "input": ["text"],
@@ -20,16 +20,42 @@
     "status": "379ac110",
     "context_window": "05192834",
     "model_type": "764cb3de",
-    "capabilities": "d3117eb0",
+    "capabilities": "1b098c42",
     "modalities": "68e53d93",
     "endpoints": "20e16908",
     "family": "c3d96d58",
     "license": "9186c466",
-    "page_url": "dc4f1b72",
-    "open_weight": "68934a3e"
+    "page_url": "b21df17e",
+    "open_weight": "68934a3e",
+    "description": "53094b48",
+    "tagline": "96f9c38c",
+    "pricing": "152e8892"
   },
   "family": "gemini-embedding",
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
-  "open_weight": false
+  "page_url": "https://aistudio.google.com/docs/models/gemini-embedding-001",
+  "open_weight": false,
+  "description": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images. The Gemini Embedding model is best for semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large datasets.",
+  "tagline": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images.",
+  "pricing": {
+    "input": 0.15,
+    "batch_input": 0.075,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.15, null, null]
+          },
+          {
+            "label": "Batch",
+            "values": [0.075, null, null]
+          }
+        ]
+      }
+    ]
+  }
 }

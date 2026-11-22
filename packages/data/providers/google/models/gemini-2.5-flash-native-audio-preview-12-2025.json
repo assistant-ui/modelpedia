@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-native-audio-preview-12-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -15,12 +15,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "video", "audio"],
+    "output": ["text", "audio"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -31,21 +31,39 @@
     "knowledge_cutoff": "3f358a56",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
-    "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "capabilities": "47f1f394",
+    "modalities": "f71c91ca",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "747b60f8",
+    "page_url": "dbd7491f",
     "open_weight": "68934a3e",
     "description": "a9e836f5",
-    "tagline": "e7ba59e3"
+    "tagline": "e7ba59e3",
+    "pricing": "bc273966"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
   "open_weight": false,
   "description": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses, creating a natural conversational experience for your users.",
-  "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash."
+  "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash.",
+  "pricing": {
+    "input": 0.5,
+    "output": 2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.5, null, 2]
+          }
+        ]
+      }
+    ]
+  }
 }

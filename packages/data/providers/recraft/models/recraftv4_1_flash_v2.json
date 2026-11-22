@@ -1,0 +1,51 @@
+{
+  "id": "recraftv4_1_flash_v2",
+  "name": "Recraft V4.1 Flash V2",
+  "created_by": "recraft",
+  "source": "official",
+  "family": "recraft-v4-1",
+  "description": "Recraft V4.1 Flash V2 image generation model in the Recraft API.",
+  "status": "active",
+  "release_date": "2026-11-01",
+  "model_type": "image",
+  "license": "proprietary",
+  "tagline": "Recraft V4.1 Flash V2.",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.007]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.007 per image (7 API units)."],
+  "_generated": {
+    "name": "678e8b00",
+    "family": "b59eda22",
+    "description": "e426fc78",
+    "status": "379ac110",
+    "release_date": "1bc2f8a5",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "tagline": "29b2faef",
+    "open_weight": "68934a3e",
+    "modalities": "814867b9",
+    "pricing": "cb4a65ab",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "4f8141de"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -3,11 +3,11 @@
   "name": "gemini-2.5-pro-preview-03-25",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "deprecated",
   "deprecation_date": "2025-12-02",
-  "successor": "gemini-3.1-pro-preview",
+  "successor": "gemini-3.8-flash",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -21,7 +21,7 @@
     "family": "ea6b88bf",
     "status": "2e2f74dc",
     "deprecation_date": "75f289bd",
-    "successor": "cd1b7cdc",
+    "successor": "f20d4dae",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "model_type": "d669f408",

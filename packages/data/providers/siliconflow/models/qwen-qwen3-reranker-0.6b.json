@@ -1,0 +1,43 @@
+{
+  "id": "Qwen/Qwen3-Reranker-0.6B",
+  "name": "Qwen3-Reranker-0.6B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-Reranker-0.6B is a text reranking model from the Qwen3 series.",
+  "status": "active",
+  "release_date": "2025-06-06",
+  "context_window": 32768,
+  "model_type": "rerank",
+  "license": "APACHE-2.0",
+  "parameters": 1,
+  "active_parameters": 0.6,
+  "page_url": "https://www.siliconflow.com/models/qwen3-reranker-0-6b",
+  "tagline": "Qwen3-Reranker-0.6B is a text reranking model from the Qwen3 series.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.01
+  },
+  "open_weight": true,
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "cce9017d",
+    "description": "69721df2",
+    "status": "379ac110",
+    "release_date": "a78dab25",
+    "context_window": "f4376436",
+    "model_type": "477930e6",
+    "license": "98ac2124",
+    "parameters": "c4ca4238",
+    "active_parameters": "e95e1ca2",
+    "page_url": "1e71204d",
+    "tagline": "69721df2",
+    "modalities": "68e53d93",
+    "pricing": "76411944",
+    "open_weight": "b326b506",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-11-22"
+}

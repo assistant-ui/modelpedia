@@ -1,0 +1,51 @@
+{
+  "id": "black-forest-labs/FLUX.2-flex",
+  "name": "FLUX.2 [flex]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX.2 Flex is a versatile, parameter-tunable image generation and editing model that inherits the technical advantages of the FLUX.2 series, supporting natural language prompts, multi-reference image input, and granular parameter adjustments.",
+  "status": "active",
+  "release_date": "2025-12-11",
+  "model_type": "image",
+  "license": "32B",
+  "parameters": 32,
+  "page_url": "https://www.siliconflow.com/models/flux-2-flex",
+  "tagline": "FLUX.2 Flex is a versatile, parameter-tunable image generation and editing model that inherits the technical advantages of the FLUX.2 series, supporting natural language prompts, multi-reference image",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.06]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "3e18c882",
+    "description": "93dfe6f7",
+    "status": "379ac110",
+    "release_date": "26371115",
+    "model_type": "db8857fe",
+    "license": "250e9eb0",
+    "parameters": "6364d3f0",
+    "page_url": "3f2a6069",
+    "tagline": "5495169f",
+    "modalities": "814867b9",
+    "pricing": "b75014d0",
+    "open_weight": "b326b506",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

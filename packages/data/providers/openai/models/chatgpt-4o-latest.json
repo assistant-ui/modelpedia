@@ -3,10 +3,10 @@
   "name": "ChatGPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "chatgpt",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -50,7 +50,7 @@
     "name": "bb28e3cf",
     "family": "65aec523",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -65,10 +65,12 @@
     "license": "9186c466",
     "page_url": "d7008092",
     "open_weight": "68934a3e",
-    "retirement_date": "c2ea1a8b"
+    "retirement_date": "c2ea1a8b",
+    "deprecation_date": "10547878"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/chatgpt-4o-latest",
   "open_weight": false,
-  "retirement_date": "2026-02-17"
+  "retirement_date": "2026-02-17",
+  "deprecation_date": "2025-11-18"
 }

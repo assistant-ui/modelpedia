@@ -1,0 +1,51 @@
+{
+  "id": "parasail-mistral-small-32-24b",
+  "name": "Mistral Small 3.2 24B",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-small",
+  "description": "Mistral’s efficient model — excellent for high-volume, latency-sensitive workloads.",
+  "status": "active",
+  "release_date": "2026-03",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 24,
+  "page_url": "https://www.parasail.io/models/mistral-small-32",
+  "tagline": "Mistral’s efficient model — excellent for high-volume, latency-sensitive workloads.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.3,
+    "cached_input": 0.05
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "e00c569b",
+    "family": "275918a5",
+    "description": "4ac9eccf",
+    "status": "379ac110",
+    "release_date": "f757eba1",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "1ff1de77",
+    "page_url": "dc3960a0",
+    "tagline": "4ac9eccf",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "37742654",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

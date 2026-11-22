@@ -3,7 +3,7 @@
   "name": "gemini-robotics-er-1.5-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-22",
   "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -30,7 +30,7 @@
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "6399757e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "family": "f1d42d7a",

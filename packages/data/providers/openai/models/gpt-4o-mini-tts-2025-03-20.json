@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-tts-2025-03-20",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "status": "deprecated",
   "model_type": "tts",
@@ -26,7 +26,7 @@
     "endpoints": "1d7fad2a",
     "description": "5344a855",
     "tagline": "defab719",
-    "pricing": "8c5b89f0",
+    "pricing": "2935d710",
     "license": "9186c466",
     "release_date": "c68d2cee",
     "page_url": "b9126957",
@@ -40,17 +40,6 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Audio tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [null, null, 12]
-          }
-        ]
-      },
-      {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -58,6 +47,17 @@
           {
             "label": "Standard",
             "values": [0.6, null, null]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Output", "Input", "Cached input"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [12, null, null]
           }
         ]
       }

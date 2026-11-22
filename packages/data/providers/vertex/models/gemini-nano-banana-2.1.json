@@ -3,7 +3,7 @@
   "name": "gemini-nano-banana-2.1",
   "created_by": "google",
   "source": "official",
-  "description": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). Key updates: Improved visual quality and realism across 1K , 2K , and 4K output resolutions (default 1K ) Fixed tiling artifacts on wide and panoramic aspect ratios ( 1:4 , 4:1 , 1:8 , 8:1 ) at 2K and 4K resolutions Enhanced text rendering and infographic layout accuracy Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) Grounding with Google Web and Image Search Configurable Thinking levels ( minimal , medium default, and high )",
+  "description": "**Gemini Nano Banana 2.1** (`gemini-nano-banana-2.1`) is the latest high-efficiency image generation and conversational editing model. An update to Nano Banana 2 (Gemini 3.1 Flash Image), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). * Improved visual quality and realism across `1K`, `2K`, and `4K` output resolutions (default `1K`) * Fixed tiling artifacts on wide and panoramic aspect ratios (`1:4`, `4:1`, `1:8`, `8:1`) at `2K` and `4K` resolutions * Enhanced text rendering and infographic layout accuracy * Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) * Grounding with Google Web and Image Search * Configurable Thinking levels (`minimal`, `medium` default, and `high`)",
   "status": "active",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -21,14 +21,14 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "image", "video"],
+    "output": ["text", "image"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "061ea1f0",
-    "description": "3b93531d",
+    "description": "2a6b0e6e",
     "status": "379ac110",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
@@ -37,9 +37,38 @@
     "tagline": "ac2d886a",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "78793ec0",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "pricing": "4cd13113"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-11-22",
+  "pricing": {
+    "input": 1.5,
+    "output": 7.5,
+    "cached_input": 0.15,
+    "batch_input": 0.75,
+    "batch_output": 3.75,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.5, 0.15, 7.5]
+          },
+          {
+            "label": "Priority",
+            "values": [2.7, 0.27, 13.5]
+          },
+          {
+            "label": "Flex",
+            "values": [0.75, 0.075, 3.75]
+          }
+        ]
+      }
+    ]
+  }
 }

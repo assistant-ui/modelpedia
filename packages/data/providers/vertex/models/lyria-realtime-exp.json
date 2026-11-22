@@ -3,7 +3,7 @@
   "name": "lyria-realtime-exp",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-11-22",
   "status": "active",
   "model_type": "tts",
   "capabilities": {
@@ -12,7 +12,7 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
@@ -25,13 +25,17 @@
     "name": "43fb9577",
     "status": "379ac110",
     "model_type": "4e16a2cf",
-    "capabilities": "fdff467b",
+    "capabilities": "47f1f394",
     "modalities": "601e776d",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "f5b1a1b5",
+    "tagline": "2c5b2556"
   },
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "An experimental engine for high-fidelity musical synthesis, offering innovative capabilities for generating and transforming audio content. Lyria RealTime is best for AI-assisted songwriting, unique instrumental generation, and creative audio workflows that require deep control over melody and rhythm, with no vocals.",
+  "tagline": "An experimental engine for high-fidelity musical synthesis, offering innovative capabilities for generating and transforming audio content."
 }

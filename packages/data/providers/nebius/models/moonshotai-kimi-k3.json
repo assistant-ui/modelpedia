@@ -1,0 +1,54 @@
+{
+  "id": "moonshotai/kimi-k3",
+  "name": "MoonshotAI: Kimi K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI.",
+  "status": "active",
+  "release_date": "2026-07-16",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "quantization": "fp4",
+  "tokenizer": "Other",
+  "_generated": {
+    "name": "b67ce54b",
+    "family": "73e8093c",
+    "description": "5d80507d",
+    "status": "379ac110",
+    "release_date": "67357290",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "5d80507d",
+    "capabilities": "0ad0e480",
+    "modalities": "3ad4060a",
+    "pricing": "0deaf3da",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e",
+    "quantization": "0e8a48ee",
+    "tokenizer": "51d8121b"
+  },
+  "last_updated": "2026-11-22"
+}

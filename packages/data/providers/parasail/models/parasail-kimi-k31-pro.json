@@ -1,0 +1,49 @@
+{
+  "id": "parasail-kimi-k31-pro",
+  "name": "Kimi K3.1 Pro",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k31",
+  "description": "Moonshot's most capable 3T-class open-weight model — natively multimodal and agentic, post-trained from Kimi K3 with large-scale joint reinforcement learning.",
+  "status": "active",
+  "release_date": "2026-11",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "Kimi K3.1 Pro License",
+  "page_url": "https://www.parasail.io/models/kimi-k31-pro",
+  "tagline": "Moonshot's most capable 3T-class open-weight model — natively multimodal and agentic, post-trained from Kimi K3 with large-scale joint reinforcement learning.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.2
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1515394b",
+    "family": "57cba0b8",
+    "description": "147cce78",
+    "status": "379ac110",
+    "release_date": "c339dc02",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "5de13b45",
+    "page_url": "75307dcb",
+    "tagline": "147cce78",
+    "capabilities": "944b5fe5",
+    "modalities": "6399757e",
+    "pricing": "76ce7a5a",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

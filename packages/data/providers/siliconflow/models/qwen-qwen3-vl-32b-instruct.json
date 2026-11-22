@@ -1,0 +1,55 @@
+{
+  "id": "Qwen/Qwen3-VL-32B-Instruct",
+  "name": "Qwen3-VL-32B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-VL is the vision-language model in the Qwen3 series, achieving state-of-the-art(SOTA)performance on various vision-language(VL)benchmarks.",
+  "status": "active",
+  "release_date": "2025-10-21",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 32,
+  "page_url": "https://www.siliconflow.com/models/qwen3-vl-32b-instruct",
+  "tagline": "Qwen3-VL is the vision-language model in the Qwen3 series, achieving state-of-the-art(SOTA)performance on various vision-language(VL)benchmarks.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9aa76125",
+    "description": "3ebc11bc",
+    "status": "379ac110",
+    "release_date": "323f34c9",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "6364d3f0",
+    "page_url": "85d5ec9a",
+    "tagline": "3ebc11bc",
+    "capabilities": "28d6d4bb",
+    "modalities": "6399757e",
+    "pricing": "d6e0ad87",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "parasail-gpt-oss-20b",
+  "name": "gpt-oss-20b",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "description": "Compact open-weight model from OpenAI — ultra-cheap, fits on a single GPU.",
+  "status": "active",
+  "release_date": "2025-08",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 20,
+  "page_url": "https://www.parasail.io/models/gpt-oss-20b",
+  "tagline": "Compact open-weight model from OpenAI — ultra-cheap, fits on a single GPU.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.2,
+    "cached_input": 0.02
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "0f95b22f",
+    "family": "82d0cb0b",
+    "description": "dccfcab5",
+    "status": "379ac110",
+    "release_date": "5549a2cd",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "98f13708",
+    "page_url": "8fbef416",
+    "tagline": "dccfcab5",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "a3d4dc09",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

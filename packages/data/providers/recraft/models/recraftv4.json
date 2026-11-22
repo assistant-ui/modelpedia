@@ -3,7 +3,7 @@
   "name": "Recraft V4",
   "created_by": "recraft",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-11-22",
   "family": "recraft-v4",
   "description": "Latest Recraft raster model with strong design sensibility, readable text, and consistent composition. Default model in the API.",
   "tagline": "Design-forward raster image model.",
@@ -30,6 +30,22 @@
     "license": "9186c466",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "pricing_notes": "c16448d2"
+    "pricing_notes": "c16448d2",
+    "pricing": "e0fcdb86"
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.04]
+          }
+        ]
+      }
+    ]
   }
 }

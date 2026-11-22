@@ -1,0 +1,51 @@
+{
+  "id": "recraftv4_1",
+  "name": "Recraft V4.1",
+  "created_by": "recraft",
+  "source": "official",
+  "family": "recraft-v4-1",
+  "description": "Recraft V4.1 image generation model in the Recraft API.",
+  "status": "active",
+  "release_date": "2026-05-01",
+  "model_type": "image",
+  "license": "proprietary",
+  "tagline": "Recraft V4.1.",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.035]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.035 per image (35 API units)."],
+  "_generated": {
+    "name": "b7c667c6",
+    "family": "b59eda22",
+    "description": "e0082d9e",
+    "status": "379ac110",
+    "release_date": "d013c22f",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "tagline": "743dca99",
+    "open_weight": "68934a3e",
+    "modalities": "bbf9b8bb",
+    "pricing": "084b2649",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "aa2d098c"
+  },
+  "last_updated": "2026-11-22"
+}

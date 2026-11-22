@@ -1,6 +1,6 @@
 {
   "id": "bge-m3",
-  "name": "bge-m3",
+  "name": "BGE M3",
   "created_by": "unknown",
   "source": "official",
   "status": "active",
@@ -8,9 +8,9 @@
     "streaming": true
   },
   "_generated": {
-    "name": "9815efb3",
+    "name": "68ce0d99",
     "status": "379ac110",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-11-21"
+  "last_updated": "2026-11-22"
 }

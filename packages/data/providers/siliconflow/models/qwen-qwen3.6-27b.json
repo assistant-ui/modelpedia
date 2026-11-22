@@ -1,0 +1,56 @@
+{
+  "id": "Qwen/Qwen3.6-27B",
+  "name": "Qwen3.6-27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3.6-27B is the first open-weight small-to-mid-sized dense model in the Qwen3.6 series, with targeted improvements for code generation, agent workflows, and real-world development tasks.",
+  "status": "active",
+  "release_date": "2026-05-09",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 27,
+  "page_url": "https://www.siliconflow.com/models/qwen3-6-27b",
+  "tagline": "Qwen3.6-27B is the first open-weight small-to-mid-sized dense model in the Qwen3.6 series, with targeted improvements for code generation, agent workflows, and real-world development tasks.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 3.2
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "be2cc8a3",
+    "description": "4e68e978",
+    "status": "379ac110",
+    "release_date": "cbbd402f",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "02e74f10",
+    "page_url": "e4a86e55",
+    "tagline": "4e68e978",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "78f760f0",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

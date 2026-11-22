@@ -21,8 +21,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -67,7 +67,7 @@
     "speed": "a87ff679",
     "page_url": "b40e1816",
     "open_weight": "68934a3e",
-    "capabilities": "822aa4d1",
+    "capabilities": "36380241",
     "modalities": "6399757e",
     "pricing": "3a948f60",
     "tools": "f0c1dc7e",
@@ -75,7 +75,7 @@
     "description": "81f7fa95",
     "tagline": "dfc5d86b"
   },
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-22",
   "description": "An alias for our most advanced purpose-trained cybersecurity models, for approved defenders conducting advanced, authorized vulnerability research, exploit validation, and security testing.",
   "alias": "gpt-daybreak-red-latest",
   "tagline": "Our most advanced cybersecurity model for authorized vulnerability research and security testing.",

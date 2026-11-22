@@ -3,10 +3,10 @@
   "name": "o1-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o1",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -49,14 +49,14 @@
       }
     ]
   },
-  "tools": ["function_calling", "file_search", "mcp"],
+  "tools": ["function_calling", "mcp"],
   "endpoints": ["responses", "batch"],
   "snapshots": ["o1-pro-2025-03-19"],
   "_generated": {
     "name": "76a0c706",
     "family": "e1ab0820",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -69,17 +69,19 @@
     "capabilities": "91876c96",
     "modalities": "6399757e",
     "pricing": "3849ae73",
-    "tools": "895d6d67",
+    "tools": "e1290f95",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "page_url": "13d1c6da",
     "open_weight": "68934a3e",
     "release_date": "2df47595",
-    "retirement_date": "68185e3b"
+    "retirement_date": "68185e3b",
+    "deprecation_date": "c48b287d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o1-pro",
   "open_weight": false,
   "release_date": "2025-03-19",
-  "retirement_date": "2026-10-23"
+  "retirement_date": "2026-10-23",
+  "deprecation_date": "2026-04-22"
 }

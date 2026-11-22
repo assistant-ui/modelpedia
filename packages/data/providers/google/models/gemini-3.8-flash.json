@@ -8,7 +8,7 @@
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-flash",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -21,7 +21,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "pricing": {
     "input": 0.75,
@@ -57,14 +57,18 @@
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
-    "page_url": "e44a2635",
+    "page_url": "843b2906",
     "model_type": "d669f408",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "c569b149",
     "pricing": "135ec167",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "cbbb476e",
+    "tagline": "31d9f568"
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+  "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl"
 }

@@ -1,0 +1,59 @@
+{
+  "id": "Qwen/Qwen3.6-35B-A3B",
+  "name": "Qwen3.6-35B-A3B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3.6-35B-A3B is a large language model from Alibaba's Qwen3.6 series, featuring a Mixture of Experts (MoE) architecture with 35 billion total parameters and approximately 3 billion active parameters per inference, delivering strong performance with efficient compute utilization.",
+  "status": "active",
+  "release_date": "2026-05-09",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 35,
+  "active_parameters": 3,
+  "page_url": "https://www.siliconflow.com/models/qwen3-6-35b-a3b",
+  "tagline": "Qwen3.6-35B-A3B is a large language model from Alibaba's Qwen3.6 series, featuring a Mixture of Experts (MoE) architecture with 35 billion total parameters and approximately 3 billion active parameter",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.24,
+    "output": 1.8,
+    "cached_input": 0.15
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "31e51c67",
+    "description": "d5096655",
+    "status": "379ac110",
+    "release_date": "cbbd402f",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "page_url": "df0160c1",
+    "tagline": "e0c33bf8",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "f4a3c6ce",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

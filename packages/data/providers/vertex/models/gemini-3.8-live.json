@@ -20,8 +20,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "image", "audio"],
+    "output": ["text", "audio"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -35,9 +35,13 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
+    "modalities": "d78a8420",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "c7cdde28",
+    "tagline": "6890f863"
   },
-  "last_updated": "2026-09-16"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays. It supports interleaved reasoning, asynchronous and synchronous function calling, full-session client content updates, and built-in proactive audio. For complex agentic tasks requiring multi-step reasoning and configurable thinking budgets, see Gemini 3.8 Live Extended Thinking.",
+  "tagline": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays."
 }

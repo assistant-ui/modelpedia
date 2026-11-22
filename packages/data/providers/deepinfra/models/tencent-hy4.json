@@ -1,0 +1,50 @@
+{
+  "id": "tencent/Hy4",
+  "name": "Hy4",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy4 is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token, a 1M-token context window and image understanding. It uses Gated DeepSeek Sparse Attention with IndexCache, and improves on Hy4 preview in instruction following, long-context reasoning, long-horizon agentic tasks, computer use, coding and deep research.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Hy4 is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token, a 1M-token context window and image understanding.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.834,
+    "output": 2.501,
+    "cached_input": 0.042
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "ccf5827c",
+    "description": "bea09bff",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "b6956ee0",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "46ee453c",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "parasail-skyfall-31b-v42",
+  "name": "Skyfall 31B v4.2",
+  "created_by": "skyfall",
+  "source": "official",
+  "description": "Fine-tuned model optimized for creative writing and conversational tasks.",
+  "status": "active",
+  "release_date": "2026-02",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 31,
+  "page_url": "https://www.parasail.io/models/skyfall-31b-v42",
+  "tagline": "Fine-tuned model optimized for creative writing and conversational tasks.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 0.8,
+    "cached_input": 0.25
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "19941ca1",
+    "description": "7afba67f",
+    "status": "379ac110",
+    "release_date": "911f4737",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "c16a5320",
+    "page_url": "e533601b",
+    "tagline": "7afba67f",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "c06df71a",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

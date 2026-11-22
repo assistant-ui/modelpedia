@@ -42,9 +42,9 @@
     "pricing": "eb961e11",
     "open_weight": "68934a3e",
     "deprecation_date": "59575a1a",
-    "successor": "77f576ba"
+    "successor": "18025669"
   },
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-11-22",
   "deprecation_date": "2026-10-22",
-  "successor": "gemini-omni-1.1-flash"
+  "successor": "gemini-omni-1.2-flash"
 }

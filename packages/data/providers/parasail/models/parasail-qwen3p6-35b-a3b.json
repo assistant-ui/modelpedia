@@ -1,0 +1,53 @@
+{
+  "id": "parasail-qwen3p6-35b-a3b",
+  "name": "Qwen3.6 35B-A3B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen36",
+  "description": "Efficient MoE model with 3B active parameters — great price-to-performance.",
+  "status": "active",
+  "release_date": "2026-06",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "parameters": 35,
+  "active_parameters": 3,
+  "page_url": "https://www.parasail.io/models/qwen36-35b-a3b",
+  "tagline": "Efficient MoE model with 3B active parameters — great price-to-performance.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1,
+    "cached_input": 0.05
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "4f90b90c",
+    "family": "7aa23164",
+    "description": "5a7c3fd7",
+    "status": "379ac110",
+    "release_date": "cb890cbe",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "page_url": "dbab04a5",
+    "tagline": "5a7c3fd7",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "5b28f745",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "zai-org/GLM-5.1",
+  "name": "GLM-5.1",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.1",
+  "description": "GLM-5.1 is Z.ai's next-generation flagship model built for agentic engineering.",
+  "status": "active",
+  "release_date": "2026-04-03",
+  "context_window": 204800,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 744,
+  "page_url": "https://www.siliconflow.com/models/glm-5-1",
+  "tagline": "GLM-5.1 is Z.ai's next-generation flagship model built for agentic engineering.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": false,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.19,
+    "output": 3.74,
+    "cached_input": 0.6
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "751e8f2b",
+    "family": "751e8f2b",
+    "description": "71ce424d",
+    "status": "379ac110",
+    "release_date": "18e99417",
+    "context_window": "65d646a4",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "0537fb40",
+    "page_url": "25fc4da4",
+    "tagline": "71ce424d",
+    "capabilities": "a6bd137d",
+    "modalities": "68e53d93",
+    "pricing": "559e1874",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

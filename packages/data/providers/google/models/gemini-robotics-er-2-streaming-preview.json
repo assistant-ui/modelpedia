@@ -5,7 +5,7 @@
   "source": "official",
   "family": "gemini-2",
   "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 2 Streaming Preview Gemini Robotics ER 2 Streaming is a vision-language model (VLM) for robotics optimized for real-time text streaming using the Live API. It accepts text, image, video, and audio input and supports bidirectional streaming with function calling.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 131072,
   "max_output_tokens": 65536,
@@ -33,7 +33,7 @@
     "name": "d96a456a",
     "family": "6cb100fc",
     "description": "e41f92d3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "3f358a56",
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
@@ -47,5 +47,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-11-22"
 }

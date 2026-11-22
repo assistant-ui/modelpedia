@@ -1,0 +1,30 @@
+{
+  "id": "minimax-h3-image",
+  "name": "MiniMax-H3-Image",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Image generation model supporting text-to-image and image editing (1–16 reference images). Output dimensions can be specified by width and height, or by area tier and aspect ratio. Supports streaming output",
+  "status": "active",
+  "model_type": "image",
+  "tagline": "Image generation model supporting text-to-image and image editing (1–16 reference images).",
+  "capabilities": {
+    "streaming": false,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "aa1ffc21",
+    "family": "c85916f0",
+    "description": "8d2f651f",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "tagline": "dc08a757",
+    "capabilities": "064e1c4e",
+    "modalities": "bbf9b8bb"
+  },
+  "last_updated": "2026-11-22"
+}

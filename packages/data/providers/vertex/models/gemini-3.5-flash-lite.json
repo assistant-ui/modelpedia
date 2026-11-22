@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.5",
-  "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+  "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
   "status": "active",
   "context_window": 1048576,
   "max_output_tokens": 65536,
@@ -23,7 +23,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "output": ["text"]
   },
   "pricing": {
     "input": 0.3,
@@ -38,26 +38,27 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [0.3, null, 2.5]
+            "values": [0.3, 0.03, 2.5]
           },
           {
             "label": "Priority",
-            "values": [0.54, null, 4.5]
+            "values": [0.54, 0.054, 4.5]
           },
           {
             "label": "Flex",
-            "values": [0.15, null, 1.25]
+            "values": [0.15, 0.015, 1.25]
           }
         ]
       }
-    ]
+    ],
+    "cached_input": 0.03
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "9a3c773f",
     "family": "098fdb91",
-    "description": "0a7f497d",
+    "description": "b2fffaf6",
     "status": "379ac110",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
@@ -66,10 +67,10 @@
     "tagline": "9fee8828",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
-    "pricing": "eaae666f",
+    "modalities": "c569b149",
+    "pricing": "15697d57",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-11-22"
 }

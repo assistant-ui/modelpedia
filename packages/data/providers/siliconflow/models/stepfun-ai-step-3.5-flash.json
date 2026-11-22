@@ -1,0 +1,57 @@
+{
+  "id": "stepfun-ai/Step-3.5-Flash",
+  "name": "Step-3.5-Flash",
+  "created_by": "stepfun-ai",
+  "source": "official",
+  "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model, built on a sparse Mixture of Experts (MoE) architecture with 196B total parameters and only 11B activated per token.",
+  "status": "active",
+  "release_date": "2026-02-11",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "license": "APACHE 2.0",
+  "parameters": 196,
+  "active_parameters": 11,
+  "page_url": "https://www.siliconflow.com/models/step-3-5-flash",
+  "tagline": "Step 3.5 Flash is StepFun's most capable open-source foundation model, built on a sparse Mixture of Experts (MoE) architecture with 196B total parameters and only 11B activated per token.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": false,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c8a44fe2",
+    "description": "4031202a",
+    "status": "379ac110",
+    "release_date": "d8edba92",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "license": "1f8a12d2",
+    "parameters": "084b6fbb",
+    "active_parameters": "6512bd43",
+    "page_url": "8af0e30e",
+    "tagline": "4031202a",
+    "capabilities": "a6bd137d",
+    "modalities": "68e53d93",
+    "pricing": "53952343",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

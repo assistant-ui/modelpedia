@@ -1,0 +1,60 @@
+{
+  "id": "google/gemma-4-12B-it",
+  "name": "gemma-4-12B-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma 4 26B is Google DeepMind's latest open-source MoE model, built on a 26B-parameter Mixture of Experts architecture that activates only 3.8B parameters during inference for exceptionally fast token throughput.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE 2.0",
+  "parameters": 31,
+  "active_parameters": 11.95,
+  "page_url": "https://www.siliconflow.com/models/gemma-4-12b-it",
+  "tagline": "Gemma 4 26B is Google DeepMind's latest open-source MoE model, built on a 26B-parameter Mixture of Experts architecture that activates only 3.8B parameters during inference for exceptionally fast toke",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e1ec47cc",
+    "family": "811b6704",
+    "description": "2e1abdf7",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "1f8a12d2",
+    "parameters": "c16a5320",
+    "active_parameters": "ef88f2e4",
+    "page_url": "a4d878e2",
+    "tagline": "20073d9f",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "53952343",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

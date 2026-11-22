@@ -1,0 +1,49 @@
+{
+  "id": "parasail-kimi-k27-code",
+  "name": "Kimi K2.7 Code",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k27",
+  "description": "Specialized coding model optimized for software engineering and agentic coding workflows.",
+  "status": "active",
+  "release_date": "2026-05",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "Modified MIT",
+  "page_url": "https://www.parasail.io/models/kimi-k27-code",
+  "tagline": "Specialized coding model optimized for software engineering and agentic coding workflows.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.5,
+    "cached_input": 0.16
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "595b21af",
+    "family": "7f6ff68e",
+    "description": "81d557aa",
+    "status": "379ac110",
+    "release_date": "0580e31b",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "4d025bb0",
+    "page_url": "1abfe243",
+    "tagline": "81d557aa",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "e4092d2e",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

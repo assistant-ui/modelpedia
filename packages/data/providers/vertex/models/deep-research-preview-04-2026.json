@@ -16,7 +16,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text"]
+    "output": ["text", "image"]
   },
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
@@ -29,8 +29,12 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "capabilities": "8a3b232e",
-    "modalities": "c569b149",
-    "endpoints": "20e16908"
+    "modalities": "08235294",
+    "endpoints": "20e16908",
+    "description": "45297baf",
+    "tagline": "95e10f65"
   },
-  "last_updated": "2026-04-22"
+  "last_updated": "2026-11-22",
+  "description": "A powerful agentic researcher designed for autonomous, multi-step investigations that synthesize complex information into comprehensive, cited reports. This model supports collaborative planning, visualization, MCP servers, and File Search. It comes in two versions: Deep Research for speed and efficiency, and Deep Research Max for maximum comprehensiveness.",
+  "tagline": "A powerful agentic researcher designed for autonomous, multi-step investigations that synthesize complex information into comprehensive, cited reports."
 }

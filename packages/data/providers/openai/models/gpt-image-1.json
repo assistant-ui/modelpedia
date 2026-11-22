@@ -3,10 +3,10 @@
   "name": "GPT Image 1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-image-1",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "performance": 3,
   "speed": 1,
@@ -69,7 +69,7 @@
     "name": "ccb6410c",
     "family": "480da012",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "performance": "eccbc87e",
     "speed": "c4ca4238",
@@ -81,7 +81,8 @@
     "page_url": "a6a8242a",
     "open_weight": "68934a3e",
     "capabilities": "ec32b5a4",
-    "retirement_date": "68185e3b"
+    "retirement_date": "68185e3b",
+    "deprecation_date": "c48b287d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-image-1",
@@ -96,5 +97,6 @@
     "reasoning": false,
     "batch": true
   },
-  "retirement_date": "2026-10-23"
+  "retirement_date": "2026-10-23",
+  "deprecation_date": "2026-04-22"
 }

@@ -3,10 +3,10 @@
   "name": "GPT-5.3-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-5.3",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -19,11 +19,11 @@
   "tagline": "The most capable agentic coding model to date.",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false
   },
   "modalities": {
@@ -48,14 +48,14 @@
       }
     ]
   },
-  "tools": ["function_calling", "web_search", "hosted_shell", "skills"],
+  "tools": ["function_calling", "hosted_shell"],
   "endpoints": ["responses"],
   "snapshots": ["gpt-5.3-codex"],
   "_generated": {
     "name": "59982316",
     "family": "a1a05172",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -66,18 +66,22 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "a0b6576e",
-    "capabilities": "07de7920",
+    "capabilities": "61217667",
     "modalities": "6399757e",
     "pricing": "745a23d5",
-    "tools": "7efd0964",
+    "tools": "f58dd042",
     "endpoints": "acb164ea",
     "license": "9186c466",
     "page_url": "df4c4da3",
     "open_weight": "68934a3e",
-    "retirement_date": "94273062"
+    "retirement_date": "94273062",
+    "deprecation_date": "00dfb29f",
+    "successor": "5e9d1260"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
   "open_weight": false,
-  "retirement_date": "2027-04-01"
+  "retirement_date": "2027-04-01",
+  "deprecation_date": "2026-10-01",
+  "successor": "gpt-6-sol"
 }

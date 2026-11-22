@@ -1,0 +1,47 @@
+{
+  "id": "parasail-cydonia-24-v41",
+  "name": "Cydonia 24B v4.1",
+  "created_by": "cydonia",
+  "source": "official",
+  "description": "Fine-tuned model with enhanced roleplay and character consistency.",
+  "status": "active",
+  "release_date": "2025-08",
+  "context_window": 32768,
+  "model_type": "chat",
+  "license": "Apache 2.0",
+  "page_url": "https://www.parasail.io/models/cydonia-24-v41",
+  "tagline": "Fine-tuned model with enhanced roleplay and character consistency.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.5,
+    "cached_input": 0.15
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "15552aad",
+    "description": "44d91d11",
+    "status": "379ac110",
+    "release_date": "5549a2cd",
+    "context_window": "f4376436",
+    "model_type": "d669f408",
+    "license": "b27d2c3b",
+    "page_url": "c0684c58",
+    "tagline": "44d91d11",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "37589f9b",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

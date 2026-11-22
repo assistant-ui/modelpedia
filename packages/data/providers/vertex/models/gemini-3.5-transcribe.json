@@ -13,11 +13,11 @@
     "tool_call": true,
     "reasoning": true,
     "batch": true,
-    "vision": true
+    "vision": false
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image"]
+    "input": ["audio"],
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -28,10 +28,14 @@
     "model_type": "5e12d29a",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "capabilities": "3eacba15",
-    "modalities": "b9fd57f0",
+    "capabilities": "bea2ba2b",
+    "modalities": "b8e84832",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "a0b154eb",
+    "tagline": "4c34eccc"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities. It provides low-latency, accurate transcription with utterance-based language detection, speaker diarization, word-level timestamps, Smart transcription (including voice editing), and custom vocabulary speech biasing.",
+  "tagline": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities."
 }

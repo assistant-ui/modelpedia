@@ -1,0 +1,47 @@
+{
+  "id": "black-forest-labs/FLUX-1.1-pro-Ultra",
+  "name": "FLUX 1.1 [pro] Ultra",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX1.1 Pro Ultra is the high-resolution version of FLUX1.1 Pro, capable of generating images up to 4 megapixels (2K resolution).",
+  "status": "active",
+  "release_date": "2025-07-11",
+  "model_type": "image",
+  "parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/flux-1-1-pro-ultra",
+  "tagline": "FLUX1.1 Pro Ultra is the high-resolution version of FLUX1.1 Pro, capable of generating images up to 4 megapixels (2K resolution).",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.06]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "6813bfb6",
+    "description": "e98d3a83",
+    "status": "379ac110",
+    "release_date": "c4808e8f",
+    "model_type": "db8857fe",
+    "parameters": "c20ad4d7",
+    "page_url": "11c5a768",
+    "tagline": "e98d3a83",
+    "modalities": "814867b9",
+    "pricing": "b75014d0",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

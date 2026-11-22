@@ -27,7 +27,11 @@
     "open_weight": "68934a3e",
     "capabilities": "bcb7869e",
     "modalities": "6399757e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "3cab1ca3",
+    "tagline": "6dd0219b"
   },
-  "last_updated": "2026-09-25"
+  "last_updated": "2026-11-22",
+  "description": "A powerful general-purpose managed agent designed for autonomous, multi-step workflows. This model plans, reasons, runs code, manages files, and searches the web inside a secure, isolated Linux sandbox hosted by Google. The September 2026 release (`antigravity-preview-09-2026`) upgrades the runtime harness with improved prompt caching, native code search tools, and efficient line-range file editing.",
+  "tagline": "A powerful general-purpose managed agent designed for autonomous, multi-step workflows."
 }

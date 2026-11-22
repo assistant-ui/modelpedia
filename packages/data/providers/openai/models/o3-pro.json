@@ -3,10 +3,10 @@
   "name": "o3-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o3",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -49,20 +49,14 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "file_search",
-    "image_generation",
-    "mcp",
-    "web_search"
-  ],
+  "tools": ["function_calling", "image_generation", "web_search"],
   "endpoints": ["responses", "batch"],
   "snapshots": ["o3-pro-2025-06-10"],
   "_generated": {
     "name": "363d2093",
     "family": "193049bc",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -75,17 +69,21 @@
     "capabilities": "91876c96",
     "modalities": "6399757e",
     "pricing": "b8cfb390",
-    "tools": "a7dce5fd",
+    "tools": "04527048",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "page_url": "b1230bef",
     "open_weight": "68934a3e",
     "release_date": "298b4e52",
-    "retirement_date": "d0164be5"
+    "retirement_date": "d0164be5",
+    "deprecation_date": "af441ea0",
+    "successor": "ba9bb2d3"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3-pro",
   "open_weight": false,
   "release_date": "2025-06-10",
-  "retirement_date": "2026-12-11"
+  "retirement_date": "2026-12-11",
+  "deprecation_date": "2026-06-11",
+  "successor": "gpt-6.1-sol"
 }

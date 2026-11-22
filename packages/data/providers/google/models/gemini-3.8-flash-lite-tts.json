@@ -8,7 +8,7 @@
   "context_window": 8192,
   "max_output_tokens": 16384,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-flash-lite-tts",
   "model_type": "tts",
   "capabilities": {
     "streaming": true,
@@ -16,12 +16,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text"],
+    "output": ["audio"]
   },
   "pricing": {
     "input": 0.5,
@@ -57,14 +57,18 @@
     "context_window": "77441296",
     "max_output_tokens": "c76fe1d8",
     "license": "9186c466",
-    "page_url": "bb8649f8",
+    "page_url": "98b48be7",
     "model_type": "4e16a2cf",
-    "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "capabilities": "47f1f394",
+    "modalities": "601e776d",
     "pricing": "36aa9b8a",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "f4b3d8ab",
+    "tagline": "eb051e0c"
   },
-  "last_updated": "2026-10-10"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+  "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w"
 }

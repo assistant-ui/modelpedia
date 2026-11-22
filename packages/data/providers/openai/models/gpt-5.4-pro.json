@@ -3,7 +3,7 @@
   "name": "GPT-5.4 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "family": "gpt-5.4",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -79,7 +79,7 @@
     "license": "9186c466",
     "page_url": "a9fc18b0",
     "open_weight": "68934a3e",
-    "tools": "81f2051d",
+    "tools": "7792a88b",
     "release_date": "e6626ce2",
     "description": "338b8eed",
     "tagline": "8102287b"
@@ -91,13 +91,9 @@
   "open_weight": false,
   "tools": [
     "function_calling",
-    "web_search",
     "file_search",
-    "tool_search",
     "image_generation",
-    "apply_patch",
-    "computer_use",
-    "mcp"
+    "computer_use"
   ],
   "release_date": "2026-03-05",
   "description": "GPT-5.4 Pro uses more compute to think harder and provide consistently better answers.",

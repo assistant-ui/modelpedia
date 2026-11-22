@@ -3,10 +3,10 @@
   "name": "o3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o3",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -20,9 +20,9 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
+    "structured_output": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "fine_tuning": false,
     "batch": true
   },
@@ -50,21 +50,14 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "mcp",
-    "web_search"
-  ],
+  "tools": ["function_calling", "image_generation", "mcp"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["o3-2025-04-16"],
   "_generated": {
     "name": "193049bc",
     "family": "193049bc",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -74,20 +67,24 @@
     "reasoning": "e4da3b7f",
     "speed": "c4ca4238",
     "tagline": "4105e408",
-    "capabilities": "6295d8b9",
+    "capabilities": "d9c17bc0",
     "modalities": "6399757e",
     "pricing": "ce78c534",
-    "tools": "87bd8291",
+    "tools": "0ee88907",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "e2ccf3a7",
     "open_weight": "68934a3e",
     "release_date": "67604092",
-    "retirement_date": "d0164be5"
+    "retirement_date": "d0164be5",
+    "deprecation_date": "af441ea0",
+    "successor": "ba9bb2d3"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3",
   "open_weight": false,
   "release_date": "2025-04-16",
-  "retirement_date": "2026-12-11"
+  "retirement_date": "2026-12-11",
+  "deprecation_date": "2026-06-11",
+  "successor": "gpt-6.1-sol"
 }

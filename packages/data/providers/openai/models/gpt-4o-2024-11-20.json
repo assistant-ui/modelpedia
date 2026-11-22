@@ -3,7 +3,7 @@
   "name": "gpt-4o-2024-11-20",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "description": "Status: Deprecated",
   "status": "deprecated",
@@ -17,11 +17,11 @@
   "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
-    "fine_tuning": true,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
     "reasoning": false,
     "batch": true
   },
@@ -36,6 +36,17 @@
     "batch_input": 1.25,
     "batch_output": 5,
     "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, 1.25, 10]
+          }
+        ]
+      },
       {
         "label": "Fine-tuning",
         "unit": "",
@@ -72,9 +83,9 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "f06aa8e0",
-    "capabilities": "ee1bc66f",
+    "capabilities": "5f0990b1",
     "modalities": "6399757e",
-    "pricing": "8f02a81b",
+    "pricing": "7fdd976f",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "090277ab",

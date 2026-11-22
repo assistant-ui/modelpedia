@@ -1,0 +1,49 @@
+{
+  "id": "parasail-glm-53-flash",
+  "name": "GLM-5.3 Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-53",
+  "description": "Z.AI’s first natively multimodal GLM-5 model — frontier coding, agentic and vision work at a tenth of GLM-5.2’s price.",
+  "status": "active",
+  "release_date": "2026-08",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/glm-53-flash",
+  "tagline": "Z.AI’s first natively multimodal GLM-5 model — frontier coding, agentic and vision work at a tenth of GLM-5.2’s price.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.03
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "5af9771a",
+    "family": "97e0a5ca",
+    "description": "6730ae55",
+    "status": "379ac110",
+    "release_date": "1f3cc0a2",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "page_url": "5ba8b7cc",
+    "tagline": "6730ae55",
+    "capabilities": "944b5fe5",
+    "modalities": "6399757e",
+    "pricing": "bd8fa987",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "parasail-bge-m3",
+  "name": "BGE-M3",
+  "created_by": "baai",
+  "source": "official",
+  "description": "Multilingual, multi-functional embedding model supporting 100+ languages.",
+  "status": "active",
+  "release_date": "2024-01",
+  "context_window": 8192,
+  "model_type": "embed",
+  "license": "MIT",
+  "page_url": "https://www.parasail.io/models/bge-m3",
+  "tagline": "Multilingual, multi-functional embedding model supporting 100+ languages.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.01
+  },
+  "open_weight": true,
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "18f9f208",
+    "description": "8d285f4d",
+    "status": "379ac110",
+    "release_date": "b495e7a4",
+    "context_window": "77441296",
+    "model_type": "764cb3de",
+    "license": "b4e950cc",
+    "page_url": "054983fe",
+    "tagline": "8d285f4d",
+    "modalities": "68e53d93",
+    "pricing": "76411944",
+    "open_weight": "b326b506",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-11-22"
+}

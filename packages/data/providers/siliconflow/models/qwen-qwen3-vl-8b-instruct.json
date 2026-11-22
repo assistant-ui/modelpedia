@@ -1,0 +1,55 @@
+{
+  "id": "Qwen/Qwen3-VL-8B-Instruct",
+  "name": "Qwen3-VL-8B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-VL-8B-Instruct is the vision-language model of the Qwen3 series, demonstrates strong capabilities in general visual understanding, visual-centric dialogue, and multilingual text recognition in i",
+  "status": "active",
+  "release_date": "2025-10-15",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 8,
+  "page_url": "https://www.siliconflow.com/models/qwen3-vl-8b-instruct",
+  "tagline": "Qwen3-VL-8B-Instruct is the vision-language model of the Qwen3 series, demonstrates strong capabilities in general visual understanding, visual-centric dialogue, and multilingual text recognition in i",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.18,
+    "output": 0.68
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a7d7f513",
+    "description": "fe512614",
+    "status": "379ac110",
+    "release_date": "3c659a30",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "c9f0f895",
+    "page_url": "d3f7acb9",
+    "tagline": "fe512614",
+    "capabilities": "28d6d4bb",
+    "modalities": "6399757e",
+    "pricing": "45189371",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

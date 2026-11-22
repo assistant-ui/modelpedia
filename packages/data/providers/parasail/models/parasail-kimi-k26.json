@@ -1,0 +1,50 @@
+{
+  "id": "parasail-kimi-k26",
+  "name": "Kimi K2.6",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k26",
+  "description": "Strong reasoning model with excellent long-context understanding.",
+  "status": "active",
+  "release_date": "2026-04",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "Modified MIT",
+  "page_url": "https://www.parasail.io/models/kimi-k26",
+  "tagline": "Strong reasoning model with excellent long-context understanding.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.5,
+    "cached_input": 0.16
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1bf1a995",
+    "family": "2e0f0fc4",
+    "description": "4048c5b2",
+    "status": "379ac110",
+    "release_date": "58654c5c",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "4d025bb0",
+    "page_url": "6c1f74c0",
+    "tagline": "4048c5b2",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "e4092d2e",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

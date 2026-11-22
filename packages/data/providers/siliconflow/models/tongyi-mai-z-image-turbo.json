@@ -1,0 +1,51 @@
+{
+  "id": "Tongyi-MAI/Z-Image-Turbo",
+  "name": "Z-Image-Turbo",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Z-Image-Turbo is an open-source, lightweight 6B-parameter text-to-image model developed by Alibaba Tongyi Laboratory.",
+  "status": "active",
+  "release_date": "2025-12-04",
+  "model_type": "image",
+  "license": "APACHE-2.0",
+  "parameters": 6,
+  "page_url": "https://www.siliconflow.com/models/z-image-turbo",
+  "tagline": "Z-Image-Turbo is an open-source, lightweight 6B-parameter text-to-image model developed by Alibaba Tongyi Laboratory.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.005]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "a1d0d687",
+    "description": "e5f8cd30",
+    "status": "379ac110",
+    "release_date": "03c309ab",
+    "model_type": "db8857fe",
+    "license": "98ac2124",
+    "parameters": "1679091c",
+    "page_url": "11b8b1f0",
+    "tagline": "e5f8cd30",
+    "modalities": "814867b9",
+    "pricing": "4be60c84",
+    "open_weight": "b326b506",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

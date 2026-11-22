@@ -3,10 +3,10 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "o4",
   "description": "Status: Shut down",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -18,12 +18,12 @@
   "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
-    "structured_output": true,
-    "fine_tuning": true,
+    "structured_output": false,
+    "fine_tuning": false,
     "reasoning": true,
-    "json_mode": true,
+    "json_mode": false,
     "batch": true
   },
   "modalities": {
@@ -50,20 +50,14 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "file_search",
-    "code_interpreter",
-    "mcp",
-    "web_search"
-  ],
+  "tools": ["function_calling", "code_interpreter", "web_search"],
   "endpoints": ["chat_completions", "responses", "batch", "fine_tuning"],
   "snapshots": ["o4-mini-2025-04-16"],
   "_generated": {
     "name": "0ad044e2",
     "family": "a842f941",
     "description": "9aaf237e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -73,20 +67,22 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "5aa524ce",
-    "capabilities": "7e267bba",
+    "capabilities": "84d46e67",
     "modalities": "6399757e",
     "pricing": "07118b3e",
-    "tools": "fab5356d",
+    "tools": "c7d9386e",
     "endpoints": "b36a99d3",
     "license": "9186c466",
     "page_url": "6a4100e1",
     "open_weight": "68934a3e",
     "release_date": "67604092",
-    "retirement_date": "68185e3b"
+    "retirement_date": "68185e3b",
+    "deprecation_date": "c48b287d"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o4-mini",
   "open_weight": false,
   "release_date": "2025-04-16",
-  "retirement_date": "2026-10-23"
+  "retirement_date": "2026-10-23",
+  "deprecation_date": "2026-04-22"
 }

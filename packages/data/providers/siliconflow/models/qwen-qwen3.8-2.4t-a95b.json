@@ -1,0 +1,53 @@
+{
+  "id": "Qwen/Qwen3.8-2.4T-A95B",
+  "name": "Qwen3.8-2.4T-A95B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.",
+  "status": "active",
+  "release_date": "2026-08-13",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 2400,
+  "active_parameters": 95,
+  "page_url": "https://www.siliconflow.com/models/qwen3-8-2-4t-a95b",
+  "tagline": "Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.25
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ac96b93b",
+    "description": "536f599f",
+    "status": "379ac110",
+    "release_date": "2a7fa61f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "03cf8717",
+    "active_parameters": "812b4ba2",
+    "page_url": "f61fb1d6",
+    "tagline": "536f599f",
+    "capabilities": "f5705964",
+    "modalities": "68e53d93",
+    "pricing": "24e736a5",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

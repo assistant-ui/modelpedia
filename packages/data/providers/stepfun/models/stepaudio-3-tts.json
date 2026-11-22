@@ -7,14 +7,18 @@
   "model_type": "tts",
   "license": "proprietary",
   "open_weight": false,
-  "pricing_notes": ["2.5 元／万字符 (CNY)"],
+  "pricing_notes": [
+    "语音合成: 95.00 元／百万输入文本计费字符",
+    "音色复刻: 10.00 元／个音色",
+    "音色设计: 10.00 元／个音色"
+  ],
   "_generated": {
     "name": "30a8a980",
     "status": "379ac110",
     "model_type": "4e16a2cf",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "pricing_notes": "8e8f95dd"
+    "pricing_notes": "6c2f3950"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-22"
 }

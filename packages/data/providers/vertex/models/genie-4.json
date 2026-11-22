@@ -1,0 +1,32 @@
+{
+  "id": "genie-4",
+  "name": "genie-4",
+  "created_by": "google",
+  "source": "official",
+  "description": "Genie 4 (`genie-4`) is a real-time interactive world generation model on the Interactions API. Seed a world from a text prompt, a 16:9 reference image, or both, then explore and steer the live 24 fps video and 48 kHz stereo audio stream in real time using keyboard movement controls (`WASD` and arrow keys) and mid-session text events. For offline, fixed-duration clip generation, multi-turn video editing, and upsampling up to 4K, use Gemini Omni 1.2 Flash instead.",
+  "status": "active",
+  "license": "proprietary",
+  "tagline": "Genie 4 (`genie-4`) is a real-time interactive world generation model on the Interactions API.",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video", "audio"]
+  },
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "09073ab6",
+    "description": "71261786",
+    "status": "379ac110",
+    "license": "9186c466",
+    "tagline": "8f1fdc8a",
+    "open_weight": "68934a3e",
+    "capabilities": "8a3b232e",
+    "modalities": "33372894",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-11-22"
+}

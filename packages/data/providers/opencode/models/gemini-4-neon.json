@@ -1,6 +1,6 @@
 {
   "id": "gemini-4-neon",
-  "name": "gemini-4-neon",
+  "name": "Gemini 4 Neon",
   "created_by": "google",
   "source": "official",
   "family": "gemini-4",
@@ -14,12 +14,18 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "b5e67c7d",
+    "name": "98e31baa",
     "family": "bd0f233d",
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "48e156c4"
   },
-  "last_updated": "2026-11-19"
+  "last_updated": "2026-11-22",
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.15
+  }
 }

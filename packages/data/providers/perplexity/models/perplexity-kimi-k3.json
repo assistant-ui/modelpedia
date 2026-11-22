@@ -1,7 +1,7 @@
 {
   "id": "perplexity/kimi-k3",
   "name": "Kimi K3",
-  "created_by": "moonshot",
+  "created_by": "perplexity",
   "source": "official",
   "family": "kimi-k3",
   "license": "proprietary",
@@ -29,5 +29,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-22"
 }

@@ -1,0 +1,52 @@
+{
+  "id": "meta/muse-spark-open",
+  "name": "Meta: Muse Spark Open",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Muse Spark Open is a coding-optimized open-weight model.",
+  "status": "active",
+  "release_date": "2026-10-15",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Muse Spark Open is a coding-optimized open-weight model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "quantization": "fp4",
+  "tokenizer": "Other",
+  "_generated": {
+    "name": "a5844f5f",
+    "description": "57912399",
+    "status": "379ac110",
+    "release_date": "b3e9e1a3",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "57912399",
+    "capabilities": "0ad0e480",
+    "modalities": "c569b149",
+    "pricing": "a0f59bdb",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e",
+    "quantization": "0e8a48ee",
+    "tokenizer": "51d8121b"
+  },
+  "last_updated": "2026-11-22"
+}

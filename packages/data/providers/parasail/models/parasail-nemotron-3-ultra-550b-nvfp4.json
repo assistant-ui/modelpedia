@@ -1,0 +1,50 @@
+{
+  "id": "parasail-nemotron-3-ultra-550b-nvfp4",
+  "name": "Nemotron 3 Ultra 550B",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA’s flagship open model optimized for enterprise reasoning workloads.",
+  "status": "active",
+  "release_date": "2026-06",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "NVIDIA Open Model License",
+  "parameters": 550,
+  "page_url": "https://www.parasail.io/models/nemotron-3-ultra-550b",
+  "tagline": "NVIDIA’s flagship open model optimized for enterprise reasoning workloads.",
+  "capabilities": {
+    "vision": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.5,
+    "cached_input": 0.1
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "d538c574",
+    "description": "fd268a1c",
+    "status": "379ac110",
+    "release_date": "cb890cbe",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "4257367c",
+    "parameters": "01f78be6",
+    "page_url": "a34a7e70",
+    "tagline": "fd268a1c",
+    "capabilities": "b436a6f8",
+    "modalities": "68e53d93",
+    "pricing": "e3ba0226",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

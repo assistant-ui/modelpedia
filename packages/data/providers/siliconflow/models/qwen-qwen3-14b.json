@@ -1,0 +1,56 @@
+{
+  "id": "Qwen/Qwen3-14B",
+  "name": "Qwen3-14B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-14B is the latest large language model in the Qwen series with 14.8B parameters.",
+  "status": "active",
+  "release_date": "2025-04-30",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 14,
+  "page_url": "https://www.siliconflow.com/models/qwen3-14b",
+  "tagline": "Qwen3-14B is the latest large language model in the Qwen series with 14.8B parameters.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.28
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "36a8dfe8",
+    "description": "18dcd55a",
+    "status": "379ac110",
+    "release_date": "6997487e",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "aab32389",
+    "page_url": "720d065a",
+    "tagline": "18dcd55a",
+    "capabilities": "467329b3",
+    "modalities": "68e53d93",
+    "pricing": "883b5325",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

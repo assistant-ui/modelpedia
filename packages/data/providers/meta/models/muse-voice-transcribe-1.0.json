@@ -1,0 +1,16 @@
+{
+  "id": "muse-voice-transcribe-1.0",
+  "name": "Muse Voice Transcribe 1.0",
+  "created_by": "meta",
+  "source": "official",
+  "family": "muse-voice-transcribe",
+  "page_url": "https://dev.meta.ai/docs/models",
+  "model_type": "transcription",
+  "_generated": {
+    "name": "6509ea32",
+    "family": "c666893b",
+    "page_url": "4651069e",
+    "model_type": "5e12d29a"
+  },
+  "last_updated": "2026-11-22"
+}

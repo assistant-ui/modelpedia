@@ -4,13 +4,13 @@
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.1",
-  "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
+  "description": "`gemini-3.1-flash-tts-preview` is a legacy preview model. For new and production workloads, migrate to Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) or Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`). See the migration guide. The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
   "status": "active",
   "knowledge_cutoff": "2025-01",
   "context_window": 8192,
   "max_output_tokens": 16384,
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-tts-preview",
   "model_type": "tts",
   "tagline": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
   "capabilities": {
@@ -19,12 +19,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text"],
+    "output": ["audio"]
   },
   "pricing": {
     "input": 1,
@@ -55,21 +55,21 @@
   "_generated": {
     "name": "fb9d763d",
     "family": "ea4a1a23",
-    "description": "f571404d",
+    "description": "83692215",
     "status": "379ac110",
     "knowledge_cutoff": "3f358a56",
     "context_window": "77441296",
     "max_output_tokens": "c76fe1d8",
     "license": "9186c466",
-    "page_url": "c8a7ebde",
+    "page_url": "ba040b7f",
     "model_type": "4e16a2cf",
     "tagline": "d8abb286",
-    "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "capabilities": "47f1f394",
+    "modalities": "601e776d",
     "pricing": "39389cbc",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-09-25"
+  "last_updated": "2026-11-22"
 }

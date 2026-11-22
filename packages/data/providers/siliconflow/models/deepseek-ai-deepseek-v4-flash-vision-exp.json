@@ -1,0 +1,57 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+  "name": "DeepSeek-V4-Flash-Vision-Exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4-Flash-Vision-Exp is the first experimental multimodal model in the DeepSeek-V4 family.",
+  "status": "active",
+  "release_date": "2026-09-04",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 305,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v4-flash-vision-exp",
+  "tagline": "DeepSeek-V4-Flash-Vision-Exp is the first experimental multimodal model in the DeepSeek-V4 family.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.44,
+    "output": 1.32,
+    "cached_input": 0.028
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7ffcea13",
+    "description": "a5c0f27a",
+    "status": "379ac110",
+    "release_date": "d724e932",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "496e05e1",
+    "page_url": "cffe0058",
+    "tagline": "a5c0f27a",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "4f5ea733",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

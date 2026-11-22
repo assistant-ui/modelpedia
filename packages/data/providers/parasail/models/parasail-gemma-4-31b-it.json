@@ -1,0 +1,51 @@
+{
+  "id": "parasail-gemma-4-31b-it",
+  "name": "Gemma 4 31B",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Google’s latest open model with strong general performance and broad language support.",
+  "status": "active",
+  "release_date": "2026-03",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "Gemma License",
+  "parameters": 31,
+  "page_url": "https://www.parasail.io/models/gemma-4-31b",
+  "tagline": "Google’s latest open model with strong general performance and broad language support.",
+  "capabilities": {
+    "vision": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.4,
+    "cached_input": 0.06
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "d53d071a",
+    "family": "811b6704",
+    "description": "702f47bd",
+    "status": "379ac110",
+    "release_date": "f757eba1",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "license": "cc7a2c0f",
+    "parameters": "c16a5320",
+    "page_url": "5026f997",
+    "tagline": "702f47bd",
+    "capabilities": "b3549d2c",
+    "modalities": "68e53d93",
+    "pricing": "1144cf81",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-22"
+}

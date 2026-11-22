@@ -22,8 +22,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true,
-    "json_mode": true,
+    "structured_output": false,
+    "json_mode": false,
     "fine_tuning": false,
     "reasoning": true,
     "batch": true
@@ -72,15 +72,10 @@
   },
   "tools": [
     "function_calling",
-    "web_search",
     "file_search",
-    "tool_search",
     "image_generation",
-    "code_interpreter",
     "hosted_shell",
-    "apply_patch",
     "skills",
-    "computer_use",
     "mcp"
   ],
   "endpoints": ["chat_completions", "responses", "batch"],
@@ -106,14 +101,14 @@
     "tagline": "198f77dd",
     "page_url": "69c55b2d",
     "open_weight": "68934a3e",
-    "capabilities": "822aa4d1",
+    "capabilities": "36380241",
     "modalities": "6399757e",
     "pricing": "536bd35f",
-    "tools": "44af6f15",
+    "tools": "b1d1dd8f",
     "endpoints": "ec55a017",
     "pricing_notes": "f99f0e39",
     "release_date": "a87679d0"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-22",
   "release_date": "2026-04-23"
 }

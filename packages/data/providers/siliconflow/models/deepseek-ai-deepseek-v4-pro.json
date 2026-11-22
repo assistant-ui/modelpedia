@@ -1,0 +1,59 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Pro",
+  "name": "DeepSeek-V4-Pro",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4-Pro is DeepSeek's flagship open-source MoE model with 1.6T total parameters and 49B activated, purpose-built for frontier-level reasoning, coding, and agentic tasks.",
+  "status": "active",
+  "release_date": "2026-04-24",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 862,
+  "active_parameters": 49,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v4-pro",
+  "tagline": "DeepSeek-V4-Pro is DeepSeek's flagship open-source MoE model with 1.6T total parameters and 49B activated, purpose-built for frontier-level reasoning, coding, and agentic tasks.",
+  "capabilities": {
+    "vision": false,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.50162,
+    "output": 3.135,
+    "cached_input": 0.135
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a4bda441",
+    "description": "9deb3e9c",
+    "status": "379ac110",
+    "release_date": "173d2bb2",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "5ec91aac",
+    "active_parameters": "f457c545",
+    "page_url": "39730999",
+    "tagline": "9deb3e9c",
+    "capabilities": "467329b3",
+    "modalities": "68e53d93",
+    "pricing": "2956bc37",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Qwen/Qwen3-Embedding-8B",
+  "name": "Qwen3-Embedding-8B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3-Embedding-8B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+  "status": "active",
+  "release_date": "2025-06-06",
+  "context_window": 32768,
+  "model_type": "embed",
+  "license": "APACHE-2.0",
+  "parameters": 8,
+  "page_url": "https://www.siliconflow.com/models/qwen3-embedding-8b",
+  "tagline": "Qwen3-Embedding-8B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04
+  },
+  "open_weight": true,
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "c86433e0",
+    "description": "522bd9a6",
+    "status": "379ac110",
+    "release_date": "a78dab25",
+    "context_window": "f4376436",
+    "model_type": "764cb3de",
+    "license": "98ac2124",
+    "parameters": "c9f0f895",
+    "page_url": "0cd67d63",
+    "tagline": "522bd9a6",
+    "modalities": "68e53d93",
+    "pricing": "713be9f3",
+    "open_weight": "b326b506",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-11-22"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "black-forest-labs/FLUX.1-dev",
+  "name": "FLUX.1-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "description": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+  "status": "active",
+  "release_date": "2024-08-01",
+  "model_type": "image",
+  "license": "NON-COMMERCIAL LICENSE",
+  "parameters": 12,
+  "page_url": "https://www.siliconflow.com/models/flux-1-dev",
+  "tagline": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.014]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": true,
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "d2f55f46",
+    "description": "198dffa7",
+    "status": "379ac110",
+    "release_date": "d616039b",
+    "model_type": "db8857fe",
+    "license": "c06112a9",
+    "parameters": "c20ad4d7",
+    "page_url": "6ff81819",
+    "tagline": "198dffa7",
+    "modalities": "814867b9",
+    "pricing": "9388b199",
+    "open_weight": "b326b506",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-11-22"
+}

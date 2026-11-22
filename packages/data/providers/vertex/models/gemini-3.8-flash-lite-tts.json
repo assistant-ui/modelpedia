@@ -16,12 +16,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text"],
+    "output": ["audio"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -34,10 +34,43 @@
     "model_type": "4e16a2cf",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "capabilities": "47f1f394",
+    "modalities": "601e776d",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "f4b3d8ab",
+    "tagline": "eb051e0c",
+    "pricing": "f1778ee6"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-11-22",
+  "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+  "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w",
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075,
+    "batch_input": 0.375,
+    "batch_output": 1.875,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.75, 0.075, 3.75]
+          },
+          {
+            "label": "Priority",
+            "values": [1.35, 0.135, 6.75]
+          },
+          {
+            "label": "Flex",
+            "values": [0.375, 0.0375, 1.875]
+          }
+        ]
+      }
+    ]
+  }
 }

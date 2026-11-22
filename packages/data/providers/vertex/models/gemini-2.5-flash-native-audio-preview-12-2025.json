@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-native-audio-preview-12-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -15,12 +15,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text", "video", "audio"],
+    "output": ["text", "audio"]
   },
   "pricing": {
     "input": 0.3,
@@ -35,11 +35,11 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [0.3, null, 2.5]
+            "values": [0.3, 0.03, 2.5]
           },
           {
             "label": "Priority",
-            "values": [0.54, null, 4.5]
+            "values": [0.54, 0.054, 4.5]
           },
           {
             "label": "Flex",
@@ -47,7 +47,8 @@
           }
         ]
       }
-    ]
+    ],
+    "cached_input": 0.03
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -58,9 +59,9 @@
     "knowledge_cutoff": "3f358a56",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
-    "capabilities": "fdff467b",
-    "modalities": "0b49b61e",
-    "pricing": "eaae666f",
+    "capabilities": "47f1f394",
+    "modalities": "f71c91ca",
+    "pricing": "556c5687",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",

@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-22",
+  "count": 20,
+  "ids": [
+    "deepseek-deepseek-v4-flash-0731",
+    "deepseek-deepseek-v4-pro-0813",
+    "deepseek-deepseek-v4.1-flash",
+    "deepseek-deepseek-v4.1-flash-1017",
+    "google-gemma-3-27b-it",
+    "meta-muse-spark-open",
+    "minimax-minimax-m3.1-flash",
+    "moonshotai-kimi-k3",
+    "moonshotai-kimi-k3.1-pro",
+    "nousresearch-hermes-4-405b",
+    "nvidia-nemotron-3-nano-30b-a3b",
+    "nvidia-nemotron-3.5-super-vl",
+    "openai-gpt-oss-120b",
+    "qwen-qwen3-30b-a3b-instruct-2507",
+    "qwen-qwen3.8-27b",
+    "reflection-beam-1.0-501b-a23b",
+    "thinkingmachines-inkling-2-small",
+    "z-ai-glm-5.2",
+    "z-ai-glm-5.3",
+    "z-ai-glm-5.3-flash"
+  ]
+}

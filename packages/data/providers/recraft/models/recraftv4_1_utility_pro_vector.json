@@ -1,0 +1,51 @@
+{
+  "id": "recraftv4_1_utility_pro_vector",
+  "name": "Recraft V4.1 Utility Pro Vector",
+  "created_by": "recraft",
+  "source": "official",
+  "family": "recraft-v4-1",
+  "description": "Recraft V4.1 Utility Pro Vector image generation model in the Recraft API, outputting editable SVG vector graphics at 2K resolution.",
+  "status": "active",
+  "release_date": "2026-05-01",
+  "model_type": "image",
+  "license": "proprietary",
+  "tagline": "Recraft V4.1 Utility Pro Vector.",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.3]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.30 per image (300 API units)."],
+  "_generated": {
+    "name": "de59928f",
+    "family": "b59eda22",
+    "description": "05ba1844",
+    "status": "379ac110",
+    "release_date": "d013c22f",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "tagline": "96b33f34",
+    "open_weight": "68934a3e",
+    "modalities": "bbf9b8bb",
+    "pricing": "30982223",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "7cce1b2a"
+  },
+  "last_updated": "2026-11-22"
+}

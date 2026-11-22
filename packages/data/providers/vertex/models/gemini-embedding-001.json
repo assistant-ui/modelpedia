@@ -3,12 +3,12 @@
   "name": "gemini-embedding-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-11-22",
   "status": "active",
   "context_window": 2048,
   "model_type": "embed",
   "capabilities": {
-    "vision": true
+    "vision": false
   },
   "modalities": {
     "input": ["text"],
@@ -20,14 +20,18 @@
     "status": "379ac110",
     "context_window": "05192834",
     "model_type": "764cb3de",
-    "capabilities": "d3117eb0",
+    "capabilities": "1b098c42",
     "modalities": "68e53d93",
     "endpoints": "20e16908",
     "family": "c3d96d58",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "53094b48",
+    "tagline": "96f9c38c"
   },
   "family": "gemini-embedding",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images. The Gemini Embedding model is best for semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large datasets.",
+  "tagline": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images."
 }

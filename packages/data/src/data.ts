@@ -14277,7 +14277,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "vision": true,
           "json_mode": true,
-          "fine_tuning": true,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -14351,9 +14351,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -14418,7 +14418,7 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-09",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -14452,7 +14452,7 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-09",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -14574,8 +14574,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "json_mode": true,
-          "structured_output": true,
-          "fine_tuning": true,
+          "structured_output": false,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -14698,9 +14698,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "fine_tuning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "fine_tuning": false,
+          "structured_output": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -15055,11 +15055,11 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-5.1",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -15158,11 +15158,11 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-5.2",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -15400,9 +15400,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -15457,8 +15457,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -15626,11 +15626,11 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-5",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -16001,7 +16001,7 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2024-09",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -16068,7 +16068,7 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -17897,10 +17897,10 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
+          "tool_call": false,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "fine_tuning": false
         },
@@ -18121,7 +18121,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "vision": true,
           "json_mode": true,
-          "fine_tuning": true,
+          "fine_tuning": false,
           "batch": true
         },
         "modalities": {
@@ -19172,10 +19172,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -19207,10 +19207,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -24499,7 +24499,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-21",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
         "max_output_tokens": 65536,
         "knowledge_cutoff": "2025-01",
@@ -24568,7 +24568,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-21",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -24641,7 +24641,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-21",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -24707,18 +24707,16 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.125
         },
         "last_updated": "2026-11-21",
+        "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+        "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w",
         "max_output_tokens": 16384,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -24728,7 +24726,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         }
       },
@@ -24745,18 +24743,16 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.125
         },
         "last_updated": "2026-11-21",
+        "description": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-solid long-form multi-turn stability.",
+        "tagline": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-so",
         "max_output_tokens": 16384,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -24766,7 +24762,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         }
       },
@@ -24793,6 +24789,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-21",
+        "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+        "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl",
         "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false,
@@ -24829,6 +24827,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-21",
+        "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model.",
+        "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -24863,7 +24864,21 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        }
       },
       {
         "id": "google-ai-studio/gemini-4-hydrogen",
@@ -24887,7 +24902,21 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window a",
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        }
       },
       {
         "id": "google-ai-studio/gemini-decision-1",
@@ -24909,7 +24938,15 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API. It evaluates typed questions over text, images, video, audio, and PDFs in a single prefill pass and returns calibrated outcome probabilities with zero output tokens. Use Gemini Decision 1 for request routing, policy checks across many rules at once, candidate scoring against a rubric, tool selection, and low-latency classification over live media streams. A single request can evaluate up to 1,000 independent questions over shared input up to 262,144 tokens: * **Yes/no:** Returns a calibrated probability from 0.01 to 0.99 and a confidence score. * **Single-select:** Evaluates 2 to 255 options and returns the top option, per-option probabilities, and confidence. * **Rubric rating:** Evaluates 2 to 255 ordered rubric levels and returns the probability-weighted expected score, per-level probabilities, and confidence.",
+        "tagline": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API.",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        }
       },
       {
         "id": "google-ai-studio/gemini-omni-1.1-flash",
@@ -24918,7 +24955,22 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "video",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        }
       },
       {
         "id": "google-ai-studio/gemini-omni-1.2-flash",
@@ -24937,9 +24989,10 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "video",
         "last_updated": "2026-11-21",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Omni Flash Note: Gemini Omni Flash is in preview . Gemini Omni Flash is a preview model designed for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API.",
+        "description": "Gemini Omni Flash is a high-performance model for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API, and supports video extension, up to 4K output resolution, and advanced interpolation.",
         "tagline": "The Interactions API is now generally available.",
-        "context_window": 1048576,
+        "context_window": 131072,
+        "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -24949,7 +25002,9 @@ export const providers: ProviderWithModels[] = [
             "video"
           ],
           "output": [
-            "text"
+            "text",
+            "video",
+            "audio"
           ]
         },
         "capabilities": {
@@ -24974,14 +25029,18 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "audio",
         "last_updated": "2026-11-21",
+        "description": "Lyria 3.5 is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 44.1 kHz stereo audio from text prompts or image inputs.",
+        "tagline": "Lyria 3.5 is Google's flagship music generation model.",
         "context_window": 131072,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -26186,12 +26245,12 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         }
@@ -26226,12 +26285,12 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         }
@@ -26269,9 +26328,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         }
@@ -26306,12 +26365,12 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         }
@@ -26373,11 +26432,11 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "fine_tuning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "fine_tuning": false,
+          "structured_output": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         }
@@ -26416,9 +26475,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -26455,7 +26514,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
@@ -26495,11 +26554,11 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -26538,9 +26597,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -26577,11 +26636,11 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -26657,9 +26716,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -26694,7 +26753,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": false,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -26735,8 +26794,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -26771,8 +26830,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -26807,8 +26866,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -26843,8 +26902,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -26882,11 +26941,11 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -26920,8 +26979,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -26956,8 +27015,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -26992,8 +27051,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -27028,8 +27087,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -27064,8 +27123,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -27100,8 +27159,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -27136,8 +27195,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -27381,9 +27440,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -27421,9 +27480,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         }
@@ -27459,12 +27518,12 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
+          "structured_output": false,
+          "fine_tuning": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "batch": true
         }
       },
@@ -27663,7 +27722,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Pro Vector image generation model in the Recraft API, outputting editable SVG vector graphics at 2K resolution.",
+        "tagline": "Recraft V4.1 Pro Vector.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1-pro",
@@ -27672,7 +27744,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Pro image generation model in the Recraft API at 2K resolution.",
+        "tagline": "Recraft V4.1 Pro.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1-utility-pro-vector",
@@ -27681,7 +27766,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Utility Pro Vector image generation model in the Recraft API, outputting editable SVG vector graphics at 2K resolution.",
+        "tagline": "Recraft V4.1 Utility Pro Vector.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1-utility-pro",
@@ -27690,7 +27788,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Utility Pro image generation model in the Recraft API at 2K resolution.",
+        "tagline": "Recraft V4.1 Utility Pro.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1-utility-vector",
@@ -27699,7 +27810,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Utility Vector image generation model in the Recraft API, outputting editable SVG vector graphics.",
+        "tagline": "Recraft V4.1 Utility Vector.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1-utility",
@@ -27708,7 +27832,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Utility image generation model in the Recraft API.",
+        "tagline": "Recraft V4.1 Utility.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1-vector",
@@ -27717,7 +27854,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 Vector image generation model in the Recraft API, outputting editable SVG vector graphics.",
+        "tagline": "Recraft V4.1 Vector.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-1",
@@ -27726,7 +27876,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "status": "active",
         "model_type": "image",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-21",
+        "description": "Recraft V4.1 image generation model in the Recraft API.",
+        "tagline": "Recraft V4.1.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraftv4-pro-vector",
@@ -33319,7 +33482,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-08-16",
         "status": "deprecated",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -33375,8 +33538,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -33465,8 +33628,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -33516,8 +33679,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -33565,8 +33728,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -33614,8 +33777,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -33663,8 +33826,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -33713,8 +33876,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -33763,8 +33926,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -33813,8 +33976,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -33864,8 +34027,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -33915,8 +34078,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -33971,8 +34134,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -34021,8 +34184,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -34074,8 +34237,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -34126,8 +34289,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -34174,8 +34337,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -44793,6 +44956,49 @@ export const providers: ProviderWithModels[] = [
         "quantization": "fp4",
         "description": "Hy4 preview is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token and a 1M-token context window. It uses Gated DeepSeek Sparse Attention with IndexCache, and is post-trained for software engineering, office and data analysis, game development, and scientific research.",
         "tagline": "Hy4 preview is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token and a 1M-token context window."
+      },
+      {
+        "id": "tencent/Hy4",
+        "name": "Hy4",
+        "created_by": "tencent",
+        "source": "official",
+        "description": "Hy4 is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token, a 1M-token context window and image understanding. It uses Gated DeepSeek Sparse Attention with IndexCache, and improves on Hy4 preview in instruction following, long-context reasoning, long-horizon agentic tasks, computer use, coding and deep research.",
+        "status": "active",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "tagline": "Hy4 is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token, a 1M-token context window and image understanding.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.834,
+          "output": 2.501,
+          "cached_input": 0.042
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "last_updated": "2026-11-22"
       },
       {
         "id": "thenlper/gte-base",
@@ -83712,7 +83918,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         }
       },
@@ -83751,7 +83957,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         }
       },
@@ -84099,7 +84305,8 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_seen_at": "2026-10-20",
         "last_updated": "2026-10-21",
-        "context_window": 1048576,
+        "context_window": 131072,
+        "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -84125,9 +84332,11 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -94662,10 +94871,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -94703,10 +94912,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -101300,7 +101509,7 @@ export const providers: ProviderWithModels[] = [
         "name": "antigravity-preview-05-2026",
         "created_by": "google",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -101323,7 +101532,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-05-23"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "antigravity-preview-09-2026",
@@ -101334,7 +101543,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+        "page_url": "https://aistudio.google.com/docs/models/antigravity-preview-09-2026",
         "capabilities": {
           "streaming": true,
           "batch": true,
@@ -101354,7 +101563,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-25"
+        "last_updated": "2026-11-22",
+        "description": "A powerful general-purpose managed agent designed for autonomous, multi-step workflows. This model plans, reasons, runs code, manages files, and searches the web inside a secure, isolated Linux sandbox hosted by Google. The September 2026 release (`antigravity-preview-09-2026`) upgrades the runtime harness with improved prompt caching, native code search tools, and efficient line-range file editing.",
+        "tagline": "A powerful general-purpose managed agent designed for autonomous, multi-step workflows."
       },
       {
         "id": "deep-research-max-preview-04-2026",
@@ -101366,7 +101577,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+        "page_url": "https://aistudio.google.com/docs/models/deep-research-max-preview-04-2026",
         "model_type": "reasoning",
         "capabilities": {
           "streaming": true,
@@ -101380,7 +101591,8 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text"
+            "text",
+            "image"
           ]
         },
         "open_weight": false,
@@ -101388,7 +101600,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-22"
+        "last_updated": "2026-11-22",
+        "description": "Maximum comprehensiveness for automated context gathering and synthesis. Deep Research Max is optimized for long-running, accuracy-critical investigations that synthesize complex information from hundreds of public web sources and private workspace data into comprehensive, cited reports. It supports collaborative planning, visualization, MCP servers, and File Search.",
+        "tagline": "Maximum comprehensiveness for automated context gathering and synthesis."
       },
       {
         "id": "deep-research-preview-04-2026",
@@ -101400,7 +101614,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+        "page_url": "https://aistudio.google.com/docs/models/deep-research-preview-04-2026",
         "model_type": "reasoning",
         "capabilities": {
           "streaming": true,
@@ -101414,7 +101628,8 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text"
+            "text",
+            "image"
           ]
         },
         "open_weight": false,
@@ -101422,15 +101637,17 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-22"
+        "last_updated": "2026-11-22",
+        "description": "A powerful agentic researcher designed for autonomous, multi-step investigations that synthesize complex information into comprehensive, cited reports. This model supports collaborative planning, visualization, MCP servers, and File Search. It comes in two versions: Deep Research for speed and efficiency, and Deep Research Max for maximum comprehensiveness.",
+        "tagline": "A powerful agentic researcher designed for autonomous, multi-step investigations that synthesize complex information into comprehensive, cited reports."
       },
       {
         "id": "deep-research-pro-preview-12-2025",
         "name": "deep-research-pro-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-22",
-        "status": "active",
+        "last_updated": "2026-11-22",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "model_type": "reasoning",
@@ -101645,7 +101862,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-06-02",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "knowledge_cutoff": "2024-08",
@@ -101668,9 +101885,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -101717,7 +101932,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.0-flash-lite",
         "open_weight": false,
         "deprecation_date": "2026-06-01",
         "successor": "gemini-3.1-flash-lite"
@@ -101781,7 +101996,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "knowledge_cutoff": "2024-08",
@@ -101804,9 +102019,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -101854,7 +102067,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.0-flash",
         "open_weight": false,
         "deprecation_date": "2026-06-01",
         "successor": "gemini-3.6-flash"
@@ -101864,7 +102077,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-computer-use-preview-10-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-01",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "context_window": 128000,
@@ -101929,10 +102142,12 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-computer-use-preview-10-2025",
         "open_weight": false,
         "deprecation_date": "2026-07-28",
-        "successor": "gemini-3.8-flash"
+        "successor": "gemini-3.8-flash",
+        "description": "This model was shut down on **July 28, 2026**; migrate to Gemini 3.8 Flash or other Gemini 3 models with built-in computer use support to avoid service interruptions. An agentic capability model designed for direct interface interaction, allowing Gemini to perceive and navigate digital environments. Gemini 2.5 Computer Use is best for browser automation, multi-step software tasks, and UI testing that requires visual reasoning and precise cursor control.",
+        "tagline": "This model was shut down on **July 28, 2026**; migrate to Gemini 3.8 Flash or other Gemini 3 models with built-in computer use support to avoid service interruptions."
       },
       {
         "id": "gemini-2.5-flash-image-preview",
@@ -101966,7 +102181,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-image",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-07",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-06",
@@ -101984,13 +102199,11 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "audio"
+            "image"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -102037,7 +102250,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-image",
         "open_weight": false,
         "description": "Our best engine for high-velocity visual creation, offering state-of-the-art speed and efficiency. Gemini 2.5 Flash Image, also known as Nano Banana, is best for high-volume generation, conversational image editing, and low-latency creative workflows that require native multimodal understanding.",
         "tagline": "Our best engine for high-velocity visual creation, offering state-of-the-art speed and efficiency."
@@ -102047,7 +102260,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-lite-preview-09-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -102065,14 +102278,10 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video",
-            "audio"
+            "image"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -102094,7 +102303,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-lite",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -102117,9 +102326,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -102167,7 +102374,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-lite",
         "open_weight": false,
         "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 2.5 Flash-Lite is best for high-volume classification, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
         "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
@@ -102177,7 +102384,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-native-audio-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -102189,19 +102396,17 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
             "text",
-            "image",
             "video",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -102214,10 +102419,35 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
         "open_weight": false,
         "description": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses, creating a natural conversational experience for your users.",
-        "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash."
+        "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash.",
+        "pricing": {
+          "input": 0.5,
+          "output": 2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.5,
+                    null,
+                    2
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -102251,9 +102481,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-preview-09-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -102269,14 +102499,10 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video",
-            "audio"
+            "image"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -102289,7 +102515,9 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-02-17",
+        "successor": "gemini-3.6-flash"
       },
       {
         "id": "gemini-2.5-flash-preview-09-25",
@@ -102323,7 +102551,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-preview-tts",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "context_window": 8192,
@@ -102335,18 +102563,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -102393,7 +102617,7 @@ export const providers: ProviderWithModels[] = [
           "streamGenerateContent"
         ],
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-preview-tts",
         "open_weight": false,
         "description": "Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation. Gemini 2.5 Flash TTS is best for real-time assistants, high-volume narration, and conversational use cases that require fine-grained control over voice style and pacing.",
         "tagline": "Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation."
@@ -102403,7 +102627,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -102426,9 +102650,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -102476,7 +102698,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash",
         "open_weight": false,
         "description": "Our best model in terms of price-performance, offering well-rounded capabilities. 2.5 Flash is best for large scale processing, low-latency, high volume tasks that require thinking, and agentic use cases.",
         "tagline": "Our best model in terms of price-performance, offering well-rounded capabilities."
@@ -102486,11 +102708,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-03-25",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-12-02",
-        "successor": "gemini-3.1-pro-preview",
+        "successor": "gemini-3.8-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -102513,11 +102735,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-05-06",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-12-02",
-        "successor": "gemini-3.1-pro-preview",
+        "successor": "gemini-3.8-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -102540,11 +102762,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-06-05",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-12-02",
-        "successor": "gemini-3.1-pro-preview",
+        "successor": "gemini-3.8-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -102567,7 +102789,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-tts",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "context_window": 8192,
@@ -102579,18 +102801,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -102637,7 +102855,7 @@ export const providers: ProviderWithModels[] = [
           "streamGenerateContent"
         ],
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-pro-preview-tts",
         "open_weight": false,
         "description": "Our premium engine for studio-quality speech synthesis, offering high-fidelity and sophisticated audio generation. Gemini 2.5 Pro TTS is best for long-form content, professional narrations, and complex creative workflows that require the highest level of vocal clarity and natural prosody.",
         "tagline": "Our premium engine for studio-quality speech synthesis, offering high-fidelity and sophisticated audio generation."
@@ -102647,7 +102865,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -102670,9 +102888,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -102720,7 +102936,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-pro",
         "open_weight": false,
         "description": "Our state-of-the-art thinking model, capable of reasoning over complex problems in code, math, and STEM, as well as analyzing large datasets, codebases, and documents using long context.",
         "tagline": "Our state-of-the-art thinking model, capable of reasoning over complex problems in code, math, and STEM, as well as analyzing large datasets, codebases, and documents using long context."
@@ -102730,7 +102946,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-flash-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-3",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -102753,9 +102969,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -102803,7 +103017,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3-flash-preview",
         "open_weight": false,
         "description": "The best model in the world for multimodal understanding, and our most powerful agentic and vibe-coding model yet, delivering richer visuals and deeper interactivity, all built on a foundation of state-of-the-art reasoning.",
         "tagline": "The best model in the world for multimodal understanding, and our most powerful agentic and vibe-coding model yet, delivering richer visuals and deeper interactivity, all built on a foundation of stat"
@@ -102897,7 +103111,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 65536,
         "max_output_tokens": 32768,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3-pro-image",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -102911,13 +103125,11 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "audio"
+            "image"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -102942,14 +103154,6 @@ export const providers: ProviderWithModels[] = [
                     null,
                     12
                   ]
-                },
-                {
-                  "label": "Batch",
-                  "values": [
-                    1,
-                    null,
-                    6
-                  ]
                 }
               ]
             }
@@ -102963,8 +103167,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3 Pro Image Nano Banana Pro is a sophisticated reasoning-driven engine for professional-grade image editing and generation, offering studio-quality precision and advanced creative control. Nano Banana Pro is best for complex graphic design, high-fidelity product mockups, and factual data visualizations that require accurate text rendering and real-world grounding via Google Search.",
+        "last_updated": "2026-11-22",
+        "description": "**Nano Banana Pro** is a sophisticated reasoning-driven engine for professional-grade image editing and generation, offering studio-quality precision and advanced creative control. Nano Banana Pro is best for complex graphic design, high-fidelity product mockups, and factual data visualizations that require accurate text rendering and real-world grounding via Google Search.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -102972,7 +103176,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-pro-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-3",
         "status": "deprecated",
         "deprecation_date": "2026-03-09",
@@ -102997,9 +103201,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -103011,7 +103213,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3-pro-preview",
         "open_weight": false
       },
       {
@@ -103103,7 +103305,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "max_output_tokens": 32768,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-image",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -103118,13 +103320,11 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
-            "audio"
+            "video"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -103149,14 +103349,6 @@ export const providers: ProviderWithModels[] = [
                     null,
                     3
                   ]
-                },
-                {
-                  "label": "Batch",
-                  "values": [
-                    0.25,
-                    null,
-                    1.5
-                  ]
                 }
               ]
             }
@@ -103170,8 +103362,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-04",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Image Nano Banana 2 provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image , optimized for speed and high-volume developer use cases. Key updates: New output resolution options: New support for 0.5K, 2K and 4K, default 1K New Image Search Grounding: Integration of both text and image search results to inform generation with real-time web data Supported with Thinking on or off New 1:4, 4:1, 1:8 and 8:1 aspect ratios Improved aspect ratio adherence Improved image quality and consistency Improved i18n text rendering",
+        "last_updated": "2026-11-22",
+        "description": "**Nano Banana 2** provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image, optimized for speed and high-volume developer use cases. * New output resolution options: * New support for 0.5K, 2K and 4K, default 1K * New Image Search Grounding: * Integration of both text and image search results to inform generation with real-time web data * Supported with Thinking on or off * New 1:4, 4:1, 1:8 and 8:1 aspect ratios * Improved aspect ratio adherence * Improved image quality and consistency * Improved i18n text rendering",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -103180,13 +103372,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Lite Image Nano Banana 2 Lite is designed as the efficiency specialist of the image generation family, offering ultra-low latency and cost-effective image generation and editing. By targeting a sub-2 second latency and significantly reduced TPU compute costs, this model enables high-volume interactive developer use cases and real-time consumer applications. Key capabilities: Sub-2 second end-to-end latency Interleaved generation and editing with native support for Text -&gt; Text + Image(s) and Image + Text -&gt; Text + Image(s). Optimized for lower resolutions of 1K (1024x1024px). Supports a discrete set of 14 aspect ratios including standard formats. Fast multi-turn local edits (swapping colors, sticker creation, background adjustments). Maintains high character alignment matching original Nano Banana standards. New 1:1 , 3:2 , 2:3 , 3:4 , 4:3 , 4:5 , 5:4 , 9:16 , 16:9 , 21:9 aspect ratios. Supported image_size values: 1024px (1K). (Note: 2K and 4K are unsupported). SynthID watermarking (Always On) + C2PA .",
+        "description": "**Nano Banana 2 Lite** is designed as the efficiency specialist of the image generation family, offering ultra-low latency and cost-effective image generation and editing. By targeting a sub-2 second latency and significantly reduced TPU compute costs, this model enables high-volume interactive developer use cases and real-time consumer applications. **Key capabilities:** * **Sub-2 second end-to-end latency** * **Interleaved generation and editing** with native support for Text -> Text + Image(s) and Image + Text -> Text + Image(s). * **Optimized for lower resolutions** of 1K (1024x1024px). * Supports a discrete set of **14 aspect ratios** including standard formats. * **Fast multi-turn local edits** (swapping colors, sticker creation, background adjustments). * Maintains high character alignment matching original Nano Banana standards. * New `1:1`, `3:2`, `2:3`, `3:4`, `4:3`, `4:5`, `5:4`, `9:16`, `16:9`, `21:9` aspect ratios. * Supported `image_size` values: `1024px` (1K). *(Note: 2K and 4K are unsupported).* * **SynthID watermarking (Always On) + C2PA**.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 65536,
         "max_output_tokens": 4096,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-lite-image",
         "model_type": "chat",
         "tagline": "The Interactions API is now generally available.",
         "capabilities": {
@@ -103202,13 +103394,11 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
-            "audio"
+            "video"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -103254,14 +103444,14 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-04"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
         "name": "gemini-3.1-flash-lite-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-29",
+        "last_updated": "2026-11-22",
         "family": "gemini-3.1",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -103284,9 +103474,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -103334,7 +103522,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-lite-preview",
         "open_weight": false,
         "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
         "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks.",
@@ -103347,13 +103535,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-lite",
         "model_type": "chat",
         "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
         "capabilities": {
@@ -103373,9 +103561,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -103422,7 +103608,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.1-flash-live-preview",
@@ -103435,7 +103621,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-live-preview",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -103450,12 +103636,10 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -103492,8 +103676,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Live Preview Gemini 3.1 Flash Live Preview is our low-latency, audio-to-audio model optimized for real-time dialogue and voice-first AI applications with acoustic nuance detection, numeric precision, and multimodal awareness.",
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.1 Flash Live Preview is our legacy preview audio-to-audio model for real-time dialogue and voice-first AI applications. For new applications and production workloads, we recommend migrating to Gemini 3.8 Live (`gemini-3.8-live`) or Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`).",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -103502,13 +103686,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
+        "description": "`gemini-3.1-flash-tts-preview` is a legacy preview model. For new and production workloads, migrate to Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) or Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`). See the migration guide. The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-flash-tts-preview",
         "model_type": "tts",
         "tagline": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
         "capabilities": {
@@ -103517,18 +103701,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -103575,14 +103755,14 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-25"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.1-pro-preview",
         "name": "gemini-3.1-pro-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-11-22",
         "family": "gemini-3.1",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -103605,9 +103785,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -103655,9 +103833,9 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.1-pro-preview",
         "open_weight": false,
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Pro Preview Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It&#39;s optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
+        "description": "Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It's optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -103666,12 +103844,12 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.5",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "status": "active",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.5-flash-lite",
         "model_type": "chat",
         "tagline": "The Interactions API is now generally available.",
         "capabilities": {
@@ -103691,9 +103869,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -103740,7 +103916,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.5-flash",
@@ -103748,7 +103924,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -103821,7 +103997,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-11-22",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Flash Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available."
       },
@@ -103836,7 +104012,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.5-live-translate-preview",
         "model_type": "translation",
         "capabilities": {
           "streaming": true,
@@ -103844,18 +104020,15 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -103892,8 +104065,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Live Translate Gemini 3.5 Live Translate is our low-latency, audio-to-audio model optimized for real-time translation of spoken conversations. It enables seamless, bidirectional translation with high accuracy and natural voice output.",
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.5 Live Translate is our low-latency, audio-to-audio model optimized for real-time translation of spoken conversations. It enables seamless, bidirectional translation with high accuracy and natural voice output.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -103904,24 +104077,21 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-3.5",
         "status": "active",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.5-transcribe",
         "model_type": "transcription",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "reasoning": true,
           "batch": true,
-          "vision": true
+          "vision": false
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
             "audio"
           ],
           "output": [
-            "text",
-            "image"
+            "text"
           ]
         },
         "pricing": {
@@ -103957,7 +104127,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities. It provides low-latency, accurate transcription with utterance-based language detection, speaker diarization, word-level timestamps, Smart transcription (including voice editing), and custom vocabulary speech biasing.",
+        "tagline": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities."
       },
       {
         "id": "gemini-3.6-flash",
@@ -103965,12 +104137,12 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.6",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "status": "active",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.6-flash",
         "model_type": "chat",
         "tagline": "The Interactions API is now generally available.",
         "capabilities": {
@@ -103990,9 +104162,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -104039,7 +104209,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-16"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.7-flash",
@@ -104048,7 +104218,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemini-3.7",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.7 Flash Gemini 3.7 Flash is the next iteration in the Gemini 3 series of highly-capable, natively multimodal, reasoning models.",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -104121,7 +104291,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-16"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.8-flash-lite-tts",
@@ -104133,7 +104303,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-flash-lite-tts",
         "model_type": "tts",
         "capabilities": {
           "streaming": true,
@@ -104141,18 +104311,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -104200,7 +104366,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+        "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w"
       },
       {
         "id": "gemini-3.8-flash-tts",
@@ -104212,7 +104380,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-flash-tts",
         "model_type": "tts",
         "capabilities": {
           "streaming": true,
@@ -104220,18 +104388,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -104279,7 +104443,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-solid long-form multi-turn stability.",
+        "tagline": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-so"
       },
       {
         "id": "gemini-3.8-flash",
@@ -104291,7 +104457,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-flash",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -104310,9 +104476,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -104359,7 +104523,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-03"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+        "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl"
       },
       {
         "id": "gemini-3.8-live-extended-thinking",
@@ -104371,7 +104537,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-live-extended-thinking",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -104390,7 +104556,6 @@ export const providers: ProviderWithModels[] = [
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -104402,7 +104567,34 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-20"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions. It processes configurable background reasoning (`low`, `medium`, `high`), thought summaries, and asynchronous tool calls while streaming continuous audio responses. For low-latency conversational voice experiences without background reasoning delays, see Gemini 3.8 Live.",
+        "tagline": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions.",
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    null,
+                    4.5
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-3.8-live",
@@ -104414,7 +104606,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-3.8-live",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -104429,12 +104621,10 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -104471,7 +104661,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-16"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays. It supports interleaved reasoning, asynchronous and synchronous function calling, full-session client content updates, and built-in proactive audio. For complex agentic tasks requiring multi-step reasoning and configurable thinking budgets, see Gemini 3.8 Live Extended Thinking.",
+        "tagline": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays."
       },
       {
         "id": "gemini-4-argon",
@@ -104481,7 +104673,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-4",
         "status": "active",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-4-argon",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -104500,9 +104692,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -104549,19 +104739,321 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-14"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model."
+      },
+      {
+        "id": "gemini-4-carbon",
+        "name": "gemini-4-carbon",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-4-carbon",
+        "model_type": "chat",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.1,
+          "batch_input": 1,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.1,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    null,
+                    5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-4-hydrogen",
+        "name": "gemini-4-hydrogen",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "description": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-4-hydrogen",
+        "model_type": "chat",
+        "tagline": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window a",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cached_input": 0.075,
+          "batch_input": 0.75,
+          "batch_output": 3.75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    0.075,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.75,
+                    null,
+                    3.75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-4-neon",
+        "name": "gemini-4-neon",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "description": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-4-neon",
+        "model_type": "chat",
+        "tagline": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified ",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.15,
+          "batch_input": 1.5,
+          "batch_output": 7.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    0.15,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.5,
+                    null,
+                    7.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-decision-1",
+        "name": "gemini-decision-1",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API. It evaluates typed questions over text, images, video, audio, and PDFs in a single prefill pass and returns calibrated outcome probabilities with zero output tokens. Use Gemini Decision 1 for request routing, policy checks across many rules at once, candidate scoring against a rubric, tool selection, and low-latency classification over live media streams. A single request can evaluate up to 1,000 independent questions over shared input up to 262,144 tokens: * **Yes/no:** Returns a calibrated probability from 0.01 to 0.99 and a confidence score. * **Single-select:** Evaluates 2 to 255 options and returns the top option, per-option probabilities, and confidence. * **Rubric rating:** Evaluates 2 to 255 ordered rubric levels and returns the probability-weighted expected score, per-level probabilities, and confidence.",
+        "status": "active",
+        "context_window": 262144,
+        "license": "proprietary",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-decision-1",
+        "model_type": "chat",
+        "tagline": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-embedding-001",
         "name": "gemini-embedding-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "status": "active",
         "context_window": 2048,
         "model_type": "embed",
         "capabilities": {
-          "vision": true
+          "vision": false
         },
         "modalities": {
           "input": [
@@ -104577,15 +105069,50 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "gemini-embedding",
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
-        "open_weight": false
+        "page_url": "https://aistudio.google.com/docs/models/gemini-embedding-001",
+        "open_weight": false,
+        "description": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images. The Gemini Embedding model is best for semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large datasets.",
+        "tagline": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images.",
+        "pricing": {
+          "input": 0.15,
+          "batch_input": 0.075,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.15,
+                    null,
+                    null
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.075,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-embedding-2-preview",
         "name": "gemini-embedding-2-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "context_window": 8192,
         "model_type": "embed",
@@ -104607,7 +105134,9 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-embedding",
         "license": "proprietary",
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-11-06",
+        "successor": "gemini-embedding-2"
       },
       {
         "id": "gemini-embedding-2",
@@ -104618,14 +105147,17 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "context_window": 8192,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-embedding-2",
         "model_type": "embed",
         "capabilities": {
           "vision": true
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image",
+            "video",
+            "audio"
           ],
           "output": [
             "text"
@@ -104669,7 +105201,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-05-29"
+        "last_updated": "2026-11-22",
+        "description": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space. The Gemini Embedding 2 model is best for cross-modal semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large multimodal datasets.",
+        "tagline": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space."
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -104747,12 +105281,12 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-nano-banana-2.1",
         "created_by": "google",
         "source": "official",
-        "description": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). Key updates: Improved visual quality and realism across 1K , 2K , and 4K output resolutions (default 1K ) Fixed tiling artifacts on wide and panoramic aspect ratios ( 1:4 , 4:1 , 1:8 , 8:1 ) at 2K and 4K resolutions Enhanced text rendering and infographic layout accuracy Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) Grounding with Google Web and Image Search Configurable Thinking levels ( minimal , medium default, and high )",
+        "description": "**Gemini Nano Banana 2.1** (`gemini-nano-banana-2.1`) is the latest high-efficiency image generation and conversational editing model. An update to Nano Banana 2 (Gemini 3.1 Flash Image), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). * Improved visual quality and realism across `1K`, `2K`, and `4K` output resolutions (default `1K`) * Fixed tiling artifacts on wide and panoramic aspect ratios (`1:4`, `4:1`, `1:8`, `8:1`) at `2K` and `4K` resolutions * Enhanced text rendering and infographic layout accuracy * Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) * Grounding with Google Web and Image Search * Configurable Thinking levels (`minimal`, `medium` default, and `high`)",
         "status": "active",
         "context_window": 131072,
         "max_output_tokens": 32768,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-nano-banana-2.1",
         "model_type": "chat",
         "tagline": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering.",
         "capabilities": {
@@ -104768,13 +105302,11 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
-            "audio"
+            "video"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -104820,7 +105352,56 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-07"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-omni-1.1-flash",
+        "name": "gemini-omni-1.1-flash",
+        "created_by": "google",
+        "source": "official",
+        "status": "active",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    null,
+                    9
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-omni-flash-preview",
@@ -104869,20 +105450,20 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "gemini-omni-flash",
         "name": "gemini-omni-flash",
         "created_by": "google",
         "source": "official",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Omni Flash Note: Gemini Omni Flash is in preview . Gemini Omni Flash is a preview model designed for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API.",
+        "description": "Gemini Omni Flash is a high-performance model for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API, and supports video extension, up to 4K output resolution, and advanced interpolation.",
         "status": "active",
-        "context_window": 1048576,
+        "context_window": 131072,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-omni-flash",
         "model_type": "chat",
         "tagline": "The Interactions API is now generally available.",
         "capabilities": {
@@ -104896,7 +105477,9 @@ export const providers: ProviderWithModels[] = [
             "video"
           ],
           "output": [
-            "text"
+            "text",
+            "video",
+            "audio"
           ]
         },
         "open_weight": false,
@@ -104904,14 +105487,40 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-08"
+        "last_updated": "2026-11-22",
+        "max_output_tokens": 65536,
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    null,
+                    9
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-robotics-er-1.5-preview",
         "name": "gemini-robotics-er-1.5-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
@@ -104928,14 +105537,10 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video",
-            "audio"
+            "image"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -104966,7 +105571,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
+        "page_url": "https://aistudio.google.com/docs/models/gemini-robotics-er-1.6-preview",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -104985,9 +105590,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "open_weight": false,
@@ -104998,8 +105601,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-31",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 1.6 Gemini Robotics ER 1.6 is a vision-language model (VLM) that brings Gemini&#39;s agentic capabilities to robotics. It&#39;s designed for advanced reasoning in the physical world, allowing robots to interpret complex visual data, perform spatial reasoning, and plan actions from natural language commands.",
+        "last_updated": "2026-11-22",
+        "description": "Gemini Robotics ER 1.6 is a vision-language model (VLM) that brings Gemini's agentic capabilities to robotics. It's designed for advanced reasoning in the physical world, allowing robots to interpret complex visual data, perform spatial reasoning, and plan actions from natural language commands.",
         "tagline": "The Interactions API is now generally available.",
         "deprecation_date": "2026-08-31",
         "successor": "gemini-robotics-er-2-preview"
@@ -105011,7 +105614,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemini-2",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 2 Preview Gemini Robotics ER 2 is a vision-language model (VLM) for robotics that accepts text, image, video, and audio input. It supports spatial reasoning, video understanding, agentic code execution, multi-step tool orchestration, and multi-robot coordination.",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 65536,
@@ -105049,7 +105652,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-31"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-robotics-er-2-streaming-preview",
@@ -105058,7 +105661,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemini-2",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 2 Streaming Preview Gemini Robotics ER 2 Streaming is a vision-language model (VLM) for robotics optimized for real-time text streaming using the Live API. It accepts text, image, video, and audio input and supports bidirectional streaming with function calling.",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 65536,
@@ -105096,7 +105699,63 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-31"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "genie-4",
+        "name": "genie-4",
+        "created_by": "google",
+        "source": "official",
+        "description": "Genie 4 (`genie-4`) is a real-time interactive world generation model on the Interactions API. Seed a world from a text prompt, a 16:9 reference image, or both, then explore and steer the live 24 fps video and 48 kHz stereo audio stream in real time using keyboard movement controls (`WASD` and arrow keys) and mid-session text events. For offline, fixed-duration clip generation, multi-turn video editing, and upsampling up to 4K, use Gemini Omni 1.2 Flash instead.",
+        "status": "active",
+        "license": "proprietary",
+        "page_url": "https://aistudio.google.com/docs/models/genie-4",
+        "tagline": "Genie 4 (`genie-4`) is a real-time interactive world generation model on the Interactions API.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    null,
+                    9
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "imagen-3.0-generate-002",
@@ -105235,8 +105894,8 @@ export const providers: ProviderWithModels[] = [
         "name": "imagen",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
-        "status": "active",
+        "last_updated": "2026-11-22",
+        "status": "deprecated",
         "context_window": 480,
         "model_type": "image",
         "capabilities": {
@@ -105278,7 +105937,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "context_window": 131072,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
+        "page_url": "https://aistudio.google.com/docs/models/lyria-3-clip-preview",
         "model_type": "tts",
         "capabilities": {
           "streaming": true,
@@ -105291,9 +105950,11 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -105305,8 +105966,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Lyria 3 Clip Preview Lyria 3 Clip Preview is Google&#39;s model optimized for generating short musical clips, loops, and previews. It generates 30-second high-quality, 48kHz stereo audio from text prompts or image inputs.",
+        "last_updated": "2026-11-22",
+        "description": "Lyria 3 Clip Preview is Google's model optimized for generating short musical clips, loops, and previews. It generates 30-second high-quality, 48kHz stereo audio from text prompts or image inputs.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -105317,7 +105978,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "context_window": 131072,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
+        "page_url": "https://aistudio.google.com/docs/models/lyria-3-pro-preview",
         "model_type": "tts",
         "capabilities": {
           "streaming": true,
@@ -105330,9 +105991,11 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -105344,8 +106007,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Lyria 3 Pro Preview Lyria 3 Pro Preview is Google&#39;s flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 48kHz stereo audio from text prompts or image inputs.",
+        "last_updated": "2026-11-22",
+        "description": "Lyria 3 Pro Preview is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 48kHz stereo audio from text prompts or image inputs.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -105430,7 +106093,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "context_window": 131072,
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+        "page_url": "https://aistudio.google.com/docs/models/lyria-3.5",
         "model_type": "tts",
         "capabilities": {
           "streaming": true,
@@ -105443,9 +106106,11 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -105457,14 +106122,16 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-06"
+        "last_updated": "2026-11-22",
+        "description": "Lyria 3.5 is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 44.1 kHz stereo audio from text prompts or image inputs.",
+        "tagline": "Lyria 3.5 is Google's flagship music generation model."
       },
       {
         "id": "lyria-realtime-exp",
         "name": "lyria-realtime-exp",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-22",
         "status": "active",
         "model_type": "tts",
         "capabilities": {
@@ -105473,7 +106140,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
@@ -105492,8 +106159,10 @@ export const providers: ProviderWithModels[] = [
           "streamGenerateContent"
         ],
         "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
-        "open_weight": false
+        "page_url": "https://aistudio.google.com/docs/models/lyria-realtime-exp",
+        "open_weight": false,
+        "description": "An experimental engine for high-fidelity musical synthesis, offering innovative capabilities for generating and transforming audio content. Lyria RealTime is best for AI-assisted songwriting, unique instrumental generation, and creative audio workflows that require deep control over melody and rhythm, with no vocals.",
+        "tagline": "An experimental engine for high-fidelity musical synthesis, offering innovative capabilities for generating and transforming audio content."
       },
       {
         "id": "text-embedding-004",
@@ -105522,7 +106191,7 @@ export const providers: ProviderWithModels[] = [
         "name": "veo-2.0-generate-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "model_type": "video",
         "capabilities": {
@@ -105536,8 +106205,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -105557,11 +106225,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
         "tagline": "Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows.",
         "deprecation_date": "2026-06-30",
-        "successor": [
-          "gemini-omni-1.1-flash",
-          "the GA models on the Gemini Enterprise Agent Platf",
-          "m"
-        ]
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.0-fast-generate-001",
@@ -105581,23 +106245,19 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-06-30",
-        "successor": [
-          "gemini-omni-1.1-flash",
-          "the GA models on the Gemini Enterprise Agent Platf",
-          "m"
-        ]
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.0-fast-generate-preview",
         "name": "veo-3.0-fast-generate-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "deprecation_date": "2025-11-12",
-        "successor": "gemini-omni-1.1-flash",
+        "successor": "gemini-omni-1.2-flash",
         "model_type": "video",
         "modalities": {
           "input": [
@@ -105629,23 +106289,19 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-06-30",
-        "successor": [
-          "gemini-omni-1.1-flash",
-          "the GA models on the Gemini Enterprise Agent Platf",
-          "m"
-        ]
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.0-generate-preview",
         "name": "veo-3.0-generate-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "deprecation_date": "2025-11-12",
-        "successor": "gemini-omni-1.1-flash",
+        "successor": "gemini-omni-1.2-flash",
         "model_type": "video",
         "modalities": {
           "input": [
@@ -105677,16 +106333,16 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.1-generate-preview",
         "name": "veo-3.1-generate-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "context_window": 1024,
         "model_type": "video",
@@ -105701,8 +106357,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -105722,7 +106377,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production. Veo 3.1 is best for professional-grade 4K output, natively synchronized audio generation, and complex camera movements that require the highest level of temporal consistency and artistic control.",
         "tagline": "A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production.",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.1-lite-generate-preview",
@@ -105741,8 +106396,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -105753,11 +106407,11 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Veo 3.1 Lite Preview is a high-efficiency, developer-first video model providing high-fidelity video generation, editing, and cinematic control. It leverages the state-of-the-art Veo 3.1 model to democratize professional-grade video AI by offering a scalable, programmable interface for creators and enterprises.",
         "tagline": "The Interactions API is now generally available.",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       }
     ]
   },
@@ -106159,7 +106813,7 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "json_mode": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
           "vision": false,
@@ -106204,7 +106858,7 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "json_mode": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
           "vision": false,
@@ -107675,7 +108329,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OTel-LLM-32B-IT",
         "created_by": "farbodtavakkoli",
         "source": "official",
-        "description": "**OTel-LLM-32B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "description": "**OTel-LLM-32B-IT** is a context-grounded telecom language model full-parameter fine-tuned on OTel telecommunications data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-10-llm), an open-source initiative to build reference AI resources for the global telecommunications sector.",
         "release_date": "2026-02-11",
         "context_window": 65536,
         "license": "apache-2.0",
@@ -107691,7 +108345,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-17"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "farbodtavakkoli/OTel-LLM-4B-IT",
@@ -109927,9 +110581,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "fine_tuning": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -109968,9 +110622,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "fine_tuning": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -117857,6 +118511,15 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": null
       },
       {
+        "id": "muse-ember-1.0",
+        "name": "Muse Ember 1.0",
+        "created_by": "meta",
+        "source": "official",
+        "family": "muse-ember",
+        "page_url": "https://dev.meta.ai/docs/models",
+        "last_updated": "2026-11-22"
+      },
+      {
         "id": "Muse-Glimmer-30B-ExecuTorch-PTE",
         "name": "Muse-Glimmer-30B-ExecuTorch-PTE",
         "created_by": "meta",
@@ -117921,6 +118584,15 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": true,
         "last_updated": "2026-10-29"
+      },
+      {
+        "id": "muse-image-1.0",
+        "name": "Muse Image 1.0",
+        "created_by": "meta",
+        "source": "official",
+        "family": "muse-image",
+        "page_url": "https://dev.meta.ai/docs/models",
+        "last_updated": "2026-11-22"
       },
       {
         "id": "muse-spark-1.1",
@@ -118014,13 +118686,32 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-10-29"
       },
       {
+        "id": "muse-voice-transcribe-1.0",
+        "name": "Muse Voice Transcribe 1.0",
+        "created_by": "meta",
+        "source": "official",
+        "family": "muse-voice-transcribe",
+        "page_url": "https://dev.meta.ai/docs/models",
+        "model_type": "transcription",
+        "last_updated": "2026-11-22"
+      },
+      {
         "id": "muse-wonder-1.0",
-        "name": "Muse Wonder",
+        "name": "Muse Wonder 1.0",
         "created_by": "meta",
         "source": "official",
         "family": "muse-wonder",
         "page_url": "https://dev.meta.ai/docs/models",
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "sam-3.1",
+        "name": "Sam 3.1",
+        "created_by": "meta",
+        "source": "official",
+        "family": "sam",
+        "page_url": "https://dev.meta.ai/docs/models",
+        "last_updated": "2026-11-22"
       }
     ]
   },
@@ -118185,6 +118876,31 @@ export const providers: ProviderWithModels[] = [
           "output": null
         },
         "last_updated": "2026-10-29"
+      },
+      {
+        "id": "minimax-h3-image",
+        "name": "MiniMax-H3-Image",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "Image generation model supporting text-to-image and image editing (1–16 reference images). Output dimensions can be specified by width and height, or by area tier and aspect ratio. Supports streaming output",
+        "status": "active",
+        "model_type": "image",
+        "tagline": "Image generation model supporting text-to-image and image editing (1–16 reference images).",
+        "capabilities": {
+          "streaming": false,
+          "tool_call": false
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "last_updated": "2026-11-22"
       },
       {
         "id": "minimax-h3-lite",
@@ -123178,7 +123894,921 @@ export const providers: ProviderWithModels[] = [
     "github_url": "https://github.com/nebius",
     "twitter_url": "https://x.com/nebiustf",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M20 2.306v16.797s4-.242 4-4.815V2.306h-4zM4 22.001V5.204s-4 .242-4 4.816V22h4z\"></path><path d=\"M16.318 16.51L11.286 4.94c-.824-1.872-2.168-2.926-4.077-2.926-1.908 0-3.211 1.54-3.211 3.19 0 0 2.405-.333 3.68 2.593l5.036 11.57c.821 1.87 2.168 2.926 4.075 2.926 1.905 0 3.211-1.541 3.211-3.19 0 0-2.406.333-3.682-2.594z\"></path>\n</svg>",
-    "models": []
+    "models": [
+      {
+        "id": "deepseek/deepseek-v4-flash-0731",
+        "name": "DeepSeek: DeepSeek V4 Flash 0731",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
+        "status": "active",
+        "release_date": "2026-07-31",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.01
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "DeepSeek",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro-0813",
+        "name": "DeepSeek: DeepSeek V4 Pro 0813",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
+        "status": "active",
+        "release_date": "2026-08-12",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.32,
+          "output": 3.96,
+          "cached_input": 0.04
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "DeepSeek",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash-1017",
+        "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
+        "status": "active",
+        "release_date": "2026-10-17",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0.72,
+          "cached_input": 0.004
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "DeepSeek",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek: DeepSeek V4.1 Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
+        "status": "active",
+        "release_date": "2026-09-10",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.01
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "DeepSeek",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "google/gemma-3-27b-it",
+        "name": "Google: Gemma 3 27B",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-3",
+        "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+        "status": "active",
+        "release_date": "2025-03-12",
+        "context_window": 110000,
+        "max_output_tokens": 99000,
+        "model_type": "chat",
+        "parameters": 27,
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+        "capabilities": {
+          "structured_output": true,
+          "vision": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "cached_input": 0.04
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "Gemini",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "meta/muse-spark-open",
+        "name": "Meta: Muse Spark Open",
+        "created_by": "meta",
+        "source": "official",
+        "description": "Muse Spark Open is a coding-optimized open-weight model.",
+        "status": "active",
+        "release_date": "2026-10-15",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "Muse Spark Open is a coding-optimized open-weight model.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 4.25,
+          "cached_input": 0.15
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax: MiniMax M3.1 Flash",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax.",
+        "status": "active",
+        "release_date": "2026-10-19",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "MiniMax-M3.1-Flash is a multimodal model from MiniMax.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.015
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "moonshotai/kimi-k3.1-pro",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k3.1",
+        "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window.",
+        "status": "active",
+        "release_date": "2026-10-23",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.2
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "moonshotai/kimi-k3",
+        "name": "MoonshotAI: Kimi K3",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k3",
+        "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI.",
+        "status": "active",
+        "release_date": "2026-07-16",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "nousresearch/hermes-4-405b",
+        "name": "Nous: Hermes 4 405B",
+        "created_by": "nousresearch",
+        "source": "official",
+        "description": "Hermes 4 is a large-scale reasoning model built on Meta-Llama-3.1-405B and released by Nous Research.",
+        "status": "active",
+        "release_date": "2025-08-26",
+        "context_window": 131072,
+        "max_output_tokens": 117964,
+        "model_type": "chat",
+        "parameters": 405,
+        "tagline": "Hermes 4 is a large-scale reasoning model built on Meta-Llama-3.1-405B and released by Nous Research.",
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3,
+          "cached_input": 0.2
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-30b-a3b",
+        "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+        "created_by": "nvidia",
+        "source": "official",
+        "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
+        "status": "active",
+        "release_date": "2025-12-14",
+        "context_window": 262144,
+        "max_output_tokens": 235929,
+        "model_type": "chat",
+        "parameters": 30,
+        "active_parameters": 3,
+        "tagline": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0.24,
+          "cached_input": 0.012
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-super-vl",
+        "name": "NVIDIA: Nemotron 3.5 Super VL",
+        "created_by": "nvidia",
+        "source": "official",
+        "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total.",
+        "status": "active",
+        "release_date": "2026-10-15",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 0.9,
+          "cached_input": 0.06
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "openai/gpt-oss-120b",
+        "name": "OpenAI: gpt-oss-120b",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-oss",
+        "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
+        "status": "active",
+        "release_date": "2025-08-05",
+        "context_window": 131072,
+        "max_output_tokens": 117964,
+        "model_type": "chat",
+        "parameters": 120,
+        "tagline": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "vision": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.1
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "GPT",
+        "last_updated": "2026-11-22",
+        "knowledge_cutoff": "2024-06",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b-instruct-2507",
+        "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3",
+        "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
+        "status": "active",
+        "release_date": "2025-07-29",
+        "context_window": 262144,
+        "max_output_tokens": 235929,
+        "model_type": "chat",
+        "parameters": 30,
+        "active_parameters": 3,
+        "tagline": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "cached_input": 0.1
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp8",
+        "tokenizer": "Qwen3",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "qwen/qwen3.8-27b",
+        "name": "Qwen: Qwen3.8 27B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3.8",
+        "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
+        "status": "active",
+        "release_date": "2026-08-14",
+        "context_window": 1000000,
+        "max_output_tokens": 900000,
+        "model_type": "chat",
+        "parameters": 27,
+        "tagline": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.45,
+          "output": 3,
+          "cached_input": 0.1
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Qwen",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "reflection/beam-1.0-501b-a23b",
+        "name": "Reflection: Beam 1.0 501B A23B",
+        "created_by": "reflection",
+        "source": "official",
+        "description": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows.",
+        "status": "active",
+        "release_date": "2026-10-16",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "parameters": 501,
+        "active_parameters": 23,
+        "tagline": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1,
+          "cached_input": 0.05
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "thinkingmachines/inkling-2-small",
+        "name": "Thinking Machines: Inkling 2 Small",
+        "created_by": "thinkingmachines",
+        "source": "official",
+        "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total.",
+        "status": "active",
+        "release_date": "2026-11-09",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1,
+          "cached_input": 0.06
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "z-ai/glm-5.2",
+        "name": "Z.ai: GLM 5.2",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-5.2",
+        "description": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
+        "status": "active",
+        "release_date": "2026-06-16",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true,
+          "prompt_caching": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.14
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22",
+        "license": "mit",
+        "open_weight": true
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "Z.ai: GLM 5.3 Flash",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-5.3",
+        "description": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+        "status": "active",
+        "release_date": "2026-08-26",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "json_mode": true,
+          "prompt_caching": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.5,
+          "cached_input": 0.03
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22",
+        "license": "mit",
+        "parameters": 320,
+        "active_parameters": 18,
+        "open_weight": true
+      },
+      {
+        "id": "z-ai/glm-5.3",
+        "name": "Z.ai: GLM 5.3",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-5.3",
+        "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
+        "status": "active",
+        "release_date": "2026-08-18",
+        "context_window": 1048576,
+        "max_output_tokens": 943718,
+        "model_type": "chat",
+        "tagline": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true,
+          "prompt_caching": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "quantization": "fp4",
+        "tokenizer": "Other",
+        "last_updated": "2026-11-22",
+        "license": "mit",
+        "open_weight": true
+      }
+    ]
   },
   {
     "id": "novita",
@@ -125094,7 +126724,9 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "structured_output": true,
           "streaming": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -125114,7 +126746,11 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-20",
+        "description": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified ",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemma-3-12b-it",
@@ -129439,7 +131075,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "release_date": "2026-11-16",
         "context_window": 1000000,
-        "max_output_tokens": 131000,
+        "max_output_tokens": 262000,
         "model_type": "chat",
         "tagline": "Qwen4‑max is the new‑generation MoE flagship model of the Qwen4 family, with 2.4T total parameters and 71B activated parameters.",
         "capabilities": {
@@ -129469,7 +131105,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-17"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sao10k/l3-70b-euryale-v2.1",
@@ -135267,10 +136903,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -135303,10 +136939,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -136520,7 +138156,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22",
+        "status": "deprecated"
       },
       {
         "id": "deepseek-v3.1",
@@ -137375,6 +139012,40 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "status": "deprecated"
+      },
+      {
+        "id": "hy4",
+        "name": "hy4",
+        "created_by": "unknown",
+        "source": "official",
+        "description": "Tencent&#39;s flagship 770B open-weight model for coding, office work and research, with a 1M-token context and image and video understanding.",
+        "release_date": "2026-11-19",
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "parameters": 770,
+        "page_url": "https://ollama.com/library/hy4",
+        "open_weight": true,
+        "tagline": "Tencent&#39;s flagship 770B open-weight model for coding, office work and research, with a 1M-token context and image and video understanding.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "inkling-2-mini",
@@ -139747,9 +141418,9 @@ export const providers: ProviderWithModels[] = [
         "name": "babbage-002",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2021-09",
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -139807,7 +141478,8 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/babbage-002",
         "open_weight": false,
-        "retirement_date": "2026-09-28"
+        "retirement_date": "2026-09-28",
+        "deprecation_date": "2025-09-26"
       },
       {
         "id": "chat-latest",
@@ -139829,7 +141501,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -139875,11 +141547,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -139888,17 +141557,17 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "chat-latest"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "chatgpt-4o-latest",
         "name": "ChatGPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "chatgpt",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -139957,17 +141626,18 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/chatgpt-4o-latest",
         "open_weight": false,
-        "retirement_date": "2026-02-17"
+        "retirement_date": "2026-02-17",
+        "deprecation_date": "2025-11-18"
       },
       {
         "id": "chatgpt-image-latest",
         "name": "chatgpt-image-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "chatgpt",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "performance": 5,
         "speed": 3,
@@ -140105,17 +141775,19 @@ export const providers: ProviderWithModels[] = [
           "reasoning": false,
           "batch": true
         },
-        "retirement_date": "2026-12-01"
+        "retirement_date": "2026-12-01",
+        "deprecation_date": "2026-06-02",
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "codex-mini-latest",
         "name": "codex-mini-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "codex",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -140126,11 +141798,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast reasoning model optimized for the Codex CLI",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -140181,7 +141853,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "retirement_date": "2026-02-12"
+        "retirement_date": "2026-02-12",
+        "deprecation_date": "2025-11-17"
       },
       {
         "id": "computer-use-preview-2025-03-11",
@@ -140265,9 +141938,9 @@ export const providers: ProviderWithModels[] = [
         "name": "computer-use-preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 8192,
         "max_output_tokens": 1024,
@@ -140335,7 +142008,8 @@ export const providers: ProviderWithModels[] = [
         ],
         "release_date": "2025-03-11",
         "model_type": "chat",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "dall-e-2",
@@ -140479,9 +142153,9 @@ export const providers: ProviderWithModels[] = [
         "name": "davinci-002",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2021-09",
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -140539,7 +142213,8 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/davinci-002",
         "open_weight": false,
-        "retirement_date": "2026-09-28"
+        "retirement_date": "2026-09-28",
+        "deprecation_date": "2025-09-26"
       },
       {
         "id": "gpt-3.5-0301",
@@ -140585,7 +142260,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-3.5-turbo-0125",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-3.5",
         "status": "deprecated",
         "knowledge_cutoff": "2021-09",
@@ -140644,36 +142319,6 @@ export const providers: ProviderWithModels[] = [
                   "values": [
                     0.5,
                     1.5
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Fine-tuning",
-              "unit": "",
-              "columns": [
-                "Training",
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    8,
-                    3,
-                    null,
-                    6
-                  ]
-                },
-                {
-                  "label": "Batch",
-                  "values": [
-                    8,
-                    1.5,
-                    null,
-                    3
                   ]
                 }
               ]
@@ -140785,36 +142430,6 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
-            },
-            {
-              "label": "Fine-tuning",
-              "unit": "",
-              "columns": [
-                "Training",
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    8,
-                    3,
-                    null,
-                    6
-                  ]
-                },
-                {
-                  "label": "Batch",
-                  "values": [
-                    8,
-                    1.5,
-                    null,
-                    3
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -140824,7 +142439,7 @@ export const providers: ProviderWithModels[] = [
           "batch",
           "fine_tuning"
         ],
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-3.5-turbo-16k-0613",
@@ -140912,7 +142527,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-3.5-turbo-instruct",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-3.5",
         "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
         "status": "deprecated",
@@ -140959,36 +142574,6 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
-            },
-            {
-              "label": "Fine-tuning",
-              "unit": "",
-              "columns": [
-                "Training",
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    8,
-                    3,
-                    null,
-                    6
-                  ]
-                },
-                {
-                  "label": "Batch",
-                  "values": [
-                    8,
-                    1.5,
-                    null,
-                    3
-                  ]
-                }
-              ]
             }
           ],
           "input": 0.5,
@@ -141018,10 +142603,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-3.5 Turbo",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-3.5",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2021-09",
         "context_window": 16385,
         "max_output_tokens": 4096,
@@ -141086,7 +142671,8 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
         "open_weight": false,
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-4-0125-preview",
@@ -141176,7 +142762,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "model_type": "chat",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": false,
           "tool_call": false,
           "structured_output": false,
@@ -141225,14 +142811,14 @@ export const providers: ProviderWithModels[] = [
           "batch",
           "fine_tuning"
         ],
-        "last_updated": "2026-10-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-4-0613",
         "name": "gpt-4-0613",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-4",
         "status": "deprecated",
         "knowledge_cutoff": "2023-12",
@@ -141241,7 +142827,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 2,
         "speed": 3,
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "fine_tuning": true,
           "vision": false,
           "tool_call": false,
@@ -141427,7 +143013,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4-turbo-2024-04-09",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4-turbo",
         "status": "deprecated",
         "knowledge_cutoff": "2023-12",
@@ -141439,7 +143025,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -141505,10 +143091,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4 Turbo preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4-turbo",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "chat",
         "tagline": "An older fast GPT model",
         "snapshots": [
@@ -141568,16 +143154,17 @@ export const providers: ProviderWithModels[] = [
           "chat_completions",
           "responses",
           "assistants"
-        ]
+        ],
+        "deprecation_date": "2025-09-26"
       },
       {
         "id": "gpt-4-turbo",
         "name": "GPT-4 Turbo",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4-turbo",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-12",
         "context_window": 128000,
         "max_output_tokens": 4096,
@@ -141586,7 +143173,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -141646,14 +143233,15 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-4.1-2025-04-14",
         "name": "gpt-4.1-2025-04-14",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4.1",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -141668,10 +143256,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "tool_call": true,
-          "structured_output": true,
+          "tool_call": false,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -141715,6 +143303,25 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.5,
+                    8
+                  ]
+                }
+              ]
             }
           ],
           "input": 2,
@@ -141746,7 +143353,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4.1-mini-2025-04-14",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4.1",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -141759,12 +143366,12 @@ export const providers: ProviderWithModels[] = [
         "speed": 4,
         "tagline": "GPT-4.1 mini excels at instruction following and tool calling.",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -141808,6 +143415,25 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.4,
+                    0.1,
+                    1.6
+                  ]
+                }
+              ]
             }
           ],
           "input": 0.4,
@@ -141839,10 +143465,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.1 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4.1",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
@@ -141851,12 +143477,12 @@ export const providers: ProviderWithModels[] = [
         "speed": 4,
         "tagline": "Smaller, faster version of GPT-4.1",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -141894,16 +143520,43 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.8,
+                    0.2,
+                    3.2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    5,
+                    0.4,
+                    0.1,
+                    1.6
+                  ]
+                }
+              ]
             }
           ]
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -141919,14 +143572,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
         "open_weight": false,
         "release_date": "2025-04-14",
-        "retirement_date": "2027-01-14"
+        "retirement_date": "2027-01-14",
+        "deprecation_date": "2026-10-14",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-4.1-nano-2025-04-14",
         "name": "gpt-4.1-nano-2025-04-14",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-22",
         "family": "gpt-4.1",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -141939,12 +143594,12 @@ export const providers: ProviderWithModels[] = [
         "speed": 5,
         "tagline": "GPT-4.1 nano excels at instruction following and tool calling.",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -142008,10 +143663,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.1 nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4.1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
@@ -142020,12 +143675,12 @@ export const providers: ProviderWithModels[] = [
         "speed": 5,
         "tagline": "Fastest, most cost-efficient version of GPT-4.1",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -142068,9 +143723,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "mcp"
         ],
         "endpoints": [
@@ -142087,17 +143740,18 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano",
         "open_weight": false,
         "release_date": "2025-04-14",
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-4.1",
         "name": "GPT-4.1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4.1",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
@@ -142109,9 +143763,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -142149,16 +143803,43 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3,
+                    0.75,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    25,
+                    1.5,
+                    0.5,
+                    6
+                  ]
+                }
+              ]
             }
           ]
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -142174,16 +143855,18 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
         "open_weight": false,
         "release_date": "2025-04-14",
-        "retirement_date": "2027-01-14"
+        "retirement_date": "2027-01-14",
+        "deprecation_date": "2026-10-14",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-4.5-preview-2025-02-27",
         "name": "gpt-4.5-preview-2025-02-27",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -142196,8 +143879,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": false,
           "batch": true
@@ -142259,9 +143942,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.5 Preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -142273,8 +143956,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": false,
           "batch": true
@@ -142333,17 +144016,18 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2025-02-27",
-        "retirement_date": "2025-07-14"
+        "retirement_date": "2025-07-14",
+        "deprecation_date": "2025-04-14"
       },
       {
         "id": "gpt-4",
         "name": "GPT-4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-12",
         "context_window": 8192,
         "max_output_tokens": 8192,
@@ -142352,7 +144036,7 @@ export const providers: ProviderWithModels[] = [
         "speed": 3,
         "tagline": "An older high-intelligence GPT model",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "fine_tuning": true,
           "vision": false,
           "tool_call": false,
@@ -142408,14 +144092,15 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4",
         "open_weight": false,
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-4o-2024-05-13",
         "name": "gpt-4o-2024-05-13",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-04",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -142429,11 +144114,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "fine_tuning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "fine_tuning": false,
+          "structured_output": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -142453,6 +144138,25 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.25,
           "batch_output": 5,
           "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    1.25,
+                    10
+                  ]
+                }
+              ]
+            },
             {
               "label": "Fine-tuning",
               "unit": "",
@@ -142508,7 +144212,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4o-2024-08-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -142522,11 +144226,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -142570,6 +144274,25 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    1.25,
+                    10
+                  ]
+                }
+              ]
             }
           ],
           "input": 2.5,
@@ -142601,7 +144324,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4o-2024-11-20",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-04",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -142615,11 +144338,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
-          "fine_tuning": true,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -142639,6 +144362,25 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.25,
           "batch_output": 5,
           "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    1.25,
+                    10
+                  ]
+                }
+              ]
+            },
             {
               "label": "Fine-tuning",
               "unit": "",
@@ -142694,7 +144436,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4o-audio-preview-2024-10-01",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -142708,7 +144450,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "This is a preview release of the GPT-4o Audio models.",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -142784,10 +144526,10 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4o-audio-preview-2024-12-17",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -142798,7 +144540,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "This is a preview release of the GPT-4o Audio models.",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -142865,19 +144607,17 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
-        "successor": "gpt-audio-1.5"
+        "retirement_date": "2027-01-20"
       },
       {
         "id": "gpt-4o-audio-preview-2025-06-03",
         "name": "gpt-4o-audio-preview-2025-06-03",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -142888,7 +144628,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "This is a preview release of the GPT-4o Audio models.",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -142955,19 +144695,17 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
-        "successor": "gpt-audio-1.5"
+        "retirement_date": "2027-01-20"
       },
       {
         "id": "gpt-4o-audio-preview",
         "name": "GPT-4o Audio",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -142977,7 +144715,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o models capable of audio inputs and outputs",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -143049,14 +144787,15 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2024-10-01",
-        "retirement_date": "2025-10-10"
+        "retirement_date": "2026-05-07",
+        "deprecation_date": "2025-09-15"
       },
       {
         "id": "gpt-4o-mini-2024-07-18",
         "name": "gpt-4o-mini-2024-07-18",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -143069,12 +144808,12 @@ export const providers: ProviderWithModels[] = [
         "speed": 4,
         "tagline": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -143118,6 +144857,25 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.15,
+                    0.075,
+                    0.6
+                  ]
+                }
+              ]
             }
           ],
           "input": 0.15,
@@ -143149,10 +144907,10 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4o-mini-audio-preview-2024-12-17",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -143163,7 +144921,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "This is a preview release of the smaller GPT-4o Audio mini model.",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -143230,19 +144988,17 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
-        "successor": "gpt-audio-1.5"
+        "retirement_date": "2027-01-20"
       },
       {
         "id": "gpt-4o-mini-audio-preview",
         "name": "GPT-4o Mini Audio",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -143252,7 +145008,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Smaller model capable of audio inputs and outputs",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -143311,9 +145067,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions"
@@ -143325,17 +145079,18 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
         "open_weight": false,
         "release_date": "2024-12-17",
-        "retirement_date": "2027-01-20"
+        "retirement_date": "2026-05-07",
+        "deprecation_date": "2025-09-15"
       },
       {
         "id": "gpt-4o-mini-realtime-preview-2024-12-17",
         "name": "gpt-4o-mini-realtime-preview-2024-12-17",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 16000,
         "max_output_tokens": 4096,
@@ -143418,19 +145173,17 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
-        "successor": "gpt-realtime-2.1-mini"
+        "retirement_date": "2027-01-20"
       },
       {
         "id": "gpt-4o-mini-realtime-preview",
         "name": "GPT-4o Mini Realtime",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 16000,
         "max_output_tokens": 4096,
@@ -143515,14 +145268,15 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2024-12-17",
-        "retirement_date": "2027-01-20"
+        "retirement_date": "2026-05-07",
+        "deprecation_date": "2025-09-15"
       },
       {
         "id": "gpt-4o-mini-search-preview-2025-03-11",
         "name": "gpt-4o-mini-search-preview-2025-03-11",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -143536,8 +145290,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "tool_call": false,
           "fine_tuning": false,
           "reasoning": false
@@ -143590,10 +145344,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini search preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -143603,8 +145357,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "tool_call": false,
           "fine_tuning": false,
           "reasoning": false
@@ -143651,7 +145405,8 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
         "open_weight": false,
         "release_date": "2025-03-11",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-4o-mini-transcribe-2025-03-20",
@@ -143780,9 +145535,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Mini Transcribe",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
@@ -143835,14 +145590,16 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2025-12-15",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe",
         "open_weight": false,
-        "retirement_date": "2027-02-26"
+        "retirement_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "successor": "gpt-live-transcribe"
       },
       {
         "id": "gpt-4o-mini-tts-2025-03-20",
         "name": "gpt-4o-mini-tts-2025-03-20",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "status": "deprecated",
         "model_type": "tts",
@@ -143865,25 +145622,6 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "tiers": [
             {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    null,
-                    null,
-                    12
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -143896,6 +145634,25 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.6,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Output",
+                "Input",
+                "Cached input"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    12,
                     null,
                     null
                   ]
@@ -143918,7 +145675,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-4o-mini-tts-2025-12-15",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "status": "deprecated",
         "model_type": "tts",
@@ -143941,25 +145698,6 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "tiers": [
             {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    null,
-                    null,
-                    12
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -143972,6 +145710,25 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.6,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Output",
+                "Input",
+                "Cached input"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    12,
                     null,
                     null
                   ]
@@ -143994,9 +145751,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini TTS",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "tts",
         "performance": 4,
         "speed": 4,
@@ -144064,17 +145821,19 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2025-12-15",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
         "open_weight": false,
-        "retirement_date": "2027-01-06"
+        "retirement_date": "2027-01-06",
+        "deprecation_date": "2026-10-01",
+        "successor": "gpt-realtime-2.1-mini"
       },
       {
         "id": "gpt-4o-mini",
         "name": "GPT-4o mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -144083,12 +145842,12 @@ export const providers: ProviderWithModels[] = [
         "speed": 4,
         "tagline": "Fast, affordable small model for focused tasks",
         "capabilities": {
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -144126,16 +145885,43 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    0.3,
+                    0.15,
+                    1.2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    3,
+                    0.15,
+                    0.075,
+                    0.6
+                  ]
+                }
+              ]
             }
           ]
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -144151,7 +145937,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
         "open_weight": false,
         "release_date": "2024-07-18",
-        "retirement_date": "2027-01-14"
+        "retirement_date": "2027-01-14",
+        "deprecation_date": "2026-10-14",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-4o-realtime-preview-2024-10-01",
@@ -144443,10 +146231,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Realtime",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
@@ -144533,14 +146321,15 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2024-12-17",
-        "retirement_date": "2026-05-07"
+        "retirement_date": "2026-05-07",
+        "deprecation_date": "2025-09-15"
       },
       {
         "id": "gpt-4o-search-preview-2025-03-11",
         "name": "gpt-4o-search-preview-2025-03-11",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -144554,8 +146343,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "tool_call": false,
           "fine_tuning": false,
           "reasoning": false
@@ -144608,10 +146397,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o search preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -144621,8 +146410,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "tool_call": false,
           "fine_tuning": false,
           "reasoning": false
@@ -144669,17 +146458,18 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-search-preview",
         "open_weight": false,
         "release_date": "2025-03-11",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-4o-transcribe-diarize",
         "name": "GPT-4o Transcribe Diarize",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
@@ -144728,17 +146518,19 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe-diarize",
         "open_weight": false,
-        "retirement_date": "2027-02-26"
+        "retirement_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "successor": "gpt-live-transcribe"
       },
       {
         "id": "gpt-4o-transcribe",
         "name": "GPT-4o Transcribe",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
@@ -144788,17 +146580,19 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe",
         "open_weight": false,
-        "retirement_date": "2027-02-26"
+        "retirement_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "successor": "gpt-live-transcribe"
       },
       {
         "id": "gpt-4o",
         "name": "GPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-4o",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -144808,11 +146602,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast, intelligent, flexible GPT model",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "fine_tuning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "fine_tuning": false,
+          "structured_output": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -144850,16 +146644,43 @@ export const providers: ProviderWithModels[] = [
                   ]
                 }
               ]
+            },
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3.75,
+                    1.875,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    25,
+                    2.225,
+                    0.9,
+                    12.5
+                  ]
+                }
+              ]
             }
           ]
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -144877,14 +146698,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o",
         "open_weight": false,
         "release_date": "2024-05-13",
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2027-01-14",
+        "deprecation_date": "2026-10-14",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-5-2025-08-07",
         "name": "gpt-5-2025-08-07",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -144901,11 +146724,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -144960,17 +146783,17 @@ export const providers: ProviderWithModels[] = [
         ],
         "deprecation_date": "2026-06-11",
         "retirement_date": "2026-12-11",
-        "successor": "gpt-5.6-sol"
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "gpt-5-chat-latest",
         "name": "GPT-5 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -144981,10 +146804,10 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5 model used in ChatGPT",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": false
         },
@@ -144999,11 +146822,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -145041,17 +146861,18 @@ export const providers: ProviderWithModels[] = [
               ]
             }
           ]
-        }
+        },
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5-codex",
         "name": "GPT-5-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -145064,11 +146885,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A version of GPT-5 optimized for agentic coding in Codex",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -145107,8 +146928,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "tools": [
-          "function_calling",
-          "web_search"
+          "function_calling"
         ],
         "endpoints": [
           "responses"
@@ -145119,7 +146939,8 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
         "open_weight": false,
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5-latest",
@@ -145173,7 +146994,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5-mini-2025-08-07",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -145191,10 +147012,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "tool_call": true,
-          "structured_output": true,
+          "tool_call": false,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -145249,17 +147070,17 @@ export const providers: ProviderWithModels[] = [
         ],
         "deprecation_date": "2026-06-11",
         "retirement_date": "2026-12-11",
-        "successor": "gpt-5.6-terra"
+        "successor": "gpt-6.1-terra"
       },
       {
         "id": "gpt-5-mini",
         "name": "GPT-5 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-05",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -145274,9 +147095,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -145319,9 +147140,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "code_interpreter",
           "mcp"
         ],
         "endpoints": [
@@ -145336,14 +147155,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5-mini",
         "open_weight": false,
         "release_date": "2025-08-07",
-        "retirement_date": "2026-12-11"
+        "retirement_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "successor": "gpt-6.1-terra"
       },
       {
         "id": "gpt-5-nano-2025-08-07",
         "name": "gpt-5-nano-2025-08-07",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -145360,8 +147181,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5 Nano is our fastest, cheapest version of GPT-5.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
-          "tool_call": true,
+          "vision": false,
+          "tool_call": false,
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
@@ -145419,17 +147240,17 @@ export const providers: ProviderWithModels[] = [
         ],
         "deprecation_date": "2026-06-11",
         "retirement_date": "2026-12-11",
-        "successor": "gpt-5.6-luna"
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-5-nano",
         "name": "GPT-5 nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-05",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -145442,7 +147263,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fastest, most cost-efficient version of GPT-5",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
@@ -145489,9 +147310,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "code_interpreter",
           "mcp"
         ],
         "endpoints": [
@@ -145506,14 +147325,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
         "open_weight": false,
         "release_date": "2025-08-07",
-        "retirement_date": "2026-12-11"
+        "retirement_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-5-pro-2025-10-06",
         "name": "gpt-5-pro-2025-10-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "status": "deprecated",
         "knowledge_cutoff": "2024-09",
@@ -145526,11 +147347,11 @@ export const providers: ProviderWithModels[] = [
         "speed": 1,
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -145582,7 +147403,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "deprecation_date": "2026-06-11",
         "retirement_date": "2026-12-11",
-        "successor": "gpt-5.6-sol",
+        "successor": "gpt-6.1-sol",
         "description": "Status: Deprecated",
         "tagline": "Status: Deprecated"
       },
@@ -145591,9 +147412,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5 pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 272000,
@@ -145605,9 +147426,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -145658,22 +147479,22 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "tools": [
           "function_calling",
-          "file_search",
           "image_generation",
-          "mcp",
           "web_search"
         ],
         "release_date": "2025-10-06",
         "description": "Status: Deprecated",
         "tagline": "Version of GPT-5 that produces smarter and more precise responses",
-        "retirement_date": "2026-12-11"
+        "retirement_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "gpt-5.1-2025-11-13",
         "name": "gpt-5.1-2025-11-13",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.1",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -145689,11 +147510,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -145755,10 +147576,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.1 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -145769,7 +147590,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.1 model used in ChatGPT",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -145787,11 +147608,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -145829,17 +147647,18 @@ export const providers: ProviderWithModels[] = [
               ]
             }
           ]
-        }
+        },
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5.1-codex-max",
         "name": "GPT-5.1-Codex-Max",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -145851,11 +147670,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A version of GPT-5.1-Codex optimized for long running tasks.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -145894,8 +147713,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "tools": [
-          "function_calling",
-          "web_search"
+          "function_calling"
         ],
         "endpoints": [
           "responses"
@@ -145906,17 +147724,18 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
         "open_weight": false,
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5.1-codex-mini",
         "name": "GPT-5.1-Codex-Mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -145928,11 +147747,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Smaller, more cost-effective, less-capable version of GPT-5.1-Codex",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -145971,8 +147790,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "tools": [
-          "function_calling",
-          "web_search"
+          "function_calling"
         ],
         "endpoints": [
           "responses"
@@ -145983,17 +147801,18 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
         "open_weight": false,
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5.1-codex",
         "name": "GPT-5.1-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -146005,11 +147824,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A version of GPT-5.1 optimized for agentic coding in Codex.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -146048,8 +147867,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "tools": [
-          "function_calling",
-          "web_search"
+          "function_calling"
         ],
         "endpoints": [
           "responses"
@@ -146060,7 +147878,8 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
         "open_weight": false,
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5.1-latest",
@@ -146114,10 +147933,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.1",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -146129,11 +147948,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The best model for coding and agentic tasks with configurable reasoning effort",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -146176,11 +147995,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
           "code_interpreter",
-          "apply_patch",
           "mcp"
         ],
         "endpoints": [
@@ -146195,14 +148011,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
         "open_weight": false,
         "release_date": "2025-11-13",
-        "retirement_date": "2027-04-01"
+        "retirement_date": "2027-04-01",
+        "deprecation_date": "2026-10-01",
+        "successor": "gpt-6-sol"
       },
       {
         "id": "gpt-5.2-2025-12-11",
         "name": "gpt-5.2-2025-12-11",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.2",
         "description": "GPT-5.2 is our previous flagship model for complex professional work.",
         "status": "active",
@@ -146218,11 +148036,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.2 is our previous frontier model for complex professional work.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -146281,10 +148099,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.2 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.2",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-08",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -146295,7 +148113,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.2 model used in ChatGPT",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -146339,11 +148157,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -146355,17 +148170,18 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest",
         "open_weight": false,
-        "retirement_date": "2026-08-10"
+        "retirement_date": "2026-08-10",
+        "deprecation_date": "2026-05-08"
       },
       {
         "id": "gpt-5.2-codex",
         "name": "GPT-5.2-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.2",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -146378,11 +148194,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Our most intelligent coding model optimized for long-horizon, agentic coding tasks.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -146422,9 +148238,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
-          "hosted_shell",
-          "skills"
+          "hosted_shell"
         ],
         "endpoints": [
           "responses"
@@ -146435,14 +148249,15 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
         "open_weight": false,
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-5.2-pro-2025-12-11",
         "name": "gpt-5.2-pro-2025-12-11",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.2",
         "status": "active",
         "knowledge_cutoff": "2025-08",
@@ -146455,8 +148270,8 @@ export const providers: ProviderWithModels[] = [
         "speed": 1,
         "capabilities": {
           "streaming": true,
-          "vision": true,
-          "tool_call": true,
+          "vision": false,
+          "tool_call": false,
           "reasoning": true,
           "structured_output": false,
           "json_mode": false,
@@ -146513,7 +148328,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.2 Pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.2",
         "status": "active",
         "knowledge_cutoff": "2025-08",
@@ -146578,9 +148393,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "tools": [
           "function_calling",
-          "file_search",
           "image_generation",
-          "mcp",
           "web_search"
         ],
         "release_date": "2025-12-11",
@@ -146592,7 +148405,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.2",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.2",
         "description": "GPT-5.2 is our previous flagship model for complex professional work. We recommend using the latest GPT-6.2 Astra. Learn more on the Model guidance page. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
         "status": "active",
@@ -146607,11 +148420,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Previous flagship model for professional work with configurable reasoning effort",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -146654,13 +148467,9 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
           "code_interpreter",
-          "hosted_shell",
           "apply_patch",
-          "skills",
           "mcp"
         ],
         "endpoints": [
@@ -146681,10 +148490,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.3 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.3",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-08",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -146695,7 +148504,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.3 Instant model used in ChatGPT",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -146739,11 +148548,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -146755,17 +148561,18 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
         "open_weight": false,
-        "retirement_date": "2026-08-10"
+        "retirement_date": "2026-08-10",
+        "deprecation_date": "2026-05-08"
       },
       {
         "id": "gpt-5.3-codex",
         "name": "GPT-5.3-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.3",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -146778,11 +148585,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The most capable agentic coding model to date.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "modalities": {
@@ -146822,9 +148629,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
-          "hosted_shell",
-          "skills"
+          "hosted_shell"
         ],
         "endpoints": [
           "responses"
@@ -146835,14 +148640,16 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
         "open_weight": false,
-        "retirement_date": "2027-04-01"
+        "retirement_date": "2027-04-01",
+        "deprecation_date": "2026-10-01",
+        "successor": "gpt-6-sol"
       },
       {
         "id": "gpt-5.4-2026-03-05",
         "name": "gpt-5.4-2026-03-05",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "description": "GPT-5.4 is a flagship model for complex professional work.",
         "status": "active",
@@ -146858,11 +148665,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.4 is our frontier model for complex professional work.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -146955,7 +148762,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5.4-mini-2026-03-17",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-21",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "description": "GPT-5.4 Mini brings the strengths of GPT-5.4 to a faster, more efficient",
         "status": "active",
@@ -146972,11 +148779,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -147035,7 +148842,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient model designed for high-volume workloads. Learn more in our Model guidance page. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
         "status": "active",
@@ -147053,9 +148860,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -147098,15 +148905,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "tool_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
           "mcp"
         ],
         "endpoints": [
@@ -147130,7 +148932,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5.4-nano-2026-03-17",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -147147,11 +148949,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -147213,10 +149015,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4 nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -147229,11 +149031,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Our cheapest GPT-5.4-class model for simple high-volume tasks",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -147276,13 +149078,9 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
           "code_interpreter",
-          "hosted_shell",
           "apply_patch",
-          "skills",
           "mcp"
         ],
         "endpoints": [
@@ -147300,14 +149098,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
         "open_weight": false,
         "release_date": "2026-03-17",
-        "retirement_date": "2027-04-01"
+        "retirement_date": "2027-04-01",
+        "deprecation_date": "2026-10-01",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-5.4-pro-2026-03-05",
         "name": "gpt-5.4-pro-2026-03-05",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "status": "active",
         "knowledge_cutoff": "2025-08",
@@ -147320,8 +149120,8 @@ export const providers: ProviderWithModels[] = [
         "speed": 1,
         "capabilities": {
           "streaming": true,
-          "vision": true,
-          "tool_call": true,
+          "vision": false,
+          "tool_call": false,
           "reasoning": true,
           "structured_output": false,
           "json_mode": false,
@@ -147404,7 +149204,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4 Pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "status": "active",
         "knowledge_cutoff": "2025-08",
@@ -147495,13 +149295,9 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "tool_search",
           "image_generation",
-          "apply_patch",
-          "computer_use",
-          "mcp"
+          "computer_use"
         ],
         "release_date": "2026-03-05",
         "description": "GPT-5.4 Pro uses more compute to think harder and provide consistently better answers.",
@@ -147512,7 +149308,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-5.4",
         "description": "GPT-5.4 is a flagship model for complex professional work. Learn more in our GPT-5.4 model guidance. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
         "status": "active",
@@ -147529,9 +149325,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -147608,15 +149404,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "tool_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
           "mcp"
         ],
         "endpoints": [
@@ -147660,10 +149451,10 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.5 is our newest frontier model for the most complex professional work.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -147747,7 +149538,7 @@ export const providers: ProviderWithModels[] = [
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-5.5-pro-2026-04-23",
@@ -147771,8 +149562,8 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": false,
-          "vision": true,
-          "tool_call": true,
+          "vision": false,
+          "tool_call": false,
           "structured_output": true,
           "json_mode": true,
           "fine_tuning": false,
@@ -147846,7 +149637,7 @@ export const providers: ProviderWithModels[] = [
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-5.5-pro",
@@ -147868,7 +149659,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "capabilities": {
           "streaming": false,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -147938,18 +149729,15 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
           "code_interpreter",
-          "hosted_shell",
           "mcp"
         ],
         "endpoints": [
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "release_date": "2026-04-23",
         "snapshots": [
           "gpt-5.5-pro-2026-04-23"
@@ -147981,8 +149769,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148060,15 +149848,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "tool_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
           "mcp"
         ],
         "endpoints": [
@@ -148083,7 +149866,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-5.5-2026-04-23"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "release_date": "2026-04-23"
       },
       {
@@ -148109,8 +149892,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148156,7 +149939,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "responses"
         ],
-        "last_updated": "2026-11-10",
+        "last_updated": "2026-11-22",
         "description": "An alias for our most advanced purpose-trained cybersecurity models, for approved defenders conducting advanced, authorized vulnerability research, exploit validation, and security testing.",
         "alias": "gpt-daybreak-red-latest",
         "tagline": "Our most advanced cybersecurity model for authorized vulnerability research and security testing.",
@@ -148187,8 +149970,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148266,22 +150049,17 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "description": "A rate-limit entry for your usage tier does not confirm model access. If GPT-5.6 Luna is missing from Playground or the API model list, check model availability.",
         "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
         "snapshots": [
@@ -148311,8 +150089,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148394,7 +150172,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "responses"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "description": "GPT-5.6 Sol is a flagship model in the GPT-5.6 family. It roughly corresponds to the unsuffixed model tier used in earlier GPT-5 families. The `gpt-5.6` alias routes requests to GPT-5.6 Sol. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
         "alias": "gpt-daybreak-blue-latest",
         "tagline": "GPT-5.6 flagship model for complex professional work",
@@ -148425,8 +150203,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148504,22 +150282,17 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "description": "GPT-5.6 Terra is designed for workloads that balance intelligence and cost. It roughly corresponds to the mini model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
         "tagline": "GPT-5.6 model that balances intelligence and cost",
         "snapshots": [
@@ -148531,10 +150304,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-5",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -148547,11 +150320,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -148594,11 +150367,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "image_generation",
-          "code_interpreter",
-          "mcp"
+          "code_interpreter"
         ],
         "endpoints": [
           "chat_completions",
@@ -148612,7 +150382,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5",
         "open_weight": false,
         "release_date": "2025-08-07",
-        "retirement_date": "2026-12-11"
+        "retirement_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "gpt-6-astra",
@@ -148636,8 +150408,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148653,22 +150425,17 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "description": "Use GPT-6 Astra for complex reasoning, coding, computer use, research, and document creation. `reasoning.effort` supports `low`, `medium`, `high`, `xhigh`, and `max`.",
         "tagline": "A reasoning model for complex coding and professional work.",
         "pricing": {
@@ -148767,8 +150534,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true
         },
@@ -148811,15 +150578,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "web_search",
           "file_search",
-          "tool_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
           "mcp"
         ],
         "endpoints": [
@@ -148829,7 +150591,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-6-cyber"
         ],
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-6-luna",
@@ -148854,8 +150616,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -148938,15 +150700,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
@@ -148956,7 +150713,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-6-luna"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-6",
         "status": "active"
       },
@@ -148983,8 +150740,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -149067,15 +150824,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
@@ -149085,7 +150837,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-6-sol"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "family": "gpt-6",
         "status": "active"
       },
@@ -149114,8 +150866,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -149198,15 +150950,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
@@ -149216,7 +150963,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-6.1-sol"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-6.1-terra",
@@ -149243,8 +150990,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -149327,15 +151074,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
@@ -149345,7 +151087,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-6.1-terra"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-6.2-astra",
@@ -149372,8 +151114,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -149445,22 +151187,17 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-6.2-sol",
@@ -149487,8 +151224,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -149560,29 +151297,24 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
           "responses",
           "batch"
         ],
-        "last_updated": "2026-11-18"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-audio-1.5",
         "name": "GPT-Audio-1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-11-22",
         "family": "gpt-audio",
         "description": "The gpt-audio model is our first generally available audio model. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
         "status": "active",
@@ -149595,7 +151327,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The best voice model for audio in, audio out with Chat Completions.",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -149674,7 +151406,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-audio-2025-08-28",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-audio",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -149688,7 +151420,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The gpt-audio model is our first generally available audio model.",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -149710,39 +151442,39 @@ export const providers: ProviderWithModels[] = [
           "output": 10,
           "tiers": [
             {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    32,
-                    null,
-                    64
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
-                "Cached input",
-                "Output"
+                "Output",
+                "Cached input"
               ],
               "rows": [
                 {
                   "label": "Standard",
                   "values": [
                     2.5,
-                    null,
-                    10
+                    10,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Cached input"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    64,
+                    null
                   ]
                 }
               ]
@@ -149768,7 +151500,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-audio-mini-2025-10-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-audio",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -149804,6 +151536,25 @@ export const providers: ProviderWithModels[] = [
           "output": 2.4,
           "tiers": [
             {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Cached input"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    2.4,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
               "label": "Audio tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -149818,25 +151569,6 @@ export const providers: ProviderWithModels[] = [
                     10,
                     null,
                     20
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Text tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    0.6,
-                    null,
-                    2.4
                   ]
                 }
               ]
@@ -149862,7 +151594,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-audio-mini-2025-12-15",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-audio",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -149898,6 +151630,25 @@ export const providers: ProviderWithModels[] = [
           "output": 2.4,
           "tiers": [
             {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Cached input"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    2.4,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
               "label": "Audio tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -149912,25 +151663,6 @@ export const providers: ProviderWithModels[] = [
                     10,
                     null,
                     20
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Text tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    0.6,
-                    null,
-                    2.4
                   ]
                 }
               ]
@@ -149956,10 +151688,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-Audio mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-audio",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -150044,17 +151776,19 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
         "open_weight": false,
         "release_date": "2025-10-06",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "successor": "gpt-audio-1.5"
       },
       {
         "id": "gpt-audio",
         "name": "GPT-Audio",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-audio",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
@@ -150064,7 +151798,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "For audio inputs and outputs with Chat Completions API",
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
+          "tool_call": false,
           "vision": false,
           "structured_output": false,
           "json_mode": false,
@@ -150138,7 +151872,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2025-08-28",
-        "retirement_date": "2027-01-20"
+        "retirement_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "successor": "gpt-audio-1.5"
       },
       {
         "id": "gpt-daybreak-blue-latest",
@@ -150159,8 +151895,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true
         },
@@ -150237,15 +151973,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "responses"
@@ -150253,7 +151984,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-5.6-sol"
         ],
-        "last_updated": "2026-11-18",
+        "last_updated": "2026-11-22",
         "status": "active"
       },
       {
@@ -150275,8 +152006,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true
         },
@@ -150317,15 +152048,10 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "file_search",
           "image_generation",
-          "code_interpreter",
           "hosted_shell",
-          "apply_patch",
           "skills",
-          "computer_use",
-          "mcp",
-          "tool_search"
+          "mcp"
         ],
         "endpoints": [
           "responses"
@@ -150333,7 +152059,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-5.6-cyber"
         ],
-        "last_updated": "2026-11-10",
+        "last_updated": "2026-11-22",
         "status": "active"
       },
       {
@@ -150341,10 +152067,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT Image 1 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-image-1",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "performance": 3,
         "speed": 1,
@@ -150469,14 +152195,16 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-image-1-mini",
         "open_weight": false,
-        "retirement_date": "2026-12-01"
+        "retirement_date": "2026-12-01",
+        "deprecation_date": "2026-06-02",
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-image-1.5-2025-12-16",
         "name": "gpt-image-1.5-2025-12-16",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-06",
+        "last_updated": "2026-11-22",
         "family": "gpt-image-1.5",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -150501,33 +152229,6 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 1.25,
           "tiers": [
             {
-              "label": "Image tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    8,
-                    2,
-                    32
-                  ]
-                },
-                {
-                  "label": "Batch",
-                  "values": [
-                    4,
-                    1,
-                    16
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -150550,6 +152251,33 @@ export const providers: ProviderWithModels[] = [
                     2.5,
                     0.63,
                     5
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    2,
+                    32
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    4,
+                    1,
+                    16
                   ]
                 }
               ]
@@ -150625,10 +152353,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT Image 1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-image-1.5",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "performance": 4,
         "speed": 3,
@@ -150767,17 +152495,19 @@ export const providers: ProviderWithModels[] = [
           "reasoning": false,
           "batch": true
         },
-        "retirement_date": "2026-12-01"
+        "retirement_date": "2026-12-01",
+        "deprecation_date": "2026-06-02",
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-image-1",
         "name": "GPT Image 1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-image-1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "performance": 3,
         "speed": 1,
@@ -150895,7 +152625,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": false,
           "batch": true
         },
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "gpt-image-2-2026-04-21",
@@ -151627,7 +153358,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gpt-image-2",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "license": "proprietary",
         "performance": 4,
@@ -151725,9 +153456,11 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-image-2-2026-04-21"
         ],
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "release_date": "2026-04-21",
-        "retirement_date": "2027-02-10"
+        "retirement_date": "2027-02-10",
+        "deprecation_date": "2026-11-10",
+        "successor": "gpt-image-2.6-sunburst"
       },
       {
         "id": "gpt-live-1.1",
@@ -151743,7 +153476,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -151789,7 +153522,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-live-1.1"
         ],
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gpt-live-1",
@@ -151809,12 +153542,12 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "gpt-live-1"
         ],
-        "last_updated": "2026-11-20",
+        "last_updated": "2026-11-22",
         "knowledge_cutoff": "2025-07",
         "capabilities": {
           "streaming": true,
           "vision": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -151922,7 +153655,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-11-22",
         "family": "gpt-oss",
         "description": "`gpt-oss-120b`is our most powerful open-weight model, which fits into a single  H100 GPU (117B parameters with 5.1B active parameters).",
         "status": "active",
@@ -151938,10 +153671,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -151955,9 +153688,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "code_interpreter",
-          "mcp",
-          "web_search"
+          "mcp"
         ],
         "endpoints": [
           "responses",
@@ -151976,7 +153707,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-11-22",
         "family": "gpt-oss",
         "description": "`gpt-oss-20b` is our medium-sized open-weight model for low latency, local, or  specialized use-cases (21B parameters with 3.6B active parameters).",
         "status": "active",
@@ -151992,10 +153723,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -152009,9 +153740,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "code_interpreter",
-          "mcp",
-          "web_search"
+          "mcp"
         ],
         "endpoints": [
           "responses",
@@ -152494,7 +154223,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-realtime-2025-08-28",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-realtime",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -152531,25 +154260,6 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.4,
           "tiers": [
             {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    32,
-                    0.4,
-                    64
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -152564,6 +154274,25 @@ export const providers: ProviderWithModels[] = [
                     4,
                     0.4,
                     16
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    0.4,
+                    64
                   ]
                 }
               ]
@@ -152609,7 +154338,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-realtime-mini-2025-10-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-realtime",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -152646,25 +154375,6 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.06,
           "tiers": [
             {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    10,
-                    0.3,
-                    20
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -152679,6 +154389,25 @@ export const providers: ProviderWithModels[] = [
                     0.6,
                     0.06,
                     2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
                   ]
                 }
               ]
@@ -152724,7 +154453,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-realtime-mini-2025-12-15",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gpt-realtime",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -152761,25 +154490,6 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.06,
           "tiers": [
             {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    10,
-                    0.3,
-                    20
-                  ]
-                }
-              ]
-            },
-            {
               "label": "Text tokens",
               "unit": "Per 1M tokens",
               "columns": [
@@ -152794,6 +154504,25 @@ export const providers: ProviderWithModels[] = [
                     0.6,
                     0.06,
                     2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
                   ]
                 }
               ]
@@ -152839,10 +154568,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-Realtime mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-realtime",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
@@ -152948,7 +154677,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2025-10-06",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "successor": "gpt-realtime-2.1-mini"
       },
       {
         "id": "gpt-realtime-translate",
@@ -153087,10 +154818,10 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-Realtime",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "gpt-realtime",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
@@ -153195,7 +154926,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2025-08-28",
-        "retirement_date": "2027-01-20"
+        "retirement_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "successor": "gpt-realtime-2.1"
       },
       {
         "id": "gpt-transcribe",
@@ -153262,7 +154995,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o1-2024-12-17",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o1",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -153278,11 +155011,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The o1 series of models are trained with reinforcement learning to perform complex reasoning.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "structured_output": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -153345,10 +155078,10 @@ export const providers: ProviderWithModels[] = [
         "name": "o1-mini-2024-09-12",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o1",
         "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 65536,
@@ -153418,10 +155151,10 @@ export const providers: ProviderWithModels[] = [
         "name": "o1-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 65536,
@@ -153478,7 +155211,6 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "file_search",
-          "code_interpreter",
           "mcp"
         ],
         "endpoints": [
@@ -153492,16 +155224,17 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o1-mini",
         "open_weight": false,
         "release_date": "2024-09-12",
-        "retirement_date": "2025-10-27"
+        "retirement_date": "2025-10-27",
+        "deprecation_date": "2025-04-28"
       },
       {
         "id": "o1-preview-2024-09-12",
         "name": "o1-preview-2024-09-12",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o1",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 32768,
@@ -153513,10 +155246,10 @@ export const providers: ProviderWithModels[] = [
         "speed": 1,
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
+          "tool_call": false,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "fine_tuning": false
         },
@@ -153573,9 +155306,9 @@ export const providers: ProviderWithModels[] = [
         "name": "o1 Preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o1",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 32768,
@@ -153586,10 +155319,10 @@ export const providers: ProviderWithModels[] = [
         "speed": 1,
         "capabilities": {
           "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
+          "tool_call": false,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "fine_tuning": false
         },
@@ -153643,14 +155376,15 @@ export const providers: ProviderWithModels[] = [
               ]
             }
           ]
-        }
+        },
+        "deprecation_date": "2025-04-28"
       },
       {
         "id": "o1-pro-2025-03-19",
         "name": "o1-pro-2025-03-19",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o1",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -153666,7 +155400,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The o1 series of models are trained with reinforcement learning to think",
         "capabilities": {
           "vision": true,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
@@ -153728,10 +155462,10 @@ export const providers: ProviderWithModels[] = [
         "name": "o1-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -153787,7 +155521,6 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "mcp"
         ],
         "endpoints": [
@@ -153801,17 +155534,18 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o1-pro",
         "open_weight": false,
         "release_date": "2025-03-19",
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "o1",
         "name": "o1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o1",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -153823,11 +155557,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Previous full o-series reasoning model",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -153870,7 +155604,6 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "mcp"
         ],
         "endpoints": [
@@ -153886,14 +155619,15 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o1",
         "open_weight": false,
         "release_date": "2024-12-17",
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "o3-2025-04-16",
         "name": "o3-2025-04-16",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -153909,11 +155643,11 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o3 is a well-rounded and powerful model across domains.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "structured_output": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -153968,7 +155702,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "deprecation_date": "2026-06-11",
         "retirement_date": "2026-12-11",
-        "successor": "gpt-5.6-sol"
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "o3-deep-research-2025-06-26",
@@ -154053,10 +155787,10 @@ export const providers: ProviderWithModels[] = [
         "name": "o3-deep-research",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -154115,7 +155849,6 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "code_interpreter",
           "mcp"
         ],
         "endpoints": [
@@ -154129,14 +155862,15 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
         "open_weight": false,
         "release_date": "2025-06-26",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "o3-mini-2025-01-31",
         "name": "o3-mini-2025-01-31",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -154153,10 +155887,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
-          "vision": true,
+          "json_mode": false,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -154218,10 +155952,10 @@ export const providers: ProviderWithModels[] = [
         "name": "o3-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -154235,9 +155969,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -154279,9 +156013,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "code_interpreter",
-          "mcp",
           "image_generation"
         ],
         "endpoints": [
@@ -154297,14 +156029,15 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o3-mini",
         "open_weight": false,
         "release_date": "2025-01-31",
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "o3-pro-2025-06-10",
         "name": "o3-pro-2025-06-10",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Deprecated",
         "status": "deprecated",
@@ -154320,7 +156053,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The o-series of models are trained with reinforcement learning to think",
         "capabilities": {
           "vision": true,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
@@ -154375,17 +156108,17 @@ export const providers: ProviderWithModels[] = [
         ],
         "deprecation_date": "2026-06-11",
         "retirement_date": "2026-12-11",
-        "successor": "gpt-5.6-sol"
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "o3-pro",
         "name": "o3-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -154441,9 +156174,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "image_generation",
-          "mcp",
           "web_search"
         ],
         "endpoints": [
@@ -154457,17 +156188,19 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o3-pro",
         "open_weight": false,
         "release_date": "2025-06-10",
-        "retirement_date": "2026-12-11"
+        "retirement_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "o3",
         "name": "o3",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o3",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -154481,9 +156214,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -154526,11 +156259,8 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "image_generation",
-          "code_interpreter",
-          "mcp",
-          "web_search"
+          "mcp"
         ],
         "endpoints": [
           "chat_completions",
@@ -154544,14 +156274,16 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o3",
         "open_weight": false,
         "release_date": "2025-04-16",
-        "retirement_date": "2026-12-11"
+        "retirement_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "successor": "gpt-6.1-sol"
       },
       {
         "id": "o4-mini-2025-04-16",
         "name": "o4-mini-2025-04-16",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-22",
         "family": "o4",
         "description": "Status: Shut down",
         "status": "deprecated",
@@ -154567,12 +156299,12 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o4-mini is our latest small o-series model.",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
+          "structured_output": false,
+          "fine_tuning": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "batch": true
         },
         "modalities": {
@@ -154712,10 +156444,10 @@ export const providers: ProviderWithModels[] = [
         "name": "o4-mini-deep-research",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o4",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -154774,7 +156506,6 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "web_search",
-          "code_interpreter",
           "mcp"
         ],
         "endpoints": [
@@ -154788,17 +156519,18 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
         "open_weight": false,
         "release_date": "2025-06-26",
-        "retirement_date": "2026-07-23"
+        "retirement_date": "2026-07-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "o4-mini",
         "name": "o4-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "o4",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
@@ -154810,12 +156542,12 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
+          "structured_output": false,
+          "fine_tuning": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "batch": true
         },
         "modalities": {
@@ -154857,9 +156589,7 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling",
-          "file_search",
           "code_interpreter",
-          "mcp",
           "web_search"
         ],
         "endpoints": [
@@ -154875,7 +156605,8 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/o4-mini",
         "open_weight": false,
         "release_date": "2025-04-16",
-        "retirement_date": "2026-10-23"
+        "retirement_date": "2026-10-23",
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "omni-moderation-2024-09-26",
@@ -155483,9 +157214,9 @@ export const providers: ProviderWithModels[] = [
         "name": "text-moderation",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2021-09",
         "max_output_tokens": 32768,
         "model_type": "moderation",
@@ -155529,16 +157260,17 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/text-moderation-latest",
         "open_weight": false,
-        "retirement_date": "2025-10-27"
+        "retirement_date": "2025-10-27",
+        "deprecation_date": "2025-04-28"
       },
       {
         "id": "text-moderation-stable",
         "name": "text-moderation-stable",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Shut down",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2021-09",
         "max_output_tokens": 32768,
         "model_type": "moderation",
@@ -155563,16 +157295,17 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/text-moderation-stable",
         "open_weight": false,
-        "retirement_date": "2025-10-27"
+        "retirement_date": "2025-10-27",
+        "deprecation_date": "2025-04-28"
       },
       {
         "id": "tts-1-hd",
         "name": "TTS-1 HD",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "tts",
         "performance": 3,
         "speed": 3,
@@ -155636,16 +157369,18 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/tts-1-hd",
         "open_weight": false,
-        "retirement_date": "2027-01-06"
+        "retirement_date": "2027-01-06",
+        "deprecation_date": "2026-10-01",
+        "successor": "gpt-realtime-2.1-mini"
       },
       {
         "id": "tts-1",
         "name": "TTS-1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "tts",
         "performance": 2,
         "speed": 4,
@@ -155709,17 +157444,19 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/tts-1",
         "open_weight": false,
-        "retirement_date": "2027-01-06"
+        "retirement_date": "2027-01-06",
+        "deprecation_date": "2026-10-01",
+        "successor": "gpt-realtime-2.1-mini"
       },
       {
         "id": "whisper-1",
         "name": "Whisper",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "family": "whisper",
         "description": "Status: Deprecated",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "transcription",
         "performance": 2,
         "speed": 3,
@@ -155763,7 +157500,9 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/whisper-1",
         "open_weight": false,
-        "retirement_date": "2027-02-26"
+        "retirement_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "successor": "gpt-live-transcribe"
       }
     ]
   },
@@ -155805,14 +157544,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "bge-m3",
-        "name": "bge-m3",
+        "name": "BGE M3",
         "created_by": "unknown",
         "source": "official",
         "status": "active",
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "big-pickle",
@@ -156620,7 +158359,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "codestral-embed",
-        "name": "codestral-embed",
+        "name": "Codestral Embed",
         "created_by": "unknown",
         "source": "official",
         "family": "codestral",
@@ -156629,11 +158368,11 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "cohere-embed-v5-fast",
-        "name": "cohere-embed-v5-fast",
+        "name": "Embed 5 Fast",
         "created_by": "unknown",
         "source": "official",
         "status": "active",
@@ -156641,11 +158380,11 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "cohere-embed-v5-pro",
-        "name": "cohere-embed-v5-pro",
+        "name": "Embed 5 Pro",
         "created_by": "unknown",
         "source": "official",
         "status": "active",
@@ -156653,7 +158392,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "crouton-alpha-free",
@@ -156818,9 +158557,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cached_input": 0.006
+          "input": 0.12,
+          "output": 0.48,
+          "cached_input": 0.0024
         },
         "modalities": {
           "input": [
@@ -156830,7 +158569,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "exo-free",
@@ -156986,7 +158725,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-07-24",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -157063,7 +158802,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-10",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -157139,6 +158878,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-10",
+        "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+        "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -157175,6 +158916,10 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-10-29",
+        "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model.",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false
       },
@@ -157187,7 +158932,13 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 2,
@@ -157202,7 +158953,13 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-11"
+        "last_updated": "2026-11-11",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "gemini-4-hydrogen",
@@ -157213,7 +158970,13 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 1.5,
@@ -157228,18 +158991,30 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-14",
+        "description": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window a",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "gemini-4-neon",
-        "name": "gemini-4-neon",
+        "name": "Gemini 4 Neon",
         "created_by": "google",
         "source": "official",
         "family": "gemini-4",
         "status": "active",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -157249,7 +159024,18 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-19"
+        "last_updated": "2026-11-22",
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.15
+        },
+        "description": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified ",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "gemini-decision-1",
@@ -157259,7 +159045,8 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.1,
@@ -157273,11 +159060,16 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-14",
+        "description": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API. It evaluates typed questions over text, images, video, audio, and PDFs in a single prefill pass and returns calibrated outcome probabilities with zero output tokens. Use Gemini Decision 1 for request routing, policy checks across many rules at once, candidate scoring against a rubric, tool selection, and low-latency classification over live media streams. A single request can evaluate up to 1,000 independent questions over shared input up to 262,144 tokens: * **Yes/no:** Returns a calibrated probability from 0.01 to 0.99 and a confidence score. * **Single-select:** Evaluates 2 to 255 options and returns the top option, per-option probabilities, and confidence. * **Rubric rating:** Evaluates 2 to 255 ordered rubric levels and returns the probability-weighted expected score, per-level probabilities, and confidence.",
+        "tagline": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API.",
+        "context_window": 262144,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "gemini-embedding-001",
-        "name": "gemini-embedding-001",
+        "name": "Gemini Embedding 001",
         "created_by": "google",
         "source": "official",
         "family": "gemini-embedding",
@@ -157285,9 +159077,11 @@ export const providers: ProviderWithModels[] = [
         "model_type": "embed",
         "capabilities": {
           "streaming": true,
-          "vision": true
+          "vision": false
         },
-        "last_updated": "2026-11-21",
+        "last_updated": "2026-11-22",
+        "description": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images. The Gemini Embedding model is best for semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large datasets.",
+        "tagline": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images.",
         "context_window": 2048,
         "license": "proprietary",
         "open_weight": false,
@@ -157302,7 +159096,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "gemini-embedding-2",
-        "name": "gemini-embedding-2",
+        "name": "Gemini Embedding 2",
         "created_by": "google",
         "source": "official",
         "family": "gemini-embedding",
@@ -157312,13 +159106,18 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true
         },
-        "last_updated": "2026-11-21",
+        "last_updated": "2026-11-22",
+        "description": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space. The Gemini Embedding 2 model is best for cross-modal semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large multimodal datasets.",
+        "tagline": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space.",
         "context_window": 8192,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image",
+            "video",
+            "audio"
           ],
           "output": [
             "text"
@@ -157350,7 +159149,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-11-18",
-        "description": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). Key updates: Improved visual quality and realism across 1K , 2K , and 4K output resolutions (default 1K ) Fixed tiling artifacts on wide and panoramic aspect ratios ( 1:4 , 4:1 , 1:8 , 8:1 ) at 2K and 4K resolutions Enhanced text rendering and infographic layout accuracy Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) Grounding with Google Web and Image Search Configurable Thinking levels ( minimal , medium default, and high )",
+        "description": "**Gemini Nano Banana 2.1** (`gemini-nano-banana-2.1`) is the latest high-efficiency image generation and conversational editing model. An update to Nano Banana 2 (Gemini 3.1 Flash Image), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). * Improved visual quality and realism across `1K`, `2K`, and `4K` output resolutions (default `1K`) * Fixed tiling artifacts on wide and panoramic aspect ratios (`1:4`, `4:1`, `1:8`, `8:1`) at `2K` and `4K` resolutions * Enhanced text rendering and infographic layout accuracy * Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) * Grounding with Google Web and Image Search * Configurable Thinking levels (`minimal`, `medium` default, and `high`)",
         "tagline": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering.",
         "context_window": 131072,
         "max_output_tokens": 32768,
@@ -157383,7 +159182,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "zai",
         "source": "official",
         "family": "glm-5.1",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -157407,7 +159206,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-22",
         "description": "GLM-5.1 is Z.AI’s latest flagship model, designed for long-horizon tasks. It can work continuously and autonomously on a single task for up to 8 hours, completing the full loop from planning and execution to iterative optimization and delivering production-grade results. \\ \\ In both general capability and coding performance, GLM-5.1 is overall aligned with Claude Opus 4.6. It demonstrates stronger sustained execution in long-horizon autonomous tasks, complex engineering optimization, and real...",
         "tagline": "GLM-5.1 is Z.AI’s latest flagship model, designed for long-horizon tasks.",
         "context_window": 200000,
@@ -157421,7 +159220,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "zai",
         "source": "official",
         "family": "glm-5.2",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -157445,7 +159244,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-22",
         "description": "GLM-5.2 is a flagship model built for the era of long-horizon tasks. With truly usable 1M-token context, it has been tested to handle project-scale engineering context, delivering more stable long-task execution, more reliable adherence to engineering standards, and higher success rates in development scenarios. A single task can complete the full development workflow—from requirements to deployable products across multiple platforms.",
         "tagline": "GLM-5.2 is a flagship model built for the era of long-horizon tasks.",
         "context_window": 1000000,
@@ -157538,9 +159337,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 1.4,
-          "output": 4.4,
-          "cached_input": 0.26
+          "input": 0.56,
+          "output": 1.76,
+          "cached_input": 0.104
         },
         "modalities": {
           "input": [
@@ -157550,7 +159349,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-09-06",
+        "last_updated": "2026-11-22",
         "description": "GLM-5.3 is Z.ai's latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities. It uses the same base model as GLM-5.2, with all improvements driven by post-training. Compared with GLM-5.2, it delivers significantly stronger performance in complex programming and long-horizon tasks:",
         "tagline": "GLM-5.3 is Z.ai's latest flagship model, delivering major advances in complex software engineering and agent tasks.",
         "context_window": 1000000,
@@ -157609,11 +159408,11 @@ export const providers: ProviderWithModels[] = [
         "status": "deprecated",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -157650,7 +159449,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
@@ -157691,11 +159490,11 @@ export const providers: ProviderWithModels[] = [
         "status": "deprecated",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -157731,11 +159530,11 @@ export const providers: ProviderWithModels[] = [
         "status": "deprecated",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -157771,11 +159570,11 @@ export const providers: ProviderWithModels[] = [
         "status": "deprecated",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -157811,11 +159610,11 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -157851,11 +159650,11 @@ export const providers: ProviderWithModels[] = [
         "status": "deprecated",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -157892,11 +159691,11 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -157958,11 +159757,11 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -158000,9 +159799,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -158039,11 +159838,11 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -158121,9 +159920,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -158191,7 +159990,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
@@ -158233,8 +160032,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158305,8 +160104,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158379,8 +160178,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158453,8 +160252,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158525,11 +160324,11 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -158567,8 +160366,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158700,8 +160499,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158774,8 +160573,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158849,8 +160648,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158923,8 +160722,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -158997,8 +160796,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -159093,6 +160892,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "gpt-live-1.1",
+        "name": "gpt-live-1.1",
+        "created_by": "openai",
+        "source": "official",
+        "status": "active",
+        "capabilities": {
+          "streaming": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "last_updated": "2026-11-22",
+        "description": "GPT-Live-1.1 can listen while it speaks. Compared with GPT-Live-1, it transcribes speech more accurately and maintains a more consistent accent and voice across languages. Describe in plain language when the model should hand a task to your backend for reasoning or tool use.",
+        "tagline": "Full-duplex voice model for multilingual conversations.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "audio",
+            "text"
+          ]
+        }
+      },
+      {
         "id": "gpt-live-1",
         "name": "gpt-live-1",
         "created_by": "openai",
@@ -159101,7 +160931,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -159476,7 +161306,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Inkling 2 Small Free",
         "created_by": "unknown",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true
         },
@@ -159485,7 +161315,7 @@ export const providers: ProviderWithModels[] = [
           "output": 0,
           "cached_input": 0
         },
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "jev-1.13-free",
@@ -160170,7 +162000,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "mistral-embed",
-        "name": "mistral-embed",
+        "name": "Mistral Embed",
         "created_by": "mistral",
         "source": "official",
         "family": "mistral-embed",
@@ -160182,7 +162012,7 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "fine_tuning": true
         },
-        "last_updated": "2026-11-21",
+        "last_updated": "2026-11-22",
         "description": "A general-purpose text embedding model that turns sentences and paragraphs into vectors for retrieval, classification, and similarity search.",
         "tagline": "A general-purpose text embedding model that turns sentences and paragraphs into vectors for retrieval, classification, and similarity search.",
         "context_window": 8000,
@@ -160493,7 +162323,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen3-embedding-8b",
-        "name": "qwen3-embedding-8b",
+        "name": "Qwen3 Embedding 8B",
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
@@ -160503,7 +162333,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "qwen3.5-plus",
@@ -160850,14 +162680,19 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "tidepool-alpha-free",
-        "name": "tidepool-alpha-free",
+        "name": "Tidepool Alpha Free",
         "created_by": "unknown",
         "source": "official",
         "status": "active",
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-11-19"
+        "last_updated": "2026-11-22",
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cached_input": 0
+        }
       },
       {
         "id": "union-alpha",
@@ -161278,14 +163113,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.181,
+          "input": 0.182,
           "output": 11.006,
           "cached_input": 0.18
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "~openai/gpt-astra-latest",
@@ -168005,7 +169840,10 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true,
+          "batch": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -168026,7 +169864,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-11"
+        "last_updated": "2026-11-11",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-4-hydrogen:batch",
@@ -168083,7 +169923,10 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true,
+          "batch": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -168104,7 +169947,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-14",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-4-neon:batch",
@@ -168161,7 +170006,10 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true,
+          "batch": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -168182,7 +170030,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-19"
+        "last_updated": "2026-11-19",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-nano-banana-2.1",
@@ -168237,7 +170087,9 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "tagline": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview.",
         "capabilities": {
-          "reasoning": true
+          "reasoning": true,
+          "streaming": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -168254,7 +170106,9 @@ export const providers: ProviderWithModels[] = [
           "input": 1.5,
           "output": 9
         },
-        "last_updated": "2026-11-06"
+        "last_updated": "2026-11-06",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-omni-1.2-flash",
@@ -168506,7 +170360,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemma 3 4B",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "family": "gemma-3",
         "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
         "context_window": 131072,
@@ -168524,15 +170378,15 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.05,
-          "output": 0.1,
+          "input": 0.04,
+          "output": 0.05,
           "cached_input": 0.02
         },
         "model_type": "chat",
         "parameters": 4,
         "release_date": "2025-03-13",
         "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
-        "max_output_tokens": 16384
+        "max_output_tokens": 117964
       },
       {
         "id": "google/gemma-3n-e2b-it:free",
@@ -168878,10 +170732,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MythoMax 13B",
         "created_by": "gryphe",
         "source": "official",
-        "last_updated": "2026-09-17",
+        "last_updated": "2026-11-22",
         "description": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay.",
         "context_window": 8192,
-        "max_output_tokens": 3686,
+        "max_output_tokens": 7372,
         "modalities": {
           "input": [
             "text"
@@ -168895,8 +170749,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.08,
-          "output": 0.11
+          "input": 0.3,
+          "output": 0.5,
+          "cached_input": 0.2
         },
         "parameters": 13,
         "release_date": "2023-07-02",
@@ -175808,7 +177663,7 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true,
+          "streaming": false,
           "vision": false,
           "fine_tuning": true,
           "reasoning": false,
@@ -176083,9 +177938,9 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true,
+          "streaming": false,
           "vision": true,
-          "fine_tuning": true,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176164,7 +178019,7 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true,
+          "streaming": false,
           "vision": true,
           "fine_tuning": true,
           "reasoning": false,
@@ -176251,7 +178106,7 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true,
+          "streaming": false,
           "fine_tuning": true,
           "vision": false,
           "reasoning": false,
@@ -176295,8 +178150,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
-          "fine_tuning": true,
+          "vision": false,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176340,8 +178195,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
-          "fine_tuning": true,
+          "vision": false,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176385,8 +178240,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
-          "fine_tuning": true,
+          "vision": false,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176546,9 +178401,9 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true,
+          "streaming": false,
           "vision": true,
-          "fine_tuning": true,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176667,9 +178522,9 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true,
+          "streaming": false,
           "vision": true,
-          "fine_tuning": true,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176754,8 +178609,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
-          "fine_tuning": true,
+          "vision": false,
+          "fine_tuning": false,
           "reasoning": false,
           "batch": true
         },
@@ -176914,7 +178769,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -177164,7 +179019,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -177369,7 +179224,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -177412,7 +179267,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -177455,7 +179310,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -177498,7 +179353,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -177618,7 +179473,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -177741,7 +179596,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -177823,7 +179678,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -178060,7 +179915,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -178296,7 +180151,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": false,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -178864,7 +180719,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -180494,7 +182349,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -181063,8 +182918,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true,
-          "fine_tuning": true,
+          "vision": false,
+          "fine_tuning": false,
           "batch": true
         },
         "pricing": {
@@ -181392,12 +183247,12 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.07,
           "output": 0.5,
-          "cached_input": 0.006
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "perceptron/perceptron-mk1.5",
@@ -183874,11 +185729,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5-27B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-11-21",
+        "last_updated": "2026-11-22",
         "family": "qwen3.5",
         "description": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance.",
         "context_window": 262144,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 81920,
         "modalities": {
           "input": [
             "text",
@@ -183899,8 +185754,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 0.195,
-          "output": 1.56,
+          "input": 0.26,
+          "output": 2.6,
           "cached_input": 0.27
         },
         "model_type": "chat",
@@ -184724,7 +186579,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total.",
         "release_date": "2026-08-12",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 65536,
         "model_type": "chat",
         "tagline": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion tot",
         "capabilities": {
@@ -184751,7 +186606,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-30",
+        "last_updated": "2026-11-22",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -184836,7 +186691,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
         "release_date": "2026-08-14",
         "context_window": 1024000,
-        "max_output_tokens": 235929,
+        "max_output_tokens": 131072,
         "parameters": 27,
         "model_type": "chat",
         "tagline": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
@@ -184859,14 +186714,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.06,
-          "output": 1.96,
-          "cached_input": 0.059
+          "input": 0.035,
+          "output": 1.5,
+          "cached_input": 0.018
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-21",
+        "last_updated": "2026-11-22",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -186321,7 +188176,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use.",
         "release_date": "2026-07-06",
         "context_window": 262144,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 235929,
         "tagline": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use.",
         "capabilities": {
           "tool_call": true,
@@ -186338,14 +188193,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.132,
-          "output": 0.528,
-          "cached_input": 0.033
+          "input": 0.14,
+          "output": 0.58,
+          "cached_input": 0.035
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-24"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "tencent/hy4-flash",
@@ -186604,14 +188459,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.4,
-          "cached_input": 0.02
+          "input": 0.075,
+          "output": 0.3,
+          "cached_input": 0.015
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "thinkingmachines/inkling-2-small:free",
@@ -189282,7 +191137,1639 @@ export const providers: ProviderWithModels[] = [
     "github_url": "https://github.com/parasail-ai",
     "twitter_url": "https://x.com/parasail_ai",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M0 15.852c4.5 0 8.147 3.648 8.147 8.148H0v-8.148z\"></path><path clip-rule=\"evenodd\" d=\"M0 7.688v.018C9 7.706 16.294 15 16.294 24h.019l-.018-.036c3.33-.2 8.864-2.447 7.49-9.58A19.95 19.95 0 009.61.213C2.482-1.155.235 4.374.036 7.704L0 7.688z\"></path>\n</svg>",
-    "models": []
+    "models": [
+      {
+        "id": "parasail-bge-m3",
+        "name": "BGE-M3",
+        "created_by": "baai",
+        "source": "official",
+        "description": "Multilingual, multi-functional embedding model supporting 100+ languages.",
+        "status": "active",
+        "release_date": "2024-01",
+        "context_window": 8192,
+        "model_type": "embed",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/bge-m3",
+        "tagline": "Multilingual, multi-functional embedding model supporting 100+ languages.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.01
+        },
+        "open_weight": true,
+        "endpoints": [
+          "embeddings"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-cydonia-24-v41",
+        "name": "Cydonia 24B v4.1",
+        "created_by": "cydonia",
+        "source": "official",
+        "description": "Fine-tuned model with enhanced roleplay and character consistency.",
+        "status": "active",
+        "release_date": "2025-08",
+        "context_window": 32768,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "page_url": "https://www.parasail.io/models/cydonia-24-v41",
+        "tagline": "Fine-tuned model with enhanced roleplay and character consistency.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 0.5,
+          "cached_input": 0.15
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "Ultra-fast, ultra-cheap reasoning model for high-throughput workloads.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/deepseek-v4-flash",
+        "tagline": "Ultra-fast, ultra-cheap reasoning model for high-throughput workloads.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.07
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "Open model for reasoning and coding workloads.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/deepseek-v4-pro",
+        "tagline": "Open model for reasoning and coding workloads.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.74,
+          "output": 3.48,
+          "cached_input": 0.1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-deepseek-v41-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "Multimodal 552B-parameter MoE with 1M-token context, compressed KV cache, and efficient agentic reasoning.",
+        "status": "active",
+        "release_date": "2026-09",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/deepseek-v41-flash",
+        "tagline": "Multimodal 552B-parameter MoE with 1M-token context, compressed KV cache, and efficient agentic reasoning.",
+        "capabilities": {
+          "vision": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.006
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-gemma-4-26b-a4b-it",
+        "name": "Gemma 4 26B-A4B",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Google’s efficient MoE Gemma model with 4B active parameters.",
+        "status": "active",
+        "release_date": "2026-03",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Gemma License",
+        "parameters": 26,
+        "active_parameters": 4,
+        "page_url": "https://www.parasail.io/models/gemma-4-26b-a4b",
+        "tagline": "Google’s efficient MoE Gemma model with 4B active parameters.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.13,
+          "output": 0.4,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-gemma-4-31b-it",
+        "name": "Gemma 4 31B",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Google’s latest open model with strong general performance and broad language support.",
+        "status": "active",
+        "release_date": "2026-03",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Gemma License",
+        "parameters": 31,
+        "page_url": "https://www.parasail.io/models/gemma-4-31b",
+        "tagline": "Google’s latest open model with strong general performance and broad language support.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.4,
+          "cached_input": 0.06
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-gemma3-27b-it",
+        "name": "Gemma 3 27B",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-3",
+        "description": "Proven compact model with multimodal capabilities and strong multilingual support.",
+        "status": "active",
+        "release_date": "2025-03",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Gemma License",
+        "parameters": 27,
+        "page_url": "https://www.parasail.io/models/gemma-3-27b",
+        "tagline": "Proven compact model with multimodal capabilities and strong multilingual support.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.45,
+          "cached_input": 0.04
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-glm-5",
+        "name": "GLM-5",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-5",
+        "description": "Z.AI’s open model for reasoning and agentic workflows.",
+        "status": "active",
+        "release_date": "2026-02",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/glm-5",
+        "tagline": "Z.AI’s open model for reasoning and agentic workflows.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3.2,
+          "cached_input": 0.2
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-glm-51",
+        "name": "GLM-5.1",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-51",
+        "description": "Strong reasoning and coding model with a 1M context window at competitive pricing.",
+        "status": "active",
+        "release_date": "2026-04",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/glm-51",
+        "tagline": "Strong reasoning and coding model with a 1M context window at competitive pricing.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-glm-52",
+        "name": "GLM-5.2",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-52",
+        "description": "Z.AI’s next-gen model for agentic engineering — stronger coding and agentic capabilities with sustained execution on long-horizon tasks.",
+        "status": "active",
+        "release_date": "2026-06",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/glm-52",
+        "tagline": "Z.AI’s next-gen model for agentic engineering — stronger coding and agentic capabilities with sustained execution on long-horizon tasks.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-glm-53-flash",
+        "name": "GLM-5.3 Flash",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-53",
+        "description": "Z.AI’s first natively multimodal GLM-5 model — frontier coding, agentic and vision work at a tenth of GLM-5.2’s price.",
+        "status": "active",
+        "release_date": "2026-08",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MIT",
+        "page_url": "https://www.parasail.io/models/glm-53-flash",
+        "tagline": "Z.AI’s first natively multimodal GLM-5 model — frontier coding, agentic and vision work at a tenth of GLM-5.2’s price.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.5,
+          "cached_input": 0.03
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-glm-53",
+        "name": "GLM-5.3",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-53",
+        "description": "Z.AI’s strongest GLM-5 agentic coder — the same base as GLM-5.2, with every gain coming from post-training.",
+        "status": "active",
+        "release_date": "2026-08",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "GLM-5.3 License",
+        "page_url": "https://www.parasail.io/models/glm-53",
+        "tagline": "Z.AI’s strongest GLM-5 agentic coder — the same base as GLM-5.2, with every gain coming from post-training.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-gpt-oss-120b-fast",
+        "name": "gpt-oss-120b (Fast)",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-oss",
+        "description": "Optimized fast tier of gpt-oss-120b with lower latency for real-time workloads.",
+        "status": "active",
+        "release_date": "2025-08",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 120,
+        "page_url": "https://www.parasail.io/models/gpt-oss-120b-fast",
+        "tagline": "Optimized fast tier of gpt-oss-120b with lower latency for real-time workloads.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-gpt-oss-120b",
+        "name": "gpt-oss-120b",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-oss",
+        "description": "OpenAI’s open-weight model with strong reasoning at a low cost.",
+        "status": "active",
+        "release_date": "2025-08",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 120,
+        "page_url": "https://www.parasail.io/models/gpt-oss-120b",
+        "tagline": "OpenAI’s open-weight model with strong reasoning at a low cost.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.75,
+          "cached_input": 0.055
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-gpt-oss-20b",
+        "name": "gpt-oss-20b",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-oss",
+        "description": "Compact open-weight model from OpenAI — ultra-cheap, fits on a single GPU.",
+        "status": "active",
+        "release_date": "2025-08",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 20,
+        "page_url": "https://www.parasail.io/models/gpt-oss-20b",
+        "tagline": "Compact open-weight model from OpenAI — ultra-cheap, fits on a single GPU.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.2,
+          "cached_input": 0.02
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-kimi-k26",
+        "name": "Kimi K2.6",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k26",
+        "description": "Strong reasoning model with excellent long-context understanding.",
+        "status": "active",
+        "release_date": "2026-04",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "Modified MIT",
+        "page_url": "https://www.parasail.io/models/kimi-k26",
+        "tagline": "Strong reasoning model with excellent long-context understanding.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.5,
+          "cached_input": 0.16
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-kimi-k27-code",
+        "name": "Kimi K2.7 Code",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k27",
+        "description": "Specialized coding model optimized for software engineering and agentic coding workflows.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "Modified MIT",
+        "page_url": "https://www.parasail.io/models/kimi-k27-code",
+        "tagline": "Specialized coding model optimized for software engineering and agentic coding workflows.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.5,
+          "cached_input": 0.16
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-kimi-k3",
+        "name": "Kimi K3",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k3",
+        "description": "Moonshot's 2.8T-parameter open-weight multimodal agentic model — frontier reasoning, native vision, and a 1M-token context window.",
+        "status": "active",
+        "release_date": "2026-07",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "Kimi K3 License",
+        "page_url": "https://www.parasail.io/models/kimi-k3",
+        "tagline": "Moonshot's 2.8T-parameter open-weight multimodal agentic model — frontier reasoning, native vision, and a 1M-token context window.",
+        "capabilities": {
+          "vision": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-kimi-k31-pro",
+        "name": "Kimi K3.1 Pro",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k31",
+        "description": "Moonshot's most capable 3T-class open-weight model — natively multimodal and agentic, post-trained from Kimi K3 with large-scale joint reinforcement learning.",
+        "status": "active",
+        "release_date": "2026-11",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "Kimi K3.1 Pro License",
+        "page_url": "https://www.parasail.io/models/kimi-k31-pro",
+        "tagline": "Moonshot's most capable 3T-class open-weight model — natively multimodal and agentic, post-trained from Kimi K3 with large-scale joint reinforcement learning.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.2
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-llama-33-70b-fp8",
+        "name": "Llama 3.3 70B",
+        "created_by": "meta",
+        "source": "official",
+        "family": "llama-33",
+        "description": "Meta’s reliable workhorse — great quality-to-cost ratio for production.",
+        "status": "active",
+        "release_date": "2024-12",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Llama 3.3 Community License",
+        "parameters": 70,
+        "page_url": "https://www.parasail.io/models/llama-33-70b",
+        "tagline": "Meta’s reliable workhorse — great quality-to-cost ratio for production.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.22,
+          "output": 0.5,
+          "cached_input": 0.11
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-llama-4-maverick-instruct-fp8",
+        "name": "Llama 4 Maverick",
+        "created_by": "meta",
+        "source": "official",
+        "family": "llama-4",
+        "description": "Meta’s multimodal Llama model with native image understanding.",
+        "status": "active",
+        "release_date": "2025-04",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "Llama 4 Community License",
+        "page_url": "https://www.parasail.io/models/llama-4-maverick",
+        "tagline": "Meta’s multimodal Llama model with native image understanding.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.35,
+          "output": 1,
+          "cached_input": 0.17
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-mimo-v25",
+        "name": "MiMo v2.5",
+        "created_by": "xiaomi",
+        "source": "official",
+        "family": "mimo",
+        "description": "Xiaomi’s efficient reasoning model with strong coding capabilities.",
+        "status": "active",
+        "release_date": "2026-04",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "page_url": "https://www.parasail.io/models/mimo-v25",
+        "tagline": "Xiaomi’s efficient reasoning model with strong coding capabilities.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-minimax-m25",
+        "name": "MiniMax M2.5",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "Cost-effective large model with strong general capabilities and long context.",
+        "status": "active",
+        "release_date": "2026-03",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MiniMax Model License",
+        "page_url": "https://www.parasail.io/models/minimax-m25",
+        "tagline": "Cost-effective large model with strong general capabilities and long context.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.03
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-minimax-m3",
+        "name": "MiniMax M3",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "Highly efficient MoE model delivering strong reasoning at exceptionally low cost.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MiniMax Model License",
+        "page_url": "https://www.parasail.io/models/minimax-m3",
+        "tagline": "Highly efficient MoE model delivering strong reasoning at exceptionally low cost.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.06
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-minimax-m31-flash",
+        "name": "MiniMax M3.1 Flash",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "MiniMax’s native multimodal MoE — 428B total / 23B active, sparse attention throughout, and a 1M-token context for coding and agentic work.",
+        "status": "active",
+        "release_date": "2026-10",
+        "context_window": 1048576,
+        "model_type": "chat",
+        "license": "MiniMax Community License",
+        "page_url": "https://www.parasail.io/models/minimax-m31-flash",
+        "tagline": "MiniMax’s native multimodal MoE — 428B total / 23B active, sparse attention throughout, and a 1M-token context for coding and agentic work.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.015
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-mistral-small-32-24b",
+        "name": "Mistral Small 3.2 24B",
+        "created_by": "mistral",
+        "source": "official",
+        "family": "mistral-small",
+        "description": "Mistral’s efficient model — excellent for high-volume, latency-sensitive workloads.",
+        "status": "active",
+        "release_date": "2026-03",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 24,
+        "page_url": "https://www.parasail.io/models/mistral-small-32",
+        "tagline": "Mistral’s efficient model — excellent for high-volume, latency-sensitive workloads.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.09,
+          "output": 0.3,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-nemotron-3-ultra-550b-nvfp4",
+        "name": "Nemotron 3 Ultra 550B",
+        "created_by": "nvidia",
+        "source": "official",
+        "description": "NVIDIA’s flagship open model optimized for enterprise reasoning workloads.",
+        "status": "active",
+        "release_date": "2026-06",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "NVIDIA Open Model License",
+        "parameters": 550,
+        "page_url": "https://www.parasail.io/models/nemotron-3-ultra-550b",
+        "tagline": "NVIDIA’s flagship open model optimized for enterprise reasoning workloads.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 2.5,
+          "cached_input": 0.1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen-3-next-80b-instruct",
+        "name": "Qwen3-Next 80B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3",
+        "description": "Balanced model with strong general capabilities at a competitive price point.",
+        "status": "active",
+        "release_date": "2026-04",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 80,
+        "page_url": "https://www.parasail.io/models/qwen3-next-80b",
+        "tagline": "Balanced model with strong general capabilities at a competitive price point.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 1.1,
+          "cached_input": 0.07
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen25-vl-72b-instruct",
+        "name": "Qwen2.5-VL 72B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen25",
+        "description": "Proven vision-language model for OCR, document QA, and visual grounding.",
+        "status": "active",
+        "release_date": "2025-01",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 72,
+        "page_url": "https://www.parasail.io/models/qwen25-vl-72b",
+        "tagline": "Proven vision-language model for OCR, document QA, and visual grounding.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.8,
+          "output": 1,
+          "cached_input": 0.4
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen3-235b-a22b-instruct-2507",
+        "name": "Qwen3 235B-A22B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3",
+        "description": "Strong open MoE model with excellent coding and reasoning at low cost.",
+        "status": "active",
+        "release_date": "2025-07",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 235,
+        "active_parameters": 22,
+        "page_url": "https://www.parasail.io/models/qwen3-235b-a22b-2507",
+        "tagline": "Strong open MoE model with excellent coding and reasoning at low cost.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.8,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen3-coder-next",
+        "name": "Qwen3-Coder-Next",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3",
+        "description": "Code-specialized model with strong fill-in-the-middle and agentic coding support.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "page_url": "https://www.parasail.io/models/qwen3-coder-next",
+        "tagline": "Code-specialized model with strong fill-in-the-middle and agentic coding support.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0.8,
+          "cached_input": 0.07
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen3-vl-235b-a22b-instruct",
+        "name": "Qwen3-VL 235B-A22B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3",
+        "description": "Large vision-language model with strong document understanding and visual reasoning.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 235,
+        "active_parameters": 22,
+        "page_url": "https://www.parasail.io/models/qwen3-vl-235b-a22b",
+        "tagline": "Large vision-language model with strong document understanding and visual reasoning.",
+        "capabilities": {
+          "vision": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.21,
+          "output": 1.9,
+          "cached_input": 0.1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen35-397b-a17b",
+        "name": "Qwen3.5 397B-A17B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen35",
+        "description": "Large-scale MoE model with frontier reasoning and multilingual capabilities.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 397,
+        "active_parameters": 17,
+        "page_url": "https://www.parasail.io/models/qwen35-397b-a17b",
+        "tagline": "Large-scale MoE model with frontier reasoning and multilingual capabilities.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3.6,
+          "cached_input": 0.3
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen3p5-35b-a3b",
+        "name": "Qwen3.5 35B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen35",
+        "description": "Compact MoE model with strong reasoning at minimal cost per token.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 35,
+        "active_parameters": 3,
+        "page_url": "https://www.parasail.io/models/qwen35-35b-a3b",
+        "tagline": "Compact MoE model with strong reasoning at minimal cost per token.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 1,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen3p6-35b-a3b",
+        "name": "Qwen3.6 35B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen36",
+        "description": "Efficient MoE model with 3B active parameters — great price-to-performance.",
+        "status": "active",
+        "release_date": "2026-06",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 35,
+        "active_parameters": 3,
+        "page_url": "https://www.parasail.io/models/qwen36-35b-a3b",
+        "tagline": "Efficient MoE model with 3B active parameters — great price-to-performance.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 1,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-qwen3vl-8b-instruct",
+        "name": "Qwen3-VL 8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "qwen3",
+        "description": "Compact vision-language model — fast and affordable for image understanding at scale.",
+        "status": "active",
+        "release_date": "2026-05",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 8,
+        "page_url": "https://www.parasail.io/models/qwen3-vl-8b",
+        "tagline": "Compact vision-language model — fast and affordable for image understanding at scale.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.12
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-resemble-tts-en",
+        "name": "Resemble TTS (English)",
+        "created_by": "resemble",
+        "source": "official",
+        "description": "High-quality text-to-speech model with natural-sounding English voices.",
+        "status": "active",
+        "release_date": "2026-04",
+        "model_type": "chat",
+        "license": "Commercial",
+        "page_url": "https://www.parasail.io/models/resemble-tts-en",
+        "tagline": "High-quality text-to-speech model with natural-sounding English voices.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 18.5
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-skyfall-31b-v42",
+        "name": "Skyfall 31B v4.2",
+        "created_by": "skyfall",
+        "source": "official",
+        "description": "Fine-tuned model optimized for creative writing and conversational tasks.",
+        "status": "active",
+        "release_date": "2026-02",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 31,
+        "page_url": "https://www.parasail.io/models/skyfall-31b-v42",
+        "tagline": "Fine-tuned model optimized for creative writing and conversational tasks.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.55,
+          "output": 0.8,
+          "cached_input": 0.25
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-skyfall-36b-v2-fp8",
+        "name": "Skyfall 36B v2",
+        "created_by": "skyfall",
+        "source": "official",
+        "description": "Fine-tuned model with enhanced instruction-following and creative output.",
+        "status": "active",
+        "release_date": "2025-02",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 36,
+        "page_url": "https://www.parasail.io/models/skyfall-36b-v2",
+        "tagline": "Fine-tuned model with enhanced instruction-following and creative output.",
+        "capabilities": {
+          "vision": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.55,
+          "output": 0.8,
+          "cached_input": 0.25
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-trinity-large-thinking",
+        "name": "Trinity Large (Thinking)",
+        "created_by": "trinity",
+        "source": "official",
+        "description": "Reasoning-focused model with extended thinking for complex problem-solving.",
+        "status": "active",
+        "release_date": "2026-04",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "page_url": "https://www.parasail.io/models/trinity-large-thinking",
+        "tagline": "Reasoning-focused model with extended thinking for complex problem-solving.",
+        "capabilities": {
+          "vision": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.22,
+          "output": 0.85,
+          "cached_input": 0.06
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "parasail-ui-tars-1p5-7b",
+        "name": "UI-TARS 1.5 7B",
+        "created_by": "bytedance",
+        "source": "official",
+        "description": "GUI agent model that can operate computer interfaces autonomously.",
+        "status": "active",
+        "release_date": "2025-04",
+        "context_window": 131072,
+        "model_type": "chat",
+        "license": "Apache 2.0",
+        "parameters": 7,
+        "page_url": "https://www.parasail.io/models/ui-tars-15-7b",
+        "tagline": "GUI agent model that can operate computer interfaces autonomously.",
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.2,
+          "cached_input": 0.1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      }
+    ]
   },
   {
     "id": "perplexity",
@@ -189337,7 +192824,47 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
+        "status": "deprecated",
+        "description": "For demanding reasoning and long-horizon agentic work",
+        "tagline": "For demanding reasoning and long-horizon agentic work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06"
+      },
+      {
+        "id": "anthropic/claude-fable-5-2",
+        "name": "Claude Fable 5 2",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-22",
         "description": "For demanding reasoning and long-horizon agentic work",
         "tagline": "For demanding reasoning and long-horizon agentic work",
         "context_window": 1000000,
@@ -189376,7 +192903,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
+        "status": "deprecated",
         "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "context_window": 1000000,
@@ -189426,7 +192954,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "anthropic/claude-haiku-5-5",
-        "name": "Claude Haiku 5.5",
+        "name": "Claude Haiku 5 5",
         "created_by": "anthropic",
         "source": "official",
         "family": "claude-haiku",
@@ -189458,7 +192986,7 @@ export const providers: ProviderWithModels[] = [
         "pricing_notes": [
           "Input: 0.10 (≤100k) 0.50 (>100k); Output: 0.50 (≤100k) 2.50 (>100k) per 1M tokens."
         ],
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "description": "For high-volume, latency-sensitive tasks such as classification, extraction, and routing",
         "tagline": "For high-volume, latency-sensitive tasks such as classification, extraction, and routing",
         "context_window": 1000000,
@@ -189626,7 +193154,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "anthropic/claude-opus-5-5",
-        "name": "Claude Opus 5.5",
+        "name": "Claude Opus 5 5",
         "created_by": "anthropic",
         "source": "official",
         "family": "claude-opus",
@@ -189655,7 +193183,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "description": "For long-running agentic coding and knowledge work",
         "tagline": "For long-running agentic coding and knowledge work",
         "context_window": 1000000,
@@ -189689,12 +193217,13 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "pricing": {
           "input": 5,
           "output": 25,
           "cached_input": 0.5
         },
+        "status": "deprecated",
         "context_window": 1000000,
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2026-05",
@@ -189780,7 +193309,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "anthropic/claude-sonnet-5-5",
-        "name": "Claude Sonnet 5.5",
+        "name": "Claude Sonnet 5 5",
         "created_by": "anthropic",
         "source": "official",
         "family": "claude-sonnet",
@@ -189809,7 +193338,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "description": "The best combination of speed and intelligence",
         "tagline": "The best combination of speed and intelligence",
         "context_window": 1000000,
@@ -189843,12 +193372,13 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "pricing": {
           "input": 2,
           "output": 10,
           "cached_input": 0.2
         },
+        "status": "deprecated",
         "description": "The best combination of speed and intelligence",
         "tagline": "The best combination of speed and intelligence",
         "context_window": 1000000,
@@ -190070,7 +193600,7 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-10-29",
         "status": "deprecated",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -190112,7 +193642,7 @@ export const providers: ProviderWithModels[] = [
           "Input ranges $2 to $4, output ranges $12 to $18 per 1M tokens."
         ],
         "status": "deprecated",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Pro Preview Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It&#39;s optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
+        "description": "Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It's optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -190151,7 +193681,7 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.03
         },
         "status": "deprecated",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
         "max_output_tokens": 65536
@@ -190227,7 +193757,7 @@ export const providers: ProviderWithModels[] = [
           "output": 7.5,
           "cached_input": 0.15
         },
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
         "max_output_tokens": 65536
@@ -190301,6 +193831,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-10-29",
+        "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+        "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl",
         "context_window": 1048576,
         "max_output_tokens": 65536
       },
@@ -190335,7 +193867,85 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-10-29",
+        "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model.",
+        "context_window": 1048576,
+        "max_output_tokens": 65536
+      },
+      {
+        "id": "google/gemini-4-carbon",
+        "name": "Gemini 4 Carbon",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.1
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-22",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "context_window": 1048576,
+        "max_output_tokens": 65536
+      },
+      {
+        "id": "google/gemini-4-hydrogen",
+        "name": "Gemini 4 Hydrogen",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cached_input": 0.075
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-22",
+        "description": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window a",
+        "context_window": 1048576,
+        "max_output_tokens": 65536
       },
       {
         "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -190376,9 +193986,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190415,11 +194025,11 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-5.1",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190455,11 +194065,11 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-5.2",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190498,9 +194108,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190537,11 +194147,11 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190579,9 +194189,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190613,7 +194223,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-5.5",
-        "name": "GPT-5.5",
+        "name": "Gpt 5.5",
         "created_by": "openai",
         "source": "official",
         "family": "gpt-5.5",
@@ -190623,8 +194233,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190643,7 +194253,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "pricing_notes": [
           "Input: 5.00 (≤272k) 10.00 (>272k); Output: 30.00 (≤272k) 45.00 (>272k) per 1M tokens."
         ],
@@ -190665,8 +194275,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190708,8 +194318,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190751,8 +194361,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190792,11 +194402,11 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -190835,8 +194445,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190877,8 +194487,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190920,8 +194530,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190954,7 +194564,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-6.1-sol",
-        "name": "GPT-6.1 Sol",
+        "name": "Gpt 6.1 Sol",
         "created_by": "openai",
         "source": "official",
         "family": "gpt-6.1",
@@ -190964,8 +194574,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -190987,13 +194597,99 @@ export const providers: ProviderWithModels[] = [
         "pricing_notes": [
           "Input: 2.00 (≤272k) 4.00 (>272k); Output: 10.00 (≤272k) 15.00 (>272k) per 1M tokens."
         ],
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "description": "Use GPT-6.1 Sol for complex coding, computer use, and professional work.",
         "tagline": "Near-Astra performance for complex work at a lower cost.",
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "max_input_tokens": 922000,
         "knowledge_cutoff": "2026-04"
+      },
+      {
+        "id": "openai/gpt-6.2-astra",
+        "name": "Gpt 6.2 Astra",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-6.2",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "pricing": {
+          "input": 8,
+          "output": 40,
+          "cached_input": 0.4
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing_notes": [
+          "Input: 8.00 (≤272k) 16.00 (>272k); Output: 40.00 (≤272k) 60.00 (>272k) per 1M tokens."
+        ],
+        "last_updated": "2026-11-22",
+        "description": "GPT-6.2 Astra can build and revise software, use a computer, and work with documents. It accepts text and images and responds with text. In the Responses API, use the Multi-agent beta to delegate work to subagents.",
+        "tagline": "Our most capable model for your hardest projects, from start to finish.",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 922000,
+        "knowledge_cutoff": "2026-05"
+      },
+      {
+        "id": "openai/gpt-6.2-sol",
+        "name": "Gpt 6.2 Sol",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-6.2",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.1
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing_notes": [
+          "Input: 2.00 (≤272k) 4.00 (>272k); Output: 10.00 (≤272k) 15.00 (>272k) per 1M tokens."
+        ],
+        "last_updated": "2026-11-22",
+        "description": "GPT-6.2 Sol accepts text and image inputs and produces text. Use it with the Responses API to call tools such as web search and computer use, or to delegate work to subagents with the Multi-agent beta.",
+        "tagline": "Our go-to model for everyday work, from coding to powering agents at scale.",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 922000,
+        "knowledge_cutoff": "2026-06"
       },
       {
         "id": "perplexity/deepseek-v4-flash-0731",
@@ -191026,7 +194722,7 @@ export const providers: ProviderWithModels[] = [
       {
         "id": "perplexity/deepseek-v4-pro-0813",
         "name": "Deepseek V4 Pro 0813",
-        "created_by": "deepseek",
+        "created_by": "perplexity",
         "source": "official",
         "family": "deepseek",
         "license": "proprietary",
@@ -191048,7 +194744,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "perplexity/glm-5.2",
@@ -191091,20 +194787,13 @@ export const providers: ProviderWithModels[] = [
       {
         "id": "perplexity/glm-5.3-flash",
         "name": "GLM-5.3 Flash",
-        "created_by": "zai",
+        "created_by": "perplexity",
         "source": "official",
         "family": "glm-5.3",
         "license": "proprietary",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true,
-          "prompt_caching": true,
-          "fine_tuning": true,
-          "json_mode": true,
-          "vision": true
+          "streaming": true
         },
         "pricing": {
           "input": 0.15,
@@ -191120,30 +194809,18 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
-        "description": "GLM-5.3-Flash/GLM-5.3-FlashX is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
-        "tagline": "GLM-5.3-Flash is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
-        "context_window": 1000000,
-        "max_output_tokens": 128000,
-        "parameters": 320,
-        "active_parameters": 18
+        "last_updated": "2026-11-22"
       },
       {
         "id": "perplexity/glm-5.3",
         "name": "Glm 5.3",
-        "created_by": "zai",
+        "created_by": "perplexity",
         "source": "official",
         "family": "glm-5.3",
         "license": "proprietary",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true,
-          "prompt_caching": true,
-          "fine_tuning": true,
-          "json_mode": true
+          "streaming": true
         },
         "pricing": {
           "input": 1.4,
@@ -191159,11 +194836,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
-        "description": "GLM-5.3 is Z.ai's latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities. It uses the same base model as GLM-5.2, with all improvements driven by post-training. Compared with GLM-5.2, it delivers significantly stronger performance in complex programming and long-horizon tasks:",
-        "tagline": "GLM-5.3 is Z.ai's latest flagship model, delivering major advances in complex software engineering and agent tasks.",
-        "context_window": 1000000,
-        "max_output_tokens": 128000
+        "last_updated": "2026-11-22"
       },
       {
         "id": "perplexity/kimi-k2.7-code",
@@ -191197,7 +194870,7 @@ export const providers: ProviderWithModels[] = [
       {
         "id": "perplexity/kimi-k3",
         "name": "Kimi K3",
-        "created_by": "moonshot",
+        "created_by": "perplexity",
         "source": "official",
         "family": "kimi-k3",
         "license": "proprietary",
@@ -191219,8 +194892,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
-        "context_window": 1048576
+        "last_updated": "2026-11-22"
       },
       {
         "id": "perplexity/nemotron-3-ultra-550b-a55b",
@@ -191279,7 +194951,7 @@ export const providers: ProviderWithModels[] = [
       {
         "id": "perplexity/nemotron-3.5-super-120b-a12b",
         "name": "Nemotron 3.5 Super 120b A12b",
-        "created_by": "nvidia",
+        "created_by": "perplexity",
         "source": "official",
         "license": "proprietary",
         "model_type": "chat",
@@ -191300,7 +194972,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "perplexity/sonar",
@@ -200318,7 +203990,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Recraft V2",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v2",
         "description": "First-generation Recraft raster model.",
         "tagline": "Legacy Recraft V2 raster.",
@@ -200340,14 +204012,33 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.022 per image (22 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.022
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "recraftv2_vector",
         "name": "Recraft V2 Vector",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v2",
         "description": "First-generation vector / SVG output model.",
         "tagline": "Legacy Recraft V2 vector.",
@@ -200369,14 +204060,33 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.044 per image (44 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.044
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "recraftv3",
         "name": "Recraft V3",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v3",
         "description": "Previously codenamed Red Panda; raster model with strong text rendering and brand-style preservation. Used for image-to-image, inpainting, and background editing endpoints.",
         "tagline": "Recraft V3 raster (formerly Red Panda).",
@@ -200402,14 +204112,33 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.040 per image (40 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.04
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "recraftv3_vector",
         "name": "Recraft V3 Vector",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v3",
         "description": "Vector / SVG output variant of Recraft V3 for editable scalable graphics.",
         "tagline": "Recraft V3 vector / SVG.",
@@ -200435,14 +204164,33 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.080 per image (80 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.08
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "recraftv4",
         "name": "Recraft V4",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v4",
         "description": "Latest Recraft raster model with strong design sensibility, readable text, and consistent composition. Default model in the API.",
         "tagline": "Design-forward raster image model.",
@@ -200465,14 +204213,473 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.040 per image (40 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.04
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "recraftv4_1",
+        "name": "Recraft V4.1",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 image generation model in the Recraft API.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.035
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.035 per image (35 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_flash_v2",
+        "name": "Recraft V4.1 Flash V2",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Flash V2 image generation model in the Recraft API.",
+        "status": "active",
+        "release_date": "2026-11-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Flash V2.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.007
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.007 per image (7 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_pro",
+        "name": "Recraft V4.1 Pro",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Pro image generation model in the Recraft API at 2K resolution.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Pro.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.21
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.21 per image (210 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_pro_vector",
+        "name": "Recraft V4.1 Pro Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Pro Vector image generation model in the Recraft API, outputting editable SVG vector graphics at 2K resolution.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Pro Vector.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.3
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.30 per image (300 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_utility",
+        "name": "Recraft V4.1 Utility",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Utility image generation model in the Recraft API.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Utility.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.035
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.035 per image (35 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_utility_pro",
+        "name": "Recraft V4.1 Utility Pro",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Utility Pro image generation model in the Recraft API at 2K resolution.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Utility Pro.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.21
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.21 per image (210 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_utility_pro_vector",
+        "name": "Recraft V4.1 Utility Pro Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Utility Pro Vector image generation model in the Recraft API, outputting editable SVG vector graphics at 2K resolution.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Utility Pro Vector.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.3
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.30 per image (300 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_utility_vector",
+        "name": "Recraft V4.1 Utility Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Utility Vector image generation model in the Recraft API, outputting editable SVG vector graphics.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Utility Vector.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.08
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.080 per image (80 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_1_vector",
+        "name": "Recraft V4.1 Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4-1",
+        "description": "Recraft V4.1 Vector image generation model in the Recraft API, outputting editable SVG vector graphics.",
+        "status": "active",
+        "release_date": "2026-05-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4.1 Vector.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.08
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.080 per image (80 API units)."
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "recraftv4_pro",
         "name": "Recraft V4 Pro",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v4",
         "description": "High-fidelity 2048x2048 raster tier of Recraft V4 with improved anatomy and realism for print-grade output.",
         "tagline": "Print-grade raster Recraft V4.",
@@ -200495,14 +204702,33 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.25 per image (250 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.25
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "recraftv4_pro_vector",
         "name": "Recraft V4 Pro Vector",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v4",
         "description": "Top-tier vector model in the V4 family for production-ready SVG illustrations.",
         "tagline": "Top-tier Recraft V4 vector model.",
@@ -200525,14 +204751,229 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.30 per image (300 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.3
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "recraftv4_styles",
+        "name": "Recraft V4 Styles",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4",
+        "description": "Recraft V4 Styles image generation model in the Recraft API.",
+        "status": "active",
+        "release_date": "2026-08-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4 Styles.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.035
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.035 per image (35 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_styles_pro",
+        "name": "Recraft V4 Styles Pro",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4",
+        "description": "Recraft V4 Styles Pro image generation model in the Recraft API at 2K resolution.",
+        "status": "active",
+        "release_date": "2026-08-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4 Styles Pro.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.10 per image (100 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_styles_pro_vector",
+        "name": "Recraft V4 Styles Pro Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4",
+        "description": "Recraft V4 Styles Pro Vector image generation model in the Recraft API, outputting editable SVG vector graphics at 2K resolution.",
+        "status": "active",
+        "release_date": "2026-08-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4 Styles Pro Vector.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.12
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.12 per image (120 API units)."
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "recraftv4_styles_vector",
+        "name": "Recraft V4 Styles Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "family": "recraft-v4",
+        "description": "Recraft V4 Styles Vector image generation model in the Recraft API, outputting editable SVG vector graphics.",
+        "status": "active",
+        "release_date": "2026-08-01",
+        "model_type": "image",
+        "license": "proprietary",
+        "tagline": "Recraft V4 Styles Vector.",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.05
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.050 per image (50 API units)."
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "recraftv4_vector",
         "name": "Recraft V4 Vector",
         "created_by": "recraft",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-11-22",
         "family": "recraft-v4",
         "description": "Recraft V4 model that outputs editable SVG vector graphics.",
         "tagline": "V4 vector / SVG output.",
@@ -200555,7 +204996,26 @@ export const providers: ProviderWithModels[] = [
         ],
         "pricing_notes": [
           "$0.080 per image (80 API units)."
-        ]
+        ],
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.08
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       }
     ]
   },
@@ -200586,7 +205046,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "deepseek",
         "description": "DeepSeek V4 Flash is an open-weight reasoning model with a 262k context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, logprobs, and streaming.",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 262144,
         "max_output_tokens": 131072,
         "model_type": "reasoning",
@@ -200619,7 +205079,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "deepseek41-flash-20261017",
@@ -200757,7 +205217,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "glm",
         "description": "GLM 5.3 is an open-weight mixture-of-experts reasoning and coding model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, logprobs, and streaming.",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 262144,
         "model_type": "reasoning",
@@ -200790,7 +205250,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "qwen3.6-27b",
@@ -203150,19 +207610,17 @@ export const providers: ProviderWithModels[] = [
         "model_type": "audio",
         "page_url": "https://replicate.com/google/gemini-3.8-flash-lite-tts",
         "last_updated": "2026-11-06",
+        "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+        "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w",
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -203172,7 +207630,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         }
       },
@@ -203186,19 +207644,17 @@ export const providers: ProviderWithModels[] = [
         "model_type": "audio",
         "page_url": "https://replicate.com/google/gemini-3.8-flash-tts",
         "last_updated": "2026-11-11",
+        "description": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-solid long-form multi-turn stability.",
+        "tagline": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-so",
         "context_window": 8192,
         "max_output_tokens": 16384,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -203208,7 +207664,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         }
       },
@@ -203222,7 +207678,13 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "page_url": "https://replicate.com/google/gemini-4-carbon",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -203235,7 +207697,13 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-11-11"
+        "last_updated": "2026-11-11",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-omni-1.1",
@@ -203389,14 +207857,18 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://replicate.com/google/lyria-3.5",
         "last_updated": "2026-11-07",
+        "description": "Lyria 3.5 is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 44.1 kHz stereo audio from text prompts or image inputs.",
+        "tagline": "Lyria 3.5 is Google's flagship music generation model.",
         "context_window": 131072,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -205220,9 +209692,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -205286,7 +209758,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://replicate.com/openai/gpt-5-nano",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
@@ -205326,11 +209798,11 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://replicate.com/openai/gpt-5.2",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -205367,9 +209839,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -205406,8 +209878,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -205446,8 +209918,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -205486,8 +209958,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "reasoning": true,
           "batch": true
@@ -205524,11 +209996,11 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://replicate.com/openai/gpt-5",
         "capabilities": {
           "streaming": true,
-          "vision": true,
+          "vision": false,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
-          "json_mode": true,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -205768,10 +210240,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -206019,7 +210491,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Image Edit",
         "created_by": "prunaai",
         "source": "official",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/p-image-edit",
         "capabilities": {
@@ -206036,14 +210508,14 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-11-17"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "prunaai/p-image-ideogram",
         "name": "P Image Ideogram",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/p-image-ideogram",
         "capabilities": {
@@ -206060,7 +210532,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "prunaai/p-image-lora",
@@ -208269,7 +212741,3583 @@ export const providers: ProviderWithModels[] = [
     "free_tier": false,
     "status_url": "https://status.siliconflow.com",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path clip-rule=\"evenodd\" d=\"M22.956 6.521H12.522c-.577 0-1.044.468-1.044 1.044v3.13c0 .577-.466 1.044-1.043 1.044H1.044c-.577 0-1.044.467-1.044 1.044v4.174C0 17.533.467 18 1.044 18h10.434c.577 0 1.044-.467 1.044-1.043v-3.13c0-.578.466-1.044 1.043-1.044h9.391c.577 0 1.044-.467 1.044-1.044V7.565c0-.576-.467-1.044-1.044-1.044z\"></path>\n</svg>",
-    "models": []
+    "models": [
+      {
+        "id": "black-forest-labs/FLUX-1.1-pro-Ultra",
+        "name": "FLUX 1.1 [pro] Ultra",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX1.1 Pro Ultra is the high-resolution version of FLUX1.1 Pro, capable of generating images up to 4 megapixels (2K resolution).",
+        "status": "active",
+        "release_date": "2025-07-11",
+        "model_type": "image",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-1-pro-ultra",
+        "tagline": "FLUX1.1 Pro Ultra is the high-resolution version of FLUX1.1 Pro, capable of generating images up to 4 megapixels (2K resolution).",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.06
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX-1.1-pro",
+        "name": "FLUX 1.1 [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX1.1 Pro is an enhanced text-to-image model built on the FLUX.1 architecture, offering improved composition, detail, and rendering speed.",
+        "status": "active",
+        "release_date": "2025-07-11",
+        "model_type": "image",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-1-pro",
+        "tagline": "FLUX1.1 Pro is an enhanced text-to-image model built on the FLUX.1 architecture, offering improved composition, detail, and rendering speed.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.04
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.1-dev",
+        "name": "FLUX.1-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+        "status": "active",
+        "release_date": "2024-08-01",
+        "model_type": "image",
+        "license": "NON-COMMERCIAL LICENSE",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-dev",
+        "tagline": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.014
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.1-Kontext-dev",
+        "name": "FLUX.1-Kontext-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.1 Kontext [dev] is a 12 billion parameter image editing model developed by Black Forest Labs.",
+        "status": "active",
+        "release_date": "2025-06-27",
+        "model_type": "image",
+        "license": "FLUX.1 [DEV] NON-COMMERCIAL LICENSE",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-kontext-dev",
+        "tagline": "FLUX.1 Kontext [dev] is a 12 billion parameter image editing model developed by Black Forest Labs.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.015
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.1-Kontext-max",
+        "name": "FLUX.1 Kontext [max]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.1 Kontext Max is the most powerful and feature-rich model in the Kontext series, designed for high-resolution, high-precision visual editing and generation.",
+        "status": "active",
+        "release_date": "2025-07-11",
+        "model_type": "image",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-kontext-max",
+        "tagline": "FLUX.1 Kontext Max is the most powerful and feature-rich model in the Kontext series, designed for high-resolution, high-precision visual editing and generation.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.08
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.1-Kontext-pro",
+        "name": "FLUX.1 Kontext [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.1 Kontext Pro is an advanced image generation and editing model that supports both natural language prompts and reference images.",
+        "status": "active",
+        "release_date": "2025-07-11",
+        "model_type": "image",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-kontext-pro",
+        "tagline": "FLUX.1 Kontext Pro is an advanced image generation and editing model that supports both natural language prompts and reference images.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.04
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.1-schnell",
+        "name": "FLUX.1-schnell",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+        "status": "active",
+        "release_date": "2024-08-01",
+        "model_type": "image",
+        "license": "APACHE 2.0",
+        "parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/flux-1-schnell",
+        "tagline": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.0014
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.2-flex",
+        "name": "FLUX.2 [flex]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.2 Flex is a versatile, parameter-tunable image generation and editing model that inherits the technical advantages of the FLUX.2 series, supporting natural language prompts, multi-reference image input, and granular parameter adjustments.",
+        "status": "active",
+        "release_date": "2025-12-11",
+        "model_type": "image",
+        "license": "32B",
+        "parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/flux-2-flex",
+        "tagline": "FLUX.2 Flex is a versatile, parameter-tunable image generation and editing model that inherits the technical advantages of the FLUX.2 series, supporting natural language prompts, multi-reference image",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.06
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "black-forest-labs/FLUX.2-pro",
+        "name": "FLUX.2 [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "description": "FLUX.2 Pro is a cutting-edge image generation and editing model that builds on the strengths of its predecessor, supporting natural language prompts, reference images, and advanced control inputs.",
+        "status": "active",
+        "release_date": "2025-12-11",
+        "model_type": "image",
+        "license": "32B",
+        "parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/flux-2-pro",
+        "tagline": "FLUX.2 Pro is a cutting-edge image generation and editing model that builds on the strengths of its predecessor, supporting natural language prompts, reference images, and advanced control inputs.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.03
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "name": "Seed-OSS-36B-Instruct",
+        "created_by": "bytedance",
+        "source": "official",
+        "description": "Seed-OSS is a series of open-source large language models developed by the ByteDance Seed team, designed for powerful long-context processing, reasoning, agent capabilities, and general-purpose abilities.",
+        "status": "active",
+        "release_date": "2025-09-04",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "parameters": 36,
+        "page_url": "https://www.siliconflow.com/models/seed-oss-36b-instruct",
+        "tagline": "Seed-OSS is a series of open-source large language models developed by the ByteDance Seed team, designed for powerful long-context processing, reasoning, agent capabilities, and general-purpose abilit",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.21,
+          "output": 0.57
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-R1",
+        "name": "DeepSeek-R1",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-R1-0528 is an upgraded model shows significant improvements in handling complex reasoning tasks，also offers a reduced hallucination rate, enhanced support for function calling, and better experience for vibe coding.",
+        "status": "active",
+        "release_date": "2025-05-28",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 671,
+        "active_parameters": 37,
+        "page_url": "https://www.siliconflow.com/models/deepseek-r1",
+        "tagline": "DeepSeek-R1-0528 is an upgraded model shows significant improvements in handling complex reasoning tasks，also offers a reduced hallucination rate, enhanced support for function calling, and better exp",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 2.18
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "name": "DeepSeek-V3.1-Terminus",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V3.1-Terminus is an updated version built on V3.1’s strengths while addressing key user feedback.",
+        "status": "active",
+        "release_date": "2025-09-29",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "model_type": "chat",
+        "license": "MIT LICENSE",
+        "parameters": 671,
+        "active_parameters": 236,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v3-1-terminus",
+        "tagline": "DeepSeek-V3.1-Terminus is an updated version built on V3.1’s strengths while addressing key user feedback.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.27,
+          "output": 1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.1",
+        "name": "DeepSeek-V3.1",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V3.1 is a hybrid model that supports both thinking mode and non-thinking mode.",
+        "status": "active",
+        "release_date": "2025-08-25",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "model_type": "chat",
+        "license": "MIT LICENSE",
+        "parameters": 671,
+        "active_parameters": 37,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v3-1",
+        "tagline": "DeepSeek-V3.1 is a hybrid model that supports both thinking mode and non-thinking mode.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.27,
+          "output": 1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.2-Exp",
+        "name": "DeepSeek-V3.2-Exp",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V3.2-Exp is an experimental version of DeepSeek model, built on V3.1-Terminus.",
+        "status": "active",
+        "release_date": "2025-10-10",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "model_type": "chat",
+        "license": "MIT LICENSE",
+        "parameters": 671,
+        "active_parameters": 37,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v3-2-exp",
+        "tagline": "DeepSeek-V3.2-Exp is an experimental version of DeepSeek model, built on V3.1-Terminus.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.27,
+          "output": 0.41
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.2",
+        "name": "DeepSeek-V3.2",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
+        "status": "active",
+        "release_date": "2025-12-04",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "model_type": "chat",
+        "license": "MIT LICENSE",
+        "parameters": 671,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v3-2",
+        "tagline": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.27,
+          "output": 0.42,
+          "cached_input": 0.135
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3",
+        "name": "DeepSeek-V3",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V3-0324 demonstrates notable improvements over its predecessor, DeepSeek-V3, in several key aspects, including major boost in reasoning performance, stronger front-end development skills and ",
+        "status": "active",
+        "release_date": "2024-12-26",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "model_type": "chat",
+        "license": "MODEL AGREEMENT",
+        "parameters": 671,
+        "active_parameters": 37,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v3",
+        "tagline": "DeepSeek-V3-0324 demonstrates notable improvements over its predecessor, DeepSeek-V3, in several key aspects, including major boost in reasoning performance, stronger front-end development skills and ",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "name": "DeepSeek-V4-Flash-0731",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V4-Flash-0731 is the official release of DeepSeek-V4-Flash, superseding the preview version, with substantially enhanced agentic capabilities.",
+        "status": "active",
+        "release_date": "2026-07-31",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 284,
+        "active_parameters": 13,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v4-flash-0731",
+        "tagline": "DeepSeek-V4-Flash-0731 is the official release of DeepSeek-V4-Flash, superseding the preview version, with substantially enhanced agentic capabilities.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.22,
+          "output": 0.66,
+          "cached_input": 0.014
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+        "name": "DeepSeek-V4-Flash-Vision-Exp",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V4-Flash-Vision-Exp is the first experimental multimodal model in the DeepSeek-V4 family.",
+        "status": "active",
+        "release_date": "2026-09-04",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 305,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v4-flash-vision-exp",
+        "tagline": "DeepSeek-V4-Flash-Vision-Exp is the first experimental multimodal model in the DeepSeek-V4 family.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.44,
+          "output": 1.32,
+          "cached_input": 0.028
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "name": "DeepSeek-V4-Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V4-Flash is DeepSeek's latest open-source MoE model featuring 284B total parameters with only 13B activated during inference, delivering high-speed generation without sacrificing capability.",
+        "status": "active",
+        "release_date": "2026-04-24",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 158,
+        "active_parameters": 13,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v4-flash",
+        "tagline": "DeepSeek-V4-Flash is DeepSeek's latest open-source MoE model featuring 284B total parameters with only 13B activated during inference, delivering high-speed generation without sacrificing capability.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.13,
+          "output": 0.28,
+          "cached_input": 0.028
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+        "name": "DeepSeek-V4-Pro-0813",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V4-Pro-0813 is the official release of DeepSeek-V4-Pro, superseding the preview version, with greatly enhanced agentic capabilities and performance improvements that are especially pronounced in production environments.",
+        "status": "active",
+        "release_date": "2026-08-14",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 1600,
+        "active_parameters": 49,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v4-pro-0813",
+        "tagline": "DeepSeek-V4-Pro-0813 is the official release of DeepSeek-V4-Pro, superseding the preview version, with greatly enhanced agentic capabilities and performance improvements that are especially pronounced",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.32,
+          "output": 3.96,
+          "cached_input": 0.044
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "name": "DeepSeek-V4-Pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V4-Pro is DeepSeek's flagship open-source MoE model with 1.6T total parameters and 49B activated, purpose-built for frontier-level reasoning, coding, and agentic tasks.",
+        "status": "active",
+        "release_date": "2026-04-24",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 862,
+        "active_parameters": 49,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v4-pro",
+        "tagline": "DeepSeek-V4-Pro is DeepSeek's flagship open-source MoE model with 1.6T total parameters and 49B activated, purpose-built for frontier-level reasoning, coding, and agentic tasks.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.50162,
+          "output": 3.135,
+          "cached_input": 0.135
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "name": "DeepSeek-V4.1-Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "description": "DeepSeek-V4.1-Flash is DeepSeek's latest multimodal MoE model with 552B backbone parameters.",
+        "status": "active",
+        "release_date": "2026-09-10",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 552,
+        "page_url": "https://www.siliconflow.com/models/deepseek-v4-1-flash",
+        "tagline": "DeepSeek-V4.1-Flash is DeepSeek's latest multimodal MoE model with 552B backbone parameters.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.003
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "fishaudio/fish-speech-1.5",
+        "name": "Fish-Speech-1.5",
+        "created_by": "fishaudio",
+        "source": "official",
+        "description": "Fish Speech V1.5 is a leading open-source text-to-speech (TTS) model.",
+        "status": "active",
+        "release_date": "2024-11-29",
+        "model_type": "tts",
+        "license": "OPEN-SOURCE",
+        "page_url": "https://www.siliconflow.com/models/fish-speech-1-5",
+        "tagline": "Fish Speech V1.5 is a leading open-source text-to-speech (TTS) model.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Speech synthesis",
+              "unit": "Per 1M UTF-8 bytes",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "audio_speech"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "FunAudioLLM/CosyVoice2-0.5B",
+        "name": "FunAudioLLM/CosyVoice2-0.5B",
+        "created_by": "funaudiollm",
+        "source": "official",
+        "description": "CosyVoice 2 is a streaming speech synthesis model based on a large language model, employing a unified streaming/non-streaming framework design.",
+        "status": "active",
+        "release_date": "2024-12-16",
+        "model_type": "tts",
+        "parameters": 1,
+        "active_parameters": 0.5,
+        "page_url": "https://www.siliconflow.com/models/funaudiollm-cosyvoice2-0-5b",
+        "tagline": "CosyVoice 2 is a streaming speech synthesis model based on a large language model, employing a unified streaming/non-streaming framework design.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Speech synthesis",
+              "unit": "Per 1M UTF-8 bytes",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    7.15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "google/gemma-4-12B-it",
+        "name": "gemma-4-12B-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Gemma 4 26B is Google DeepMind's latest open-source MoE model, built on a 26B-parameter Mixture of Experts architecture that activates only 3.8B parameters during inference for exceptionally fast token throughput.",
+        "status": "active",
+        "release_date": "2026-06-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE 2.0",
+        "parameters": 31,
+        "active_parameters": 11.95,
+        "page_url": "https://www.siliconflow.com/models/gemma-4-12b-it",
+        "tagline": "Gemma 4 26B is Google DeepMind's latest open-source MoE model, built on a 26B-parameter Mixture of Experts architecture that activates only 3.8B parameters during inference for exceptionally fast toke",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "google/gemma-4-26B-A4B-it",
+        "name": "gemma-4-26B-A4B-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Gemma 4 26B is Google DeepMind's latest open-source MoE model, built on a 26B-parameter Mixture of Experts architecture that activates only 3.8B parameters during inference for exceptionally fast token throughput.",
+        "status": "active",
+        "release_date": "2026-04-07",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE 2.0",
+        "parameters": 31,
+        "active_parameters": 3.8,
+        "page_url": "https://www.siliconflow.com/models/gemma-4-26b-a4b-it",
+        "tagline": "Gemma 4 26B is Google DeepMind's latest open-source MoE model, built on a 26B-parameter Mixture of Experts architecture that activates only 3.8B parameters during inference for exceptionally fast toke",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.4,
+          "cached_input": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "google/gemma-4-31B-it",
+        "name": "gemma-4-31B-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Gemma 4 31B is Google DeepMind's latest open-source model, built on a 31B dense architecture from the same research foundation as Gemini 3.",
+        "status": "active",
+        "release_date": "2026-04-07",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE 2.0",
+        "parameters": 31,
+        "active_parameters": 30.7,
+        "page_url": "https://www.siliconflow.com/models/gemma-4-31b-it",
+        "tagline": "Gemma 4 31B is Google DeepMind's latest open-source model, built on a 31B dense architecture from the same research foundation as Gemini 3.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 1,
+          "cached_input": 0.25
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "inclusionAI/Ling-flash-2.0",
+        "name": "Ling-flash-2.0",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "Ling-flash-2.0 is a language model from inclusionAI with a total of 100 billion parameters, of which 6.1 billion are activated per token (4.8 billion non-embedding).",
+        "status": "active",
+        "release_date": "2025-09-18",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "MIT LICENSE",
+        "parameters": 100,
+        "active_parameters": 6.1,
+        "page_url": "https://www.siliconflow.com/models/ling-flash-2-0",
+        "tagline": "Ling-flash-2.0 is a language model from inclusionAI with a total of 100 billion parameters, of which 6.1 billion are activated per token (4.8 billion non-embedding).",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.57
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "IndexTeam/IndexTTS-2",
+        "name": "IndexTTS-2",
+        "created_by": "indexteam",
+        "source": "official",
+        "description": "IndexTTS2 is a breakthrough auto-regressive zero-shot Text-to-Speech (TTS) model designed to address the challenge of precise duration control in large-scale TTS systems, which is a significant limitation in applications like video dubbing.",
+        "status": "active",
+        "release_date": "2025-09-10",
+        "model_type": "tts",
+        "license": "APACHE-2.0",
+        "parameters": 1,
+        "page_url": "https://www.siliconflow.com/models/indextts-2",
+        "tagline": "IndexTTS2 is a breakthrough auto-regressive zero-shot Text-to-Speech (TTS) model designed to address the challenge of precise duration control in large-scale TTS systems, which is a significant limita",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Speech synthesis",
+              "unit": "Per 1M UTF-8 bytes",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    7.15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "audio_speech"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "meituan-longcat/LongCat-2.0",
+        "name": "LongCat-2.0",
+        "created_by": "meituan-longcat",
+        "source": "official",
+        "description": "LongCat-2.0 is a high-performance foundation model designed for agentic workloads.",
+        "status": "active",
+        "release_date": "2026-06-30",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 1600,
+        "active_parameters": 48,
+        "page_url": "https://www.siliconflow.com/models/longcat-2-0",
+        "tagline": "LongCat-2.0 is a high-performance foundation model designed for agentic workloads.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 2.95,
+          "cached_input": 0.015
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-M3",
+        "name": "MiniMax-M3",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "MiniMax-M3 is MiniMax’s frontier multimodal coding and agentic model, built on the MiniMax Sparse Attention (MSA) architecture.",
+        "status": "active",
+        "release_date": "2026-06-01",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "page_url": "https://www.siliconflow.com/models/minimax-m3",
+        "tagline": "MiniMax-M3 is MiniMax’s frontier multimodal coding and agentic model, built on the MiniMax Sparse Attention (MSA) architecture.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.06
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "moonshotai/Kimi-K2.5",
+        "name": "Kimi-K2.5",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "Kimi-K2.5",
+        "description": "Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base.",
+        "status": "active",
+        "release_date": "2026-01-30",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "MODIFIED MIT",
+        "parameters": 1000,
+        "active_parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/kimi-k2-5",
+        "tagline": "Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.45,
+          "output": 2.25,
+          "cached_input": 0.07
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "moonshotai/Kimi-K2.6",
+        "name": "Kimi-K2.6",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "Kimi-K2.6",
+        "description": "Kimi K2.6 is an open-source, native multimodal agentic model by Moonshot AI, achieving open-source state-of-the-art on benchmarks including HLE with tools, SWE-Bench Pro, and BrowseComp.",
+        "status": "active",
+        "release_date": "2026-04-21",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "MODIFIED MIT",
+        "parameters": 1000,
+        "active_parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/kimi-k2-6",
+        "tagline": "Kimi K2.6 is an open-source, native multimodal agentic model by Moonshot AI, achieving open-source state-of-the-art on benchmarks including HLE with tools, SWE-Bench Pro, and BrowseComp.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.77,
+          "output": 3.4,
+          "cached_input": 0.14
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "moonshotai/Kimi-K2.7-Code",
+        "name": "Kimi-K2.7-Code",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "Kimi-K2.7",
+        "description": "Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6.",
+        "status": "active",
+        "release_date": "2026-06-16",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "MODIFIED MIT LICENSE",
+        "parameters": 1000,
+        "active_parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/kimi-k2-7-code",
+        "tagline": "Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.85916,
+          "output": 3.8,
+          "cached_input": 0.17993
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "moonshotai/Kimi-K3",
+        "name": "Kimi-K3",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "Kimi-K3",
+        "description": "Kimi K3 is Kimi’s most capable model to date, featuring 2.8 trillion parameters.",
+        "status": "active",
+        "release_date": "2026-07-16",
+        "context_window": 1048576,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "KIMI K3 LICENSE",
+        "parameters": 2800,
+        "active_parameters": 104,
+        "page_url": "https://www.siliconflow.com/models/kimi-k3",
+        "tagline": "Kimi K3 is Kimi’s most capable model to date, featuring 2.8 trillion parameters.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.7,
+          "output": 13.5,
+          "cached_input": 0.27
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "openai/gpt-oss-120b",
+        "name": "gpt-oss-120b",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-oss",
+        "description": "The gpt-oss series is OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+        "status": "active",
+        "release_date": "2025-08-13",
+        "context_window": 131072,
+        "max_output_tokens": 8192,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 120,
+        "active_parameters": 5.1,
+        "page_url": "https://www.siliconflow.com/models/gpt-oss-120b",
+        "tagline": "The gpt-oss series is OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": false,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.45,
+          "cached_input": 0.075
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22",
+        "knowledge_cutoff": "2024-06"
+      },
+      {
+        "id": "openai/gpt-oss-20b",
+        "name": "gpt-oss-20b",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-oss",
+        "description": "The gpt-oss series is OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+        "status": "active",
+        "release_date": "2025-08-13",
+        "context_window": 131072,
+        "max_output_tokens": 8192,
+        "model_type": "chat",
+        "license": "APACHE 2.0",
+        "parameters": 20,
+        "active_parameters": 3.6,
+        "page_url": "https://www.siliconflow.com/models/gpt-oss-20b",
+        "tagline": "The gpt-oss series is OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": false,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.18
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22",
+        "knowledge_cutoff": "2024-06"
+      },
+      {
+        "id": "Qwen/Qwen-Image-Edit",
+        "name": "Qwen-Image-Edit",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen-Image-Edit is the image editing version of Qwen-Image, released by Alibaba's Qwen team.",
+        "status": "active",
+        "release_date": "2025-09-18",
+        "model_type": "image",
+        "license": "APACHE 2.0",
+        "parameters": 20,
+        "page_url": "https://www.siliconflow.com/models/qwen-image-edit",
+        "tagline": "Qwen-Image-Edit is the image editing version of Qwen-Image, released by Alibaba's Qwen team.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.04
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen-Image",
+        "name": "Qwen-Image",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen-Image is an image generation foundation model released by the Alibaba Qwen team, featuring 20 billion parameters.",
+        "status": "active",
+        "release_date": "2025-09-15",
+        "model_type": "image",
+        "license": "APACHE 2.0",
+        "parameters": 20,
+        "page_url": "https://www.siliconflow.com/models/qwen-image",
+        "tagline": "Qwen-Image is an image generation foundation model released by the Alibaba Qwen team, featuring 20 billion parameters.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.02
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen2.5-72B-Instruct",
+        "name": "Qwen2.5-72B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen2.5-72B-Instruct is one of the latest large language model series released by Alibaba Cloud.",
+        "status": "active",
+        "release_date": "2024-09-18",
+        "context_window": 32768,
+        "max_output_tokens": 4096,
+        "model_type": "chat",
+        "parameters": 72,
+        "page_url": "https://www.siliconflow.com/models/qwen2-5-72b-instruct",
+        "tagline": "Qwen2.5-72B-Instruct is one of the latest large language model series released by Alibaba Cloud.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.59,
+          "output": 0.59
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen2.5-7B-Instruct",
+        "name": "Qwen2.5-7B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen2.5-7B-Instruct is one of the latest large language model series released by Alibaba Cloud.",
+        "status": "active",
+        "release_date": "2024-09-18",
+        "context_window": 32768,
+        "max_output_tokens": 4096,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 7,
+        "page_url": "https://www.siliconflow.com/models/qwen2-5-7b-instruct",
+        "tagline": "Qwen2.5-7B-Instruct is one of the latest large language model series released by Alibaba Cloud.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.05
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-14B",
+        "name": "Qwen3-14B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-14B is the latest large language model in the Qwen series with 14.8B parameters.",
+        "status": "active",
+        "release_date": "2025-04-30",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 14,
+        "page_url": "https://www.siliconflow.com/models/qwen3-14b",
+        "tagline": "Qwen3-14B is the latest large language model in the Qwen series with 14.8B parameters.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.28
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "name": "Qwen3-30B-A3B-Instruct-2507",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-30B-A3B-Instruct-2507 is the updated version of the Qwen3-30B-A3B non-thinking mode.",
+        "status": "active",
+        "release_date": "2025-07-30",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 30,
+        "active_parameters": 3.3,
+        "page_url": "https://www.siliconflow.com/models/qwen3-30b-a3b-instruct-2507",
+        "tagline": "Qwen3-30B-A3B-Instruct-2507 is the updated version of the Qwen3-30B-A3B non-thinking mode.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.09,
+          "output": 0.3
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-32B",
+        "name": "Qwen3-32B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-32B is the latest large language model in the Qwen series with 32.8B parameters.",
+        "status": "active",
+        "release_date": "2025-04-30",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/qwen3-32b",
+        "tagline": "Qwen3-32B is the latest large language model in the Qwen series with 32.8B parameters.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.57
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-8B",
+        "name": "Qwen3-8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-8B is the latest large language model in the Qwen series with 8.2B parameters.",
+        "status": "active",
+        "release_date": "2025-04-30",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 8,
+        "page_url": "https://www.siliconflow.com/models/qwen3-8b",
+        "tagline": "Qwen3-8B is the latest large language model in the Qwen series with 8.2B parameters.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0.06
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "name": "Qwen3-Coder-30B-A3B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Coder-30B-A3B-Instruct is a code model from the Qwen3 series developed by Alibaba's Qwen team.",
+        "status": "active",
+        "release_date": "2025-08-01",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 30,
+        "active_parameters": 3.3,
+        "page_url": "https://www.siliconflow.com/models/qwen3-coder-30b-a3b-instruct",
+        "tagline": "Qwen3-Coder-30B-A3B-Instruct is a code model from the Qwen3 series developed by Alibaba's Qwen team.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.28
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+        "name": "Qwen3-Coder-480B-A35B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Coder-480B-A35B-Instruct is the most agentic code model released by Alibaba to date.",
+        "status": "active",
+        "release_date": "2025-07-31",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 480,
+        "active_parameters": 35,
+        "page_url": "https://www.siliconflow.com/models/qwen3-coder-480b-a35b",
+        "tagline": "Qwen3-Coder-480B-A35B-Instruct is the most agentic code model released by Alibaba to date.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "name": "Qwen3-Embedding-0.6B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Embedding-0.6B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+        "status": "active",
+        "release_date": "2025-06-06",
+        "context_window": 32768,
+        "model_type": "embed",
+        "license": "APACHE-2.0",
+        "parameters": 1,
+        "active_parameters": 0.6,
+        "page_url": "https://www.siliconflow.com/models/qwen3-embedding-0-6b",
+        "tagline": "Qwen3-Embedding-0.6B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.01
+        },
+        "open_weight": true,
+        "endpoints": [
+          "embeddings"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-4B",
+        "name": "Qwen3-Embedding-4B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Embedding-4B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+        "status": "active",
+        "release_date": "2025-06-06",
+        "context_window": 32768,
+        "model_type": "embed",
+        "license": "APACHE-2.0",
+        "parameters": 4,
+        "page_url": "https://www.siliconflow.com/models/qwen3-embedding-4b",
+        "tagline": "Qwen3-Embedding-4B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.02
+        },
+        "open_weight": true,
+        "endpoints": [
+          "embeddings"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-8B",
+        "name": "Qwen3-Embedding-8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Embedding-8B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+        "status": "active",
+        "release_date": "2025-06-06",
+        "context_window": 32768,
+        "model_type": "embed",
+        "license": "APACHE-2.0",
+        "parameters": 8,
+        "page_url": "https://www.siliconflow.com/models/qwen3-embedding-8b",
+        "tagline": "Qwen3-Embedding-8B is the latest proprietary model in the Qwen3 Embedding series, specifically designed for text embedding and ranking tasks.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04
+        },
+        "open_weight": true,
+        "endpoints": [
+          "embeddings"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Reranker-0.6B",
+        "name": "Qwen3-Reranker-0.6B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Reranker-0.6B is a text reranking model from the Qwen3 series.",
+        "status": "active",
+        "release_date": "2025-06-06",
+        "context_window": 32768,
+        "model_type": "rerank",
+        "license": "APACHE-2.0",
+        "parameters": 1,
+        "active_parameters": 0.6,
+        "page_url": "https://www.siliconflow.com/models/qwen3-reranker-0-6b",
+        "tagline": "Qwen3-Reranker-0.6B is a text reranking model from the Qwen3 series.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.01
+        },
+        "open_weight": true,
+        "endpoints": [
+          "rerank"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-Reranker-8B",
+        "name": "Qwen3-Reranker-8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-Reranker-8B is the 8-billion parameter text reranking model from the Qwen3 series.",
+        "status": "active",
+        "release_date": "2025-06-06",
+        "context_window": 32768,
+        "model_type": "rerank",
+        "license": "APACHE-2.0",
+        "parameters": 8,
+        "page_url": "https://www.siliconflow.com/models/qwen3-reranker-8b",
+        "tagline": "Qwen3-Reranker-8B is the 8-billion parameter text reranking model from the Qwen3 series.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04
+        },
+        "open_weight": true,
+        "endpoints": [
+          "rerank"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+        "name": "Qwen3-VL-30B-A3B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-VL series delivers superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.",
+        "status": "active",
+        "release_date": "2025-10-05",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 30,
+        "active_parameters": 3,
+        "page_url": "https://www.siliconflow.com/models/qwen3-vl-30b-a3b-instruct",
+        "tagline": "Qwen3-VL series delivers superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent ",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.29,
+          "output": 1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+        "name": "Qwen3-VL-30B-A3B-Thinking",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-VL series delivers superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.",
+        "status": "active",
+        "release_date": "2025-10-11",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 30,
+        "active_parameters": 3,
+        "page_url": "https://www.siliconflow.com/models/qwen3-vl-30b-a3b-thinking",
+        "tagline": "Qwen3-VL series delivers superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent ",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.29,
+          "output": 1
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-VL-32B-Instruct",
+        "name": "Qwen3-VL-32B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-VL is the vision-language model in the Qwen3 series, achieving state-of-the-art(SOTA)performance on various vision-language(VL)benchmarks.",
+        "status": "active",
+        "release_date": "2025-10-21",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/qwen3-vl-32b-instruct",
+        "tagline": "Qwen3-VL is the vision-language model in the Qwen3 series, achieving state-of-the-art(SOTA)performance on various vision-language(VL)benchmarks.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.6
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-VL-32B-Thinking",
+        "name": "Qwen3-VL-32B-Thinking",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-VL-Thinking is a version of the Qwen3-VL series specially optimized for complex visual reasoning tasks.",
+        "status": "active",
+        "release_date": "2025-10-21",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/qwen3-vl-32b-thinking",
+        "tagline": "Qwen3-VL-Thinking is a version of the Qwen3-VL series specially optimized for complex visual reasoning tasks.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.5
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3-VL-8B-Instruct",
+        "name": "Qwen3-VL-8B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3-VL-8B-Instruct is the vision-language model of the Qwen3 series, demonstrates strong capabilities in general visual understanding, visual-centric dialogue, and multilingual text recognition in i",
+        "status": "active",
+        "release_date": "2025-10-15",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 8,
+        "page_url": "https://www.siliconflow.com/models/qwen3-vl-8b-instruct",
+        "tagline": "Qwen3-VL-8B-Instruct is the vision-language model of the Qwen3 series, demonstrates strong capabilities in general visual understanding, visual-centric dialogue, and multilingual text recognition in i",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0.68
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.5-122B-A10B",
+        "name": "Qwen3.5-122B-A10B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3.5-122B-A10B is a native multimodal large language model from the Qwen team, with 122B total parameters and only 10B activated.",
+        "status": "active",
+        "release_date": "2026-05-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 122,
+        "active_parameters": 10,
+        "page_url": "https://www.siliconflow.com/models/qwen3-5-122b-a10b",
+        "tagline": "Qwen3.5-122B-A10B is a native multimodal large language model from the Qwen team, with 122B total parameters and only 10B activated.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.26,
+          "output": 2.08
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.5-27B",
+        "name": "Qwen3.5-27B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3.5-27B is a native multimodal large language model from the Qwen team with 27B parameters.",
+        "status": "active",
+        "release_date": "2026-05-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 27,
+        "page_url": "https://www.siliconflow.com/models/qwen3-5-27b",
+        "tagline": "Qwen3.5-27B is a native multimodal large language model from the Qwen team with 27B parameters.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.5-35B-A3B",
+        "name": "Qwen3.5-35B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3.5-35B-A3B is a native multimodal large language model from the Qwen team, with 35B total parameters and only 3B activated.",
+        "status": "active",
+        "release_date": "2026-05-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 35,
+        "active_parameters": 3,
+        "page_url": "https://www.siliconflow.com/models/qwen3-5-35b-a3b",
+        "tagline": "Qwen3.5-35B-A3B is a native multimodal large language model from the Qwen team, with 35B total parameters and only 3B activated.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.24,
+          "output": 1.8,
+          "cached_input": 0.15
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.5-9B",
+        "name": "Qwen3.5-9B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3.5-9B is a native multimodal large language model from the Qwen team with 9B parameters.",
+        "status": "active",
+        "release_date": "2026-05-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 9,
+        "page_url": "https://www.siliconflow.com/models/qwen3-5-9b",
+        "tagline": "Qwen3.5-9B is a native multimodal large language model from the Qwen team with 9B parameters.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.15
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.6-27B",
+        "name": "Qwen3.6-27B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3.6-27B is the first open-weight small-to-mid-sized dense model in the Qwen3.6 series, with targeted improvements for code generation, agent workflows, and real-world development tasks.",
+        "status": "active",
+        "release_date": "2026-05-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 27,
+        "page_url": "https://www.siliconflow.com/models/qwen3-6-27b",
+        "tagline": "Qwen3.6-27B is the first open-weight small-to-mid-sized dense model in the Qwen3.6 series, with targeted improvements for code generation, agent workflows, and real-world development tasks.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 3.2
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.6-35B-A3B",
+        "name": "Qwen3.6-35B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Qwen3.6-35B-A3B is a large language model from Alibaba's Qwen3.6 series, featuring a Mixture of Experts (MoE) architecture with 35 billion total parameters and approximately 3 billion active parameters per inference, delivering strong performance with efficient compute utilization.",
+        "status": "active",
+        "release_date": "2026-05-09",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 35,
+        "active_parameters": 3,
+        "page_url": "https://www.siliconflow.com/models/qwen3-6-35b-a3b",
+        "tagline": "Qwen3.6-35B-A3B is a large language model from Alibaba's Qwen3.6 series, featuring a Mixture of Experts (MoE) architecture with 35 billion total parameters and approximately 3 billion active parameter",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.24,
+          "output": 1.8,
+          "cached_input": 0.15
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Qwen/Qwen3.8-2.4T-A95B",
+        "name": "Qwen3.8-2.4T-A95B",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.",
+        "status": "active",
+        "release_date": "2026-08-13",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "parameters": 2400,
+        "active_parameters": 95,
+        "page_url": "https://www.siliconflow.com/models/qwen3-8-2-4t-a95b",
+        "tagline": "Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.25
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "stepfun-ai/Step-3.5-Flash",
+        "name": "Step-3.5-Flash",
+        "created_by": "stepfun-ai",
+        "source": "official",
+        "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model, built on a sparse Mixture of Experts (MoE) architecture with 196B total parameters and only 11B activated per token.",
+        "status": "active",
+        "release_date": "2026-02-11",
+        "context_window": 262144,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "license": "APACHE 2.0",
+        "parameters": 196,
+        "active_parameters": 11,
+        "page_url": "https://www.siliconflow.com/models/step-3-5-flash",
+        "tagline": "Step 3.5 Flash is StepFun's most capable open-source foundation model, built on a sparse Mixture of Experts (MoE) architecture with 196B total parameters and only 11B activated per token.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "tencent/Hunyuan-A13B-Instruct",
+        "name": "Hunyuan-A13B-Instruct",
+        "created_by": "tencent",
+        "source": "official",
+        "description": "Hunyuan-A13B-Instruct activates only 13 B of its 80 B parameters, yet matches much larger LLMs on mainstream benchmarks.",
+        "status": "active",
+        "release_date": "2025-06-30",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "parameters": 80,
+        "active_parameters": 13,
+        "page_url": "https://www.siliconflow.com/models/hunyuan-a13b-instruct",
+        "tagline": "Hunyuan-A13B-Instruct activates only 13 B of its 80 B parameters, yet matches much larger LLMs on mainstream benchmarks.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": false,
+          "json_mode": true,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.57
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "tencent/Hy3",
+        "name": "Hy3",
+        "created_by": "tencent",
+        "source": "official",
+        "description": "Built for real-world business scenarios, Hy3 features a 295B/21B active MoE architecture, native 256K context support, and three reasoning modes.",
+        "status": "active",
+        "release_date": "2026-06-26",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "APACHE-2.0",
+        "parameters": 300,
+        "active_parameters": 21,
+        "page_url": "https://www.siliconflow.com/models/hy3",
+        "tagline": "Built for real-world business scenarios, Hy3 features a 295B/21B active MoE architecture, native 256K context support, and three reasoning modes.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.132,
+          "output": 0.528,
+          "cached_input": 0.033
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "tencent/Hy4-preview",
+        "name": "Hy4-preview",
+        "created_by": "tencent",
+        "source": "official",
+        "description": "Hy4 preview is Tencent Hy's new-generation productivity flagship model, built on Gated DeepSeek Sparse Attention with iHC residual design, with approximately 770B total and 49B activated parameters per token.",
+        "status": "active",
+        "release_date": "2026-09-14",
+        "context_window": 1048576,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "parameters": 770,
+        "page_url": "https://www.siliconflow.com/models/hy4-preview",
+        "tagline": "Hy4 preview is Tencent Hy's new-generation productivity flagship model, built on Gated DeepSeek Sparse Attention with iHC residual design, with approximately 770B total and 49B activated parameters pe",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.834,
+          "output": 2.501,
+          "cached_input": 0.042
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Tongyi-MAI/Z-Image-Turbo",
+        "name": "Z-Image-Turbo",
+        "created_by": "alibaba",
+        "source": "official",
+        "description": "Z-Image-Turbo is an open-source, lightweight 6B-parameter text-to-image model developed by Alibaba Tongyi Laboratory.",
+        "status": "active",
+        "release_date": "2025-12-04",
+        "model_type": "image",
+        "license": "APACHE-2.0",
+        "parameters": 6,
+        "page_url": "https://www.siliconflow.com/models/z-image-turbo",
+        "tagline": "Z-Image-Turbo is an open-source, lightweight 6B-parameter text-to-image model developed by Alibaba Tongyi Laboratory.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.005
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Wan-AI/Wan2.2-I2V-A14B",
+        "name": "Wan2.2-I2V-A14B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "Wan2.2",
+        "description": "Wan2.2-I2V-A14B model is designed for image-to-video generation, supporting both 480P and 720P resolutions.",
+        "status": "active",
+        "release_date": "2025-08-13",
+        "model_type": "video",
+        "license": "APACHE 2.0 LICENSE",
+        "parameters": 27,
+        "active_parameters": 14,
+        "page_url": "https://www.siliconflow.com/models/wan2-2-i2v-a14b",
+        "tagline": "Wan2.2-I2V-A14B model is designed for image-to-video generation, supporting both 480P and 720P resolutions.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per video",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.29
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "video"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "Wan-AI/Wan2.2-T2V-A14B",
+        "name": "Wan2.2-T2V-A14B",
+        "created_by": "alibaba",
+        "source": "official",
+        "family": "Wan2.2",
+        "description": "Wan2.2-T2V-A14B model supports generating 5s videos at both 480P and 720P resolutions.",
+        "status": "active",
+        "release_date": "2025-08-13",
+        "model_type": "video",
+        "license": "APACHE-2.0",
+        "parameters": 27,
+        "active_parameters": 14,
+        "page_url": "https://www.siliconflow.com/models/wan2-2-t2v-a14b",
+        "tagline": "Wan2.2-T2V-A14B model supports generating 5s videos at both 480P and 720P resolutions.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per video",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.29
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "video"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-4.5-Air",
+        "name": "GLM-4.5-Air",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-4.5",
+        "description": "The GLM-4.5 series models are foundation models designed for intelligent agents.",
+        "status": "active",
+        "release_date": "2025-07-28",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 106,
+        "active_parameters": 12,
+        "page_url": "https://www.siliconflow.com/models/glm-4-5-air",
+        "tagline": "The GLM-4.5 series models are foundation models designed for intelligent agents.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.86
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-4.7",
+        "name": "GLM-4.7",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-4.7",
+        "description": "GLM-4.7 is Zhipu’s new-generation flagship model, with 355B total parameters and 32B activated parameters, delivering comprehensive upgrades in general conversation, reasoning, and agent capabilities.",
+        "status": "active",
+        "release_date": "2025-12-23",
+        "context_window": 204800,
+        "max_output_tokens": 204800,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 355,
+        "active_parameters": 32,
+        "page_url": "https://www.siliconflow.com/models/glm-4-7",
+        "tagline": "GLM-4.7 is Zhipu’s new-generation flagship model, with 355B total parameters and 32B activated parameters, delivering comprehensive upgrades in general conversation, reasoning, and agent capabilities.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "prompt_caching": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.42,
+          "output": 2.2
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-5.1",
+        "name": "GLM-5.1",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-5.1",
+        "description": "GLM-5.1 is Z.ai's next-generation flagship model built for agentic engineering.",
+        "status": "active",
+        "release_date": "2026-04-03",
+        "context_window": 204800,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 744,
+        "page_url": "https://www.siliconflow.com/models/glm-5-1",
+        "tagline": "GLM-5.1 is Z.ai's next-generation flagship model built for agentic engineering.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true,
+          "reasoning": true,
+          "prompt_caching": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.19,
+          "output": 3.74,
+          "cached_input": 0.6
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-5.2",
+        "name": "GLM-5.2",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-5.2",
+        "description": "GLM-5.2 is Z.ai’s most capable open-source model to date, built for long-horizon agentic engineering with a truly usable 1M-token context window.",
+        "status": "active",
+        "release_date": "2026-06-17",
+        "context_window": 1048576,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 744,
+        "page_url": "https://www.siliconflow.com/models/glm-5-2",
+        "tagline": "GLM-5.2 is Z.ai’s most capable open-source model to date, built for long-horizon agentic engineering with a truly usable 1M-token context window.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true,
+          "reasoning": true,
+          "prompt_caching": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.302,
+          "output": 4.092,
+          "cached_input": 0.26
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-5.3-Flash",
+        "name": "GLM-5.3-Flash",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-5.3",
+        "description": "A frontier model built for efficient coding and long-horizon agentic tasks.",
+        "status": "active",
+        "release_date": "2026-08-27",
+        "context_window": 1048576,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 320,
+        "active_parameters": 18,
+        "page_url": "https://www.siliconflow.com/models/glm-5-3-flash",
+        "tagline": "A frontier model built for efficient coding and long-horizon agentic tasks.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "fine_tuning": true,
+          "reasoning": true,
+          "prompt_caching": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.5,
+          "cached_input": 0.03
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-5.3",
+        "name": "GLM-5.3",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-5.3",
+        "description": "GLM-5.3 is Zhipu AI's flagship language model, featuring a 1M-token context window and 128K max output.",
+        "status": "active",
+        "release_date": "2026-08-21",
+        "context_window": 1048576,
+        "max_output_tokens": 262144,
+        "model_type": "chat",
+        "parameters": 744,
+        "page_url": "https://www.siliconflow.com/models/glm-5-3",
+        "tagline": "GLM-5.3 is Zhipu AI's flagship language model, featuring a 1M-token context window and 128K max output.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": true,
+          "structured_output": false,
+          "streaming": true,
+          "reasoning": true,
+          "prompt_caching": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22",
+        "license": "mit",
+        "open_weight": true
+      },
+      {
+        "id": "zai-org/GLM-5",
+        "name": "GLM-5",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-5",
+        "description": "GLM-5 is a next-generation open-source model for complex systems engineering and long-horizon agentic tasks, scaled to ~744B sparse parameters (~40B active) with ~28.5T pretraining tokens.",
+        "status": "active",
+        "release_date": "2026-02-12",
+        "context_window": 204800,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "MIT",
+        "parameters": 750,
+        "active_parameters": 40,
+        "page_url": "https://www.siliconflow.com/models/glm-5",
+        "tagline": "GLM-5 is a next-generation open-source model for complex systems engineering and long-horizon agentic tasks, scaled to ~744B sparse parameters (~40B active) with ~28.5T pretraining tokens.",
+        "capabilities": {
+          "vision": false,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "prompt_caching": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.95,
+          "output": 2.55,
+          "cached_input": 0.2
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "zai-org/GLM-5V-Turbo",
+        "name": "GLM-5V-Turbo",
+        "created_by": "zai",
+        "source": "official",
+        "family": "GLM-5",
+        "description": "GLM-5V-Turbo is Zhipu’s latest flagship multimodal foundation model, optimized for multimodal coding and agent capabilities.",
+        "status": "active",
+        "release_date": "2026-03-30",
+        "context_window": 204800,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "page_url": "https://www.siliconflow.com/models/glm-5v-turbo",
+        "tagline": "GLM-5V-Turbo is Zhipu’s latest flagship multimodal foundation model, optimized for multimodal coding and agent capabilities.",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "json_mode": false,
+          "structured_output": false,
+          "streaming": true,
+          "reasoning": true,
+          "prompt_caching": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.2,
+          "output": 4,
+          "cached_input": 0.24
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-22",
+        "license": "mit",
+        "open_weight": true
+      }
+    ]
   },
   {
     "id": "stability",
@@ -208414,9 +216462,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 232,
+        "huggingface_downloads": 237,
         "last_modified": "2023-11-08",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "control-lora",
@@ -208512,9 +216560,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 232,
+        "huggingface_downloads": 247,
         "last_modified": "2023-11-17",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stable-clip-vit-l-16",
@@ -208545,9 +216593,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 87,
+        "huggingface_downloads": 85,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stable-diffusion-xl",
@@ -208710,9 +216758,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 468,
+        "huggingface_downloads": 474,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-3b-4e1t-instruct",
@@ -208743,9 +216791,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 514,
+        "huggingface_downloads": 524,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-base-alpha-7b",
@@ -208776,9 +216824,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 837,
+        "huggingface_downloads": 860,
         "last_modified": "2023-08-22",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-base-beta-70b",
@@ -208809,9 +216857,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 812,
+        "huggingface_downloads": 826,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-base-beta-7b",
@@ -208842,9 +216890,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 812,
+        "huggingface_downloads": 824,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-base-gamma-7b",
@@ -208875,9 +216923,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 534,
+        "huggingface_downloads": 556,
         "last_modified": "2024-01-25",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-base-ja_vocab-beta-7b",
@@ -208908,9 +216956,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 814,
+        "huggingface_downloads": 831,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b-v2",
@@ -208941,9 +216989,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 449,
+        "huggingface_downloads": 461,
         "last_modified": "2023-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b",
@@ -209007,9 +217055,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 856,
+        "huggingface_downloads": 871,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-instruct-beta-7b",
@@ -209040,9 +217088,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 786,
+        "huggingface_downloads": 803,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-instruct-gamma-7b",
@@ -209073,9 +217121,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 534,
+        "huggingface_downloads": 554,
         "last_modified": "2024-01-24",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "japanese-stablelm-instruct-ja_vocab-beta-7b",
@@ -209106,9 +217154,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 787,
+        "huggingface_downloads": 800,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "SAME-L",
@@ -209138,9 +217186,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 5555,
+        "huggingface_downloads": 5698,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "SAME-S",
@@ -209170,9 +217218,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1334,
+        "huggingface_downloads": 1344,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sd-turbo",
@@ -209200,9 +217248,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 356483,
+        "huggingface_downloads": 348572,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sd-vae-ft-ema-original",
@@ -209249,9 +217297,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 18892,
+        "huggingface_downloads": 19088,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sd-vae-ft-mse-original",
@@ -209298,9 +217346,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 347753,
+        "huggingface_downloads": 345745,
         "last_modified": "2023-06-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sd-x2-latent-upscaler",
@@ -209315,9 +217363,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 1936,
+        "huggingface_downloads": 1981,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sdxl-turbo-ryzen-ai",
@@ -209347,9 +217395,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 271,
+        "huggingface_downloads": 273,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sdxl-turbo-tensorrt",
@@ -209379,9 +217427,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 112,
+        "huggingface_downloads": 104,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sdxl-turbo",
@@ -209411,9 +217459,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 563066,
+        "huggingface_downloads": 547718,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sdxl-vae",
@@ -209428,9 +217476,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 231881,
+        "huggingface_downloads": 230572,
         "last_modified": "2023-08-04",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sp4d",
@@ -209445,9 +217493,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sp4d",
         "open_weight": true,
         "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 42,
+        "huggingface_downloads": 44,
         "last_modified": "2025-11-05",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-medium-base",
@@ -209462,9 +217510,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 11196,
+        "huggingface_downloads": 11191,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-medium",
@@ -209479,9 +217527,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 136424,
+        "huggingface_downloads": 138790,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-optimized",
@@ -209496,9 +217544,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
         "open_weight": true,
         "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 40626,
+        "huggingface_downloads": 42074,
         "last_modified": "2026-10-30",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-small-music-base",
@@ -209513,9 +217561,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 7031,
+        "huggingface_downloads": 6965,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-small-music",
@@ -209530,9 +217578,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 28475,
+        "huggingface_downloads": 28704,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-small-sfx-base",
@@ -209547,9 +217595,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 3067,
+        "huggingface_downloads": 3072,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-3-small-sfx",
@@ -209564,9 +217612,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 79770,
+        "huggingface_downloads": 81544,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-open-1.0",
@@ -209588,9 +217636,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 23354,
+        "huggingface_downloads": 22931,
         "last_modified": "2025-06-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-audio-open-small",
@@ -209612,9 +217660,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 7728,
+        "huggingface_downloads": 7351,
         "last_modified": "2026-11-05",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-cascade-prior",
@@ -209644,9 +217692,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 202,
+        "huggingface_downloads": 196,
         "last_modified": "2024-03-14",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-cascade",
@@ -209676,9 +217724,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 15344,
+        "huggingface_downloads": 16692,
         "last_modified": "2024-03-16",
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-code-3b",
@@ -209709,9 +217757,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6062,
+        "huggingface_downloads": 6078,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-code-instruct-3b",
@@ -209742,9 +217790,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2431,
+        "huggingface_downloads": 2360,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-codec-speech-16k-base",
@@ -209854,9 +217902,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 47829,
+        "huggingface_downloads": 43828,
         "last_modified": "2024-06-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3-medium-tensorrt",
@@ -209918,9 +217966,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1786,
+        "huggingface_downloads": 1722,
         "last_modified": "2024-08-12",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3-medium_amdgpu",
@@ -210046,9 +218094,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 133,
+        "huggingface_downloads": 131,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-canny",
@@ -210078,9 +218126,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3705,
+        "huggingface_downloads": 3706,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-depth",
@@ -210110,9 +218158,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 2084,
+        "huggingface_downloads": 2103,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3.5-large-tensorrt",
@@ -210174,9 +218222,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3066,
+        "huggingface_downloads": 2974,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3.5-large",
@@ -210206,9 +218254,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 33313,
+        "huggingface_downloads": 33196,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-3.5-medium-tensorrt",
@@ -210270,9 +218318,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 72150,
+        "huggingface_downloads": 72435,
         "last_modified": "2024-10-31",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-x4-upscaler",
@@ -210287,9 +218335,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 6014,
+        "huggingface_downloads": 6026,
         "last_modified": "2023-07-05",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-xl-1.0-tensorrt",
@@ -210319,9 +218367,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 213,
+        "huggingface_downloads": 196,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-xl-base-0.9",
@@ -210351,9 +218399,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 26,
+        "huggingface_downloads": 31,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-xl-base-1.0",
@@ -210383,9 +218431,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4786154,
+        "huggingface_downloads": 4808740,
         "last_modified": "2023-10-30",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-diffusion-xl-refiner-0.9",
@@ -210449,9 +218497,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 115429,
+        "huggingface_downloads": 115555,
         "last_modified": "2023-09-25",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-fast-3d",
@@ -210470,9 +218518,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 26570,
+        "huggingface_downloads": 26497,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-point-aware-3d",
@@ -210491,9 +218539,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 4607,
+        "huggingface_downloads": 4473,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
@@ -210524,9 +218572,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 59,
+        "huggingface_downloads": 52,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1",
@@ -210557,9 +218605,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 3041,
+        "huggingface_downloads": 3007,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt",
@@ -210590,9 +218638,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 224125,
+        "huggingface_downloads": 237091,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-video-diffusion-img2vid",
@@ -210623,9 +218671,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 61432,
+        "huggingface_downloads": 62496,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-virtual-camera",
@@ -210656,9 +218704,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 30935,
+        "huggingface_downloads": 30003,
         "last_modified": "2025-06-03",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stable-zero123",
@@ -210704,9 +218752,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 730,
+        "huggingface_downloads": 729,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "StableBeluga-7B",
@@ -210735,9 +218783,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 827,
+        "huggingface_downloads": 826,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "StableBeluga1-Delta",
@@ -210767,9 +218815,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 241,
+        "huggingface_downloads": 247,
         "last_modified": "2023-07-27",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "StableBeluga2",
@@ -210797,9 +218845,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 893,
+        "huggingface_downloads": 888,
         "last_modified": "2023-09-18",
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablecode-completion-alpha-3b-4k",
@@ -210830,9 +218878,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1159,
+        "huggingface_downloads": 1154,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablecode-completion-alpha-3b",
@@ -210863,9 +218911,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 825,
+        "huggingface_downloads": 820,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablecode-instruct-alpha-3b",
@@ -210970,9 +219018,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 595,
+        "huggingface_downloads": 580,
         "last_modified": "2024-05-20",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-2-12b",
@@ -211003,9 +219051,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 960,
+        "huggingface_downloads": 928,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-2-1_6b-chat",
@@ -211036,9 +219084,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1139,
+        "huggingface_downloads": 1126,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-2-1_6b",
@@ -211069,9 +219117,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 7809,
+        "huggingface_downloads": 7722,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-2-zephyr-1_6b",
@@ -211102,9 +219150,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6389,
+        "huggingface_downloads": 6449,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-3b-4e1t",
@@ -211135,9 +219183,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 11615,
+        "huggingface_downloads": 11483,
         "last_modified": "2024-03-07",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-base-alpha-3b-v2",
@@ -211168,9 +219216,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 335,
+        "huggingface_downloads": 348,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-base-alpha-3b",
@@ -211201,9 +219249,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3696,
+        "huggingface_downloads": 3709,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-base-alpha-7b-v2",
@@ -211234,9 +219282,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 523,
+        "huggingface_downloads": 519,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-base-alpha-7b",
@@ -211267,9 +219315,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 931,
+        "huggingface_downloads": 925,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-tuned-alpha-3b",
@@ -211300,9 +219348,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2358,
+        "huggingface_downloads": 2427,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-tuned-alpha-7b",
@@ -211333,9 +219381,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1280,
+        "huggingface_downloads": 1272,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-20"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stablelm-zephyr-3b",
@@ -211366,9 +219414,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 24531,
+        "huggingface_downloads": 24316,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "sv3d",
@@ -211433,9 +219481,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 5805,
+        "huggingface_downloads": 5775,
         "last_modified": "2025-04-04",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "tiny-random-stablelm-2",
@@ -211463,9 +219511,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 4225,
+        "huggingface_downloads": 4292,
         "last_modified": "2024-03-31",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "TripoSR",
@@ -211484,9 +219532,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 216944,
+        "huggingface_downloads": 227263,
         "last_modified": "2024-08-09",
-        "last_updated": "2026-11-21"
+        "last_updated": "2026-11-22"
       }
     ]
   },
@@ -212404,12 +220452,12 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "license": "proprietary",
         "pricing": {
-          "input": 1.389,
-          "cached_input": 0.278,
-          "output": 3.472
+          "input": 1.806,
+          "cached_input": 0.417,
+          "output": 4.444
         },
         "open_weight": false,
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "status": "active",
         "description": "真正具备“活人感”的对话大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**",
         "model_type": "audio",
@@ -212423,12 +220471,12 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "model_type": "audio",
         "pricing": {
-          "input": 1.389,
-          "cached_input": 0.278,
-          "output": 9.722
+          "input": 1.806,
+          "cached_input": 0.417,
+          "output": 12.5
         },
         "open_weight": false,
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "status": "active",
         "description": "真正具备“活人感”的实时语音大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**",
         "tagline": "真正具备“活人感”的实时语音大模型。**全维度打造专属人设，连每一次呼吸和轻笑都不掉戏。**"
@@ -212472,48 +220520,77 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "pricing_notes": [
-          "2.8 元／小时 (CNY)"
+          "语音识别: 7.50 元／音频小时"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stepaudio-3-chat-preview",
         "name": "StepAudio 3 Chat",
         "created_by": "stepfun",
         "source": "official",
-        "status": "preview",
+        "status": "deprecated",
         "model_type": "audio",
         "license": "proprietary",
         "open_weight": false,
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stepaudio-3-gen-preview",
         "name": "StepAudio 3 Gen",
         "created_by": "stepfun",
         "source": "official",
-        "status": "preview",
+        "status": "deprecated",
         "model_type": "audio",
         "license": "proprietary",
         "open_weight": false,
         "pricing_notes": [
           "限时免费"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "stepaudio-3-gen",
+        "name": "StepAudio 3 Gen",
+        "created_by": "stepfun",
+        "source": "official",
+        "status": "active",
+        "model_type": "audio",
+        "license": "proprietary",
+        "open_weight": false,
+        "pricing_notes": [
+          "音频生成: 95.00 元／百万输入文本计费字符"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stepaudio-3-music-preview",
         "name": "StepAudio 3 Music",
         "created_by": "stepfun",
         "source": "official",
-        "status": "preview",
+        "status": "deprecated",
         "model_type": "audio",
         "license": "proprietary",
         "open_weight": false,
         "pricing_notes": [
           "限时免费"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "stepaudio-3-music",
+        "name": "StepAudio 3 Music",
+        "created_by": "stepfun",
+        "source": "official",
+        "status": "active",
+        "model_type": "audio",
+        "license": "proprietary",
+        "open_weight": false,
+        "pricing_notes": [
+          "音乐生成·第一档（无音频输入）：歌曲创作、纯音乐创作: 16.00 元／输出音频小时",
+          "音乐生成·第二档（有音频输入）：歌曲改编、清唱配乐: 32.00 元／输出音频小时"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stepaudio-3-realtime-preview",
@@ -212521,12 +220598,26 @@ export const providers: ProviderWithModels[] = [
         "created_by": "stepfun",
         "source": "official",
         "description": "* **真人自然交互**：接话自然、节奏松弛、表达有温度，实时互动更接近真人交流。 * **听懂话，也听懂话外之音**：理解语气、情绪、副语言线索和环境声音。 * **真正的全双工对话**：支持自然打断、附和识别和话权协调，不抢话也不装聋。 * **自适应推理**：简单问题快速回应，复杂问题边想边说，在响应速度和回答质量之间动态平衡。 * **从会聊天到能办事**：Voice Agent 可调用工具或执行后端任务，任务完成后自然回到对话。",
-        "status": "preview",
+        "status": "deprecated",
         "model_type": "audio",
         "license": "proprietary",
         "tagline": "* **真人自然交互**：接话自然、节奏松弛、表达有温度，实时互动更接近真人交流。 * **听懂话，也听懂话外之音**：理解语气、情绪、副语言线索和环境声音。 * **真正的全双工对话**：支持自然打断、附和识别和话权协调，不抢话也不装聋。 * **自适应推理**：简单问题快速回应，复杂问题边想边说，在响应速度和回答质量之间动态平衡。 * **从会聊天到能办事**：Voice Agent 可调用工",
         "open_weight": false,
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "stepaudio-3-realtime",
+        "name": "StepAudio 3 Realtime",
+        "created_by": "stepfun",
+        "source": "official",
+        "status": "active",
+        "model_type": "audio",
+        "license": "proprietary",
+        "open_weight": false,
+        "pricing_notes": [
+          "实时语音: 0.65 元／会话分钟（39.00 元／会话小时）"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "stepaudio-3-tts",
@@ -212538,9 +220629,11 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "pricing_notes": [
-          "2.5 元／万字符 (CNY)"
+          "语音合成: 95.00 元／百万输入文本计费字符",
+          "音色复刻: 10.00 元／个音色",
+          "音色设计: 10.00 元／个音色"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-22"
       }
     ]
   },
@@ -212973,8 +221066,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.39,
-          "output": 0.97
+          "input": 0.15,
+          "output": 0.5
         },
         "modalities": {
           "input": [
@@ -212984,7 +221077,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-22",
         "status": "deprecated"
       },
       {
@@ -213229,10 +221322,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "reasoning": true,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -213390,10 +221483,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.17,
-          "output": 4.05
+          "input": 0.15,
+          "output": 0.5
         },
-        "last_updated": "2026-11-07",
+        "last_updated": "2026-11-22",
         "status": "deprecated"
       },
       {
@@ -219731,7 +227824,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3 Pro Image Nano Banana Pro is a sophisticated reasoning-driven engine for professional-grade image editing and generation, offering studio-quality precision and advanced creative control. Nano Banana Pro is best for complex graphic design, high-fidelity product mockups, and factual data visualizations that require accurate text rendering and real-world grounding via Google Search.",
+        "description": "**Nano Banana Pro** is a sophisticated reasoning-driven engine for professional-grade image editing and generation, offering studio-quality precision and advanced creative control. Nano Banana Pro is best for complex graphic design, high-fidelity product mockups, and factual data visualizations that require accurate text rendering and real-world grounding via Google Search.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 32768,
         "knowledge_cutoff": "2025-01",
@@ -219843,7 +227936,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-06-10",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Image Nano Banana 2 provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image , optimized for speed and high-volume developer use cases. Key updates: New output resolution options: New support for 0.5K, 2K and 4K, default 1K New Image Search Grounding: Integration of both text and image search results to inform generation with real-time web data Supported with Thinking on or off New 1:4, 4:1, 1:8 and 8:1 aspect ratios Improved aspect ratio adherence Improved image quality and consistency Improved i18n text rendering",
+        "description": "**Nano Banana 2** provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image, optimized for speed and high-volume developer use cases. * New output resolution options: * New support for 0.5K, 2K and 4K, default 1K * New Image Search Grounding: * Integration of both text and image search results to inform generation with real-time web data * Supported with Thinking on or off * New 1:4, 4:1, 1:8 and 8:1 aspect ratios * Improved aspect ratio adherence * Improved image quality and consistency * Improved i18n text rendering",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 32768,
         "knowledge_cutoff": "2025-01",
@@ -219880,7 +227973,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-07-08",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Lite Image Nano Banana 2 Lite is designed as the efficiency specialist of the image generation family, offering ultra-low latency and cost-effective image generation and editing. By targeting a sub-2 second latency and significantly reduced TPU compute costs, this model enables high-volume interactive developer use cases and real-time consumer applications. Key capabilities: Sub-2 second end-to-end latency Interleaved generation and editing with native support for Text -&gt; Text + Image(s) and Image + Text -&gt; Text + Image(s). Optimized for lower resolutions of 1K (1024x1024px). Supports a discrete set of 14 aspect ratios including standard formats. Fast multi-turn local edits (swapping colors, sticker creation, background adjustments). Maintains high character alignment matching original Nano Banana standards. New 1:1 , 3:2 , 2:3 , 3:4 , 4:3 , 4:5 , 5:4 , 9:16 , 16:9 , 21:9 aspect ratios. Supported image_size values: 1024px (1K). (Note: 2K and 4K are unsupported). SynthID watermarking (Always On) + C2PA .",
+        "description": "**Nano Banana 2 Lite** is designed as the efficiency specialist of the image generation family, offering ultra-low latency and cost-effective image generation and editing. By targeting a sub-2 second latency and significantly reduced TPU compute costs, this model enables high-volume interactive developer use cases and real-time consumer applications. **Key capabilities:** * **Sub-2 second end-to-end latency** * **Interleaved generation and editing** with native support for Text -> Text + Image(s) and Image + Text -> Text + Image(s). * **Optimized for lower resolutions** of 1K (1024x1024px). * Supports a discrete set of **14 aspect ratios** including standard formats. * **Fast multi-turn local edits** (swapping colors, sticker creation, background adjustments). * Maintains high character alignment matching original Nano Banana standards. * New `1:1`, `3:2`, `2:3`, `3:4`, `4:3`, `4:5`, `5:4`, `9:16`, `16:9`, `21:9` aspect ratios. * Supported `image_size` values: `1024px` (1K). *(Note: 2K and 4K are unsupported).* * **SynthID watermarking (Always On) + C2PA**.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 4096,
         "knowledge_cutoff": "2025-01",
@@ -219961,7 +228054,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-10",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
         "max_output_tokens": 65536,
         "knowledge_cutoff": "2025-01",
@@ -220001,7 +228094,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Pro Preview Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It&#39;s optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
+        "description": "Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It's optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 65536,
         "knowledge_cutoff": "2025-01",
@@ -220041,7 +228134,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-24",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -220115,24 +228208,23 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "batch": true,
-          "vision": true
+          "vision": false
         },
         "pricing": {
           "input": 2,
           "output": 12
         },
         "last_updated": "2026-08-30",
+        "description": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities. It provides low-latency, accurate transcription with utterance-based language detection, speaker diarization, word-level timestamps, Smart transcription (including voice editing), and custom vocabulary speech biasing.",
+        "tagline": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities.",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
             "audio"
           ],
           "output": [
-            "text",
-            "image"
+            "text"
           ]
         }
       },
@@ -220169,7 +228261,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-08-30",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -220227,7 +228319,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "pricing": {
@@ -220236,18 +228328,16 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-10-02",
         "context_window": 8200,
+        "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+        "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w",
         "max_output_tokens": 16384,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         }
@@ -220265,7 +228355,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "pricing": {
@@ -220274,18 +228364,16 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-10-02",
         "context_window": 8200,
+        "description": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-solid long-form multi-turn stability.",
+        "tagline": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-so",
         "max_output_tokens": 16384,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         }
@@ -220323,6 +228411,8 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-09-03",
+        "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+        "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl",
         "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false
@@ -220356,6 +228446,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-09-16",
+        "description": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions. It processes configurable background reasoning (`low`, `medium`, `high`), thought summaries, and asynchronous tool calls while streaming continuous audio responses. For low-latency conversational voice experiences without background reasoning delays, see Gemini 3.8 Live.",
+        "tagline": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions.",
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -220390,6 +228482,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-09-16",
+        "description": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays. It supports interleaved reasoning, asynchronous and synchronous function calling, full-session client content updates, and built-in proactive audio. For complex agentic tasks requiring multi-step reasoning and configurable thinking budgets, see Gemini 3.8 Live Extended Thinking.",
+        "tagline": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays.",
         "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -220428,6 +228522,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-10-14",
+        "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model.",
+        "max_output_tokens": 65536,
         "license": "proprietary",
         "open_weight": false
       },
@@ -220443,7 +228540,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 2,
@@ -220460,7 +228560,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-11"
+        "last_updated": "2026-11-11",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-4-hydrogen",
@@ -220474,7 +228579,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 1.5,
@@ -220491,7 +228599,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-14",
+        "description": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window a",
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-4-neon",
@@ -220505,7 +228618,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 3,
@@ -220522,7 +228638,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-19"
+        "last_updated": "2026-11-19",
+        "description": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "tagline": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified ",
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-decision-1",
@@ -220547,7 +228668,11 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-12"
+        "last_updated": "2026-11-12",
+        "description": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API. It evaluates typed questions over text, images, video, audio, and PDFs in a single prefill pass and returns calibrated outcome probabilities with zero output tokens. Use Gemini Decision 1 for request routing, policy checks across many rules at once, candidate scoring against a rubric, tool selection, and low-latency classification over live media streams. A single request can evaluate up to 1,000 independent questions over shared input up to 262,144 tokens: * **Yes/no:** Returns a calibrated probability from 0.01 to 0.99 and a confidence score. * **Single-select:** Evaluates 2 to 255 options and returns the top option, per-option probabilities, and confidence. * **Rubric rating:** Evaluates 2 to 255 ordered rubric levels and returns the probability-weighted expected score, per-level probabilities, and confidence.",
+        "tagline": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API.",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-embedding-001",
@@ -220558,13 +228683,15 @@ export const providers: ProviderWithModels[] = [
         "model_type": "embed",
         "capabilities": {
           "streaming": true,
-          "vision": true
+          "vision": false
         },
         "pricing": {
           "input": 0.15,
           "output": 0
         },
         "family": "gemini-embedding",
+        "description": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images. The Gemini Embedding model is best for semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large datasets.",
+        "tagline": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images.",
         "context_window": 2048,
         "license": "proprietary",
         "open_weight": false,
@@ -220593,12 +228720,17 @@ export const providers: ProviderWithModels[] = [
           "input": 0.2,
           "output": 0
         },
+        "description": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space. The Gemini Embedding 2 model is best for cross-modal semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large multimodal datasets.",
+        "tagline": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space.",
         "context_window": 8192,
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image",
+            "video",
+            "audio"
           ],
           "output": [
             "text"
@@ -220634,7 +228766,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-10-07",
-        "description": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). Key updates: Improved visual quality and realism across 1K , 2K , and 4K output resolutions (default 1K ) Fixed tiling artifacts on wide and panoramic aspect ratios ( 1:4 , 4:1 , 1:8 , 8:1 ) at 2K and 4K resolutions Enhanced text rendering and infographic layout accuracy Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) Grounding with Google Web and Image Search Configurable Thinking levels ( minimal , medium default, and high )",
+        "description": "**Gemini Nano Banana 2.1** (`gemini-nano-banana-2.1`) is the latest high-efficiency image generation and conversational editing model. An update to Nano Banana 2 (Gemini 3.1 Flash Image), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). * Improved visual quality and realism across `1K`, `2K`, and `4K` output resolutions (default `1K`) * Fixed tiling artifacts on wide and panoramic aspect ratios (`1:4`, `4:1`, `1:8`, `8:1`) at `2K` and `4K` resolutions * Enhanced text rendering and infographic layout accuracy * Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) * Grounding with Google Web and Image Search * Configurable Thinking levels (`minimal`, `medium` default, and `high`)",
         "tagline": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering.",
         "max_output_tokens": 32768,
         "license": "proprietary",
@@ -222768,13 +230900,25 @@ export const providers: ProviderWithModels[] = [
         "model_type": "image",
         "capabilities": {
           "streaming": true,
-          "vision": true
+          "vision": true,
+          "tool_call": false
         },
         "pricing": {
           "input": 2.3,
           "output": 3.8
         },
-        "last_updated": "2026-11-11"
+        "last_updated": "2026-11-11",
+        "description": "Image generation model supporting text-to-image and image editing (1–16 reference images). Output dimensions can be specified by width and height, or by area tier and aspect ratio. Supports streaming output",
+        "tagline": "Image generation model supporting text-to-image and image editing (1–16 reference images).",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "minimax/minimax-h3-max",
@@ -223127,8 +231271,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.24,
-          "output": 0.96
+          "input": 0.3,
+          "output": 1.2
         },
         "modalities": {
           "input": [
@@ -223141,7 +231285,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-15",
+        "last_updated": "2026-11-22",
         "description": "Frontier multimodal coding model with 1M context window",
         "tagline": "Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
         "license": "proprietary",
@@ -224870,9 +233014,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -224911,9 +233055,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -224952,9 +233096,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": true,
-          "json_mode": true,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -225052,8 +233196,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "tool_call": false,
           "fine_tuning": false,
           "reasoning": false
@@ -225123,9 +233267,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -225196,9 +233340,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "fine_tuning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "fine_tuning": false,
+          "structured_output": false,
+          "json_mode": false,
           "reasoning": false,
           "batch": true
         },
@@ -225270,8 +233414,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -225373,8 +233517,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -225457,8 +233601,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -225498,8 +233642,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -225538,8 +233682,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -225578,8 +233722,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -225744,8 +233888,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -225856,8 +234000,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -225960,8 +234104,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false
         },
         "pricing": {
@@ -226063,8 +234207,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226105,8 +234249,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226187,8 +234331,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226300,8 +234444,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226372,8 +234516,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226445,8 +234589,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226518,8 +234662,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226560,8 +234704,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226632,8 +234776,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226730,8 +234874,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226803,8 +234947,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226877,8 +235021,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -226950,8 +235094,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -227023,8 +235167,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -227096,8 +235240,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -227402,7 +235546,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -227436,7 +235580,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false,
           "json_mode": false,
           "fine_tuning": false,
@@ -227509,9 +235653,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -227551,9 +235695,9 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
+          "structured_output": false,
           "fine_tuning": false,
-          "json_mode": true,
+          "json_mode": false,
           "vision": false,
           "batch": true
         },
@@ -227888,8 +236032,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -228002,8 +236146,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "vision": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -228084,8 +236228,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "json_mode": true,
+          "structured_output": false,
+          "json_mode": false,
           "fine_tuning": false,
           "batch": true
         },
@@ -228125,9 +236269,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "structured_output": true,
-          "fine_tuning": true,
-          "json_mode": true,
+          "structured_output": false,
+          "fine_tuning": false,
+          "json_mode": false,
           "batch": true
         },
         "pricing": {
@@ -232015,7 +240159,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "xiaomi",
         "source": "official",
         "family": "mimo",
-        "context_window": 1100000,
+        "context_window": 1000000,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -232027,8 +240171,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.11,
-          "output": 0.22
+          "input": 0.14,
+          "output": 0.28
         },
         "modalities": {
           "input": [
@@ -232041,7 +240185,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-22",
         "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers strong performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.",
         "tagline": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi.",
         "max_output_tokens": 131072
@@ -232089,7 +240233,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "xiaomi",
         "source": "official",
         "family": "mimo",
-        "context_window": 1100000,
+        "context_window": 1000000,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -232101,8 +240245,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.33,
-          "output": 0.65
+          "input": 0.39,
+          "output": 0.78
         },
         "modalities": {
           "input": [
@@ -232115,7 +240259,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-06",
+        "last_updated": "2026-11-22",
         "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding workloads. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.",
         "tagline": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi.",
         "max_output_tokens": 131072
@@ -232946,7 +241090,7 @@ export const providers: ProviderWithModels[] = [
         "name": "antigravity-preview-05-2026",
         "created_by": "google",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "license": "proprietary",
@@ -232968,7 +241112,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-05-23"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "antigravity-preview-09-2026",
@@ -232998,7 +241142,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-25"
+        "last_updated": "2026-11-22",
+        "description": "A powerful general-purpose managed agent designed for autonomous, multi-step workflows. This model plans, reasons, runs code, manages files, and searches the web inside a secure, isolated Linux sandbox hosted by Google. The September 2026 release (`antigravity-preview-09-2026`) upgrades the runtime harness with improved prompt caching, native code search tools, and efficient line-range file editing.",
+        "tagline": "A powerful general-purpose managed agent designed for autonomous, multi-step workflows."
       },
       {
         "id": "claude-haiku-4-5@vertex",
@@ -233246,14 +241392,17 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text"
+            "text",
+            "image"
           ]
         },
         "endpoints": [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-22"
+        "last_updated": "2026-11-22",
+        "description": "Maximum comprehensiveness for automated context gathering and synthesis. Deep Research Max is optimized for long-running, accuracy-critical investigations that synthesize complex information from hundreds of public web sources and private workspace data into comprehensive, cited reports. It supports collaborative planning, visualization, MCP servers, and File Search.",
+        "tagline": "Maximum comprehensiveness for automated context gathering and synthesis."
       },
       {
         "id": "deep-research-preview-04-2026",
@@ -233279,22 +241428,25 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text"
+            "text",
+            "image"
           ]
         },
         "endpoints": [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-22"
+        "last_updated": "2026-11-22",
+        "description": "A powerful agentic researcher designed for autonomous, multi-step investigations that synthesize complex information into comprehensive, cited reports. This model supports collaborative planning, visualization, MCP servers, and File Search. It comes in two versions: Deep Research for speed and efficiency, and Deep Research Max for maximum comprehensiveness.",
+        "tagline": "A powerful agentic researcher designed for autonomous, multi-step investigations that synthesize complex information into comprehensive, cited reports."
       },
       {
         "id": "deep-research-pro-preview-12-2025",
         "name": "deep-research-pro-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-22",
-        "status": "active",
+        "last_updated": "2026-11-22",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "model_type": "reasoning",
@@ -233400,7 +241552,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "capabilities": {
@@ -233417,8 +241569,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.6,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233452,7 +241604,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-06-02",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "capabilities": {
@@ -233469,8 +241621,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.3,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233484,9 +241636,9 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Standard",
                   "values": [
-                    0.15,
+                    0.075,
                     null,
-                    0.6
+                    0.3
                   ]
                 }
               ]
@@ -233504,7 +241656,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite-preview-02-05",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
@@ -233523,8 +241675,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.3,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233538,9 +241690,9 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Standard",
                   "values": [
-                    0.15,
+                    0.075,
                     null,
-                    0.6
+                    0.3
                   ]
                 }
               ]
@@ -233556,7 +241708,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
@@ -233575,8 +241727,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.3,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233590,9 +241742,9 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Standard",
                   "values": [
-                    0.15,
+                    0.075,
                     null,
-                    0.6
+                    0.3
                   ]
                 }
               ]
@@ -233608,7 +241760,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-06-02",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "knowledge_cutoff": "2024-08",
@@ -233631,14 +241783,12 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.075,
+          "input": 0.000001,
+          "output": 0.3,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233679,7 +241829,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-live-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-09-16",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
@@ -233698,8 +241848,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.6,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233731,7 +241881,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-preview-image-generation",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-07",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "deprecation_date": "2025-11-14",
@@ -233750,8 +241900,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.6,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233783,7 +241933,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.0",
         "status": "deprecated",
         "knowledge_cutoff": "2024-08",
@@ -233806,14 +241956,12 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.15,
+          "input": 0.000001,
+          "output": 0.6,
           "tiers": [
             {
               "label": "Text tokens",
@@ -233854,7 +242002,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-computer-use-preview-10-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-01",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "context_window": 128000,
@@ -233888,14 +242036,16 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "deprecation_date": "2026-07-28",
-        "successor": "gemini-3.8-flash"
+        "successor": "gemini-3.8-flash",
+        "description": "This model was shut down on **July 28, 2026**; migrate to Gemini 3.8 Flash or other Gemini 3 models with built-in computer use support to avoid service interruptions. An agentic capability model designed for direct interface interaction, allowing Gemini to perceive and navigate digital environments. Gemini 2.5 Computer Use is best for browser automation, multi-step software tasks, and UI testing that requires visual reasoning and precise cursor control.",
+        "tagline": "This model was shut down on **July 28, 2026**; migrate to Gemini 3.8 Flash or other Gemini 3 models with built-in computer use support to avoid service interruptions."
       },
       {
         "id": "gemini-2.5-flash-image-preview",
         "name": "gemini-2.5-flash-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-07",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2026-01-15",
@@ -233937,14 +242087,6 @@ export const providers: ProviderWithModels[] = [
                   ]
                 },
                 {
-                  "label": "Priority",
-                  "values": [
-                    0.54,
-                    null,
-                    4.5
-                  ]
-                },
-                {
                   "label": "Flex",
                   "values": [
                     0.15,
@@ -233965,7 +242107,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-image",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-07",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-06",
@@ -233983,13 +242125,11 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "audio"
+            "image"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -234013,14 +242153,6 @@ export const providers: ProviderWithModels[] = [
                     0.3,
                     null,
                     2.5
-                  ]
-                },
-                {
-                  "label": "Priority",
-                  "values": [
-                    null,
-                    null,
-                    null
                   ]
                 },
                 {
@@ -234053,7 +242185,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-lite-preview-09-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -234071,103 +242203,10 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video",
-            "audio"
+            "image"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 2.5,
-          "batch_input": 0.15,
-          "batch_output": 1.25,
-          "tiers": [
-            {
-              "label": "Text tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Cached input",
-                "Output"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    0.3,
-                    null,
-                    2.5
-                  ]
-                },
-                {
-                  "label": "Priority",
-                  "values": [
-                    0.54,
-                    null,
-                    4.5
-                  ]
-                },
-                {
-                  "label": "Flex",
-                  "values": [
-                    0.15,
-                    null,
-                    1.25
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "tools": [
-          "function_calling"
-        ],
-        "endpoints": [
-          "generateContent",
-          "streamGenerateContent"
-        ],
-        "model_type": "chat",
-        "license": "proprietary",
-        "open_weight": false,
-        "deprecation_date": "2026-03-31",
-        "successor": "gemini-3.1-flash-lite"
-      },
-      {
-        "id": "gemini-2.5-flash-lite",
-        "name": "gemini-2.5-flash-lite",
-        "created_by": "google",
-        "source": "official",
-        "last_updated": "2026-08-30",
-        "family": "gemini-2.5",
-        "status": "active",
-        "knowledge_cutoff": "2025-01",
-        "context_window": 1048576,
-        "max_output_tokens": 65536,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true,
-          "batch": true,
-          "vision": true,
-          "json_mode": true
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "video",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -234189,7 +242228,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.1,
-                    null,
+                    0.01,
                     0.4
                   ]
                 },
@@ -234197,7 +242236,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.18,
-                    null,
+                    0.018,
                     0.72
                   ]
                 },
@@ -234211,7 +242250,96 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
+          ],
+          "cached_input": 0.01
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
+        "deprecation_date": "2026-03-31",
+        "successor": "gemini-3.1-flash-lite"
+      },
+      {
+        "id": "gemini-2.5-flash-lite",
+        "name": "gemini-2.5-flash-lite",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-11-22",
+        "family": "gemini-2.5",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.4,
+          "batch_input": 0.05,
+          "batch_output": 0.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    0.01,
+                    0.4
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    0.18,
+                    0.018,
+                    0.72
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.05,
+                    null,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ],
+          "cached_input": 0.01
         },
         "tools": [
           "function_calling"
@@ -234231,7 +242359,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-native-audio-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -234243,19 +242371,17 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
             "text",
-            "image",
             "video",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -234278,7 +242404,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -234286,7 +242412,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -234300,7 +242426,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
@@ -234320,7 +242447,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-preview-05-20",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-11-18",
@@ -234357,7 +242484,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -234365,7 +242492,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -234379,7 +242506,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -234390,9 +242518,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-preview-09-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -234408,14 +242536,10 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video",
-            "audio"
+            "image"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -234437,7 +242561,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -234445,7 +242569,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -234459,7 +242583,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
@@ -234470,14 +242595,16 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-02-17",
+        "successor": "gemini-3.6-flash"
       },
       {
         "id": "gemini-2.5-flash-preview-09-25",
         "name": "gemini-2.5-flash-preview-09-25",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2026-02-17",
@@ -234514,7 +242641,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -234522,7 +242649,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -234536,7 +242663,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -234547,7 +242675,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-preview-tts",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "context_window": 8192,
@@ -234559,18 +242687,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -234593,7 +242717,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -234601,7 +242725,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -234615,7 +242739,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
@@ -234634,7 +242759,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -234657,9 +242782,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -234681,7 +242804,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -234689,7 +242812,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -234703,7 +242826,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
@@ -234723,11 +242847,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-03-25",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-12-02",
-        "successor": "gemini-3.1-pro-preview",
+        "successor": "gemini-3.8-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -234760,7 +242884,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     1.25,
-                    null,
+                    0.125,
                     10
                   ]
                 },
@@ -234768,7 +242892,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     2.25,
-                    null,
+                    0.225,
                     18
                   ]
                 },
@@ -234782,7 +242906,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.125
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -234793,11 +242918,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-05-06",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-12-02",
-        "successor": "gemini-3.1-pro-preview",
+        "successor": "gemini-3.8-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -234830,7 +242955,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     1.25,
-                    null,
+                    0.125,
                     10
                   ]
                 },
@@ -234838,7 +242963,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     2.25,
-                    null,
+                    0.225,
                     18
                   ]
                 },
@@ -234852,7 +242977,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.125
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -234863,11 +242989,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-06-05",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "deprecated",
         "deprecation_date": "2025-12-02",
-        "successor": "gemini-3.1-pro-preview",
+        "successor": "gemini-3.8-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -234900,7 +243026,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     1.25,
-                    null,
+                    0.125,
                     10
                   ]
                 },
@@ -234908,7 +243034,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     2.25,
-                    null,
+                    0.225,
                     18
                   ]
                 },
@@ -234922,7 +243048,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.125
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -234933,7 +243060,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro-preview-tts",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "context_window": 8192,
@@ -234945,18 +243072,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -234979,7 +243102,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     1.25,
-                    null,
+                    0.125,
                     10
                   ]
                 },
@@ -234987,7 +243110,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     2.25,
-                    null,
+                    0.225,
                     18
                   ]
                 },
@@ -235001,7 +243124,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.125
         },
         "tools": [
           "function_calling"
@@ -235020,7 +243144,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-pro",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-2.5",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -235043,9 +243167,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -235067,7 +243189,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     1.25,
-                    null,
+                    0.125,
                     10
                   ]
                 },
@@ -235075,7 +243197,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     2.25,
-                    null,
+                    0.225,
                     18
                   ]
                 },
@@ -235089,7 +243211,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.125
         },
         "tools": [
           "function_calling"
@@ -235109,7 +243232,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-flash-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-11-22",
         "family": "gemini-3",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -235132,9 +243255,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -235156,15 +243277,15 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.5,
-                    null,
-                    3
+                    0.05,
+                    null
                   ]
                 },
                 {
                   "label": "Priority",
                   "values": [
                     0.9,
-                    null,
+                    0.09,
                     5.4
                   ]
                 },
@@ -235178,7 +243299,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
@@ -235198,7 +243320,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-pro-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-11-22",
         "family": "gemini-3",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -235241,29 +243363,30 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     2,
-                    null,
+                    0.2,
                     12
                   ]
                 },
                 {
                   "label": "Priority",
                   "values": [
-                    null,
-                    null,
-                    null
+                    3.6,
+                    0.36,
+                    21.6
                   ]
                 },
                 {
                   "label": "Flex",
                   "values": [
                     1,
-                    null,
+                    0.1,
                     6
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.2
         },
         "tools": [
           "function_calling"
@@ -235303,13 +243426,11 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "audio"
+            "image"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -235331,29 +243452,30 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     2,
-                    null,
+                    0.2,
                     12
                   ]
                 },
                 {
                   "label": "Priority",
                   "values": [
-                    null,
-                    null,
-                    null
+                    3.6,
+                    0.36,
+                    21.6
                   ]
                 },
                 {
                   "label": "Flex",
                   "values": [
                     1,
-                    null,
+                    0.1,
                     6
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.2
         },
         "tools": [
           "function_calling"
@@ -235362,8 +243484,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3 Pro Image Nano Banana Pro is a sophisticated reasoning-driven engine for professional-grade image editing and generation, offering studio-quality precision and advanced creative control. Nano Banana Pro is best for complex graphic design, high-fidelity product mockups, and factual data visualizations that require accurate text rendering and real-world grounding via Google Search.",
+        "last_updated": "2026-11-22",
+        "description": "**Nano Banana Pro** is a sophisticated reasoning-driven engine for professional-grade image editing and generation, offering studio-quality precision and advanced creative control. Nano Banana Pro is best for complex graphic design, high-fidelity product mockups, and factual data visualizations that require accurate text rendering and real-world grounding via Google Search.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -235371,7 +243493,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-pro-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-22",
         "family": "gemini-3",
         "status": "deprecated",
         "deprecation_date": "2026-03-09",
@@ -235396,9 +243518,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -235460,7 +243580,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3.1-flash-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-07",
+        "last_updated": "2026-11-22",
         "family": "gemini-3.1",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -235503,29 +243623,30 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.5,
-                    null,
+                    0.05,
                     3
                   ]
                 },
                 {
                   "label": "Priority",
                   "values": [
-                    null,
-                    null,
-                    null
+                    0.9,
+                    0.09,
+                    5.4
                   ]
                 },
                 {
                   "label": "Flex",
                   "values": [
                     0.25,
-                    null,
+                    0.025,
                     1.5
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
@@ -235566,13 +243687,11 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
-            "audio"
+            "video"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -235594,29 +243713,30 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.5,
-                    null,
+                    0.05,
                     3
                   ]
                 },
                 {
                   "label": "Priority",
                   "values": [
-                    null,
-                    null,
-                    null
+                    0.9,
+                    0.09,
+                    5.4
                   ]
                 },
                 {
                   "label": "Flex",
                   "values": [
                     0.25,
-                    null,
+                    0.025,
                     1.5
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
@@ -235625,8 +243745,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-04",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Image Nano Banana 2 provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image , optimized for speed and high-volume developer use cases. Key updates: New output resolution options: New support for 0.5K, 2K and 4K, default 1K New Image Search Grounding: Integration of both text and image search results to inform generation with real-time web data Supported with Thinking on or off New 1:4, 4:1, 1:8 and 8:1 aspect ratios Improved aspect ratio adherence Improved image quality and consistency Improved i18n text rendering",
+        "last_updated": "2026-11-22",
+        "description": "**Nano Banana 2** provides high-quality image generation and conversational editing at a mainstream price point and low latency. It serves as the high-efficiency counterpart to Gemini 3 Pro Image, optimized for speed and high-volume developer use cases. * New output resolution options: * New support for 0.5K, 2K and 4K, default 1K * New Image Search Grounding: * Integration of both text and image search results to inform generation with real-time web data * Supported with Thinking on or off * New 1:4, 4:1, 1:8 and 8:1 aspect ratios * Improved aspect ratio adherence * Improved image quality and consistency * Improved i18n text rendering",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -235635,7 +243755,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Lite Image Nano Banana 2 Lite is designed as the efficiency specialist of the image generation family, offering ultra-low latency and cost-effective image generation and editing. By targeting a sub-2 second latency and significantly reduced TPU compute costs, this model enables high-volume interactive developer use cases and real-time consumer applications. Key capabilities: Sub-2 second end-to-end latency Interleaved generation and editing with native support for Text -&gt; Text + Image(s) and Image + Text -&gt; Text + Image(s). Optimized for lower resolutions of 1K (1024x1024px). Supports a discrete set of 14 aspect ratios including standard formats. Fast multi-turn local edits (swapping colors, sticker creation, background adjustments). Maintains high character alignment matching original Nano Banana standards. New 1:1 , 3:2 , 2:3 , 3:4 , 4:3 , 4:5 , 5:4 , 9:16 , 16:9 , 21:9 aspect ratios. Supported image_size values: 1024px (1K). (Note: 2K and 4K are unsupported). SynthID watermarking (Always On) + C2PA .",
+        "description": "**Nano Banana 2 Lite** is designed as the efficiency specialist of the image generation family, offering ultra-low latency and cost-effective image generation and editing. By targeting a sub-2 second latency and significantly reduced TPU compute costs, this model enables high-volume interactive developer use cases and real-time consumer applications. **Key capabilities:** * **Sub-2 second end-to-end latency** * **Interleaved generation and editing** with native support for Text -> Text + Image(s) and Image + Text -> Text + Image(s). * **Optimized for lower resolutions** of 1K (1024x1024px). * Supports a discrete set of **14 aspect ratios** including standard formats. * **Fast multi-turn local edits** (swapping colors, sticker creation, background adjustments). * Maintains high character alignment matching original Nano Banana standards. * New `1:1`, `3:2`, `2:3`, `3:4`, `4:3`, `4:5`, `5:4`, `9:16`, `16:9`, `21:9` aspect ratios. * Supported `image_size` values: `1024px` (1K). *(Note: 2K and 4K are unsupported).* * **SynthID watermarking (Always On) + C2PA**.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 65536,
@@ -235657,13 +243777,11 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
-            "audio"
+            "video"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "pricing": {
@@ -235685,7 +243803,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.25,
-                    null,
+                    0.025,
                     1.5
                   ]
                 },
@@ -235693,7 +243811,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.45,
-                    null,
+                    0.045,
                     2.7
                   ]
                 },
@@ -235701,13 +243819,14 @@ export const providers: ProviderWithModels[] = [
                   "label": "Flex",
                   "values": [
                     0.125,
-                    null,
+                    0.0125,
                     0.75
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.025
         },
         "tools": [
           "function_calling"
@@ -235716,14 +243835,14 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-04"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
         "name": "gemini-3.1-flash-lite-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-29",
+        "last_updated": "2026-11-22",
         "family": "gemini-3.1",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -235746,9 +243865,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -235770,7 +243887,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.25,
-                    null,
+                    0.025,
                     1.5
                   ]
                 },
@@ -235778,7 +243895,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.45,
-                    null,
+                    0.045,
                     2.7
                   ]
                 },
@@ -235786,13 +243903,14 @@ export const providers: ProviderWithModels[] = [
                   "label": "Flex",
                   "values": [
                     0.125,
-                    null,
+                    0.0125,
                     0.75
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.025
         },
         "tools": [
           "function_calling"
@@ -235815,7 +243933,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
@@ -235841,9 +243959,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -235865,7 +243981,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.25,
-                    null,
+                    0.025,
                     1.5
                   ]
                 },
@@ -235873,7 +243989,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.45,
-                    null,
+                    0.045,
                     2.7
                   ]
                 },
@@ -235881,13 +243997,14 @@ export const providers: ProviderWithModels[] = [
                   "label": "Flex",
                   "values": [
                     0.125,
-                    null,
+                    0.0125,
                     0.75
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.025
         },
         "tools": [
           "function_calling"
@@ -235896,7 +244013,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.1-flash-live-preview",
@@ -235924,12 +244041,10 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -235940,8 +244055,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash Live Preview Gemini 3.1 Flash Live Preview is our low-latency, audio-to-audio model optimized for real-time dialogue and voice-first AI applications with acoustic nuance detection, numeric precision, and multimodal awareness.",
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.1 Flash Live Preview is our legacy preview audio-to-audio model for real-time dialogue and voice-first AI applications. For new applications and production workloads, we recommend migrating to Gemini 3.8 Live (`gemini-3.8-live`) or Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`).",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -235950,7 +244065,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
+        "description": "`gemini-3.1-flash-tts-preview` is a legacy preview model. For new and production workloads, migrate to Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) or Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`). See the migration guide. The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 8192,
@@ -235965,18 +244080,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -235987,14 +244098,14 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-25"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.1-pro-preview",
         "name": "gemini-3.1-pro-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-11-22",
         "family": "gemini-3.1",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -236017,9 +244128,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -236041,7 +244150,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     2,
-                    null,
+                    0.2,
                     12
                   ]
                 },
@@ -236049,7 +244158,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     3.6,
-                    null,
+                    0.36,
                     21.6
                   ]
                 },
@@ -236063,7 +244172,8 @@ export const providers: ProviderWithModels[] = [
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.2
         },
         "tools": [
           "function_calling"
@@ -236075,7 +244185,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Pro Preview Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It&#39;s optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
+        "description": "Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It's optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -236084,7 +244194,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.5",
-        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "status": "active",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -236109,9 +244219,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -236133,7 +244241,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     0.3,
-                    null,
+                    0.03,
                     2.5
                   ]
                 },
@@ -236141,7 +244249,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     0.54,
-                    null,
+                    0.054,
                     4.5
                   ]
                 },
@@ -236149,13 +244257,14 @@ export const providers: ProviderWithModels[] = [
                   "label": "Flex",
                   "values": [
                     0.15,
-                    null,
+                    0.015,
                     1.25
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
@@ -236164,7 +244273,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.5-flash",
@@ -236172,7 +244281,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -236220,7 +244329,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Standard",
                   "values": [
                     1.5,
-                    null,
+                    0.15,
                     9
                   ]
                 },
@@ -236228,7 +244337,7 @@ export const providers: ProviderWithModels[] = [
                   "label": "Priority",
                   "values": [
                     2.7,
-                    null,
+                    0.27,
                     16.2
                   ]
                 },
@@ -236236,13 +244345,14 @@ export const providers: ProviderWithModels[] = [
                   "label": "Flex",
                   "values": [
                     0.75,
-                    null,
+                    0.075,
                     4.5
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.15
         },
         "tools": [
           "function_calling"
@@ -236251,7 +244361,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-11-22",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Flash Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available."
       },
@@ -236274,18 +244384,15 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -236296,8 +244403,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Live Translate Gemini 3.5 Live Translate is our low-latency, audio-to-audio model optimized for real-time translation of spoken conversations. It enables seamless, bidirectional translation with high accuracy and natural voice output.",
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.5 Live Translate is our low-latency, audio-to-audio model optimized for real-time translation of spoken conversations. It enables seamless, bidirectional translation with high accuracy and natural voice output.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -236315,17 +244422,14 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "batch": true,
-          "vision": true
+          "vision": false
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
             "audio"
           ],
           "output": [
-            "text",
-            "image"
+            "text"
           ]
         },
         "tools": [
@@ -236335,7 +244439,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities. It provides low-latency, accurate transcription with utterance-based language detection, speaker diarization, word-level timestamps, Smart transcription (including voice editing), and custom vocabulary speech biasing.",
+        "tagline": "Gemini 3.5 Transcribe is a speech-to-text model based on Gemini's audio understanding capabilities."
       },
       {
         "id": "gemini-3.6-flash",
@@ -236343,7 +244449,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.6",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "description": "Gemini 3.6 Flash (`gemini-3.6-flash`) is a previous-generation Flash model that remains available for production use. For our newest Flash model, see Gemini 3.8 Flash. Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "status": "active",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -236368,16 +244474,14 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "batch_input": 0.75,
-          "batch_output": 3.75,
+          "input": 0.75,
+          "output": 3.75,
+          "batch_input": 0.375,
+          "batch_output": 1.875,
           "tiers": [
             {
               "label": "Text tokens",
@@ -236391,30 +244495,31 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Standard",
                   "values": [
-                    1.5,
-                    null,
-                    7.5
+                    0.75,
+                    0.075,
+                    3.75
                   ]
                 },
                 {
                   "label": "Priority",
                   "values": [
-                    2.7,
-                    null,
-                    13.5
+                    1.35,
+                    0.135,
+                    6.75
                   ]
                 },
                 {
                   "label": "Flex",
                   "values": [
-                    0.75,
-                    null,
-                    3.75
+                    0.375,
+                    0.0375,
+                    1.875
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "cached_input": 0.075
         },
         "tools": [
           "function_calling"
@@ -236423,7 +244528,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-24"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-3.7-flash",
@@ -236432,7 +244537,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemini-3.7",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.7 Flash Gemini 3.7 Flash is the next iteration in the Gemini 3 series of highly-capable, natively multimodal, reasoning models.",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "model_type": "chat",
@@ -236468,7 +244573,51 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-16"
+        "last_updated": "2026-11-22",
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075,
+          "batch_input": 0.375,
+          "batch_output": 1.875,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    0.075,
+                    3.75
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    1.35,
+                    0.135,
+                    6.75
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    1.875
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-3.8-flash-lite-tts",
@@ -236488,18 +244637,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -236510,7 +244655,53 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production workloads.",
+        "tagline": "Gemini 3.8 Flash-Lite TTS (`gemini-3.8-flash-lite-tts`) is Google's fast, cost-efficient workhorse text-to-speech model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production w",
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075,
+          "batch_input": 0.375,
+          "batch_output": 1.875,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    0.075,
+                    3.75
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    1.35,
+                    0.135,
+                    6.75
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    1.875
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-3.8-flash-tts",
@@ -236530,18 +244721,14 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ],
           "output": [
-            "text",
-            "image",
             "audio"
           ]
         },
@@ -236552,7 +244739,53 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-solid long-form multi-turn stability.",
+        "tagline": "Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`) is Google's flagship creative text-to-speech model, engineered for studio-grade voice fidelity, expressive acting, authentic regional accents, and rock-so",
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075,
+          "batch_input": 0.375,
+          "batch_output": 1.875,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    0.075,
+                    3.75
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    1.35,
+                    0.135,
+                    6.75
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    1.875
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-3.8-flash",
@@ -236583,9 +244816,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -236595,7 +244826,53 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-03"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Flash.",
+        "tagline": "Gemini 3.8 Flash is our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows—all with the speed and cost efficiency of Fl",
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075,
+          "batch_input": 0.375,
+          "batch_output": 1.875,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    0.075,
+                    3.75
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    1.35,
+                    0.135,
+                    6.75
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    1.875
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gemini-3.8-live-extended-thinking",
@@ -236626,7 +244903,6 @@ export const providers: ProviderWithModels[] = [
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -236637,7 +244913,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-20"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions. It processes configurable background reasoning (`low`, `medium`, `high`), thought summaries, and asynchronous tool calls while streaming continuous audio responses. For low-latency conversational voice experiences without background reasoning delays, see Gemini 3.8 Live.",
+        "tagline": "Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our high-reasoning audio-to-audio Live API model for complex, multi-step problem solving during real-time voice interactions."
       },
       {
         "id": "gemini-3.8-live",
@@ -236664,12 +244942,10 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
             "audio"
           ],
           "output": [
             "text",
-            "image",
             "audio"
           ]
         },
@@ -236680,7 +244956,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-16"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays. It supports interleaved reasoning, asynchronous and synchronous function calling, full-session client content updates, and built-in proactive audio. For complex agentic tasks requiring multi-step reasoning and configurable thinking budgets, see Gemini 3.8 Live Extended Thinking.",
+        "tagline": "Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency, audio-to-audio voice agent experiences and real-time dialogue without reasoning-induced delays."
       },
       {
         "id": "gemini-4-argon",
@@ -236709,9 +244987,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -236721,19 +244997,361 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-14"
+        "last_updated": "2026-11-22",
+        "description": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model. It delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon across complex coding, agentic, math, and science tasks. Like Carbon, it supports a unified 1M-token context window and long decode up to 1M tokens.",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "tagline": "Gemini 4 Argon (`gemini-4-argon`) is our efficient Gemini 4 frontier reasoning model.",
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.1,
+          "batch_input": 1,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.1,
+                    10
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    3.6,
+                    0.18,
+                    18
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1,
+                    0.05,
+                    5
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "gemini-4-carbon",
+        "name": "gemini-4-carbon",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "description": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-step agents, and long decode up to 1M tokens.",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "license": "proprietary",
+        "tagline": "Gemini 4 Carbon (`gemini-4-carbon`) is our most capable reasoning model, built for complex software engineering, mathematical and scientific problem solving, high factual accuracy, autonomous multi-st",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.1,
+          "batch_input": 1,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.1,
+                    10
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    3.6,
+                    0.18,
+                    18
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1,
+                    0.05,
+                    5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-4-hydrogen",
+        "name": "gemini-4-hydrogen",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "description": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "license": "proprietary",
+        "tagline": "Gemini 4 Hydrogen (`gemini-4-hydrogen`) brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows, featuring a unified 1M-token context window a",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cached_input": 0.075,
+          "batch_input": 0.75,
+          "batch_output": 3.75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    0.075,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    2.7,
+                    0.135,
+                    13.5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.75,
+                    0.0375,
+                    3.75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-4-neon",
+        "name": "gemini-4-neon",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-4",
+        "description": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified 1M-token context window and long decode up to 1M tokens.",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "license": "proprietary",
+        "tagline": "Gemini 4 Neon (`gemini-4-neon`) brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows, featuring a unified ",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.15,
+          "batch_input": 1.5,
+          "batch_output": 7.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    0.15,
+                    15
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    5.4,
+                    0.27,
+                    27
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1.5,
+                    0.075,
+                    7.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "gemini-decision-1",
+        "name": "gemini-decision-1",
+        "created_by": "google",
+        "source": "official",
+        "description": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API. It evaluates typed questions over text, images, video, audio, and PDFs in a single prefill pass and returns calibrated outcome probabilities with zero output tokens. Use Gemini Decision 1 for request routing, policy checks across many rules at once, candidate scoring against a rubric, tool selection, and low-latency classification over live media streams. A single request can evaluate up to 1,000 independent questions over shared input up to 262,144 tokens: * **Yes/no:** Returns a calibrated probability from 0.01 to 0.99 and a confidence score. * **Single-select:** Evaluates 2 to 255 options and returns the top option, per-option probabilities, and confidence. * **Rubric rating:** Evaluates 2 to 255 ordered rubric levels and returns the probability-weighted expected score, per-level probabilities, and confidence.",
+        "status": "active",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "proprietary",
+        "tagline": "Gemini Decision 1 is a specialized multimodal model built for the Decisions API.",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-embedding-001",
         "name": "gemini-embedding-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-11-22",
         "status": "active",
         "context_window": 2048,
         "model_type": "embed",
         "capabilities": {
-          "vision": true
+          "vision": false
         },
         "modalities": {
           "input": [
@@ -236749,14 +245367,16 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "gemini-embedding",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images. The Gemini Embedding model is best for semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large datasets.",
+        "tagline": "A specialized engine for high-dimensional vector representation, providing efficient numerical mapping of text and images."
       },
       {
         "id": "gemini-embedding-2-preview",
         "name": "gemini-embedding-2-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "context_window": 8192,
         "model_type": "embed",
@@ -236777,7 +245397,9 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "gemini-embedding",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-11-06",
+        "successor": "gemini-embedding-2"
       },
       {
         "id": "gemini-embedding-2",
@@ -236795,7 +245417,10 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image",
+            "video",
+            "audio"
           ],
           "output": [
             "text"
@@ -236805,7 +245430,9 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-11-22",
+        "description": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space. The Gemini Embedding 2 model is best for cross-modal semantic search, document retrieval, and recommendation systems that require fast, scalable similarity calculations across large multimodal datasets.",
+        "tagline": "Our first multimodal embedding model, providing efficient numerical mapping of text, images, video, audio, and PDFs into a single unified embedding space."
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -236883,7 +245510,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-nano-banana-2.1",
         "created_by": "google",
         "source": "official",
-        "description": "An update to Nano Banana 2 ( Gemini 3.1 Flash Image ), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). Key updates: Improved visual quality and realism across 1K , 2K , and 4K output resolutions (default 1K ) Fixed tiling artifacts on wide and panoramic aspect ratios ( 1:4 , 4:1 , 1:8 , 8:1 ) at 2K and 4K resolutions Enhanced text rendering and infographic layout accuracy Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) Grounding with Google Web and Image Search Configurable Thinking levels ( minimal , medium default, and high )",
+        "description": "**Gemini Nano Banana 2.1** (`gemini-nano-banana-2.1`) is the latest high-efficiency image generation and conversational editing model. An update to Nano Banana 2 (Gemini 3.1 Flash Image), it maintains Flash-level speed and cost efficiency while delivering significant improvements in visual quality, prompt adherence, multi-turn character consistency, and text rendering. It serves as the more efficient counterpart to Gemini 3 Pro Image (Nano Banana Pro). * Improved visual quality and realism across `1K`, `2K`, and `4K` output resolutions (default `1K`) * Fixed tiling artifacts on wide and panoramic aspect ratios (`1:4`, `4:1`, `1:8`, `8:1`) at `2K` and `4K` resolutions * Enhanced text rendering and infographic layout accuracy * Multi-image fusion supporting up to 14 reference images (character consistency for up to 4 characters and object fidelity for up to 10 objects) * Grounding with Google Web and Image Search * Configurable Thinking levels (`minimal`, `medium` default, and `high`)",
         "status": "active",
         "context_window": 131072,
         "max_output_tokens": 32768,
@@ -236904,13 +245531,11 @@ export const providers: ProviderWithModels[] = [
           "input": [
             "text",
             "image",
-            "video",
-            "audio"
+            "video"
           ],
           "output": [
             "text",
-            "image",
-            "audio"
+            "image"
           ]
         },
         "tools": [
@@ -236920,7 +245545,75 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-07"
+        "last_updated": "2026-11-22",
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cached_input": 0.15,
+          "batch_input": 0.75,
+          "batch_output": 3.75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    0.15,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    2.7,
+                    0.27,
+                    13.5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.75,
+                    0.075,
+                    3.75
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "gemini-omni-1.1-flash",
+        "name": "gemini-omni-1.1-flash",
+        "created_by": "google",
+        "source": "official",
+        "status": "active",
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-omni-flash-preview",
@@ -236944,18 +245637,18 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "gemini-omni-flash",
         "name": "gemini-omni-flash",
         "created_by": "google",
         "source": "official",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Omni Flash Note: Gemini Omni Flash is in preview . Gemini Omni Flash is a preview model designed for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API.",
+        "description": "Gemini Omni Flash is a high-performance model for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API, and supports video extension, up to 4K output resolution, and advanced interpolation.",
         "status": "active",
-        "context_window": 1048576,
+        "context_window": 131072,
         "model_type": "chat",
         "license": "proprietary",
         "tagline": "The Interactions API is now generally available.",
@@ -236971,7 +245664,9 @@ export const providers: ProviderWithModels[] = [
             "video"
           ],
           "output": [
-            "text"
+            "text",
+            "video",
+            "audio"
           ]
         },
         "pricing": {
@@ -237003,14 +245698,15 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-08"
+        "last_updated": "2026-11-22",
+        "max_output_tokens": 65536
       },
       {
         "id": "gemini-robotics-er-1.5-preview",
         "name": "gemini-robotics-er-1.5-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
@@ -237027,14 +245723,10 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video",
-            "audio"
+            "image"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -237083,9 +245775,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "image",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -237095,8 +245785,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-31",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 1.6 Gemini Robotics ER 1.6 is a vision-language model (VLM) that brings Gemini&#39;s agentic capabilities to robotics. It&#39;s designed for advanced reasoning in the physical world, allowing robots to interpret complex visual data, perform spatial reasoning, and plan actions from natural language commands.",
+        "last_updated": "2026-11-22",
+        "description": "Gemini Robotics ER 1.6 is a vision-language model (VLM) that brings Gemini's agentic capabilities to robotics. It's designed for advanced reasoning in the physical world, allowing robots to interpret complex visual data, perform spatial reasoning, and plan actions from natural language commands.",
         "tagline": "The Interactions API is now generally available.",
         "deprecation_date": "2026-08-31",
         "successor": "gemini-robotics-er-2-preview"
@@ -237108,7 +245798,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemini-2",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 2 Preview Gemini Robotics ER 2 is a vision-language model (VLM) for robotics that accepts text, image, video, and audio input. It supports spatial reasoning, video understanding, agentic code execution, multi-step tool orchestration, and multi-robot coordination.",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 65536,
@@ -237145,7 +245835,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-31"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "gemini-robotics-er-2-streaming-preview",
@@ -237154,7 +245844,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemini-2",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 2 Streaming Preview Gemini Robotics ER 2 Streaming is a vision-language model (VLM) for robotics optimized for real-time text streaming using the Live API. It accepts text, image, video, and audio input and supports bidirectional streaming with function calling.",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 65536,
@@ -237191,7 +245881,37 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-07-31"
+        "last_updated": "2026-11-22"
+      },
+      {
+        "id": "genie-4",
+        "name": "genie-4",
+        "created_by": "google",
+        "source": "official",
+        "description": "Genie 4 (`genie-4`) is a real-time interactive world generation model on the Interactions API. Seed a world from a text prompt, a 16:9 reference image, or both, then explore and steer the live 24 fps video and 48 kHz stereo audio stream in real time using keyboard movement controls (`WASD` and arrow keys) and mid-session text events. For offline, fixed-duration clip generation, multi-turn video editing, and upsampling up to 4K, use Gemini Omni 1.2 Flash instead.",
+        "status": "active",
+        "license": "proprietary",
+        "tagline": "Genie 4 (`genie-4`) is a real-time interactive world generation model on the Interactions API.",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-11-22"
       },
       {
         "id": "imagen-3.0-generate-002",
@@ -237330,8 +246050,8 @@ export const providers: ProviderWithModels[] = [
         "name": "imagen",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-08-30",
-        "status": "active",
+        "last_updated": "2026-11-22",
+        "status": "deprecated",
         "context_window": 480,
         "model_type": "image",
         "capabilities": {
@@ -237423,9 +246143,11 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -237436,8 +246158,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Lyria 3 Clip Preview Lyria 3 Clip Preview is Google&#39;s model optimized for generating short musical clips, loops, and previews. It generates 30-second high-quality, 48kHz stereo audio from text prompts or image inputs.",
+        "last_updated": "2026-11-22",
+        "description": "Lyria 3 Clip Preview is Google's model optimized for generating short musical clips, loops, and previews. It generates 30-second high-quality, 48kHz stereo audio from text prompts or image inputs.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -237461,9 +246183,11 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -237474,8 +246198,8 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-06-29",
-        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Lyria 3 Pro Preview Lyria 3 Pro Preview is Google&#39;s flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 48kHz stereo audio from text prompts or image inputs.",
+        "last_updated": "2026-11-22",
+        "description": "Lyria 3 Pro Preview is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 48kHz stereo audio from text prompts or image inputs.",
         "tagline": "The Interactions API is now generally available."
       },
       {
@@ -237571,9 +246295,11 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
+            "text",
             "audio"
           ]
         },
@@ -237584,14 +246310,16 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-09-06"
+        "last_updated": "2026-11-22",
+        "description": "Lyria 3.5 is Google's flagship music generation model. It is optimized for generating full-length songs with complex structural coherence, including multiple verses, choruses, and bridges. It generates high-quality, 44.1 kHz stereo audio from text prompts or image inputs.",
+        "tagline": "Lyria 3.5 is Google's flagship music generation model."
       },
       {
         "id": "lyria-realtime-exp",
         "name": "lyria-realtime-exp",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-11-22",
         "status": "active",
         "model_type": "tts",
         "capabilities": {
@@ -237600,7 +246328,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "batch": true,
-          "vision": true,
+          "vision": false,
           "json_mode": true
         },
         "modalities": {
@@ -237619,7 +246347,9 @@ export const providers: ProviderWithModels[] = [
           "streamGenerateContent"
         ],
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "An experimental engine for high-fidelity musical synthesis, offering innovative capabilities for generating and transforming audio content. Lyria RealTime is best for AI-assisted songwriting, unique instrumental generation, and creative audio workflows that require deep control over melody and rhythm, with no vocals.",
+        "tagline": "An experimental engine for high-fidelity musical synthesis, offering innovative capabilities for generating and transforming audio content."
       },
       {
         "id": "mistral-medium-3@vertex",
@@ -237697,7 +246427,7 @@ export const providers: ProviderWithModels[] = [
         "name": "veo-2.0-generate-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "model_type": "video",
         "capabilities": {
@@ -237711,8 +246441,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -237731,11 +246460,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
         "tagline": "Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows.",
         "deprecation_date": "2026-06-30",
-        "successor": [
-          "gemini-omni-1.1-flash",
-          "the GA models on the Gemini Enterprise Agent Platf",
-          "m"
-        ]
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.0-fast-generate-001",
@@ -237755,24 +246480,20 @@ export const providers: ProviderWithModels[] = [
             "video"
           ]
         },
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-06-30",
-        "successor": [
-          "gemini-omni-1.1-flash",
-          "the GA models on the Gemini Enterprise Agent Platf",
-          "m"
-        ]
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.0-fast-generate-preview",
         "name": "veo-3.0-fast-generate-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "deprecation_date": "2025-11-12",
         "model_type": "video",
-        "successor": "gemini-omni-1.1-flash",
+        "successor": "gemini-omni-1.2-flash",
         "modalities": {
           "input": [
             "text"
@@ -237803,24 +246524,20 @@ export const providers: ProviderWithModels[] = [
             "video"
           ]
         },
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-06-30",
-        "successor": [
-          "gemini-omni-1.1-flash",
-          "the GA models on the Gemini Enterprise Agent Platf",
-          "m"
-        ]
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.0-generate-preview",
         "name": "veo-3.0-generate-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-20",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "deprecation_date": "2025-11-12",
         "model_type": "video",
-        "successor": "gemini-omni-1.1-flash",
+        "successor": "gemini-omni-1.2-flash",
         "modalities": {
           "input": [
             "text"
@@ -237851,16 +246568,16 @@ export const providers: ProviderWithModels[] = [
             "video"
           ]
         },
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.1-generate-preview",
         "name": "veo-3.1-generate-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "status": "deprecated",
         "context_window": 1024,
         "model_type": "video",
@@ -237875,8 +246592,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -237895,7 +246611,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production. Veo 3.1 is best for professional-grade 4K output, natively synchronized audio generation, and complex camera movements that require the highest level of temporal consistency and artistic control.",
         "tagline": "A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production.",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       },
       {
         "id": "veo-3.1-lite-generate-preview",
@@ -237914,8 +246630,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -237925,11 +246640,11 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-10-22",
+        "last_updated": "2026-11-22",
         "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Veo 3.1 Lite Preview is a high-efficiency, developer-first video model providing high-fidelity video generation, editing, and cinematic control. It leverages the state-of-the-art Veo 3.1 model to democratize professional-grade video AI by offering a scalable, programmable interface for creators and enterprises.",
         "tagline": "The Interactions API is now generally available.",
         "deprecation_date": "2026-10-22",
-        "successor": "gemini-omni-1.1-flash"
+        "successor": "gemini-omni-1.2-flash"
       }
     ]
   },
@@ -240008,7 +248723,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "xai",
         "source": "official",
         "family": "grok-imagine",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "image",
         "license": "proprietary",
         "page_url": "https://docs.x.ai/developers/models",
@@ -240024,7 +248739,7 @@ export const providers: ProviderWithModels[] = [
         "pricing_notes": [
           "$0.04 / image."
         ],
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "grok-imagine-image-pro",
@@ -240092,7 +248807,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-image",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -240116,7 +248831,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "status": "deprecated",
+        "status": "active",
         "pricing_notes": [
           "$0.02 / image."
         ]
@@ -240127,7 +248842,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "xai",
         "source": "official",
         "family": "grok-imagine",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "video",
         "license": "proprietary",
         "page_url": "https://docs.x.ai/developers/models",
@@ -240143,7 +248858,7 @@ export const providers: ProviderWithModels[] = [
         "pricing_notes": [
           "$0.020 / sec."
         ],
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-22"
       },
       {
         "id": "grok-imagine-video-1.5-preview",
@@ -240194,8 +248909,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-11-14",
-        "status": "deprecated",
+        "last_updated": "2026-11-22",
+        "status": "active",
         "pricing_notes": [
           "$0.080 / sec."
         ]
@@ -240205,7 +248920,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-video",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-22",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -240229,7 +248944,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "status": "deprecated",
+        "status": "active",
         "pricing_notes": [
           "$0.050 / sec."
         ]

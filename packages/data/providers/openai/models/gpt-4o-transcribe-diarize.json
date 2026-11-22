@@ -3,10 +3,10 @@
   "name": "GPT-4o Transcribe Diarize",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-22",
   "family": "gpt-4o",
   "description": "Status: Deprecated",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 16000,
   "max_output_tokens": 2000,
@@ -41,7 +41,7 @@
     "name": "d0ee4ddc",
     "family": "15249632",
     "description": "5344a855",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "67510c89",
     "max_output_tokens": "08f90c1a",
@@ -55,10 +55,14 @@
     "license": "9186c466",
     "page_url": "69f0f317",
     "open_weight": "68934a3e",
-    "retirement_date": "9245bce7"
+    "retirement_date": "9245bce7",
+    "deprecation_date": "7d843204",
+    "successor": "829f2d5f"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe-diarize",
   "open_weight": false,
-  "retirement_date": "2027-02-26"
+  "retirement_date": "2027-02-26",
+  "deprecation_date": "2026-08-26",
+  "successor": "gpt-live-transcribe"
 }

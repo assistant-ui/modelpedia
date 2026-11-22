@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-preview-tts",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-11-22",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 8192,
@@ -15,12 +15,12 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true,
+    "vision": false,
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
-    "output": ["text", "image", "audio"]
+    "input": ["text"],
+    "output": ["audio"]
   },
   "pricing": {
     "input": 0.5,
@@ -54,19 +54,19 @@
     "context_window": "77441296",
     "max_output_tokens": "c76fe1d8",
     "model_type": "4e16a2cf",
-    "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "capabilities": "47f1f394",
+    "modalities": "601e776d",
     "pricing": "fb8a8807",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "license": "9186c466",
-    "page_url": "160f666b",
+    "page_url": "6c57358c",
     "open_weight": "68934a3e",
     "description": "00b5cea4",
     "tagline": "4b67df7d"
   },
   "license": "proprietary",
-  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+  "page_url": "https://aistudio.google.com/docs/models/gemini-2.5-flash-preview-tts",
   "open_weight": false,
   "description": "Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation. Gemini 2.5 Flash TTS is best for real-time assistants, high-volume narration, and conversational use cases that require fine-grained control over voice style and pacing.",
   "tagline": "Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation."
