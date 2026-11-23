@@ -3,7 +3,7 @@
   "name": "deepseek-coder-6.7b-instruct",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-11-23",
   "family": "deepseek",
   "capabilities": {
     "streaming": true,
@@ -14,8 +14,10 @@
     "family": "4b81b92d",
     "capabilities": "48995a4e",
     "parameters": "c3e22f2a",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "parameters": 6.7,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

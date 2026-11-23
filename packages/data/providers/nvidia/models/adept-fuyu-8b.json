@@ -3,13 +3,16 @@
   "name": "fuyu-8b",
   "created_by": "adept",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-11-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "7b26f6c6",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "parameters": "c9f0f895",
+    "status": "2e2f74dc"
   },
-  "parameters": 8
+  "parameters": 8,
+  "status": "deprecated"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "count": 489,
+  "date": "2026-11-23",
+  "count": 490,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -94,6 +94,7 @@
     "deepseek-deepseek-v4.1-flash-1017",
     "deepseek-deepseek-v4.1-flash-1017-batch",
     "deepseek-deepseek-v4.1-flash-batch",
+    "dots-studio-dots-3-note-preview-free",
     "elorian-glimpse",
     "fireworks-ember-1",
     "google-gemini-2.5-flash",

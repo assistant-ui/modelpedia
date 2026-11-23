@@ -3,7 +3,7 @@
   "name": "mistral-nemo-12b-instruct",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-11-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,7 +15,8 @@
     "family": "75e1af53",
     "parameters": "c20ad4d7",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "mistral-nemo",
@@ -24,5 +25,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

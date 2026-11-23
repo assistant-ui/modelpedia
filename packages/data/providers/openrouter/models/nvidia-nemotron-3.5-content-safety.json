@@ -32,7 +32,11 @@
     "tagline": "6ac8ad33",
     "capabilities": "d53412cf",
     "modalities": "6399757e",
-    "pricing": "ee3b139d"
+    "pricing": "ee3b139d",
+    "status": "2e2f74dc",
+    "deprecation_date": "2573f3da"
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-11-23",
+  "status": "deprecated",
+  "deprecation_date": "2026-11-30"
 }

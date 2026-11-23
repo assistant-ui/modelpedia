@@ -20,9 +20,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 1.19,
-    "output": 3.74,
-    "cached_input": 0.6
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -35,13 +35,13 @@
     "tagline": "92718637",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "559e1874",
+    "pricing": "fbb9d87e",
     "tools": "f0c1dc7e",
     "max_output_tokens": "f7de594e",
     "status": "2e2f74dc",
     "deprecation_date": "67948752"
   },
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-23",
   "max_output_tokens": 131072,
   "status": "deprecated",
   "deprecation_date": "2026-11-20"

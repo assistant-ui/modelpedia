@@ -3,13 +3,16 @@
   "name": "recurrentgemma-2b",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-11-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "c3488f43",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "parameters": "c81e728d",
+    "status": "2e2f74dc"
   },
-  "parameters": 2
+  "parameters": 2,
+  "status": "deprecated"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "count": 125,
+  "date": "2026-11-23",
+  "count": 124,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -55,7 +55,6 @@
     "google-gemini-3-flash",
     "google-gemini-3.1-pro",
     "google-gemini-4-carbon",
-    "google-gemini-omni-1.2-flash",
     "google-lyria-3.5",
     "google-nano-banana",
     "google-nano-banana-2",
@@ -102,7 +101,6 @@
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
     "prunaai-hunyuan3d-2",
-    "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video-2-pro-reference",
     "rafaelgalle-whisper-diarization-advanced",
@@ -122,6 +120,7 @@
     "wan-video-wan-2.5-i2v-fast",
     "wan-video-wan-2.5-t2v-fast",
     "wan-video-wan-2.7-videoedit",
+    "wsmhj-green-screen-remover",
     "xai-grok-imagine-video",
     "xai-grok-imagine-video-1.5",
     "xai-grok-imagine-video-extension",
