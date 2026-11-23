@@ -1,0 +1,21 @@
+{
+  "id": "jev-1.14",
+  "name": "Jev 1.14",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.042,
+    "output": 0
+  },
+  "_generated": {
+    "name": "4fd93325",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "6786cf99"
+  },
+  "last_updated": "2026-11-23"
+}

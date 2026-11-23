@@ -3,12 +3,14 @@
   "name": "deplot",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-11-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "49795c67",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
+  },
+  "status": "deprecated"
 }

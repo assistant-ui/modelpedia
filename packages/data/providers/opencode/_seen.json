@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "count": 121,
   "ids": [
     "beam-free",
@@ -86,13 +86,13 @@
     "iceman-free",
     "jev-1.13",
     "jev-1.13-free",
+    "jev-1.14",
     "kimi-k2.5",
     "kimi-k2.6",
     "kimi-k2.7-code",
     "kimi-k3",
     "kimi-k3.1-pro",
-    "longcat-2.0",
-    "longcat-2.5-free",
+    "longcat-2.5",
     "mimo-v2.6-flash",
     "mimo-v2.6-flash-free",
     "mimo-v2.6-pro",

@@ -4,7 +4,7 @@
   "created_by": "moonshot",
   "source": "official",
   "family": "kimi",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 262144,
   "license": "proprietary",
   "page_url": "https://platform.kimi.ai/docs/pricing/chat",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "46a7f2ca",
     "family": "0740f86b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "4a1d32eb",
     "license": "9186c466",
     "page_url": "6fc416c1",
@@ -31,5 +31,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-11-23"
 }

@@ -3,12 +3,14 @@
   "name": "yi-large",
   "created_by": "01-ai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-11-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "2d4bdbed",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
+  },
+  "status": "deprecated"
 }

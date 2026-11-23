@@ -3,13 +3,16 @@
   "name": "neva-22b",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-11-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "d1acce1b",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "parameters": "b6d767d2",
+    "status": "2e2f74dc"
   },
-  "parameters": 22
+  "parameters": 22,
+  "status": "deprecated"
 }

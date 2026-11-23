@@ -3,7 +3,7 @@
   "name": "llama-guard-4-12b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-11-23",
   "family": "llama-guard",
   "capabilities": {
     "streaming": true
@@ -15,11 +15,13 @@
     "capabilities": "0fa77dc6",
     "model_type": "1e7a7b87",
     "parameters": "c20ad4d7",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "parameters": 12,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }
