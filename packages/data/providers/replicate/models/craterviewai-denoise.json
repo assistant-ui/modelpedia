@@ -1,0 +1,16 @@
+{
+  "id": "craterviewai/denoise",
+  "name": "Denoise",
+  "created_by": "craterviewai",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/craterviewai/denoise",
+  "_generated": {
+    "name": "70be2753",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "3db6e0b4"
+  },
+  "last_updated": "2026-11-26"
+}

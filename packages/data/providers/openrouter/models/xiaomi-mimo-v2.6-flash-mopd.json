@@ -1,0 +1,44 @@
+{
+  "id": "xiaomi/mimo-v2.6-flash-mopd",
+  "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input.",
+  "release_date": "2026-11-23",
+  "context_window": 1048576,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 1,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6494cd7b",
+    "family": "1a23786e",
+    "description": "64ef7c19",
+    "release_date": "a26e6340",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "64ef7c19",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "a279a5b9",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-26"
+}

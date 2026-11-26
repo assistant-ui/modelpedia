@@ -1,0 +1,14 @@
+{
+  "id": "pruna/z-image-turbo",
+  "name": "Z-Image Turbo",
+  "created_by": "pruna",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "a73fe98b",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-26"
+}

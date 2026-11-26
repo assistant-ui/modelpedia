@@ -10,7 +10,9 @@
   "_generated": {
     "name": "59af5454",
     "parameters": "34173cb3",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-11-26",
+  "status": "deprecated"
 }

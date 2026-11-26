@@ -4,7 +4,8 @@
   "created_by": "scaledown",
   "source": "official",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.05,
@@ -12,8 +13,8 @@
   },
   "_generated": {
     "name": "b9e7dc64",
-    "capabilities": "0fa77dc6",
+    "capabilities": "8a3b232e",
     "pricing": "edbb3c0f"
   },
-  "last_updated": "2026-10-14"
+  "last_updated": "2026-11-26"
 }

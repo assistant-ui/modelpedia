@@ -3,7 +3,7 @@
   "name": "inkling-2-mini",
   "created_by": "unknown",
   "source": "official",
-  "description": "Thinking Machines&#39; small open-weights model that can run on a Mac: 26B parameters, 5.4B active, with looped layers for more computation per token.",
+  "description": "Thinking Machines&#39; small open-weights model: 26B parameters, 5.4B active, with looped layers for more computation per token.",
   "reasoning_tokens": true,
   "license": "apache-2.0",
   "parameters": 26,
@@ -24,7 +24,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "0d41181b",
-    "description": "013f74ad",
+    "description": "6c266c02",
     "reasoning_tokens": "b326b506",
     "license": "60245731",
     "parameters": "4e732ced",
@@ -35,5 +35,5 @@
     "modalities": "6399757e",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-21"
+  "last_updated": "2026-11-26"
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "mercury",
   "description": "Mercury 2.5",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 260000,
   "max_output_tokens": 65536,
   "model_type": "chat",
@@ -33,7 +33,7 @@
     "name": "9d9d0244",
     "family": "428b012e",
     "description": "9d9d0244",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "5c6908c2",
     "max_output_tokens": "297ce0b3",
     "model_type": "d669f408",
@@ -46,5 +46,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-11-26"
 }

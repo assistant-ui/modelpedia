@@ -1,0 +1,57 @@
+{
+  "id": "Qwen/Qwen3.8-27B",
+  "name": "Qwen3.8-27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3.8-27B is a compact 27B dense model in the Qwen3.8 series, built on the architectural foundation of Qwen3.5.",
+  "status": "active",
+  "release_date": "2026-09-29",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "APACHE-2.0",
+  "parameters": 27,
+  "page_url": "https://www.siliconflow.com/models/qwen3-8-27b",
+  "tagline": "Qwen3.8-27B is a compact 27B dense model in the Qwen3.8 series, built on the architectural foundation of Qwen3.5.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.425,
+    "output": 2.55,
+    "cached_input": 0.085
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9b054f25",
+    "description": "ca8d70c6",
+    "status": "379ac110",
+    "release_date": "c9892cfb",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "98ac2124",
+    "parameters": "02e74f10",
+    "page_url": "d229348b",
+    "tagline": "ca8d70c6",
+    "capabilities": "cd8c3e09",
+    "modalities": "6399757e",
+    "pricing": "47149589",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-26"
+}

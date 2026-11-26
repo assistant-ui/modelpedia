@@ -3,7 +3,7 @@
   "name": "ming image 0.1 design",
   "created_by": "novita",
   "source": "official",
-  "status": "deprecated",
+  "status": "active",
   "release_date": "2026-09-18",
   "model_type": "chat",
   "capabilities": {
@@ -17,7 +17,7 @@
   "endpoints": ["chat_completions"],
   "_generated": {
     "name": "c8bb4e29",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "release_date": "ccc89663",
     "model_type": "d669f408",
     "capabilities": "5f5c7516",
@@ -25,7 +25,7 @@
     "endpoints": "d8fa1080",
     "pricing": "ac91204c"
   },
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-26",
   "pricing": {
     "input": 1,
     "output": 2

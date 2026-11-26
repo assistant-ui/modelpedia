@@ -3,9 +3,9 @@
   "name": "Claude Opus 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-26",
   "family": "claude-opus",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-05",
   "context_window": 200000,
   "max_output_tokens": 64000,
@@ -42,7 +42,7 @@
   "_generated": {
     "name": "fb9e58e1",
     "family": "4e4c4b18",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "44aded18",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
@@ -63,8 +63,10 @@
     "thinking_modes": "3f7ae0d0",
     "bedrock_id": "ed807f2c",
     "vertex_id": "a96e921a",
-    "retirement_date": "bec6282f",
-    "release_date": "4d88f8bb"
+    "retirement_date": "c927164d",
+    "release_date": "4d88f8bb",
+    "deprecation_date": "a26e6340",
+    "successor": "7c6f0211"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -73,6 +75,8 @@
   "thinking_modes": ["extended"],
   "bedrock_id": "global.anthropic.claude-opus-4-5-20251101-v1:0",
   "vertex_id": "claude-opus-4-5@20251101",
-  "retirement_date": "2026-11-24",
-  "release_date": "2025-11-24"
+  "retirement_date": "2027-01-22",
+  "release_date": "2025-11-24",
+  "deprecation_date": "2026-11-23",
+  "successor": "claude-opus-5-5"
 }

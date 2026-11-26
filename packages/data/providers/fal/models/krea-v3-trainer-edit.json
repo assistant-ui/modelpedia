@@ -1,0 +1,28 @@
+{
+  "id": "krea/v3/trainer/edit",
+  "name": "Krea 3 Edit Trainer",
+  "created_by": "krea",
+  "source": "official",
+  "description": "Train a Krea 3 edit LoRA from before/after image pairs.",
+  "status": "active",
+  "release_date": "2026-11-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/krea/v3/trainer/edit",
+  "tagline": "Train a Krea 3 edit LoRA from before/after image pairs.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-26",
+  "_generated": {
+    "name": "0f2ace79",
+    "description": "81c3018c",
+    "status": "379ac110",
+    "release_date": "bec6282f",
+    "model_type": "ddb0b7bc",
+    "page_url": "2e4b3b34",
+    "tagline": "81c3018c",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "1a486f52"
+  },
+  "last_updated": "2026-11-26"
+}

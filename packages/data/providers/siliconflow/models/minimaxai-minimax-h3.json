@@ -1,0 +1,41 @@
+{
+  "id": "MiniMaxAI/MiniMax-H3",
+  "name": "MiniMax-H3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-H3 (FL2VA) is a video generation model from MiniMax that creates videos from text descriptions and supports first-and-last-frame image conditioning to control the opening and closing visuals, ",
+  "status": "active",
+  "release_date": "2026-11-11",
+  "model_type": "chat",
+  "parameters": 33,
+  "page_url": "https://www.siliconflow.com/models/minimax-h3",
+  "tagline": "MiniMax-H3 (FL2VA) is a video generation model from MiniMax that creates videos from text descriptions and supports first-and-last-frame image conditioning to control the opening and closing visuals, ",
+  "capabilities": {
+    "vision": false,
+    "tool_call": false,
+    "json_mode": false,
+    "structured_output": false,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "925d5b0b",
+    "family": "c85916f0",
+    "description": "b1cb5e22",
+    "status": "379ac110",
+    "release_date": "7914a035",
+    "model_type": "d669f408",
+    "parameters": "182be0c5",
+    "page_url": "2e0dcaf4",
+    "tagline": "b1cb5e22",
+    "capabilities": "6ef0df46",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-11-26"
+}

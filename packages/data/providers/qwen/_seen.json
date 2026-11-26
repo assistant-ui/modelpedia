@@ -1,12 +1,13 @@
 {
-  "date": "2026-11-16",
-  "count": 246,
+  "date": "2026-11-26",
+  "count": 248,
   "ids": [
     "cosyvoice-v2",
     "cosyvoice-v3-flash",
     "cosyvoice-v3-plus",
     "cosyvoice-v3.5-flash",
     "cosyvoice-v3.5-plus",
+    "decision-model",
     "decision-model-preview",
     "fun-asr",
     "fun-asr-flash-8k-realtime",
@@ -45,6 +46,7 @@
     "qwen-audio-3.1-asr-flash-filetrans",
     "qwen-audio-3.1-asr-flash-message",
     "qwen-audio-3.1-asr-flash-streaming",
+    "qwen-audio-3.1-live",
     "qwen-audio-3.1-realtime-flash",
     "qwen-audio-3.1-realtime-plus",
     "qwen-audio-3.1-tts-flash",

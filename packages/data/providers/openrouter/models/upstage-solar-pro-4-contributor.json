@@ -1,0 +1,40 @@
+{
+  "id": "upstage/solar-pro-4-contributor",
+  "name": "Upstage: Solar Pro 4 Contributor",
+  "created_by": "upstage",
+  "source": "official",
+  "description": "Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its...",
+  "release_date": "2026-11-24",
+  "context_window": 524288,
+  "max_output_tokens": 131072,
+  "tagline": "Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its...",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.36,
+    "cached_input": 0.018
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b458f066",
+    "description": "8f06305a",
+    "release_date": "bec6282f",
+    "context_window": "bcabf6a1",
+    "max_output_tokens": "f7de594e",
+    "tagline": "8f06305a",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "6e26e914",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-26"
+}

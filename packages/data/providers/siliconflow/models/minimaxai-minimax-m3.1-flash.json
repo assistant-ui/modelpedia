@@ -1,0 +1,51 @@
+{
+  "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+  "name": "MiniMax-M3.1-Flash",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model for coding, agentic workflows, computer use, and cybersecurity.",
+  "status": "active",
+  "release_date": "2026-10-23",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "page_url": "https://www.siliconflow.com/models/minimax-m3-1-flash",
+  "tagline": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model for coding, agentic workflows, computer use, and cybersecurity.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.015
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "eece808a",
+    "family": "c85916f0",
+    "description": "509b5cd6",
+    "status": "379ac110",
+    "release_date": "68185e3b",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "page_url": "34b1a816",
+    "tagline": "509b5cd6",
+    "capabilities": "d71a2408",
+    "modalities": "6399757e",
+    "pricing": "e5cfa60c",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-26"
+}

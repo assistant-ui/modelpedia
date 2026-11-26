@@ -3,14 +3,14 @@
   "name": "Lyria 3.5",
   "created_by": "google",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/google/lyria-3.5",
   "_generated": {
     "name": "3a244bbf",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "19f540c9"
   },
-  "last_updated": "2026-11-07"
+  "last_updated": "2026-11-26"
 }

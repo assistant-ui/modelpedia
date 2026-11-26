@@ -40,11 +40,11 @@
     "pricing": "20a9a8a7",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "pricing_notes": "9bb11f15"
   },
-  "last_updated": "2026-11-21",
-  "status": "active",
+  "last_updated": "2026-11-26",
+  "status": "deprecated",
   "pricing_notes": [
     "Base rate applies < 200k prompt tokens.",
     "≥ 200k prompt tokens: $2 input / $4 output per 1M tokens."

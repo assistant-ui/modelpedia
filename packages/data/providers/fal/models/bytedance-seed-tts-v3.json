@@ -1,0 +1,24 @@
+{
+  "id": "bytedance/seed-tts/v3",
+  "name": "Seed TTS 3.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seed TTS 3.0 generates multilingual speech from text with selectable voices and natural-language delivery instructions, plus controls for speaking speed, pitch, and volume.",
+  "status": "active",
+  "release_date": "2026-11-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/bytedance/seed-tts/v3",
+  "tagline": "Seed TTS 3.0 generates multilingual speech from text with selectable voices and natural-language delivery instructions, plus controls for speaking speed, pitch, and volume.",
+  "last_seen_at": "2026-11-24",
+  "_generated": {
+    "name": "8509fc47",
+    "description": "8a8ef06e",
+    "status": "379ac110",
+    "release_date": "bec6282f",
+    "model_type": "ddb0b7bc",
+    "page_url": "3b37ef63",
+    "tagline": "8a8ef06e",
+    "last_seen_at": "bec6282f"
+  },
+  "last_updated": "2026-11-26"
+}
