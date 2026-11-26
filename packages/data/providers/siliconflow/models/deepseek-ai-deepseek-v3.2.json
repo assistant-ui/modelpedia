@@ -29,7 +29,7 @@
   "pricing": {
     "input": 0.27,
     "output": 0.42,
-    "cached_input": 0.135
+    "cached_input": 0.14
   },
   "open_weight": true,
   "endpoints": ["chat_completions"],
@@ -48,10 +48,10 @@
     "tagline": "d7c71fe1",
     "capabilities": "467329b3",
     "modalities": "68e53d93",
-    "pricing": "0b8557a2",
+    "pricing": "6538f8fa",
     "open_weight": "b326b506",
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-22"
+  "last_updated": "2026-11-26"
 }

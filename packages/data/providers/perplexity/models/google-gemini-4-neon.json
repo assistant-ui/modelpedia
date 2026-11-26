@@ -1,0 +1,33 @@
+{
+  "id": "google/gemini-4-neon",
+  "name": "Gemini 4 Neon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.15
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "98e31baa",
+    "family": "bd0f233d",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "48e156c4",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-11-26"
+}

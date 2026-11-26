@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-02",
-  "count": 35,
+  "date": "2026-11-26",
+  "count": 34,
   "ids": [
     "rerank-1",
     "rerank-2",
@@ -22,7 +22,6 @@
     "voyage-4-large",
     "voyage-4-lite",
     "voyage-4-nano",
-    "voyage-code-2",
     "voyage-code-3",
     "voyage-code-4",
     "voyage-context-3",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "count": 18,
+  "date": "2026-11-26",
+  "count": 22,
   "ids": [
     "image-01",
     "image-01-live",
@@ -9,6 +9,10 @@
     "minimax-h3-image",
     "minimax-h3-lite",
     "minimax-h3-max",
+    "minimax-h3-max-turbo",
+    "minimax-h3-mg",
+    "minimax-h3-nc",
+    "minimax-h3-rh",
     "minimax-hailuo-02",
     "minimax-hailuo-2.3",
     "minimax-hailuo-2.3-fast",

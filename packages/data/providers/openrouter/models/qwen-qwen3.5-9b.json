@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5-9B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-26",
   "family": "qwen3.5",
   "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture.",
   "context_window": 262144,
@@ -18,7 +18,7 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.17,
+    "input": 0.1,
     "output": 0.25,
     "cached_input": 0.153
   },
@@ -29,7 +29,7 @@
     "context_window": "4a1d32eb",
     "modalities": "3ad4060a",
     "capabilities": "03fbefb4",
-    "pricing": "2f9e4ae8",
+    "pricing": "fa24af9f",
     "model_type": "d669f408",
     "parameters": "45c48cce",
     "release_date": "49946764",

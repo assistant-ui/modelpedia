@@ -5,7 +5,7 @@
   "source": "official",
   "family": "Wan2.2",
   "description": "Wan2.2-I2V-A14B model is designed for image-to-video generation, supporting both 480P and 720P resolutions.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-13",
   "model_type": "video",
   "license": "APACHE 2.0 LICENSE",
@@ -38,7 +38,7 @@
     "name": "42dfb68b",
     "family": "755f9a30",
     "description": "60a4e33b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ab9b808c",
     "model_type": "4d1b75ca",
     "license": "30777d0a",
@@ -51,5 +51,5 @@
     "open_weight": "b326b506",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-11-22"
+  "last_updated": "2026-11-26"
 }

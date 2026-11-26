@@ -1,0 +1,60 @@
+{
+  "id": "moonshotai/Kimi-K3.1-Pro",
+  "name": "Kimi-K3.1-Pro",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "Kimi-K3.1",
+  "description": "Kimi K3.1 Pro is the first model in Moonshot AI's K3.1 series and its most capable 3T-class open-weight model to date.",
+  "status": "active",
+  "release_date": "2026-11-05",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "license": "KIMI K3.1-PRO LICENSE",
+  "parameters": 2800,
+  "active_parameters": 104,
+  "page_url": "https://www.siliconflow.com/models/kimi-k3-1-pro",
+  "tagline": "Kimi K3.1 Pro is the first model in Moonshot AI's K3.1 series and its most capable 3T-class open-weight model to date.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.2
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "40d117bb",
+    "family": "c9c65f8a",
+    "description": "de9a957d",
+    "status": "379ac110",
+    "release_date": "0a938750",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "2b7df8e9",
+    "parameters": "0fc170ec",
+    "active_parameters": "c9e1074f",
+    "page_url": "56671364",
+    "tagline": "de9a957d",
+    "capabilities": "28d6d4bb",
+    "modalities": "6399757e",
+    "pricing": "76ce7a5a",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-26"
+}

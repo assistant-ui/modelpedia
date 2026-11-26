@@ -17,7 +17,8 @@
     "tool_call": true,
     "json_mode": true,
     "structured_output": false,
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -41,11 +42,17 @@
     "parameters": "4ea06fbc",
     "page_url": "84183715",
     "tagline": "1cceb0b8",
-    "capabilities": "f5705964",
+    "capabilities": "322221af",
     "modalities": "68e53d93",
     "pricing": "46ee453c",
     "endpoints": "d8fa1080",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "license": "98ac2124",
+    "active_parameters": "f457c545",
+    "open_weight": "b326b506"
   },
-  "last_updated": "2026-11-22"
+  "last_updated": "2026-11-26",
+  "license": "APACHE-2.0",
+  "active_parameters": 49,
+  "open_weight": true
 }

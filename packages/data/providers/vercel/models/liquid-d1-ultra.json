@@ -16,7 +16,9 @@
     "name": "0667583c",
     "context_window": "74a190a6",
     "capabilities": "8a3b232e",
-    "pricing": "52a74acf"
+    "pricing": "52a74acf",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-11-26",
+  "status": "deprecated"
 }

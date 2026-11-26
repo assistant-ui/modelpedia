@@ -15,7 +15,9 @@
     "parameters": "c4ca4238",
     "model_type": "764cb3de",
     "capabilities": "48995a4e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-11-26",
+  "status": "deprecated"
 }

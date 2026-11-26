@@ -1,0 +1,50 @@
+{
+  "id": "tencent/Hy4-flash",
+  "name": "Hy4-flash",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy4 flash is the most cost-effective model from the Tencent Hy Team, with 220B total parameters (including 64B Engram n-gram embedding parameters), 12B activated per token, text and image input, and a 1M-token context window. It combines hybrid sparse and sliding-window attention, LatentMoE and Engram, and scores slightly above Hy4 preview on everyday productivity tasks at a fraction of the cost.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Hy4 flash is the most cost-effective model from the Tencent Hy Team, with 220B total parameters (including 64B Engram n-gram embedding parameters), 12B activated per token, text and image input, and a 1M-token context window.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.281,
+    "cached_input": 0.003
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "02c261d9",
+    "description": "251cf11c",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "b0a1c59d",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "4fe31521",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-11-26"
+}

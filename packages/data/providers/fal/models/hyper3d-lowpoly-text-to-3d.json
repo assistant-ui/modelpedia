@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/hyper3d/lowpoly/text-to-3d",
   "tagline": "Hyper3D Low Poly generates low-poly 3D models from text prompts, with optional texture generation and support for triangle or quad topology.",
-  "last_seen_at": "2026-11-18",
+  "last_seen_at": "2026-11-24",
   "_generated": {
     "name": "f8d97d8d",
     "description": "f112b522",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "d73500d0",
     "tagline": "f112b522",
-    "last_seen_at": "1b67f42e"
+    "last_seen_at": "bec6282f"
   },
-  "last_updated": "2026-11-19"
+  "last_updated": "2026-11-26"
 }

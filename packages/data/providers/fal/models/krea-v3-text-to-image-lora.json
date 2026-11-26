@@ -1,0 +1,35 @@
+{
+  "id": "krea/v3/text-to-image/lora",
+  "name": "Krea 3 Text to Image LoRA",
+  "created_by": "krea",
+  "source": "official",
+  "description": "Generate images from text with Krea 3, with up to 3 custom LoRAs applied.",
+  "status": "active",
+  "release_date": "2026-11-24",
+  "model_type": "image",
+  "page_url": "https://fal.run/krea/v3/text-to-image/lora",
+  "tagline": "Generate images from text with Krea 3, with up to 3 custom LoRAs applied.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-11-25",
+  "_generated": {
+    "name": "b64523b6",
+    "description": "61eadbeb",
+    "status": "379ac110",
+    "release_date": "bec6282f",
+    "model_type": "db8857fe",
+    "page_url": "82652a2b",
+    "tagline": "61eadbeb",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "45c0b2bd"
+  },
+  "last_updated": "2026-11-26"
+}

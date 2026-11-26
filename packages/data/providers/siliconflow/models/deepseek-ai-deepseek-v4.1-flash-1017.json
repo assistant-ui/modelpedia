@@ -1,0 +1,56 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "name": "DeepSeek-V4.1-Flash-1017",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens.",
+  "status": "active",
+  "release_date": "2026-10-19",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "license": "MIT",
+  "parameters": 763,
+  "page_url": "https://www.siliconflow.com/models/deepseek-v4-1-flash-1017",
+  "tagline": "DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": false,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.003
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d131d35a",
+    "description": "a4f1ddc3",
+    "status": "379ac110",
+    "release_date": "24f81a75",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "license": "b4e950cc",
+    "parameters": "eefc9e10",
+    "page_url": "2dc6e07c",
+    "tagline": "a4f1ddc3",
+    "capabilities": "28d6d4bb",
+    "modalities": "6399757e",
+    "pricing": "56c766bc",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-26"
+}

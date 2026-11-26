@@ -19,7 +19,9 @@
     "parameters": "c16a5320",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-11-26",
+  "status": "deprecated"
 }

@@ -1,6 +1,6 @@
 {
   "id": "cohere-embed-v5-fast",
-  "name": "Cohere-embed-v5-Fast",
+  "name": "Cohere-Embed-V5-Fast Preview",
   "created_by": "cohere",
   "source": "official",
   "model_type": "embed",
@@ -13,12 +13,12 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "22b5d268",
+    "name": "e89d620b",
     "model_type": "764cb3de",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-26",
   "status": "deprecated"
 }

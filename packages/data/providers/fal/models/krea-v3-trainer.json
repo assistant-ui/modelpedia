@@ -1,0 +1,28 @@
+{
+  "id": "krea/v3/trainer",
+  "name": "Krea 3 Trainer",
+  "created_by": "krea",
+  "source": "official",
+  "description": "Train a Krea 3 text-to-image LoRA on your own images.",
+  "status": "active",
+  "release_date": "2026-11-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/krea/v3/trainer",
+  "tagline": "Train a Krea 3 text-to-image LoRA on your own images.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-26",
+  "_generated": {
+    "name": "377a8014",
+    "description": "088e0f07",
+    "status": "379ac110",
+    "release_date": "bec6282f",
+    "model_type": "ddb0b7bc",
+    "page_url": "2711f7db",
+    "tagline": "088e0f07",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "1a486f52"
+  },
+  "last_updated": "2026-11-26"
+}

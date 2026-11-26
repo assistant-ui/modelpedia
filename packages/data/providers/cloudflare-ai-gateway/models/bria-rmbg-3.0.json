@@ -1,0 +1,14 @@
+{
+  "id": "bria/rmbg-3.0",
+  "name": "RMBG 3.0",
+  "created_by": "bria",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "14a666f4",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-26"
+}

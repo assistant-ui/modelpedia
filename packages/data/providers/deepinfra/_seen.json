@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "count": 232,
+  "date": "2026-11-26",
+  "count": 234,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -211,8 +211,10 @@
     "shibing624-text2vec-base-chinese",
     "stabilityai-sdxl-turbo",
     "tencent-hy4",
+    "tencent-hy4-flash",
     "thenlper-gte-base",
     "thenlper-gte-large",
+    "thinkingmachines-inkling-2-mini",
     "thinkingmachines-inkling-2-small",
     "thinkingmachines-inkling-small",
     "wan-ai-wan2.2-t2v-a14b",

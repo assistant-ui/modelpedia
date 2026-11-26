@@ -1,0 +1,28 @@
+{
+  "id": "recraft/v4.1/flash/v2/text-to-image",
+  "name": "Recraft V4.1 Flash V2 Text to Image",
+  "created_by": "recraft",
+  "source": "official",
+  "description": "Recraft V4.1 Flash V2 generates raster images from text prompts, including photography, illustrations, and mixed-media compositions, with controls for image size, color palette, and background color.",
+  "status": "active",
+  "release_date": "2026-11-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/recraft/v4.1/flash/v2/text-to-image",
+  "tagline": "Recraft V4.1 Flash V2 generates raster images from text prompts, including photography, illustrations, and mixed-media compositions, with controls for image size, color palette, and background color.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-23",
+  "_generated": {
+    "name": "2ae5bd7e",
+    "description": "6f05b09f",
+    "status": "379ac110",
+    "release_date": "2a189e02",
+    "model_type": "ddb0b7bc",
+    "page_url": "6ee446ae",
+    "tagline": "6f05b09f",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "a26e6340"
+  },
+  "last_updated": "2026-11-26"
+}

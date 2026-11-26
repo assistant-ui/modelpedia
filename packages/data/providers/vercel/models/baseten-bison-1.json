@@ -1,0 +1,22 @@
+{
+  "id": "baseten/bison-1",
+  "name": "bison-1",
+  "created_by": "baseten",
+  "source": "official",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0
+  },
+  "_generated": {
+    "name": "ecebe4ff",
+    "context_window": "a683b9ae",
+    "capabilities": "8a3b232e",
+    "pricing": "fceb22e8"
+  },
+  "last_updated": "2026-11-26"
+}

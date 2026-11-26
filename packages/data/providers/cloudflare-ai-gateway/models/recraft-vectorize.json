@@ -1,0 +1,14 @@
+{
+  "id": "recraft/vectorize",
+  "name": "Recraft Vectorize",
+  "created_by": "recraft",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "_generated": {
+    "name": "67af0534",
+    "status": "379ac110",
+    "model_type": "db8857fe"
+  },
+  "last_updated": "2026-11-26"
+}
