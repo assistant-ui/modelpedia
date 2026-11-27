@@ -34,7 +34,9 @@
     "tagline": "a3713ef8",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-27",
+  "status": "deprecated"
 }

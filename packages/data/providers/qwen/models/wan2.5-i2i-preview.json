@@ -3,7 +3,7 @@
   "name": "wan2.5-i2i-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-11-27",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -24,7 +24,7 @@
     "provider": "a3af76f3",
     "description": "aa7f06e8",
     "tagline": "2786841b",
-    "page_url": "ec35b380",
+    "page_url": "1e875e64",
     "open_weight": "68934a3e"
   },
   "family": "wan2.5",
@@ -33,6 +33,6 @@
   "provider": "qwen",
   "description": "The Wan general image editing 2.5 model supports inputting text, a single image, or multiple images to perform subject-consistent image editing and multi-image fusion creation. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982258.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "Wan general image editing 2.5 supports subject-consistent editing using text, a single image, or multiple images.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-5-i2i",
   "open_weight": false
 }

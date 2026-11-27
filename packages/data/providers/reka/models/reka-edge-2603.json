@@ -3,7 +3,7 @@
   "name": "Reka Edge 2603",
   "created_by": "reka",
   "source": "official",
-  "description": "Reka Edge 2603 provides frontier-level intelligence for physical AI. It excels at visual understanding (videos, images), object detection, and tool use, and with its CONVNEXT vision encoder, it processes images with 3x fewer tokens, leading to significant gains in latency.",
+  "description": "Reka Edge 2603 is Reka&#x27;s model for physical AI, with a 16,384-token context window. It excels at visual understanding (videos, images), object detection, and tool use, and with its CONVNEXT vision encoder, it processes images with 3x fewer tokens, leading to significant gains in latency.",
   "status": "active",
   "context_window": 16384,
   "max_output_tokens": 16384,
@@ -30,7 +30,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "547df5f8",
-    "description": "57cd34bc",
+    "description": "cf91aa25",
     "status": "379ac110",
     "context_window": "c76fe1d8",
     "max_output_tokens": "c76fe1d8",
@@ -43,5 +43,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-27"
 }

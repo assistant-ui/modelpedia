@@ -6,7 +6,7 @@
   "family": "qwen3",
   "model_type": "rerank",
   "license": "apache-2.0",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-rerank",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true
@@ -21,10 +21,10 @@
     "family": "48c385a0",
     "model_type": "477930e6",
     "license": "60245731",
-    "page_url": "6a9b1b59",
+    "page_url": "f78d580f",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "open_weight": "b326b506"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-27"
 }

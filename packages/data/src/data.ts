@@ -1044,7 +1044,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -1054,7 +1054,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-17"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.0-realtime-plus",
@@ -1064,7 +1064,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -1074,7 +1074,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-17"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.0-tts-flash",
@@ -1228,7 +1228,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-live",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -1242,7 +1242,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-realtime-flash",
@@ -1252,7 +1252,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -1262,7 +1262,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-realtime-plus",
@@ -1272,7 +1272,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -1282,7 +1282,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-tts-flash",
@@ -1316,7 +1316,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "tts",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/audio-generation",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -1330,7 +1330,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-tts-plus",
@@ -1438,7 +1438,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-flash-character",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -1460,14 +1460,14 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-flash",
         "name": "qwen-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 1000000,
         "max_output_tokens": 32768,
@@ -1495,7 +1495,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-flash",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
         "reasoning_tokens": true,
         "tools": [
@@ -1507,7 +1507,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-image-2.0-pro",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -1530,7 +1530,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "The Qwen text-to-image model excels at **complex text rendering** , especially for Chinese and English text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2975126.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-2-0-pro",
         "tagline": "Qwen text-to-image models excel at rendering complex text, especially bilingual Chinese-English text.",
         "max_output_tokens": 6
       },
@@ -1543,7 +1543,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 6,
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-2-0",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -1558,7 +1558,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-image-2.1-pro",
@@ -1619,7 +1619,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 6,
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-3-0-pro",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -1634,7 +1634,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-07-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-image-3.0",
@@ -1645,7 +1645,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 6,
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-3-0",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -1660,7 +1660,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-08-05"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-image-edit-max",
@@ -1835,7 +1835,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-long",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -1856,7 +1856,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-math-plus",
@@ -1936,7 +1936,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-max",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -1957,14 +1957,14 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-mt-flash",
         "name": "qwen-mt-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -1994,7 +1994,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-flash",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "context_window": 16000,
         "reasoning_tokens": true,
@@ -2064,7 +2064,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-lite",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -2094,7 +2094,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-lite",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "context_window": 16000,
         "reasoning_tokens": true,
@@ -2107,7 +2107,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 16000,
         "max_output_tokens": 8192,
@@ -2139,7 +2139,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-plus",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "reasoning_tokens": true,
         "tools": [
@@ -2248,7 +2248,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus-character-ja",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 32000,
         "max_output_tokens": 512,
@@ -2279,7 +2279,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "Qwen role-playing models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems. Compared with other Qwen models, they improve persona fidelity, topic progression, and empathetic listening.[Usage](https://www.alibabacloud.com/help/en/document_detail/2874763.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-plus-character-ja",
         "tagline": "Qwen role assumption models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems.",
         "reasoning_tokens": true,
         "tools": [
@@ -2291,7 +2291,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus-character",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 32000,
         "max_output_tokens": 4000,
@@ -2322,7 +2322,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "Qwen role-playing models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems. Compared with other Qwen models, they improve persona fidelity, topic progression, and empathetic listening.[Usage](https://www.alibabacloud.com/help/en/document_detail/2874763.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-plus-character",
         "tagline": "Qwen role assumption models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems.",
         "reasoning_tokens": true,
         "tools": [
@@ -2334,7 +2334,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -2359,7 +2359,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-plus",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
         "context_window": 1000000,
         "reasoning_tokens": true,
@@ -4030,7 +4030,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "code",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-coder-flash",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -4052,7 +4052,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3-coder-next",
@@ -4173,7 +4173,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-livetranslate-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen3",
         "context_window": 53248,
         "max_output_tokens": 4096,
@@ -4196,7 +4196,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "Qwen3-LiveTranslate-Flash is an audio and video translation model based on the Qwen3-Omni architecture. It supports translation between 18 languages, including Chinese, English, Russian, and French. The model can use visual context to improve translation accuracy and outputs both text and speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2999748.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2999751.html) #### **International** If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "tagline": "Qwen3-LiveTranslate-Flash is an audio and video translation model based on the Qwen3-Omni architecture."
       },
       {
@@ -4432,7 +4432,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -4459,7 +4459,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses.",
         "reasoning_tokens": true,
         "tools": [
@@ -4474,7 +4474,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "model_type": "rerank",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-rerank",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -4488,7 +4488,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3-tts-flash-realtime",
@@ -4917,7 +4917,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "model_type": "embed",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-vl-embedding",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -4932,7 +4932,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3-vl-flash",
@@ -5012,7 +5012,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "model_type": "rerank",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-vl-rerank",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -5027,14 +5027,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": true,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.5-122b-a10b",
         "name": "qwen3.5-122b-a10b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -5064,7 +5064,7 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 10,
         "open_weight": true,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-122b-a10b",
         "tagline": "Supports text, image, and video inputs.",
         "tools": [
           "function_calling"
@@ -5076,7 +5076,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-27b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -5105,7 +5105,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 27,
         "open_weight": true,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-27b",
         "tagline": "Supports text, image, and video inputs.",
         "tools": [
           "function_calling"
@@ -5117,7 +5117,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-35b-a3b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -5147,7 +5147,7 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 3,
         "open_weight": true,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-35b-a3b",
         "tagline": "Supports text, image, and video inputs.",
         "tools": [
           "function_calling"
@@ -5159,7 +5159,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-397b-a17b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -5189,7 +5189,7 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 17,
         "open_weight": true,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-397b-a17b",
         "tagline": "Supports text, image, and video inputs.",
         "tools": [
           "function_calling"
@@ -5201,7 +5201,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 1000000,
         "max_output_tokens": 64000,
@@ -5233,7 +5233,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "open_weight": true,
         "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-flash",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
         "tools": [
           "function_calling"
@@ -5248,13 +5248,13 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.5",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
         },
         "open_weight": true,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.5-ocr",
@@ -5290,7 +5290,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 262144,
         "max_output_tokens": 65536,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "model_type": "audio",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**.",
         "capabilities": {
@@ -5312,7 +5312,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "tools": [
           "function_calling"
         ]
@@ -5326,7 +5326,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "context_window": 262144,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "model_type": "chat",
         "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
         "capabilities": {
@@ -5349,7 +5349,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "tools": [
           "function_calling"
         ]
@@ -5364,7 +5364,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 262144,
         "max_output_tokens": 65536,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "model_type": "audio",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**.",
         "capabilities": {
@@ -5386,7 +5386,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "tools": [
           "function_calling"
         ]
@@ -5400,7 +5400,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "context_window": 256000,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "model_type": "chat",
         "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
         "capabilities": {
@@ -5428,14 +5428,14 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.5-plus",
         "name": "qwen3.5-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 1000000,
         "model_type": "chat",
@@ -5461,7 +5461,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-plus",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
         "max_output_tokens": 64000,
         "tools": [
@@ -5555,7 +5555,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "context_window": 1000000,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash",
         "model_type": "chat",
         "tagline": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs.",
         "capabilities": {
@@ -5579,7 +5579,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "reasoning_tokens": true,
         "tools": [
           "function_calling"
@@ -5635,7 +5635,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "context_window": 1000000,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-plus",
         "model_type": "chat",
         "tagline": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks.",
         "capabilities": {
@@ -5659,7 +5659,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "max_output_tokens": 64000,
         "tools": [
           "function_calling"
@@ -5676,7 +5676,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -5697,7 +5697,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-25"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.7-max-preview",
@@ -5745,7 +5745,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-max",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -5767,7 +5767,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.7-plus",
@@ -5779,7 +5779,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-plus",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -5801,7 +5801,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.7-text-embedding",
@@ -5886,7 +5886,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-flash",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -5907,7 +5907,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-livetranslate-flash-realtime",
@@ -5917,13 +5917,13 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.8",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
         },
         "open_weight": true,
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-max-0902",
@@ -5969,7 +5969,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max",
         "capabilities": {
           "streaming": true,
           "reasoning": true,
@@ -5990,7 +5990,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-08-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-omni-flash-realtime",
@@ -6000,14 +6000,14 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.8",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "capabilities": {
           "streaming": true,
           "vision": true,
           "fine_tuning": true
         },
         "open_weight": true,
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-omni-flash",
@@ -6104,7 +6104,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-16"
+        "last_updated": "2026-11-27",
+        "status": "deprecated"
       },
       {
         "id": "qwq-32b-preview",
@@ -6258,7 +6259,7 @@ export const providers: ProviderWithModels[] = [
         "family": "text-embedding",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-embedding-v3",
         "capabilities": {
           "streaming": true
         },
@@ -6271,7 +6272,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "text-embedding-v4",
@@ -6281,7 +6282,7 @@ export const providers: ProviderWithModels[] = [
         "family": "text-embedding",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-embedding-v4",
         "capabilities": {
           "streaming": true
         },
@@ -6294,7 +6295,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tongyi-embedding-vision-flash",
@@ -6303,7 +6304,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/tongyi-embedding-vision-flash",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -6317,7 +6318,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tongyi-embedding-vision-plus",
@@ -6326,7 +6327,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/tongyi-embedding-vision-plus",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -6340,7 +6341,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tongyi-intent-detect-v3",
@@ -6542,7 +6543,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.1",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-1-t2i-plus",
         "capabilities": {
           "streaming": true
         },
@@ -6555,7 +6556,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.1-t2i-turbo",
@@ -6565,7 +6566,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.1",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-1-t2i-turbo",
         "capabilities": {
           "streaming": true
         },
@@ -6578,7 +6579,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.1-t2v-plus",
@@ -6856,7 +6857,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.2",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-t2i-flash",
         "capabilities": {
           "streaming": true
         },
@@ -6869,7 +6870,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.2-t2i-plus",
@@ -6879,7 +6880,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.2",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-t2i-plus",
         "capabilities": {
           "streaming": true
         },
@@ -6892,7 +6893,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.2-t2v-plus",
@@ -6922,7 +6923,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.5-i2i-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -6943,7 +6944,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "The Wan general image editing 2.5 model supports inputting text, a single image, or multiple images to perform subject-consistent image editing and multi-image fusion creation. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982258.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-5-i2i",
         "tagline": "Wan general image editing 2.5 supports subject-consistent editing using text, a single image, or multiple images."
       },
       {
@@ -6977,7 +6978,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.5",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-5-t2i",
         "capabilities": {
           "streaming": true
         },
@@ -6990,7 +6991,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.5-t2v-preview",
@@ -7072,7 +7073,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-image",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -7093,7 +7094,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-6-image",
         "tagline": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs."
       },
       {
@@ -7153,7 +7154,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-t2i",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -7174,7 +7175,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-6-t2i",
         "tagline": "Wan text-to-image models generate high-quality images from simple text prompts."
       },
       {
@@ -7243,7 +7244,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.7",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-7-image-pro",
         "capabilities": {
           "streaming": true
         },
@@ -7256,7 +7257,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.7-image",
@@ -7266,7 +7267,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.7",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-7-image",
         "capabilities": {
           "streaming": true
         },
@@ -7279,7 +7280,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.7-r2v",
@@ -7476,7 +7477,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wanx2.1-imageedit",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -7497,7 +7498,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "The Wan general image editing model supports diverse image editing tasks using simple instructions. Use it for image outpainting, watermark removal, style transfer, image inpainting, and image enhancement. [Usage](https://www.alibabacloud.com/help/en/document_detail/2874281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2868981.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wanx2-1-imageedit",
         "tagline": "Wan general image editing models enable diverse image editing tasks using simple instructions."
       },
       {
@@ -7646,7 +7647,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 1,
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/z-image-turbo",
         "capabilities": {
           "streaming": true
         },
@@ -7660,7 +7661,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       }
     ]
   },
@@ -39383,6 +39384,49 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-10-15"
       },
       {
+        "id": "inclusionAI/LingSante-3.1-air-VL",
+        "name": "LingSante-3.1-air-VL",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "A medical vision-language model from Ant Group: send text and up to 16 images (scans, skin and meal photos, lab reports) and get careful, structured answers. Use it to draft imaging reports, assess health questions from photos, answer clinical questions and run medical agents with tool calling and JSON output. 124B MoE with 5.5B active parameters, 131K context, thinking on by default. A research model, not a medical device: have qualified professionals review its output.",
+        "status": "active",
+        "context_window": 131072,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "tagline": "A medical vision-language model from Ant Group: send text and up to 16 images (scans, skin and meal photos, lab reports) and get careful, structured answers.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0.18,
+          "cached_input": 0.012
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "last_updated": "2026-11-27"
+      },
+      {
         "id": "inclusionAI/Ming-Image-0.1-Design-Layer",
         "name": "Ming-Image-0.1-Design-Layer",
         "created_by": "inclusionai",
@@ -48185,8 +48229,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-23",
-        "last_updated": "2026-11-26"
+        "last_seen_at": "2026-11-27",
+        "last_updated": "2026-11-27"
       },
       {
         "id": "blackforestlabs/flux-3/edit-video",
@@ -48722,8 +48766,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-11-23",
-        "last_updated": "2026-11-26"
+        "last_seen_at": "2026-11-27",
+        "last_updated": "2026-11-27"
       },
       {
         "id": "blackforestlabs/flux-3/text-to-video/draft",
@@ -85107,8 +85151,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-11-18",
-        "last_updated": "2026-11-19"
+        "last_seen_at": "2026-11-27",
+        "last_updated": "2026-11-27"
       },
       {
         "id": "hitem3d/hi3d/v3.0/multi-view-to-3d",
@@ -116409,7 +116453,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "mercury",
         "description": "Mercury 2.5",
-        "status": "deprecated",
+        "status": "active",
         "context_window": 260000,
         "max_output_tokens": 65536,
         "model_type": "chat",
@@ -116441,18 +116485,18 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "mercury-2",
         "name": "Mercury 2",
         "created_by": "inception",
         "source": "official",
-        "last_updated": "2026-11-26",
+        "last_updated": "2026-11-27",
         "family": "mercury",
         "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury's speed means that users can stay in the flow, enjoying rapid chat-based iteration and responsive completion suggestions. On Copilot Arena, Mercury ranks 1st in speed and ties for 2nd in quality.",
         "tagline": "The fastest reasoning dLLM.",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "reasoning",
         "context_window": 128000,
         "max_output_tokens": 50000,
@@ -130030,13 +130074,13 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.25,
-          "output": 0.75
+          "input": 0.259,
+          "output": 0.775
         },
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-05-11"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen/qwen2.5-7b-instruct",
@@ -131516,7 +131560,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "release_date": "2026-11-16",
         "context_window": 1000000,
-        "max_output_tokens": 262000,
+        "max_output_tokens": 262144,
         "model_type": "chat",
         "tagline": "Qwen4‑max is the new‑generation MoE flagship model of the Qwen4 family, with 2.4T total parameters and 71B activated parameters.",
         "capabilities": {
@@ -131546,7 +131590,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-22"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sao10k/l3-70b-euryale-v2.1",
@@ -140131,7 +140175,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27",
+        "status": "deprecated"
       },
       {
         "id": "lfm3-omni",
@@ -140164,7 +140209,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27",
+        "status": "deprecated"
       },
       {
         "id": "lfm3-vl",
@@ -140199,7 +140245,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27",
+        "status": "deprecated"
       },
       {
         "id": "lfm3",
@@ -161451,6 +161498,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "gpt-transcribe",
+        "name": "gpt-transcribe",
+        "created_by": "openai",
+        "source": "official",
+        "status": "active",
+        "model_type": "transcription",
+        "capabilities": {
+          "streaming": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "last_updated": "2026-11-27",
+        "description": "GPT-Transcribe is a speech-to-text model for completed audio files, streamed file transcripts, and committed turns in Realtime sessions over WebSocket. It supports unstructured context, keyword hints, and multiple language hints to improve transcription of domain terms, multilingual audio, and code-switching.",
+        "tagline": "High-accuracy speech-to-text model for file and Realtime input transcription",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
         "id": "grok-4.5",
         "name": "Grok 4.5",
         "created_by": "xai",
@@ -161746,6 +161824,18 @@ export const providers: ProviderWithModels[] = [
             "video"
           ]
         }
+      },
+      {
+        "id": "grok-voice-transcribe-2.0",
+        "name": "grok-voice-transcribe-2.0",
+        "created_by": "xai",
+        "source": "official",
+        "status": "active",
+        "model_type": "transcription",
+        "capabilities": {
+          "streaming": true
+        },
+        "last_updated": "2026-11-27"
       },
       {
         "id": "hungerg-free",
@@ -163549,7 +163639,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
         "release_date": "2026-09-14",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 393216,
         "tagline": "This model always redirects to the latest model in the DeepSeek Pro family.",
         "capabilities": {
           "tool_call": true,
@@ -163566,14 +163656,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.111,
-          "output": 4.44,
-          "cached_input": 0.097
+          "input": 0.1,
+          "output": 5,
+          "cached_input": 0.1
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "~deepseek/deepseek-v4-flash-latest",
@@ -168176,7 +168266,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
         "release_date": "2026-07-31",
         "context_window": 1048576,
-        "max_output_tokens": 384000,
+        "max_output_tokens": 943718,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
         "capabilities": {
@@ -168194,14 +168284,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.06,
-          "output": 0.18,
-          "cached_input": 0.015
+          "input": 0.047,
+          "output": 0.3,
+          "cached_input": 0.035
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "deepseek/deepseek-v4-flash:free",
@@ -168280,7 +168370,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding whil",
         "release_date": "2026-08-21",
         "context_window": 1048576,
-        "max_output_tokens": 393216,
+        "max_output_tokens": 262144,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding whil",
         "capabilities": {
@@ -168301,14 +168391,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.44,
-          "output": 1.32,
-          "cached_input": 0.028
+          "input": 0.216,
+          "output": 0.647,
+          "cached_input": 0.007
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-26",
+        "last_updated": "2026-11-27",
         "license": "mit",
         "open_weight": true
       },
@@ -168398,7 +168488,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
         "release_date": "2026-08-12",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 393216,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
         "capabilities": {
@@ -168416,14 +168506,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.111,
-          "output": 4.44,
-          "cached_input": 0.097
+          "input": 0.1,
+          "output": 5,
+          "cached_input": 0.1
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -170963,7 +171053,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemma 3 4B",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-11-22",
+        "last_updated": "2026-11-27",
         "family": "gemma-3",
         "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
         "context_window": 131072,
@@ -170981,15 +171071,15 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.04,
-          "output": 0.05,
+          "input": 0.05,
+          "output": 0.1,
           "cached_input": 0.02
         },
         "model_type": "chat",
         "parameters": 4,
         "release_date": "2025-03-13",
         "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
-        "max_output_tokens": 117964
+        "max_output_tokens": 16384
       },
       {
         "id": "google/gemma-3n-e2b-it:free",
@@ -172198,6 +172288,41 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-11-14"
       },
       {
+        "id": "inclusionai/lingsante-3.1-air-vl",
+        "name": "inclusionAI: LingSante 3.1 Air VL",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "LingSante 3.1 Air VL is inclusionAI's medical vision-language model, a 124B total / 5.5B active MoE.",
+        "release_date": "2026-11-26",
+        "context_window": 131072,
+        "max_output_tokens": 32768,
+        "tagline": "LingSante 3.1 Air VL is inclusionAI's medical vision-language model, a 124B total / 5.5B active MoE.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0.18,
+          "cached_input": 0.012
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-11-27"
+      },
+      {
         "id": "inclusionai/ring-2.6-1t:free",
         "name": "inclusionAI: Ring-2.6-1T (free)",
         "created_by": "inclusionai",
@@ -173274,11 +173399,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.3 70B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-11-10",
+        "last_updated": "2026-11-27",
         "family": "llama-3.3",
         "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
         "context_window": 131072,
-        "max_output_tokens": 115200,
+        "max_output_tokens": 32768,
         "modalities": {
           "input": [
             "text"
@@ -173293,9 +173418,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.71,
-          "output": 0.71,
-          "cached_input": 0.71
+          "input": 0.59,
+          "output": 0.79,
+          "cached_input": 0.295
         },
         "model_type": "chat",
         "parameters": 70,
@@ -173561,15 +173686,15 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.35,
-          "output": 1.5,
+          "input": 0.3,
+          "output": 1.2,
           "cached_input": 0.04
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-17",
-        "max_output_tokens": 117964,
+        "last_updated": "2026-11-27",
+        "max_output_tokens": 16384,
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -176335,10 +176460,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2.5",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-11-14",
+        "last_updated": "2026-11-27",
         "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm.",
         "context_window": 262144,
-        "max_output_tokens": 235929,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text",
@@ -176355,8 +176480,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.5,
-          "output": 2.5,
+          "input": 0.6,
+          "output": 3,
           "cached_input": 0.15
         },
         "family": "kimi-k2.5",
@@ -183806,7 +183931,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
         "release_date": "2026-10-28",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 943718,
         "tagline": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
         "capabilities": {
           "tool_call": true,
@@ -183826,7 +183951,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-14"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "particle-ai/particle-1",
@@ -183836,7 +183961,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
         "release_date": "2026-10-28",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 943718,
         "tagline": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
         "capabilities": {
           "tool_call": true,
@@ -183861,7 +183986,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-22"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "perceptron/perceptron-mk1.5",
@@ -187300,7 +187425,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
         "release_date": "2026-08-14",
         "context_window": 1024000,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 235929,
         "parameters": 27,
         "model_type": "chat",
         "tagline": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
@@ -187323,14 +187448,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.035,
-          "output": 1.5,
-          "cached_input": 0.018
+          "input": 0.06,
+          "output": 1.96,
+          "cached_input": 0.059
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-22",
+        "last_updated": "2026-11-27",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -191167,9 +191292,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.6",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-10-29",
+        "last_updated": "2026-11-27",
         "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex.",
-        "context_window": 204800,
+        "context_window": 202752,
         "max_output_tokens": 131072,
         "modalities": {
           "input": [
@@ -197101,7 +197226,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197111,7 +197236,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-17"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.0-realtime-plus",
@@ -197121,7 +197246,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197131,7 +197256,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-17"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.0-tts-flash",
@@ -197285,7 +197410,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-live",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197299,7 +197424,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-realtime-flash",
@@ -197309,7 +197434,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197319,7 +197444,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-realtime-plus",
@@ -197329,7 +197454,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197339,7 +197464,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-tts-flash",
@@ -197373,7 +197498,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen",
         "model_type": "tts",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/audio-generation",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-tts-next",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197387,7 +197512,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ]
         },
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-audio-3.1-tts-plus",
@@ -197607,7 +197732,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-flash-character",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197629,14 +197754,14 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-flash",
         "name": "qwen-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 1000000,
         "max_output_tokens": 32768,
@@ -197664,7 +197789,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-flash",
         "open_weight": true,
         "reasoning_tokens": true,
         "tools": [
@@ -197676,7 +197801,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-image-2.0-pro",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -197699,7 +197824,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "The Qwen text-to-image model excels at **complex text rendering** , especially for Chinese and English text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2975126.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen text-to-image models excel at rendering complex text, especially bilingual Chinese-English text.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-2-0-pro",
         "open_weight": true,
         "max_output_tokens": 6
       },
@@ -197712,7 +197837,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 6,
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-2-0",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197727,7 +197852,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-image-2.1-pro",
@@ -197816,7 +197941,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 6,
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-3-0-pro",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197831,7 +197956,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-image-3.0",
@@ -197842,7 +197967,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 6,
         "model_type": "chat",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-3-0",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -197857,7 +197982,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-08-05"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-image-edit-max",
@@ -198062,7 +198187,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-long",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
@@ -198083,7 +198208,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-math-plus-0816",
@@ -198271,7 +198396,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-max",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
@@ -198292,14 +198417,14 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen-mt-flash",
         "name": "qwen-mt-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -198329,7 +198454,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-flash",
         "open_weight": true,
         "context_window": 16000,
         "reasoning_tokens": true,
@@ -198399,7 +198524,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-lite",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -198429,7 +198554,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-lite",
         "open_weight": true,
         "context_window": 16000,
         "reasoning_tokens": true,
@@ -198442,7 +198567,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 16000,
         "max_output_tokens": 8192,
@@ -198474,7 +198599,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-plus",
         "open_weight": true,
         "reasoning_tokens": true,
         "tools": [
@@ -198748,7 +198873,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus-character-ja",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-11-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 32000,
         "max_output_tokens": 512,
@@ -198779,7 +198904,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "Qwen role-playing models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems. Compared with other Qwen models, they improve persona fidelity, topic progression, and empathetic listening.[Usage](https://www.alibabacloud.com/help/en/document_detail/2874763.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen role assumption models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-plus-character-ja",
         "open_weight": false,
         "reasoning_tokens": true,
         "tools": [
@@ -198791,7 +198916,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus-character",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "context_window": 32000,
         "max_output_tokens": 4000,
@@ -198822,7 +198947,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "Qwen role-playing models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems. Compared with other Qwen models, they improve persona fidelity, topic progression, and empathetic listening.[Usage](https://www.alibabacloud.com/help/en/document_detail/2874763.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen role assumption models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-plus-character",
         "open_weight": false,
         "reasoning_tokens": true,
         "tools": [
@@ -198861,7 +198986,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -198886,7 +199011,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-plus",
         "open_weight": false,
         "context_window": 1000000,
         "reasoning_tokens": true,
@@ -201042,7 +201167,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen3",
         "capabilities": {
           "streaming": true,
@@ -201057,7 +201182,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "context_window": 1000000,
         "reasoning_tokens": true,
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-coder-flash",
         "open_weight": true,
         "modalities": {
           "input": [
@@ -201190,7 +201315,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-livetranslate-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "family": "qwen3",
         "context_window": 53248,
         "max_output_tokens": 4096,
@@ -201213,7 +201338,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "Qwen3-LiveTranslate-Flash is an audio and video translation model based on the Qwen3-Omni architecture. It supports translation between 18 languages, including Chinese, English, Russian, and French. The model can use visual context to improve translation accuracy and outputs both text and speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2999748.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2999751.html) #### **International** If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen3-LiveTranslate-Flash is an audio and video translation model based on the Qwen3-Omni architecture.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true
       },
       {
@@ -201477,7 +201602,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -201504,7 +201629,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "reasoning_tokens": true,
         "tools": [
@@ -201547,7 +201672,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "model_type": "rerank",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-rerank",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -201561,7 +201686,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3-tts-flash-realtime",
@@ -201990,7 +202115,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "model_type": "embed",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-vl-embedding",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202005,7 +202130,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3-vl-flash",
@@ -202085,7 +202210,7 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "model_type": "rerank",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-vl-rerank",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202100,14 +202225,14 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.5-122b-a10b",
         "name": "qwen3.5-122b-a10b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -202137,7 +202262,7 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 10,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-122b-a10b",
         "open_weight": true,
         "tools": [
           "function_calling"
@@ -202149,7 +202274,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-27b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -202178,7 +202303,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 27,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-27b",
         "open_weight": true,
         "tools": [
           "function_calling"
@@ -202190,7 +202315,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-35b-a3b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -202220,7 +202345,7 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 3,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-35b-a3b",
         "open_weight": true,
         "tools": [
           "function_calling"
@@ -202232,7 +202357,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-397b-a17b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 256000,
         "max_output_tokens": 64000,
@@ -202262,7 +202387,7 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 17,
         "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-397b-a17b",
         "open_weight": true,
         "tools": [
           "function_calling"
@@ -202274,7 +202399,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 1000000,
         "max_output_tokens": 64000,
@@ -202306,7 +202431,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-flash",
         "open_weight": true,
         "tools": [
           "function_calling"
@@ -202321,13 +202446,13 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.5",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.5-ocr",
@@ -202365,7 +202490,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "audio",
         "license": "apache-2.0",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202385,7 +202510,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "tools": [
           "function_calling"
         ]
@@ -202401,7 +202526,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "apache-2.0",
         "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202422,7 +202547,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "tools": [
           "function_calling"
         ]
@@ -202439,7 +202564,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "audio",
         "license": "apache-2.0",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202459,7 +202584,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-11-27",
         "tools": [
           "function_calling"
         ]
@@ -202475,7 +202600,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "apache-2.0",
         "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202501,14 +202626,14 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-11-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.5-plus",
         "name": "qwen3.5-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "family": "qwen3.5",
         "context_window": 1000000,
         "model_type": "chat",
@@ -202534,7 +202659,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-plus",
         "open_weight": false,
         "max_output_tokens": 64000,
         "tools": [
@@ -202630,7 +202755,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "apache-2.0",
         "tagline": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202652,7 +202777,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "reasoning_tokens": true,
         "tools": [
           "function_calling"
@@ -202710,7 +202835,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "apache-2.0",
         "tagline": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-plus",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202732,7 +202857,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-07-08",
+        "last_updated": "2026-11-27",
         "max_output_tokens": 64000,
         "tools": [
           "function_calling"
@@ -202749,7 +202874,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202770,7 +202895,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-25"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.7-max-preview",
@@ -202818,7 +202943,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-max",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202840,7 +202965,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.7-plus",
@@ -202852,7 +202977,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-plus",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202874,7 +202999,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.7-text-embedding",
@@ -202959,7 +203084,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-flash",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -202980,7 +203105,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-livetranslate-flash-realtime",
@@ -202990,13 +203115,13 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.8",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
         },
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-max-0902",
@@ -203042,7 +203167,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
@@ -203063,7 +203188,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-08-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-omni-flash-realtime",
@@ -203073,14 +203198,14 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.8",
         "model_type": "audio",
         "license": "apache-2.0",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
         "open_weight": true,
         "capabilities": {
           "streaming": true,
           "vision": true,
           "fine_tuning": true
         },
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "qwen3.8-omni-flash",
@@ -203205,7 +203330,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-16"
+        "last_updated": "2026-11-27",
+        "status": "deprecated"
       },
       {
         "id": "qwq-32b-preview",
@@ -203359,7 +203485,7 @@ export const providers: ProviderWithModels[] = [
         "family": "text-embedding",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-embedding-v3",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -203372,7 +203498,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "text-embedding-v4",
@@ -203382,7 +203508,7 @@ export const providers: ProviderWithModels[] = [
         "family": "text-embedding",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-embedding-v4",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -203395,7 +203521,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tongyi-embedding-vision-flash",
@@ -203404,7 +203530,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/tongyi-embedding-vision-flash",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
@@ -203418,7 +203544,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tongyi-embedding-vision-plus",
@@ -203427,7 +203553,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "model_type": "embed",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/tongyi-embedding-vision-plus",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
@@ -203441,7 +203567,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tongyi-intent-detect-v3",
@@ -203643,7 +203769,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.1",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-1-t2i-plus",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -203656,7 +203782,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.1-t2i-turbo",
@@ -203666,7 +203792,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.1",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-1-t2i-turbo",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -203679,7 +203805,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.1-t2v-plus",
@@ -203957,7 +204083,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.2",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-t2i-flash",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -203970,7 +204096,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.2-t2i-plus",
@@ -203980,7 +204106,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.2",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-t2i-plus",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -203993,7 +204119,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.2-t2v-plus",
@@ -204023,7 +204149,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.5-i2i-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -204044,7 +204170,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "The Wan general image editing 2.5 model supports inputting text, a single image, or multiple images to perform subject-consistent image editing and multi-image fusion creation. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982258.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Wan general image editing 2.5 supports subject-consistent editing using text, a single image, or multiple images.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-5-i2i",
         "open_weight": false
       },
       {
@@ -204078,7 +204204,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.5",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-5-t2i",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -204091,7 +204217,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.5-t2v-preview",
@@ -204173,7 +204299,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-image",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -204194,7 +204320,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
         "tagline": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-6-image",
         "open_weight": false
       },
       {
@@ -204254,7 +204380,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-t2i",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -204275,7 +204401,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
         "tagline": "Wan text-to-image models generate high-quality images from simple text prompts.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-6-t2i",
         "open_weight": false
       },
       {
@@ -204344,7 +204470,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.7",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-7-image-pro",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -204357,7 +204483,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.7-image",
@@ -204367,7 +204493,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.7",
         "model_type": "image",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-7-image",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -204380,7 +204506,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "wan2.7-r2v",
@@ -204577,7 +204703,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wanx2.1-imageedit",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-11-27",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -204598,7 +204724,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "description": "The Wan general image editing model supports diverse image editing tasks using simple instructions. Use it for image outpainting, watermark removal, style transfer, image inpainting, and image enhancement. [Usage](https://www.alibabacloud.com/help/en/document_detail/2874281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2868981.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "tagline": "Wan general image editing models enable diverse image editing tasks using simple instructions.",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/wanx2-1-imageedit",
         "open_weight": false
       },
       {
@@ -204747,7 +204873,7 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 1,
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/z-image-turbo",
         "open_weight": false,
         "capabilities": {
           "streaming": true
@@ -204761,7 +204887,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-11-27"
       }
     ]
   },
@@ -205847,8 +205973,8 @@ export const providers: ProviderWithModels[] = [
         "created_by": "deepseek",
         "source": "official",
         "family": "deepseek",
-        "description": "DeepSeek V4 Flash is an open-weight reasoning model with a 262k context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, logprobs, and streaming.",
-        "status": "deprecated",
+        "description": "DeepSeek V4 Flash is an open-weight reasoning model with a 262k context window, hosted by Reka. It is served over an OpenAI-compatible API with native tool calling, structured outputs, logprobs, and streaming.",
+        "status": "active",
         "context_window": 262144,
         "max_output_tokens": 131072,
         "model_type": "reasoning",
@@ -205881,7 +206007,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-22"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "deepseek41-flash-20261017",
@@ -205890,7 +206016,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "deepseek",
         "description": "DeepSeek V4.1 Flash 1017 is an open-weight reasoning model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, reasoning, logprobs, image input, and streaming.",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 1048576,
         "max_output_tokens": 393216,
         "model_type": "reasoning",
@@ -205924,7 +206050,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "deepseek41-flash",
@@ -205975,10 +206101,10 @@ export const providers: ProviderWithModels[] = [
         "created_by": "zai",
         "source": "official",
         "family": "glm",
-        "description": "GLM 5.3 Flash is an open-weight 321B-parameter (18B active) reasoning model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, logprobs, and streaming.",
+        "description": "GLM 5.3 Flash is an open-weight 321B-parameter (18B active) reasoning model with a 262k context window, hosted by Reka. It is served over an OpenAI-compatible API with native tool calling, structured outputs, logprobs, and streaming.",
         "status": "active",
-        "context_window": 1048576,
-        "max_output_tokens": 1048576,
+        "context_window": 262144,
+        "max_output_tokens": 262144,
         "model_type": "reasoning",
         "page_url": "https://developer.reka.ai/models/glm5.3-flash",
         "tagline": "GLM 5.3 Flash is an open-weight 321B-parameter (18B active) reasoning model with a 1M context window, hosted by Reka.",
@@ -206010,7 +206136,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "glm5.3",
@@ -206102,7 +206228,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.8",
-        "description": "Qwen3.8 27B is an open-weight general-purpose model with a 262k context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling and streaming.",
+        "description": "Qwen3.8 27B is an open-weight general-purpose model with a 262k context window and optional reasoning (set reasoning_effort to enable thinking), hosted by Reka. It is served over an OpenAI-compatible API with native tool calling, structured outputs, image input and streaming.",
         "status": "active",
         "context_window": 262144,
         "max_output_tokens": 262144,
@@ -206137,7 +206263,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "reka-core",
@@ -206187,7 +206313,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Reka Edge 2603",
         "created_by": "reka",
         "source": "official",
-        "description": "Reka Edge 2603 provides frontier-level intelligence for physical AI. It excels at visual understanding (videos, images), object detection, and tool use, and with its CONVNEXT vision encoder, it processes images with 3x fewer tokens, leading to significant gains in latency.",
+        "description": "Reka Edge 2603 is Reka&#x27;s model for physical AI, with a 16,384-token context window. It excels at visual understanding (videos, images), object detection, and tool use, and with its CONVNEXT vision encoder, it processes images with 3x fewer tokens, leading to significant gains in latency.",
         "status": "active",
         "context_window": 16384,
         "max_output_tokens": 16384,
@@ -206221,7 +206347,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-29"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "reka-edge",
@@ -206530,6 +206656,16 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://replicate.com/ahmad-tijjani-garba/avdsec",
         "last_updated": "2026-11-21"
+      },
+      {
+        "id": "ahmad-tijjani-garba/dscribe",
+        "name": "Dscribe",
+        "created_by": "ahmad-tijjani-garba",
+        "source": "official",
+        "status": "active",
+        "model_type": "other",
+        "page_url": "https://replicate.com/ahmad-tijjani-garba/dscribe",
+        "last_updated": "2026-11-27"
       },
       {
         "id": "aisha-ai-official/animagine-xl-v4-opt",
@@ -209468,7 +209604,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Kling V4 Flash",
         "created_by": "kwaivgi",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "video",
         "page_url": "https://replicate.com/kwaivgi/kling-v4-flash",
         "modalities": {
@@ -209482,7 +209618,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_updated": "2026-11-10"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "kwaivgi/kling-v4.0",
@@ -211474,6 +211610,27 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-11-26"
       },
       {
+        "id": "prunaai/p-video-2-pro-lipsync",
+        "name": "P Video 2 Pro Lipsync",
+        "created_by": "prunaai",
+        "source": "official",
+        "status": "active",
+        "model_type": "video",
+        "page_url": "https://replicate.com/prunaai/p-video-2-pro-lipsync",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_updated": "2026-11-27"
+      },
+      {
         "id": "prunaai/p-video-2-pro-reference",
         "name": "P Video 2 Pro Reference",
         "created_by": "prunaai",
@@ -211499,7 +211656,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Video 2 Pro Replace",
         "created_by": "prunaai",
         "source": "official",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "video",
         "page_url": "https://replicate.com/prunaai/p-video-2-pro-replace",
         "modalities": {
@@ -211513,14 +211670,14 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_updated": "2026-11-07"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "prunaai/p-video-2-pro",
         "name": "P Video 2 Pro",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "video",
         "page_url": "https://replicate.com/prunaai/p-video-2-pro",
         "modalities": {
@@ -211534,7 +211691,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "prunaai/p-video-2",
@@ -217617,9 +217774,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 253,
+        "huggingface_downloads": 272,
         "last_modified": "2023-11-17",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stable-clip-vit-l-16",
@@ -217650,9 +217807,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 96,
+        "huggingface_downloads": 97,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stable-diffusion-xl",
@@ -217815,9 +217972,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 488,
+        "huggingface_downloads": 500,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-3b-4e1t-instruct",
@@ -217848,9 +218005,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 523,
+        "huggingface_downloads": 530,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-base-alpha-7b",
@@ -217881,9 +218038,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 873,
+        "huggingface_downloads": 834,
         "last_modified": "2023-08-22",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-base-beta-70b",
@@ -217914,9 +218071,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 834,
+        "huggingface_downloads": 843,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-base-beta-7b",
@@ -217947,9 +218104,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 827,
+        "huggingface_downloads": 846,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-base-gamma-7b",
@@ -217980,9 +218137,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 546,
+        "huggingface_downloads": 562,
         "last_modified": "2024-01-25",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-base-ja_vocab-beta-7b",
@@ -218013,9 +218170,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 833,
+        "huggingface_downloads": 840,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b-v2",
@@ -218046,9 +218203,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 463,
+        "huggingface_downloads": 480,
         "last_modified": "2023-10-06",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b",
@@ -218112,9 +218269,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 878,
+        "huggingface_downloads": 894,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-instruct-beta-7b",
@@ -218145,9 +218302,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 809,
+        "huggingface_downloads": 819,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-instruct-gamma-7b",
@@ -218178,9 +218335,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 553,
+        "huggingface_downloads": 567,
         "last_modified": "2024-01-24",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "japanese-stablelm-instruct-ja_vocab-beta-7b",
@@ -218211,9 +218368,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 809,
+        "huggingface_downloads": 817,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "SAME-L",
@@ -218305,9 +218462,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 339924,
+        "huggingface_downloads": 341448,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sd-vae-ft-ema-original",
@@ -218354,9 +218511,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 20622,
+        "huggingface_downloads": 20741,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sd-vae-ft-mse-original",
@@ -218403,9 +218560,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 361422,
+        "huggingface_downloads": 358306,
         "last_modified": "2023-06-06",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sd-x2-latent-upscaler",
@@ -218420,9 +218577,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2154,
+        "huggingface_downloads": 2135,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sdxl-turbo-ryzen-ai",
@@ -218452,9 +218609,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 274,
+        "huggingface_downloads": 281,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sdxl-turbo-tensorrt",
@@ -218516,9 +218673,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 479929,
+        "huggingface_downloads": 476342,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sdxl-vae",
@@ -218533,9 +218690,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 226245,
+        "huggingface_downloads": 225162,
         "last_modified": "2023-08-04",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sp4d",
@@ -218550,9 +218707,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sp4d",
         "open_weight": true,
         "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 57,
+        "huggingface_downloads": 72,
         "last_modified": "2025-11-05",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-audio-3-medium-base",
@@ -218693,9 +218850,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 22307,
+        "huggingface_downloads": 22273,
         "last_modified": "2025-06-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-audio-open-small",
@@ -218717,9 +218874,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 7087,
+        "huggingface_downloads": 7057,
         "last_modified": "2026-11-05",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-cascade-prior",
@@ -218749,9 +218906,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 230,
+        "huggingface_downloads": 247,
         "last_modified": "2024-03-14",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-cascade",
@@ -218781,9 +218938,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 17271,
+        "huggingface_downloads": 17201,
         "last_modified": "2024-03-16",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-code-3b",
@@ -218814,9 +218971,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 5965,
+        "huggingface_downloads": 5880,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-code-instruct-3b",
@@ -218847,9 +219004,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2259,
+        "huggingface_downloads": 2282,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-codec-speech-16k-base",
@@ -218895,9 +219052,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 463,
+        "huggingface_downloads": 469,
         "last_modified": "2025-01-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3-medium-amdnpu",
@@ -218927,9 +219084,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 30,
+        "huggingface_downloads": 31,
         "last_modified": "2026-07-28",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3-medium-diffusers",
@@ -218959,9 +219116,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 37274,
+        "huggingface_downloads": 34741,
         "last_modified": "2024-06-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3-medium-tensorrt",
@@ -219023,9 +219180,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1688,
+        "huggingface_downloads": 1693,
         "last_modified": "2024-08-12",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3-medium_amdgpu",
@@ -219119,9 +219276,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3115,
+        "huggingface_downloads": 3114,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-11-16"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-blur",
@@ -219151,9 +219308,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 112,
+        "huggingface_downloads": 109,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-canny",
@@ -219183,9 +219340,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1586,
+        "huggingface_downloads": 1583,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-depth",
@@ -219215,9 +219372,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 2095,
+        "huggingface_downloads": 2026,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3.5-large-tensorrt",
@@ -219279,9 +219436,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3105,
+        "huggingface_downloads": 3054,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3.5-large",
@@ -219311,9 +219468,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 35260,
+        "huggingface_downloads": 33477,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-3.5-medium-tensorrt",
@@ -219375,9 +219532,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 74337,
+        "huggingface_downloads": 72085,
         "last_modified": "2024-10-31",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-x4-upscaler",
@@ -219392,9 +219549,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 5940,
+        "huggingface_downloads": 5801,
         "last_modified": "2023-07-05",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-xl-1.0-tensorrt",
@@ -219424,9 +219581,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 168,
+        "huggingface_downloads": 158,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-xl-base-0.9",
@@ -219488,9 +219645,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4783288,
+        "huggingface_downloads": 4751203,
         "last_modified": "2023-10-30",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-diffusion-xl-refiner-0.9",
@@ -219554,9 +219711,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 110669,
+        "huggingface_downloads": 109494,
         "last_modified": "2023-09-25",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-fast-3d",
@@ -219575,9 +219732,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 52477,
+        "huggingface_downloads": 61649,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-point-aware-3d",
@@ -219596,9 +219753,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 4312,
+        "huggingface_downloads": 4249,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
@@ -219629,9 +219786,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 36,
+        "huggingface_downloads": 33,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1",
@@ -219662,9 +219819,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 2959,
+        "huggingface_downloads": 2918,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt",
@@ -219695,9 +219852,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 289561,
+        "huggingface_downloads": 301045,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-video-diffusion-img2vid",
@@ -219728,9 +219885,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 60775,
+        "huggingface_downloads": 62101,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-virtual-camera",
@@ -219761,9 +219918,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 28002,
+        "huggingface_downloads": 24966,
         "last_modified": "2025-06-03",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stable-zero123",
@@ -219809,9 +219966,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 714,
+        "huggingface_downloads": 711,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "StableBeluga-7B",
@@ -219840,9 +219997,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 825,
+        "huggingface_downloads": 821,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "StableBeluga1-Delta",
@@ -219872,9 +220029,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 242,
+        "huggingface_downloads": 240,
         "last_modified": "2023-07-27",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "StableBeluga2",
@@ -219935,9 +220092,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1078,
+        "huggingface_downloads": 1105,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablecode-completion-alpha-3b",
@@ -219968,9 +220125,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 805,
+        "huggingface_downloads": 818,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablecode-instruct-alpha-3b",
@@ -220038,9 +220195,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 989,
+        "huggingface_downloads": 986,
         "last_modified": "2024-04-20",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-2-12b-chat",
@@ -220075,9 +220232,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 582,
+        "huggingface_downloads": 595,
         "last_modified": "2024-05-20",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-2-12b",
@@ -220108,9 +220265,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 896,
+        "huggingface_downloads": 895,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-2-1_6b-chat",
@@ -220141,9 +220298,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1314,
+        "huggingface_downloads": 1359,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-2-1_6b",
@@ -220174,9 +220331,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 8435,
+        "huggingface_downloads": 8468,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-2-zephyr-1_6b",
@@ -220207,9 +220364,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6106,
+        "huggingface_downloads": 5407,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-3b-4e1t",
@@ -220240,9 +220397,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 11946,
+        "huggingface_downloads": 12109,
         "last_modified": "2024-03-07",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-base-alpha-3b-v2",
@@ -220273,9 +220430,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 375,
+        "huggingface_downloads": 373,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-base-alpha-3b",
@@ -220306,9 +220463,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3661,
+        "huggingface_downloads": 3691,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-23"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-base-alpha-7b-v2",
@@ -220339,9 +220496,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 445,
+        "huggingface_downloads": 442,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-base-alpha-7b",
@@ -220372,9 +220529,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 923,
+        "huggingface_downloads": 936,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-11-23"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-tuned-alpha-3b",
@@ -220405,9 +220562,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2593,
+        "huggingface_downloads": 2707,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-tuned-alpha-7b",
@@ -220438,9 +220595,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1203,
+        "huggingface_downloads": 1212,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "stablelm-zephyr-3b",
@@ -220471,9 +220628,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 21431,
+        "huggingface_downloads": 20561,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sv3d",
@@ -220521,9 +220678,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d",
         "open_weight": true,
         "tagline": "Sv4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 12,
+        "huggingface_downloads": 11,
         "last_modified": "2024-08-03",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "sv4d2.0",
@@ -220538,9 +220695,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 5071,
+        "huggingface_downloads": 5221,
         "last_modified": "2025-04-04",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "tiny-random-stablelm-2",
@@ -220568,9 +220725,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 4411,
+        "huggingface_downloads": 4406,
         "last_modified": "2024-03-31",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "TripoSR",
@@ -220589,9 +220746,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 269344,
+        "huggingface_downloads": 276161,
         "last_modified": "2024-08-09",
-        "last_updated": "2026-11-26"
+        "last_updated": "2026-11-27"
       }
     ]
   },
@@ -227807,7 +227964,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.04,
+          "input": 0.06,
           "output": 0.14
         },
         "modalities": {
@@ -227821,7 +227978,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-11-01"
+        "last_updated": "2026-11-27"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -238223,6 +238380,21 @@ export const providers: ProviderWithModels[] = [
             "image"
           ]
         }
+      },
+      {
+        "id": "recraft/recraft-v4.1-flash-v2",
+        "name": "recraft-v4.1-flash-v2",
+        "created_by": "recraft",
+        "source": "official",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "last_updated": "2026-11-27"
       },
       {
         "id": "recraft/recraft-v4.1-flash",

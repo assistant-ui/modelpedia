@@ -5,7 +5,7 @@
   "source": "official",
   "model_type": "embed",
   "license": "proprietary",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tongyi-embedding-vision-plus",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -19,10 +19,10 @@
     "name": "7e61ecda",
     "model_type": "764cb3de",
     "license": "9186c466",
-    "page_url": "6a9b1b59",
+    "page_url": "0cdb4eff",
     "capabilities": "8a3b232e",
     "modalities": "68e53d93",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-27"
 }

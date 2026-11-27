@@ -1,0 +1,18 @@
+{
+  "id": "grok-voice-transcribe-2.0",
+  "name": "grok-voice-transcribe-2.0",
+  "created_by": "xai",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "af5b16c2",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-27"
+}

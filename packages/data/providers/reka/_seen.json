@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-27",
   "count": 7,
   "ids": [
+    "deepseek4-flash",
     "deepseek41-flash",
-    "deepseek41-flash-20261017",
     "glm5.3-flash",
     "qwen3.6-27b",
     "qwen3.8-27b",

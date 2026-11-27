@@ -3,7 +3,7 @@
   "name": "qwen-mt-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-11-27",
   "family": "qwen",
   "context_window": 16000,
   "max_output_tokens": 8192,
@@ -40,7 +40,7 @@
     "provider": "a3af76f3",
     "description": "6ddf0f91",
     "tagline": "4fbbeb44",
-    "page_url": "6ecc6f25",
+    "page_url": "960217e6",
     "open_weight": "b326b506",
     "reasoning_tokens": "b326b506",
     "tools": "f0c1dc7e"
@@ -49,7 +49,7 @@
   "provider": "qwen",
   "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-mt-plus",
   "open_weight": true,
   "reasoning_tokens": true,
   "tools": ["function_calling"]

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "count": 127,
+  "date": "2026-11-27",
+  "count": 126,
   "ids": [
     "aeon-7-gemma-4-12b-it-aeon-abliterated-k4-bf16",
     "aeon-7-qwen3.6-27b-aeon-ultimate-uncensored-bf16",
@@ -22,7 +22,6 @@
     "kisti-koni-koni-llama3.1-8b-instruct",
     "kisti-koni-koni-llama3.1-8b-instruct-20241024",
     "lenalibon-meta-llama-3-8b-instruct-heretic-mlabonne",
-    "m8than-mistral-nemo-instruct-2407-lenient-chatfix",
     "meta-llama-llama-2-13b-chat-hf",
     "meta-llama-llama-3.1-70b-instruct",
     "meta-llama-llama-3.1-8b-instruct",

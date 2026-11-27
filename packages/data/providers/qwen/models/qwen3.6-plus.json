@@ -9,7 +9,7 @@
   "model_type": "chat",
   "license": "apache-2.0",
   "tagline": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-plus",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -33,7 +33,7 @@
     "model_type": "d669f408",
     "license": "60245731",
     "tagline": "ef8d5722",
-    "page_url": "6ecc6f25",
+    "page_url": "e2abd63d",
     "open_weight": "b326b506",
     "capabilities": "04088920",
     "modalities": "68e53d93",
@@ -42,7 +42,7 @@
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-11-27",
   "max_output_tokens": 64000,
   "tools": ["function_calling"],
   "reasoning_tokens": true

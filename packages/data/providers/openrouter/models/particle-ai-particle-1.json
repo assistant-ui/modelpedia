@@ -6,7 +6,7 @@
   "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
   "release_date": "2026-10-28",
   "context_window": 1048576,
-  "max_output_tokens": 131072,
+  "max_output_tokens": 943718,
   "tagline": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash.",
   "capabilities": {
     "tool_call": true,
@@ -29,12 +29,12 @@
     "description": "83b31197",
     "release_date": "cbc52969",
     "context_window": "7d28a051",
-    "max_output_tokens": "f7de594e",
+    "max_output_tokens": "7843f47e",
     "tagline": "83b31197",
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
     "pricing": "bafc9919",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-22"
+  "last_updated": "2026-11-27"
 }
