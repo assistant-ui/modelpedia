@@ -6,7 +6,7 @@
   "family": "wan2.2",
   "model_type": "image",
   "license": "proprietary",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-t2i-plus",
   "capabilities": {
     "streaming": true
   },
@@ -20,10 +20,10 @@
     "family": "222d75c9",
     "model_type": "db8857fe",
     "license": "9186c466",
-    "page_url": "ec35b380",
+    "page_url": "4d61607f",
     "capabilities": "0fa77dc6",
     "modalities": "814867b9",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-27"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "count": 479,
+  "date": "2026-11-27",
+  "count": 480,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-30b",
@@ -394,6 +394,7 @@
     "recraft-recraft-v4-pro",
     "recraft-recraft-v4.1",
     "recraft-recraft-v4.1-flash",
+    "recraft-recraft-v4.1-flash-v2",
     "recraft-recraft-v4.1-pro",
     "recraft-recraft-v4.1-utility",
     "recraft-recraft-v4.1-utility-pro",

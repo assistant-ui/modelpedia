@@ -1,0 +1,50 @@
+{
+  "id": "inclusionAI/LingSante-3.1-air-VL",
+  "name": "LingSante-3.1-air-VL",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "A medical vision-language model from Ant Group: send text and up to 16 images (scans, skin and meal photos, lab reports) and get careful, structured answers. Use it to draft imaging reports, assess health questions from photos, answer clinical questions and run medical agents with tool calling and JSON output. 124B MoE with 5.5B active parameters, 131K context, thinking on by default. A research model, not a medical device: have qualified professionals review its output.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "A medical vision-language model from Ant Group: send text and up to 16 images (scans, skin and meal photos, lab reports) and get careful, structured answers.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.18,
+    "cached_input": 0.012
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "2b2758de",
+    "description": "8401907d",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "07b27ff7",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "70d151c2",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-11-27"
+}

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek V4.1 Flash 1017 is an open-weight reasoning model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, reasoning, logprobs, image input, and streaming.",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 1048576,
   "max_output_tokens": 393216,
   "model_type": "reasoning",
@@ -34,7 +34,7 @@
     "name": "251e759a",
     "family": "4b81b92d",
     "description": "d8933eb6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "7d28a051",
     "max_output_tokens": "628f482c",
     "model_type": "17475f7f",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-27"
 }

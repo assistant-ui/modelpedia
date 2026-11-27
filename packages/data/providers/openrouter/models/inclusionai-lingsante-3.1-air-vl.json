@@ -1,0 +1,40 @@
+{
+  "id": "inclusionai/lingsante-3.1-air-vl",
+  "name": "inclusionAI: LingSante 3.1 Air VL",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "LingSante 3.1 Air VL is inclusionAI's medical vision-language model, a 124B total / 5.5B active MoE.",
+  "release_date": "2026-11-26",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "tagline": "LingSante 3.1 Air VL is inclusionAI's medical vision-language model, a 124B total / 5.5B active MoE.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.18,
+    "cached_input": 0.012
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8ae237bc",
+    "description": "3160a350",
+    "release_date": "1a486f52",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "tagline": "3160a350",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "70d151c2",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-11-27"
+}

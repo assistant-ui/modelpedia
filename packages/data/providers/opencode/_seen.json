@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "count": 125,
+  "date": "2026-11-27",
+  "count": 127,
   "ids": [
     "beam-free",
     "bge-m3",
@@ -73,6 +73,7 @@
     "gpt-image-2.5-sunburst",
     "gpt-live-1",
     "gpt-live-1.1",
+    "gpt-transcribe",
     "grok-4.5",
     "grok-4.6",
     "grok-4.7",
@@ -80,6 +81,7 @@
     "grok-imagine-image-2.0",
     "grok-imagine-video-1.5",
     "grok-imagine-video-1.5-lite",
+    "grok-voice-transcribe-2.0",
     "hungerg-free",
     "hy3",
     "hy4",

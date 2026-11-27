@@ -3,7 +3,7 @@
   "name": "Kling V4 Flash",
   "created_by": "kwaivgi",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/kwaivgi/kling-v4-flash",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "e20f8752",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "f8f6856c",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-11-10"
+  "last_updated": "2026-11-27"
 }

@@ -3,7 +3,7 @@
   "name": "qwen3.5-397b-a17b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-11-27",
   "family": "qwen3.5",
   "context_window": 256000,
   "max_output_tokens": 64000,
@@ -37,7 +37,7 @@
     "provider": "a3af76f3",
     "description": "e600cd52",
     "tagline": "d726fd41",
-    "page_url": "6ecc6f25",
+    "page_url": "b392d832",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506"
@@ -48,7 +48,7 @@
   "provider": "qwen",
   "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
   "tagline": "Supports text, image, and video inputs.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-397b-a17b",
   "open_weight": true,
   "tools": ["function_calling"],
   "reasoning_tokens": true

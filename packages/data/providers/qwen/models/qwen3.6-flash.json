@@ -9,7 +9,7 @@
   "model_type": "chat",
   "license": "apache-2.0",
   "tagline": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -33,7 +33,7 @@
     "model_type": "d669f408",
     "license": "60245731",
     "tagline": "9807583e",
-    "page_url": "6ecc6f25",
+    "page_url": "7709915b",
     "open_weight": "b326b506",
     "capabilities": "04088920",
     "modalities": "68e53d93",
@@ -41,7 +41,7 @@
     "reasoning_tokens": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-11-27",
   "reasoning_tokens": true,
   "tools": ["function_calling"]
 }

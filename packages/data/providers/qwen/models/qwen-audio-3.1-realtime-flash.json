@@ -6,7 +6,7 @@
   "family": "qwen",
   "model_type": "audio",
   "license": "apache-2.0",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -19,10 +19,10 @@
     "family": "a3af76f3",
     "model_type": "9f84c007",
     "license": "60245731",
-    "page_url": "633e05f4",
+    "page_url": "4914a395",
     "open_weight": "b326b506",
     "capabilities": "5780d00a",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-11-27"
 }

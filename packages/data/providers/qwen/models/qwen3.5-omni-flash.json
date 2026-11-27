@@ -9,7 +9,7 @@
   "model_type": "chat",
   "license": "apache-2.0",
   "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/omni",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -31,13 +31,13 @@
     "model_type": "d669f408",
     "license": "60245731",
     "tagline": "8abae13d",
-    "page_url": "633e05f4",
+    "page_url": "4914a395",
     "open_weight": "b326b506",
     "capabilities": "4cad460a",
     "modalities": "6399757e",
     "endpoints": "75df3f1c",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-11-27",
   "tools": ["function_calling"]
 }

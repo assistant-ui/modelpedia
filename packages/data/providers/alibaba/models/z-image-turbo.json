@@ -6,7 +6,7 @@
   "max_output_tokens": 1,
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/z-image-turbo",
   "capabilities": {
     "streaming": true
   },
@@ -20,10 +20,10 @@
     "max_output_tokens": "c4ca4238",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "ec35b380",
+    "page_url": "98c7f43d",
     "capabilities": "0fa77dc6",
     "modalities": "6399757e",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-11-27"
 }

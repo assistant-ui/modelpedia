@@ -1,0 +1,18 @@
+{
+  "id": "gpt-transcribe",
+  "name": "gpt-transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "256a852e",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-11-27"
+}

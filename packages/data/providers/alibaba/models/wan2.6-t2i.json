@@ -3,7 +3,7 @@
   "name": "wan2.6-t2i",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-11-27",
   "model_type": "image",
   "capabilities": {
     "streaming": true,
@@ -24,13 +24,13 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "description": "0e38fbbe",
-    "page_url": "ec35b380",
+    "page_url": "048c15a9",
     "tagline": "cd319632"
   },
   "family": "wan2.6",
   "license": "proprietary",
   "open_weight": false,
   "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-6-t2i",
   "tagline": "Wan text-to-image models generate high-quality images from simple text prompts."
 }

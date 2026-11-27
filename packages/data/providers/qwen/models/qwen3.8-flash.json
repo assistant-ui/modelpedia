@@ -8,7 +8,7 @@
   "model_type": "chat",
   "reasoning_tokens": true,
   "license": "apache-2.0",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-flash",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -30,11 +30,11 @@
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "license": "60245731",
-    "page_url": "6ecc6f25",
+    "page_url": "97ef55ed",
     "open_weight": "b326b506",
     "capabilities": "75dc3970",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-11-27"
 }
