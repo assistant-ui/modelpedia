@@ -6,8 +6,8 @@
   "family": "qwen3.8",
   "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total.",
   "release_date": "2026-08-12",
-  "context_window": 1048576,
-  "max_output_tokens": 65536,
+  "context_window": 1000000,
+  "max_output_tokens": 900000,
   "model_type": "chat",
   "tagline": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion tot",
   "capabilities": {
@@ -31,8 +31,8 @@
     "family": "e102ad6a",
     "description": "817e5e7a",
     "release_date": "968fe5cf",
-    "context_window": "7d28a051",
-    "max_output_tokens": "297ce0b3",
+    "context_window": "8155bc54",
+    "max_output_tokens": "c3c4f8c9",
     "model_type": "d669f408",
     "tagline": "2fb8b8f7",
     "capabilities": "03fbefb4",
@@ -40,5 +40,5 @@
     "pricing": "24e736a5",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-11-22"
+  "last_updated": "2026-11-28"
 }

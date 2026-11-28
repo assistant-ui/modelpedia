@@ -1,0 +1,28 @@
+{
+  "id": "hunyuan-3d/v3.6/image-to-3d",
+  "name": "Hunyuan 3D v3.6 Image to 3D",
+  "created_by": "hunyuan-3d",
+  "source": "official",
+  "description": "Hunyuan 3D v3.6 generates 3D models from reference images, supporting geometry-only output or textured meshes with optional PBR materials.",
+  "status": "active",
+  "release_date": "2026-11-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/hunyuan-3d/v3.6/image-to-3d",
+  "tagline": "Hunyuan 3D v3.6 generates 3D models from reference images, supporting geometry-only output or textured meshes with optional PBR materials.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-11-27",
+  "_generated": {
+    "name": "9361f5e5",
+    "description": "249272f5",
+    "status": "379ac110",
+    "release_date": "45c0b2bd",
+    "model_type": "ddb0b7bc",
+    "page_url": "ca667c8c",
+    "tagline": "249272f5",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "b518349f"
+  },
+  "last_updated": "2026-11-28"
+}
