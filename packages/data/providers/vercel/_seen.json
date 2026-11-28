@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "count": 480,
+  "date": "2026-11-28",
+  "count": 483,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-30b",
@@ -63,6 +63,9 @@
     "anthropic-claude-sonnet-4.6",
     "anthropic-claude-sonnet-5",
     "anthropic-claude-sonnet-5.5",
+    "assemblyai-stt-3.7",
+    "assemblyai-tts-1",
+    "assemblyai-universal-2",
     "baseten-bison-1",
     "baseten-elephant-1",
     "baseten-groundhog-1",
